@@ -1,0 +1,10 @@
+prefix=@prefix@
+exec_prefix=${prefix}
+libdir=@libdir@
+dir=@libdir@/apertium/apertium-scn
+srcdir=@datarootdir@/apertium/apertium-scn
+
+Name: apertium-scn
+Description: Finite-state morphological transducer and constraint grammar for Sicilian 
+Version: @VERSION@
+

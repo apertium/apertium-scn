@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+
+  <!-- Define the alphabet below. -->
+  <alphabet>ABCDEFGHIKLMNOPQRSTUVZaàábcdeèéfghiìíklmnoòópqrstuùúvz</alphabet>
+
+  <sdefs>
+    <!-- Define symbol definitions within <sdef> here. -->
+    <sdef n="n"     c="Noun"/>
+    <sdef n="sg"    c="Singular"/>
+    <sdef n="pl"    c="Plural"/>
+    <sdef n="m"    c="Masculinum"/>
+    <sdef n="f"    c="Femininum"/>
+    <sdef n="adv" c="Adverb"/>
+  </sdefs>
+
+  <pardefs>
+    <!-- Define paradigms within <pardef> here. -->
+    <pardef n="nànn/u__n">
+      	<e><p><l>a</l><r>u<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+      	<e><p><l>i</l><r>u<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+      	<e><p><l>u</l><r>u<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+      	<e><p><l>i</l><r>u<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="telèfon/u__n">
+      	<e><p><l>u</l><r>u<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+      	<e><p><l>i</l><r>u<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+    </pardef>
+    
+    <pardef n="ùoggi__adv">
+      	<e><p><l>u</l><r><s n="adv"/></r></p></e>
+    </pardef>
+  </pardefs>
+
+  <section id="main" type="standard">
+    <!-- Define entries within <e> here. -->
+    <e lm="nànnu"><i>nànn</i><par n="nànn/u__n"/></e>
+    <e lm="telèfonu"><i>telèfon</i><par n="telèfon/u__n"/></e>
+    <e lm="ùoggi"><i>ùoggi</i><par n="ùoggi__adv"/></e>
+  </section>
+
+</dictionary>
+
+<!-- 
+Resources: 
+    http://wiki.apertium.org/wiki/Monodix_basics
+    http://wiki.apertium.org/wiki/Apertium_New_Language_Pair_HOWTO#Monolingual_dictionaries
+-->
+
