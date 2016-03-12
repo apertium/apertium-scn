@@ -1,21 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dictionary>
-
-  <!-- Define the alphabet below. -->
   <alphabet>ABCDEFGHIKLMNOPQRSTUVZaàábcdeèéfghiìíklmnoòópqrstuùúvz</alphabet>
 
   <sdefs>
     <!-- Define symbol definitions within <sdef> here. -->
-    <sdef n="n"     c="Noun"/>
-    <sdef n="sg"    c="Singular"/>
-    <sdef n="pl"    c="Plural"/>
-    <sdef n="m"    c="Masculinum"/>
-    <sdef n="f"    c="Femininum"/>
-    <sdef n="adv" c="Adverb"/>
+    <sdef n="n"      c="Noun"/>
+    <sdef n="sg"     c="Singular"/>
+    <sdef n="pl"     c="Plural"/>
+    <sdef n="m"      c="Masculinum"/>
+    <sdef n="f"      c="Femininum"/>
+    <sdef n="adv"    c="Adverb"/>
+    <sdef n="num"    c="Numeral"/>
+    <sdef n="tn"     c=""/>
+    <sdef n="prn"    c=""/>
+    <sdef n="pr"     c=""/>
+    <sdef n="det"    c=""/>
+
+    <sdef n="ind"    c=""/>
+    <sdef n="def"    c=""/>
+
+    <sdef n="p1"     c=""/>
+    <sdef n="p2"     c=""/>
+    <sdef n="p3"     c=""/>
+
+    <sdef n="mf"     c=""/>
+
+    <sdef n="cm"     c="Coma"/>
+    <sdef n="lpar"   c=""/>
+    <sdef n="rpar"   c=""/>
+    <sdef n="sent"   c=""/>
   </sdefs>
 
   <pardefs>
-    <!-- Define paradigms within <pardef> here. -->
+    <pardef n="numeros">
+        <e><re>[0-9]+([.,][0-9]+)?</re><p><l></l><r><s n="num"/></r></p></e>
+    </pardef>
+
+    <pardef n="separa">
+        <e><re>[.\?;:!]</re><p><l></l><r><s n="sent"/></r></p></e>
+    </pardef>
+
+    <pardef n="coma">
+        <e><re>,</re><p><l></l><r><s n="cm"/></r></p></e>
+    </pardef>
+
+    <pardef n="paresq">
+        <e><re>[\(\[]</re><p><l></l><r><s n="lpar"/></r></p></e>
+    </pardef>
+
+    <pardef n="pardret">
+        <e><re>[\)\]]</re><p><l></l><r><s n="rpar"/></r></p></e>
+    </pardef>
+
+    <pardef n="io__prn">
+        <e><p><l></l><r><s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+    </pardef>
+
+    <pardef n="tu__prn">
+        <e><p><l></l><r><s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+    </pardef>
+
+    <pardef n="chist/u__prn">
+      <e><p><l>i</l><r><s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/></r></p></e>
+      <e><p><l>a</l><r><s n="prn"/><s n="tn"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>i</l><r><s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>u</l><r><s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r></p></e>
+    </pardef>
+
     <pardef n="nànn/u__n">
       	<e><p><l>a</l><r>u<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
       	<e><p><l>i</l><r>u<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
@@ -28,18 +79,83 @@
       	<e><p><l>i</l><r>u<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
     
+    <pardef n="conta__pr">
+      	<e r="LR"><p><l>a</l><r>a<s n="pr"/></r></p></e>
+      	<e r="RL"><p><l><a/>a</l><r>a<s n="pr"/></r></p></e>
+      	<e r="LR"><p><l>ô</l><r>a<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
+      	<e r="LR"><p><l>â</l><r>a<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="f"/><s n="sg"/></r></p></e>
+      	<e r="LR"><p><l>ê</l><r>a<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="mf"/><s n="pl"/></r></p></e>
+      	<e r="LR"><p><l>ôn</l><r>a<s n="pr"/><j/>lu<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
+    </pardef>
+
+    <pardef n="contdi__pr">
+      	<e r="LR"><p><l>di</l><r>di<s n="pr"/></r></p></e>
+      	<e r="RL"><p><l><a/>di</l><r>di<s n="pr"/></r></p></e>
+      	<e r="LR"><p><l>dô</l><r>di<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
+      	<e r="LR"><p><l>dû</l><r>di<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
+      	<e r="LR"><p><l>dâ</l><r>di<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="f"/><s n="sg"/></r></p></e>
+      	<e r="LR"><p><l>dî</l><r>di<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="mf"/><s n="pl"/></r></p></e>
+      	<e r="LR"><p><l>dê</l><r>di<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="mf"/><s n="pl"/></r></p></e>
+      	<e r="LR"><p><l>d'un</l><r>di<s n="pr"/><j/>lu<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
+    </pardef>
+
+    <pardef n="tra__pr">
+      	<e><p><l></l><r><s n="pr"/></r></p></e>
+    </pardef>
+
     <pardef n="ùoggi__adv">
-      	<e><p><l>u</l><r><s n="adv"/></r></p></e>
+      	<e><p><l></l><r><s n="adv"/></r></p></e>
     </pardef>
   </pardefs>
 
   <section id="main" type="standard">
-    <!-- Define entries within <e> here. -->
+
+    <!-- SECTION: Conjunctions -->
+
+    <!-- SECTION: Prepositions -->
+
+    <e lm="a"><i></i><par n="conta__pr"/></e>
+    <e lm="di"><i></i><par n="contdi__pr"/></e>
+    <e lm="tra"><i>tra</i><par n="tra__pr"/></e>
+
+    <!-- SECTION: Pronouns -->
+
+    <e lm="io"><i>io</i><par n="io__prn"/></e>
+    <e lm="io" r="LR"><p><l>jù</l><r>io</r></p><par n="io__prn"/></e>
+    <e lm="tu"><i>tu</i><par n="tu__prn"/></e>
+
+    <e lm="chistu"><i>chist</i><par n="chist/u__prn"/></e>
+
+    <!-- SECTION: Determiners -->
+
+    <!-- SECTION: Numerals -->
+
+    <!-- SECTION: Nouns -->
+
     <e lm="nànnu"><i>nànn</i><par n="nànn/u__n"/></e>
     <e lm="telèfonu"><i>telèfon</i><par n="telèfon/u__n"/></e>
-    <e lm="ùoggi"><i>ùoggi</i><par n="ùoggi__adv"/></e>
     <e lm="jardìnu"><i>jardìn</i><par n="telèfon/u__n"/></e>
+    <e lm="vinu"><i>vin</i><par n="telèfon/u__n"/></e>
+
+    <!-- SECTION: Adjectives -->
+
+    <!-- SECTION: Adverbs -->
+
+    <e lm="ùoggi"><i>ùoggi</i><par n="ùoggi__adv"/></e>
+
+    <!-- SECTION: Verbs -->
+
+    <!-- SECTION: Interjections -->
+
   </section>
+
+  <section id="final" type="inconditional">
+    <e><par n="separa"/></e>
+    <e><par n="coma"/></e>
+    <e><par n="paresq"/></e>
+    <e><par n="pardret"/></e>
+  </section>
+
 
 </dictionary>
 
