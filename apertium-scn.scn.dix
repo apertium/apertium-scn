@@ -150,13 +150,36 @@
       	<e><p><l>a</l><r>u<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
       	<e><p><l>i</l><r>u<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
-
-    <pardef n="figgh/iu_n">
-      	<e><p><l>iu</l><r>iu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      	<e><p><l>i</l><r>iu<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+    
+    <pardef n="matri__n">
+      	<e><p><l></l><r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+      	<e><p><l></l><r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
     
-    <pardef n="figgh/ia_n">
+    <pardef n="patri__n">
+      	<e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+      	<e><p><l></l><r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+    </pardef>
+    
+    <pardef n="parc/u__n">
+      	<e><p><l>u</l><r>u<s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
+      	<e><p><l>hi</l><r>u<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+    </pardef>
+    
+    <pardef n="monac/a__n">
+      	<e><p><l>a</l><r>a<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+      	<e><p><l>hi</l><r>a<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
+
+
+    <pardef n="figgh/iu__n">
+      	<e><p><l>iu</l><r>iu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+      	<e><p><l>ia</l><r>iu<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+      	<e><p><l>i</l><r>iu<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+      	<e><p><l>i</l><r>iu<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
+    
+    <pardef n="oricch/ia__n">
       	<e><p><l>ia</l><r>ia<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
       	<e><p><l>i</l><r>ia<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
@@ -285,15 +308,32 @@
     <e lm="libbru"><i>libbr</i><par n="ann/u__n"/></e>
     <e lm="lettu"><i>lett</i><par n="ann/u__n"/></e>
     <e lm="capu"><i>cap</i><par n="ann/u__n"/></e>
+    <e lm="monacu"><i>monac</i><par n="ann/u__n"/></e>
+    <e lm="medic"><i>medic</i><par n="ann/u__n"/></e>
+    <e lm="fisici"><i>fisic</i><par n="ann/u__n"/></e>
+    <e lm="studiu"><i>studi</i><par n="ann/u__n"/></e>
+    <e lm="disiu"><i>disi</i><par n="ann/u__n"/></e>
     
     <e lm="casa"><i>cas</i><par n="cas/a__n"/></e>
     <e lm="porta"><i>port</i><par n="cas/a__n"/></e>
     <e lm="pinna"><i>pinn</i><par n="cas/a__n"/></e>
     <e lm="luna"><i>lun</i><par n="cas/a__n"/></e>
     <e lm="gaddina"><i>gaddin</i><par n="cas/a__n"/></e>
-    <e lm="figghiu"><i>figgh</i><par n="figgh/iu_n"/></e>
-    <e lm="figghia"><i>figgh</i><par n="figgh/ia_n"/></e>
-    <e lm="oricchia"><i>oricch</i><par n="figgh/ia_n"/></e>
+    <e lm="grazzia"><i>grazzi</i><par n="cas/a__n"/></e>
+    <e lm="farmacia"><i>farmaci</i><par n="cas/a__n"/></e>
+    
+    <e lm="figghiu"><i>figgh</i><par n="figgh/iu__n"/></e>
+    <e lm="oricchia"><i>oricch</i><par n="oricch/ia__n"/></e>
+    <e lm="matri"><i>matri</i><par n="matri__n"/></e>
+    <e lm="patri"><i>patri</i><par n="patri__n"/></e>
+    <e lm="azioni"><i>azioni</i><par n="matri__n"/></e>
+    <e lm="facci"><i>facci</i><par n="matri__n"/></e>
+    <e lm="pedi"><i>pedi</i><par n="patri__n"/></e>
+    <e lm="voi"><i>voi</i><par n="patri__n"/></e>
+    <e lm="parcu"><i>parc</i><par n="parc/u__n"/></e>
+    <e lm="sceccu"><i>scecc</i><par n="parc/u__n"/></e>
+    <e lm="beccu"><i>becc</i><par n="parc/u__n"/></e>
+    <e lm="monaca"><i>monac</i><par n="monac/a__n"/></e>
 
     <!-- SECTION: Adjectives -->
 
