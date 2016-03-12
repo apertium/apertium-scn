@@ -4,31 +4,72 @@
 
   <sdefs>
     <!-- Define symbol definitions within <sdef> here. -->
-    <sdef n="n"      c="Noun"/>
-    <sdef n="sg"     c="Singular"/>
-    <sdef n="pl"     c="Plural"/>
-    <sdef n="m"      c="Masculinum"/>
-    <sdef n="f"      c="Femininum"/>
-    <sdef n="adv"    c="Adverb"/>
-    <sdef n="num"    c="Numeral"/>
-    <sdef n="tn"     c=""/>
-    <sdef n="prn"    c=""/>
-    <sdef n="pr"     c=""/>
-    <sdef n="det"    c=""/>
-
-    <sdef n="ind"    c=""/>
-    <sdef n="def"    c=""/>
-
-    <sdef n="p1"     c=""/>
-    <sdef n="p2"     c=""/>
-    <sdef n="p3"     c=""/>
-
-    <sdef n="mf"     c=""/>
-
-    <sdef n="cm"     c="Coma"/>
-    <sdef n="lpar"   c=""/>
-    <sdef n="rpar"   c=""/>
-    <sdef n="sent"   c=""/>
+    <sdef n="acr" /> 
+    <sdef n="v2" /> 
+    <sdef n="predet" /> 
+    <sdef n="detnt" /> 
+    <sdef n="loc" /> 
+    <sdef n="ant" /> 
+    <sdef n="al" /> 
+    <sdef n="enc" /> 
+    <sdef n="pro" /> 
+    <sdef n="tn" /> 
+    <sdef n="n" /> 
+    <sdef n="np" /> 
+    <sdef n="adj" /> 
+    <sdef n="f" /> 
+    <sdef n="m" /> 
+    <sdef n="mf" /> 
+    <sdef n="sg" /> 
+    <sdef n="pl" /> 
+    <sdef n="adv" /> 
+    <sdef n="preadv" /> 
+    <sdef n="pr" /> 
+    <sdef n="prn" /> 
+    <sdef n="rel" /> 
+    <sdef n="nn" /> 
+    <sdef n="an" /> 
+    <sdef n="aa" /> 
+    <sdef n="ind" /> 
+    <sdef n="itg" /> 
+    <sdef n="det" /> 
+    <sdef n="dem" /> 
+    <sdef n="def" /> 
+    <sdef n="cnjcoo" /> 
+    <sdef n="cnjsub" /> 
+    <sdef n="cnjadv" /> 
+    <sdef n="nt" /> 
+    <sdef n="vbser" c="Gerundium"/> 
+    <sdef n="vbhaver" /> 
+    <sdef n="vblex" /> 
+    <sdef n="vbmod" /> 
+    <sdef n="inf" c="Infinitivus"/> 
+    <sdef n="ger" c="Gerundium"/> 
+    <sdef n="pp" c="Participium"/> 
+    <sdef n="pri" c="Praesens Indicativus"/> 
+    <sdef n="p1" c="Perfectum Indicativus"/> 
+    <sdef n="p2" /> 
+    <sdef n="p3" /> 
+    <sdef n="pii" c="Imperfectum Indicativus"/> 
+    <sdef n="ifi" c="Perfectum Indicativus"/> 
+    <sdef n="fti" c="Futurum Indicativus"/> 
+    <sdef n="cni" c="Condicional Indicativus"/> 
+    <sdef n="prs" c="Praesens Coniunctivus"/> 
+    <sdef n="pis" c="Imperfectum Coniunctivus"/> 
+    <sdef n="fts" c="Futurum Coniunctivus"/> 
+    <sdef n="imp" c="Imperativus"/> 
+    <sdef n="pos" /> 
+    <sdef n="sp" /> 
+    <sdef n="ref" /> 
+    <sdef n="sup" /> 
+    <sdef n="num" /> 
+    <sdef n="ij" /> 
+    <sdef n="sent" /> 
+    <sdef n="cm" /> 
+    <sdef n="lpar" /> 
+    <sdef n="rpar" /> 
+    <sdef n="lquest" /> 
+    <sdef n="web" /> 
   </sdefs>
 
   <pardefs>
@@ -59,8 +100,34 @@
     <pardef n="tu__prn">
         <e><p><l></l><r><s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
     </pardef>
+    
+    <pardef n="idd/u__prn">
+        <e><p><l>u</l><r>u<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+        <e><p><l>a</l><r>a<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+        <e><p><l>i</l><r>u<s n="prn"/><s n="tn"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+    </pardef>
+    
+    <pardef n="vossia__prn">
+        <e><p><l></l><r><s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+    </pardef>
+    
+    <pardef n="nuautri__prn">
+        <e><p><l></l><r><s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
+    </pardef>
 
+    <pardef n="vuautri__prn">
+        <e><p><l></l><r><s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
+    </pardef>
+    
     <pardef n="chist/u__prn">
+      <e><p><l>i</l><r><s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/></r></p></e>
+      <e><p><l>a</l><r><s n="prn"/><s n="tn"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>i</l><r><s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>u</l><r><s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r></p></e>
+    </pardef>
+
+
+    <pardef n=" /u__prn">
       <e><p><l>i</l><r><s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/></r></p></e>
       <e><p><l>a</l><r><s n="prn"/><s n="tn"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>i</l><r><s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></r></p></e>
@@ -74,9 +141,24 @@
       	<e><p><l>i</l><r>u<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
 
-    <pardef n="telèfon/u__n">
+    <pardef n="ann/u__n">
       	<e><p><l>u</l><r>u<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       	<e><p><l>i</l><r>u<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="cas/a__n">
+      	<e><p><l>a</l><r>u<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+      	<e><p><l>i</l><r>u<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="figgh/iu_n">
+      	<e><p><l>iu</l><r>iu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+      	<e><p><l>i</l><r>iu<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+    </pardef>
+    
+    <pardef n="figgh/ia_n">
+      	<e><p><l>ia</l><r>ia<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+      	<e><p><l>i</l><r>ia<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
     
     <pardef n="conta__pr">
@@ -106,6 +188,62 @@
     <pardef n="ùoggi__adv">
       	<e><p><l></l><r><s n="adv"/></r></p></e>
     </pardef>
+    
+    <pardef n="/essiri__vbser">
+      	<e><p><l>essiri</l><r>essiri<s n="vbser"/><s n="inf"/></r></p></e>
+        
+    	<e><p><l>sugnu</l><r>essiri<s n="vbser"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+    	<e><p><l>sì</l><r>essiri<s n="vbser"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+    	<e><p><l>è</l><r>essiri<s n="vbser"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+    	<e><p><l>semu</l><r>essiri<s n="vbser"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+    	<e><p><l>siti</l><r>essiri<s n="vbser"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>sunnu</l><r>essiri<s n="vbser"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+
+    	<e><p><l>fui</l><r>essiri<s n="vbser"/><s n="ifi"/><s n="p1"/><s n="sg"/></r></p></e>
+    	<e><p><l>fusti</l><r>essiri<s n="vbser"/><s n="ifi"/><s n="p2"/><s n="sg"/></r></p></e>
+    	<e><p><l>fu</l><r>essiri<s n="vbser"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
+    	<e><p><l>fomu</l><r>essiri<s n="vbser"/><s n="ifi"/><s n="p1"/><s n="pl"/></r></p></e>
+    	<e><p><l>fùstivu</l><r>essiri<s n="vbser"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>foru</l><r>essiri<s n="vbser"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
+        
+    	<e><p><l>sì</l><r>essiri<s n="vbser"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+    	<e><p><l>sia</l><r>essiri<s n="vbser"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
+    	<e><p><l>siamu</l><r>essiri<s n="vbser"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+    	<e><p><l>siati</l><r>essiri<s n="vbser"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>sianu</l><r>essiri<s n="vbser"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
+        
+        <e><p><l>fussi</l><r>essiri<s n="vbser"/><s n="pis"/><s n="p1"/><s n="sg"/></r></p></e>
+    	<e><p><l>fussi</l><r>essiri<s n="vbser"/><s n="pis"/><s n="p2"/><s n="sg"/></r></p></e>
+    	<e><p><l>fussi</l><r>essiri<s n="vbser"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
+    	<e><p><l>fùssimu</l><r>essiri<s n="vbser"/><s n="pis"/><s n="p1"/><s n="pl"/></r></p></e>
+    	<e><p><l>fùssivu</l><r>essiri<s n="vbser"/><s n="pis"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>fùssinu</l><r>essiri<s n="vbser"/><s n="pis"/><s n="p3"/><s n="pl"/></r></p></e>
+        
+    	<e><p><l>sarrìa</l><r>essiri<s n="vbser"/><s n="cni"/><s n="p1"/><s n="sg"/></r></p></e>
+    	<e><p><l>sarrissi</l><r>essiri<s n="vbser"/><s n="cni"/><s n="p2"/><s n="sg"/></r></p></e>
+    	<e><p><l>sarrìa</l><r>essiri<s n="vbser"/><s n="cni"/><s n="p3"/><s n="sg"/></r></p></e>
+    	<e><p><l>sarrìamu</l><r>essiri<s n="vbser"/><s n="cni"/><s n="p1"/><s n="pl"/></r></p></e>
+    	<e><p><l>sarriavu</l><r>essiri<s n="vbser"/><s n="cni"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>sarrìanu</l><r>essiri<s n="vbser"/><s n="cni"/><s n="p3"/><s n="pl"/></r></p></e>
+
+    	<e><p><l>era</l><r>essiri<s n="vbser"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
+    	<e><p><l>eri</l><r>essiri<s n="vbser"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
+    	<e><p><l>era</l><r>essiri<s n="vbser"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
+    	<e><p><l>èramu</l><r>essiri<s n="vbser"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p></e>
+    	<e><p><l>èravu</l><r>essiri<s n="vbser"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>èranu</l><r>essiri<s n="vbser"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
+        
+        <e><p><l>sia</l><r>essiri<s n="vbser"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
+    	<e><p><l>sì</l><r>essiri<s n="vbser"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
+    	<e><p><l>sia</l><r>essiri<s n="vbser"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
+    	<e><p><l>siamu</l><r>essiri<s n="vbser"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
+    	<e><p><l>siati</l><r>essiri<s n="vbser"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>sianu</l><r>essiri<s n="vbser"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
+        
+        <e><p><l>statu</l><r>essiri<s n="vbser"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
+        <e><p><l>essennu</l><r>essiri<s n="vbser"/><s n="ger"/></r></p></e>
+
+    </pardef>
   </pardefs>
 
   <section id="main" type="standard">
@@ -123,8 +261,13 @@
     <e lm="io"><i>io</i><par n="io__prn"/></e>
     <e lm="io" r="LR"><p><l>jù</l><r>io</r></p><par n="io__prn"/></e>
     <e lm="tu"><i>tu</i><par n="tu__prn"/></e>
+    <e lm="iddu"><i>idd</i><par n="idd/u__prn"/></e>
+    <e lm="vossia"><i>vossia</i><par n="vossia__prn"/></e>
+    <e lm="nuautri"><i>nuautri</i><par n="nuautri__prn"/></e>
+    <e lm="vuautri"><i>vuautri</i><par n="vuautri__prn"/></e>
 
     <e lm="chistu"><i>chist</i><par n="chist/u__prn"/></e>
+
 
     <!-- SECTION: Determiners -->
 
@@ -133,9 +276,24 @@
     <!-- SECTION: Nouns -->
 
     <e lm="nànnu"><i>nànn</i><par n="nànn/u__n"/></e>
-    <e lm="telèfonu"><i>telèfon</i><par n="telèfon/u__n"/></e>
-    <e lm="jardìnu"><i>jardìn</i><par n="telèfon/u__n"/></e>
-    <e lm="vinu"><i>vin</i><par n="telèfon/u__n"/></e>
+    
+    <e lm="telèfonu"><i>telèfon</i><par n="ann/u__n"/></e>
+    <e lm="jardìnu"><i>jardìn</i><par n="ann/u__n"/></e>
+    <e lm="vinu"><i>vin</i><par n="ann/u__n"/></e>
+    <e lm="gattu"><i>gatt</i><par n="ann/u__n"/></e>
+    <e lm="gaddu"><i>gadd</i><par n="ann/u__n"/></e>
+    <e lm="libbru"><i>libbr</i><par n="ann/u__n"/></e>
+    <e lm="lettu"><i>lett</i><par n="ann/u__n"/></e>
+    <e lm="capu"><i>cap</i><par n="ann/u__n"/></e>
+    
+    <e lm="casa"><i>cas</i><par n="cas/a__n"/></e>
+    <e lm="porta"><i>port</i><par n="cas/a__n"/></e>
+    <e lm="pinna"><i>pinn</i><par n="cas/a__n"/></e>
+    <e lm="luna"><i>lun</i><par n="cas/a__n"/></e>
+    <e lm="gaddina"><i>gaddin</i><par n="cas/a__n"/></e>
+    <e lm="figghiu"><i>figgh</i><par n="figgh/iu_n"/></e>
+    <e lm="figghia"><i>figgh</i><par n="figgh/ia_n"/></e>
+    <e lm="oricchia"><i>oricch</i><par n="figgh/ia_n"/></e>
 
     <!-- SECTION: Adjectives -->
 
@@ -144,6 +302,7 @@
     <e lm="ùoggi"><i>ùoggi</i><par n="ùoggi__adv"/></e>
 
     <!-- SECTION: Verbs -->
+    <e lm="essiri"><i></i><par n="/essiri__vbser"/></e>
 
     <!-- SECTION: Interjections -->
 
