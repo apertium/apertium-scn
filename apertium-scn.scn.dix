@@ -215,6 +215,7 @@
       	<e r="LR"><p><l>d'un</l><r>di<s n="pr"/><j/>lu<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
     </pardef>
 
+
     <pardef n="tra__pr">
       	<e><p><l></l><r><s n="pr"/></r></p></e>
     </pardef>
@@ -223,6 +224,22 @@
     <pardef n="ùoggi__adv">
       	<e><p><l></l><r><s n="adv"/></r></p></e>
     </pardef>
+    
+    <!-- SECTION: Adjectives -->
+    <pardef n="bedd/u__adj">
+      	<e><p><l>u</l><r><s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+      	<e><p><l>i</l><r><s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
+      	<e><p><l>a</l><r><s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+      	<e><p><l>i</l><r><s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
+    
+    <pardef n="lar/iu__adj">
+      	<e><p><l>iu</l><r><s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+      	<e><p><l>i</l><r><s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
+      	<e><p><l>ia</l><r><s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+      	<e><p><l>i</l><r><s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
+
     
     <!-- SECTION: Verbs -->
     <pardef n="/essiri__vbser">
@@ -356,10 +373,18 @@
     <e lm="monaca"><i>monac</i><par n="monac/a__n"/></e>
 
     <!-- SECTION: Adjectives -->
+    
+    <e lm="beddu"><i>bedd</i><par n="bedd/u__adj"/></e>
+    <e lm="bonu"><i>bon</i><par n="bedd/u__adj"/></e>
+    <e lm="onìestu"><i>onìest</i><par n="ùoggi__adv"/></e>
+    <e lm="lariu"><i>lar</i><par n="lar/iu__adj"/></e>
+    <e lm="malu"><i>mal</i><par n="bedd/u__adj"/></e>
 
     <!-- SECTION: Adverbs -->
 
     <e lm="ùoggi"><i>ùoggi</i><par n="ùoggi__adv"/></e>
+    <e lm="fuori"><i>fuori</i><par n="ùoggi__adv"/></e>
+
 
     <!-- SECTION: Verbs -->
     <e lm="essiri"><i></i><par n="/essiri__vbser"/></e>
