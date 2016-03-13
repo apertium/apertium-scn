@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dictionary>
-  <alphabet>ABCDEFGHIKLMNOPQRSTUVZaàábcdeèéfghiìíklmnoòópqrstuùúvz</alphabet>
+  <alphabet>ABCDEFGHIJKLMNOPQRSTUVZaàábcdeèéfghijìíklmnoòópqrstuùúvz</alphabet>
 
   <sdefs>
     <sdef n="acr" /> 
@@ -291,6 +291,10 @@
     <e lm="a"><i></i><par n="conta__pr"/></e>
     <e lm="di"><i></i><par n="contdi__pr"/></e>
     <e lm="tra"><i>tra</i><par n="tra__pr"/></e>
+    <e lm="senza"><i>senza</i><par n="tra__pr"/></e>
+
+    <e lm="juntu a"><i>juntu<b/></i><par n="conta__pr"/></e>
+    <e lm="dintra di"><i>dintra<b/></i><par n="contdi__pr"/></e>
 
     <!-- SECTION: Pronouns -->
 
