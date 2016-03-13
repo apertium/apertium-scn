@@ -3,7 +3,6 @@
   <alphabet>ABCDEFGHIKLMNOPQRSTUVZaàábcdeèéfghiìíklmnoòópqrstuùúvz</alphabet>
 
   <sdefs>
-    <!-- Define symbol definitions within <sdef> here. -->
     <sdef n="acr" /> 
     <sdef n="v2" /> 
     <sdef n="predet" /> 
@@ -73,6 +72,7 @@
   </sdefs>
 
   <pardefs>
+    <!-- SECTION: Punctuation -->
     <pardef n="numeros">
         <e><re>[0-9]+([.,][0-9]+)?</re><p><l></l><r><s n="num"/></r></p></e>
     </pardef>
@@ -93,6 +93,7 @@
         <e><re>[\)\]]</re><p><l></l><r><s n="rpar"/></r></p></e>
     </pardef>
 
+    <!-- SECTION: Pronouns -->
     <pardef n="io__prn">
         <e><p><l></l><r><s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
     </pardef>
@@ -134,6 +135,15 @@
       <e><p><l>u</l><r><s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r></p></e>
     </pardef>
 
+    <!-- SECTION: Determiners -->
+    <pardef n="/lu__det">
+      <e><p><l>li</l>       <r>lu<s n="det"/><s n="def"/><s n="f"/><s n="pl"/></r></p></e>
+      <e><p><l>la</l>       <r>lu<s n="det"/><s n="def"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>li</l>       <r>lu<s n="det"/><s n="def"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>lu</l>       <r>lu<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
+    </pardef>
+
+    <!-- SECTION: Nouns -->
     <pardef n="nànn/u__n">
       	<e><p><l>a</l><r>u<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
       	<e><p><l>i</l><r>u<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
@@ -184,6 +194,7 @@
       	<e><p><l>i</l><r>ia<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
     
+    <!-- SECTION: Prepositions -->
     <pardef n="conta__pr">
       	<e r="LR"><p><l>a</l><r>a<s n="pr"/></r></p></e>
       	<e r="RL"><p><l><a/>a</l><r>a<s n="pr"/></r></p></e>
@@ -208,10 +219,12 @@
       	<e><p><l></l><r><s n="pr"/></r></p></e>
     </pardef>
 
+    <!-- SECTION: Adverbs -->
     <pardef n="ùoggi__adv">
       	<e><p><l></l><r><s n="adv"/></r></p></e>
     </pardef>
     
+    <!-- SECTION: Verbs -->
     <pardef n="/essiri__vbser">
       	<e><p><l>essiri</l><r>essiri<s n="vbser"/><s n="inf"/></r></p></e>
         
@@ -294,6 +307,9 @@
 
     <!-- SECTION: Determiners -->
 
+    <e lm="lu" r="LR"><i></i><par n="/lu__det"/></e>
+    <e lm="lu" r="RL"><p><l><a/></l><r></r></p><par n="/lu__det"/></e>
+
     <!-- SECTION: Numerals -->
 
     <!-- SECTION: Nouns -->
@@ -346,6 +362,11 @@
 
     <!-- SECTION: Interjections -->
 
+  </section>
+
+  <section id="apostrophes" type="postblank">
+    <!-- FIXME: Comprobar si se puede poner apostrofe sólo en singular o también en plural ?-->
+    <e r="LR" lm="l'"><p><l>l'</l><r>lu<s n="det"/><s n="def"/><s n="mf"/><s n="sg"/></r></p></e>
   </section>
 
   <section id="final" type="inconditional">
