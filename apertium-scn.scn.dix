@@ -304,6 +304,28 @@
 
     </pardef>
 
+    <pardef n="/aviri">
+      	<e><p><l>aviri</l><r><s n="inf"/></r></p></e>
+        
+    	<e><p><l>haiu</l><r><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+    	<e><p><l>hai</l><r><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+    	<e><p><l>havi</l><r><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+    	<e><p><l>avemu</l><r><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+    	<e><p><l>aviti</l><r><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>hannu</l><r><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+
+        <!-- FIXME: añadir otros tempos verbales -->
+
+    </pardef>
+
+    <pardef n="/aviri__vblex">
+        <e><p><l></l><r>aviri<s n="vblex"/></r></p><par n="/aviri"/></e>
+    </pardef>
+
+    <pardef n="/aviri__vbhaver">
+        <e><p><l></l><r>aviri<s n="vbhaver"/></r></p><par n="/aviri"/></e>
+    </pardef>
+
     <pardef n="j/ucari__vblex">
       	<e><p><l>ucari</l><r>ucari<s n="vblex"/><s n="inf"/></r></p></e>
         
@@ -510,6 +532,8 @@
 
     <!-- SECTION: Verbs -->
     <e lm="essiri"><i></i><par n="/essiri__vbser"/></e>
+    <e lm="aviri"><i></i><par n="/aviri__vbhaver"/></e>
+    <e lm="aviri"><i></i><par n="/aviri__vblex"/></e>
     <e lm="jucari"><i>j</i><par n="j/ucari__vblex"/></e>
 <!-- 
     <e lm="jucari" r="LR"><p><l>iucari</l><r>jucari</r></p><par n="j/ucari__vblex"/></e>
@@ -527,6 +551,7 @@
   </section>
 
   <section id="final" type="inconditional">
+    <e><par n="numeros"/></e>
     <e><par n="separa"/></e>
     <e><par n="coma"/></e>
     <e><par n="paresq"/></e>
