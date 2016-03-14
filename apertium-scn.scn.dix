@@ -139,7 +139,15 @@
       <e><p><l>i</l><r><s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>u</l><r><s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r></p></e>
     </pardef>
-
+    
+    <pardef n="me/u__prn">
+      <e><p><l>i</l><r><s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
+      <e><p><l>a</l><r><s n="prn"/><s n="tn"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>i</l><r><s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>u</l><r><s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r></p></e>
+    </pardef>
+    
+    
     <!-- SECTION: Determiners -->
     <pardef n="/lu__det">
       <e><p><l>li</l>       <r>lu<s n="det"/><s n="def"/><s n="f"/><s n="pl"/></r></p></e>
@@ -193,9 +201,6 @@
     <pardef n="Jaime__np">
       	<e><p><l></l><r><s n="np"/><s n="ant"/></r></p></e>
     </pardef>
-
-
-   
 
 
     <pardef n="figgh/iu__n">
@@ -255,8 +260,7 @@
       	<e><p><l>ia</l><r><s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
       	<e><p><l>i</l><r><s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
-
-
+    
     
     <!-- SECTION: Verbs -->
     <pardef n="/essiri__vbser">
@@ -268,6 +272,13 @@
     	<e><p><l>semu</l><r>essiri<s n="vbser"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
     	<e><p><l>siti</l><r>essiri<s n="vbser"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
         <e><p><l>sunnu</l><r>essiri<s n="vbser"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+        
+    	<e><p><l>sugnu</l><r>essiri<s n="vbser"/><s n="fti"/><s n="p1"/><s n="sg"/></r></p></e>
+    	<e><p><l>sì</l><r>essiri<s n="vbser"/><s n="fti"/><s n="p2"/><s n="sg"/></r></p></e>
+    	<e><p><l>è</l><r>essiri<s n="vbser"/><s n="fti"/><s n="p3"/><s n="sg"/></r></p></e>
+    	<e><p><l>semu</l><r>essiri<s n="vbser"/><s n="fti"/><s n="p1"/><s n="pl"/></r></p></e>
+    	<e><p><l>siti</l><r>essiri<s n="vbser"/><s n="fti"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>sunnu</l><r>essiri<s n="vbser"/><s n="fti"/><s n="p3"/><s n="pl"/></r></p></e>
 
     	<e><p><l>fui</l><r>essiri<s n="vbser"/><s n="ifi"/><s n="p1"/><s n="sg"/></r></p></e>
     	<e><p><l>fusti</l><r>essiri<s n="vbser"/><s n="ifi"/><s n="p2"/><s n="sg"/></r></p></e>
@@ -324,8 +335,52 @@
     	<e><p><l>avemu</l><r><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
     	<e><p><l>aviti</l><r><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
         <e><p><l>hannu</l><r><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+        
+    	<e><p><l>haiu</l><r><s n="fti"/><s n="p1"/><s n="sg"/></r></p></e>
+    	<e><p><l>hai</l><r><s n="fti"/><s n="p2"/><s n="sg"/></r></p></e>
+    	<e><p><l>havi</l><r><s n="fti"/><s n="p3"/><s n="sg"/></r></p></e>
+    	<e><p><l>avemu</l><r><s n="fti"/><s n="p1"/><s n="pl"/></r></p></e>
+    	<e><p><l>aviti</l><r><s n="fti"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>hannu</l><r><s n="fti"/><s n="p3"/><s n="pl"/></r></p></e>
+        
+    	<e><p><l>haiu</l><r><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
+    	<e><p><l>hai</l><r><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
+    	<e><p><l>havi</l><r><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
+    	<e><p><l>avemu</l><r><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
+    	<e><p><l>aviti</l><r><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>hannu</l><r><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
+        
+    	<e><p><l>avìa</l><r><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
+    	<e><p><l>avivi</l><r><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
+    	<e><p><l>avìa</l><r><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
+    	<e><p><l>avìamu</l><r><s n="pii"/><s n="p1"/><s n="pl"/></r></p></e>
+    	<e><p><l>avìavu</l><r><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>avìanu</l><r><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
+        
+    	<e><p><l>avìa</l><r><s n="cni"/><s n="p1"/><s n="sg"/></r></p></e>
+    	<e><p><l>avivi</l><r><s n="cni"/><s n="p2"/><s n="sg"/></r></p></e>
+    	<e><p><l>avìa</l><r><s n="cni"/><s n="p3"/><s n="sg"/></r></p></e>
+    	<e><p><l>avìamu</l><r><s n="cni"/><s n="p1"/><s n="pl"/></r></p></e>
+    	<e><p><l>avìavu</l><r><s n="cni"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>avìanu</l><r><s n="cni"/><s n="p3"/><s n="pl"/></r></p></e>
+        
+    	<e><p><l>appi</l><r><s n="ifi"/><s n="p1"/><s n="sg"/></r></p></e>
+    	<e><p><l>avisti</l><r><s n="ifi"/><s n="p2"/><s n="sg"/></r></p></e>
+    	<e><p><l>appi</l><r><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
+    	<e><p><l>àppimu</l><r><s n="ifi"/><s n="p1"/><s n="pl"/></r></p></e>
+    	<e><p><l>avìstivu</l><r><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>àppiru</l><r><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
+        
+    	<e><p><l>avissi</l><r><s n="pis"/><s n="p1"/><s n="sg"/></r></p></e>
+    	<e><p><l>avissi</l><r><s n="pis"/><s n="p2"/><s n="sg"/></r></p></e>
+    	<e><p><l>avissi</l><r><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
+    	<e><p><l>avìssimu</l><r><s n="pis"/><s n="p1"/><s n="pl"/></r></p></e>
+    	<e><p><l>avìssivu</l><r><s n="pis"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>avìssiru</l><r><s n="pis"/><s n="p3"/><s n="pl"/></r></p></e>
+        
+        <e><p><l>avutu</l><r><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
+        <e><p><l>avennu</l><r><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
 
-        <!-- FIXME: añadir otros tempos verbales -->
 
     </pardef>
 
@@ -517,6 +572,7 @@
     <e lm="di"><i></i><par n="contdi__pr"/></e>
     <e lm="tra"><i>tra</i><par n="tra__pr"/></e>
     <e lm="senza"><i>senza</i><par n="tra__pr"/></e>
+    <e lm="nta"><i>nta</i><par n="conta__pr"/></e>
 
     <e lm="juntu a"><i>juntu<b/></i><par n="conta__pr"/></e>
     <e lm="dintra di"><i>dintra<b/></i><par n="contdi__pr"/></e>
@@ -527,11 +583,25 @@
     <e lm="io" r="LR"><p><l>jù</l><r>io</r></p><par n="io__prn"/></e>
     <e lm="tu"><i>tu</i><par n="tu__prn"/></e>
     <e lm="iddu"><i>idd</i><par n="idd/u__prn"/></e>
-    <e lm="vossia"><i>vossia</i><par n="vossia__prn"/></e>
+    <e lm="vossìa"><i>vossìa</i><par n="vossia__prn"/></e>
     <e lm="nuautri"><i>nuautri</i><par n="nuautri__prn"/></e>
     <e lm="vuautri"><i>vuautri</i><par n="vuautri__prn"/></e>
+    <e lm="iddi"><i>iddi</i><par n="vuautri__prn"/></e>
+<!-- 
+    
+    <e lm="meu"><i>m</i><par n="m/eu__adj"/></e>
+    <e lm="to"><i>t</i><par n="t/o__adj"/></e>
+    <e lm="so"><i>s</i><par n="t/o__adj"/></e>
+    <e lm="propio"><i>prop</i><par n="prop/io__adj"/></e>
+    <e lm="nostru"><i>nostr</i><par n="nostr/u__adj"/></e>
+    <e lm="vostru"><i>vostr</i><par n="nostr/u__adj"/></e>   
+ --> 
+    
+    
+    
 
     <e lm="chistu"><i>chist</i><par n="chist/u__prn"/></e>
+    
 
 
     <!-- SECTION: Determiners -->
@@ -603,7 +673,8 @@
     <e lm="ora"><i>ora</i><par n="ùoggi__adv"/></e>
     <e lm="aieri"><i>aieri</i><par n="ùoggi__adv"/></e>
     <e lm="puru"><i>puru</i><par n="ùoggi__adv"/></e>
-    <e lm="sempri"><i>sempri</i><par n="ùoggi__adv"/></e>    
+    <e lm="sempri"><i>sempri</i><par n="ùoggi__adv"/></e>
+    <e lm="no"><i>no</i><par n="ùoggi__adv"/></e>   
 
 
     <!-- SECTION: Verbs -->
