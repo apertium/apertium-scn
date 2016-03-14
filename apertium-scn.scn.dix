@@ -155,6 +155,11 @@
       <e><p><l>li</l>       <r>lu<s n="det"/><s n="def"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>lu</l>       <r>lu<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
     </pardef>
+    
+    <pardef n="/un__det">
+      <e><p><l>un</l>       <r>un<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>na</l>       <r>lu<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></r></p></e>
+    </pardef>
 
     <!-- SECTION: Nouns -->
     <pardef n="nànn/u__n">
@@ -605,9 +610,13 @@
 
 
     <!-- SECTION: Determiners -->
-
+    
+    <e lm="un"><i></i><par n="/un__det"/></e>
+    <e lm="lu"><i></i><par n="/lu__det"/></e>
+<!-- 
     <e lm="lu" r="LR"><i></i><par n="/lu__det"/></e>
     <e lm="lu" r="RL"><p><l><a/></l><r></r></p><par n="/lu__det"/></e>
+ -->
 
     <!-- SECTION: Numerals -->
 
