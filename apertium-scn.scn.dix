@@ -317,6 +317,13 @@
       	<e><p><l>i</l><r><s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
     
+    <pardef n="duci__adj">
+      	<e><p><l></l><r><s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+      	<e><p><l></l><r><s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
+      	<e><p><l></l><r><s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+      	<e><p><l></l><r><s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
+    
     
     <!-- SECTION: Verbs -->
     <pardef n="/essiri__vbser">
@@ -1105,6 +1112,7 @@
     <e lm="studiu"><i>studi</i><par n="ann/u__n"/></e>
     <e lm="disiu"><i>disi</i><par n="ann/u__n"/></e>
     <e lm="àrbulu"><i>àrbul</i><par n="ann/u__n"/></e>
+    <e lm="tempu"><i>temp</i><par n="ann/u__n"/></e>
     
     <e lm="casa"><i>cas</i><par n="cas/a__n"/></e>
     <e lm="porta"><i>port</i><par n="cas/a__n"/></e>
@@ -1140,6 +1148,37 @@
     <e lm="onìestu"><i>onìest</i><par n="ùoggi__adv"/></e>
     <e lm="lariu"><i>lar</i><par n="lar/iu__adj"/></e>
     <e lm="malu"><i>mal</i><par n="bedd/u__adj"/></e>
+    <e lm="direttu"><i>dirett</i><par n="bedd/u__adj"/></e>
+    <e lm="calmu"><i>calm</i><par n="bedd/u__adj"/></e>
+    <e lm="càudu"><i>càud</i><par n="bedd/u__adj"/></e>
+    <e lm="dilicatu"><i>dilicat</i><par n="bedd/u__adj"/></e>
+    <e lm="divietu"><i>diviet</i><par n="bedd/u__adj"/></e>
+    <e lm="divìduu"><i>divìdu</i><par n="bedd/u__adj"/></e>
+    <e lm="doppiu"><i>dopp</i><par n="bedd/u__adj"/></e>
+    <e lm="duppiu" r="LR"><p><l>duppi</l><r>doppi</r></p><par n="bedd/u__adj"/></e>
+    <e lm="duplu" r="LR"><p><l>dupl</l><r>doppi</r></p><par n="bedd/u__adj"/></e>
+    <e lm="dùbbulu" r="LR"><p><l>dùbbul</l><r>doppi</r></p><par n="bedd/u__adj"/></e>
+    <e lm="dùbulu" r="LR"><p><l>dùbul</l><r>doppi</r></p><par n="bedd/u__adj"/></e>
+    <e lm="duro"><i>dur</i><par n="bedd/u__adj"/></e>
+    <e lm="disfattu"><i>disfatt</i><par n="bedd/u__adj"/></e>
+    <e lm="effittivu"><i>effittiv</i><par n="bedd/u__adj"/></e>
+    <e lm="friddu"><i>fridd</i><par n="bedd/u__adj"/></e>
+    <e lm="falsu"><i>fals</i><par n="bedd/u__adj"/></e>
+    <e lm="densu"><i>dens</i><par n="bedd/u__adj"/></e>
+    <e lm="dìlicu"><i>dìlic</i><par n="bedd/u__adj"/></e>
+    <e lm="duci"><i>duci</i><par n="duci__adj"/></e>
+    <e lm="filici"><i>filici</i><par n="duci__adj"/></e>
+    <e lm="dèbbuli"><i>dèbbuli</i><par n="duci__adj"/></e>
+    <e lm="dèbili" r="LR"><p><l>dèbili</l><r>dèbbuli</r></p><par n="duci__adj"/></e>
+    <e lm="dèbuli" r="LR"><p><l>dèbuli</l><r>dèbbuli</r></p><par n="bedd/u__adj"/></e>
+    <e lm="divinali"><i>divicnali</i><par n="duci__adj"/></e>
+    <e lm="distanti"><i>distanti</i><par n="duci__adj"/></e>
+    <e lm="forti"><i>forti</i><par n="duci__adj"/></e>
+    <e lm="diffìcili"><i>diffìcili</i><par n="duci__adj"/></e>
+    <e lm="disfìcili" r="LR"><p><l>disfìcili</l><r>diffìcili</r></p><par n="duci__adj"/></e>
+    
+    
+    
 
     <!-- SECTION: Adverbs -->
 
@@ -1157,6 +1196,7 @@
     <e lm="granni"><i>granni</i><par n="ùoggi__adv"/></e>
     <e lm="fuori"><i>assai</i><par n="assai__preadv"/></e>
     <e lm="chiù"><i>chiù</i><par n="ùoggi__adv"/></e>
+    <e lm="càudu"><i>càudu</i><par n="ùoggi__adv"/></e>
     
 
 
