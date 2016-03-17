@@ -296,6 +296,14 @@
     <pardef n="ùoggi__adv">
       	<e><p><l></l><r><s n="adv"/></r></p></e>
     </pardef>
+
+    <pardef n="quannu__adv">
+      	<e><p><l></l><r><s n="rel"/><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="picchi__adv">
+      	<e><p><l></l><r><s n="adv"/><s n="itg"/></r></p></e>
+    </pardef>
     
     <pardef n="assai__preadv">
       	<e><p><l></l><r><s n="preadv"/></r></p></e>
@@ -1182,9 +1190,17 @@
 
     <!-- SECTION: Adverbs -->
 
+    <e lm="quannu"><i>quannu</i><par n="quannu__adv"/></e>
+    <e lm="quannu"><i>quannu</i><par n="picchi__adv"/></e>
+    <e lm="unni"><i>unni</i><par n="quannu__adv"/></e>
+    <e lm="unni"><i>unni</i><par n="picchi__adv"/></e>
+    <e lm="picchi"><i>picchi</i><par n="picchi__adv"/></e>
+
+    <e lm="assai"><i>assai</i><par n="assai__preadv"/></e>
+
     <e lm="ùoggi"><i>ùoggi</i><par n="ùoggi__adv"/></e>
+    <e lm="araciu"><i>araciu</i><par n="ùoggi__adv"/></e>
     <e lm="fuori"><i>fuori</i><par n="ùoggi__adv"/></e>
-    <e lm="fuori"><i>assai</i><par n="assai__preadv"/></e>
     <e lm="già"><i>già</i><par n="ùoggi__adv"/></e>
     <e lm="ora"><i>ora</i><par n="ùoggi__adv"/></e>
     <e lm="aieri"><i>aieri</i><par n="ùoggi__adv"/></e>
