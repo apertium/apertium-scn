@@ -303,11 +303,16 @@
     
     
     <!-- SECTION: Adjectives -->
+
+    <pardef n="A__/u">
+      	<e><p><l>u</l><r><s n="m"/><s n="sg"/></r></p></e>
+      	<e><p><l>i</l><r><s n="m"/><s n="pl"/></r></p></e>
+      	<e><p><l>a</l><r><s n="f"/><s n="sg"/></r></p></e>
+      	<e><p><l>i</l><r><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
+
     <pardef n="bedd/u__adj">
-      	<e><p><l>u</l><r><s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
-      	<e><p><l>i</l><r><s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
-      	<e><p><l>a</l><r><s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
-      	<e><p><l>i</l><r><s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
+      	<e><p><l></l><r><s n="adj"/></r></p><par n="A__/u"/></e>
     </pardef>
     
     <pardef n="lar/iu__adj">
@@ -391,10 +396,7 @@
     	<e><p><l>siti</l><r>essiri<s n="vbser"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
         <e><p><l>sianu</l><r>essiri<s n="vbser"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
         
-        <e><p><l>statu</l><r>essiri<s n="vbser"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
-        <e><p><l>stata</l><r>essiri<s n="vbser"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
-        <e><p><l>stati</l><r>essiri<s n="vbser"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
-        <e><p><l>stati</l><r>essiri<s n="vbser"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
+        <e><p><l>stat</l><r>essiri<s n="vbser"/><s n="pp"/></r></p><par n="A__/u"/></e>
         <e><p><l>essennu</l><r>essiri<s n="vbser"/><s n="ger"/></r></p></e>
 
     </pardef>
@@ -457,10 +459,7 @@
     	<e><p><l>avìssivu</l><r>aviri<s n="pis"/><s n="p2"/><s n="pl"/></r></p></e>
         <e><p><l>avìssiru</l><r>aviri<s n="pis"/><s n="p3"/><s n="pl"/></r></p></e>
         
-        <e><p><l>avutu</l><r>aviri<s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
-        <e><p><l>avuta</l><r>aviri<s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
-        <e><p><l>avuti</l><r>aviri<s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
-        <e><p><l>avuti</l><r>aviri<s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
+        <e><p><l>avut</l><r>aviri<s n="pp"/></r></p><par n="A__/u"/></e>
         
         <e><p><l>avennu</l><r>aviri<s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
 
@@ -533,10 +532,7 @@
     	<e><p><l>ucati</l><r>ucari<s n="vblex"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
         <e><p><l>òcanu</l><r>ucari<s n="vblex"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
         
-        <e><p><l>ucatu</l><r>ucari<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
-        <e><p><l>ucati</l><r>ucari<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
-        <e><p><l>ucata</l><r>ucari<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
-        <e><p><l>ucati</l><r>ucari<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
+        <e><p><l>ucat</l><r>ucari<s n="vblex"/><s n="pp"/></r></p><par n="A__/u"/></e>
         <e><p><l>ucannu</l><r>ucari<s n="vblex"/><s n="ger"/></r></p></e>
     </pardef>
 
@@ -591,10 +587,7 @@
     	<e><p><l>aciti</l><r>ari<s n="vblex"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
         <e><p><l>annu</l><r>ari<s n="vblex"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
     
-        <e><p><l>attu</l><r>ari<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
-        <e><p><l>atti</l><r>ari<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
-        <e><p><l>atta</l><r>ari<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
-        <e><p><l>atti</l><r>ari<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
+        <e><p><l>att</l><r>ari<s n="vblex"/><s n="pp"/></r></p><par n="A__/u"/></e>
 
         <e><p><l>acennu</l><r>ari<s n="vblex"/><s n="ger"/></r></p></e>
     </pardef>
@@ -657,12 +650,9 @@
     	<e><p><l>iriamu</l><r>ari<s n="vblex"/><s n="cni"/><s n="p1"/><s n="pl"/></r></p></e>
     	<e><p><l>iriavu</l><r>ari<s n="vblex"/><s n="cni"/><s n="p2"/><s n="pl"/></r></p></e>
         <e><p><l>irianu</l><r>ari<s n="vblex"/><s n="cni"/><s n="p3"/><s n="pl"/></r></p></e>
-
         
-        <e><p><l>atu</l><r>ari<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
-        <e><p><l>ati</l><r>ari<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
-        <e><p><l>ata</l><r>ari<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
-        <e><p><l>ati</l><r>ari<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
+        <e><p><l>at</l><r>ari<s n="vblex"/><s n="pp"/></r></p><par n="A__/u"/></e>
+
         <e><p><l>ennu</l><r>ari<s n="vblex"/><s n="ger"/></r></p></e>
     </pardef>
     
@@ -724,12 +714,9 @@
     	<e><p><l>iriamu</l><r>ari<s n="vblex"/><s n="cni"/><s n="p1"/><s n="pl"/></r></p></e>
     	<e><p><l>iriavu</l><r>ari<s n="vblex"/><s n="cni"/><s n="p2"/><s n="pl"/></r></p></e>
         <e><p><l>irianu</l><r>ari<s n="vblex"/><s n="cni"/><s n="p3"/><s n="pl"/></r></p></e>
-
         
-        <e><p><l>atu</l><r>ari<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
-        <e><p><l>ati</l><r>ari<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
-        <e><p><l>ata</l><r>ari<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
-        <e><p><l>ati</l><r>ari<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
+        <e><p><l>at</l><r>ari<s n="vblex"/><s n="pp"/></r></p><par n="A__/u"/></e>
+
         <e><p><l>ennu</l><r>ari<s n="vblex"/><s n="ger"/></r></p></e>
     </pardef>
     
@@ -790,12 +777,9 @@
     	<e><p><l>irriamu</l><r>iri<s n="vblex"/><s n="cni"/><s n="p1"/><s n="pl"/></r></p></e>
     	<e><p><l>irriavu</l><r>iri<s n="vblex"/><s n="cni"/><s n="p2"/><s n="pl"/></r></p></e>
         <e><p><l>irrianu</l><r>iri<s n="vblex"/><s n="cni"/><s n="p3"/><s n="pl"/></r></p></e>
-
         
-        <e><p><l>utu</l><r>iri<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
-        <e><p><l>uti</l><r>iri<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
-        <e><p><l>uta</l><r>iri<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
-        <e><p><l>uti</l><r>iri<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
+        <e><p><l>ut</l><r>iri<s n="vblex"/><s n="pp"/></r></p><par n="A__/u"/></e>
+
         <e><p><l>ennu</l><r>iri<s n="vblex"/><s n="ger"/></r></p></e>
     </pardef>
     
@@ -856,12 +840,9 @@
     	<e><p><l>urmirrìamu</l><r>iri<s n="vblex"/><s n="cni"/><s n="p1"/><s n="pl"/></r></p></e>
     	<e><p><l>urmirrìavu</l><r>iri<s n="vblex"/><s n="cni"/><s n="p2"/><s n="pl"/></r></p></e>
         <e><p><l>urmirrìanu</l><r>iri<s n="vblex"/><s n="cni"/><s n="p3"/><s n="pl"/></r></p></e>
-
         
-        <e><p><l>urmutu</l><r>iri<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
-        <e><p><l>urmuti</l><r>iri<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
-        <e><p><l>urmuta</l><r>iri<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
-        <e><p><l>urmuti</l><r>iri<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
+        <e><p><l>urmut</l><r>iri<s n="vblex"/><s n="pp"/></r></p><par n="A__/u"/></e>
+
         <e><p><l>urmennu</l><r>iri<s n="vblex"/><s n="ger"/></r></p></e>
     </pardef>
     
@@ -922,12 +903,9 @@
     	<e><p><l>urmirrìamu</l><r>iri<s n="vblex"/><s n="cni"/><s n="p1"/><s n="pl"/></r></p></e>
     	<e><p><l>urmirrìavu</l><r>iri<s n="vblex"/><s n="cni"/><s n="p2"/><s n="pl"/></r></p></e>
         <e><p><l>urmirrìanu</l><r>iri<s n="vblex"/><s n="cni"/><s n="p3"/><s n="pl"/></r></p></e>
-
         
-        <e><p><l>urtatu</l><r>iri<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
-        <e><p><l>urtata</l><r>iri<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
-        <e><p><l>urtati</l><r>iri<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
-        <e><p><l>urtati</l><r>iri<s n="vblex"/><s n="pp"/><s n="mf"/><s n="pl"/></r></p></e>
+        <e><p><l>urtat</l><r>iri<s n="vblex"/><s n="pp"/></r></p><par n="A__/u"/></e>
+
         <e><p><l>urtannu</l><r>iri<s n="vblex"/><s n="ger"/></r></p></e>
     </pardef>
     
@@ -989,10 +967,8 @@
     	<e><p><l>ati</l><r>ari<s n="vblex"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
         <e><p><l>annu</l><r>ari<s n="vblex"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
         
-        <e><p><l>atu</l><r>ari<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
-        <e><p><l>ata</l><r>iri<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
-        <e><p><l>ati</l><r>iri<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
-        <e><p><l>ati</l><r>iri<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
+        <e><p><l>at</l><r>ari<s n="vblex"/><s n="pp"/></r></p><par n="A__/u"/></e>
+
         <e><p><l>annu</l><r>ari<s n="vblex"/><s n="ger"/></r></p></e>
     </pardef>
     
@@ -1054,12 +1030,9 @@
     	<e><p><l>iriamu</l><r>iri<s n="vblex"/><s n="cni"/><s n="p1"/><s n="pl"/></r></p></e>
     	<e><p><l>iriavu</l><r>iri<s n="vblex"/><s n="cni"/><s n="p2"/><s n="pl"/></r></p></e>
         <e><p><l>irianu</l><r>iri<s n="vblex"/><s n="cni"/><s n="p3"/><s n="pl"/></r></p></e>
-
         
-        <e><p><l>ittu</l><r>iri<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
-        <e><p><l>itta</l><r>iri<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
-        <e><p><l>itti</l><r>iri<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
-        <e><p><l>itti</l><r>iri<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
+        <e><p><l>itt</l><r>iri<s n="vblex"/><s n="pp"/></r></p><par n="A__/u"/></e>
+
         <e><p><l>ennu</l><r>iri<s n="vblex"/><s n="ger"/></r></p></e>
     </pardef>
 
