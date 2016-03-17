@@ -152,7 +152,8 @@
     <pardef n="m/iu__adj">
     	<e><p><l>iu</l><r>iu<s n="adj"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
     	<e><p><l>ia</l><r>iu<s n="adj"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
-    	<e><p><l>ei</l><r>iu<s n="adj"/><s n="pos"/><s n="mf"/><s n="pl"/></r></p></e>
+    	<e><p><l>ei</l><r>iu<s n="adj"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+    	<e><p><l>ei</l><r>iu<s n="adj"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
     
     <pardef n="t/uu__adj">
@@ -165,29 +166,20 @@
     <pardef n="nostr/u__adj">
     	<e><p><l>u</l><r>u<s n="adj"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
     	<e><p><l>a</l><r>u<s n="adj"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
-    	<e><p><l>i</l><r>u<s n="adj"/><s n="pos"/><s n="mf"/><s n="pl"/></r></p></e>
+    	<e><p><l>i</l><r>u<s n="adj"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+    	<e><p><l>i</l><r>u<s n="adj"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
 
 
     
     <!-- SECTION: Determiners -->
     <pardef n="/lu__det">
-      <e><p><l>li</l>       <r>lu<s n="det"/><s n="def"/><s n="f"/><s n="pl"/></r></p></e>
-      <e><p><l>la</l>       <r>lu<s n="det"/><s n="def"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>li</l>       <r>lu<s n="det"/><s n="def"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>lu</l>       <r>lu<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
-    </pardef>
+      <e><p><l>li</l>       <r>lu<s n="det"/><s n="def"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>la</l>       <r>lu<s n="det"/><s n="def"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>li</l>       <r>lu<s n="det"/><s n="def"/><s n="f"/><s n="pl"/></r></p></e>
 
-    
-<!-- 
-    <pardef n="/lu__det">
-    	<e><p><l>la</l><r>lu<s n="det"/><s n="def"/><s n="f"/><s n="sg"/></r></p></e>
-    	<e><p><l>li</l><r>lu<s n="det"/><s n="def"/><s n="f"/><s n="pl"/></r></p></e>
-    	<e><p><l>lu</l><r>lu<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
-    	<e><p><l>li</l><r>lu<s n="det"/><s n="def"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
- -->
-
     
     <pardef n="/un__det">
     	<e><p><l>un</l><r>un<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
@@ -301,7 +293,7 @@
       	<e><p><l></l><r><s n="rel"/><s n="adv"/></r></p></e>
     </pardef>
 
-    <pardef n="picchi__adv">
+    <pardef n="picchì__adv">
       	<e><p><l></l><r><s n="adv"/><s n="itg"/></r></p></e>
     </pardef>
     
@@ -331,10 +323,8 @@
     </pardef>
     
     <pardef n="duci__adj">
-      	<e><p><l></l><r><s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
-      	<e><p><l></l><r><s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
-      	<e><p><l></l><r><s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
-      	<e><p><l></l><r><s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
+      	<e><p><l></l><r><s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+      	<e><p><l></l><r><s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
     </pardef>
     
     
@@ -1143,6 +1133,10 @@
     <e lm="sceccu"><i>scecc</i><par n="parc/u__n"/></e>
     <e lm="beccu"><i>becc</i><par n="parc/u__n"/></e>
     <e lm="monaca"><i>monac</i><par n="monac/a__n"/></e>
+    
+    <e lm="soru"><i>sor</i><par n="sor/u__n"/></e>
+    
+    
 
     <!-- SECTION: Proper nouns -->
 
@@ -1178,7 +1172,6 @@
     <e lm="filici"><i>filici</i><par n="duci__adj"/></e>
     <e lm="dèbbuli"><i>dèbbuli</i><par n="duci__adj"/></e>
     <e lm="dèbili" r="LR"><p><l>dèbili</l><r>dèbbuli</r></p><par n="duci__adj"/></e>
-    <e lm="dèbuli" r="LR"><p><l>dèbuli</l><r>dèbbuli</r></p><par n="bedd/u__adj"/></e>
     <e lm="divinali"><i>divicnali</i><par n="duci__adj"/></e>
     <e lm="distanti"><i>distanti</i><par n="duci__adj"/></e>
     <e lm="forti"><i>forti</i><par n="duci__adj"/></e>
@@ -1186,17 +1179,17 @@
     <e lm="disfìcili" r="LR"><p><l>disfìcili</l><r>diffìcili</r></p><par n="duci__adj"/></e>
     
     
-    
 
     <!-- SECTION: Adverbs -->
 
     <e lm="quannu"><i>quannu</i><par n="quannu__adv"/></e>
-    <e lm="quannu"><i>quannu</i><par n="picchi__adv"/></e>
+    <e lm="quannu"><i>quannu</i><par n="picchì__adv"/></e>
     <e lm="unni"><i>unni</i><par n="quannu__adv"/></e>
-    <e lm="unni"><i>unni</i><par n="picchi__adv"/></e>
-    <e lm="picchi"><i>picchi</i><par n="picchi__adv"/></e>
+    <e lm="unni"><i>unni</i><par n="picchì__adv"/></e>
+    <e lm="picchì"><i>picchì</i><par n="picchì__adv"/></e>
 
     <e lm="assai"><i>assai</i><par n="assai__preadv"/></e>
+    <e lm="assai"><i>assai</i><par n="ùoggi__adv"/></e>
 
     <e lm="ùoggi"><i>ùoggi</i><par n="ùoggi__adv"/></e>
     <e lm="araciu"><i>araciu</i><par n="ùoggi__adv"/></e>
@@ -1213,6 +1206,7 @@
     <e lm="fuori"><i>assai</i><par n="assai__preadv"/></e>
     <e lm="chiù"><i>chiù</i><par n="ùoggi__adv"/></e>
     <e lm="càudu"><i>càudu</i><par n="ùoggi__adv"/></e>
+
     
 
 
@@ -1256,7 +1250,6 @@
     
     <e lm="mancari"><i>manc</i><par n="manc/ari__vblex"/></e>
     <e lm="spacc"><i>spacc</i><par n="manc/ari__vblex"/></e>
-    <e lm="sciddicari"><i>sciddic</i><par n="manc/ari__vblex"/></e>
     <e lm="bazzicari"><i>bazzic</i><par n="manc/ari__vblex"/></e>
     <e lm="masticari"><i>mastic</i><par n="manc/ari__vblex"/></e>
     <e lm="giudicari"><i>giudic</i><par n="manc/ari__vblex"/></e>
