@@ -147,7 +147,10 @@
       <e><p><l>i</l><r><s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>u</l><r><s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r></p></e>
     </pardef>
-    
+
+    <pardef n="ti__prn">
+      <e><p><l></l><r><s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+    </pardef>
 
     <pardef n="m/iu__adj">
     	<e><p><l>iu</l><r>iu<s n="adj"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
@@ -1082,6 +1085,8 @@
     <e lm="vossìa"><i>vossìa</i><par n="vossia__prn"/></e>
     <e lm="nuautri"><i>nuautri</i><par n="nuautri__prn"/></e>
     <e lm="vuautri"><i>vuautri</i><par n="vuautri__prn"/></e>
+
+    <e lm="ti"><i>ti</i><par n="ti__prn"/></e>
     
     <e lm="miu"><i>m</i><par n="m/iu__adj"/></e>
     <e lm="tuu"><i>t</i><par n="t/uu__adj"/></e>
