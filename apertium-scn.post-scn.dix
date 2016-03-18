@@ -30,9 +30,10 @@
     <!-- Define entries within <e> here. See http://wiki.apertium.org/wiki/Post-generator for more information.-->
     <e>
       <p>
-        <l><a/>nna<b/>lu<b/></l>
-        <r>ntô<b/></r>
+        <l><a/>nta<b/><a/>lu<b/></l>
+        <r>nta<b/>l'</r>
       </p>
+      <par n="vocals"/>
     </e>
   </section>
 </dictionary>

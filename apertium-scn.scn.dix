@@ -178,7 +178,6 @@
       <e><p><l>li</l>       <r>lu<s n="det"/><s n="def"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>la</l>       <r>lu<s n="det"/><s n="def"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>li</l>       <r>lu<s n="det"/><s n="def"/><s n="f"/><s n="pl"/></r></p></e>
-
     </pardef>
     
     <pardef n="/un__det">
@@ -286,15 +285,15 @@
       	<e r="LR"><p><l>d'un</l><r>di<s n="pr"/><j/>lu<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
     </pardef>
 
-    <pardef n="contnna__pr">
-      	<e r="LR"><p><l>nna</l><r>nna<s n="pr"/></r></p></e>
-      	<e r="RL"><p><l><a/>nna</l><r>nna<s n="pr"/></r></p></e>
-      	<e r="LR"><p><l>ntô</l><r>n<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
-      	<e r="LR"><p><l>ntû</l><r>n<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
-      	<e r="LR"><p><l>ntâ</l><r>n<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="f"/><s n="sg"/></r></p></e>
-      	<e r="LR"><p><l>ntê</l><r>n<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="mf"/><s n="pl"/></r></p></e>
-      	<e r="LR"><p><l>ntî</l><r>n<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="mf"/><s n="pl"/></r></p></e>
-      	<e r="LR"><p><l>nt'un</l><r>n<s n="pr"/><j/>lu<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
+    <pardef n="contnta__pr">
+      	<e r="LR"><p><l>nta</l><r>nta<s n="pr"/></r></p></e>
+      	<e r="RL"><p><l><a/>nta</l><r>nta<s n="pr"/></r></p></e>
+      	<e r="LR"><p><l>ntô</l><r>nta<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
+      	<e r="LR"><p><l>ntû</l><r>nta<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
+      	<e r="LR"><p><l>ntâ</l><r>nta<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="f"/><s n="sg"/></r></p></e>
+      	<e r="LR"><p><l>ntê</l><r>nta<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="mf"/><s n="pl"/></r></p></e>
+      	<e r="LR"><p><l>ntî</l><r>nta<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="mf"/><s n="pl"/></r></p></e>
+      	<e r="LR"><p><l>nt'un</l><r>nta<s n="pr"/><j/>lu<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
     </pardef>
 
     <pardef n="tra__pr">
@@ -1069,7 +1068,7 @@
     <e lm="di"><i></i><par n="contdi__pr"/></e>
     <e lm="tra"><i>tra</i><par n="tra__pr"/></e>
     <e lm="senza"><i>senza</i><par n="tra__pr"/></e>
-    <e lm="nna"><i></i><par n="contnna__pr"/></e>
+    <e lm="nta"><i></i><par n="contnta__pr"/></e>
 
     <e lm="juntu a"><i>juntu<b/></i><par n="conta__pr"/></e>
     <e lm="dintra di"><i>dintra<b/></i><par n="contdi__pr"/></e>
@@ -1099,12 +1098,8 @@
     <e lm="chiddu"><i>chidd</i><par n="chist/u__det"/></e>
     
     <e lm="un"><i></i><par n="/un__det"/></e>
-    <e lm="lu"><i></i><par n="/lu__det"/></e>
-<!-- 
-
     <e lm="lu" r="LR"><i></i><par n="/lu__det"/></e>
     <e lm="lu" r="RL"><p><l><a/></l><r></r></p><par n="/lu__det"/></e>
- -->
 
 
     <!-- SECTION: Numerals -->
@@ -1881,6 +1876,7 @@
 
     <e lm="ùoggi"><i>ùoggi</i><par n="ùoggi__adv"/></e>
     <e lm="araciu"><i>araciu</i><par n="ùoggi__adv"/></e>
+    <e lm="chianu"><i>chianu</i><par n="ùoggi__adv"/></e>
     <e lm="fuori"><i>fuori</i><par n="ùoggi__adv"/></e>
     <e lm="già"><i>già</i><par n="ùoggi__adv"/></e>
     <e lm="ora"><i>ora</i><par n="ùoggi__adv"/></e>
