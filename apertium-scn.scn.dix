@@ -330,6 +330,11 @@
       	<e><p><l>i</l><r><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
 
+    <pardef n="atr/u__adj">
+      <e><p><l></l><r>u<s n="adj"/><s n="ind"/></r></p><par n="A__/u"/></e>
+    </pardef>
+
+
     <pardef n="bedd/u__adj">
       	<e><p><l></l><r><s n="adj"/></r></p><par n="A__/u"/></e>
     </pardef>
@@ -2086,6 +2091,9 @@
 
     <!-- SECTION: Adjectives -->
     
+
+    <e lm="atru"><i>atr</i><par n="atr/u__adj"/></e>
+
     <e lm="beddu"><i>bedd</i><par n="bedd/u__adj"/></e>
     <e lm="bonu"><i>bon</i><par n="bedd/u__adj"/></e>
     <e lm="vecchiu"><i>vecch</i><par n="lar/iu__adj"/></e>
