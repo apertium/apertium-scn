@@ -286,6 +286,16 @@
       	<e r="LR"><p><l>d'un</l><r>di<s n="pr"/><j/>lu<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
     </pardef>
 
+    <pardef n="contnna__pr">
+      	<e r="LR"><p><l>nna</l><r>nna<s n="pr"/></r></p></e>
+      	<e r="RL"><p><l><a/>nna</l><r>nna<s n="pr"/></r></p></e>
+      	<e r="LR"><p><l>ntô</l><r>n<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
+      	<e r="LR"><p><l>ntû</l><r>n<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
+      	<e r="LR"><p><l>ntâ</l><r>n<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="f"/><s n="sg"/></r></p></e>
+      	<e r="LR"><p><l>ntê</l><r>n<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="mf"/><s n="pl"/></r></p></e>
+      	<e r="LR"><p><l>ntî</l><r>n<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="mf"/><s n="pl"/></r></p></e>
+      	<e r="LR"><p><l>nt'un</l><r>n<s n="pr"/><j/>lu<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
+    </pardef>
 
     <pardef n="tra__pr">
       	<e><p><l></l><r><s n="pr"/></r></p></e>
@@ -1059,7 +1069,7 @@
     <e lm="di"><i></i><par n="contdi__pr"/></e>
     <e lm="tra"><i>tra</i><par n="tra__pr"/></e>
     <e lm="senza"><i>senza</i><par n="tra__pr"/></e>
-    <e lm="nta"><i>nta</i><par n="conta__pr"/></e>
+    <e lm="nna"><i></i><par n="contnna__pr"/></e>
 
     <e lm="juntu a"><i>juntu<b/></i><par n="conta__pr"/></e>
     <e lm="dintra di"><i>dintra<b/></i><par n="contdi__pr"/></e>
