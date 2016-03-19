@@ -154,7 +154,18 @@
       <e><p><l>i</l><r><s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>u</l><r><s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r></p></e>
     </pardef> 
-    
+  
+    <pardef n="mi__prn">
+        <e><p><l></l><r><s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+    </pardef>
+
+    <pardef n="ti__prn">
+        <e><p><l></l><r><s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+    </pardef>
+ 
+    <pardef n="si__prn">
+        <e><p><l></l><r><s n="prn"/><s n="pro"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
+    </pardef>
     
 
     <pardef n="chi__prn">
@@ -370,6 +381,12 @@
     
     
     <!-- SECTION: Verbs -->
+
+    <pardef n="S__battiri">
+      <e><p><l>mi</l><r>mi<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e><p><l>si</l><r>si<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
+    </pardef>
+
     <pardef n="/essiri__vbser">
       	<e><p><l>essiri</l><r>essiri<s n="vbser"/><s n="inf"/></r></p></e>
         
@@ -763,7 +780,8 @@
     </pardef>
     
     <pardef n="batt/iri__vblex">
-      	<e><p><l>ari</l><r>iri<s n="vblex"/><s n="inf"/></r></p></e>
+      	<e><p><l>iri</l><r>iri<s n="vblex"/><s n="inf"/></r></p></e>
+      	<e><p><l>iri</l><r>iri<s n="vblex"/><s n="inf"/><j/></r></p><par n="S__battiri"/></e>
         
     	<e><p><l>u</l><r>iri<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
     	<e><p><l>i</l><r>iri<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
@@ -1370,6 +1388,10 @@
     <e lm="vossìa"><i>vossìa</i><par n="vossia__prn"/></e>
     <e lm="nuautri"><i>nuautri</i><par n="nuautri__prn"/></e>
     <e lm="vuautri"><i>vuautri</i><par n="vuautri__prn"/></e>
+
+    <e lm="mi"><i>mi</i><par n="mi__prn"/></e>
+    <e lm="ti"><i>ti</i><par n="ti__prn"/></e>
+    <e lm="si"><i>si</i><par n="si__prn"/></e>
 
     <e lm="chi"><i>chi</i><par n="chi__prn"/></e>
     
@@ -2306,6 +2328,7 @@
     <e lm="cùrriri"><i>cùrr</i><par n="batt/iri__vblex"/></e>
     <e lm="arrinèsciri"><i>arrinèsc</i><par n="batt/iri__vblex"/></e>
     <e lm="arrìdiri"><i>arrìd</i><par n="batt/iri__vblex"/></e>
+    <e lm="sèntiri"><i>sènt</i><par n="batt/iri__vblex"/></e>
     
     <e lm="dòrmiri"><i>d</i><par n="d/òrmiri__vblex"/></e>
     <e lm="purtari"><i>p</i><par n="p/urtari__vblex"/></e>
@@ -2372,4 +2395,3 @@ Resources:
     http://wiki.apertium.org/wiki/Monodix_basics
     http://wiki.apertium.org/wiki/Apertium_New_Language_Pair_HOWTO#Monolingual_dictionaries
 -->
-
