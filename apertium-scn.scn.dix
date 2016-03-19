@@ -161,6 +161,9 @@
       <e><p><l></l><r><s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></r></p></e>
     </pardef>
 
+    <pardef n="loru__adj">
+    	<e><p><l></l><r><s n="adj"/><s n="pos"/><s n="mf"/><s n="sp"/></r></p></e>
+    </pardef>
 
     <pardef n="m/iu__adj">
     	<e><p><l>iu</l><r>iu<s n="adj"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
@@ -198,11 +201,11 @@
     	<e><p><l>na</l><r>lu<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></r></p></e>
     </pardef>
 
-	<pardef n="chist/u__det">
-		<e><p><l>u</l><r>u<s n="det"/><s n="dem"/><s n="m"/><s n="sg"/></r></p></e>
-		<e><p><l>a</l><r>u<s n="det"/><s n="dem"/><s n="f"/><s n="sg"/></r></p></e>
-		<e><p><l>i</l><r>lu<s n="det"/><s n="dem"/><s n="m"/><s n="pl"/></r></p></e>
-		<e><p><l>i</l><r>lu<s n="det"/><s n="dem"/><s n="f"/><s n="pl"/></r></p></e>
+    <pardef n="chist/u__det">
+	<e><p><l>u</l><r>u<s n="det"/><s n="dem"/><s n="m"/><s n="sg"/></r></p></e>
+	<e><p><l>a</l><r>u<s n="det"/><s n="dem"/><s n="f"/><s n="sg"/></r></p></e>
+	<e><p><l>i</l><r>u<s n="det"/><s n="dem"/><s n="m"/><s n="pl"/></r></p></e>
+	<e><p><l>i</l><r>u<s n="det"/><s n="dem"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
  
 
@@ -1365,9 +1368,11 @@
 
     <e lm="chi"><i>chi</i><par n="chi__prn"/></e>
     
+    <e lm="loru"><i>loru</i><par n="loru__adj"/></e>
     <e lm="miu"><i>m</i><par n="m/iu__adj"/></e>
     <e lm="tuu"><i>t</i><par n="t/uu__adj"/></e>
     <e lm="suu"><i>s</i><par n="t/uu__adj"/></e>
+
     <e lm="nostru"><i>nostr</i><par n="bedd/u__adj"/></e>
     <e lm="vostru"><i>vostr</i><par n="bedd/u__adj"/></e>    
     
@@ -1383,7 +1388,6 @@
     <e lm="lu" r="LR"><i>l</i><par n="l/u__det"/></e>
     <e lm="lu" r="LR" c="Dial/V"><p><l></l><r>l</r></p><par n="l/u__det"/></e>
     <e lm="lu" r="RL"><p><l><a/>l</l><r>l</r></p><par n="l/u__det"/></e>
-
 
     <!-- SECTION: Numerals -->
 
@@ -1411,6 +1415,7 @@
     <e lm="annu"><i>ann</i><par n="ann/u__n"/></e>
     
     <e lm="casa"><i>cas</i><par n="cas/a__n"/></e>
+    <e lm="mamma"><i>mamm</i><par n="cas/a__n"/></e>
     <e lm="acqua"><i>acqu</i><par n="cas/a__n"/></e>
     <e lm="porta"><i>port</i><par n="cas/a__n"/></e>
     <e lm="pinna"><i>pinn</i><par n="cas/a__n"/></e>
