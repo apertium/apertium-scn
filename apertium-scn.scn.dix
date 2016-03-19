@@ -186,11 +186,11 @@
 
     
     <!-- SECTION: Determiners -->
-    <pardef n="/lu__det">
-      <e><p><l>lu</l>       <r>lu<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>li</l>       <r>lu<s n="det"/><s n="def"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>la</l>       <r>lu<s n="det"/><s n="def"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>li</l>       <r>lu<s n="det"/><s n="def"/><s n="f"/><s n="pl"/></r></p></e>
+    <pardef n="l/u__det">
+      <e><p><l>u</l>       <r>u<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>i</l>       <r>u<s n="det"/><s n="def"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>a</l>       <r>u<s n="det"/><s n="def"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>i</l>       <r>u<s n="det"/><s n="def"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
     
     <pardef n="/un__det">
@@ -369,9 +369,11 @@
     	<e><p><l>sugnu</l><r>essiri<s n="vbser"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
     	<e><p><l>sì</l><r>essiri<s n="vbser"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
     	<e><p><l>è</l><r>essiri<s n="vbser"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+    	<e r="LR" c="Dial/V"><p><l>eni</l><r>essiri<s n="vbser"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
     	<e><p><l>semu</l><r>essiri<s n="vbser"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
     	<e><p><l>siti</l><r>essiri<s n="vbser"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
         <e><p><l>sunnu</l><r>essiri<s n="vbser"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+        <e r="LR" c="Dial/V"><p><l>su</l><r>essiri<s n="vbser"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
         
     	<e><p><l>sugnu</l><r>essiri<s n="vbser"/><s n="fti"/><s n="p1"/><s n="sg"/></r></p></e>
     	<e><p><l>sì</l><r>essiri<s n="vbser"/><s n="fti"/><s n="p2"/><s n="sg"/></r></p></e>
@@ -1376,8 +1378,9 @@
     <e lm="chiddu"><i>chidd</i><par n="chist/u__det"/></e>
     
     <e lm="un"><i></i><par n="/un__det"/></e>
-    <e lm="lu" r="LR"><i></i><par n="/lu__det"/></e>
-    <e lm="lu" r="RL"><p><l><a/></l><r></r></p><par n="/lu__det"/></e>
+    <e lm="lu" r="LR"><i>l</i><par n="l/u__det"/></e>
+    <e lm="lu" r="LR" c="Dial/V"><p><l></l><r>l</r></p><par n="l/u__det"/></e>
+    <e lm="lu" r="RL"><p><l><a/>l</l><r>l</r></p><par n="l/u__det"/></e>
 
 
     <!-- SECTION: Numerals -->
