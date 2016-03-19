@@ -155,84 +155,6 @@
       <e><p><l>u</l><r><s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r></p></e>
     </pardef> 
     
-
-    <pardef n="tia__prn">
-    	<e><p><l></l><r><s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
-    </pardef>
-    
-    <pardef n="mia__prn">
-    	<e><p><l></l><r><s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
-    </pardef>
-    
-    <pardef n="idd/u__prn">
-    	<e><p><l>u</l><r><s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
-    	<e><p><l>a</l><r><s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
-    </pardef>
-    
-    <pardef n="nui__prn">
-    	<e><p><l></l><r><s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
-    </pardef>
-    
-    <pardef n="vui__prn">
-      <e><p><l></l><r><s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
-    </pardef>
-    
-    <pardef n="iddi__prn">
-    	<e><p><l></l><r><s n="prn"/><s n="tn"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
-    </pardef>
-
-
-    <pardef n="ti__prn">
-      <e><p><l></l><r><s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
-    </pardef>
-
-    <pardef n="mi__prn">
-      <e><p><l></l><r><s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
-    </pardef>
-
-    <pardef n="vi__prn">
-      <e><p><l></l><r><s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
-    </pardef>
-
-    <pardef n="ci__prn">
-      <e><p><l></l><r><s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
-    </pardef>
-
-    <pardef n="l/u__prn">
-      <e><p><l>u</l><r><s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>a</l><r><s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
-    </pardef>
-    
-    <pardef n="li__prn">
-      <e><p><l></l><r><s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
-    </pardef>
-    
-
-    <pardef n="ti__prn">
-      <e><p><l></l><r><s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
-    </pardef>
-
-    <pardef n="mi__prn">
-      <e><p><l></l><r><s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
-    </pardef>
-
-    <pardef n="vi__prn">
-      <e><p><l></l><r><s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
-    </pardef>
-
-    <pardef n="ci__prn">
-      <e><p><l></l><r><s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
-    </pardef>
-
-    <pardef n="l/u__prn">
-      <e><p><l>u</l><r><s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>a</l><r><s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
-    </pardef>
-    
-    <pardef n="li__prn">
-      <e><p><l></l><r><s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
-    </pardef>
-    
     
 
     <pardef n="chi__prn">
@@ -1441,18 +1363,6 @@
     <e lm="vossìa"><i>vossìa</i><par n="vossia__prn"/></e>
     <e lm="nuautri"><i>nuautri</i><par n="nuautri__prn"/></e>
     <e lm="vuautri"><i>vuautri</i><par n="vuautri__prn"/></e>
-
-    <e lm="ti"><i>ti</i><par n="ti__prn"/></e>
-    <e lm="mi"><i>mi</i><par n="mi__prn"/></e>
-    <e lm="vi"><i>vi</i><par n="vi__prn"/></e>
-    <e lm="ci"><i>ci</i><par n="ci__prn"/></e>
-    <e lm="lu"><i>l</i><par n="l/u__prn"/></e>
-    <e lm="li"><i>li</i><par n="li__prn"/></e>
-    
-    <e lm="tia"><i>tia</i><par n="tia__prn"/></e>
-    <e lm="mia"><i>mia</i><par n="mia__prn"/></e>
-    <e lm="nui"><i>nui</i><par n="nui__prn"/></e>
-    <e lm="vui"><i>vui</i><par n="vui__prn"/></e>
 
     <e lm="chi"><i>chi</i><par n="chi__prn"/></e>
     
