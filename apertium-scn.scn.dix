@@ -1467,6 +1467,8 @@
     <e lm="finestra"><i>finestr</i><par n="cas/a__n"/></e>
     <e lm="dumanna"><i>dumann</i><par n="cas/a__n"/></e>
     <e lm="seggia"><i>segg</i><par n="cas/a__n"/></e>
+    <e lm="scola"><i>scol</i><par n="cas/a__n"/></e>
+    <e lm="scala"><i>scal</i><par n="cas/a__n"/></e>
     
     
     
@@ -2197,6 +2199,10 @@
     <e lm="disfattu"><i>disfatt</i><par n="bedd/u__adj"/></e>
     <e lm="effittivu"><i>effittiv</i><par n="bedd/u__adj"/></e>
     <e lm="friddu"><i>fridd</i><par n="bedd/u__adj"/></e>
+    <e lm="tortu"><i>tort</i><par n="bedd/u__adj"/></e>
+    <e lm="grassu"><i>grass</i><par n="bedd/u__adj"/></e>
+    <e lm="siccu"><i>sicc</i><par n="bedd/u__adj"/></e>
+    <e lm="longu"><i>long</i><par n="bedd/u__adj"/></e>
     <e lm="falsu"><i>fals</i><par n="bedd/u__adj"/></e>
     <e lm="densu"><i>dens</i><par n="bedd/u__adj"/></e>
     <e lm="dìlicu"><i>dìlic</i><par n="bedd/u__adj"/></e>
@@ -2204,6 +2210,8 @@
     <e lm="granni"><i>granni</i><par n="duci__adj"/></e>
     <e lm="filici"><i>filici</i><par n="duci__adj"/></e>
     <e lm="dèbbuli"><i>dèbbuli</i><par n="duci__adj"/></e>
+    <e lm="virdi"><i>virdi</i><par n="duci__adj"/></e>
+    <e lm="pisanti"><i>pisanti</i><par n="duci__adj"/></e>
     <e lm="dèbili" r="LR"><p><l>dèbili</l><r>dèbbuli</r></p><par n="duci__adj"/></e>
     <e lm="divinali"><i>divicnali</i><par n="duci__adj"/></e>
     <e lm="distanti"><i>distanti</i><par n="duci__adj"/></e>
@@ -2248,6 +2256,8 @@
     <e lm="chiù"><i>chiù</i><par n="ùoggi__adv"/></e>
     <e lm="càudu"><i>càudu</i><par n="ùoggi__adv"/></e>
     <e lm="friddu"><i>friddu</i><par n="ùoggi__adv"/></e>
+    <e lm="nzemi"><i>nzemi</i><par n="ùoggi__adv"/></e>
+    
 
     
 
