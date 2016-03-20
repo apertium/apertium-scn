@@ -7,6 +7,7 @@
     <sdef n="v2" /> 
     <sdef n="predet" /> 
     <sdef n="detnt" /> 
+    <sdef n="ord" /> 
     <sdef n="top" /> 
     <sdef n="ant" /> 
     <sdef n="al" /> 
@@ -406,6 +407,9 @@
       <e><p><l></l><r>u<s n="adj"/><s n="ind"/></r></p><par n="A__/u"/></e>
     </pardef>
 
+    <pardef n="secunn/u__adj">
+      	<e><p><l></l><r>u<s n="adj"/><s n="ord"/></r></p><par n="A__/u"/></e>
+    </pardef>
 
     <pardef n="bedd/u__adj">
       	<e><p><l></l><r><s n="adj"/></r></p><par n="A__/u"/></e>
@@ -1497,6 +1501,17 @@
     <e lm="novanta"><i>novanta</i><par n="unu__num"/></e>
     <e lm="centu"><i>centu</i><par n="unu__num"/></e>
 
+
+    <e lm="primu"><i>prim</i><par n="secunn/u__adj"/></e>
+    <e lm="secunnu"><i>secunn</i><par n="secunn/u__adj"/></e>
+    <e lm="terzu"><i>terz</i><par n="secunn/u__adj"/></e>
+    <e lm="quartu"><i>quart</i><par n="secunn/u__adj"/></e>
+    <e lm="quintu"><i>quint</i><par n="secunn/u__adj"/></e>
+    <e lm="sestu"><i>sest</i><par n="secunn/u__adj"/></e>
+    <e lm="sèttimu"><i>sèttim</i><par n="secunn/u__adj"/></e>
+    <e lm="uttavu"><i>uttav</i><par n="secunn/u__adj"/></e>
+    <e lm="nonu"><i>non</i><par n="secunn/u__adj"/></e>
+    <e lm="dècimu"><i>dècim</i><par n="secunn/u__adj"/></e>
 
 
 
