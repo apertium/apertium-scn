@@ -1553,9 +1553,7 @@
     <e lm="aceddu"><i>acedd</i><par n="ann/u__n"/></e>
     <e lm="armali"><i>armal</i><par n="ann/u__n"/></e>
     <e lm="occhiu"><i>occhi</i><par n="ann/u__n"/></e>
-    <e lm="sèculu"><i>sècul</i><par n="ann/u__n"/></e>
-
-    <e lm="manu"><i>man</i><par n="man/u__n"/></e>
+    <e lm="mpiru"><i>mpir</i><par n="ann/u__n"/></e>
     
     <e lm="casa"><i>cas</i><par n="cas/a__n"/></e>
     <e lm="ìsula"><i>ìsul</i><par n="cas/a__n"/></e>
@@ -1576,6 +1574,9 @@
     <e lm="seggia"><i>segg</i><par n="cas/a__n"/></e>
     <e lm="scola"><i>scol</i><par n="cas/a__n"/></e>
     <e lm="scala"><i>scal</i><par n="cas/a__n"/></e>
+    <e lm="sira"><i>sir</i><par n="cas/a__n"/></e>
+    
+
     
     
     
@@ -1586,6 +1587,7 @@
     <e lm="matri"><i>matri</i><par n="matri__n"/></e>
     <e lm="patri"><i>patri</i><par n="patri__n"/></e>
     <e lm="facci"><i>facci</i><par n="matri__n"/></e>
+    <e lm="vuci"><i>vuci</i><par n="matri__n"/></e>
     <e lm="pedi"><i>pedi</i><par n="patri__n"/></e>
     <e lm="caluri"><i>calur</i><par n="patri__n"/></e>
     <e lm="voi"><i>vo</i><par n="patri__n"/></e>
@@ -2410,7 +2412,9 @@
     <e lm="ammucciari"><i>ammucci</i><par n="parr/ari__vblex"/></e>
     <e lm="avvicinari"><i>avvicin</i><par n="parr/ari__vblex"/></e>
     <e lm="dumannari"><i>dumann</i><par n="parr/ari__vblex"/></e>
-    <e lm="usari"><i>us</i><par n="parr/ari__vblex"/></e>
+    <e lm="mpizzari"><i>mpizz</i><par n="parr/ari__vblex"/></e>
+    <e lm="accuminciari"><i>accuminci</i><par n="parr/ari__vblex"/></e>
+
     
     
 
@@ -2422,8 +2426,9 @@
     <e lm="cùrriri"><i>cùrr</i><par n="batt/iri__vblex"/></e>
     <e lm="arrinèsciri"><i>arrinèsc</i><par n="batt/iri__vblex"/></e>
     <e lm="arrìdiri"><i>arrìd</i><par n="batt/iri__vblex"/></e>
-    <e lm="sèntiri"><i>sènt</i><par n="batt/iri__vblex"/></e>
-    <e lm="sapiri"><i>sap</i><par n="batt/iri__vblex"/></e>
+    <e lm="ntènniri"><i>arrìd</i><par n="batt/iri__vblex"/></e>
+    
+    
     
     <e lm="dòrmiri"><i>d</i><par n="d/òrmiri__vblex"/></e>
     <e lm="purtari"><i>p</i><par n="p/urtari__vblex"/></e>
