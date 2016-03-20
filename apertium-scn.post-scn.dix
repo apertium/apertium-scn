@@ -27,7 +27,7 @@
   </pardefs>
 
   <section id="main" type="standard">
-    <!-- Define entries within <e> here. See http://wiki.apertium.org/wiki/Post-generator for more information.-->
+    <!-- SECTION: nta -->
     <e>
       <p>
         <l><a/>nta<b/><a/>lu<b/></l>
@@ -35,6 +35,41 @@
       </p>
       <par n="vocals"/>
     </e>
+
+    <e>
+      <p>
+        <l><a/>nta<b/><a/>la<b/></l>
+        <r>ntâ<b/></r>
+      </p>
+    </e>
+
+
+    <!-- SECTION: cu -->
+    <e>
+      <p>
+        <l><a/>cu<b/><a/>lu<b/></l>
+        <r>cû<b/></r>
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l><a/>cu<b/><a/>li<b/></l>
+        <r>chî<b/></r>
+      </p>
+    </e>
+
+    <!-- SECTION: di -->
+    <e>
+      <p>
+        <l><a/>di<b/><a/>la<b/></l>
+        <r>dâ<b/></r>
+      </p>
+    </e>
+
+
+
+
   </section>
 </dictionary>
 

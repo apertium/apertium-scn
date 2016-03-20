@@ -239,17 +239,25 @@
       	<e><p><l>i</l><r>u<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
 
+    <pardef n="man/u__n">
+      	<e><p><l>u</l><r>u<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+      	<e><p><l>i</l><r>u<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
+
+
     <pardef n="cas/a__n">
       	<e><p><l>a</l><r>a<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
       	<e><p><l>i</l><r>a<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
     
     <pardef n="matri__n">
-      	<e><p><l>i</l><r>i<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
+      	<e><p><l></l><r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+      	<e><p><l></l><r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
     
     <pardef n="patri__n">
-      	<e><p><l></l><r>i<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
+      	<e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+      	<e><p><l></l><r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
     
     <pardef n="parc/u__n">
@@ -327,6 +335,18 @@
       	<e r="LR"><p><l>nt'un</l><r>nta<s n="pr"/><j/>lu<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
     </pardef>
 
+    <pardef n="contcu__pr">
+      	<e r="LR"><p><l>cu</l><r>cu<s n="pr"/></r></p></e>
+      	<e r="RL"><p><l><a/>cu</l><r>cu<s n="pr"/></r></p></e>
+      	<e r="LR"><p><l>cû</l><r>cu<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
+      	<e r="LR"><p><l>cô</l><r>cu<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
+      	<e r="LR"><p><l>câ</l><r>cu<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="f"/><s n="sg"/></r></p></e>
+      	<e r="LR"><p><l>chî</l><r>cu<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="mf"/><s n="pl"/></r></p></e>
+      	<e r="LR"><p><l>chê</l><r>cu<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="mf"/><s n="pl"/></r></p></e>
+      	<e r="LR"><p><l>c'un</l><r>cu<s n="pr"/><j/>lu<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
+    </pardef>
+
+
     <pardef n="tra__pr">
       	<e><p><l></l><r><s n="pr"/></r></p></e>
     </pardef>
@@ -368,10 +388,10 @@
     </pardef>
     
     <pardef n="lar/iu__adj">
-      	<e><p><l>iu</l><r><s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
-      	<e><p><l>i</l><r><s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
-      	<e><p><l>ia</l><r><s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
-      	<e><p><l>i</l><r><s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
+      	<e><p><l>iu</l><r>iu<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+      	<e><p><l>i</l><r>iu<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
+      	<e><p><l>ia</l><r>iu<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+      	<e><p><l>i</l><r>iu<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
     
     <pardef n="duci__adj">
@@ -1368,14 +1388,17 @@
 
     <e lm="a"><i></i><par n="conta__pr"/></e>
     <e lm="di"><i></i><par n="contdi__pr"/></e>
+    <e lm="cu"><i></i><par n="contcu__pr"/></e>
     <e lm="tra"><i>tra</i><par n="tra__pr"/></e>
     <e lm="senza"><i>senza</i><par n="tra__pr"/></e>
     <e lm="nta"><i></i><par n="contnta__pr"/></e>
+    <e lm="agghiri"><i>agghiri</i><par n="tra__pr"/></e>
 
     <e lm="juntu a"><i>juntu<b/></i><par n="conta__pr"/></e>
     <e lm="avanzi a"><i>avanzi<b/></i><par n="conta__pr"/></e>
     <e lm="dintra di"><i>dintra<b/></i><par n="contdi__pr"/></e>
-    <e lm="agghiri"><i>agghiri<b/></i><par n="contdi__pr"/></e>
+    <e lm="agghiri a"><i>agghiri<b/></i><par n="conta__pr"/></e>
+    <e lm="agghiri di"><i>agghiri<b/></i><par n="contdi__pr"/></e>
     
     
 
@@ -1475,6 +1498,8 @@
     <e lm="aceddu"><i>acedd</i><par n="ann/u__n"/></e>
     <e lm="armali"><i>armal</i><par n="ann/u__n"/></e>
     <e lm="occhiu"><i>occhi</i><par n="ann/u__n"/></e>
+
+    <e lm="manu"><i>man</i><par n="man/u__n"/></e>
     
     <e lm="casa"><i>cas</i><par n="cas/a__n"/></e>
     <e lm="mamma"><i>mamm</i><par n="cas/a__n"/></e>
@@ -2329,6 +2354,7 @@
     <e lm="arrinèsciri"><i>arrinèsc</i><par n="batt/iri__vblex"/></e>
     <e lm="arrìdiri"><i>arrìd</i><par n="batt/iri__vblex"/></e>
     <e lm="sèntiri"><i>sènt</i><par n="batt/iri__vblex"/></e>
+    <e lm="sapiri"><i>sap</i><par n="batt/iri__vblex"/></e>
     
     <e lm="dòrmiri"><i>d</i><par n="d/òrmiri__vblex"/></e>
     <e lm="purtari"><i>p</i><par n="p/urtari__vblex"/></e>
