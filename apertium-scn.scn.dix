@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dictionary>
-  <alphabet>ABCDEFGHIJKLMNOPQRSTUVZaàábcdeèéfghijìíklmnoòópqrstuùúvz</alphabet>
+  <alphabet>ABCDEFGHIJKLMNOPQRSTUVZaàáâbcdeèéêfghijìíîklmnoòóôpqrstuùúûvz</alphabet>
 
   <sdefs>
     <sdef n="acr" /> 
@@ -93,6 +93,20 @@
         <e><re>[\)\]]</re><p><l></l><r><s n="rpar"/></r></p></e>
     </pardef>
 
+    <!-- SECTION: Orthographic -->
+
+    <pardef n="gu/v/u">
+      	<e><p><l>gu</l><r>gu</r></p></e>
+      	<e r="LR"><p><l>v</l><r>gu</r></p></e>
+      	<e r="LR"><p><l>u</l><r>gu</r></p></e>
+    </pardef>
+
+
+    <pardef n="c/g">
+      	<e><p><l>c</l><r>c</r></p></e>
+      	<e r="LR"><p><l>g</l><r>c</r></p></e>
+    </pardef>
+
     <!-- SECTION: Conjunctions -->
 
     <pardef n="picchì__cnjadv">
@@ -166,6 +180,11 @@
     <pardef n="si__prn">
         <e><p><l></l><r><s n="prn"/><s n="pro"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
     </pardef>
+
+    <pardef n="tutti_e_dui__prn">
+      <e><p><l></l><r><s n="prn"/><s n="tn"/><s n="mf"/><s n="pl"/></r></p></e>
+    </pardef>
+
     
 
     <pardef n="chi__prn">
@@ -349,6 +368,11 @@
 
     <pardef n="tra__pr">
       	<e><p><l></l><r><s n="pr"/></r></p></e>
+    </pardef>
+
+    <pardef n="durant/i__pr">
+      	<e><p><l>i</l><r>i<s n="pr"/></r></p></e>
+      	<e r="LR"><p><l>e</l><r>i<s n="pr"/></r></p></e>
     </pardef>
 
     <!-- SECTION: Adverbs -->
@@ -1390,6 +1414,7 @@
     <e lm="di"><i></i><par n="contdi__pr"/></e>
     <e lm="cu"><i></i><par n="contcu__pr"/></e>
     <e lm="tra"><i>tra</i><par n="tra__pr"/></e>
+    <e lm="duranti"><i>durant</i><par n="durant/i__pr"/></e>
     <e lm="senza"><i>senza</i><par n="tra__pr"/></e>
     <e lm="nta"><i></i><par n="contnta__pr"/></e>
     <e lm="agghiri"><i>agghiri</i><par n="tra__pr"/></e>
@@ -1417,6 +1442,8 @@
     <e lm="si"><i>si</i><par n="si__prn"/></e>
 
     <e lm="chi"><i>chi</i><par n="chi__prn"/></e>
+
+    <e lm="tutti e dui"><i>tutti<b/>e<b/>dui</i><par n="tutti_e_dui__prn"/></e>
     
     <e lm="loru"><i>loru</i><par n="loru__adj"/></e>
     <e lm="miu"><i>m</i><par n="m/iu__adj"/></e>
@@ -1481,6 +1508,7 @@
     
     <e lm="telèfonu"><i>telèfon</i><par n="ann/u__n"/></e>
     <e lm="jardinu"><i>jardin</i><par n="ann/u__n"/></e>
+    <e lm="gruppu"><i>grupp</i><par n="ann/u__n"/></e>
     <e lm="ortu"><i>ort</i><par n="ann/u__n"/></e>
     <e lm="vinu"><i>vin</i><par n="ann/u__n"/></e>
     <e lm="gattu"><i>gatt</i><par n="ann/u__n"/></e>
@@ -1495,6 +1523,7 @@
     <e lm="àrbulu"><i>àrbul</i><par n="ann/u__n"/></e>
     <e lm="tempu"><i>temp</i><par n="ann/u__n"/></e>
     <e lm="annu"><i>ann</i><par n="ann/u__n"/></e>
+    <e lm="cuvernu"><par n="c/g"/><i>uvern</i><par n="ann/u__n"/></e>
     <e lm="aceddu"><i>acedd</i><par n="ann/u__n"/></e>
     <e lm="armali"><i>armal</i><par n="ann/u__n"/></e>
     <e lm="occhiu"><i>occhi</i><par n="ann/u__n"/></e>
@@ -1502,6 +1531,9 @@
     <e lm="manu"><i>man</i><par n="man/u__n"/></e>
     
     <e lm="casa"><i>cas</i><par n="cas/a__n"/></e>
+    <e lm="ìsula"><i>ìsul</i><par n="cas/a__n"/></e>
+    <e lm="guerra"><par n="gu/v/u"/><i>err</i><par n="cas/a__n"/></e>
+    <e lm="lingua"><i>lingu</i><par n="cas/a__n"/></e>
     <e lm="mamma"><i>mamm</i><par n="cas/a__n"/></e>
     <e lm="acqua"><i>acqu</i><par n="cas/a__n"/></e>
     <e lm="porta"><i>port</i><par n="cas/a__n"/></e>
@@ -2226,6 +2258,7 @@
 
     <e lm="beddu"><i>bedd</i><par n="bedd/u__adj"/></e>
     <e lm="bonu"><i>bon</i><par n="bedd/u__adj"/></e>
+    <e lm="comunu"><i>comun</i><par n="bedd/u__adj"/></e>
     <e lm="vecchiu"><i>vecch</i><par n="lar/iu__adj"/></e>
     <e lm="onìestu"><i>onìest</i><par n="ùoggi__adv"/></e>
     <e lm="lariu"><i>lar</i><par n="lar/iu__adj"/></e>
@@ -2273,6 +2306,7 @@
     <e lm="quannu"><i>quannu</i><par n="quannu__adv"/></e>
     <e lm="quannu"><i>quannu</i><par n="picchì__adv"/></e>
     <e lm="unni"><i>unni</i><par n="quannu__adv"/></e>
+    <e lm="comu"><i>comu</i><par n="quannu__adv"/></e>
     <e lm="unni"><i>unni</i><par n="picchì__adv"/></e>
     <e lm="picchì"><i>picchì</i><par n="picchì__adv"/></e>
 
@@ -2294,6 +2328,7 @@
     <e lm="aieri"><i>aieri</i><par n="ùoggi__adv"/></e>
     <e lm="puru"><i>puru</i><par n="ùoggi__adv"/></e>
     <e lm="sempri"><i>sempri</i><par n="ùoggi__adv"/></e>
+    <e lm="sempi" r="LR" c="Dial/X"><p><l>sempi</l><r>sempri</r></p><par n="ùoggi__adv"/></e>
     <e lm="no"><i>no</i><par n="ùoggi__adv"/></e>
     <e lm="probabilmenti"><i>probabilmenti</i><par n="ùoggi__adv"/></e>
     <e lm="ovviamenti"><i>ovviamenti</i><par n="ùoggi__adv"/></e>

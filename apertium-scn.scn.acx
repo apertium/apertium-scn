@@ -1,5 +1,14 @@
 <?xml version="1.0"?>
 <analysis-chars>
   <!-- Describe equivalent characters in monodices here. See http://wiki.apertium.org/wiki/Acx for more information. -->
+
+  <char value="ì">
+    <equiv-char value="i"/>
+  </char>
+
+  <char value="î">
+    <equiv-char value="i"/>
+  </char>
+
 </analysis-chars>
 
