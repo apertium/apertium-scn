@@ -2,6 +2,10 @@
 <analysis-chars>
   <!-- Describe equivalent characters in monodices here. See http://wiki.apertium.org/wiki/Acx for more information. -->
 
+  <char value="è">
+    <equiv-char value="e"/>
+  </char>
+
   <char value="ì">
     <equiv-char value="i"/>
   </char>

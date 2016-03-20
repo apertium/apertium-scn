@@ -300,7 +300,25 @@
       	<e><p><l></l><r>a<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
       	<e r="LR"><p><l>i</l><r>a<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
-  
+
+    <pardef n="figgh/iu__n">
+      	<e><p><l>iu</l><r>iu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+      	<e><p><l>ia</l><r>iu<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+      	<e><p><l>i</l><r>iu<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+      	<e><p><l>i</l><r>iu<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
+    
+    <pardef n="oricch/ia__n">
+      	<e><p><l>ia</l><r>ia<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+      	<e><p><l>i</l><r>ia<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="sud__n">
+      	<e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+    </pardef>
+
+    <!-- SECTION: Proper nouns -->
+     
     <pardef n="María__np">
       	<e><p><l></l><r><s n="np"/><s n="ant"/></r></p></e>
     </pardef>
@@ -315,20 +333,6 @@
 
 
    
-
-
-    <pardef n="figgh/iu__n">
-      	<e><p><l>iu</l><r>iu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      	<e><p><l>ia</l><r>iu<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-      	<e><p><l>i</l><r>iu<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
-      	<e><p><l>i</l><r>iu<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
-    </pardef>
-    
-    <pardef n="oricch/ia__n">
-      	<e><p><l>ia</l><r>ia<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-      	<e><p><l>i</l><r>ia<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
-    </pardef>
-    
     <!-- SECTION: Prepositions -->
     <pardef n="conta__pr">
       	<e r="LR"><p><l>a</l><r>a<s n="pr"/></r></p></e>
@@ -898,28 +902,28 @@
     </pardef>
     
     <pardef n="d/òrmiri__vblex">
-      	<e><p><l>urmiri</l><r>urmiri<s n="vblex"/><s n="inf"/></r></p></e>
+      	<e><p><l>òrmiri</l><r>òrmiri<s n="vblex"/><s n="inf"/></r></p></e>
         
-    	<e><p><l>ormu</l><r>urmiri<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
-    	<e><p><l>ormi</l><r>urmiri<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
-    	<e><p><l>ormi</l><r>urmiri<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
-    	<e><p><l>urmemu</l><r>urmiri<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
-    	<e><p><l>urmiti</l><r>urmiri<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
-        <e><p><l>òrminu</l><r>urmiri<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+    	<e><p><l>ormu</l><r>òrmiri<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+    	<e><p><l>ormi</l><r>òrmiri<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+    	<e><p><l>ormi</l><r>òrmiri<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+    	<e><p><l>urmemu</l><r>òrmiri<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+    	<e><p><l>urmiti</l><r>òrmiri<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>òrminu</l><r>òrmiri<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
         
-    	<e><p><l>urmìa</l><r>urmiri<s n="vblex"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
-    	<e><p><l>urmivi</l><r>urmiri<s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
-    	<e><p><l>urmìa</l><r>urmiri<s n="vblex"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
-    	<e><p><l>urmìamu</l><r>urmiri<s n="vblex"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p></e>
-    	<e><p><l>urmìavu</l><r>urmiri<s n="vblex"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
-        <e><p><l>urmìanu</l><r>urmiri<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
+    	<e><p><l>urmìa</l><r>òrmiri<s n="vblex"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
+    	<e><p><l>urmivi</l><r>òrmiri<s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
+    	<e><p><l>urmìa</l><r>òrmiri<s n="vblex"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
+    	<e><p><l>urmìamu</l><r>òrmiri<s n="vblex"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p></e>
+    	<e><p><l>urmìavu</l><r>òrmiri<s n="vblex"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>urmìanu</l><r>òrmiri<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
 
-    	<e><p><l>urmivi</l><r>urmiri<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="sg"/></r></p></e>
-    	<e><p><l>urmisti</l><r>urmiri<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="sg"/></r></p></e>
-    	<e><p><l>urmìu</l><r>urmiri<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
-    	<e><p><l>urmemmu</l><r>urmiri<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="pl"/></r></p></e>
-    	<e><p><l>urmìstivu</l><r>urmiri<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
-        <e><p><l>urmeru</l><r>urmiri<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
+    	<e><p><l>urmivi</l><r>òrmiri<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="sg"/></r></p></e>
+    	<e><p><l>urmisti</l><r>òrmiri<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="sg"/></r></p></e>
+    	<e><p><l>urmìu</l><r>òrmiri<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
+    	<e><p><l>urmemmu</l><r>òrmiri<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="pl"/></r></p></e>
+    	<e><p><l>urmìstivu</l><r>òrmiri<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>urmeru</l><r>òrmiri<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
         
     	<e><p><l>ormi</l><r>iri<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
     	<e><p><l>urmissi</l><r>iri<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -927,37 +931,37 @@
     	<e><p><l>urmiti</l><r>iri<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
         <e><p><l>urmissiru</l><r>iri<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
         
-    	<e><p><l>ormu</l><r>urmiri<s n="vblex"/><s n="fti"/><s n="p1"/><s n="sg"/></r></p></e>
-    	<e><p><l>ormi</l><r>urmiri<s n="vblex"/><s n="fti"/><s n="p2"/><s n="sg"/></r></p></e>
-    	<e><p><l>ormi</l><r>urmiri<s n="vblex"/><s n="fti"/><s n="p3"/><s n="sg"/></r></p></e>
-    	<e><p><l>urmemu</l><r>urmiri<s n="vblex"/><s n="fti"/><s n="p1"/><s n="pl"/></r></p></e>
-    	<e><p><l>urmiti</l><r>urmiri<s n="vblex"/><s n="fti"/><s n="p2"/><s n="pl"/></r></p></e>
-        <e><p><l>òrminu</l><r>urmiri<s n="vblex"/><s n="fti"/><s n="p3"/><s n="pl"/></r></p></e>
+    	<e><p><l>ormu</l><r>òrmiri<s n="vblex"/><s n="fti"/><s n="p1"/><s n="sg"/></r></p></e>
+    	<e><p><l>ormi</l><r>òrmiri<s n="vblex"/><s n="fti"/><s n="p2"/><s n="sg"/></r></p></e>
+    	<e><p><l>ormi</l><r>òrmiri<s n="vblex"/><s n="fti"/><s n="p3"/><s n="sg"/></r></p></e>
+    	<e><p><l>urmemu</l><r>òrmiri<s n="vblex"/><s n="fti"/><s n="p1"/><s n="pl"/></r></p></e>
+    	<e><p><l>urmiti</l><r>òrmiri<s n="vblex"/><s n="fti"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>òrminu</l><r>òrmiri<s n="vblex"/><s n="fti"/><s n="p3"/><s n="pl"/></r></p></e>
         
-    	<e><p><l>ormu</l><r>urmiri<s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
-    	<e><p><l>ormi</l><r>urmiri<s n="vblex"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
-    	<e><p><l>ormi</l><r>urmiri<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
-    	<e><p><l>urmemu</l><r>urmiri<s n="vblex"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
-    	<e><p><l>urmiti</l><r>urmiri<s n="vblex"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
-        <e><p><l>òrminu</l><r>urmiri<s n="vblex"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
+    	<e><p><l>ormu</l><r>òrmiri<s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
+    	<e><p><l>ormi</l><r>òrmiri<s n="vblex"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
+    	<e><p><l>ormi</l><r>òrmiri<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
+    	<e><p><l>urmemu</l><r>òrmiri<s n="vblex"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
+    	<e><p><l>urmiti</l><r>òrmiri<s n="vblex"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>òrminu</l><r>òrmiri<s n="vblex"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
         
-        <e><p><l>urmissi</l><r>iri<s n="vblex"/><s n="pis"/><s n="p1"/><s n="sg"/></r></p></e>
-    	<e><p><l>urmissi</l><r>iri<s n="vblex"/><s n="pis"/><s n="p2"/><s n="sg"/></r></p></e>
-    	<e><p><l>urmissi</l><r>iri<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
-    	<e><p><l>urmìssimu</l><r>iri<s n="vblex"/><s n="pis"/><s n="p1"/><s n="pl"/></r></p></e>
-    	<e><p><l>urmìssivu</l><r>iri<s n="vblex"/><s n="pis"/><s n="p2"/><s n="pl"/></r></p></e>
-        <e><p><l>urmìssiru</l><r>iri<s n="vblex"/><s n="pis"/><s n="p3"/><s n="pl"/></r></p></e>
+        <e><p><l>urmissi</l><r>òrmiri<s n="vblex"/><s n="pis"/><s n="p1"/><s n="sg"/></r></p></e>
+    	<e><p><l>urmissi</l><r>òrmiri<s n="vblex"/><s n="pis"/><s n="p2"/><s n="sg"/></r></p></e>
+    	<e><p><l>urmissi</l><r>òrmiri<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
+    	<e><p><l>urmìssimu</l><r>òrmiri<s n="vblex"/><s n="pis"/><s n="p1"/><s n="pl"/></r></p></e>
+    	<e><p><l>urmìssivu</l><r>òrmiri<s n="vblex"/><s n="pis"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>urmìssiru</l><r>òrmiri<s n="vblex"/><s n="pis"/><s n="p3"/><s n="pl"/></r></p></e>
         
-    	<e><p><l>urmirrìa</l><r>iri<s n="vblex"/><s n="cni"/><s n="p1"/><s n="sg"/></r></p></e>
-    	<e><p><l>urmirrissi</l><r>iri<s n="vblex"/><s n="cni"/><s n="p2"/><s n="sg"/></r></p></e>
-    	<e><p><l>urmirrìa</l><r>iri<s n="vblex"/><s n="cni"/><s n="p3"/><s n="sg"/></r></p></e>
-    	<e><p><l>urmirrìamu</l><r>iri<s n="vblex"/><s n="cni"/><s n="p1"/><s n="pl"/></r></p></e>
-    	<e><p><l>urmirrìavu</l><r>iri<s n="vblex"/><s n="cni"/><s n="p2"/><s n="pl"/></r></p></e>
-        <e><p><l>urmirrìanu</l><r>iri<s n="vblex"/><s n="cni"/><s n="p3"/><s n="pl"/></r></p></e>
+    	<e><p><l>urmirrìa</l><r>òrmiri<s n="vblex"/><s n="cni"/><s n="p1"/><s n="sg"/></r></p></e>
+    	<e><p><l>urmirrissi</l><r>òrmiri<s n="vblex"/><s n="cni"/><s n="p2"/><s n="sg"/></r></p></e>
+    	<e><p><l>urmirrìa</l><r>òrmiri<s n="vblex"/><s n="cni"/><s n="p3"/><s n="sg"/></r></p></e>
+    	<e><p><l>urmirrìamu</l><r>òrmiri<s n="vblex"/><s n="cni"/><s n="p1"/><s n="pl"/></r></p></e>
+    	<e><p><l>urmirrìavu</l><r>òrmiri<s n="vblex"/><s n="cni"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>urmirrìanu</l><r>òrmiri<s n="vblex"/><s n="cni"/><s n="p3"/><s n="pl"/></r></p></e>
         
-        <e><p><l>urmut</l><r>iri<s n="vblex"/><s n="pp"/></r></p><par n="A__/u"/></e>
+        <e><p><l>urmut</l><r>òrmiri<s n="vblex"/><s n="pp"/></r></p><par n="A__/u"/></e>
 
-        <e><p><l>urmennu</l><r>iri<s n="vblex"/><s n="ger"/></r></p></e>
+        <e><p><l>urmennu</l><r>òrmiri<s n="vblex"/><s n="ger"/></r></p></e>
     </pardef>
     
     <pardef n="p/urtari__vblex">
@@ -1426,6 +1430,7 @@
     <e lm="tra"><i>tra</i><par n="tra__pr"/></e>
     <e lm="duranti"><i>durant</i><par n="durant/i__pr"/></e>
     <e lm="senza"><i>senza</i><par n="tra__pr"/></e>
+    <e lm="sutta"><i>sutta</i><par n="tra__pr"/></e>
     <e lm="nta"><i></i><par n="contnta__pr"/></e>
     <e lm="agghiri"><i>agghiri</i><par n="tra__pr"/></e>
 
@@ -1548,6 +1553,7 @@
     <e lm="aceddu"><i>acedd</i><par n="ann/u__n"/></e>
     <e lm="armali"><i>armal</i><par n="ann/u__n"/></e>
     <e lm="occhiu"><i>occhi</i><par n="ann/u__n"/></e>
+    <e lm="sèculu"><i>sècul</i><par n="ann/u__n"/></e>
 
     <e lm="manu"><i>man</i><par n="man/u__n"/></e>
     
@@ -1596,6 +1602,10 @@
     
     <e lm="culonia"><i>culoni</i><par n="culoni/a__n"/></e>
     
+    <e lm="sud"><i>sud</i><par n="sud__n"/></e>
+    <e lm="est"><i>est</i><par n="sud__n"/></e>
+    <e lm="nord"><i>nord</i><par n="sud__n"/></e>
+    <e lm="ovest"><i>ovest</i><par n="sud__n"/></e>
 
     <!-- SECTION: Proper nouns -->
 
@@ -2057,7 +2067,6 @@
     <e lm="Nîmes"><i>Nîmes</i><par n="Sicilia__np"/></e>
     <e lm="Niui"><i>Niui</i><par n="Sicilia__np"/></e>
     <e lm="Nizza"><i>Nizza</i><par n="Sicilia__np"/></e>
-    <e lm="Nord"><i>Nord</i><par n="Sicilia__np"/></e>
     <e lm="Norveggia"><i>Norveggia</i><par n="Sicilia__np"/></e>
     <e lm="Nova Delhi"><i>Nova<b/>Delhi</i><par n="Sicilia__np"/></e>
     <e lm="Nova York"><i>Nova<b/>York</i><par n="Sicilia__np"/></e>
