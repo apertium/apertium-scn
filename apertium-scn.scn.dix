@@ -294,6 +294,12 @@
       	<e><p><l>u</l><r>u<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
       	<e><p><l>u</l><r>u<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
+
+    <pardef n="culoni/a__n">
+      	<e><p><l>a</l><r>a<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+      	<e><p><l></l><r>a<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+      	<e r="LR"><p><l>i</l><r>a<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
   
     <pardef n="María__np">
       	<e><p><l></l><r><s n="np"/><s n="ant"/></r></p></e>
@@ -1548,6 +1554,7 @@
     <e lm="casa"><i>cas</i><par n="cas/a__n"/></e>
     <e lm="ìsula"><i>ìsul</i><par n="cas/a__n"/></e>
     <e lm="guerra"><par n="gu/v/u"/><i>err</i><par n="cas/a__n"/></e>
+    <e lm="doppuguerra"><i>doppuguerr</i><par n="cas/a__n"/></e>
     <e lm="lingua"><i>lingu</i><par n="cas/a__n"/></e>
     <e lm="mamma"><i>mamm</i><par n="cas/a__n"/></e>
     <e lm="acqua"><i>acqu</i><par n="cas/a__n"/></e>
@@ -1587,6 +1594,7 @@
     
     <e lm="soru"><i>sor</i><par n="sor/u__n"/></e>
     
+    <e lm="culonia"><i>culoni</i><par n="culoni/a__n"/></e>
     
 
     <!-- SECTION: Proper nouns -->
@@ -2313,6 +2321,7 @@
     <e lm="forti"><i>forti</i><par n="duci__adj"/></e>
     <e lm="diffìcili"><i>diffìcili</i><par n="duci__adj"/></e>
     <e lm="disfìcili" r="LR"><p><l>disfìcili</l><r>diffìcili</r></p><par n="duci__adj"/></e>
+    <e lm="munniali"><i>munniali</i><par n="duci__adj"/></e>
     
     
 
@@ -2392,6 +2401,7 @@
     <e lm="ammucciari"><i>ammucci</i><par n="parr/ari__vblex"/></e>
     <e lm="avvicinari"><i>avvicin</i><par n="parr/ari__vblex"/></e>
     <e lm="dumannari"><i>dumann</i><par n="parr/ari__vblex"/></e>
+    <e lm="usari"><i>us</i><par n="parr/ari__vblex"/></e>
     
     
 
