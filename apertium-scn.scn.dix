@@ -427,6 +427,13 @@
       	<e><p><l></l><r><s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
     </pardef>
     
+    <pardef n="elettrumagnetic/u__adj">
+      	<e><p><l>u</l><r>iu<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+      	<e><p><l>hi</l><r>iu<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
+      	<e><p><l>a</l><r>iu<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+      	<e><p><l>hi</l><r>iu<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
+        
     
     <!-- SECTION: Verbs -->
 
@@ -768,7 +775,7 @@
       	<e><p><l>ari</l><r>ari<s n="vblex"/><s n="inf"/></r></p></e>
         
     	<e><p><l>u</l><r>ari<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
-    	<e><p><l>ci</l><r>ari<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+    	<e><p><l>hi</l><r>ari<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
     	<e><p><l>a</l><r>ari<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
     	<e><p><l>amu</l><r>ari<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
     	<e><p><l>ati</l><r>ari<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
@@ -890,7 +897,7 @@
 
         <e><p><l>ennu</l><r>iri<s n="vblex"/><s n="ger"/></r></p></e>
     </pardef>
-    
+  
     <pardef n="d/òrmiri__vblex">
       	<e><p><l>òrmiri</l><r>òrmiri<s n="vblex"/><s n="inf"/></r></p></e>
         
@@ -1424,6 +1431,10 @@
     <e lm="nta"><i></i><par n="contnta__pr"/></e>
     <e lm="agghiri"><i>agghiri</i><par n="tra__pr"/></e>
     <e lm="arretu"><i>arretu</i><par n="tra__pr"/></e>
+    <e lm="tràmiti"><i>tràmiti</i><par n="tra__pr"/></e>
+    <e lm="pi"><i>pi</i><par n="tra__pr"/></e>
+    
+    
 
     <e lm="juntu a"><i>juntu<b/></i><par n="conta__pr"/></e>
     <e lm="avanzi a"><i>avanzi<b/></i><par n="conta__pr"/></e>
@@ -1545,6 +1556,8 @@
     <e lm="occhiu"><i>occhi</i><par n="ann/u__n"/></e>
     <e lm="mpiru"><i>mpir</i><par n="ann/u__n"/></e>
     <e lm="sonu"><i>son</i><par n="ann/u__n"/></e>
+    <e lm="aneddu"><i>anedd</i><par n="ann/u__n"/></e>
+    <e lm="fasciu"><i>fasci</i><par n="ann/u__n"/></e>
     
     
     <e lm="casa"><i>cas</i><par n="cas/a__n"/></e>
@@ -1572,7 +1585,10 @@
     <e lm="tàvula"><i>tàvul</i><par n="cas/a__n"/></e>
     <e lm="ura"><i>ur</i><par n="cas/a__n"/></e>
     <e lm="vota"><i>vot</i><par n="cas/a__n"/></e>
-    
+    <e lm="màchina"><i>màchin</i><par n="cas/a__n"/></e>
+    <e lm="plasma"><i>plasm</i><par n="cas/a__n"/></e>
+    <e lm="timpiratura"><i>timpiratur</i><par n="cas/a__n"/></e>
+    <e lm="forza"><i>forz</i><par n="cas/a__n"/></e>
     
     
     
@@ -1584,12 +1600,15 @@
     <e lm="patri"><i>patri</i><par n="patri__n"/></e>
     <e lm="facci"><i>facci</i><par n="matri__n"/></e>
     <e lm="genti"><i>genti</i><par n="matri__n"/></e>
+    
     <e lm="vuci"><i>vuci</i><par n="matri__n"/></e>
     <e lm="pedi"><i>pedi</i><par n="patri__n"/></e>
     <e lm="caluri"><i>calur</i><par n="patri__n"/></e>
     <e lm="voi"><i>vo</i><par n="patri__n"/></e>
     <e lm="attinzioni"><i>attinzioni</i><par n="matri__n"/></e>
     <e lm="cani"><i>cani</i><par n="patri__n"/></e>
+    <e lm="pedi"><i>pedi</i><par n="patri__n"/></e>
+    <e lm="tokamak"><i>tokamak</i><par n="patri__n"/></e>
     
     
     <e lm="parcu"><i>parc</i><par n="parc/u__n"/></e>
@@ -2319,6 +2338,9 @@
     <e lm="longu"><i>long</i><par n="bedd/u__adj"/></e>
     <e lm="falsu"><i>fals</i><par n="bedd/u__adj"/></e>
     <e lm="densu"><i>dens</i><par n="bedd/u__adj"/></e>
+    <e lm="àutu"><i>àut</i><par n="bedd/u__adj"/></e>
+    
+    
     <e lm="dìlicu"><i>dìlic</i><par n="bedd/u__adj"/></e>
     <e lm="nicu"><i>nic</i><par n="bedd/u__adj"/></e>
     <e lm="duci"><i>duci</i><par n="duci__adj"/></e>
@@ -2337,9 +2359,14 @@
     <e lm="munniali"><i>munniali</i><par n="duci__adj"/></e>
     <e lm="piacèvuli"><i>piacèvuli</i><par n="duci__adj"/></e>
     
+    <e lm="elettrumagneticu"><i>elettrumagnetic</i><par n="elettrumagnetic/u__adj"/></e>
+    
     
     
     <e lm="anglisi"><i>anglisi</i><par n="duci__adj"/></e>
+    
+    <e lm="cintrali"><i>cintrali</i><par n="duci__adj"/></e>
+    
     
 
     <!-- SECTION: Adverbs -->
@@ -2434,6 +2461,8 @@
     <e lm="arrinèsciri"><i>arrinèsc</i><par n="batt/iri__vblex"/></e>
     <e lm="arrìdiri"><i>arrìd</i><par n="batt/iri__vblex"/></e>
     <e lm="ntènniri"><i>arrìd</i><par n="batt/iri__vblex"/></e>
+    <e lm="tràmitiri"><i>tràmit</i><par n="batt/iri__vblex"/></e>
+    <e lm="ristrinciri"><i>ristrinc</i><par n="batt/iri__vblex"/></e>
     
     
     <e lm="dòrmiri"><i>d</i><par n="d/òrmiri__vblex"/></e>
