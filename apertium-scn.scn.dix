@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dictionary>
-  <alphabet>ABCDEFGHIJKLMNOPQRSTUVZaàáâbcdeèéêfghijìíîklmnoòóôpqrstuùúûvz</alphabet>
+  <alphabet>aáàăắâǎåäãąāảạæbḃcćčċçdḋđḍðeéèĕêếễěëėęēəfgğĝǧġhħḥḫii̇íìĭîǐïĩīịıjkḱlłḻmnńňṅṇŋñoóòŏôốồộǒöőõøōớɔœpqrŕřŗṛṝsśšṡşṣßtţṭuúùŭûǔüũūưứvwxyýÿỹzźžżẓþAÁÀĂẮÂǍÅÄÃĄĀẢẠÆBḂCĆČĊÇDḊĐḌÐEÉÈĔÊẾỄĚËĖĘĒƏFGĞĜǦĠHĦḤḪIİÍÌĬÎǏÏĨĪỊIJKḰLŁḺMNŃŇṄṆŊÑOÓÒŎÔỐỒỘǑÖŐÕØŌỚƆŒPQRŔŘŖṚṜSŚŠṠŞṢSSTŢṬUÚÙŬÛǓÜŨŪƯỨVWXYÝŸỸZŹŽŻẒÞ</alphabet>
 
   <sdefs>
     <sdef n="acr" /> 
@@ -227,15 +227,15 @@
     
     <!-- SECTION: Determiners -->
     <pardef n="l/u__det">
-      <e><p><l>u</l>       <r>u<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>i</l>       <r>u<s n="det"/><s n="def"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>a</l>       <r>u<s n="det"/><s n="def"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>i</l>       <r>u<s n="det"/><s n="def"/><s n="f"/><s n="pl"/></r></p></e>
+      <e><p><l>u</l><r>u<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>i</l><r>u<s n="det"/><s n="def"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>a</l><r>u<s n="det"/><s n="def"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>i</l><r>u<s n="det"/><s n="def"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
     
     <pardef n="/un__det">
     	<e><p><l>un</l><r>un<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
-    	<e><p><l>na</l><r>lu<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></r></p></e>
+    	<e><p><l>na</l><r>un<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></r></p></e>
     </pardef>
 
     <pardef n="chist/u__det">
@@ -1609,6 +1609,9 @@
     <e lm="nord"><i>nord</i><par n="sud__n"/></e>
     <e lm="ovest"><i>ovest</i><par n="sud__n"/></e>
 
+    <e lm="univirsitati"><i>univirsitati</i><par n="matri__n"/></e>
+    <e lm="sedi"><i>sedi</i><par n="matri__n"/></e>
+
     <!-- SECTION: Proper nouns -->
 
     <e lm="María"><i>María</i><par n="María__np"/></e>
@@ -2334,6 +2337,7 @@
     <e lm="disfìcili" r="LR"><p><l>disfìcili</l><r>diffìcili</r></p><par n="duci__adj"/></e>
     <e lm="munniali"><i>munniali</i><par n="duci__adj"/></e>
     
+    <e lm="anglisi"><i>anglisi</i><par n="duci__adj"/></e>
     
 
     <!-- SECTION: Adverbs -->
