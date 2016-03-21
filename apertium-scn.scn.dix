@@ -152,16 +152,15 @@
         <e><p><l></l><r><s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
     </pardef>
     
-
-    
     <pardef n="nuautri__prn">
-        <e><p><l></l><r><s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
+        <e><p><l></l><r><s n="prn"/><s n="tn"/><s n="p1"/><s n="m"/><s n="pl"/></r></p></e>
+        <e><p><l></l><r><s n="prn"/><s n="tn"/><s n="p1"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
 
     <pardef n="vuautri__prn">
         <e><p><l></l><r><s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
+        <e><p><l></l><r><s n="prn"/><s n="tn"/><s n="p2"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
-
 
     <pardef n=" /u__prn">
       <e><p><l>i</l><r><s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/></r></p></e>
@@ -185,8 +184,6 @@
     <pardef n="tutti_e_dui__prn">
       <e><p><l></l><r><s n="prn"/><s n="tn"/><s n="mf"/><s n="pl"/></r></p></e>
     </pardef>
-
-    
 
     <pardef n="chi__prn">
       <e><p><l></l><r><s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></r></p></e>
@@ -271,13 +268,11 @@
     </pardef>
     
     <pardef n="matri__n">
-      	<e><p><l></l><r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-      	<e><p><l></l><r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+      	<e><p><l></l><r><s n="n"/><s n="f"/><s n="sp"/></r></p></e>
     </pardef>
     
     <pardef n="patri__n">
-      	<e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      	<e><p><l></l><r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+      	<e><p><l></l><r><s n="n"/><s n="m"/><s n="sp"/></r></p></e>
     </pardef>
     
     <pardef n="parc/u__n">
@@ -289,12 +284,7 @@
       	<e><p><l>a</l><r>a<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
       	<e><p><l>hi</l><r>a<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
-
-    <pardef n="sor/u__n">
-      	<e><p><l>u</l><r>u<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-      	<e><p><l>u</l><r>u<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
-    </pardef>
-
+    
     <pardef n="culoni/a__n">
       	<e><p><l>a</l><r>a<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
       	<e><p><l></l><r>a<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
@@ -1433,6 +1423,7 @@
     <e lm="sutta"><i>sutta</i><par n="tra__pr"/></e>
     <e lm="nta"><i></i><par n="contnta__pr"/></e>
     <e lm="agghiri"><i>agghiri</i><par n="tra__pr"/></e>
+    <e lm="arretu"><i>arretu</i><par n="tra__pr"/></e>
 
     <e lm="juntu a"><i>juntu<b/></i><par n="conta__pr"/></e>
     <e lm="avanzi a"><i>avanzi<b/></i><par n="conta__pr"/></e>
@@ -1551,7 +1542,7 @@
     <e lm="annu"><i>ann</i><par n="ann/u__n"/></e>
     <e lm="cuvernu"><par n="c/g"/><i>uvern</i><par n="ann/u__n"/></e>
     <e lm="aceddu"><i>acedd</i><par n="ann/u__n"/></e>
-    <e lm="armali"><i>armal</i><par n="ann/u__n"/></e>
+    <e lm="armalu"><i>armal</i><par n="ann/u__n"/></e>
     <e lm="occhiu"><i>occhi</i><par n="ann/u__n"/></e>
     <e lm="mpiru"><i>mpir</i><par n="ann/u__n"/></e>
     
@@ -1575,11 +1566,8 @@
     <e lm="scola"><i>scol</i><par n="cas/a__n"/></e>
     <e lm="scala"><i>scal</i><par n="cas/a__n"/></e>
     <e lm="sira"><i>sir</i><par n="cas/a__n"/></e>
-    
-
-    
-    
-    
+    <e lm="dumanda"><i>dumand</i><par n="cas/a__n"/></e>
+    <e lm="risposta"><i>rispost</i><par n="cas/a__n"/></e>
     
     
     <e lm="figghiu"><i>figgh</i><par n="figgh/iu__n"/></e>
@@ -1598,9 +1586,8 @@
     <e lm="parcu"><i>parc</i><par n="parc/u__n"/></e>
     <e lm="sceccu"><i>scecc</i><par n="parc/u__n"/></e>
     <e lm="beccu"><i>becc</i><par n="parc/u__n"/></e>
-    <e lm="monaca"><i>monac</i><par n="monac/a__n"/></e>
     
-    <e lm="soru"><i>sor</i><par n="sor/u__n"/></e>
+    <e lm="soru"><i>soru</i><par n="matri__n"/></e>
     
     <e lm="culonia"><i>culoni</i><par n="culoni/a__n"/></e>
     
@@ -1854,6 +1841,7 @@
     <e lm="Florida"><i>Florida</i><par n="Sicilia__np"/></e>
     <e lm="Formentera"><i>Formentera</i><par n="Sicilia__np"/></e>
     <e lm="Francia"><i>Francia</i><par n="Sicilia__np"/></e>
+    <e lm="Francuforti"><i>Francuforti</i><par n="Sicilia__np"/></e>
     <e lm="Francuforti supr'ô Menu"><i>Francuforti<b/>supr'ô<b/>Menu</i><par n="Sicilia__np"/></e>
     <e lm="Freetown"><i>Freetown</i><par n="Sicilia__np"/></e>
     <e lm="Funchal"><i>Funchal</i><par n="Sicilia__np"/></e>
@@ -2353,6 +2341,10 @@
     <e lm="assai"><i>assai</i><par n="ùoggi__adv"/></e>
 
     <e lm="nun"><i>nun</i><par n="ùoggi__adv"/></e>
+    <e lm="ancora"><i>ancora</i><par n="ùoggi__adv"/></e>
+    <e lm="arretu"><i>arretu</i><par n="ùoggi__adv"/></e>
+    
+    
 
     <e lm="ùoggi"><i>ùoggi</i><par n="ùoggi__adv"/></e>
     <e lm="mai"><i>mai</i><par n="ùoggi__adv"/></e>
@@ -2378,12 +2370,12 @@
     <e lm="càudu"><i>càudu</i><par n="ùoggi__adv"/></e>
     <e lm="friddu"><i>friddu</i><par n="ùoggi__adv"/></e>
     <e lm="nzemi"><i>nzemi</i><par n="ùoggi__adv"/></e>
+    <e lm="bonu"><i>bonu</i><par n="ùoggi__adv"/></e>
     
-
     
-
 
     <!-- SECTION: Verbs -->
+    
     <e lm="essiri"><i></i><par n="/essiri__vbser"/></e>
     <e lm="aviri"><i></i><par n="/aviri__vbhaver"/></e>
     <e lm="aviri"><i></i><par n="/aviri__vblex"/></e>
@@ -2395,7 +2387,6 @@
     <e lm="dari"><i>d</i><par n="d/ari__vblex"/></e>
     <e lm="rid"><i>rid</i><par n="d/ari__vblex"/></e>
     <e lm="vuliti"><i>v</i><par n="v/uliri__vblex"/></e>
-    
     
     <e lm="parrari"><i>parr</i><par n="parr/ari__vblex"/></e>
     <e lm="spiari"><i>spi</i><par n="parr/ari__vblex"/></e>
@@ -2418,10 +2409,6 @@
     <e lm="dumannari"><i>dumann</i><par n="parr/ari__vblex"/></e>
     <e lm="mpizzari"><i>mpizz</i><par n="parr/ari__vblex"/></e>
     <e lm="accuminciari"><i>accuminci</i><par n="parr/ari__vblex"/></e>
-
-    
-    
-
     
     <e lm="battiri"><i>batt</i><par n="batt/iri__vblex"/></e>
     <e lm="arrispùnniri"><i>arrispùnn</i><par n="batt/iri__vblex"/></e>
@@ -2431,7 +2418,6 @@
     <e lm="arrinèsciri"><i>arrinèsc</i><par n="batt/iri__vblex"/></e>
     <e lm="arrìdiri"><i>arrìd</i><par n="batt/iri__vblex"/></e>
     <e lm="ntènniri"><i>arrìd</i><par n="batt/iri__vblex"/></e>
-    
     
     
     <e lm="dòrmiri"><i>d</i><par n="d/òrmiri__vblex"/></e>
