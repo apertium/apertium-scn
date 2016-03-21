@@ -1460,7 +1460,6 @@
     <e lm="vostru"><i>vostr</i><par n="bedd/u__adj"/></e>    
     
 
-
     <!-- SECTION: Determiners -->
     
     <e lm="chistu"><i>chist</i><par n="chist/u__det"/></e>
@@ -1545,6 +1544,8 @@
     <e lm="armalu"><i>armal</i><par n="ann/u__n"/></e>
     <e lm="occhiu"><i>occhi</i><par n="ann/u__n"/></e>
     <e lm="mpiru"><i>mpir</i><par n="ann/u__n"/></e>
+    <e lm="sonu"><i>son</i><par n="ann/u__n"/></e>
+    
     
     <e lm="casa"><i>cas</i><par n="cas/a__n"/></e>
     <e lm="ìsula"><i>ìsul</i><par n="cas/a__n"/></e>
@@ -1562,12 +1563,18 @@
     <e lm="cavesa"><i>caves</i><par n="cas/a__n"/></e>
     <e lm="finestra"><i>finestr</i><par n="cas/a__n"/></e>
     <e lm="dumanna"><i>dumann</i><par n="cas/a__n"/></e>
-    <e lm="seggia"><i>segg</i><par n="cas/a__n"/></e>
+    <e lm="seggia"><i>seggi</i><par n="cas/a__n"/></e>
     <e lm="scola"><i>scol</i><par n="cas/a__n"/></e>
     <e lm="scala"><i>scal</i><par n="cas/a__n"/></e>
     <e lm="sira"><i>sir</i><par n="cas/a__n"/></e>
     <e lm="dumanda"><i>dumand</i><par n="cas/a__n"/></e>
     <e lm="risposta"><i>rispost</i><par n="cas/a__n"/></e>
+    <e lm="tàvula"><i>tàvul</i><par n="cas/a__n"/></e>
+    <e lm="ura"><i>ur</i><par n="cas/a__n"/></e>
+    <e lm="vota"><i>vot</i><par n="cas/a__n"/></e>
+    
+    
+    
     
     
     <e lm="figghiu"><i>figgh</i><par n="figgh/iu__n"/></e>
@@ -1575,6 +1582,7 @@
     <e lm="matri"><i>matri</i><par n="matri__n"/></e>
     <e lm="patri"><i>patri</i><par n="patri__n"/></e>
     <e lm="facci"><i>facci</i><par n="matri__n"/></e>
+    <e lm="genti"><i>genti</i><par n="matri__n"/></e>
     <e lm="vuci"><i>vuci</i><par n="matri__n"/></e>
     <e lm="pedi"><i>pedi</i><par n="patri__n"/></e>
     <e lm="caluri"><i>calur</i><par n="patri__n"/></e>
@@ -2311,6 +2319,7 @@
     <e lm="falsu"><i>fals</i><par n="bedd/u__adj"/></e>
     <e lm="densu"><i>dens</i><par n="bedd/u__adj"/></e>
     <e lm="dìlicu"><i>dìlic</i><par n="bedd/u__adj"/></e>
+    <e lm="nicu"><i>nic</i><par n="bedd/u__adj"/></e>
     <e lm="duci"><i>duci</i><par n="duci__adj"/></e>
     <e lm="granni"><i>granni</i><par n="duci__adj"/></e>
     <e lm="filici"><i>filici</i><par n="duci__adj"/></e>
@@ -2324,6 +2333,7 @@
     <e lm="diffìcili"><i>diffìcili</i><par n="duci__adj"/></e>
     <e lm="disfìcili" r="LR"><p><l>disfìcili</l><r>diffìcili</r></p><par n="duci__adj"/></e>
     <e lm="munniali"><i>munniali</i><par n="duci__adj"/></e>
+    
     
     <e lm="anglisi"><i>anglisi</i><par n="duci__adj"/></e>
     
