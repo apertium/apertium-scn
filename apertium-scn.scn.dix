@@ -412,7 +412,7 @@
     </pardef>
 
     <pardef n="bedd/u__adj">
-      	<e><p><l></l><r><s n="adj"/></r></p><par n="A__/u"/></e>
+      	<e><p><l></l><r>u<s n="adj"/></r></p><par n="A__/u"/></e>
     </pardef>
     
     <pardef n="lar/iu__adj">
@@ -428,10 +428,10 @@
     </pardef>
     
     <pardef n="elettrumagnetic/u__adj">
-      	<e><p><l>u</l><r>iu<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
-      	<e><p><l>hi</l><r>iu<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
-      	<e><p><l>a</l><r>iu<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
-      	<e><p><l>hi</l><r>iu<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
+      	<e><p><l>u</l><r>u<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+      	<e><p><l>hi</l><r>u<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
+      	<e><p><l>a</l><r>u<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+      	<e><p><l>hi</l><r>u<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
         
     
@@ -1558,6 +1558,8 @@
     <e lm="sonu"><i>son</i><par n="ann/u__n"/></e>
     <e lm="aneddu"><i>anedd</i><par n="ann/u__n"/></e>
     <e lm="fasciu"><i>fasci</i><par n="ann/u__n"/></e>
+    <e lm="campu"><i>camp</i><par n="ann/u__n"/></e>
+    
     
     
     <e lm="casa"><i>cas</i><par n="cas/a__n"/></e>
@@ -1608,7 +1610,7 @@
     <e lm="attinzioni"><i>attinzioni</i><par n="matri__n"/></e>
     <e lm="cani"><i>cani</i><par n="patri__n"/></e>
     <e lm="pedi"><i>pedi</i><par n="patri__n"/></e>
-    <e lm="tokamak"><i>tokamak</i><par n="patri__n"/></e>
+    <e lm="tokamak"><i>tokamak</i><par n="sud__n"/></e>
     
     
     <e lm="parcu"><i>parc</i><par n="parc/u__n"/></e>
