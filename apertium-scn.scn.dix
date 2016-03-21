@@ -1580,6 +1580,7 @@
     <e lm="figghiu"><i>figgh</i><par n="figgh/iu__n"/></e>
     <e lm="oricchia"><i>oricch</i><par n="oricch/ia__n"/></e>
     <e lm="matri"><i>matri</i><par n="matri__n"/></e>
+    <e lm="manu"><i>manu</i><par n="matri__n"/></e>
     <e lm="patri"><i>patri</i><par n="patri__n"/></e>
     <e lm="facci"><i>facci</i><par n="matri__n"/></e>
     <e lm="genti"><i>genti</i><par n="matri__n"/></e>
@@ -2321,6 +2322,7 @@
     <e lm="dìlicu"><i>dìlic</i><par n="bedd/u__adj"/></e>
     <e lm="nicu"><i>nic</i><par n="bedd/u__adj"/></e>
     <e lm="duci"><i>duci</i><par n="duci__adj"/></e>
+    <e lm="grandi"><i>grandi</i><par n="duci__adj"/></e>
     <e lm="granni"><i>granni</i><par n="duci__adj"/></e>
     <e lm="filici"><i>filici</i><par n="duci__adj"/></e>
     <e lm="dèbbuli"><i>dèbbuli</i><par n="duci__adj"/></e>
@@ -2333,6 +2335,8 @@
     <e lm="diffìcili"><i>diffìcili</i><par n="duci__adj"/></e>
     <e lm="disfìcili" r="LR"><p><l>disfìcili</l><r>diffìcili</r></p><par n="duci__adj"/></e>
     <e lm="munniali"><i>munniali</i><par n="duci__adj"/></e>
+    <e lm="piacèvuli"><i>piacèvuli</i><par n="duci__adj"/></e>
+    
     
     
     <e lm="anglisi"><i>anglisi</i><par n="duci__adj"/></e>
@@ -2419,6 +2423,8 @@
     <e lm="dumannari"><i>dumann</i><par n="parr/ari__vblex"/></e>
     <e lm="mpizzari"><i>mpizz</i><par n="parr/ari__vblex"/></e>
     <e lm="accuminciari"><i>accuminci</i><par n="parr/ari__vblex"/></e>
+    <e lm="guardari"><i>guard</i><par n="parr/ari__vblex"/></e>
+    
     
     <e lm="battiri"><i>batt</i><par n="batt/iri__vblex"/></e>
     <e lm="arrispùnniri"><i>arrispùnn</i><par n="batt/iri__vblex"/></e>
