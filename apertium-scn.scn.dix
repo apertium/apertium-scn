@@ -2467,6 +2467,8 @@
   <section id="apostrophes" type="postblank">
     <!-- FIXME: Comprobar si se puede poner apostrofe sólo en singular o también en plural ?-->
     <e r="LR" lm="l'"><p><l>l'</l><r>lu<s n="det"/><s n="def"/><s n="mf"/><s n="sg"/></r></p></e>
+
+    <e r="LR" lm="d'"><p><l>d'</l><r>di<s n="pr"/></r></p></e>
   </section>
 
   <section id="final" type="inconditional">
