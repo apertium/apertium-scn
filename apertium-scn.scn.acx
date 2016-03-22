@@ -1,5 +1,14 @@
 <?xml version="1.0"?>
 <analysis-chars>
+  <!-- Make all apostrophes equal -->
+  <char value="'">
+    <equiv-char value="&#x2019;"/>
+    <equiv-char value="&#x2BC;"/>
+    <equiv-char value="&#8217;"/>
+    <equiv-char value="&#39;"/>
+  </char>
+
+  <!-- Se suele no escribir los símbolos diacríticos -->
 
   <char value="à">
     <equiv-char value="a"/>
@@ -21,18 +30,20 @@
     <equiv-char value="u"/>
   </char>
 
-
   <char value="î">
     <equiv-char value="i"/>
   </char>
 
-
-  <char value="'">
-    <equiv-char value="&#x2019;"/>
-    <equiv-char value="&#x2BC;"/>
-    <equiv-char value="&#8217;"/>
-    <equiv-char value="&#39;"/>
+  <char value="ô">
+    <equiv-char value="o"/>
   </char>
+
+  <char value="û">
+    <equiv-char value="u"/>
+  </char>
+
+
+
 
 </analysis-chars>
 

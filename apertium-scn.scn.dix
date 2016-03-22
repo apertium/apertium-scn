@@ -1544,6 +1544,9 @@
     
     <e lm="telèfonu"><i>telèfon</i><par n="ann/u__n"/></e>
     <e lm="jardinu"><i>jardin</i><par n="ann/u__n"/></e>
+    <e lm="munnu"><i>munn</i><par n="ann/u__n"/></e>
+    <e lm="elementu"><i>element</i><par n="ann/u__n"/></e>
+    <e lm="funziunamentu"><i>funziunament</i><par n="ann/u__n"/></e>
     <e lm="gruppu"><i>grupp</i><par n="ann/u__n"/></e>
     <e lm="ortu"><i>ort</i><par n="ann/u__n"/></e>
     <e lm="vinu"><i>vin</i><par n="ann/u__n"/></e>
@@ -1618,12 +1621,12 @@
     <e lm="patri"><i>patri</i><par n="patri__n"/></e>
     <e lm="facci"><i>facci</i><par n="matri__n"/></e>
     <e lm="genti"><i>genti</i><par n="matri__n"/></e>
+    <e lm="fasi"><i>fasi</i><par n="matri__n"/></e>
     
     <e lm="vuci"><i>vuci</i><par n="matri__n"/></e>
     <e lm="pedi"><i>pedi</i><par n="patri__n"/></e>
     <e lm="caluri"><i>calur</i><par n="patri__n"/></e>
     <e lm="voi"><i>vo</i><par n="patri__n"/></e>
-    <e lm="attinzioni"><i>attinzioni</i><par n="matri__n"/></e>
     <e lm="cani"><i>cani</i><par n="patri__n"/></e>
     <e lm="pedi"><i>pedi</i><par n="patri__n"/></e>
     <e lm="tokamak"><i>tokamak</i><par n="patri__n"/></e>
@@ -1645,8 +1648,12 @@
     <e lm="univirsitati"><i>univirsitati</i><par n="matri__n"/></e>
     <e lm="sedi"><i>sedi</i><par n="matri__n"/></e>
 
+    <e lm="attinzioni"><i>attinzioni</i><par n="matri__n"/></e>
+
     <e lm="pupulazzioni"><i>pupulaz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="pòpulazzioni" r="LR"><p><l>pòpulaz</l><r>pupulaz</r></p><par n="pupulaz/zioni__n"/></e>
+    <e lm="pruduzzioni"><i>pruduz</i><par n="pupulaz/zioni__n"/></e>
+    <e lm="produzzioni" r="LR"><p><l>produz</l><r>pruduz</r></p><par n="pupulaz/zioni__n"/></e>
 
     <!-- SECTION: Proper nouns -->
 
@@ -2882,9 +2889,6 @@
     <e lm="sempri"><i>sempri</i><par n="ùoggi__adv"/></e>
     <e lm="sempi" r="LR" c="Dial/X"><p><l>sempi</l><r>sempri</r></p><par n="ùoggi__adv"/></e>
     <e lm="no"><i>no</i><par n="ùoggi__adv"/></e>
-    <e lm="probabilmenti"><i>probabilmenti</i><par n="ùoggi__adv"/></e>
-    <e lm="ovviamenti"><i>ovviamenti</i><par n="ùoggi__adv"/></e>
-    <e lm="rapidamenti"><i>rapidamenti</i><par n="ùoggi__adv"/></e>
     <e lm="granni"><i>granni</i><par n="ùoggi__adv"/></e>
     <e lm="fuori"><i>assai</i><par n="assai__preadv"/></e>
     <e lm="chiù"><i>chiù</i><par n="ùoggi__adv"/></e>
@@ -2896,6 +2900,10 @@
     <e lm="accamora"><i>accamora</i><par n="ùoggi__adv"/></e>
     <e lm="menu"><i>menu</i><par n="ùoggi__adv"/></e>
     
+    <e lm="probabilmenti"><i>probabilmenti</i><par n="ùoggi__adv"/></e>
+    <e lm="attuarmenti"><i>attuarmenti</i><par n="ùoggi__adv"/></e>
+    <e lm="ovviamenti"><i>ovviamenti</i><par n="ùoggi__adv"/></e>
+    <e lm="rapidamenti"><i>rapidamenti</i><par n="ùoggi__adv"/></e>
     
     
 
