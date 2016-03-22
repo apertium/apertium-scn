@@ -308,10 +308,10 @@
     </pardef>
 
     <pardef n="pupulaz/zioni__n">
-      	<e><p><l>zioni</l><r>zioni<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-      	<e r="LR"><p><l>zioni</l><r>zioni<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-      	<e r="LR"><p><l>ioni</l><r>zioni<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-      	<e r="LR"><p><l>ione</l><r>zioni<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+      	<e><p><l>zioni</l><r>zioni<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
+      	<e r="LR"><p><l>zioni</l><r>zioni<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
+      	<e r="LR"><p><l>ioni</l><r>zioni<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
+      	<e r="LR"><p><l>ione</l><r>zioni<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
     </pardef>
 
     <!-- SECTION: Proper nouns -->
@@ -1435,6 +1435,7 @@
     <e lm="duranti"><i>durant</i><par n="durant/i__pr"/></e>
     <e lm="senza"><i>senza</i><par n="tra__pr"/></e>
     <e lm="sutta"><i>sutta</i><par n="tra__pr"/></e>
+    <e lm="supra"><i>supra</i><par n="tra__pr"/></e>
     <e lm="nta"><i></i><par n="contnta__pr"/></e>
     <e lm="agghiri"><i>agghiri</i><par n="tra__pr"/></e>
     <e lm="arretu"><i>arretu</i><par n="tra__pr"/></e>
@@ -1649,6 +1650,7 @@
     <e lm="sedi"><i>sedi</i><par n="matri__n"/></e>
 
     <e lm="attinzioni"><i>attinzioni</i><par n="matri__n"/></e>
+    <e lm="fusioni"><i>fusioni</i><par n="matri__n"/></e>
 
     <e lm="pupulazzioni"><i>pupulaz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="pòpulazzioni" r="LR"><p><l>pòpulaz</l><r>pupulaz</r></p><par n="pupulaz/zioni__n"/></e>
