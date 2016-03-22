@@ -181,6 +181,11 @@
         <e><p><l></l><r><s n="prn"/><s n="pro"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
     </pardef>
 
+    <pardef n="nudd/u__prn">
+      <e><p><l>u</l><r>u<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>a</l><r>u<s n="prn"/><s n="tn"/><s n="f"/><s n="sg"/></r></p></e>
+    </pardef>
+
     <pardef n="tutti_e_dui__prn">
       <e><p><l></l><r><s n="prn"/><s n="tn"/><s n="mf"/><s n="pl"/></r></p></e>
     </pardef>
@@ -1468,6 +1473,8 @@
 
     <e lm="chi"><i>chi</i><par n="chi__prn"/></e>
 
+    <e lm="nuddu"><i>nudd</i><par n="nudd/u__prn"/></e>
+
     <e lm="tutti e dui"><i>tutti<b/>e<b/>dui</i><par n="tutti_e_dui__prn"/></e>
     
     <e lm="loru"><i>loru</i><par n="loru__adj"/></e>
@@ -1475,8 +1482,8 @@
     <e lm="tuu"><i>t</i><par n="t/uu__adj"/></e>
     <e lm="suu"><i>s</i><par n="t/uu__adj"/></e>
 
-    <e lm="nostru"><i>nostr</i><par n="bedd/u__adj"/></e>
-    <e lm="vostru"><i>vostr</i><par n="bedd/u__adj"/></e>    
+    <e lm="nostru"><i>nostr</i><par n="bedd/u__adj"/></e> <!-- CHEQUEAR -->
+    <e lm="vostru"><i>vostr</i><par n="bedd/u__adj"/></e>     <!-- CHEQUEAR -->
     
 
     <!-- SECTION: Determiners -->
@@ -1623,6 +1630,7 @@
     <e lm="facci"><i>facci</i><par n="matri__n"/></e>
     <e lm="genti"><i>genti</i><par n="matri__n"/></e>
     <e lm="fasi"><i>fasi</i><par n="matri__n"/></e>
+    <e lm="virsioni"><i>virsioni</i><par n="matri__n"/></e>
     
     <e lm="vuci"><i>vuci</i><par n="matri__n"/></e>
     <e lm="pedi"><i>pedi</i><par n="patri__n"/></e>
@@ -2952,6 +2960,8 @@
     <e lm="abbasari"><i>abbas</i><par n="parr/ari__vblex"/></e>
     <e lm="chiamari"><i>chiam</i><par n="parr/ari__vblex"/></e>    
     <e lm="caudiari"><i>caudi</i><par n="parr/ari__vblex"/></e>  
+    <e lm="dimustrari"><i>dimustr</i><par n="parr/ari__vblex"/></e>  
+    <e lm="pirfizzionari"><i>pirfizzion</i><par n="parr/ari__vblex"/></e>  
     
     
     
@@ -2967,6 +2977,7 @@
     <e lm="ristrinciri"><i>ristrinc</i><par n="batt/iri__vblex"/></e>
     <e lm="esistir"><i>esist</i><par n="batt/iri__vblex"/></e>
     <e lm="prudùciri"><i>prudùc</i><par n="batt/iri__vblex"/></e>
+    <e lm="ricìviri"><i>ricìv</i><par n="batt/iri__vblex"/></e>
     
     
     
