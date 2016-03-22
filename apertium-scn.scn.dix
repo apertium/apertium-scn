@@ -337,7 +337,7 @@
       	<e r="LR"><p><l>ô</l><r>a<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
       	<e r="LR"><p><l>â</l><r>a<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="f"/><s n="sg"/></r></p></e>
       	<e r="LR"><p><l>ê</l><r>a<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="mf"/><s n="pl"/></r></p></e>
-      	<e r="LR"><p><l>ôn</l><r>a<s n="pr"/><j/>lu<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
+      	<e r="LR"><p><l>ôn</l><r>a<s n="pr"/><j/>un<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
     </pardef>
 
     <pardef n="contdi__pr">
@@ -348,7 +348,7 @@
       	<e r="LR"><p><l>dâ</l><r>di<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="f"/><s n="sg"/></r></p></e>
       	<e r="LR"><p><l>dî</l><r>di<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="mf"/><s n="pl"/></r></p></e>
       	<e r="LR"><p><l>dê</l><r>di<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="mf"/><s n="pl"/></r></p></e>
-      	<e r="LR"><p><l>d'un</l><r>di<s n="pr"/><j/>lu<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
+      	<e r="LR"><p><l>d'un</l><r>di<s n="pr"/><j/>un<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
     </pardef>
 
     <pardef n="contnta__pr">
@@ -359,7 +359,7 @@
       	<e r="LR"><p><l>ntâ</l><r>nta<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="f"/><s n="sg"/></r></p></e>
       	<e r="LR"><p><l>ntê</l><r>nta<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="mf"/><s n="pl"/></r></p></e>
       	<e r="LR"><p><l>ntî</l><r>nta<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="mf"/><s n="pl"/></r></p></e>
-      	<e r="LR"><p><l>nt'un</l><r>nta<s n="pr"/><j/>lu<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
+      	<e r="LR"><p><l>nt'un</l><r>nta<s n="pr"/><j/>un<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
     </pardef>
 
     <pardef n="contcu__pr">
@@ -370,7 +370,7 @@
       	<e r="LR"><p><l>câ</l><r>cu<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="f"/><s n="sg"/></r></p></e>
       	<e r="LR"><p><l>chî</l><r>cu<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="mf"/><s n="pl"/></r></p></e>
       	<e r="LR"><p><l>chê</l><r>cu<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="mf"/><s n="pl"/></r></p></e>
-      	<e r="LR"><p><l>c'un</l><r>cu<s n="pr"/><j/>lu<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
+      	<e r="LR"><p><l>c'un</l><r>cu<s n="pr"/><j/>un<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
     </pardef>
 
 
@@ -1484,7 +1484,9 @@
     <e lm="chissu"><i>chiss</i><par n="chist/u__det"/></e>
     <e lm="chiddu"><i>chidd</i><par n="chist/u__det"/></e>
     
-    <e lm="un"><i></i><par n="/un__det"/></e>
+    <e lm="un" r="LR"><i></i><par n="/un__det"/></e>
+    <e lm="un" r="RL"><p><l><a/></l><r></r></p><par n="/un__det"/></e>
+
     <e lm="lu" r="LR"><i>l</i><par n="l/u__det"/></e>
     <e lm="lu" r="LR" c="Dial/V"><p><l></l><r>l</r></p><par n="l/u__det"/></e>
     <e lm="lu" r="RL"><p><l><a/>l</l><r>l</r></p><par n="l/u__det"/></e>
