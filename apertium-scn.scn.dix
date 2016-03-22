@@ -307,6 +307,13 @@
       	<e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
     </pardef>
 
+    <pardef n="pupulaz/zioni__n">
+      	<e><p><l>zioni</l><r>zioni<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+      	<e r="LR"><p><l>zioni</l><r>zioni<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+      	<e r="LR"><p><l>ioni</l><r>zioni<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+      	<e r="LR"><p><l>ione</l><r>zioni<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+    </pardef>
+
     <!-- SECTION: Proper nouns -->
      
     <pardef n="María__np">
@@ -1617,7 +1624,7 @@
     <e lm="attinzioni"><i>attinzioni</i><par n="matri__n"/></e>
     <e lm="cani"><i>cani</i><par n="patri__n"/></e>
     <e lm="pedi"><i>pedi</i><par n="patri__n"/></e>
-    <e lm="tokamak"><i>tokamak</i><par n="sud__n"/></e>
+    <e lm="tokamak"><i>tokamak</i><par n="patri__n"/></e>
     
     
     <e lm="parcu"><i>parc</i><par n="parc/u__n"/></e>
@@ -1635,6 +1642,9 @@
 
     <e lm="univirsitati"><i>univirsitati</i><par n="matri__n"/></e>
     <e lm="sedi"><i>sedi</i><par n="matri__n"/></e>
+
+    <e lm="pupulazzioni"><i>pupulaz</i><par n="pupulaz/zioni__n"/></e>
+    <e lm="pòpulazzioni" r="LR"><p><l>pòpulaz</l><r>pupulaz</r></p><par n="pupulaz/zioni__n"/></e>
 
     <!-- SECTION: Proper nouns -->
 
