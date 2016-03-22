@@ -250,6 +250,13 @@
 	<e><p><l>i</l><r>u<s n="det"/><s n="dem"/><s n="m"/><s n="pl"/></r></p></e>
 	<e><p><l>i</l><r>u<s n="det"/><s n="dem"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
+
+    <pardef n="nudd/u__det">
+      <e><p><l>u</l><r>u<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>a</l><r>u<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>i</l><r>u<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>i</l><r>u<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
  
 
     <!-- SECTION: Nouns -->
@@ -1502,6 +1509,8 @@
     <e lm="lu" r="LR"><i>l</i><par n="l/u__det"/></e>
     <e lm="lu" r="LR" c="Dial/V"><p><l></l><r>l</r></p><par n="l/u__det"/></e>
     <e lm="lu" r="RL"><p><l><a/>l</l><r>l</r></p><par n="l/u__det"/></e>
+
+    <e lm="nuddu"><i>nudd</i><par n="nudd/u__det"/></e>
 
     <!-- SECTION: Numerals -->
     <e lm="unu"><i>unu</i><par n="unu__num"/></e>
@@ -2887,6 +2896,7 @@
     
     <e lm="elettrumagneticu"><i>elettrumagnetic</i><par n="elettrumagnetic/u__adj"/></e>
     
+    <e lm="atòmicu"><i>atòmic</i><par n="bedd/u__adj"/></e>
     
     
     <e lm="anglisi"><i>anglisi</i><par n="duci__adj"/></e>
