@@ -1559,6 +1559,14 @@
     <e lm="aneddu"><i>anedd</i><par n="ann/u__n"/></e>
     <e lm="fasciu"><i>fasci</i><par n="ann/u__n"/></e>
     <e lm="campu"><i>camp</i><par n="ann/u__n"/></e>
+    <e lm="projettu"><i>projett</i><par n="ann/u__n"/></e>
+    <e lm="àtumu"><i>àtum</i><par n="ann/u__n"/></e>
+    <e lm="idrògginu"><i>idròggin</i><par n="ann/u__n"/></e>
+    <e lm="gradu"><i>grad</i><par n="ann/u__n"/></e>
+    <e lm="corridoiu"><i>corridoi</i><par n="ann/u__n"/></e>
+    
+    
+
     
     
     
@@ -1592,10 +1600,6 @@
     <e lm="timpiratura"><i>timpiratur</i><par n="cas/a__n"/></e>
     <e lm="forza"><i>forz</i><par n="cas/a__n"/></e>
     <e lm="enirgìa"><i>enirgì</i><par n="cas/a__n"/></e>
-    
-    
-    
-    
     
     
     <e lm="figghiu"><i>figgh</i><par n="figgh/iu__n"/></e>
@@ -2345,6 +2349,7 @@
     <e lm="falsu"><i>fals</i><par n="bedd/u__adj"/></e>
     <e lm="densu"><i>dens</i><par n="bedd/u__adj"/></e>
     <e lm="àutu"><i>àut</i><par n="bedd/u__adj"/></e>
+    <e lm="tunnu"><i>tunn</i><par n="bedd/u__adj"/></e>
     
     
     <e lm="dìlicu"><i>dìlic</i><par n="bedd/u__adj"/></e>
@@ -2372,6 +2377,8 @@
     <e lm="anglisi"><i>anglisi</i><par n="duci__adj"/></e>
     
     <e lm="cintrali"><i>cintrali</i><par n="duci__adj"/></e>
+    <e lm="cintrali"><i>attuali</i><par n="duci__adj"/></e>
+    
     
     
 
@@ -2462,7 +2469,10 @@
     <e lm="accuminciari"><i>accuminci</i><par n="parr/ari__vblex"/></e>
     <e lm="guardari"><i>guard</i><par n="parr/ari__vblex"/></e>
     <e lm="funziunari"><i>funziun</i><par n="parr/ari__vblex"/></e>
-    
+    <e lm="funziunari"><i>funziun</i><par n="parr/ari__vblex"/></e>
+    <e lm="abbasari"><i>abbas</i><par n="parr/ari__vblex"/></e>
+    <e lm="chiamari"><i>chiam</i><par n="parr/ari__vblex"/></e>    
+    <e lm="caudiari"><i>caudi</i><par n="parr/ari__vblex"/></e>  
     
     
     
