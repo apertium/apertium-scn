@@ -1506,8 +1506,13 @@
     <!-- SECTION: Determiners -->
     
     <e lm="chistu"><i>chist</i><par n="chist/u__det"/></e>
+    <e lm="stu" r="LR"><p><l>st</l><r>chist</r></p><par n="chist/u__det"/></e>
+
     <e lm="chissu"><i>chiss</i><par n="chist/u__det"/></e>
+    <e lm="ssu" r="LR"><p><l>ss</l><r>chiss</r></p><par n="chist/u__det"/></e>
+
     <e lm="chiddu"><i>chidd</i><par n="chist/u__det"/></e>
+    <e lm="ddu" r="LR"><p><l>dd</l><r>chidd</r></p><par n="chist/u__det"/></e>
     
     <e lm="un" r="LR"><i></i><par n="/un__det"/></e>
     <e lm="un" r="RL"><p><l><a/></l><r></r></p><par n="/un__det"/></e>
