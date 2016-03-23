@@ -194,6 +194,11 @@
       <e><p><l></l><r><s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></r></p></e>
     </pardef>
 
+    <pardef n="ci__prn">
+      <e><p><l></l><r><s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
+    </pardef>
+
+
     <pardef n="loru__adj">
     	<e><p><l></l><r><s n="adj"/><s n="pos"/><s n="mf"/><s n="sp"/></r></p></e>
     </pardef>
@@ -1506,16 +1511,10 @@
     <e lm="nuddu"><i>nudd</i><par n="nudd/u__prn"/></e>
 
     <e lm="tutti e dui"><i>tutti<b/>e<b/>dui</i><par n="tutti_e_dui__prn"/></e>
-    
-    <e lm="loru"><i>loru</i><par n="loru__adj"/></e>
-    <e lm="miu"><i>m</i><par n="m/iu__adj"/></e>
-    <e lm="tuu"><i>t</i><par n="t/ou__adj"/></e>
-    <e lm="sou"><i>s</i><par n="t/ou__adj"/></e>
 
-    <e lm="nostru"><i>nostr</i><par n="bedd/u__adj"/></e> <!-- CHEQUEAR -->
-    <e lm="vostru"><i>vostr</i><par n="bedd/u__adj"/></e>     <!-- CHEQUEAR -->
-    
-
+    <e lm="ci"><i>ci</i><par n="ci__prn"/></e>
+    <e lm="cci" r="LR"><p><l>cci</l><r>ci</r></p><par n="ci__prn"/></e>
+   
     <!-- SECTION: Determiners -->
     
     <e lm="chistu"><i>chist</i><par n="chist/u__det"/></e>
@@ -1645,6 +1644,7 @@
     <e lm="idrògginu"><i>idròggin</i><par n="ann/u__n"/></e>
     <e lm="gradu"><i>grad</i><par n="ann/u__n"/></e>
     <e lm="corridoiu"><i>corridoi</i><par n="ann/u__n"/></e>
+    <e lm="nomu"><i>nom</i><par n="ann/u__n"/></e>
     
     
     <e lm="parola"><i>parol</i><par n="cas/a__n"/></e>
@@ -2880,6 +2880,15 @@
     
 
     <e lm="atru"><i>atr</i><par n="atr/u__adj"/></e>
+ 
+    <e lm="loru"><i>loru</i><par n="loru__adj"/></e>
+    <e lm="miu"><i>m</i><par n="m/iu__adj"/></e>
+    <e lm="tuu"><i>t</i><par n="t/ou__adj"/></e>
+    <e lm="sou"><i>s</i><par n="t/ou__adj"/></e>
+
+    <e lm="nostru"><i>nostr</i><par n="bedd/u__adj"/></e> <!-- CHEQUEAR -->
+    <e lm="vostru"><i>vostr</i><par n="bedd/u__adj"/></e>     <!-- CHEQUEAR -->
+
 
     <e lm="beddu"><i>bedd</i><par n="bedd/u__adj"/></e>
     <e lm="bonu"><i>bon</i><par n="bedd/u__adj"/></e>
@@ -2969,6 +2978,7 @@
     <e lm="ùoggi"><i>ùoggi</i><par n="ùoggi__adv"/></e>
     <e lm="mai"><i>mai</i><par n="ùoggi__adv"/></e>
     <e lm="poi"><i>poi</i><par n="ùoggi__adv"/></e>
+    <e lm="macari"><i>macari</i><par n="ùoggi__adv"/></e>
     <e lm="d'arretu"><i>d'arretu</i><par n="ùoggi__adv"/></e>
     <e lm="araciu"><i>araciu</i><par n="ùoggi__adv"/></e>
     <e lm="chianu"><i>chianu</i><par n="ùoggi__adv"/></e>
