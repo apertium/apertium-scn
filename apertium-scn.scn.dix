@@ -1628,6 +1628,7 @@
     <e lm="studiu"><i>studi</i><par n="ann/u__n"/></e>
     <e lm="disiu"><i>disi</i><par n="ann/u__n"/></e>
     <e lm="àrbulu"><i>àrbul</i><par n="ann/u__n"/></e>
+    <e lm="sèculu"><i>sècul</i><par n="ann/u__n"/></e>
     <e lm="tempu"><i>temp</i><par n="ann/u__n"/></e>
     <e lm="annu"><i>ann</i><par n="ann/u__n"/></e>
     <e lm="cuvernu"><par n="c/g"/><i>uvern</i><par n="ann/u__n"/></e>
@@ -2927,7 +2928,7 @@
     <e lm="dìlicu"><i>dìlic</i><par n="bedd/u__adj"/></e>
     <e lm="nicu"><i>nic</i><par n="bedd/u__adj"/></e>
     <e lm="duci"><i>duci</i><par n="duci__adj"/></e>
-    <e lm="grandi"><i>grandi</i><par n="duci__adj"/></e>
+    <e lm="grandi" r="LR"><p><l>grandi</l><r>granni</r></p><par n="duci__adj"/></e>
     <e lm="granni"><i>granni</i><par n="duci__adj"/></e>
     <e lm="filici"><i>filici</i><par n="duci__adj"/></e>
     <e lm="dèbbuli"><i>dèbbuli</i><par n="duci__adj"/></e>
