@@ -199,17 +199,19 @@
     </pardef>
 
     <pardef n="m/iu__adj">
-    	<e><p><l>iu</l><r>iu<s n="adj"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+    	<e><p><l>è</l><r>iu<s n="adj"/><s n="pos"/><s n="mf"/><s n="sp"/></r></p></e>
+    	<e r="LR"><p><l>iu</l><r>iu<s n="adj"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
     	<e><p><l>ia</l><r>iu<s n="adj"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
     	<e><p><l>ei</l><r>iu<s n="adj"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
     	<e><p><l>ei</l><r>iu<s n="adj"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
     
-    <pardef n="t/uu__adj">
-    	<e><p><l>uu</l><r>uu<s n="adj"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
-    	<e><p><l>ua</l><r>uu<s n="adj"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
-    	<e><p><l>oi</l><r>uu<s n="adj"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
-    	<e><p><l>oi</l><r>uu<s n="adj"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+    <pardef n="t/ou__adj">
+    	<e><p><l>ò</l><r>ou<s n="adj"/><s n="pos"/><s n="mf"/><s n="sp"/></r></p></e>
+    	<e r="LR"><p><l>ou</l><r>ou<s n="adj"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+    	<e><p><l>ua</l><r>ou<s n="adj"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+    	<e><p><l>oi</l><r>ou<s n="adj"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+    	<e><p><l>oi</l><r>ou<s n="adj"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
 
     <pardef n="nostr/u__adj">
@@ -241,6 +243,7 @@
     
     <pardef n="/un__det">
     	<e><p><l>un</l><r>un<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
+    	<e r="LR"><p><l>nu</l><r>un<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
     	<e><p><l>na</l><r>un<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></r></p></e>
     </pardef>
 
@@ -258,7 +261,6 @@
       <e><p><l>i</l><r>u<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
  
-
     <!-- SECTION: Nouns -->
     <pardef n="nànn/u__n">
       	<e><p><l>a</l><r>u<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
@@ -371,6 +373,8 @@
       	<e r="LR"><p><l>dî</l><r>di<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="mf"/><s n="pl"/></r></p></e>
       	<e r="LR"><p><l>dê</l><r>di<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="mf"/><s n="pl"/></r></p></e>
       	<e r="LR"><p><l>d'un</l><r>di<s n="pr"/><j/>un<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
+
+      	<e r="LR"><p><l>ri</l><r>di<s n="pr"/></r></p></e>
     </pardef>
 
     <pardef n="contnta__pr">
@@ -382,6 +386,8 @@
       	<e r="LR"><p><l>ntê</l><r>nta<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="mf"/><s n="pl"/></r></p></e>
       	<e r="LR"><p><l>ntî</l><r>nta<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="mf"/><s n="pl"/></r></p></e>
       	<e r="LR"><p><l>nt'un</l><r>nta<s n="pr"/><j/>un<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
+
+      	<e r="LR"><p><l>n</l><r>nta<s n="pr"/></r></p></e>
     </pardef>
 
     <pardef n="contcu__pr">
@@ -616,6 +622,13 @@
     <pardef n="/aviri__vbhaver">
         <e><p><l></l><r>aviri<s n="vbhaver"/></r></p><par n="/aviri"/></e>
     </pardef>
+
+    <!-- @@@: COMPLETAR -->
+    <pardef n="p/utiri__vbmod">
+      	<e><p><l>utiri</l><r>utiri<s n="vbmod"/><s n="inf"/></r></p></e>
+      	<e><p><l>ò</l><r>utiri<s n="vbmod"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+    </pardef>
+        
 
     <pardef n="j/ucari__vblex">
       	<e><p><l>ucari</l><r>ucari<s n="vblex"/><s n="inf"/></r></p></e>
@@ -1496,8 +1509,8 @@
     
     <e lm="loru"><i>loru</i><par n="loru__adj"/></e>
     <e lm="miu"><i>m</i><par n="m/iu__adj"/></e>
-    <e lm="tuu"><i>t</i><par n="t/uu__adj"/></e>
-    <e lm="suu"><i>s</i><par n="t/uu__adj"/></e>
+    <e lm="tuu"><i>t</i><par n="t/ou__adj"/></e>
+    <e lm="sou"><i>s</i><par n="t/ou__adj"/></e>
 
     <e lm="nostru"><i>nostr</i><par n="bedd/u__adj"/></e> <!-- CHEQUEAR -->
     <e lm="vostru"><i>vostr</i><par n="bedd/u__adj"/></e>     <!-- CHEQUEAR -->
@@ -1649,6 +1662,9 @@
     <e lm="forma"><i>form</i><par n="cas/a__n"/></e>
     <e lm="furma" r="LR"><p><l>furm</l><r>form</r></p><par n="cas/a__n"/></e>
 
+    <e lm="cumuni"><i>cumuni</i><par n="patri__n"/></e>
+    <e lm="putiri"><i>putiri</i><par n="patri__n"/></e>
+
     
     <e lm="casa"><i>cas</i><par n="cas/a__n"/></e>
     <e lm="ìsula"><i>ìsul</i><par n="cas/a__n"/></e>
@@ -1691,6 +1707,7 @@
     <e lm="genti"><i>genti</i><par n="matri__n"/></e>
     <e lm="fasi"><i>fasi</i><par n="matri__n"/></e>
     <e lm="virsioni"><i>virsioni</i><par n="matri__n"/></e>
+    <e lm="parti"><i>parti</i><par n="matri__n"/></e>
     
     <e lm="vuci"><i>vuci</i><par n="matri__n"/></e>
     <e lm="pedi"><i>pedi</i><par n="patri__n"/></e>
@@ -1708,6 +1725,7 @@
     <e lm="soru"><i>soru</i><par n="matri__n"/></e>
     
     <e lm="culonia"><i>culoni</i><par n="culoni/a__n"/></e>
+    <e lm="pruvincia"><i>pruvinci</i><par n="culoni/a__n"/></e>
     
     <e lm="sud"><i>sud</i><par n="sud__n"/></e>
     <e lm="est"><i>est</i><par n="sud__n"/></e>
@@ -2987,6 +3005,7 @@
     <e lm="èssiri"><i></i><par n="/èssiri__vbser"/></e>
     <e lm="aviri"><i></i><par n="/aviri__vbhaver"/></e>
     <e lm="aviri"><i></i><par n="/aviri__vblex"/></e>
+    <e lm="putiri"><i>p</i><par n="p/utiri__vbmod"/></e>
     <e lm="jucari"><i>j</i><par n="j/ucari__vblex"/></e>
     <e lm="stari"><i>st</i><par n="st/ari__vblex"/></e>
     <e lm="suprastari"><i>suprast</i><par n="st/ari__vblex"/></e>
@@ -3095,6 +3114,8 @@
     <e r="LR" lm="l'"><p><l>l'</l><r>lu<s n="det"/><s n="def"/><s n="mf"/><s n="sg"/></r></p></e>
 
     <e r="LR" lm="d'"><p><l>d'</l><r>di<s n="pr"/></r></p></e>
+
+    <e r="LR" lm="s'"><p><l>s'</l><r>si<s n="prn"/><s n="pro"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
   </section>
 
   <section id="final" type="inconditional">
