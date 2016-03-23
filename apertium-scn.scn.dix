@@ -306,7 +306,13 @@
       	<e><p><l></l><r>a<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
       	<e r="LR"><p><l>i</l><r>a<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
-
+    <pardef n="sicilian/u__n">
+    	<e><p><l>a</l><r>u<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+    	<e><p><l>i</l><r>u<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+    	<e><p><l>u</l><r>u<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+    	<e><p><l>i</l><r>u<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+    </pardef>
+    
     <pardef n="figgh/iu__n">
       	<e><p><l>iu</l><r>iu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       	<e><p><l>ia</l><r>iu<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
@@ -1623,6 +1629,20 @@
     <e lm="corridoiu"><i>corridoi</i><par n="ann/u__n"/></e>
     
     
+    <e lm="parola"><i>parol</i><par n="cas/a__n"/></e>
+    <e lm="palora" r="LR"><p><l>palor</l><r>parol</r></p><par n="cas/a__n"/></e>
+    <e lm="paràula" r="LR"><p><l>paràul</l><r>parol</r></p><par n="cas/a__n"/></e>
+    <e lm="acrònimu"><i>acrònim</i><par n="ann/u__n"/></e>  
+    <e lm="russu"><i>russ</i><par n="sicilian/u__n"/></e> 
+    <e lm="spagnuolu"><i>spagnuol</i><par n="sicilian/u__n"/></e> 
+    <e lm="talianu"><i>talian</i><par n="sicilian/u__n"/></e> 
+    <e lm="tudiscu"><i>tudisc</i><par n="sicilian/u__n"/></e>
+    <e lm="asturianu"><i>asturian</i><par n="sicilian/u__n"/></e> 
+    <e lm="abbitanti"><i>abbitanti</i><par n="patri__n"/></e
+    <e lm="càmmira"><i>càmmir</i><par n="cas/a__n"/></e>
+    <e lm="diputatu"><i>diputat</i><par n="ann/u__n"/></e> 
+    <e lm="forma"><i>form</i><par n="cas/a__n"/></e>
+    <e lm="furma" r="LR"><p><l>furm</l><r>form</r></p><par n="cas/a__n"/></e>
 
     
     
