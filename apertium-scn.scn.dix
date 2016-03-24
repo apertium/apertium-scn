@@ -301,9 +301,15 @@
     </pardef>
     
     <pardef n="parc/u__n">
-      	<e><p><l>u</l><r>u<s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
-      	<e><p><l>hi</l><r>u<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+      	<e><p><l>u</l><r>u<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+      	<e><p><l>hi</l><r>u<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
+    
+    <pardef n="ripùbbric/a__n">
+      	<e><p><l>a</l><r>a<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+      	<e><p><l>hi</l><r>a<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
+    
     
     <pardef n="monac/a__n">
       	<e><p><l>a</l><r>a<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
@@ -1646,6 +1652,8 @@
     <e lm="àtumu"><i>àtum</i><par n="ann/u__n"/></e>
     <e lm="idrògginu"><i>idròggin</i><par n="ann/u__n"/></e>
     <e lm="gradu"><i>grad</i><par n="ann/u__n"/></e>
+    <e lm="liveddu"><i>livedd</i><par n="ann/u__n"/></e>
+    
 <!-- 
 FIXME: comprobar si la palabra "corridoiu" existe
  -->
@@ -1669,13 +1677,27 @@ FIXME: comprobar si la palabra "corridoiu" existe
     <e lm="forma"><i>form</i><par n="cas/a__n"/></e>
     <e lm="furma" r="LR"><p><l>furm</l><r>form</r></p><par n="cas/a__n"/></e>
     <e lm="varca"><i>varc</i><par n="cas/a__n"/></e>
+    <e lm="prucessu"><i>prucess</i><par n="ann/u__n"/></e>
+    <e lm="storia"><i>stori</i><par n="cas/a__n"/></e>
+    <e lm="terra"><i>terr</i><par n="cas/a__n"/></e>
+    <e lm="màrmuru"><i>màrmur</i><par n="ann/u__n"/></e>
+    <e lm="disertu"><i>disert</i><par n="ann/u__n"/></e>
+    <e lm="deseretu" r="LR"><p><l>deseret</l><r>disert</r></p><par n="ann/u__n"/></e>
+    <e lm="misura"><i>misur</i><par n="cas/a__n"/></e>
+    <e lm="particedda"><i>particedd</i><par n="cas/a__n"/></e>
     
-    
-    
+
 
     <e lm="cumuni"><i>cumuni</i><par n="patri__n"/></e>
     <e lm="paisi"><i>paisi</i><par n="patri__n"/></e>
     <e lm="putiri"><i>putiri</i><par n="patri__n"/></e>
+    <e lm="mari"><i>mari</i><par n="patri__n"/></e>
+    <e lm="matiriali"><i>matiriali</i><par n="patri__n"/></e>
+    
+    <e lm="ripùbbrica"><i>ripùbbric</i><par n="ripùbbric/a__n"/></e>
+    
+    
+    
 
     
     <e lm="casa"><i>cas</i><par n="cas/a__n"/></e>
@@ -1708,8 +1730,7 @@ FIXME: comprobar si la palabra "corridoiu" existe
     <e lm="timpiratura"><i>timpiratur</i><par n="cas/a__n"/></e>
     <e lm="forza"><i>forz</i><par n="cas/a__n"/></e>
     <e lm="enirgìa"><i>enirgì</i><par n="cas/a__n"/></e>
-    
-    
+    <e lm="liggenda"><i>liggend</i><par n="cas/a__n"/></e>
     
     
     <e lm="figghiu"><i>figgh</i><par n="figgh/iu__n"/></e>
@@ -1725,6 +1746,8 @@ FIXME: comprobar si la palabra "corridoiu" existe
     <e lm="fasi"><i>fasi</i><par n="matri__n"/></e>
     <e lm="virsioni"><i>virsioni</i><par n="matri__n"/></e>
     <e lm="parti"><i>parti</i><par n="matri__n"/></e>
+    <e lm="prupitati"><i>prupitati</i><par n="matri__n"/></e>
+    
     
     <e lm="vuci"><i>vuci</i><par n="matri__n"/></e>
     <e lm="pedi"><i>pedi</i><par n="patri__n"/></e>
@@ -1759,6 +1782,8 @@ FIXME: comprobar si la palabra "corridoiu" existe
     <e lm="pòpulazzioni" r="LR"><p><l>pòpulaz</l><r>pupulaz</r></p><par n="pupulaz/zioni__n"/></e>
     <e lm="pruduzzioni"><i>pruduz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="produzzioni" r="LR"><p><l>produz</l><r>pruduz</r></p><par n="pupulaz/zioni__n"/></e>
+    <e lm="riazzioni"><i>riaz</i><par n="pupulaz/zioni__n"/></e>
+    
 
     <!-- SECTION: Proper nouns -->
 
@@ -2974,6 +2999,7 @@ FIXME: comprobar si la palabra "corridoiu" existe
     <e lm="cintrali"><i>cintrali</i><par n="duci__adj"/></e>
     <e lm="attuali"><i>attuali</i><par n="duci__adj"/></e>
     <e lm="mpurtanti"><i>mpurtanti</i><par n="duci__adj"/></e>
+    <e lm="nucliari"><i>nucliari</i><par n="duci__adj"/></e>
     
     
     <e lm="accadèmicu"><i>accadèmic</i><par n="bedd/u__adj"/></e>
@@ -3025,6 +3051,8 @@ FIXME: comprobar si la palabra "corridoiu" existe
     <e lm="tìpicu"><i>tìpic</i><par n="bedd/u__adj"/></e>
     <e lm="turìsticu"><i>turìstic</i><par n="bedd/u__adj"/></e>
     <e lm="ùnicu"><i>ùnic</i><par n="bedd/u__adj"/></e>
+    
+    
 
     
 
@@ -3125,8 +3153,9 @@ FIXME: comprobar si la palabra "corridoiu" existe
     <e lm="chiamari"><i>chiam</i><par n="parr/ari__vblex"/></e>    
     <e lm="caudiari"><i>caudi</i><par n="parr/ari__vblex"/></e>  
     <e lm="dimustrari"><i>dimustr</i><par n="parr/ari__vblex"/></e>  
-    <e lm="pirfizzionari"><i>pirfizzion</i><par n="parr/ari__vblex"/></e>  
-    
+    <e lm="pirfizzionari"><i>pirfizzion</i><par n="parr/ari__vblex"/></e>
+    <e lm="ginirari"><i>ginir</i><par n="parr/ari__vblex"/></e>
+    <e lm="misurari"><i>misur</i><par n="parr/ari__vblex"/></e> 
     
     
     <e lm="battiri"><i>batt</i><par n="batt/iri__vblex"/></e>
@@ -3144,9 +3173,7 @@ FIXME: comprobar si la palabra "corridoiu" existe
     <e lm="ricìviri"><i>ricìv</i><par n="batt/iri__vblex"/></e>
     
     
-    
-    
-    
+
     <e lm="dòrmiri"><i>d</i><par n="d/òrmiri__vblex"/></e>
     <e lm="purtari"><i>p</i><par n="p/urtari__vblex"/></e>
     
