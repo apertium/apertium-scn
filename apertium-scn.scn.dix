@@ -162,7 +162,7 @@
         <e><p><l></l><r><s n="prn"/><s n="tn"/><s n="p2"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
 
-    <pardef n=" /u__prn">
+    <pardef n="tutt/u__prn">
       <e><p><l>i</l><r><s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/></r></p></e>
       <e><p><l>a</l><r><s n="prn"/><s n="tn"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>i</l><r><s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></r></p></e>
@@ -267,6 +267,15 @@
       <e><p><l>i</l><r>u<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>i</l><r>u<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
+
+    <pardef n="tutt/u__predet">
+      <e><p><l>i</l><r>u<s n="predet"/><s n="f"/><s n="pl"/></r></p></e>
+      <e><p><l>a</l><r>u<s n="predet"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>i</l><r>u<s n="predet"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>u</l><r>u<s n="predet"/><s n="m"/><s n="sg"/></r></p></e>
+      <!--<e><p><l>u</l><r>u<s n="predet"/><s n="nt"/><s n="sp"/></r></p></e>-->
+    </pardef>
+
  
     <!-- SECTION: Nouns -->
     <pardef n="nànn/u__n">
@@ -287,11 +296,21 @@
     </pardef>
 
 
+    <pardef n="pianet/a__n">
+      	<e><p><l>a</l><r>a<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+      	<e><p><l>i</l><r>a<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+    </pardef>
+
     <pardef n="cas/a__n">
       	<e><p><l>a</l><r>a<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
       	<e><p><l>i</l><r>a<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
-    
+     
+    <pardef n="cit/ati__n">
+      	<e><p><l>ati</l><r>ati<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
+      	<e r="LR"><p><l>à</l><r>ati<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
+    </pardef>
+
     <pardef n="matri__n">
       	<e><p><l></l><r><s n="n"/><s n="f"/><s n="sp"/></r></p></e>
     </pardef>
@@ -1519,6 +1538,7 @@
     <e lm="chi"><i>chi</i><par n="chi__prn"/></e>
 
     <e lm="nuddu"><i>nudd</i><par n="nudd/u__prn"/></e>
+    <e lm="tuttu"><i>tutt</i><par n="tutt/u__prn"/></e>
 
     <e lm="tutti e dui"><i>tutti<b/>e<b/>dui</i><par n="tutti_e_dui__prn"/></e>
 
@@ -1544,6 +1564,7 @@
     <e lm="lu" r="RL"><p><l><a/>l</l><r>l</r></p><par n="l/u__det"/></e>
 
     <e lm="nuddu"><i>nudd</i><par n="nudd/u__det"/></e>
+    <e lm="tuttu"><i>tutt</i><par n="tutt/u__predet"/></e>
 
     <!-- SECTION: Numerals -->
     <e lm="unu"><i>unu</i><par n="unu__num"/></e>
@@ -1657,6 +1678,7 @@
     <e lm="liveddu"><i>livedd</i><par n="ann/u__n"/></e>
     <e lm="pisu"><i>pis</i><par n="ann/u__n"/></e>
     <e lm="effettu"><i>effett</i><par n="ann/u__n"/></e>
+    <e lm="labburatoriu"><i>labburatori</i><par n="ann/u__n"/></e>
     
     
     
@@ -1745,8 +1767,6 @@ FIXME: comprobar si la palabra "corridoiu" existe
     <e lm="figghiu"><i>figgh</i><par n="figgh/iu__n"/></e>
     <e lm="oricchia"><i>oricch</i><par n="oricch/ia__n"/></e>
     <e lm="matri"><i>matri</i><par n="matri__n"/></e>
-    <e lm="citati"><i>citati</i><par n="matri__n"/></e>
-    <e lm="cità" r="LR"><p><l>cità</l><r>citati</r></p><par n="matri__n"/></e>
     <e lm="capitali"><i>capitali</i><par n="matri__n"/></e>
     <e lm="manu"><i>manu</i><par n="matri__n"/></e>
     <e lm="facci"><i>facci</i><par n="matri__n"/></e>
@@ -1754,17 +1774,16 @@ FIXME: comprobar si la palabra "corridoiu" existe
     <e lm="fasi"><i>fasi</i><par n="matri__n"/></e>
     <e lm="virsioni"><i>virsioni</i><par n="matri__n"/></e>
     <e lm="parti"><i>parti</i><par n="matri__n"/></e>
-    <e lm="prupitati"><i>prupitati</i><par n="matri__n"/></e>
     <e lm="crisi"><i>crisi</i><par n="matri__n"/></e>
     <e lm="soru"><i>soru</i><par n="matri__n"/></e>
-    <e lm="quantitati"><i>quantitati</i><par n="matri__n"/></e>  
-    <e lm="univirsitati"><i>univirsitati</i><par n="matri__n"/></e>
     <e lm="sedi"><i>sedi</i><par n="matri__n"/></e>
     <e lm="fusioni"><i>fusioni</i><par n="matri__n"/></e>  
     <e lm="fissioni"><i>fissioni</i><par n="matri__n"/></e> 
     <e lm="vuci"><i>vuci</i><par n="matri__n"/></e>
     <e lm="mmàggini"><i>mmàggini</i><par n="matri__n"/></e>
     
+    <e lm="libbirtati"><i>libbirt</i><par n="cit/ati__n"/></e>
+    <e lm="quantitati"><i>quantit</i><par n="cit/ati__n"/></e>  
     
     
     <e lm="patri"><i>patri</i><par n="patri__n"/></e>
@@ -1807,6 +1826,8 @@ FIXME: comprobar si la palabra "corridoiu" existe
     <e lm="equazzioni"><i>equaz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="azzioni"><i>az</i><par n="pupulaz/zioni__n"/></e>
     <e lm="attinzioni"><i>attinzioni</i><par n="pupulaz/zioni__n"/></e>
+    <e lm="stazzioni"><i>staz</i><par n="pupulaz/zioni__n"/></e>
+    <e lm="edizzioni"><i>ediz</i><par n="pupulaz/zioni__n"/></e>
     
     <e lm="accordu"><i>accord</i><par n="ann/u__n"/></e>
     <e lm="alfabbetu"><i>alfabbet</i><par n="ann/u__n"/></e>
@@ -1906,6 +1927,51 @@ FIXME: comprobar si la palabra "corridoiu" existe
     <e lm="uttùviru"><i>uttùvir</i><par n="ann/u__n"/></e>
     <e lm="nuvèmmiru"><i>nuvèmmir</i><par n="ann/u__n"/></e>
     <e lm="dicèmmiru"><i>dicèmmir</i><par n="ann/u__n"/></e>
+
+    <e lm="antichitati"><i>antichit</i><par n="cit/ati__n"/></e>
+    <e lm="attivitati"><i>attivit</i><par n="cit/ati__n"/></e>
+    <e lm="auturitati"><i>auturit</i><par n="cit/ati__n"/></e>
+    <e lm="capacitati"><i>capacit</i><par n="cit/ati__n"/></e>
+    <e lm="citati"><i>cit</i><par n="cit/ati__n"/></e>
+    <e lm="cittati" r="LR"><p><l>citt</l><r>cit</r></p><par n="cit/ati__n"/></e>
+    <e lm="civiltati"><i>civilt</i><par n="cit/ati__n"/></e>
+    <e lm="cumunitati"><i>cumunit</i><par n="cit/ati__n"/></e>
+    <e lm="comunitati" r="LR"><p><l>comunit</l><r>cumunit</r></p><par n="cit/ati__n"/></e>
+    <e lm="divinitati"><i>divinit</i><par n="cit/ati__n"/></e>
+    <e lm="facultati"><i>facult</i><par n="cit/ati__n"/></e>
+    <e lm="gravitati"><i>gravit</i><par n="cit/ati__n"/></e>
+    <e lm="libbirtati"><i>libbirt</i><par n="cit/ati__n"/></e>
+    <e lm="lucalitati"><i>lucalit</i><par n="cit/ati__n"/></e>
+    <e lm="mitati"><i>mit</i><par n="cit/ati__n"/></e>
+    <e lm="nazziunalitati"><i>nazziunalit</i><par n="cit/ati__n"/></e>
+    <e lm="nicissitati"><i>nicissit</i><par n="cit/ati__n"/></e>
+    <e lm="particularitati"><i>particularit</i><par n="cit/ati__n"/></e>
+    <e lm="pirsunalitati"><i>pirsunalit</i><par n="cit/ati__n"/></e>
+    <e lm="prufunnitati"><i>prufunnit</i><par n="cit/ati__n"/></e>
+    <e lm="prupitati"><i>prupit</i><par n="cit/ati__n"/></e>
+    <e lm="prupritati"><i>pruprit</i><par n="cit/ati__n"/></e>
+    <e lm="pruprietati" r="LR"><p><l>prupriet</l><r>pruprit</r></p><par n="cit/ati__n"/></e>
+    <e lm="pupularitati"><i>pupularit</i><par n="cit/ati__n"/></e>
+    <e lm="pussibbilitati"><i>pussibbilit</i><par n="cit/ati__n"/></e>
+    <e lm="puvirtati"><i>puvirt</i><par n="cit/ati__n"/></e>
+    <e lm="qualitati"><i>qualit</i><par n="cit/ati__n"/></e>
+    <e lm="quantitati"><i>quantit</i><par n="cit/ati__n"/></e>
+    <e lm="rialitati"><i>rialit</i><par n="cit/ati__n"/></e>
+    <e lm="spicialitati"><i>spicialit</i><par n="cit/ati__n"/></e>
+    <e lm="sucitati"><i>sucit</i><par n="cit/ati__n"/></e>
+    <e lm="tutalitati"><i>tutalit</i><par n="cit/ati__n"/></e>
+    <e lm="umanitati"><i>umanit</i><par n="cit/ati__n"/></e>
+    <e lm="unitati"><i>unit</i><par n="cit/ati__n"/></e>
+    <e lm="universitati" r="LR"><p><l>universit</l><r>univirsit</r></p><par n="cit/ati__n"/></e>
+    <e lm="univirsitati"><i>univirsit</i><par n="cit/ati__n"/></e>
+    <e lm="varietati"><i>variet</i><par n="cit/ati__n"/></e>
+    <e lm="vilocitati"><i>vilocit</i><par n="cit/ati__n"/></e>
+    <e lm="vilucitati"><i>vilucit</i><par n="cit/ati__n"/></e>
+    <e lm="viritati"><i>virit</i><par n="cit/ati__n"/></e>
+    <e lm="vuluntati"><i>vulunt</i><par n="cit/ati__n"/></e>
+
+    <e lm="pianeta"><i>pianet</i><par n="pianet/a__n"/></e>
+
 
     <!-- SECTION: Proper nouns -->
 
@@ -2369,6 +2435,7 @@ FIXME: comprobar si la palabra "corridoiu" existe
     <e lm="Franz"><i>Franz</i><par n="Jaime__np"/></e>
 
 
+    <e lm="Novosibirsk"><i>Novosibirsk</i><par n="Sicilia__np"/></e>
 
     <e lm="Abbruzzu"><i>Abbruzzu</i><par n="Sicilia__np"/></e>
     <e lm="Abidjan"><i>Abidjan</i><par n="Sicilia__np"/></e>
@@ -2993,6 +3060,7 @@ FIXME: comprobar si la palabra "corridoiu" existe
     <e lm="Transnistria"><i>Transnistria</i><par n="Sicilia__np"/></e>
     <e lm="Trentu"><i>Trentu</i><par n="Sicilia__np"/></e>
     <e lm="Trinidad e Tobagu"><i>Trinidad<b/>e<b/>Tobagu</i><par n="Sicilia__np"/></e>
+    <e lm="Trinidad e Tobbagu"><p><l>Trinidad<b/>e<b/>Tobbagu</l><r>Trinidad<b/>e<b/>Tobagu</r></p><par n="Sicilia__np"/></e>
     <e lm="Trìpuli"><i>Trìpuli</i><par n="Sicilia__np"/></e>
     <e lm="Trivisu"><i>Trivisu</i><par n="Sicilia__np"/></e>
     <e lm="Troia"><i>Troia</i><par n="Sicilia__np"/></e>
@@ -3227,6 +3295,7 @@ FIXME: comprobar si la palabra "corridoiu" existe
     <e lm="fuori"><i>assai</i><par n="assai__preadv"/></e>
     <e lm="cchiù"><i>cchiù</i><par n="ùoggi__adv"/></e>
     <e lm="chiù" r="LR"><p><l>chiù</l><r>cchiù</r></p><par n="ùoggi__adv"/></e>
+    <e lm="ciù" r="LR"><p><l>ciù</l><r>cchiù</r></p><par n="ùoggi__adv"/></e>
     <e lm="càudu"><i>càudu</i><par n="ùoggi__adv"/></e>
     <e lm="friddu"><i>friddu</i><par n="ùoggi__adv"/></e>
     <e lm="nzemi"><i>nzemi</i><par n="ùoggi__adv"/></e>
@@ -3355,6 +3424,8 @@ FIXME: comprobar si la palabra "corridoiu" existe
     <e r="LR" lm="l'"><p><l>l'</l><r>lu<s n="det"/><s n="def"/><s n="mf"/><s n="sg"/></r></p></e>
 
     <e r="LR" lm="d'"><p><l>d'</l><r>di<s n="pr"/></r></p></e>
+
+    <e r="LR" lm="p'"><p><l>p'</l><r>pi<s n="pr"/></r></p></e>
 
     <e r="LR" lm="s'"><p><l>s'</l><r>si<s n="prn"/><s n="pro"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
 

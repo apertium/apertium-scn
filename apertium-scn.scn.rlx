@@ -1,13 +1,16 @@
 # Firstly, we need to define what tags should be considered sentence delimiters. For this example, only full stop is set as delimiter.
 DELIMITERS = "<.>" ;
 
+SUBREADINGS = LTR ;
+
 LIST Det = det ; 
 
 LIST Di = "<di>" ;
+LIST A = "<a>" ;
 
 SECTION
 
-REMOVE SUB:1 Det IF (0 Di) (1 Det) ;
+REMOVE SUB:1 Det IF (0 Di OR A) (1 Det) ;
 
 # Resources:
 # http://visl.sdu.dk/cg3.html
