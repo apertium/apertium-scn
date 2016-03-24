@@ -213,6 +213,7 @@
     
     <pardef n="t/ou__adj">
     	<e><p><l>ò</l><r>ou<s n="adj"/><s n="pos"/><s n="mf"/><s n="sp"/></r></p></e>
+    	<e r="LR"><p><l>ô</l><r>ou<s n="adj"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
     	<e r="LR"><p><l>ou</l><r>ou<s n="adj"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
     	<e><p><l>ua</l><r>ou<s n="adj"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
     	<e><p><l>oi</l><r>ou<s n="adj"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
@@ -250,6 +251,7 @@
     	<e><p><l>un</l><r>un<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
     	<e r="LR"><p><l>nu</l><r>un<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
     	<e><p><l>na</l><r>un<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></r></p></e>
+    	<e r="LR"><p><l>una</l><r>un<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></r></p></e>
     </pardef>
 
     <pardef n="chist/u__det">
@@ -1649,6 +1651,7 @@ FIXME: comprobar si la palabra "corridoiu" existe
  -->
     <e lm="corridoiu"><i>corridoi</i><par n="ann/u__n"/></e>
     <e lm="nomu"><i>nom</i><par n="ann/u__n"/></e>
+    <e lm="centru"><i>centr</i><par n="ann/u__n"/></e>
     
     
     <e lm="parola"><i>parol</i><par n="cas/a__n"/></e>
@@ -1671,6 +1674,7 @@ FIXME: comprobar si la palabra "corridoiu" existe
     
 
     <e lm="cumuni"><i>cumuni</i><par n="patri__n"/></e>
+    <e lm="paisi"><i>paisi</i><par n="patri__n"/></e>
     <e lm="putiri"><i>putiri</i><par n="patri__n"/></e>
 
     
@@ -1711,6 +1715,9 @@ FIXME: comprobar si la palabra "corridoiu" existe
     <e lm="figghiu"><i>figgh</i><par n="figgh/iu__n"/></e>
     <e lm="oricchia"><i>oricch</i><par n="oricch/ia__n"/></e>
     <e lm="matri"><i>matri</i><par n="matri__n"/></e>
+    <e lm="citati"><i>citati</i><par n="matri__n"/></e>
+    <e lm="cità" r="LR"><p><l>cità</l><r>citati</r></p><par n="matri__n"/></e>
+    <e lm="capitali"><i>capitali</i><par n="matri__n"/></e>
     <e lm="manu"><i>manu</i><par n="matri__n"/></e>
     <e lm="patri"><i>patri</i><par n="patri__n"/></e>
     <e lm="facci"><i>facci</i><par n="matri__n"/></e>
@@ -2958,11 +2965,15 @@ FIXME: comprobar si la palabra "corridoiu" existe
     
     <e lm="atòmicu"><i>atòmic</i><par n="bedd/u__adj"/></e>
     
+    <e lm="sicilianu"><i>sicilian</i><par n="bedd/u__adj"/></e>
     
     <e lm="anglisi"><i>anglisi</i><par n="duci__adj"/></e>
+    <e lm="ngrisi"><i>ngrisi</i><par n="duci__adj"/></e>
+    <e lm="francisi"><i>francisi</i><par n="duci__adj"/></e>
     
     <e lm="cintrali"><i>cintrali</i><par n="duci__adj"/></e>
-    <e lm="cintrali"><i>attuali</i><par n="duci__adj"/></e>
+    <e lm="attuali"><i>attuali</i><par n="duci__adj"/></e>
+    <e lm="mpurtanti"><i>mpurtanti</i><par n="duci__adj"/></e>
     
     
     <e lm="accadèmicu"><i>accadèmic</i><par n="bedd/u__adj"/></e>
@@ -3038,6 +3049,7 @@ FIXME: comprobar si la palabra "corridoiu" existe
     <e lm="ùoggi"><i>ùoggi</i><par n="ùoggi__adv"/></e>
     <e lm="mai"><i>mai</i><par n="ùoggi__adv"/></e>
     <e lm="poi"><i>poi</i><par n="ùoggi__adv"/></e>
+    <e lm="circa"><i>circa</i><par n="ùoggi__adv"/></e>
     <e lm="macari"><i>macari</i><par n="ùoggi__adv"/></e>
     <e lm="d'arretu"><i>d'arretu</i><par n="ùoggi__adv"/></e>
     <e lm="araciu"><i>araciu</i><par n="ùoggi__adv"/></e>
