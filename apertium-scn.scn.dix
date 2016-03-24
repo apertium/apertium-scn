@@ -1653,6 +1653,11 @@
     <e lm="idrògginu"><i>idròggin</i><par n="ann/u__n"/></e>
     <e lm="gradu"><i>grad</i><par n="ann/u__n"/></e>
     <e lm="liveddu"><i>livedd</i><par n="ann/u__n"/></e>
+    <e lm="pisu"><i>pis</i><par n="ann/u__n"/></e>
+    <e lm="effettu"><i>effett</i><par n="ann/u__n"/></e>
+    
+    
+    
     
 <!-- 
 FIXME: comprobar si la palabra "corridoiu" existe
@@ -1660,6 +1665,8 @@ FIXME: comprobar si la palabra "corridoiu" existe
     <e lm="corridoiu"><i>corridoi</i><par n="ann/u__n"/></e>
     <e lm="nomu"><i>nom</i><par n="ann/u__n"/></e>
     <e lm="centru"><i>centr</i><par n="ann/u__n"/></e>
+    <e lm="nùcliu"><i>nùcli</i><par n="ann/u__n"/></e>
+    
     
     
     <e lm="parola"><i>parol</i><par n="cas/a__n"/></e>
@@ -1685,6 +1692,12 @@ FIXME: comprobar si la palabra "corridoiu" existe
     <e lm="deseretu" r="LR"><p><l>deseret</l><r>disert</r></p><par n="ann/u__n"/></e>
     <e lm="misura"><i>misur</i><par n="cas/a__n"/></e>
     <e lm="particedda"><i>particedd</i><par n="cas/a__n"/></e>
+    <e lm="struttura"><i>struttur</i><par n="cas/a__n"/></e>
+    <e lm="massa"><i>mass</i><par n="cas/a__n"/></e>
+    <e lm="apparatu"><i>apparat</i><par n="ann/u__n"/></e>
+    <e lm="obbiettivu"><i>obbiettiv</i><par n="ann/u__n"/></e>
+    
+    
     
 
 
@@ -1693,10 +1706,12 @@ FIXME: comprobar si la palabra "corridoiu" existe
     <e lm="putiri"><i>putiri</i><par n="patri__n"/></e>
     <e lm="mari"><i>mari</i><par n="patri__n"/></e>
     <e lm="matiriali"><i>matiriali</i><par n="patri__n"/></e>
+    <e lm="prutuni"><i>prutuni</i><par n="patri__n"/></e>
+    <e lm="prutoni" r="LR"><p><l>prutoni</l><r>prutuni</r></p><par n="patri__n"/></e>
+    <e lm="niutrùni"><i>niutrùni</i><par n="patri__n"/></e>
+    <e lm="neutroni" r="LR"><p><l>neutroni</l><r>niutrùni</r></p><par n="patri__n"/></e>
     
     <e lm="ripùbbrica"><i>ripùbbric</i><par n="ripùbbric/a__n"/></e>
-    
-    
     
 
     
@@ -1731,6 +1746,10 @@ FIXME: comprobar si la palabra "corridoiu" existe
     <e lm="forza"><i>forz</i><par n="cas/a__n"/></e>
     <e lm="enirgìa"><i>enirgì</i><par n="cas/a__n"/></e>
     <e lm="liggenda"><i>liggend</i><par n="cas/a__n"/></e>
+    <e lm="particella"><i>particell</i><par n="cas/a__n"/></e>
+    <e lm="càmmara"><i>càmmar</i><par n="cas/a__n"/></e>
+    
+    
     
     
     <e lm="figghiu"><i>figgh</i><par n="figgh/iu__n"/></e>
@@ -1747,6 +1766,10 @@ FIXME: comprobar si la palabra "corridoiu" existe
     <e lm="virsioni"><i>virsioni</i><par n="matri__n"/></e>
     <e lm="parti"><i>parti</i><par n="matri__n"/></e>
     <e lm="prupitati"><i>prupitati</i><par n="matri__n"/></e>
+    <e lm="crisi"><i>crisi</i><par n="matri__n"/></e>
+    <e lm="quantitati"><i>quantitati</i><par n="matri__n"/></e>
+    
+    
     
     
     <e lm="vuci"><i>vuci</i><par n="matri__n"/></e>
@@ -1783,6 +1806,10 @@ FIXME: comprobar si la palabra "corridoiu" existe
     <e lm="pruduzzioni"><i>pruduz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="produzzioni" r="LR"><p><l>produz</l><r>pruduz</r></p><par n="pupulaz/zioni__n"/></e>
     <e lm="riazzioni"><i>riaz</i><par n="pupulaz/zioni__n"/></e>
+    <e lm="rilazzioni"><i>rilaz</i><par n="pupulaz/zioni__n"/></e>
+    <e lm="equazzioni"><i>equaz</i><par n="pupulaz/zioni__n"/></e>
+    
+    
     
 
     <!-- SECTION: Proper nouns -->
@@ -2985,6 +3012,8 @@ FIXME: comprobar si la palabra "corridoiu" existe
     <e lm="piacèvuli"><i>piacèvuli</i><par n="duci__adj"/></e>
     <e lm="suvièticu"><i>suviètic</i><par n="bedd/u__adj"/></e>
     <e lm="suvièticu" r="LR"><p><l>soviètic</l><r>suviètic</r></p><par n="bedd/u__adj"/></e>
+    <e lm="mezzu"><i>mezz</i><par n="bedd/u__adj"/></e>
+    <e lm="spagnolu"><i>spagnol</i><par n="bedd/u__adj"/></e>
     
     <e lm="elettrumagneticu"><i>elettrumagnetic</i><par n="elettrumagnetic/u__adj"/></e>
     
@@ -2996,10 +3025,12 @@ FIXME: comprobar si la palabra "corridoiu" existe
     <e lm="ngrisi"><i>ngrisi</i><par n="duci__adj"/></e>
     <e lm="francisi"><i>francisi</i><par n="duci__adj"/></e>
     
+    
     <e lm="cintrali"><i>cintrali</i><par n="duci__adj"/></e>
     <e lm="attuali"><i>attuali</i><par n="duci__adj"/></e>
     <e lm="mpurtanti"><i>mpurtanti</i><par n="duci__adj"/></e>
     <e lm="nucliari"><i>nucliari</i><par n="duci__adj"/></e>
+    <e lm="stabili"><i>stabili</i><par n="duci__adj"/></e>
     
     
     <e lm="accadèmicu"><i>accadèmic</i><par n="bedd/u__adj"/></e>
@@ -3034,7 +3065,8 @@ FIXME: comprobar si la palabra "corridoiu" existe
     <e lm="gràficu"><i>gràfic</i><par n="bedd/u__adj"/></e>
     <e lm="islàmicu"><i>islàmic</i><par n="bedd/u__adj"/></e>
     <e lm="linguìsticu"><i>linguìstic</i><par n="bedd/u__adj"/></e>
-    <e lm="magnèticu"><i>magnètic</i><par n="bedd/u__adj"/></e>
+    <e lm="magneticu"><i>magnetic</i><par n="bedd/u__adj"/></e>
+    <e lm="magnèticu" r="LR"><p><l>magnètic</l><r>magnetic</r></p><par n="bedd/u__adj"/></e>
     <e lm="mànicu"><i>mànic</i><par n="bedd/u__adj"/></e>
     <e lm="matimàticu"><i>matimàtic</i><par n="bedd/u__adj"/></e>
     <e lm="mèdicu"><i>mèdic</i><par n="bedd/u__adj"/></e>
@@ -3051,6 +3083,8 @@ FIXME: comprobar si la palabra "corridoiu" existe
     <e lm="tìpicu"><i>tìpic</i><par n="bedd/u__adj"/></e>
     <e lm="turìsticu"><i>turìstic</i><par n="bedd/u__adj"/></e>
     <e lm="ùnicu"><i>ùnic</i><par n="bedd/u__adj"/></e>
+    <e lm="leggiu"><i>leggi</i><par n="bedd/u__adj"/></e>
+    
     
     
 
@@ -3071,6 +3105,7 @@ FIXME: comprobar si la palabra "corridoiu" existe
     <e lm="nun"><i>nun</i><par n="ùoggi__adv"/></e>
     <e lm="ancora"><i>ancora</i><par n="ùoggi__adv"/></e>
     <e lm="arretu"><i>arretu</i><par n="ùoggi__adv"/></e>
+    <e lm="accussì"><i>accussì</i><par n="ùoggi__adv"/></e>
     
     
 
