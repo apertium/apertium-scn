@@ -102,6 +102,11 @@
       	<e r="LR"><p><l>u</l><r>gu</r></p></e>
     </pardef>
 
+    <pardef n="j/gi/i">
+      	<e><p><l>j</l><r>j</r></p></e>
+      	<e r="LR"><p><l>gi</l><r>j</r></p></e>
+      	<e r="LR"><p><l>i</l><r>j</r></p></e>
+    </pardef>
 
     <pardef n="c/g">
       	<e><p><l>c</l><r>c</r></p></e>
@@ -1872,7 +1877,7 @@ FIXME: comprobar si la palabra "corridoiu" existe
     <e lm="furu"><i>fur</i><par n="ann/u__n"/></e>
     <e lm="grecu"><i>grec</i><par n="ann/u__n"/></e>
     <e lm="inizziu"><i>inizzi</i><par n="ann/u__n"/></e>
-    <e lm="jornu"><i>jorn</i><par n="ann/u__n"/></e>
+    <e lm="jornu"><par n="j/gi/i"/><i>orn</i><par n="ann/u__n"/></e>
     <e lm="latinu"><i>latin</i><par n="ann/u__n"/></e>
     <e lm="lignu"><i>lign</i><par n="ann/u__n"/></e>
     <e lm="linguaggiu"><i>linguaggi</i><par n="ann/u__n"/></e>
