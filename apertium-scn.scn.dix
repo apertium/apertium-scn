@@ -339,7 +339,12 @@
       	<e><p><l>hi</l><r>a<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
     
-    
+     
+    <pardef n="chitarrist/a__n">
+      	<e><p><l>a</l><r>a<s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
+      	<e><p><l>i</l><r>a<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+    </pardef>
+
     <pardef n="monac/a__n">
       	<e><p><l>a</l><r>a<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
       	<e><p><l>hi</l><r>a<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
@@ -368,6 +373,7 @@
     <pardef n="oricch/ia__n">
       	<e><p><l>ia</l><r>ia<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
       	<e><p><l>i</l><r>ia<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+      	<e r="LR"><p><l>î</l><r>ia<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
 
     <pardef n="sud__n">
@@ -538,6 +544,7 @@
       	<e><p><l>hi</l><r>u<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
       	<e><p><l>a</l><r>u<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
       	<e><p><l>hi</l><r>u<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
+      	<e r="LR"><p><l>i</l><r>u<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
         
     
@@ -1282,67 +1289,67 @@
         <e><p><l>ennu</l><r>iri<s n="vblex"/><s n="ger"/></r></p></e>
     </pardef>
     
-    <pardef n="v/eniri__vblex">
-      	<e><p><l>eniri</l><r>eniri<s n="vblex"/><s n="inf"/></r></p></e>
+    <pardef n="v/èniri__vblex">
+      	<e><p><l>èniri</l><r>èniri<s n="vblex"/><s n="inf"/></r></p></e>
         
-    	<e><p><l>egnu</l><r>eniri<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
-    	<e><p><l>eni</l><r>eniri<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
-    	<e><p><l>eni</l><r>eniri<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
-    	<e><p><l>inemu</l><r>eniri<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
-    	<e><p><l>initi</l><r>eniri<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
-        <e><p><l>ennu</l><r>eniri<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+    	<e><p><l>egnu</l><r>èniri<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+    	<e><p><l>eni</l><r>èniri<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+    	<e><p><l>eni</l><r>èniri<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+    	<e><p><l>inemu</l><r>èniri<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+    	<e><p><l>initi</l><r>èniri<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>ennu</l><r>èniri<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
         
-    	<e><p><l>inìa</l><r>eniri<s n="vblex"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
-    	<e><p><l>inivi</l><r>eniri<s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
-    	<e><p><l>inìa</l><r>eniri<s n="vblex"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
-    	<e><p><l>inìamu</l><r>eniri<s n="vblex"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p></e>
-    	<e><p><l>inìavu</l><r>eniri<s n="vblex"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
-        <e><p><l>inìanu</l><r>eniri<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
+    	<e><p><l>inìa</l><r>èniri<s n="vblex"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
+    	<e><p><l>inivi</l><r>èniri<s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
+    	<e><p><l>inìa</l><r>èniri<s n="vblex"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
+    	<e><p><l>inìamu</l><r>èniri<s n="vblex"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p></e>
+    	<e><p><l>inìavu</l><r>èniri<s n="vblex"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>inìanu</l><r>èniri<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
 
-    	<e><p><l>inni</l><r>eniri<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="sg"/></r></p></e>
-    	<e><p><l>inisti</l><r>eniri<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="sg"/></r></p></e>
-    	<e><p><l>inni</l><r>eniri<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
-    	<e><p><l>ìnnimu</l><r>eniri<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="pl"/></r></p></e>
-    	<e><p><l>inìstivu</l><r>eniri<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
-        <e><p><l>ìnniru</l><r>eniri<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
+    	<e><p><l>inni</l><r>èniri<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="sg"/></r></p></e>
+    	<e><p><l>inisti</l><r>èniri<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="sg"/></r></p></e>
+    	<e><p><l>inni</l><r>èniri<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
+    	<e><p><l>ìnnimu</l><r>èniri<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="pl"/></r></p></e>
+    	<e><p><l>inìstivu</l><r>èniri<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>ìnniru</l><r>èniri<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
         
-    	<e><p><l>eni</l><r>eniri<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
-    	<e><p><l>egna</l><r>eniri<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
-    	<e><p><l>inemu</l><r>eniri<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
-    	<e><p><l>initi</l><r>eniri<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
-        <e><p><l>ègnanu</l><r>eniri<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
+    	<e><p><l>eni</l><r>èniri<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+    	<e><p><l>egna</l><r>èniri<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
+    	<e><p><l>inemu</l><r>èniri<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+    	<e><p><l>initi</l><r>èniri<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>ègnanu</l><r>èniri<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
         
-    	<e><p><l>irò</l><r>eniri<s n="vblex"/><s n="fti"/><s n="p1"/><s n="sg"/></r></p></e>
-    	<e><p><l>irai</l><r>eniri<s n="vblex"/><s n="fti"/><s n="p2"/><s n="sg"/></r></p></e>
-    	<e><p><l>irà</l><r>eniri<s n="vblex"/><s n="fti"/><s n="p3"/><s n="sg"/></r></p></e>
-    	<e><p><l>iremu</l><r>eniri<s n="vblex"/><s n="fti"/><s n="p1"/><s n="pl"/></r></p></e>
-    	<e><p><l>eniriti</l><r>eniri<s n="vblex"/><s n="fti"/><s n="p2"/><s n="pl"/></r></p></e>
-        <e><p><l>irannu</l><r>eniri<s n="vblex"/><s n="fti"/><s n="p3"/><s n="pl"/></r></p></e>
+    	<e><p><l>irò</l><r>èniri<s n="vblex"/><s n="fti"/><s n="p1"/><s n="sg"/></r></p></e>
+    	<e><p><l>irai</l><r>èniri<s n="vblex"/><s n="fti"/><s n="p2"/><s n="sg"/></r></p></e>
+    	<e><p><l>irà</l><r>èniri<s n="vblex"/><s n="fti"/><s n="p3"/><s n="sg"/></r></p></e>
+    	<e><p><l>iremu</l><r>èniri<s n="vblex"/><s n="fti"/><s n="p1"/><s n="pl"/></r></p></e>
+    	<e><p><l>èniriti</l><r>èniri<s n="vblex"/><s n="fti"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>irannu</l><r>èniri<s n="vblex"/><s n="fti"/><s n="p3"/><s n="pl"/></r></p></e>
         
-    	<e><p><l>egnu</l><r>eniri<s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
-    	<e><p><l>eni</l><r>eniri<s n="vblex"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
-    	<e><p><l>eni</l><r>eniri<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
-    	<e><p><l>inemu</l><r>eniri<s n="vblex"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
-    	<e><p><l>initi</l><r>eniri<s n="vblex"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
-        <e><p><l>ennu</l><r>eniri<s n="vblex"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
+    	<e><p><l>egnu</l><r>èniri<s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
+    	<e><p><l>eni</l><r>èniri<s n="vblex"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
+    	<e><p><l>eni</l><r>èniri<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
+    	<e><p><l>inemu</l><r>èniri<s n="vblex"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
+    	<e><p><l>initi</l><r>èniri<s n="vblex"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>ennu</l><r>èniri<s n="vblex"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
         
-        <e><p><l>inissi</l><r>eniri<s n="vblex"/><s n="pis"/><s n="p1"/><s n="sg"/></r></p></e>
-    	<e><p><l>inissi</l><r>eniri<s n="vblex"/><s n="pis"/><s n="p2"/><s n="sg"/></r></p></e>
-    	<e><p><l>inissi</l><r>eniri<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
-    	<e><p><l>inìssimu</l><r>eniri<s n="vblex"/><s n="pis"/><s n="p1"/><s n="pl"/></r></p></e>
-    	<e><p><l>inìssivu</l><r>eniri<s n="vblex"/><s n="pis"/><s n="p2"/><s n="pl"/></r></p></e>
-        <e><p><l>inìssiru</l><r>eniri<s n="vblex"/><s n="pis"/><s n="p3"/><s n="pl"/></r></p></e>
+        <e><p><l>inissi</l><r>èniri<s n="vblex"/><s n="pis"/><s n="p1"/><s n="sg"/></r></p></e>
+    	<e><p><l>inissi</l><r>èniri<s n="vblex"/><s n="pis"/><s n="p2"/><s n="sg"/></r></p></e>
+    	<e><p><l>inissi</l><r>èniri<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
+    	<e><p><l>inìssimu</l><r>èniri<s n="vblex"/><s n="pis"/><s n="p1"/><s n="pl"/></r></p></e>
+    	<e><p><l>inìssivu</l><r>èniri<s n="vblex"/><s n="pis"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>inìssiru</l><r>èniri<s n="vblex"/><s n="pis"/><s n="p3"/><s n="pl"/></r></p></e>
         
-    	<e><p><l>inirrìa</l><r>eniri<s n="vblex"/><s n="cni"/><s n="p1"/><s n="sg"/></r></p></e>
-    	<e><p><l>inirrìssi</l><r>eniri<s n="vblex"/><s n="cni"/><s n="p2"/><s n="sg"/></r></p></e>
-    	<e><p><l>inirrìa</l><r>eniri<s n="vblex"/><s n="cni"/><s n="p3"/><s n="sg"/></r></p></e>
-    	<e><p><l>inirrìamu</l><r>eniri<s n="vblex"/><s n="cni"/><s n="p1"/><s n="pl"/></r></p></e>
-    	<e><p><l>inirrìavu</l><r>eniri<s n="vblex"/><s n="cni"/><s n="p2"/><s n="pl"/></r></p></e>
-        <e><p><l>inirrìanu</l><r>eniri<s n="vblex"/><s n="cni"/><s n="p3"/><s n="pl"/></r></p></e>
+    	<e><p><l>inirrìa</l><r>èniri<s n="vblex"/><s n="cni"/><s n="p1"/><s n="sg"/></r></p></e>
+    	<e><p><l>inirrìssi</l><r>èniri<s n="vblex"/><s n="cni"/><s n="p2"/><s n="sg"/></r></p></e>
+    	<e><p><l>inirrìa</l><r>èniri<s n="vblex"/><s n="cni"/><s n="p3"/><s n="sg"/></r></p></e>
+    	<e><p><l>inirrìamu</l><r>èniri<s n="vblex"/><s n="cni"/><s n="p1"/><s n="pl"/></r></p></e>
+    	<e><p><l>inirrìavu</l><r>èniri<s n="vblex"/><s n="cni"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>inirrìanu</l><r>èniri<s n="vblex"/><s n="cni"/><s n="p3"/><s n="pl"/></r></p></e>
         
-        <e><p><l>inùt</l><r>eniri<s n="vblex"/><s n="pp"/></r></p><par n="A__/u"/></e>
+        <e><p><l>inùt</l><r>èniri<s n="vblex"/><s n="pp"/></r></p><par n="A__/u"/></e>
 
-        <e><p><l>ènnu</l><r>eniri<s n="vblex"/><s n="ger"/></r></p></e>
+        <e><p><l>ènnu</l><r>èniri<s n="vblex"/><s n="ger"/></r></p></e>
     </pardef>
 
     <pardef n="v/idiri__vblex">
@@ -1705,6 +1712,7 @@
     <e lm="telèfonu"><i>telèfon</i><par n="ann/u__n"/></e>
     <e lm="jardinu"><i>jardin</i><par n="ann/u__n"/></e>
     <e lm="munnu"><i>munn</i><par n="ann/u__n"/></e>
+    <e lm="argumentu"><i>argument</i><par n="ann/u__n"/></e>
     <e lm="elimentu"><i>eliment</i><par n="ann/u__n"/></e>
     <e lm="elementu" r="LR"><p><l>element</l><r>eliment</r></p><par n="ann/u__n"/></e>
     <e lm="funziunamentu"><i>funziunament</i><par n="ann/u__n"/></e>
@@ -1775,7 +1783,7 @@ FIXME: comprobar si la palabra "corridoiu" existe
     <e lm="furma" r="LR"><p><l>furm</l><r>form</r></p><par n="cas/a__n"/></e>
     <e lm="varca"><i>varc</i><par n="cas/a__n"/></e>
     <e lm="prucessu"><i>prucess</i><par n="ann/u__n"/></e>
-    <e lm="storia"><i>stori</i><par n="cas/a__n"/></e>
+    <e lm="storia"><i>stor</i><par n="oricch/ia__n"/></e>
     <e lm="terra"><i>terr</i><par n="cas/a__n"/></e>
     <e lm="màrmuru"><i>màrmur</i><par n="ann/u__n"/></e>
     <e lm="disertu"><i>disert</i><par n="ann/u__n"/></e>
@@ -1917,6 +1925,8 @@ FIXME: comprobar si la palabra "corridoiu" existe
     <e lm="furmazzioni"><i>furmaz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="rivuluzzioni"><i>rivuluz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="manifistazzioni"><i>manifistaz</i><par n="pupulaz/zioni__n"/></e>
+
+    <e lm="difinizzioni"><i>difiniz</i><par n="pupulaz/zioni__n"/></e>
 
     
     <e lm="accordu"><i>accord</i><par n="ann/u__n"/></e>
@@ -2108,10 +2118,8 @@ FIXME: comprobar si la palabra "corridoiu" existe
     <e lm="scrittura"><i>scrittur</i><par n="cas/a__n"/></e>
     <e lm="cosa"><i>cos</i><par n="cas/a__n"/></e>
     <e lm="causa"><i>caus</i><par n="cas/a__n"/></e>
-    <e lm="pueta"><i>puet</i><par n="cas/a__n"/></e>
     <e lm="festa"><i>fest</i><par n="cas/a__n"/></e>
     <e lm="lista"><i>list</i><par n="cas/a__n"/></e>
-    <e lm="chitarrista"><i>chitarrist</i><par n="cas/a__n"/></e>
     <e lm="cunquista"><i>cunquist</i><par n="cas/a__n"/></e>
     <e lm="costa"><i>cost</i><par n="cas/a__n"/></e>
     <e lm="mpurtanza"><i>mpurtanz</i><par n="cas/a__n"/></e>
@@ -2195,10 +2203,15 @@ FIXME: comprobar si la palabra "corridoiu" existe
     <e lm="aspettu"><i>aspett</i><par n="ann/u__n"/></e>
     <e lm="rumanzu"><i>rumanz</i><par n="ann/u__n"/></e>
     <e lm="senzu"><i>senz</i><par n="ann/u__n"/></e>
+    <e lm="attribbutu"><i>attribbut</i><par n="ann/u__n"/></e>
 
     <e lm="sistema"><i>sistem</i><par n="pianet/a__n"/></e>
     <e lm="clima"><i>clim</i><par n="pianet/a__n"/></e>
     <e lm="prugramma"><i>prugramm</i><par n="pianet/a__n"/></e>
+    <e lm="puema"><i>puem</i><par n="pianet/a__n"/></e>
+
+    <e lm="pueta"><i>puet</i><par n="chitarrist/a__n"/></e>
+    <e lm="chitarrista"><i>chitarrist</i><par n="chitarrist/a__n"/></e>
 
     <!-- SECTION: Proper nouns -->
 
@@ -2208,6 +2221,7 @@ FIXME: comprobar si la palabra "corridoiu" existe
 
     <e lm="Jaime"><i>Jaime</i><par n="Jaime__np"/></e>
     <e lm="Giacomo"><i>Giacomo</i><par n="Jaime__np"/></e>
+
 
     <e lm="Alba"><i>Alba</i><par n="María__np"/></e>
     <e lm="Monica"><i>Monica</i><par n="María__np"/></e>
@@ -2661,6 +2675,22 @@ FIXME: comprobar si la palabra "corridoiu" existe
     <e lm="Guy"><i>Guy</i><par n="Jaime__np"/></e>
     <e lm="Franz"><i>Franz</i><par n="Jaime__np"/></e>
 
+    <e lm="Giuvanni"><i>Giuvanni</i><par n="Jaime__np"/></e>
+    <e lm="Giuseppi"><i>Giuseppi</i><par n="Jaime__np"/></e>
+    <e lm="Carlu"><i>Carlu</i><par n="Jaime__np"/></e>
+    <e lm="Fidiricu"><i>Fidiricu</i><par n="Jaime__np"/></e>
+    <e lm="Petru"><i>Petru</i><par n="Jaime__np"/></e>
+    <e lm="Paulu"><i>Paulu</i><par n="Jaime__np"/></e>
+    <e lm="Franciscu"><i>Franciscu</i><par n="Jaime__np"/></e>
+    <e lm="Antoniu"><i>Antoniu</i><par n="Jaime__np"/></e>
+    <e lm="Gugghiermu"><i>Gugghiermu</i><par n="Jaime__np"/></e>
+    <e lm="Luiggi"><i>Luiggi</i><par n="Jaime__np"/></e>
+    <e lm="Grigoriu"><i>Grigoriu</i><par n="Jaime__np"/></e>
+    <e lm="Binidittu"><i>Binidittu</i><par n="Jaime__np"/></e>
+    <e lm="Filippu"><i>Filippu</i><par n="Jaime__np"/></e>
+    <e lm="Pietru"><i>Pietru</i><par n="Jaime__np"/></e>
+
+
 
     <e lm="Novosibirsk"><i>Novosibirsk</i><par n="Sicilia__np"/></e>
 
@@ -2693,6 +2723,8 @@ FIXME: comprobar si la palabra "corridoiu" existe
     <e lm="Alsazzia"><i>Alsazzia</i><par n="Sicilia__np"/></e>
     <e lm="Alvernia"><i>Alvernia</i><par n="Sicilia__np"/></e>
     <e lm="Amburgu"><i>Amburgu</i><par n="Sicilia__np"/></e>
+    <e lm="Amèrica"><i>Amèrica</i><par n="Sicilia__np"/></e>
+    <e lm="Mèrica" r="LR"><p><l>Mèrica</l><r>Amèrica</r></p><par n="Sicilia__np"/></e>
     <e lm="Amèrica dû Nord"><i>Amèrica<b/>dû<b/>Nord</i><par n="Sicilia__np"/></e>
     <e lm="Amèrica dû Sud"><i>Amèrica<b/>dû<b/>Sud</i><par n="Sicilia__np"/></e>
     <e lm="Amèrica latina"><i>Amèrica<b/>latina</i><par n="Sicilia__np"/></e>
@@ -3341,6 +3373,7 @@ FIXME: comprobar si la palabra "corridoiu" existe
     <e lm="Catania"><i>Catania</i><par n="Sicilia__np"/></e>
 
     <e lm="Wikipedia"><i>Wikipedia</i><par n="Wikipedia__np"/></e>
+    <e lm="Vichipedia"><i>Vichipedia</i><par n="Wikipedia__np"/></e>
     <e lm="Firefox"><i>Firefox</i><par n="Wikipedia__np"/></e>
 
     <!-- SECTION: Adjectives -->
@@ -3354,8 +3387,8 @@ FIXME: comprobar si la palabra "corridoiu" existe
     <e lm="tuu"><i>t</i><par n="t/ou__adj"/></e>
     <e lm="sou"><i>s</i><par n="t/ou__adj"/></e>
 
-    <e lm="nostru"><i>nostr</i><par n="bedd/u__adj"/></e> <!-- CHEQUEAR -->
-    <e lm="vostru"><i>vostr</i><par n="bedd/u__adj"/></e>     <!-- CHEQUEAR -->
+    <e lm="nostru"><i>nostr</i><par n="nostr/u__adj"/></e> <!-- CHEQUEAR -->
+    <e lm="vostru"><i>vostr</i><par n="nostr/u__adj"/></e>     <!-- CHEQUEAR -->
 
 
     <e lm="beddu"><i>bedd</i><par n="bedd/u__adj"/></e>
@@ -3458,7 +3491,6 @@ FIXME: comprobar si la palabra "corridoiu" existe
     <e lm="ecunòmicu"><i>ecunòmic</i><par n="bedd/u__adj"/></e>
     <e lm="elettricu"><i>elettric</i><par n="bedd/u__adj"/></e>
     <e lm="èpicu"><i>èpic</i><par n="bedd/u__adj"/></e>
-    <e lm="filusòficu"><i>filusòfic</i><par n="bedd/u__adj"/></e>
     <e lm="fìsicu"><i>fìsic</i><par n="bedd/u__adj"/></e>
     <e lm="funèticu"><i>funètic</i><par n="bedd/u__adj"/></e>
     <e lm="ginèricu"><i>ginèric</i><par n="bedd/u__adj"/></e>
@@ -3489,9 +3521,27 @@ FIXME: comprobar si la palabra "corridoiu" existe
     <e lm="diversu"><i>divers</i><par n="bedd/u__adj"/></e>
     <e lm="cristianu"><i>cristian</i><par n="bedd/u__adj"/></e>
     
+    <e lm="filusòficu"><i>filusòfic</i><par n="elettrumagnetic/u__adj"/></e>
+    <e lm="nazziunalìsticu"><i>nazziunalìstic</i><par n="elettrumagnetic/u__adj"/></e>
     
     <e lm="tantu"><i>tant</i><par n="bedd/u__adj"/></e>
     <e lm="stissu"><i>stiss</i><par n="bedd/u__adj"/></e>
+    <e lm="certu"><i>cert</i><par n="bedd/u__adj"/></e>
+
+    <e lm="autònumu"><i>autònum</i><par n="bedd/u__adj"/></e>
+    <e lm="ùrtimu"><i>ùrtim</i><par n="bedd/u__adj"/></e>
+    <e lm="ùltimu" r="LR"><p><l>ùltimu</l><r>ùrtim</r></p><par n="bedd/u__adj"/></e>
+    <e lm="umanu"><i>uman</i><par n="bedd/u__adj"/></e>
+    <e lm="rumanu"><i>ruman</i><par n="bedd/u__adj"/></e>
+    <e lm="miricanu"><i>mirican</i><par n="bedd/u__adj"/></e>
+    <e lm="latinu"><i>latin</i><par n="bedd/u__adj"/></e>
+    <e lm="àrabbu"><i>àrabb</i><par n="bedd/u__adj"/></e>
+    <e lm="famusu"><i>famus</i><par n="bedd/u__adj"/></e>
+    <e lm="propriu"><i>propri</i><par n="bedd/u__adj"/></e>
+    <e lm="europeu"><i>europe</i><par n="bedd/u__adj"/></e>
+    <e lm="riliggius"><i>riliggius</i><par n="bedd/u__adj"/></e>
+
+    <e lm="statunitenzi"><i>statunitenzi</i><par n="duci__adj"/></e>
 
     <e lm="picca"><i>picca</i><par n="duci__adj"/></e>
 
@@ -3557,6 +3607,16 @@ FIXME: comprobar si la palabra "corridoiu" existe
     <e lm="attuarmenti"><i>attuarmenti</i><par n="ùoggi__adv"/></e>
     <e lm="ovviamenti"><i>ovviamenti</i><par n="ùoggi__adv"/></e>
     <e lm="rapidamenti"><i>rapidamenti</i><par n="ùoggi__adv"/></e>
+    <e lm="spiciarmenti"><i>spiciarmenti</i><par n="ùoggi__adv"/></e>
+    <e lm="principarmenti"><i>principarmenti</i><par n="ùoggi__adv"/></e>
+    <e lm="sulamenti"><i>sulamenti</i><par n="ùoggi__adv"/></e>
+    <e lm="simpricimenti"><i>simpricimenti</i><par n="ùoggi__adv"/></e>
+    <e lm="facirmenti"><i>facirmenti</i><par n="ùoggi__adv"/></e>
+    <e lm="particularmenti"><i>particularmenti</i><par n="ùoggi__adv"/></e>
+    <e lm="ginirarmenti"><i>ginirarmenti</i><par n="ùoggi__adv"/></e>
+    <e lm="ufficiarmenti"><i>ufficiarmenti</i><par n="ùoggi__adv"/></e>
+    <e lm="prubbabbirmenti"><i>prubbabbirmenti</i><par n="ùoggi__adv"/></e>
+    <e lm="sicuramenti"><i>sicuramenti</i><par n="ùoggi__adv"/></e>
     
     
 
@@ -3569,7 +3629,7 @@ FIXME: comprobar si la palabra "corridoiu" existe
     <e lm="jucari"><i>j</i><par n="j/ucari__vblex"/></e>
     <e lm="stari"><i>st</i><par n="st/ari__vblex"/></e>
     <e lm="suprastari"><i>suprast</i><par n="st/ari__vblex"/></e>
-    <e lm="veniri"><i>v</i><par n="v/eniri__vblex"/></e>
+    <e lm="vèniri"><i>v</i><par n="v/èniri__vblex"/></e>
     <e lm="vidiri"><i>v</i><par n="v/idiri__vblex"/></e>
     <e lm="dari"><i>d</i><par n="d/ari__vblex"/></e>
     <e lm="rid"><i>rid</i><par n="d/ari__vblex"/></e>

@@ -11,6 +11,7 @@ LIST CC = cnjcoo ;
 LIST Prep/di = "<di>" ;
 LIST Prep/a = "<a>" ;
 LIST CC/e = "<e>" ;
+LIST CC/o = "<o>" ;
 LIST Haver = vbhaver ;
 
 LIST PrfPrc = pp ;
@@ -39,7 +40,7 @@ SECTION
 REMOVE SUB:1 Det IF (0 Prep/di OR Prep/a) ;
 # "di" y "a" deberían quedar como preposiciones simples por defecto.
 
-SELECT CC IF (0 CC/e) ;
+SELECT CC IF (0 CC/e OR CC/o) ;
 
 SELECT A + $$Genero IF (-1C N + $$Genero) ;
 
