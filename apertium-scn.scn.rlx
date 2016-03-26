@@ -4,13 +4,46 @@ DELIMITERS = "<.>" ;
 SUBREADINGS = LTR ;
 
 LIST Det = det ; 
+LIST N = n ;
+LIST A = adj ;
+LIST CC = cnjcoo ;
 
-LIST Di = "<di>" ;
-LIST A = "<a>" ;
+LIST Prep/di = "<di>" ;
+LIST Prep/a = "<a>" ;
+LIST CC/e = "<e>" ;
+LIST Haver = vbhaver ;
+
+LIST PrfPrc = pp ;
+
+LIST Sg = sg ;
+LIST Pl = pl ; 
+LIST Sp = sp ;
+
+LIST Msc = m ;
+LIST Fem = f ; 
+LIST MscFem = mf ;
+
+SET NotMsc = Fem | MscFem ;
+SET NotFem = Msc | MscFem ;
+
+SET NotSg = Pl | Sp ;
+SET NotPl = Sg | Sp ;
+
+SET Genero = NotMsc | NotFem ;
+SET Numero = NotSg | NotPl ;
+
 
 SECTION
 
-REMOVE SUB:1 Det IF (0 Di OR A) ;
+
+REMOVE SUB:1 Det IF (0 Prep/di OR Prep/a) ;
+# "di" y "a" deberían quedar como preposiciones simples por defecto.
+
+SELECT CC IF (0 CC/e) ;
+
+SELECT A + $$Genero IF (-1C N + $$Genero) ;
+
+SELECT Haver IF (1C PrfPrc) ;
 
 # Resources:
 # http://visl.sdu.dk/cg3.html

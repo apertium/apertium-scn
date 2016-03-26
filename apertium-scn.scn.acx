@@ -10,6 +10,10 @@
 
   <!-- Se suele no escribir los símbolos diacríticos -->
 
+  <char value="À">
+    <equiv-char value="A"/>
+  </char>
+
   <char value="à">
     <equiv-char value="a"/>
   </char>
@@ -49,9 +53,6 @@
   <char value="û">
     <equiv-char value="u"/>
   </char>
-
-
-
 
 </analysis-chars>
 
