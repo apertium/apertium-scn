@@ -10,7 +10,7 @@ LIST A = "<a>" ;
 
 SECTION
 
-REMOVE SUB:1 Det IF (0 Di OR A) (1 Det) ;
+REMOVE SUB:1 Det IF (0 Di OR A) ;
 
 # Resources:
 # http://visl.sdu.dk/cg3.html
