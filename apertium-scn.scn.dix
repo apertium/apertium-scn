@@ -1774,6 +1774,7 @@ FIXME: comprobar si la palabra "corridoiu" existe
     <e lm="russu"><i>russ</i><par n="sicilian/u__n"/></e> 
     <e lm="spagnuolu"><i>spagnuol</i><par n="sicilian/u__n"/></e> 
     <e lm="talianu"><i>talian</i><par n="sicilian/u__n"/></e> 
+    <e lm="talianu" r="LR"><p><l>italian</l><r>talian</r></p><par n="sicilian/u__n"/></e> 
     <e lm="tudiscu"><i>tudisc</i><par n="sicilian/u__n"/></e>
     <e lm="asturianu"><i>asturian</i><par n="sicilian/u__n"/></e> 
     <e lm="abbitanti"><i>abbitanti</i><par n="patri__n"/></e>
@@ -3546,6 +3547,32 @@ FIXME: comprobar si la palabra "corridoiu" existe
     <e lm="picca"><i>picca</i><par n="duci__adj"/></e>
 
     <e lm="principali"><i>principali</i><par n="duci__adj"/></e>
+
+    <e lm="culturali"><i>culturali</i><par n="duci__adj"/></e>
+    <e lm="cummirciali"><i>cummirciali</i><par n="duci__adj"/></e>
+    <e lm="finali"><i>finali</i><par n="duci__adj"/></e>
+    <e lm="funnamintali"><i>funnamintali</i><par n="duci__adj"/></e>
+    <e lm="ginirali"><i>ginirali</i><par n="duci__adj"/></e>
+    <e lm="lucali"><i>lucali</i><par n="duci__adj"/></e>
+    <e lm="miridiunali"><i>miridiunali</i><par n="duci__adj"/></e>
+    <e lm="musicali"><i>musicali</i><par n="duci__adj"/></e>
+    <e lm="naturali"><i>naturali</i><par n="duci__adj"/></e>
+    <e lm="nazziunali"><i>nazziunali</i><par n="duci__adj"/></e>
+    <e lm="nnustriali"><i>nnustriali</i><par n="duci__adj"/></e>
+    <e lm="ntirnazziunali"><i>ntirnazziunali</i><par n="duci__adj"/></e>
+    <e lm="orientali"><i>orientali</i><par n="duci__adj"/></e>
+    <e lm="pirsunali"><i>pirsunali</i><par n="duci__adj"/></e>
+    <e lm="riggiunali"><i>riggiunali</i><par n="duci__adj"/></e>
+    <e lm="sittintriunali"><i>sittintriunali</i><par n="duci__adj"/></e>
+    <e lm="spiciali"><i>spiciali</i><par n="duci__adj"/></e>
+    <e lm="suciali"><i>suciali</i><par n="duci__adj"/></e>
+    <e lm="tradizziunali"><i>tradizziunali</i><par n="duci__adj"/></e>
+    <e lm="tutali"><i>tutali</i><par n="duci__adj"/></e>
+    <e lm="uccidintali"><i>uccidintali</i><par n="duci__adj"/></e>
+    <e lm="ufficiali"><i>ufficiali</i><par n="duci__adj"/></e>
+    <e lm="urientali"><i>urientali</i><par n="duci__adj"/></e>
+    <e lm="vucali"><i>vucali</i><par n="duci__adj"/></e>
+
 
     <!-- SECTION: Adverbs -->
 
