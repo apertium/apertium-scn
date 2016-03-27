@@ -1904,7 +1904,7 @@
     <e lm="patri"><i>patri</i><par n="patri__n"/></e>
     <e lm="pedi"><i>pedi</i><par n="patri__n"/></e>
     <e lm="caluri"><i>calur</i><par n="patri__n"/></e>
-    <e lm="voi"><i>vo</i><par n="patri__n"/></e>
+    <e lm="voi"><i>voi</i><par n="patri__n"/></e>
     <e lm="cani"><i>cani</i><par n="patri__n"/></e>
     <e lm="pedi"><i>pedi</i><par n="patri__n"/></e>
     <e lm="tokamak"><i>tokamak</i><par n="patri__n"/></e>
@@ -1941,7 +1941,7 @@
     <e lm="rilazzioni"><i>rilaz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="equazzioni"><i>equaz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="azzioni"><i>az</i><par n="pupulaz/zioni__n"/></e>
-    <e lm="attinzioni"><i>attinzioni</i><par n="pupulaz/zioni__n"/></e>
+    <e lm="attinzioni"><i>attinz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="stazzioni"><i>staz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="edizzioni"><i>ediz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="pubbricazzioni"><i>pubbricaz</i><par n="pupulaz/zioni__n"/></e>
@@ -1971,27 +1971,28 @@
     <e lm="argentu"><i>argent</i><par n="ann/u__n"/></e>
     <e lm="ariuportu"><i>ariuport</i><par n="ann/u__n"/></e>
     <e lm="artìculu"><i>artìcul</i><par n="ann/u__n"/></e>
-    <e lm="asèrcitu"><i>asèrcit</i><par n="ann/u__n"/></e>
+    <e lm="esercitu"><i>esercit</i><par n="ann/u__n"/></e>
+    <e lm="asèrcitu" r="LR"><p><l>asèrcit</l><r>esercit</r></p><par n="ann/u__n"/></e>
+    <e lm="èsercitu" r="LR"><p><l>èsercit</l><r>esercit</r></p><par n="ann/u__n"/></e>
+    <e lm="esèrcitu" r="LR"><p><l>esèrcit</l><r>esercit</r></p><par n="ann/u__n"/></e>
     <e lm="austu"><i>aust</i><par n="ann/u__n"/></e>
     <e lm="bisognu"><i>bisogn</i><par n="ann/u__n"/></e>
     <e lm="campiunatu"><i>campiunat</i><par n="ann/u__n"/></e>
     <e lm="cantu"><i>cant</i><par n="ann/u__n"/></e>
-    <e lm="capuluòcu"><i>capuluòc</i><par n="ann/u__n"/></e>
     <e lm="casu"><i>cas</i><par n="ann/u__n"/></e>
     <e lm="cenzimentu"><i>cenziment</i><par n="ann/u__n"/></e>
     <e lm="corpu"><i>corp</i><par n="ann/u__n"/></e>
+    <e lm="curpu" r="LR"><p><l>curp</l><r>corp</r></p><par n="ann/u__n"/></e>
     <e lm="cristianu"><i>cristian</i><par n="ann/u__n"/></e>
     <e lm="cultu"><i>cult</i><par n="ann/u__n"/></e>
     <e lm="cumplessu"><i>cumpless</i><par n="ann/u__n"/></e>
     <e lm="cuncertu"><i>cuncert</i><par n="ann/u__n"/></e>
-    <e lm="curpu"><i>curp</i><par n="ann/u__n"/></e>
     <e lm="dialettu"><i>dialett</i><par n="ann/u__n"/></e>
     <e lm="dirittu"><i>diritt</i><par n="ann/u__n"/></e>
     <e lm="discu"><i>disc</i><par n="ann/u__n"/></e>
     <e lm="diu"><i>di</i><par n="ann/u__n"/></e>
     <e lm="duminiu"><i>dumini</i><par n="ann/u__n"/></e>
     <e lm="esempiu"><i>esempi</i><par n="ann/u__n"/></e>
-    <e lm="esercitu"><i>esercit</i><par n="ann/u__n"/></e>
     <e lm="filòsufu"><i>filòsuf</i><par n="ann/u__n"/></e>
     <e lm="finòminu"><i>finòmin</i><par n="ann/u__n"/></e>
     <e lm="focu"><i>foc</i><par n="ann/u__n"/></e>
@@ -2099,8 +2100,8 @@
     <e lm="universitati" r="LR"><p><l>universit</l><r>univirsit</r></p><par n="cit/ati__n"/></e>
     <e lm="univirsitati"><i>univirsit</i><par n="cit/ati__n"/></e>
     <e lm="varietati"><i>variet</i><par n="cit/ati__n"/></e>
-    <e lm="vilocitati"><i>vilocit</i><par n="cit/ati__n"/></e>
     <e lm="vilucitati"><i>vilucit</i><par n="cit/ati__n"/></e>
+    <e lm="vilocitati" r="LR"><p><l>vilocit</l><r>vilucit</r></p><par n="cit/ati__n"/></e>
     <e lm="viritati"><i>virit</i><par n="cit/ati__n"/></e>
     <e lm="vuluntati"><i>vulunt</i><par n="cit/ati__n"/></e>
 
@@ -2164,9 +2165,6 @@
     <e lm="prisenza"><i>prisenz</i><par n="cas/a__n"/></e>
     <e lm="nfruenza"><i>nfruenz</i><par n="cas/a__n"/></e>
 
-    <e lm="prucissioni"><i>pruciss</i><par n="matri__n"/></e>
-    <e lm="diffusioni"><i>diffus</i><par n="matri__n"/></e>
-    <e lm="funzioni"><i>funz</i><par n="matri__n"/></e>
 
     <e lm="carattirìstica"><i>carattirìstic</i><par n="ripùbbric/a__n"/></e>
     <e lm="zona"><i>zon</i><par n="cas/a__n"/></e>
@@ -2227,6 +2225,7 @@
     <e lm="frasi"><i>frasi</i><par n="matri__n"/></e>
 
     <e lm="locu"><i>loc</i><par n="ann/u__n"/></e>
+    <e lm="capuluòcu" r="LR"><p><l>capuluòc</l><r>capuloc</r></p><par n="ann/u__n"/></e>
     <e lm="capulocu"><i>capuloc</i><par n="ann/u__n"/></e>
     <e lm="casteddu"><i>castedd</i><par n="ann/u__n"/></e>
     <e lm="travagghiu"><i>travagghi</i><par n="ann/u__n"/></e>
@@ -2255,6 +2254,7 @@
     <e lm="riatturi"><i>riatturi</i><par n="patri__n"/></e>
     <e lm="funzioni"><i>funzioni</i><par n="matri__n"/></e>
     <e lm="diffusioni"><i>diffusioni</i><par n="matri__n"/></e>
+    <e lm="funzioni"><i>funzioni</i><par n="matri__n"/></e>
     <e lm="sprissioni"><i>sprissioni</i><par n="matri__n"/></e>
 
     <e lm="ogghiu"><i>ogghi</i><par n="ann/u__n"/></e>
