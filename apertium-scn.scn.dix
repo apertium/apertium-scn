@@ -584,6 +584,14 @@
       <e><p><l>lu</l><r>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
     </pardef>
 
+    <pardef n="/c'è__vblex">
+      	<e r="LR"><p><l>c'è</l><r>c'è<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      	<e r="RL"><p><l><a/>c'è</l><r>c'è<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      	<e r="LR" c="Dial/V"><p><l>c'eni</l><r>c'è<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      	<e r="LR"><p><l>nci<b/>su</l><r>c'è<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+      	<e r="RL"><p><l><a/>nci<b/>su</l><r>c'è<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+    </pardef>
+
     <pardef n="/èssiri__vbser">
       	<e><p><l>èssiri</l><r>èssiri<s n="vbser"/><s n="inf"/></r></p></e>
         
@@ -1808,7 +1816,6 @@
     <e lm="talianu" r="LR"><p><l>italian</l><r>talian</r></p><par n="sicilian/u__n"/></e> 
     <e lm="tudiscu"><i>tudisc</i><par n="sicilian/u__n"/></e>
     <e lm="asturianu"><i>asturian</i><par n="sicilian/u__n"/></e> 
-    <e lm="abbitanti"><i>abbitanti</i><par n="patri__n"/></e>
     <e lm="prisidenti"><i>prisidenti</i><par n="patri__n"/></e>
     <e lm="pricidenti" r="LR"><p><l>pricidenti</l><r>prisidenti</r></p><par n="patri__n"/></e>
     <e lm="càmmira"><i>càmmir</i><par n="cas/a__n"/></e>
@@ -2205,6 +2212,7 @@
 <!--    <e lm="etati"><i>etati</i><par n="@__n"/></e>-->
 <!--    <e lm="varianti"><i>varianti</i><par n="@__n"/></e>-->
     <e lm="cantanti"><i>cantanti</i><par n="cantanti__n"/></e>
+    <e lm="abbitanti"><i>abbitanti</i><par n="cantanti__n"/></e>
 <!--    <e lm="ambienti"><i>ambienti</i><par n="@__n"/></e>-->
 <!--    <e lm="arti"><i>arti</i><par n="@__n"/></e>-->
 <!--    <e lm="costi"><i>costi</i><par n="@__n"/></e>-->
@@ -3711,6 +3719,10 @@
     <e lm="aviri"><i></i><par n="/aviri__vbhaver"/></e>
     <e lm="aviri"><i></i><par n="/aviri__vblex"/></e>
     <e lm="putiri"><i>p</i><par n="p/utiri__vbmod"/></e>
+
+    <e lm="c'è"><i></i><par n="/c'è__vblex"/></e>
+
+
     <e lm="jucari"><i>j</i><par n="j/ucari__vblex"/></e>
     <e lm="stari"><i>st</i><par n="st/ari__vblex"/></e>
     <e lm="suprastari"><i>suprast</i><par n="st/ari__vblex"/></e>
@@ -3768,6 +3780,7 @@
     <e lm="numinari"><i>numin</i><par n="parr/ari__vblex"/></e>
     <e lm="criari"><i>cri</i><par n="parr/ari__vblex"/></e>
     <e lm="significari"><i>signific</i><par n="parr/ari__vblex"/></e>
+    <e lm="funnari"><i>funn</i><par n="parr/ari__vblex"/></e>
     
     
     
