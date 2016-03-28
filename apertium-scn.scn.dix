@@ -114,9 +114,19 @@
       	<e r="LR"><p><l>g</l><r>c</r></p></e>
     </pardef>
 
+    <pardef n="e/i">
+      	<e><p><l>e</l><r>e</r></p></e>
+      	<e r="LR"><p><l>i</l><r>e</r></p></e>
+    </pardef>
+
     <pardef n="u/o">
       	<e><p><l>u</l><r>u</r></p></e>
       	<e r="LR"><p><l>o</l><r>u</r></p></e>
+    </pardef>
+
+    <pardef n="al/ar">
+      	<e><p><l>al</l><r>al</r></p></e>
+      	<e r="LR"><p><l>ar</l><r>al</r></p></e>
     </pardef>
 
     <!-- SECTION: Conjunctions -->
@@ -588,6 +598,7 @@
       	<e r="LR"><p><l>c'è</l><r>c'è<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
       	<e r="RL"><p><l><a/>c'è</l><r>c'è<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
       	<e r="LR"><p><l>c'esti</l><r>c'è<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      	<e r="LR"><p><l>ci<b/>sunnu</l><r>c'è<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
       	<e r="LR" c="Dial/V"><p><l>c'eni</l><r>c'è<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
       	<e r="LR"><p><l>nci<b/>su</l><r>c'è<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
       	<e r="RL"><p><l><a/>nci<b/>su</l><r>c'è<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
@@ -1931,6 +1942,7 @@
     <e lm="beccu"><i>becc</i><par n="parc/u__n"/></e>
     
     <e lm="ripùbbrica"><i>ripùbbric</i><par n="ripùbbric/a__n"/></e>
+    <e lm="ripùbbrica" r="LR"><p><l>ripùbblic</l><r>ripùbbric</r></p><par n="ripùbbric/a__n"/></e>
     
     <e lm="culonia"><i>culoni</i><par n="culoni/a__n"/></e>
     <e lm="pruvincia"><i>pruvinci</i><par n="culoni/a__n"/></e>
@@ -1947,7 +1959,7 @@
     <e lm="produzzioni" r="LR"><p><l>produz</l><r>pruduz</r></p><par n="pupulaz/zioni__n"/></e>
     <e lm="riazzioni"><i>riaz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="rilazzioni"><i>rilaz</i><par n="pupulaz/zioni__n"/></e>
-    <e lm="equazzioni"><i>equaz</i><par n="pupulaz/zioni__n"/></e>
+    <e lm="equazzioni"><par n="e/i"/><i>quaz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="azzioni"><i>az</i><par n="pupulaz/zioni__n"/></e>
     <e lm="attinzioni"><i>attinz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="stazzioni"><i>staz</i><par n="pupulaz/zioni__n"/></e>
@@ -1974,7 +1986,7 @@
 
     
     <e lm="accordu"><i>accord</i><par n="ann/u__n"/></e>
-    <e lm="alfabbetu"><i>alfabbet</i><par n="ann/u__n"/></e>
+    <e lm="alfabbetu"><par n="al/ar"/><i>fabbet</i><par n="ann/u__n"/></e>
     <e lm="amicu"><i>amic</i><par n="ann/u__n"/></e>
     <e lm="argentu"><i>argent</i><par n="ann/u__n"/></e>
     <e lm="ariuportu"><i>ariuport</i><par n="ann/u__n"/></e>
@@ -3568,6 +3580,7 @@
     <e lm="miccànicu"><i>miccànic</i><par n="bedd/u__adj"/></e>
     <e lm="pùbblicu"><i>pùbblic</i><par n="bedd/u__adj"/></e>
     <e lm="pùbbricu" r="LR"><p><l>pùbbric</l><r>pùbblic</r></p><par n="bedd/u__adj"/></e>
+    <e lm="pùbbricu" r="LR"><p><l>pùblic</l><r>pùbblic</r></p><par n="bedd/u__adj"/></e>
     <e lm="puèticu"><i>puètic</i><par n="bedd/u__adj"/></e>
     <e lm="scintìficu"><i>scintìfic</i><par n="bedd/u__adj"/></e>
     <e lm="spicìficu"><i>spicìfic</i><par n="bedd/u__adj"/></e>
@@ -3639,6 +3652,7 @@
     <e lm="pussìbbili"><i>pussìbbili</i><par n="duci__adj"/></e>
     <e lm="sulu"><i>sul</i><par n="bedd/u__adj"/></e>
     <e lm="novu"><i>nov</i><par n="bedd/u__adj"/></e>
+    <e lm="talianu"><i>talian</i><par n="bedd/u__adj"/></e>
 
 
     <!-- SECTION: Adverbs -->

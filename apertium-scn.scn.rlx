@@ -11,6 +11,8 @@ LIST CC = cnjcoo ;
 LIST Prep/di = "<di>" ;
 LIST Prep/a = "<a>" ;
 LIST Prep/pi = "<pi>" ;
+LIST Prep/cu = "<cu>" ;
+
 LIST CC/e = "<e>" ;
 LIST CC/o = "<o>" ;
 LIST Haver = vbhaver ;
@@ -38,7 +40,7 @@ SET Numero = NotSg | NotPl ;
 SECTION
 
 
-REMOVE SUB:1 Det IF (0 Prep/di OR Prep/a OR Prep/pi) ;
+REMOVE SUB:1 Det IF (0 Prep/di OR Prep/a OR Prep/pi OR Prep/cu) ;
  # "di" y "a" etc. deberían quedar como preposiciones simples por defecto.
  # necesitamos esta regla porque a veces se escribe siciliano sin tildes, 
  # y allí "a" y "â" son ambiguos
