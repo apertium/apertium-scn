@@ -1652,6 +1652,7 @@
     <e lm="ppi" r="LR"><p><l>p</l><r></r></p><par n="contpi__pr"/></e>
     <e lm="sècunnu"><i>sècunnu</i><par n="tra__pr"/></e>
     
+    <e lm="nzin'a" r="LR"><p><l>nzin'</l><r>nzinu<b/></r></p><par n="conta__pr"/></e>
     <e lm="nzinu a"><i>nzinu<b/></i><par n="conta__pr"/></e>
     <e lm="juntu a"><i>juntu<b/></i><par n="conta__pr"/></e>
     <e lm="avanzi a"><i>avanzi<b/></i><par n="conta__pr"/></e>
@@ -2161,7 +2162,7 @@
     <e lm="òrdini"><i>òrdini</i><par n="patri__n"/></e>
     <e lm="morti"><i>morti</i><par n="patri__n"/></e>
 
-    <e lm="èbbica"><i>èbbic</i><par n="cas/a__n"/></e>
+    <e lm="èbbica"><i>èbbic</i><par n="ripùbbric/a__n"/></e>
     <e lm="mùsica"><i>mùsic</i><par n="cas/a__n"/></e>
     <e lm="ricerca"><i>ricerc</i><par n="cas/a__n"/></e>
     <e lm="stidda"><i>stidd</i><par n="cas/a__n"/></e>
@@ -4691,6 +4692,8 @@
     <e lm="sirianu"><i>sirian</i><par n="bedd/u__adj"/></e>
 
     <e lm="siquenti"><i>siquenti</i><par n="duci__adj"/></e>
+
+    <e lm="slàvicu"><i>slàvic</i><par n="elettrumagnetic/u__adj"/></e>
 
     <!-- SECTION: Adverbs -->
 
