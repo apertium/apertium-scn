@@ -119,6 +119,11 @@
       	<e r="LR"><p><l>i</l><r>e</r></p></e>
     </pardef>
 
+    <pardef n="a/e">
+      	<e><p><l>a</l><r>a</r></p></e>
+      	<e r="LR"><p><l>e</l><r>a</r></p></e>
+    </pardef>
+
     <pardef n="u/o">
       	<e><p><l>u</l><r>u</r></p></e>
       	<e r="LR"><p><l>o</l><r>u</r></p></e>
@@ -314,6 +319,10 @@
       	<e><p><l></l><r><s n="n"/><s n="m"/><s n="sp"/></r></p></e>
     </pardef>
 
+    <pardef n="lunidìa__n">
+      	<e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+    </pardef>
+
     <pardef n="ann/u__n">
       	<e><p><l>u</l><r>u<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       	<e><p><l>i</l><r>u<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
@@ -415,6 +424,8 @@
       	<e r="LR"><p><l>zioni</l><r>zioni<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
       	<e r="LR"><p><l>ioni</l><r>zioni<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
       	<e r="LR"><p><l>ione</l><r>zioni<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
+      	<e r="LR"><p><l>ziuni</l><r>zioni<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
+      	<e r="LR"><p><l>iuni</l><r>zioni<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
     </pardef>
 
     <pardef n="tirritori/u__n">
@@ -2250,7 +2261,7 @@
     <e lm="capulocu"><i>capuloc</i><par n="ann/u__n"/></e>
     <e lm="casteddu"><i>castedd</i><par n="ann/u__n"/></e>
     <e lm="travagghiu"><i>travagghi</i><par n="ann/u__n"/></e>
-    <e lm="asempiu"><i>asempi</i><par n="ann/u__n"/></e>
+    <e lm="asèmpiu"><i>asèmpi</i><par n="ann/u__n"/></e>
     <e lm="rolu"><i>rol</i><par n="ann/u__n"/></e>
     <e lm="sìmmulu"><i>sìmmul</i><par n="ann/u__n"/></e>
     <e lm="scopu"><i>scop</i><par n="ann/u__n"/></e>
@@ -2279,6 +2290,53 @@
     <e lm="sprissioni"><i>sprissioni</i><par n="matri__n"/></e>
 
     <e lm="ogghiu"><i>ogghi</i><par n="ann/u__n"/></e>
+    <e lm="finanziamentu"><i>finanziament</i><par n="ann/u__n"/></e>
+
+    <e lm="lunidìa"><i>lunidìa</i><par n="lunidìa__n"/></e>	
+    <e lm="martidìa"><i>martidìa</i><par n="lunidìa__n"/></e>	
+    <e lm="mercuridìa"><i>mercuridìa</i><par n="lunidìa__n"/></e>	
+    <e lm="jovidìa"><i>jovidìa</i><par n="lunidìa__n"/></e>	
+    <e lm="venniridìa"><i>venniridìa</i><par n="lunidìa__n"/></e>	
+    <e lm="sabbatudìa"><i>sabbatudìa</i><par n="lunidìa__n"/></e>	
+    <e lm="duminicadìa"><i>duminicadìa</i><par n="lunidìa__n"/></e>	
+
+
+
+    <e lm="accilirazzioni"><i>acciliraz</i><par n="pupulaz/zioni__n"/></e>
+    <e lm="addizzioni"><i>addiz</i><par n="pupulaz/zioni__n"/></e>
+    <e lm="aducazzioni"><par n="a/e"/><i>ducaz</i><par n="pupulaz/zioni__n"/></e>
+    <e lm="affizzioni"><i>affiz</i><par n="pupulaz/zioni__n"/></e>
+    <e lm="aggricazzioni"><i>aggricaz</i><par n="pupulaz/zioni__n"/></e>
+    <e lm="assuciazzioni"><i>assuciaz</i><par n="pupulaz/zioni__n"/></e>
+    <e lm="aviazzioni"><i>aviaz</i><par n="pupulaz/zioni__n"/></e>
+    <e lm="citazzioni"><i>citaz</i><par n="pupulaz/zioni__n"/></e>
+    <e lm="cunzuciazzioni"><i>cunzuciaz</i><par n="pupulaz/zioni__n"/></e>
+    <e lm="currizzioni"><i>curriz</i><par n="pupulaz/zioni__n"/></e>
+    <e lm="custiddazzioni"><i>custiddaz</i><par n="pupulaz/zioni__n"/></e>
+    <e lm="custituzzioni"><i>custituz</i><par n="pupulaz/zioni__n"/></e>
+    <e lm="diffrazzioni"><i>diffraz</i><par n="pupulaz/zioni__n"/></e>
+    <e lm="distribbuzzioni"><i>distribbuz</i><par n="pupulaz/zioni__n"/></e>
+    <e lm="disuccupazzioni"><i>disuccupaz</i><par n="pupulaz/zioni__n"/></e>
+    <e lm="eccizzioni"><i>ecciz</i><par n="pupulaz/zioni__n"/></e>
+    <e lm="emuzzioni"><i>emuz</i><par n="pupulaz/zioni__n"/></e>
+    <e lm="fidirazzioni"><i>fidiraz</i><par n="pupulaz/zioni__n"/></e>
+    <e lm="firmintazzioni"><i>firmintaz</i><par n="pupulaz/zioni__n"/></e>
+    <e lm="gistazzioni"><i>gistaz</i><par n="pupulaz/zioni__n"/></e>
+    <e lm="gnizzioni"><i>gniz</i><par n="pupulaz/zioni__n"/></e>
+    <e lm="gravitazzioni"><i>gravitaz</i><par n="pupulaz/zioni__n"/></e>
+    <e lm="iquazzioni"><i>iquaz</i><par n="pupulaz/zioni__n"/></e>
+    <e lm="murtipricazzioni"><i>murtipricaz</i><par n="pupulaz/zioni__n"/></e>
+    <e lm="nflazzioni"><i>nflaz</i><par n="pupulaz/zioni__n"/></e>
+    <e lm="nquisizzioni"><i>nquisiz</i><par n="pupulaz/zioni__n"/></e>
+    <e lm="oppusizzioni"><i>oppusiz</i><par n="pupulaz/zioni__n"/></e>
+    <e lm="prostituzzioni"><i>prostituz</i><par n="pupulaz/zioni__n"/></e>
+    <e lm="rifrazzioni"><i>rifraz</i><par n="pupulaz/zioni__n"/></e>
+    <e lm="simulazzioni"><i>simulaz</i><par n="pupulaz/zioni__n"/></e>
+    <e lm="sudisfazzioni"><i>sudisfaz</i><par n="pupulaz/zioni__n"/></e>
+    <e lm="suluzzioni"><i>suluz</i><par n="pupulaz/zioni__n"/></e>
+    <e lm="titulazzioni"><i>titulaz</i><par n="pupulaz/zioni__n"/></e>
+    <e lm="upirazzioni"><i>upiraz</i><par n="pupulaz/zioni__n"/></e>
+    <e lm="vutazzioni"><i>vutaz</i><par n="pupulaz/zioni__n"/></e>
 
     <!-- SECTION: Proper nouns -->
 
@@ -3771,6 +3829,7 @@
     <e lm="umanu"><i>uman</i><par n="bedd/u__adj"/></e>
     <e lm="rumanu"><i>ruman</i><par n="bedd/u__adj"/></e>
     <e lm="miricanu"><i>mirican</i><par n="bedd/u__adj"/></e>
+    <e lm="miricanu" r="LR"><p><l>amirican</l><r>mirican</r></p><par n="bedd/u__adj"/></e>
     <e lm="latinu"><i>latin</i><par n="bedd/u__adj"/></e>
     <e lm="àrabbu"><i>àrabb</i><par n="bedd/u__adj"/></e>
     <e lm="famusu"><i>famus</i><par n="bedd/u__adj"/></e>
@@ -3813,7 +3872,9 @@
     <e lm="sulu"><i>sul</i><par n="bedd/u__adj"/></e>
     <e lm="novu"><i>nov</i><par n="bedd/u__adj"/></e>
     <e lm="talianu"><i>talian</i><par n="bedd/u__adj"/></e>
+    <e lm="sirianu"><i>sirian</i><par n="bedd/u__adj"/></e>
 
+    <e lm="siquenti"><i>siquenti</i><par n="duci__adj"/></e>
 
     <!-- SECTION: Adverbs -->
 
