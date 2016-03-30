@@ -2369,6 +2369,7 @@
     <e lm="rumanzu"><i>rumanz</i><par n="ann/u__n"/></e>
     <e lm="senzu"><i>senz</i><par n="ann/u__n"/></e>
     <e lm="attribbutu"><i>attribbut</i><par n="ann/u__n"/></e>
+    <e lm="supraventu"><i>supravent</i><par n="ann/u__n"/></e>
 
     <e lm="sistema"><i>sistem</i><par n="pianet/a__n"/></e>
     <e lm="clima"><i>clim</i><par n="pianet/a__n"/></e>
@@ -5071,7 +5072,11 @@
     <e lm="ufficiali"><i>ufficiali</i><par n="duci__adj"/></e>
     <e lm="urientali"><i>urientali</i><par n="duci__adj"/></e>
     <e lm="vucali"><i>vucali</i><par n="duci__adj"/></e>
+    
+    
     <e lm="tali"><i>tali</i><par n="duci__adj"/></e>
+    <e lm="rinovabili"><i>rinovabili</i><par n="duci__adj"/></e>
+    
 
     <e lm="pussìbbili"><i>pussìbbili</i><par n="duci__adj"/></e>
     <e lm="sulu"><i>sul</i><par n="bedd/u__adj"/></e>
@@ -5108,6 +5113,9 @@
     <e lm="ancora"><i>ancora</i><par n="ùoggi__adv"/></e>
     <e lm="arretu"><i>arretu</i><par n="ùoggi__adv"/></e>
     <e lm="accussì"><i>accussì</i><par n="ùoggi__adv"/></e>
+    
+    <e lm="tali"><i>tali</i><par n="assai__preadv"/></e>
+    
     
     
 
@@ -5234,7 +5242,8 @@
     <e lm="studiari"><i>studi</i><par n="parr/ari__vblex"/></e>
     <e lm="urganizzari"><par n="u/o"/><i>rganizz</i><par n="parr/ari__vblex"/></e>
     <e lm="accilirari"><i>accilir</i><par n="parr/ari__vblex"/></e>
-    
+    <e lm="trattari"><i>tratt</i><par n="parr/ari__vblex"/></e>
+    <e lm="maltrattari"><i>maltratt</i><par n="parr/ari__vblex"/></e>
     
     
     
