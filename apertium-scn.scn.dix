@@ -2184,9 +2184,6 @@
     <e lm="mutivu"><i>mutiv</i><par n="ann/u__n"/></e>
     
      
-    
-
-
 
     <e lm="antichitati"><i>antichit</i><par n="cit/ati__n"/></e>
     <e lm="attivitati"><i>attivit</i><par n="cit/ati__n"/></e>
@@ -3236,6 +3233,8 @@
     <e lm="risirvatizza"><i>risirvatizz</i><par n="cas/a__n"/></e>
     <e lm="tristizza"><i>tristizz</i><par n="cas/a__n"/></e>
     <e lm="purpuzza"><i>purpuzz</i><par n="cas/a__n"/></e>
+    <e lm="idea"><i>ide</i><par n="cas/a__n"/></e>
+    
 
     <e lm="prublema"><i>prubblem</i><par n="pianet/a__n"/></e>
     <e lm="prubblema" r="LR"><p><l>prublem</l><r>prubblem</r></p><par n="pianet/a__n"/></e>
@@ -4956,6 +4955,10 @@
     <e lm="particulari"><i>particulari</i><par n="duci__adj"/></e>
     <e lm="pupulari"><i>pupulari</i><par n="duci__adj"/></e>
     <e lm="stabili"><i>stabili</i><par n="duci__adj"/></e>
+    <e lm="rinnovabili"><i>rinnovabili</i><par n="duci__adj"/></e>
+    
+    
+    
     
     
     <e lm="accadèmicu"><i>accadèmic</i><par n="bedd/u__adj"/></e>
@@ -5244,6 +5247,11 @@
     <e lm="accilirari"><i>accilir</i><par n="parr/ari__vblex"/></e>
     <e lm="trattari"><i>tratt</i><par n="parr/ari__vblex"/></e>
     <e lm="maltrattari"><i>maltratt</i><par n="parr/ari__vblex"/></e>
+    <e lm="bisugnari"><i>bisugn</i><par n="parr/ari__vblex"/></e>
+    <e lm="abbisugnari"><i>abbisugn</i><par n="parr/ari__vblex"/></e>
+    <e lm="nvintari"><i>nvint</i><par n="parr/ari__vblex"/></e>
+    <e lm="mmintari"><i>mmint</i><par n="parr/ari__vblex"/></e>
+    <e lm="ammintari"><i>ammint</i><par n="parr/ari__vblex"/></e>
     
     
     
@@ -5267,7 +5275,7 @@
     <e lm="sèntiri"><i>sènt</i><par n="batt/iri__vblex"/></e>
     <e lm="cumpòniri"><i>cumpòn</i><par n="batt/iri__vblex"/></e>
     <e lm="risulviri"><i>risulv</i><par n="batt/iri__vblex"/></e>
-    
+    <e lm="prupòniri"><i>prupòn</i><par n="batt/iri__vblex"/></e>
     
     <e lm="rifiriri"><i>rifir</i><par n="batt/iri__vblex"/></e>
     <e lm="vìviri"><i>vìv</i><par n="batt/iri__vblex"/></e>
