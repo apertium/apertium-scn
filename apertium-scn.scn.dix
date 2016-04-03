@@ -3519,6 +3519,8 @@
     <e lm="riti"><i>riti</i><par n="patri__n"/></e>
     <e lm="mitiuriti"><i>mitiuriti</i><par n="patri__n"/></e>
     <e lm="significanti"><i>significanti</i><par n="patri__n"/></e>
+    <e lm="custanti"><i>custanti</i><par n="patri__n"/></e>
+    <e lm="erruri"><i>erruri</i><par n="patri__n"/></e>
     <e lm="diamanti"><i>diamanti</i><par n="patri__n"/></e>
     <e lm="lattanti"><i>lattanti</i><par n="patri__n"/></e>
     <e lm="accidenti"><i>accidenti</i><par n="patri__n"/></e>
@@ -4940,12 +4942,15 @@
     <e lm="Zara"><i>Zara</i><par n="Sicilia__np"/></e>
     <e lm="Zugu"><i>Zugu</i><par n="Sicilia__np"/></e>
 
+    <e lm="Nuvara"><i>Nuvara</i><par n="Sicilia__np"/></e>
+
     <e lm="N'Djamena"><i>N'Djamena</i><par n="Sicilia__np"/></e>
 
     <e lm="Einstein"><i>Einstein</i><par n="Rosenburg__np"/></e>
     <e lm="Rosenburg"><i>Rosenburg</i><par n="Rosenburg__np"/></e>
 
     <e lm="Gesù"><i>Gesù</i><par n="Jaime__np"/></e>
+    <e lm="Vitu"><i>Vitu</i><par n="Jaime__np"/></e>
 
     <e lm="Wikipedia"><i>Wikipedia</i><par n="Wikipedia__np"/></e>
     <e lm="Vichipedia"><i>Vichipedia</i><par n="Wikipedia__np"/></e>
@@ -5061,6 +5066,9 @@
     <e lm="vacanti"><i>vacanti</i><par n="duci__adj"/></e>
     <e lm="putenti"><i>putenti</i><par n="duci__adj"/></e>
     <e lm="caoticu"><i>caotic</i><par n="bedd/u__adj"/></e>
+
+    <e lm="sulari"><i>sulari</i><par n="duci__adj"/></e>
+    <e lm="custanti"><i>custanti</i><par n="duci__adj"/></e>
     
     
     
@@ -5383,6 +5391,7 @@
     <e lm="criari"><i>cri</i><par n="parr/ari__vblex"/></e>
     <e lm="annunziari"><i>annunzi</i><par n="parr/ari__vblex"/></e>
     <e lm="supirari"><i>supir</i><par n="parr/ari__vblex"/></e>
+    <e lm="agghicari"><i>agghic</i><par n="parr/ari__vblex"/></e>
     
     
     
