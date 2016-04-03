@@ -2075,6 +2075,7 @@
     <e lm="stazzioni"><i>staz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="edizzioni"><i>ediz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="pubbricazzioni"><i>pubbricaz</i><par n="pupulaz/zioni__n"/></e>
+    <e lm="pubblicazzioni" r="LR"><p><l>pubblicaz</l><r>pubbricaz</r></p><par n="pupulaz/zioni__n"/></e>
 
     <e lm="tradizzioni"><i>tradiz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="nazzioni"><i>naz</i><par n="pupulaz/zioni__n"/></e>
@@ -2089,8 +2090,11 @@
     <e lm="elizzioni"><i>eliz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="urganizzazzioni"><par n="u/o"/><i>rganizzaz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="furmazzioni"><i>furmaz</i><par n="pupulaz/zioni__n"/></e>
+    <e lm="furmazzioni" r="LR"><p><l>formaz</l><r>furmaz</r></p><par n="pupulaz/zioni__n"/></e>
     <e lm="rivuluzzioni"><i>rivuluz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="manifistazzioni"><i>manifistaz</i><par n="pupulaz/zioni__n"/></e>
+    <e lm="duminazzioni"><i>duminaz</i><par n="pupulaz/zioni__n"/></e>
+    <e lm="libirazzioni"><i>libiraz</i><par n="pupulaz/zioni__n"/></e>
 
     <e lm="difinizzioni"><i>difiniz</i><par n="pupulaz/zioni__n"/></e>
 
@@ -2425,6 +2429,7 @@
     <e lm="affizzioni"><i>affiz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="aggricazzioni"><i>aggricaz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="assuciazzioni"><i>assuciaz</i><par n="pupulaz/zioni__n"/></e>
+    <e lm="associazzioni" r="LR"><p><l>associaz</l><r>assuciaz</r></p><par n="pupulaz/zioni__n"/></e>
     <e lm="aviazzioni"><i>aviaz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="citazzioni"><i>citaz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="cunzuciazzioni"><i>cunzuciaz</i><par n="pupulaz/zioni__n"/></e>
@@ -2452,7 +2457,7 @@
     <e lm="sudisfazzioni"><i>sudisfaz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="suluzzioni"><i>suluz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="titulazzioni"><i>titulaz</i><par n="pupulaz/zioni__n"/></e>
-    <e lm="upirazzioni"><i>upiraz</i><par n="pupulaz/zioni__n"/></e>
+    <e lm="upirazzioni"><par n="u/o"/><i>piraz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="vutazzioni"><i>vutaz</i><par n="pupulaz/zioni__n"/></e>
 
     <e lm="sìnnacu"><i>sìnnac</i><par n="nànn/u__n"/></e>
@@ -3584,9 +3589,35 @@
     <e lm="classificazzioni"><i>classificaz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="discrizzioni"><i>discriz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="ussirvazzioni"><par n="u/a/o"/><i>ssirvaz</i><par n="pupulaz/zioni__n"/></e>
+    <e lm="uccupazzioni"><par n="u/a/o"/><i>ccupaz</i><par n="pupulaz/zioni__n"/></e>
 
     <e lm="frati"><i>frati</i><par n="patri__n"/></e>
     <e lm="sinistra"><i>sinistr</i><par n="cas/a__n"/></e>
+
+
+    <e lm="funnazzioni"><i>funnaz</i><par n="pupulaz/zioni__n"/></e>
+    <e lm="migrazzioni"><i>migraz</i><par n="pupulaz/zioni__n"/></e>
+    <e lm="emigrazzioni"><i>emigraz</i><par n="pupulaz/zioni__n"/></e>
+    <e lm="mmigrazzioni"><par n="m/im"/><i>migraz</i><par n="pupulaz/zioni__n"/></e>
+
+    <e lm="nstallazzioni"><i>nstallaz</i><par n="pupulaz/zioni__n"/></e>
+    <e lm="ndicazzioni"><i>ndicaz</i><par n="pupulaz/zioni__n"/></e>
+    <e lm="qualificazzioni"><i>qualificaz</i><par n="pupulaz/zioni__n"/></e>
+    <e lm="unificazzioni"><i>unificaz</i><par n="pupulaz/zioni__n"/></e>
+    <e lm="riunificazzioni"><i>riunificaz</i><par n="pupulaz/zioni__n"/></e>
+    <e lm="furtificazzioni"><i>furtificaz</i><par n="pupulaz/zioni__n"/></e>
+    <e lm="justificazzioni"><par n="j/gi/i"/><i>ustificaz</i><par n="pupulaz/zioni__n"/></e>
+    <e lm="multiplicazzioni"><i>multiplicaz</i><par n="pupulaz/zioni__n"/></e>
+    <e lm="applicazzioni"><i>applicaz</i><par n="pupulaz/zioni__n"/></e>
+    <e lm="applicazzioni" r="LR"><p><l>appricaz</l><r>applicaz</r></p><par n="pupulaz/zioni__n"/></e>
+    <e lm="fabbricazzioni"><i>fabbricaz</i><par n="pupulaz/zioni__n"/></e>
+    <e lm="ridazzioni"><i>ridaz</i><par n="pupulaz/zioni__n"/></e>
+    <e lm="navigazzioni"><i>navigaz</i><par n="pupulaz/zioni__n"/></e>
+    <e lm="radiazzioni"><i>radiaz</i><par n="pupulaz/zioni__n"/></e>
+    <e lm="variazzioni"><i>variaz</i><par n="pupulaz/zioni__n"/></e>
+    <e lm="criazzioni"><i>criaz</i><par n="pupulaz/zioni__n"/></e>
+    <e lm="assimilazzioni"><i>assimilaz</i><par n="pupulaz/zioni__n"/></e>
+
 
     <!-- SECTION: Proper nouns -->
 
@@ -5273,7 +5304,7 @@
     <e lm="c'è"><i></i><par n="/c'è__vblex"/></e>
 
 
-    <e lm="jucari"><i>j</i><par n="j/ucari__vblex"/></e>
+    <e lm="jucari"><par n="j/gi/i"/><i></i><par n="j/ucari__vblex"/></e>
     <e lm="stari"><i>st</i><par n="st/ari__vblex"/></e>
     <e lm="suprastari"><i>suprast</i><par n="st/ari__vblex"/></e>
     <e lm="vèniri"><i>v</i><par n="v/èniri__vblex"/></e>
