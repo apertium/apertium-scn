@@ -16,23 +16,27 @@
 
   <char value="à">
     <equiv-char value="a"/>
+    <equiv-char value="á"/>
   </char>
 
   <char value="è">
     <equiv-char value="e"/>
+    <equiv-char value="é"/>
   </char>
 
   <char value="ì">
     <equiv-char value="i"/>
+    <equiv-char value="í"/>
   </char>
 
   <char value="ò">
     <equiv-char value="o"/>
+    <equiv-char value="ó"/>
   </char>
 
   <char value="ù">
     <equiv-char value="u"/>
-    <equiv-char value="ù"/>
+    <equiv-char value="ú"/>
   </char>
 
   <char value="î">

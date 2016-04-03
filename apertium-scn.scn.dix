@@ -151,6 +151,10 @@
       	<e r="LR"><p><l>cc</l><r>c</r></p></e>
     </pardef>
 
+    <pardef n="m/im">
+      	<e><p><l>m</l><r>m</r></p></e>
+      	<e r="LR"><p><l>im</l><r>m</r></p></e>
+    </pardef>
 
     <!-- SECTION: Conjunctions -->
 
@@ -337,6 +341,10 @@
       	<e><p><l>i</l><r>u<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
       	<e><p><l>u</l><r>u<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       	<e><p><l>i</l><r>u<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="sèc/.__n">
+      	<e><p><l>.</l><r>.<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
     </pardef>
 
     <pardef n="km__n">
@@ -608,6 +616,11 @@
     <pardef n="assai__preadv">
       	<e><p><l></l><r><s n="preadv"/></r></p></e>
     </pardef>
+
+    <pardef n="a.C.__adv">
+      	<e><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
     
     
     <!-- SECTION: Adjectives -->
@@ -1855,6 +1868,7 @@
     <e lm="monacu"><i>monac</i><par n="nànn/u__n"/></e>
     
     <e lm="telèfonu"><i>telèfon</i><par n="ann/u__n"/></e>
+    <e lm="museu"><i>muse</i><par n="ann/u__n"/></e>
     <e lm="jardinu"><i>jardin</i><par n="ann/u__n"/></e>
     <e lm="munnu"><i>munn</i><par n="ann/u__n"/></e>
     <e lm="argumentu"><i>argument</i><par n="ann/u__n"/></e>
@@ -2218,6 +2232,7 @@
     <e lm="pruprietati" r="LR"><p><l>prupriet</l><r>pruprit</r></p><par n="cit/ati__n"/></e>
     <e lm="pupularitati"><i>pupularit</i><par n="cit/ati__n"/></e>
     <e lm="pussibbilitati"><i>pussibbilit</i><par n="cit/ati__n"/></e>
+    <e lm="mpussibbilitati"><par n="m/im"/><i>pussibbilit</i><par n="cit/ati__n"/></e>
     <e lm="puvirtati"><i>puvirt</i><par n="cit/ati__n"/></e>
     <e lm="qualitati"><i>qualit</i><par n="cit/ati__n"/></e>
     <e lm="quantitati"><i>quantit</i><par n="cit/ati__n"/></e>
@@ -2713,6 +2728,8 @@
     <e lm="dicìmitru"><i>dicìmitr</i><par n="ann/u__n"/></e>
     <e lm="millìmitru"><i>millìmitr</i><par n="ann/u__n"/></e>
     <e lm="chilòmitru"><i>chilòmitr</i><par n="ann/u__n"/></e>
+
+    <e lm="sèc."><i>sèc</i><par n="sèc/.__n"/></e>
 
     <e lm="vitru"><i>vitr</i><par n="ann/u__n"/></e>
     <e lm="nchiostru"><i>nchiostr</i><par n="ann/u__n"/></e>
@@ -3580,6 +3597,9 @@
     <e lm="Jaime"><i>Jaime</i><par n="Jaime__np"/></e>
     <e lm="Giacomo"><i>Giacomo</i><par n="Jaime__np"/></e>
 
+    <e lm="Enricu"><i>Enricu</i><par n="Jaime__np"/></e>
+    <e lm="Federicu"><i>Federicu</i><par n="Jaime__np"/></e>
+    <e lm="Luduvicu"><i>Luduvicu</i><par n="Jaime__np"/></e>
 
     <e lm="Alba"><i>Alba</i><par n="María__np"/></e>
     <e lm="Monica"><i>Monica</i><par n="María__np"/></e>
@@ -5067,8 +5087,7 @@
     <e lm="stòricu"><i>stòric</i><par n="bedd/u__adj"/></e>
     <e lm="storicu" r="LR"><p><l>storic</l><r>stòric</r></p><par n="bedd/u__adj"/></e>
     
-    <e lm="magneticu"><i>magnetic</i><par n="elettrumagnetic/u__adj"/></e>
-    <e lm="magnèticu" r="LR"><p><l>magnétic</l><r>magnetic</r></p><par n="elettrumagnetic/u__adj"/></e>
+    <e lm="magnèticu"><i>magnètic</i><par n="elettrumagnetic/u__adj"/></e>
     <e lm="filusòficu"><i>filusòfic</i><par n="elettrumagnetic/u__adj"/></e>
     <e lm="pulìticu"><i>pulìtic</i><par n="elettrumagnetic/u__adj"/></e>
     <e lm="nazziunalìsticu"><i>nazziunalìstic</i><par n="elettrumagnetic/u__adj"/></e>
@@ -5137,6 +5156,7 @@
     <e lm="rinovabili"><i>rinovabili</i><par n="duci__adj"/></e>
     
 
+    <e lm="mpussìbbili"><par n="m/im"/><i>pussìbbili</i><par n="duci__adj"/></e>
     <e lm="pussìbbili"><i>pussìbbili</i><par n="duci__adj"/></e>
     <e lm="sulu"><i>sul</i><par n="bedd/u__adj"/></e>
     <e lm="novu"><i>nov</i><par n="bedd/u__adj"/></e>
@@ -5147,9 +5167,18 @@
     <e lm="siquenti"><i>siquenti</i><par n="duci__adj"/></e>
 
     <e lm="slàvicu"><i>slàvic</i><par n="elettrumagnetic/u__adj"/></e>
+    <e lm="archiològgicu"><i>archiològgic</i><par n="elettrumagnetic/u__adj"/></e>
 
     <e lm="santu"><i>san</i><par n="san/tu__adj"/></e>
     <e lm="megghiu"><i>meggh</i><par n="lar/iu__adj"/></e>
+
+    <e lm="Pacìficu"><i>Pacìfic</i><par n="elettrumagnetic/u__adj"/></e>
+    <e lm="Adriàticu"><i>Adriàtic</i><par n="elettrumagnetic/u__adj"/></e>
+    <e lm="Atlanticu"><i>Atlantic</i><par n="elettrumagnetic/u__adj"/></e>
+    <e lm="Bàlticu"><i>Bàltic</i><par n="elettrumagnetic/u__adj"/></e>
+    <e lm="Articu"><i>Artic</i><par n="elettrumagnetic/u__adj"/></e>
+
+
 
     <!-- SECTION: Adverbs -->
 
@@ -5230,6 +5259,8 @@
     <e lm="friquentimenti" r="LR"><p><l>friquentimenti</l><r>friquintimenti</r></p><par n="parr/ari__vblex"/></e>
     
     
+    <e lm="a.C."><i>a.C.</i><par n="a.C.__adv"/></e>
+    <e lm="d.C."><i>d.C.</i><par n="a.C.__adv"/></e>
     
 
     <!-- SECTION: Verbs -->

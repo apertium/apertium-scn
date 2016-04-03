@@ -7,6 +7,7 @@ LIST Det = det ;
 LIST N = n ;
 LIST A = adj ;
 LIST CC = cnjcoo ;
+LIST CS = cnjsub ;
 
 LIST Prep/di = "<di>" "<de>" ;
 LIST Prep/a = "<a>" ;
@@ -16,6 +17,7 @@ LIST Prep/nta = "<nta>" ;
 
 LIST CC/e = "<e>" ;
 LIST CC/o = "<o>" ;
+LIST CS/ca = "<ca>" ;
 LIST Haver = vbhaver ;
 
 LIST PrfPrc = pp ;
@@ -50,6 +52,8 @@ REMOVE SUB:1 Det IF (0 Prep/di OR Prep/a OR Prep/pi OR Prep/cu OR Prep/nta) ;
  # y allí "a" y "â" son ambiguos
 
 SELECT CC IF (0 CC/e OR CC/o) ;
+
+SELECT CS IF (0 CS/ca) ;
 
 SELECT A + $$Genero IF (-1C N + $$Genero) ;
 
