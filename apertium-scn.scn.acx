@@ -2,6 +2,7 @@
 <analysis-chars>
   <!-- Make all apostrophes equal -->
   <char value="'">
+    <equiv-char value="&#x2018;"/>
     <equiv-char value="&#x2019;"/>
     <equiv-char value="&#x2BC;"/>
     <equiv-char value="&#8217;"/>

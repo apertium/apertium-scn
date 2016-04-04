@@ -661,6 +661,7 @@
       	<e><p><l>hi</l><r>u<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
       	<e><p><l>a</l><r>u<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
       	<e><p><l>hi</l><r>u<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
+      	<e r="LR"><p><l>i</l><r>u<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
       	<e r="LR"><p><l>i</l><r>u<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
  
@@ -676,6 +677,7 @@
       <e><p><l>mi</l><r>mi<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
       <e><p><l>si</l><r>si<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
       <e><p><l>lu</l><r>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>
+      <e><p><l>ci</l><r>ci<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
       <e><p><l>lu</l><r>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
     </pardef>
 
@@ -2345,7 +2347,6 @@
 <!--    <e lm="umani"><i>umani</i><par n="@__n"/></e>-->
 <!--    <e lm="fìmmini"><i>fìmmini</i><par n="@__n"/></e>-->
 <!--    <e lm="òmini"><i>òmini</i><par n="@__n"/></e>-->
-    <e lm="riggiuni"><i>riggiuni</i><par n="matri__n"/></e>
 <!--    <e lm="cantuni"><i>cantuni</i><par n="@__n"/></e>-->
     <e lm="culuri"><i>culuri</i><par n="patri__n"/></e>
 
@@ -3346,6 +3347,7 @@
     <e lm="altitùddini"><i>altitùddini</i><par n="matri__n"/></e>
     <e lm="latitùdini"><i>latitùdini</i><par n="matri__n"/></e>
     <e lm="televisioni"><i>televisioni</i><par n="matri__n"/></e>
+    <e lm="visioni"><i>visioni</i><par n="matri__n"/></e>
     <e lm="divisioni"><i>divisioni</i><par n="matri__n"/></e>
     <e lm="riflissioni"><i>riflissioni</i><par n="matri__n"/></e>
     <e lm="aggrissioni"><i>aggrissioni</i><par n="matri__n"/></e>
@@ -3583,6 +3585,7 @@
     <e lm="UNESCO"><i>UNESCO</i><par n="URSS__n"/></e>
     <e lm="ISO"><i>ISO</i><par n="URSS__n"/></e>
     <e lm="NATO"><i>NATO</i><par n="URSS__n"/></e>
+    <e lm="ONU"><i>ONU</i><par n="URSS__n"/></e>
     <e lm="CBS"><i>CBS</i><par n="URSS__n"/></e>
     <e lm="NASA"><i>NASA</i><par n="URSS__n"/></e>
     <e lm="URSS"><i>URSS</i><par n="URSS__n"/></e>
@@ -3619,6 +3622,14 @@
     <e lm="variazzioni"><i>variaz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="criazzioni"><i>criaz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="assimilazzioni"><i>assimilaz</i><par n="pupulaz/zioni__n"/></e>
+
+    <e lm="portu"><i>port</i><par n="ann/u__n"/></e>
+    <e lm="lucru"><i>lucr</i><par n="ann/u__n"/></e>
+    <e lm="cuntribbutu"><i>cuntribbut</i><par n="ann/u__n"/></e>
+    <e lm="punta"><i>punt</i><par n="cas/a__n"/></e>
+    <e lm="livanti"><i>livanti</i><par n="patri__n"/></e>
+    <e lm="misi"><i>misi</i><par n="patri__n"/></e>
+    <e lm="riggiuna"><i>riggiun</i><par n="cas/a__n"/></e>
 
 
     <!-- SECTION: Proper nouns -->
@@ -4948,6 +4959,8 @@
 
     <e lm="Einstein"><i>Einstein</i><par n="Rosenburg__np"/></e>
     <e lm="Rosenburg"><i>Rosenburg</i><par n="Rosenburg__np"/></e>
+    <e lm="Nobel"><i>Nobel</i><par n="Rosenburg__np"/></e>
+    <e lm="Obama"><i>Obama</i><par n="Rosenburg__np"/></e>
 
     <e lm="Gesù"><i>Gesù</i><par n="Jaime__np"/></e>
     <e lm="Vitu"><i>Vitu</i><par n="Jaime__np"/></e>
@@ -4996,22 +5009,22 @@
     <e lm="friddu"><i>fridd</i><par n="bedd/u__adj"/></e>
     <e lm="tortu"><i>tort</i><par n="bedd/u__adj"/></e>
     <e lm="grassu"><i>grass</i><par n="bedd/u__adj"/></e>
-    <e lm="siccu"><i>sicc</i><par n="bedd/u__adj"/></e>
+    <e lm="siccu"><i>sicc</i><par n="elettrumagnetic/u__adj"/></e>
     <e lm="longu"><i>long</i><par n="bedd/u__adj"/></e>
     <e lm="falsu"><i>fals</i><par n="bedd/u__adj"/></e>
     <e lm="densu"><i>dens</i><par n="bedd/u__adj"/></e>
     <e lm="àutu"><i>àut</i><par n="bedd/u__adj"/></e>
     <e lm="tunnu"><i>tunn</i><par n="bedd/u__adj"/></e>
     <e lm="russu"><i>russ</i><par n="bedd/u__adj"/></e>
-    <e lm="plasmaticu"><i>plasmatic</i><par n="bedd/u__adj"/></e>
+    <e lm="plasmaticu"><i>plasmatic</i><par n="elettrumagnetic/u__adj"/></e>
     <e lm="nternu"><i>ntern</i><par n="bedd/u__adj"/></e>
     <e lm="internu" r="LR"><p><l>intern</l><r>ntern</r></p><par n="bedd/u__adj"/></e>
     <e lm="ntiriuri"><i>ntiriuri</i><par n="duci__adj"/></e>
     <e lm="intiriuri" r="LR"><p><l>intiriuri</l><r>ntiriuri</r></p><par n="duci__adj"/></e>
     
     
-    <e lm="dìlicu"><i>dìlic</i><par n="bedd/u__adj"/></e>
-    <e lm="nicu"><i>nic</i><par n="bedd/u__adj"/></e>
+    <e lm="dìlicu"><i>dìlic</i><par n="elettrumagnetic/u__adj"/></e>
+    <e lm="nicu"><i>nic</i><par n="elettrumagnetic/u__adj"/></e>
     <e lm="duci"><i>duci</i><par n="duci__adj"/></e>
     <e lm="grandi" r="LR"><p><l>grandi</l><r>granni</r></p><par n="duci__adj"/></e>
     <e lm="ranni" r="LR"><p><l>ranni</l><r>granni</r></p><par n="duci__adj"/></e>
@@ -5029,7 +5042,7 @@
     <e lm="disfìcili" r="LR"><p><l>disfìcili</l><r>diffìcili</r></p><par n="duci__adj"/></e>
     <e lm="munniali"><i>munniali</i><par n="duci__adj"/></e>
     <e lm="piacèvuli"><i>piacèvuli</i><par n="duci__adj"/></e>
-    <e lm="suvièticu"><i>suviètic</i><par n="bedd/u__adj"/></e>
+    <e lm="suvièticu"><i>suviètic</i><par n="elettrumagnetic/u__adj"/></e>
     <e lm="suvièticu" r="LR"><p><l>soviètic</l><r>suviètic</r></p><par n="bedd/u__adj"/></e>
     <e lm="mezzu"><i>mezz</i><par n="bedd/u__adj"/></e>
     <e lm="spagnolu"><i>spagnol</i><par n="bedd/u__adj"/></e>
@@ -5038,7 +5051,7 @@
     
     <e lm="elettrumagneticu"><i>elettrumagnetic</i><par n="elettrumagnetic/u__adj"/></e>
     
-    <e lm="atòmicu"><i>atòmic</i><par n="bedd/u__adj"/></e>
+    <e lm="atòmicu"><i>atòmic</i><par n="elettrumagnetic/u__adj"/></e>
     
     <e lm="sicilianu"><i>sicilian</i><par n="bedd/u__adj"/></e>
     <e lm="raru"><i>rar</i><par n="bedd/u__adj"/></e>
@@ -5046,6 +5059,7 @@
     
     <e lm="anglisi"><i>anglisi</i><par n="duci__adj"/></e>
     <e lm="ngrisi"><i>ngrisi</i><par n="duci__adj"/></e>
+    <e lm="ngrisu"><i>ngris</i><par n="bedd/u__adj"/></e>
     <e lm="francisi"><i>francisi</i><par n="duci__adj"/></e>
     <e lm="calabbrisi"><i>calabbrisi</i><par n="duci__adj"/></e>
     <e lm="cartagginisi"><i>cartagginisi</i><par n="duci__adj"/></e>
@@ -5065,65 +5079,64 @@
     <e lm="rinnovabili"><i>rinnovabili</i><par n="duci__adj"/></e>
     <e lm="vacanti"><i>vacanti</i><par n="duci__adj"/></e>
     <e lm="putenti"><i>putenti</i><par n="duci__adj"/></e>
-    <e lm="caoticu"><i>caotic</i><par n="bedd/u__adj"/></e>
+    <e lm="caoticu"><i>caotic</i><par n="elettrumagnetic/u__adj"/></e>
 
     <e lm="sulari"><i>sulari</i><par n="duci__adj"/></e>
     <e lm="custanti"><i>custanti</i><par n="duci__adj"/></e>
     
     
     
-    <e lm="accadèmicu"><i>accadèmic</i><par n="bedd/u__adj"/></e>
-    <e lm="acìticu"><i>acìtic</i><par n="bedd/u__adj"/></e>
-    <e lm="alfabbèticu"><i>alfabbètic</i><par n="bedd/u__adj"/></e>
-    <e lm="anticu"><i>antic</i><par n="bedd/u__adj"/></e>
-    <e lm="aramàicu"><i>aramàic</i><par n="bedd/u__adj"/></e>
-    <e lm="architittònicu"><i>architittònic</i><par n="bedd/u__adj"/></e>
-    <e lm="artìsticu"><i>artìstic</i><par n="bedd/u__adj"/></e>
-    <e lm="asiàticu"><i>asiàtic</i><par n="bedd/u__adj"/></e>
-    <e lm="biològgicu"><i>biològgic</i><par n="bedd/u__adj"/></e>
-    <e lm="britannicu"><i>britannic</i><par n="bedd/u__adj"/></e>
-    <e lm="carattirìsticu"><i>carattirìstic</i><par n="bedd/u__adj"/></e>
-    <e lm="càrricu"><i>càrric</i><par n="bedd/u__adj"/></e>
-    <e lm="cattòlicu"><i>cattòlic</i><par n="bedd/u__adj"/></e>
-    <e lm="chìmicu"><i>chìmic</i><par n="bedd/u__adj"/></e>
-    <e lm="cìvicu"><i>cìvic</i><par n="bedd/u__adj"/></e>
-    <e lm="clàssicu"><i>clàssic</i><par n="bedd/u__adj"/></e>
-    <e lm="còmicu"><i>còmic</i><par n="bedd/u__adj"/></e>
-    <e lm="crunulòggicu"><i>crunulòggic</i><par n="bedd/u__adj"/></e>
-    <e lm="dimucràticu"><i>dimucràtic</i><par n="bedd/u__adj"/></e>
-    <e lm="ebbràicu"><i>ebbràic</i><par n="bedd/u__adj"/></e>
-    <e lm="ecunòmicu"><i>ecunòmic</i><par n="bedd/u__adj"/></e>
+    <e lm="accadèmicu"><i>accadèmic</i><par n="elettrumagnetic/u__adj"/></e>
+    <e lm="acìticu"><i>acìtic</i><par n="elettrumagnetic/u__adj"/></e>
+    <e lm="alfabbèticu"><i>alfabbètic</i><par n="elettrumagnetic/u__adj"/></e>
+    <e lm="anticu"><i>antic</i><par n="elettrumagnetic/u__adj"/></e>
+    <e lm="aramàicu"><i>aramàic</i><par n="elettrumagnetic/u__adj"/></e>
+    <e lm="architittònicu"><i>architittònic</i><par n="elettrumagnetic/u__adj"/></e>
+    <e lm="artìsticu"><i>artìstic</i><par n="elettrumagnetic/u__adj"/></e>
+    <e lm="asiàticu"><i>asiàtic</i><par n="elettrumagnetic/u__adj"/></e>
+    <e lm="biològgicu"><i>biològgic</i><par n="elettrumagnetic/u__adj"/></e>
+    <e lm="britannicu"><i>britannic</i><par n="elettrumagnetic/u__adj"/></e>
+    <e lm="carattirìsticu"><i>carattirìstic</i><par n="elettrumagnetic/u__adj"/></e>
+    <e lm="càrricu"><i>càrric</i><par n="elettrumagnetic/u__adj"/></e>
+    <e lm="cattòlicu"><i>cattòlic</i><par n="elettrumagnetic/u__adj"/></e>
+    <e lm="chìmicu"><i>chìmic</i><par n="elettrumagnetic/u__adj"/></e>
+    <e lm="cìvicu"><i>cìvic</i><par n="elettrumagnetic/u__adj"/></e>
+    <e lm="clàssicu"><i>clàssic</i><par n="elettrumagnetic/u__adj"/></e>
+    <e lm="còmicu"><i>còmic</i><par n="elettrumagnetic/u__adj"/></e>
+    <e lm="crunulòggicu"><i>crunulòggic</i><par n="elettrumagnetic/u__adj"/></e>
+    <e lm="dimucràticu"><i>dimucràtic</i><par n="elettrumagnetic/u__adj"/></e>
+    <e lm="ebbràicu"><i>ebbràic</i><par n="elettrumagnetic/u__adj"/></e>
+    <e lm="ecunòmicu"><i>ecunòmic</i><par n="elettrumagnetic/u__adj"/></e>
     <e lm="ecunòmicu" r="LR"><p><l>ecunùmic</l><r>ecunòmic</r></p><par n="bedd/u__adj"/></e>
-    <e lm="elettricu"><i>elettric</i><par n="bedd/u__adj"/></e>
-    <e lm="èpicu"><i>èpic</i><par n="bedd/u__adj"/></e>
-    <e lm="fìsicu"><i>fìsic</i><par n="bedd/u__adj"/></e>
-    <e lm="funèticu"><i>funètic</i><par n="bedd/u__adj"/></e>
-    <e lm="ginèricu"><i>ginèric</i><par n="bedd/u__adj"/></e>
-    <e lm="giogràficu"><i>giogràfic</i><par n="bedd/u__adj"/></e>
-    <e lm="gòticu"><i>gòtic</i><par n="bedd/u__adj"/></e>
-    <e lm="gràficu"><i>gràfic</i><par n="bedd/u__adj"/></e>
-    <e lm="islàmicu"><i>islàmic</i><par n="bedd/u__adj"/></e>
-    <e lm="linguìsticu"><i>linguìstic</i><par n="bedd/u__adj"/></e>
-    <e lm="mànicu"><i>mànic</i><par n="bedd/u__adj"/></e>
-    <e lm="matimàticu"><i>matimàtic</i><par n="bedd/u__adj"/></e>
-    <e lm="mèdicu"><i>mèdic</i><par n="bedd/u__adj"/></e>
-    <e lm="miccànicu"><i>miccànic</i><par n="bedd/u__adj"/></e>
-    <e lm="pùbblicu"><i>pùbblic</i><par n="bedd/u__adj"/></e>
+    <e lm="elettricu"><i>elettric</i><par n="elettrumagnetic/u__adj"/></e>
+    <e lm="èpicu"><i>èpic</i><par n="elettrumagnetic/u__adj"/></e>
+    <e lm="fìsicu"><i>fìsic</i><par n="elettrumagnetic/u__adj"/></e>
+    <e lm="funèticu"><i>funètic</i><par n="elettrumagnetic/u__adj"/></e>
+    <e lm="ginèricu"><i>ginèric</i><par n="elettrumagnetic/u__adj"/></e>
+    <e lm="giogràficu"><i>giogràfic</i><par n="elettrumagnetic/u__adj"/></e>
+    <e lm="gòticu"><i>gòtic</i><par n="elettrumagnetic/u__adj"/></e>
+    <e lm="gràficu"><i>gràfic</i><par n="elettrumagnetic/u__adj"/></e>
+    <e lm="islàmicu"><i>islàmic</i><par n="elettrumagnetic/u__adj"/></e>
+    <e lm="linguìsticu"><i>linguìstic</i><par n="elettrumagnetic/u__adj"/></e>
+    <e lm="mànicu"><i>mànic</i><par n="elettrumagnetic/u__adj"/></e>
+    <e lm="matimàticu"><i>matimàtic</i><par n="elettrumagnetic/u__adj"/></e>
+    <e lm="mèdicu"><i>mèdic</i><par n="elettrumagnetic/u__adj"/></e>
+    <e lm="miccànicu"><i>miccànic</i><par n="elettrumagnetic/u__adj"/></e>
+    <e lm="pùbblicu"><i>pùbblic</i><par n="elettrumagnetic/u__adj"/></e>
     <e lm="pùbbricu" r="LR"><p><l>pùbbric</l><r>pùbblic</r></p><par n="bedd/u__adj"/></e>
     <e lm="pùbbricu" r="LR"><p><l>pùblic</l><r>pùbblic</r></p><par n="bedd/u__adj"/></e>
-    <e lm="puèticu"><i>puètic</i><par n="bedd/u__adj"/></e>
-    <e lm="scintìficu"><i>scintìfic</i><par n="bedd/u__adj"/></e>
-    <e lm="spicìficu"><i>spicìfic</i><par n="bedd/u__adj"/></e>
-    <e lm="stòricu"><i>stòric</i><par n="bedd/u__adj"/></e>
-    <e lm="tècnicu"><i>tècnic</i><par n="bedd/u__adj"/></e>
-    <e lm="tiòricu"><i>tiòric</i><par n="bedd/u__adj"/></e>
-    <e lm="tìpicu"><i>tìpic</i><par n="bedd/u__adj"/></e>
-    <e lm="turìsticu"><i>turìstic</i><par n="bedd/u__adj"/></e>
-    <e lm="ùnicu"><i>ùnic</i><par n="bedd/u__adj"/></e>
+    <e lm="puèticu"><i>puètic</i><par n="elettrumagnetic/u__adj"/></e>
+    <e lm="scintìficu"><i>scintìfic</i><par n="elettrumagnetic/u__adj"/></e>
+    <e lm="spicìficu"><i>spicìfic</i><par n="elettrumagnetic/u__adj"/></e>
+    <e lm="stòricu"><i>stòric</i><par n="elettrumagnetic/u__adj"/></e>
+    <e lm="tècnicu"><i>tècnic</i><par n="elettrumagnetic/u__adj"/></e>
+    <e lm="tiòricu"><i>tiòric</i><par n="elettrumagnetic/u__adj"/></e>
+    <e lm="tìpicu"><i>tìpic</i><par n="elettrumagnetic/u__adj"/></e>
+    <e lm="ùnicu"><i>ùnic</i><par n="elettrumagnetic/u__adj"/></e>
     <e lm="leggiu"><i>leggi</i><par n="bedd/u__adj"/></e>
     <e lm="diversu"><i>divers</i><par n="bedd/u__adj"/></e>
     <e lm="cristianu"><i>cristian</i><par n="bedd/u__adj"/></e>
-    <e lm="stòricu"><i>stòric</i><par n="bedd/u__adj"/></e>
+    <e lm="stòricu"><i>stòric</i><par n="elettrumagnetic/u__adj"/></e>
     <e lm="storicu" r="LR"><p><l>storic</l><r>stòric</r></p><par n="bedd/u__adj"/></e>
     
     <e lm="magnèticu"><i>magnètic</i><par n="elettrumagnetic/u__adj"/></e>
@@ -5131,6 +5144,7 @@
     <e lm="pulìticu"><i>pulìtic</i><par n="elettrumagnetic/u__adj"/></e>
     <e lm="nazziunalìsticu"><i>nazziunalìstic</i><par n="elettrumagnetic/u__adj"/></e>
     <e lm="carattirìsticu"><i>carattirìstic</i><par n="elettrumagnetic/u__adj"/></e>
+    <e lm="turìsticu"><i>turìstic</i><par n="elettrumagnetic/u__adj"/></e>
     
     <e lm="tantu"><i>tant</i><par n="bedd/u__adj"/></e>
     <e lm="stissu"><i>stiss</i><par n="bedd/u__adj"/></e>
@@ -5204,6 +5218,7 @@
     <e lm="sirianu"><i>sirian</i><par n="bedd/u__adj"/></e>
 
     <e lm="siquenti"><i>siquenti</i><par n="duci__adj"/></e>
+    <e lm="criminali"><i>criminali</i><par n="duci__adj"/></e>
 
     <e lm="slàvicu"><i>slàvic</i><par n="elettrumagnetic/u__adj"/></e>
     <e lm="archiològgicu"><i>archiològgic</i><par n="elettrumagnetic/u__adj"/></e>
@@ -5217,6 +5232,8 @@
     <e lm="Bàlticu"><i>Bàltic</i><par n="elettrumagnetic/u__adj"/></e>
     <e lm="Articu"><i>Artic</i><par n="elettrumagnetic/u__adj"/></e>
 
+    <e lm="variu"><i>var</i><par n="lar/iu__adj"/></e>
+    <e lm="lìbbiru"><i>lìbbir</i><par n="bedd/u__adj"/></e>
 
 
     <!-- SECTION: Adverbs -->
@@ -5392,6 +5409,9 @@
     <e lm="annunziari"><i>annunzi</i><par n="parr/ari__vblex"/></e>
     <e lm="supirari"><i>supir</i><par n="parr/ari__vblex"/></e>
     <e lm="agghicari"><i>agghic</i><par n="parr/ari__vblex"/></e>
+    <e lm="annunciari"><i>annunci</i><par n="parr/ari__vblex"/></e>
+    <e lm="rapprisentari"><i>rapprisent</i><par n="parr/ari__vblex"/></e>
+    <e lm="significari"><i>signific</i><par n="parr/ari__vblex"/></e>
     
     
     
@@ -5424,6 +5444,7 @@
     <e lm="prupòniri"><i>prupòn</i><par n="batt/iri__vblex"/></e>
     <e lm="costruiri"><i>costru</i><par n="batt/iri__vblex"/></e>
     <e lm="dirìggiri"><i>dirìgg</i><par n="batt/iri__vblex"/></e>
+    <e lm="cuntribbuiri"><i>cuntribbu</i><par n="batt/iri__vblex"/></e>
     
     
     
@@ -5485,6 +5506,10 @@
     <e r="LR" lm="l'"><p><l>l'</l><r>lu<s n="det"/><s n="def"/><s n="mf"/><s n="sp"/></r></p></e>
 
     <e r="LR" lm="d'"><p><l>d'</l><r>di<s n="pr"/></r></p></e>
+
+    <e r="LR" lm="unn'"><p><l>unn'</l><r>unni<s n="adv"/><s n="itg"/></r></p></e>
+
+    <e r="LR" lm="all'"><p><l>all'</l><r>a<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="mf"/><s n="sp"/></r></p></e>
 
     <e r="LR" lm="r'"><p><l>r'</l><r>di<s n="pr"/></r></p></e>
 

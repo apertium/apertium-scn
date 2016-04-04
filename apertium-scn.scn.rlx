@@ -8,12 +8,13 @@ LIST N = n ;
 LIST A = adj ;
 LIST CC = cnjcoo ;
 LIST CS = cnjsub ;
+LIST Prop = np ;
 
-LIST Prep/di = "<di>" "<de>" ;
-LIST Prep/a = "<a>" ;
-LIST Prep/pi = "<pi>" ;
-LIST Prep/cu = "<cu>" ;
-LIST Prep/nta = "<nta>" ;
+LIST Prep/di = "<di>"i "<de>"i ;
+LIST Prep/a = "<a>"i ;
+LIST Prep/pi = "<pi>"i ;
+LIST Prep/cu = "<cu>"i ;
+LIST Prep/nta = "<nta>"i "<nti>"i ;
 
 LIST CC/e = "<e>" ;
 LIST CC/o = "<o>" ;
@@ -25,9 +26,17 @@ LIST PrfPrc = pp ;
 LIST Sg3 = (p3 sg) ;
 LIST ProRef = (prn pro ref) ;
 
+LIST Cog = cog ;
+LIST Top = top ;
+LIST Al = al ;
+LIST Ant = ant ; 
+
 LIST Sg = sg ;
 LIST Pl = pl ; 
 LIST Sp = sp ;
+
+LIST Ifi = ifi ; 
+LIST Pri = pri ;
 
 LIST Msc = m ;
 LIST Fem = f ; 
@@ -41,6 +50,8 @@ SET NotPl = Sg | Sp ;
 
 SET Genero = NotMsc | NotFem ;
 SET Numero = NotSg | NotPl ;
+
+SET Fin = Ifi | Pri ; 
 
 
 SECTION
@@ -61,6 +72,10 @@ SELECT Haver IF (1C PrfPrc) ;
 
 SELECT Sg3 IF (-1 ProRef) ;
  # Nun si sapi quannu ci fu l’affirmazzioni di lu Cristianèsimu a Catania.
+
+SELECT Fin IF (-1C Prop) (0 Fin OR N) ;
+
+SELECT Sg3 IF (-1C Prop) ;
 
 # Resources:
 # http://visl.sdu.dk/cg3.html
