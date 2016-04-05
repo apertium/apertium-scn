@@ -136,6 +136,11 @@
       	<e r="LR"><p><l>i</l><r></r></p></e>
     </pardef>
 
+    <pardef n="o/u">
+      	<e><p><l>o</l><r>o</r></p></e>
+      	<e r="LR"><p><l>u</l><r>o</r></p></e>
+    </pardef>
+
     <pardef n="u/o">
       	<e><p><l>u</l><r>u</r></p></e>
       	<e r="LR"><p><l>o</l><r>u</r></p></e>
@@ -528,6 +533,8 @@
       	<e r="LR"><p><l>ê</l><r>a<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="mf"/><s n="pl"/></r></p></e>
       	<e r="LR"><p><l>î</l><r>a<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="mf"/><s n="pl"/></r></p></e>
       	<e r="LR"><p><l>ôn</l><r>a<s n="pr"/><j/>un<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
+
+      	<e r="LR"><p><l>allu</l><r>a<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
     </pardef>
 
     <pardef n="contdi__pr">
@@ -1714,6 +1721,7 @@
     <e lm="ma anchi"><i>ma<b/>anchi</i><par n="/ma__cnjcoo"/></e>
     <e lm="ca"><i>ca</i><par n="ca__cnjsub"/></e>
     <e lm="ca" r="LR"><p><l>chi</l><r>ca</r></p><par n="ca__cnjsub"/></e>
+    <e lm="ca" r="LR"><p><l>cha</l><r>ca</r></p><par n="ca__cnjsub"/></e>
     <e lm="picchì"><i>picchì</i><par n="picchì__cnjadv"/></e>
     <e lm="picchì" r="LR"><p><l>pirchì</l><r>picchì</r></p><par n="picchì__cnjadv"/></e>
     <e lm="puru ca"><i>puru<b/>ca</i><par n="picchì__cnjadv"/></e>
@@ -3650,12 +3658,15 @@
     <e lm="idioma"><i>idiom</i><par n="pianet/a__n"/></e>
     <e lm="livanti"><i>livanti</i><par n="patri__n"/></e>
     <e lm="misi"><i>misi</i><par n="patri__n"/></e>
+    <e lm="noma"><i>noma</i><par n="patri__n"/></e>
     <e lm="fonti"><i>fonti</i><par n="matri__n"/></e>
+    <e lm="menti"><i>menti</i><par n="matri__n"/></e>
     <e lm="chianuforti"><i>chianuforti</i><par n="patri__n"/></e>
     <e lm="riggiuna"><i>riggiun</i><par n="cas/a__n"/></e>
     <e lm="catina"><i>catin</i><par n="cas/a__n"/></e>
     <e lm="simana"><i>siman</i><par n="cas/a__n"/></e>
     <e lm="nizziu"><i>nizzi</i><par n="tirritori/u__n"/></e>
+    <e lm="para"><i>par</i><par n="cas/a__n"/></e>
 
 
     <!-- SECTION: Proper nouns -->
@@ -5291,6 +5302,7 @@
     <e lm="siquenti"><i>siquenti</i><par n="duci__adj"/></e>
     <e lm="criminali"><i>criminali</i><par n="duci__adj"/></e>
     <e lm="nòbbili"><i>nòbbili</i><par n="duci__adj"/></e>
+    <e lm="capaci"><i>capaci</i><par n="duci__adj"/></e>
 
     <e lm="slàvicu"><i>slàvic</i><par n="elettrumagnetic/u__adj"/></e>
     <e lm="archiològgicu"><i>archiològgic</i><par n="elettrumagnetic/u__adj"/></e>
@@ -5306,6 +5318,8 @@
 
     <e lm="variu"><i>var</i><par n="lar/iu__adj"/></e>
     <e lm="lìbbiru"><i>lìbbir</i><par n="bedd/u__adj"/></e>
+    <e lm="mìnimu"><i>mìnim</i><par n="bedd/u__adj"/></e>
+    <e lm="omònim"><par n="o/u"/><i>mònim</i><par n="bedd/u__adj"/></e>
 
 
     <!-- SECTION: Adverbs -->
@@ -5388,6 +5402,7 @@
 
     <e lm="tanticchia"><i>tanticchia</i><par n="ùoggi__adv"/></e>
     <e lm="appuntu"><i>appuntu</i><par n="ùoggi__adv"/></e>
+    <e lm="luntanu"><i>luntanu</i><par n="ùoggi__adv"/></e>
     
     
     <e lm="a.C."><i>a.C.</i><par n="a.C.__adv"/></e>
@@ -5524,6 +5539,9 @@
     <e lm="costruiri"><i>costru</i><par n="batt/iri__vblex"/></e>
     <e lm="dirìggiri"><i>dirìgg</i><par n="batt/iri__vblex"/></e>
     <e lm="cuntribbuiri"><i>cuntribbu</i><par n="batt/iri__vblex"/></e>
+
+    <e lm="teniri"><i>ten</i><par n="batt/iri__vblex"/></e>
+    <e lm="cunteniri"><i>cunten</i><par n="batt/iri__vblex"/></e>
     
     
     

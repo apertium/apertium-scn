@@ -11,7 +11,7 @@ LIST CS = cnjsub ;
 LIST Prop = np ;
 
 LIST Prep/di = "<di>"i "<de>"i ;
-LIST Prep/a = "<a>"i ;
+LIST Prep/a = "<a>"i "<davanti a>"i ;
 LIST Prep/pi = "<pi>"i ;
 LIST Prep/cu = "<cu>"i ;
 LIST Prep/nta = "<nta>"i "<nti>"i ;
