@@ -174,6 +174,10 @@
         <e><p><l>ma</l><r>ma<s n="cnjcoo"/></r></p></e>
     </pardef>
 
+    <pardef n="nè__cnjcoo">
+        <e><p><l></l><r><s n="cnjcoo"/></r></p></e>
+    </pardef>
+
     <pardef n="ca__cnjsub">
         <e><p><l></l><r><s n="cnjsub"/></r></p></e>
     </pardef>
@@ -564,6 +568,8 @@
       	<e r="LR"><p><l>nnâ</l><r>nta<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="f"/><s n="sg"/></r></p></e>
       	<e r="LR"><p><l>nnê</l><r>nta<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="mf"/><s n="pl"/></r></p></e>
       	<e r="LR"><p><l>nnî</l><r>nta<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="mf"/><s n="pl"/></r></p></e>
+
+      	<e r="LR"><p><l>nel</l><r>nta<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
 
     </pardef>
 
@@ -1013,6 +1019,7 @@
     	<e><p><l>avi</l><r>ari<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="sg"/></r></p></e>
     	<e><p><l>asti</l><r>ari<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="sg"/></r></p></e>
     	<e><p><l>au</l><r>ari<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
+    	<e r="LR"><p><l>ò</l><r>ari<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e> <!-- FIXME -->
     	<e><p><l>amu</l><r>ari<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="pl"/></r></p></e>
     	<e><p><l>àstivu</l><r>ari<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
         <e><p><l>aru</l><r>ari<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
@@ -1711,6 +1718,10 @@
     <e lm="picchì" r="LR"><p><l>pirchì</l><r>picchì</r></p><par n="picchì__cnjadv"/></e>
     <e lm="puru ca"><i>puru<b/>ca</i><par n="picchì__cnjadv"/></e>
 
+    <e lm="nè"><i>nè</i><par n="nè__cnjcoo"/></e>
+    <e lm="nì" r="LR"><p><l>nì</l><r>nè</r></p><par n="nè__cnjcoo"/></e>
+    <e lm="né" r="LR"><p><l>né</l><r>nè</r></p><par n="nè__cnjcoo"/></e>
+
 
     <!-- SECTION: Prepositions -->
 
@@ -1724,6 +1735,7 @@
     <e lm="senza"><i>senza</i><par n="tra__pr"/></e>
     <e lm="sutta"><i>sutta</i><par n="tra__pr"/></e>
     <e lm="supra"><i>supra</i><par n="tra__pr"/></e>
+    <e lm="doppu"><i>doppu</i><par n="tra__pr"/></e>
     <e lm="nta"><i></i><par n="contnta__pr"/></e>
     <e lm="agghiri"><i>agghiri</i><par n="tra__pr"/></e>
     <e lm="arretu"><i>arretu</i><par n="tra__pr"/></e>
@@ -1736,9 +1748,11 @@
     <e lm="nzinu a"><i>nzinu<b/></i><par n="conta__pr"/></e>
     <e lm="juntu a"><i>juntu<b/></i><par n="conta__pr"/></e>
     <e lm="avanzi a"><i>avanzi<b/></i><par n="conta__pr"/></e>
+    <e lm="davanti a"><i>davanti<b/></i><par n="conta__pr"/></e>
     <e lm="dintra di"><i>dintra<b/></i><par n="contdi__pr"/></e>
     <e lm="agghiri a"><i>agghiri<b/></i><par n="conta__pr"/></e>
     <e lm="agghiri di"><i>agghiri<b/></i><par n="contdi__pr"/></e>
+    <e lm="nveci di"><i>nveci<b/></i><par n="contdi__pr"/></e>
     <e lm="ammeri"><i>ammeri</i><par n="tra__pr"/></e>    
     
 
@@ -2362,6 +2376,7 @@
 <!--    <e lm="varianti"><i>varianti</i><par n="@__n"/></e>-->
     <e lm="cantanti"><i>cantanti</i><par n="cantanti__n"/></e>
     <e lm="abbitanti"><i>abbitanti</i><par n="cantanti__n"/></e>
+    <e lm="nòbbili"><i>nòbbili</i><par n="cantanti__n"/></e>
 <!--    <e lm="ambienti"><i>ambienti</i><par n="@__n"/></e>-->
 <!--    <e lm="arti"><i>arti</i><par n="@__n"/></e>-->
 <!--    <e lm="costi"><i>costi</i><par n="@__n"/></e>-->
@@ -3627,12 +3642,20 @@
     <e lm="portu"><i>port</i><par n="ann/u__n"/></e>
     <e lm="lucru"><i>lucr</i><par n="ann/u__n"/></e>
     <e lm="cuntribbutu"><i>cuntribbut</i><par n="ann/u__n"/></e>
+    <e lm="nurmannu"><i>nurmann</i><par n="ann/u__n"/></e>
     <e lm="màssimu"><i>màssim</i><par n="ann/u__n"/></e>
     <e lm="mètudu"><i>mètud</i><par n="ann/u__n"/></e>
+    <e lm="vucabbulariu"><i>vucabbulari</i><par n="ann/u__n"/></e>
     <e lm="punta"><i>punt</i><par n="cas/a__n"/></e>
+    <e lm="idioma"><i>idiom</i><par n="pianet/a__n"/></e>
     <e lm="livanti"><i>livanti</i><par n="patri__n"/></e>
     <e lm="misi"><i>misi</i><par n="patri__n"/></e>
+    <e lm="fonti"><i>fonti</i><par n="matri__n"/></e>
+    <e lm="chianuforti"><i>chianuforti</i><par n="patri__n"/></e>
     <e lm="riggiuna"><i>riggiun</i><par n="cas/a__n"/></e>
+    <e lm="catina"><i>catin</i><par n="cas/a__n"/></e>
+    <e lm="simana"><i>siman</i><par n="cas/a__n"/></e>
+    <e lm="nizziu"><i>nizzi</i><par n="tirritori/u__n"/></e>
 
 
     <!-- SECTION: Proper nouns -->
@@ -5207,6 +5230,7 @@
     <e lm="ùltimu" r="LR"><p><l>ùltim</l><r>ùrtim</r></p><par n="bedd/u__adj"/></e>
     <e lm="umanu"><i>uman</i><par n="bedd/u__adj"/></e>
     <e lm="rumanu"><i>ruman</i><par n="bedd/u__adj"/></e>
+    <e lm="nurmannu"><i>nurmann</i><par n="bedd/u__adj"/></e>
     <e lm="miricanu"><i>mirican</i><par n="bedd/u__adj"/></e>
     <e lm="miricanu" r="LR"><p><l>amirican</l><r>mirican</r></p><par n="bedd/u__adj"/></e>
     <e lm="latinu"><i>latin</i><par n="bedd/u__adj"/></e>
@@ -5266,6 +5290,7 @@
 
     <e lm="siquenti"><i>siquenti</i><par n="duci__adj"/></e>
     <e lm="criminali"><i>criminali</i><par n="duci__adj"/></e>
+    <e lm="nòbbili"><i>nòbbili</i><par n="duci__adj"/></e>
 
     <e lm="slàvicu"><i>slàvic</i><par n="elettrumagnetic/u__adj"/></e>
     <e lm="archiològgicu"><i>archiològgic</i><par n="elettrumagnetic/u__adj"/></e>
@@ -5360,6 +5385,9 @@
     <e lm="mentri"><i>mentri</i><par n="ùoggi__adv"/></e>
     <e lm="friquintimenti"><i>friquintimenti</i><par n="ùoggi__adv"/></e>
     <e lm="friquentimenti" r="LR"><p><l>friquentimenti</l><r>friquintimenti</r></p><par n="parr/ari__vblex"/></e>
+
+    <e lm="tanticchia"><i>tanticchia</i><par n="ùoggi__adv"/></e>
+    <e lm="appuntu"><i>appuntu</i><par n="ùoggi__adv"/></e>
     
     
     <e lm="a.C."><i>a.C.</i><par n="a.C.__adv"/></e>
@@ -5458,7 +5486,11 @@
     <e lm="agghicari"><i>agghic</i><par n="parr/ari__vblex"/></e>
     <e lm="annunciari"><i>annunci</i><par n="parr/ari__vblex"/></e>
     <e lm="rapprisentari"><i>rapprisent</i><par n="parr/ari__vblex"/></e>
+    <e lm="prisentari"><i>prisent</i><par n="parr/ari__vblex"/></e>
     <e lm="significari"><i>signific</i><par n="parr/ari__vblex"/></e>
+    <e lm="addivintari"><i>addivint</i><par n="parr/ari__vblex"/></e>
+    <e lm="ammazzari"><i>ammazz</i><par n="parr/ari__vblex"/></e>
+    <e lm="cunsidirari"><i>cunsidir</i><par n="parr/ari__vblex"/></e>
     
     
     
@@ -5571,6 +5603,8 @@
     <e r="LR" lm="n'"><p><l>n'</l><r>un<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
 
     <e r="LR" lm="st'"><p><l>st'</l><r>chistu<s n="det"/><s n="dem"/><s n="mf"/><s n="sp"/></r></p></e>
+
+    <e r="LR" lm="nudd'"><p><l>nudd'</l><r>nuddu<s n="det"/><s n="ind"/><s n="mf"/><s n="sp"/></r></p></e>
   </section>
 
   <section id="final" type="inconditional">
