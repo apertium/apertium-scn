@@ -83,6 +83,10 @@ SELECT Sg3 IF (-1C Prop) ;
 
 SELECT Rel IF (0 Chi) (1 Fin) ;
 
+AFTER-SECTIONS
+
+REMOVE SUB:1 Det ;
+
 # Resources:
 # http://visl.sdu.dk/cg3.html
 # http://groups.google.com/group/constraint-grammar
