@@ -274,6 +274,10 @@
       <e><p><l></l><r><s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
     </pardef>
 
+    <pardef n="zoccu__rel">
+      <e><p><l></l><r><s n="rel"/><s n="an"/><s n="nt"/></r></p></e>
+    </pardef>
+
     <pardef n="cui__rel">
       <e><p><l></l><r><s n="rel"/><s n="aa"/><s n="mf"/><s n="sg"/></r></p></e>
     </pardef>
@@ -2004,9 +2008,10 @@
     <e lm="ni"><i>ni</i><par n="ci__prn"/></e>
     <e lm="nì" r="LR"><p><l>nì</l><r>ni</r></p><par n="ci__prn"/></e> <!-- FIXME -->
 
+    <e lm="zoccu"><i>zoccu</i><par n="zoccu__rel"/></e>
     <e lm="quali"><i>quali</i><par n="quali__rel"/></e>
     <e lm="chi"><par n="c/cc"/><i>hi</i><par n="quali__rel"/></e>
-    <e lm="cui"><p><l>cui</l><r>chi</r></p><par n="cui__rel"/></e>
+    <e lm="cui"><i>cui</i><par n="cui__rel"/></e>
    
     <!-- SECTION: Determiners -->
     
@@ -2976,6 +2981,7 @@
 
     <e lm="metri"><i>metri</i><par n="patri__n"/></e>
     <e lm="chilòmitri"><i>chilòmitri</i><par n="patri__n"/></e>
+    <e lm="chilòmitri"><p><l>kilòmetri</l><r>chilòmitri</r></p><par n="patri__n"/></e>
     <e lm="km"><i>km</i><par n="km__n"/></e>
     <e lm="metru"><i>metr</i><par n="ann/u__n"/></e>
     <e lm="litru"><i>litr</i><par n="ann/u__n"/></e>
@@ -7305,6 +7311,7 @@
     <e lm="ancora"><i>ancora</i><par n="ùoggi__adv"/></e>
     <e lm="arretu"><i>arretu</i><par n="ùoggi__adv"/></e>
     <e lm="accussì"><i>accussì</i><par n="ùoggi__adv"/></e>
+    <e lm="nzèmmula"><i>nzèmmula</i><par n="ùoggi__adv"/></e>
     
     <e lm="tali"><i>tali</i><par n="assai__preadv"/></e>
     
@@ -7374,6 +7381,8 @@
     <e lm="dunca"><i>dunca</i><par n="ùoggi__adv"/></e>
     <e lm="pirò"><i>pirò</i><par n="ùoggi__adv"/></e>
     <e lm="però" r="LR"><p><l>però</l><r>pirò</r></p><par n="ùoggi__adv"/></e>
+    <e lm="suprattuttu"><i>suprattuttu</i><par n="ùoggi__adv"/></e>
+    <e lm="supratuttu" r="LR"><p><l>supratuttu</l><r>suprattuttu</r></p><par n="ùoggi__adv"/></e>
     
     
     <e lm="a.C."><i>a.C.</i><par n="a.C.__adv"/></e>
@@ -7608,9 +7617,13 @@
 
     <e r="LR" lm="dell'"><p><l>dell'</l><r>di<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="mf"/><s n="sp"/></r></p></e>
 
+    <e r="LR" lm="dill'"><p><l>dill'</l><r>di<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="mf"/><s n="sp"/></r></p></e>
+
     <e r="LR" lm="r'"><p><l>r'</l><r>di<s n="pr"/></r></p></e>
 
     <e r="LR" lm="p'"><p><l>p'</l><r>pi<s n="pr"/></r></p></e>
+
+    <e r="LR" lm="ch'"><p><l>ch'</l><r>ci<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
 
     <e r="LR" lm="c'"><p><l>c'</l><r>ci<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
 
