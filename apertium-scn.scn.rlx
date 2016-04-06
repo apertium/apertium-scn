@@ -7,6 +7,7 @@ LIST Det = det ;
 LIST N = n ;
 LIST A = adj ;
 LIST CC = cnjcoo ;
+LIST Rel = rel ; 
 LIST CS = cnjsub ;
 LIST Prop = np ;
 
@@ -19,7 +20,10 @@ LIST Prep/nta = "<nta>"i "<nti>"i ;
 LIST CC/e = "<e>" ;
 LIST CC/o = "<o>" ;
 LIST CS/ca = "<ca>" ;
+
 LIST Haver = vbhaver ;
+
+LIST Chi = "<chi>" ;
 
 LIST PrfPrc = pp ;
 
@@ -76,6 +80,8 @@ SELECT Sg3 IF (-1 ProRef) ;
 SELECT Fin IF (-1C Prop) (0 Fin OR N) ;
 
 SELECT Sg3 IF (-1C Prop) ;
+
+SELECT Rel IF (0 Chi) (1 Fin) ;
 
 # Resources:
 # http://visl.sdu.dk/cg3.html
