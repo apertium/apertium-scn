@@ -6,16 +6,23 @@ SUBREADINGS = LTR ;
 LIST Det = det ; 
 LIST N = n ;
 LIST A = adj ;
+LIST Pron = prn ;
+LIST Adv = adv ; 
 LIST CC = cnjcoo ;
 LIST Rel = rel ; 
 LIST CS = cnjsub ;
 LIST Prop = np ;
+
+LIST Pr = pr ; 
 
 LIST Prep/di = "<di>"i "<de>"i ;
 LIST Prep/a = "<a>"i "<davanti a>"i ;
 LIST Prep/pi = "<pi>"i ;
 LIST Prep/cu = "<cu>"i ;
 LIST Prep/nta = "<nta>"i "<nti>"i ;
+
+LIST Ind = ind ; 
+LIST Def = def ;
 
 LIST CC/e = "<e>" ;
 LIST CC/o = "<o>" ;
@@ -25,6 +32,7 @@ LIST Haver = vbhaver ;
 
 LIST Chi = "<chi>" ;
 
+LIST Imper = imp ;
 LIST PrfPrc = pp ;
 
 LIST Sg3 = (p3 sg) ;
@@ -45,6 +53,9 @@ LIST Pri = pri ;
 LIST Msc = m ;
 LIST Fem = f ; 
 LIST MscFem = mf ;
+
+LIST Excl = "!" ;
+LIST Cm = cm ;
 
 SET NotMsc = Fem | MscFem ;
 SET NotFem = Msc | MscFem ;
@@ -83,9 +94,15 @@ SELECT Sg3 IF (-1C Prop) ;
 
 SELECT Rel IF (0 Chi) (1 Fin) ;
 
+REMOVE Imper IF (NOT 1* Excl) (NOT 1 Cm) ;
+
+SELECT Adv IF (-1C Pron) (0 Adv OR Det) (1 Fin) ;
+
+REMOVE Ind IF (0 Ind OR Pr) (1 Def) ;
+
 AFTER-SECTIONS
 
-REMOVE SUB:1 Det ;
+REMOVE SUB:1 Det (NOT 0 Imper) ;
 
 # Resources:
 # http://visl.sdu.dk/cg3.html
