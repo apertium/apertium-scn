@@ -4942,7 +4942,10 @@
     <e lm="Bonn"><i>Bonn</i><par n="Sicilia__np"/></e>
     <e lm="Bordeaux"><i>Bordeaux</i><par n="Sicilia__np"/></e>
     <e lm="Borriana"><i>Borriana</i><par n="Sicilia__np"/></e>
+    <e lm="Bosnia"><i>Bosnia</i><par n="Sicilia__np"/></e>
+    <e lm="Erzegovina"><i>Erzegovina</i><par n="Sicilia__np"/></e>
     <e lm="Bosnia-Erzegovina"><i>Bosnia-Erzegovina</i><par n="Sicilia__np"/></e>
+    <e lm="Bosnia Erzegovina" r="LR"><p><l>Bosnia<b/>Erzegovina</l><r>Bosnia-Erzegovina</r></p><par n="Sicilia__np"/></e>
     <e lm="Boston"><i>Boston</i><par n="Sicilia__np"/></e>
     <e lm="Botsuana"><i>Botsuana</i><par n="Sicilia__np"/></e>
     <e lm="Brasili"><i>Brasili</i><par n="Sicilia__np"/></e>
@@ -5019,6 +5022,7 @@
     <e lm="Côte d'Ivoire"><i>Côte<b/>d'Ivoire</i><par n="Sicilia__np"/></e>
     <e lm="Crita"><i>Crita</i><par n="Sicilia__np"/></e>
     <e lm="Croazzia"><i>Croazzia</i><par n="Sicilia__np"/></e>
+    <e lm="Croazzia" r="LR"><p><l>Croazia</l><r>Croazzia</r></p><par n="Sicilia__np"/></e>
     <e lm="Cubba"><i>Cubba</i><par n="Sicilia__np"/></e>
     <e lm="Cuneu"><i>Cuneu</i><par n="Sicilia__np"/></e>
     <e lm="Curnuvagghia"><i>Curnuvagghia</i><par n="Sicilia__np"/></e>
@@ -5052,6 +5056,7 @@
     <e lm="Etiopia"><i>Etiopia</i><par n="Sicilia__np"/></e>
     <e lm="Etna"><i>Etna</i><par n="Sicilia__np"/></e>
     <e lm="Eufrati"><i>Eufrati</i><par n="Sicilia__np"/></e>
+    <e lm="Europa" r="LR"><p><l>Auropa</l><r>Europa</r></p><par n="Sicilia__np"/></e>
     <e lm="Europa"><i>Europa</i><par n="Sicilia__np"/></e>
     <e lm="Euskal Herria"><i>Euskal<b/>Herria</i><par n="Sicilia__np"/></e>
     <e lm="Favara"><i>Favara</i><par n="Sicilia__np"/></e>
@@ -5216,6 +5221,7 @@
     <e lm="Mari d'Aral"><i>Mari<b/>d'Aral</i><par n="Sicilia__np"/></e>
     <e lm="Mari d'Azov"><i>Mari<b/>d'Azov</i><par n="Sicilia__np"/></e>
     <e lm="Mari Meditirràniu"><i>Mari<b/>Meditirràniu</i><par n="Sicilia__np"/></e>
+    <e lm="Meditirràniu"><i>Meditirràniu</i><par n="Sicilia__np"/></e>
     <e lm="Mari Russu"><i>Mari<b/>Russu</i><par n="Sicilia__np"/></e>
     <e lm="Maroccu"><i>Maroccu</i><par n="Sicilia__np"/></e>
     <e lm="Marsigghia"><i>Marsigghia</i><par n="Sicilia__np"/></e>
@@ -5324,6 +5330,7 @@
     <e lm="Pilupunnesu"><i>Pilupunnesu</i><par n="Sicilia__np"/></e>
     <e lm="Pinìsula balcànica"><i>Pinìsula<b/>balcànica</i><par n="Sicilia__np"/></e>
     <e lm="Pirinèi"><i>Pirinèi</i><par n="Sicilia__np"/></e>
+    <e lm="Urali"><i>Urali</i><par n="Sicilia__np"/></e>
     <e lm="Pirùggia"><i>Pirùggia</i><par n="Sicilia__np"/></e>
     <e lm="Pisa"><i>Pisa</i><par n="Sicilia__np"/></e>
     <e lm="Pitcairn"><i>Pitcairn</i><par n="Sicilia__np"/></e>
@@ -5599,7 +5606,6 @@
     <e lm="Monterrey"><i>Monterrey</i><par n="Sicilia__np"/></e>
     <e lm="Montpellier"><i>Montpellier</i><par n="Sicilia__np"/></e>
     <e lm="Mossul"><i>Mossul</i><par n="Sicilia__np"/></e>
-    <e lm="Nàpuli,"><i>Nàpuli,</i><par n="Sicilia__np"/></e>
     <e lm="Naru"><i>Naru</i><par n="Sicilia__np"/></e>
     <e lm="Neuchâtel"><i>Neuchâtel</i><par n="Sicilia__np"/></e>
     <e lm="Nicea"><i>Nicea</i><par n="Sicilia__np"/></e>
@@ -5607,7 +5613,7 @@
     <e lm="Noorvik"><i>Noorvik</i><par n="Sicilia__np"/></e>
     <e lm="Nyon"><i>Nyon</i><par n="Sicilia__np"/></e>
     <e lm="Odessa"><i>Odessa</i><par n="Sicilia__np"/></e>
-    <e lm="Papeete,"><i>Papeete,</i><par n="Sicilia__np"/></e>
+    <e lm="Papeete"><i>Papeete</i><par n="Sicilia__np"/></e>
     <e lm="Patrassu"><i>Patrassu</i><par n="Sicilia__np"/></e>
     <e lm="Peshawar"><i>Peshawar</i><par n="Sicilia__np"/></e>
     <e lm="Pirùggia"><i>Pirùggia</i><par n="Sicilia__np"/></e>
@@ -7438,6 +7444,440 @@
     <e lm="Trentinu-Àutu Àdici"><i>Trentinu-Àutu<b/>Àdici</i><par n="Sicilia__np"/></e>
     <e lm="Vibbu Valenzia"><i>Vibbu<b/>Valenzia</i><par n="Sicilia__np"/></e>
 
+    <e lm="Anacletu"><i>Anacletu</i><par n="Jaime__np"/></e>
+    <e lm="Callistu"><i>Callistu</i><par n="Jaime__np"/></e>
+    <e lm="Climènti"><i>Climènti</i><par n="Jaime__np"/></e>
+    <e lm="Crimenti"><i>Crimenti</i><par n="Jaime__np"/></e>
+    <e lm="Dàmasu"><i>Dàmasu</i><par n="Jaime__np"/></e>
+    <e lm="Gregorio"><i>Gregorio</i><par n="Jaime__np"/></e>
+    <e lm="Innuccenzu"><i>Innuccenzu</i><par n="Jaime__np"/></e>
+    <e lm="Luciu"><i>Luciu</i><par n="Jaime__np"/></e>
+    <e lm="Nicculò"><i>Nicculò</i><par n="Jaime__np"/></e>
+    <e lm="Onoriu"><i>Onoriu</i><par n="Jaime__np"/></e>
+    <e lm="Pasquali"><i>Pasquali</i><par n="Jaime__np"/></e>
+    <e lm="Piu"><i>Piu</i><par n="Jaime__np"/></e>
+    <e lm="Sistu"><i>Sistu</i><par n="Jaime__np"/></e>
+    <e lm="Vittoriu"><i>Vittoriu</i><par n="Jaime__np"/></e>
+    <e lm="Vitturi"><i>Vitturi</i><par n="Jaime__np"/></e>
+
+
+    <e lm="Abbilardu"><i>Abbilardu</i><par n="Rosenburg__np"/></e>
+    <e lm="Abenafia"><i>Abenafia</i><par n="Rosenburg__np"/></e>
+    <e lm="Accardi"><i>Accardi</i><par n="Rosenburg__np"/></e>
+    <e lm="Adams"><i>Adams</i><par n="Rosenburg__np"/></e>
+    <e lm="Afflacius"><i>Afflacius</i><par n="Rosenburg__np"/></e>
+    <e lm="Agnew"><i>Agnew</i><par n="Rosenburg__np"/></e>
+    <e lm="Alessi"><i>Alessi</i><par n="Rosenburg__np"/></e>
+    <e lm="Ali"><i>Ali</i><par n="Rosenburg__np"/></e>
+    <e lm="Almodóvar"><i>Almodóvar</i><par n="Rosenburg__np"/></e>
+    <e lm="Amelia"><i>Amelia</i><par n="Rosenburg__np"/></e>
+    <e lm="Amendola"><i>Amendola</i><par n="Rosenburg__np"/></e>
+    <e lm="Anastasi"><i>Anastasi</i><par n="Rosenburg__np"/></e>
+    <e lm="Ancona"><i>Ancona</i><par n="Rosenburg__np"/></e>
+    <e lm="Angeletti"><i>Angeletti</i><par n="Rosenburg__np"/></e>
+    <e lm="Appert"><i>Appert</i><par n="Rosenburg__np"/></e>
+    <e lm="Arcimboldu"><i>Arcimboldu</i><par n="Rosenburg__np"/></e>
+    <e lm="Ardizzone"><i>Ardizzone</i><par n="Rosenburg__np"/></e>
+    <e lm="Arena"><i>Arena</i><par n="Rosenburg__np"/></e>
+    <e lm="Ariosto"><i>Ariosto</i><par n="Rosenburg__np"/></e>
+    <e lm="Aristippu"><i>Aristippu</i><par n="Rosenburg__np"/></e>
+    <e lm="Aronica"><i>Aronica</i><par n="Rosenburg__np"/></e>
+    <e lm="Aureliu"><i>Aureliu</i><par n="Rosenburg__np"/></e>
+    <e lm="Badoglio"><i>Badoglio</i><par n="Rosenburg__np"/></e>
+    <e lm="Baez"><i>Baez</i><par n="Rosenburg__np"/></e>
+    <e lm="Baldini"><i>Baldini</i><par n="Rosenburg__np"/></e>
+    <e lm="Balsamu"><i>Balsamu</i><par n="Rosenburg__np"/></e>
+    <e lm="Balzaretti"><i>Balzaretti</i><par n="Rosenburg__np"/></e>
+    <e lm="Barbera"><i>Barbera</i><par n="Rosenburg__np"/></e>
+    <e lm="Bardelli"><i>Bardelli</i><par n="Rosenburg__np"/></e>
+    <e lm="Barton"><i>Barton</i><par n="Rosenburg__np"/></e>
+    <e lm="Basinger"><i>Basinger</i><par n="Rosenburg__np"/></e>
+    <e lm="Baudelaire"><i>Baudelaire</i><par n="Rosenburg__np"/></e>
+    <e lm="Baudrillard"><i>Baudrillard</i><par n="Rosenburg__np"/></e>
+    <e lm="Baudu"><i>Baudu</i><par n="Rosenburg__np"/></e>
+    <e lm="Baumgartner"><i>Baumgartner</i><par n="Rosenburg__np"/></e>
+    <e lm="Bayrou"><i>Bayrou</i><par n="Rosenburg__np"/></e>
+    <e lm="Beach"><i>Beach</i><par n="Rosenburg__np"/></e>
+    <e lm="Béjart"><i>Béjart</i><par n="Rosenburg__np"/></e>
+    <e lm="Bella"><i>Bella</i><par n="Rosenburg__np"/></e>
+    <e lm="Bellini"><i>Bellini</i><par n="Rosenburg__np"/></e>
+    <e lm="Belotti"><i>Belotti</i><par n="Rosenburg__np"/></e>
+    <e lm="Benigni"><i>Benigni</i><par n="Rosenburg__np"/></e>
+    <e lm="Benvenuto"><i>Benvenuto</i><par n="Rosenburg__np"/></e>
+    <e lm="Berdy"><i>Berdy</i><par n="Rosenburg__np"/></e>
+    <e lm="Berners-Lee"><i>Berners-Lee</i><par n="Rosenburg__np"/></e>
+    <e lm="Bernoulli"><i>Bernoulli</i><par n="Rosenburg__np"/></e>
+    <e lm="Bernoulli"><i>Bernoulli</i><par n="Rosenburg__np"/></e>
+    <e lm="Biagianti"><i>Biagianti</i><par n="Rosenburg__np"/></e>
+    <e lm="Bianchi"><i>Bianchi</i><par n="Rosenburg__np"/></e>
+    <e lm="Binnatu"><i>Binnatu</i><par n="Rosenburg__np"/></e>
+    <e lm="Bivone"><i>Bivone</i><par n="Rosenburg__np"/></e>
+    <e lm="Bizet"><i>Bizet</i><par n="Rosenburg__np"/></e>
+    <e lm="Boccacciu"><i>Boccacciu</i><par n="Rosenburg__np"/></e>
+    <e lm="Bocelli"><i>Bocelli</i><par n="Rosenburg__np"/></e>
+    <e lm="Boldrini"><i>Boldrini</i><par n="Rosenburg__np"/></e>
+    <e lm="Bolzoni"><i>Bolzoni</i><par n="Rosenburg__np"/></e>
+    <e lm="Borsa"><i>Borsa</i><par n="Rosenburg__np"/></e>
+    <e lm="Borsellino"><i>Borsellino</i><par n="Rosenburg__np"/></e>
+    <e lm="Bovo"><i>Bovo</i><par n="Rosenburg__np"/></e>
+    <e lm="Bowie"><i>Bowie</i><par n="Rosenburg__np"/></e>
+    <e lm="Brahms"><i>Brahms</i><par n="Rosenburg__np"/></e>
+    <e lm="Braque"><i>Braque</i><par n="Rosenburg__np"/></e>
+    <e lm="Brega"><i>Brega</i><par n="Rosenburg__np"/></e>
+    <e lm="Brichetto"><i>Brichetto</i><par n="Rosenburg__np"/></e>
+    <e lm="Bruzzi"><i>Bruzzi</i><par n="Rosenburg__np"/></e>
+    <e lm="Brydone"><i>Brydone</i><par n="Rosenburg__np"/></e>
+    <e lm="Bunòsiu"><i>Bunòsiu</i><par n="Rosenburg__np"/></e>
+    <e lm="Buñuel"><i>Buñuel</i><par n="Rosenburg__np"/></e>
+    <e lm="Butera"><i>Butera</i><par n="Rosenburg__np"/></e>
+    <e lm="Càccamo"><i>Càccamo</i><par n="Rosenburg__np"/></e>
+    <e lm="Calaiò"><i>Calaiò</i><par n="Rosenburg__np"/></e>
+    <e lm="Calipari"><i>Calipari</i><par n="Rosenburg__np"/></e>
+    <e lm="Cameron"><i>Cameron</i><par n="Rosenburg__np"/></e>
+    <e lm="Camus"><i>Camus</i><par n="Rosenburg__np"/></e>
+    <e lm="Canepa"><i>Canepa</i><par n="Rosenburg__np"/></e>
+    <e lm="Canova"><i>Canova</i><par n="Rosenburg__np"/></e>
+    <e lm="Capra"><i>Capra</i><par n="Rosenburg__np"/></e>
+    <e lm="Capuana"><i>Capuana</i><par n="Rosenburg__np"/></e>
+    <e lm="Carrere"><i>Carrere</i><par n="Rosenburg__np"/></e>
+    <e lm="Carter"><i>Carter</i><par n="Rosenburg__np"/></e>
+    <e lm="Carusu"><i>Carusu</i><par n="Rosenburg__np"/></e>
+    <e lm="Casanova"><i>Casanova</i><par n="Rosenburg__np"/></e>
+    <e lm="Castagnetti"><i>Castagnetti</i><par n="Rosenburg__np"/></e>
+    <e lm="Cavalcanti"><i>Cavalcanti</i><par n="Rosenburg__np"/></e>
+    <e lm="Cézanne"><i>Cézanne</i><par n="Rosenburg__np"/></e>
+    <e lm="Chabrol"><i>Chabrol</i><par n="Rosenburg__np"/></e>
+    <e lm="Chaplin"><i>Chaplin</i><par n="Rosenburg__np"/></e>
+    <e lm="Chiarelli"><i>Chiarelli</i><par n="Rosenburg__np"/></e>
+    <e lm="Chillemi"><i>Chillemi</i><par n="Rosenburg__np"/></e>
+    <e lm="Ciaramitaro"><i>Ciaramitaro</i><par n="Rosenburg__np"/></e>
+    <e lm="Ciotti"><i>Ciotti</i><par n="Rosenburg__np"/></e>
+    <e lm="Cocchiara"><i>Cocchiara</i><par n="Rosenburg__np"/></e>
+    <e lm="Cocker"><i>Cocker</i><par n="Rosenburg__np"/></e>
+    <e lm="Colantino"><i>Colantino</i><par n="Rosenburg__np"/></e>
+    <e lm="Colantuono"><i>Colantuono</i><par n="Rosenburg__np"/></e>
+    <e lm="Collins"><i>Collins</i><par n="Rosenburg__np"/></e>
+    <e lm="Collodi"><i>Collodi</i><par n="Rosenburg__np"/></e>
+    <e lm="Colombo"><i>Colombo</i><par n="Rosenburg__np"/></e>
+    <e lm="Comte"><i>Comte</i><par n="Rosenburg__np"/></e>
+    <e lm="Crestadoru"><i>Crestadoru</i><par n="Rosenburg__np"/></e>
+    <e lm="Crimi"><i>Crimi</i><par n="Rosenburg__np"/></e>
+    <e lm="Cristicchi"><i>Cristicchi</i><par n="Rosenburg__np"/></e>
+    <e lm="Cristu"><i>Cristu</i><par n="Rosenburg__np"/></e>
+    <e lm="Cuche"><i>Cuche</i><par n="Rosenburg__np"/></e>
+    <e lm="Curie"><i>Curie</i><par n="Rosenburg__np"/></e>
+    <e lm="Dalì"><i>Dalì</i><par n="Rosenburg__np"/></e>
+    <e lm="Dalla"><i>Dalla</i><par n="Rosenburg__np"/></e>
+    <e lm="Daprelà"><i>Daprelà</i><par n="Rosenburg__np"/></e>
+    <e lm="Daudet"><i>Daudet</i><par n="Rosenburg__np"/></e>
+    <e lm="Davis"><i>Davis</i><par n="Rosenburg__np"/></e>
+    <e lm="Debussy"><i>Debussy</i><par n="Rosenburg__np"/></e>
+    <e lm="Delneri"><i>Delneri</i><par n="Rosenburg__np"/></e>
+    <e lm="Dickens"><i>Dickens</i><par n="Rosenburg__np"/></e>
+    <e lm="Diderot"><i>Diderot</i><par n="Rosenburg__np"/></e>
+    <e lm="Domina"><i>Domina</i><par n="Rosenburg__np"/></e>
+    <e lm="Donati"><i>Donati</i><par n="Rosenburg__np"/></e>
+    <e lm="Dragonetti"><i>Dragonetti</i><par n="Rosenburg__np"/></e>
+    <e lm="Drengot"><i>Drengot</i><par n="Rosenburg__np"/></e>
+    <e lm="Duchamp"><i>Duchamp</i><par n="Rosenburg__np"/></e>
+    <e lm="Duchovny"><i>Duchovny</i><par n="Rosenburg__np"/></e>
+    <e lm="Dybala"><i>Dybala</i><par n="Rosenburg__np"/></e>
+    <e lm="Ecu"><i>Ecu</i><par n="Rosenburg__np"/></e>
+    <e lm="Edwards"><i>Edwards</i><par n="Rosenburg__np"/></e>
+    <e lm="Einstein"><i>Einstein</i><par n="Rosenburg__np"/></e>
+    <e lm="Emperado"><i>Emperado</i><par n="Rosenburg__np"/></e>
+    <e lm="Engels"><i>Engels</i><par n="Rosenburg__np"/></e>
+    <e lm="Englert"><i>Englert</i><par n="Rosenburg__np"/></e>
+    <e lm="Erdős"><i>Erdős</i><par n="Rosenburg__np"/></e>
+    <e lm="Erni"><i>Erni</i><par n="Rosenburg__np"/></e>
+    <e lm="Ernst"><i>Ernst</i><par n="Rosenburg__np"/></e>
+    <e lm="Erranti"><i>Erranti</i><par n="Rosenburg__np"/></e>
+    <e lm="Ertl"><i>Ertl</i><par n="Rosenburg__np"/></e>
+    <e lm="Fagan"><i>Fagan</i><par n="Rosenburg__np"/></e>
+    <e lm="Falcone"><i>Falcone</i><par n="Rosenburg__np"/></e>
+    <e lm="Faraday"><i>Faraday</i><par n="Rosenburg__np"/></e>
+    <e lm="Federer"><i>Federer</i><par n="Rosenburg__np"/></e>
+    <e lm="Fellini"><i>Fellini</i><par n="Rosenburg__np"/></e>
+    <e lm="Fermi"><i>Fermi</i><par n="Rosenburg__np"/></e>
+    <e lm="Fernández"><i>Fernández</i><par n="Rosenburg__np"/></e>
+    <e lm="Ferrero"><i>Ferrero</i><par n="Rosenburg__np"/></e>
+    <e lm="Ferruzzi"><i>Ferruzzi</i><par n="Rosenburg__np"/></e>
+    <e lm="Finizio"><i>Finizio</i><par n="Rosenburg__np"/></e>
+    <e lm="Flaubert"><i>Flaubert</i><par n="Rosenburg__np"/></e>
+    <e lm="Florida"><i>Florida</i><par n="Rosenburg__np"/></e>
+    <e lm="Floriu"><i>Floriu</i><par n="Rosenburg__np"/></e>
+    <e lm="Fontana"><i>Fontana</i><par n="Rosenburg__np"/></e>
+    <e lm="Ford"><i>Ford</i><par n="Rosenburg__np"/></e>
+    <e lm="Gabbana"><i>Gabbana</i><par n="Rosenburg__np"/></e>
+    <e lm="Gaggini"><i>Gaggini</i><par n="Rosenburg__np"/></e>
+    <e lm="Galeoto"><i>Galeoto</i><par n="Rosenburg__np"/></e>
+    <e lm="Garfield"><i>Garfield</i><par n="Rosenburg__np"/></e>
+    <e lm="Garibbaldi"><i>Garibbaldi</i><par n="Rosenburg__np"/></e>
+    <e lm="Gassman"><i>Gassman</i><par n="Rosenburg__np"/></e>
+    <e lm="Gauguin"><i>Gauguin</i><par n="Rosenburg__np"/></e>
+    <e lm="Germi"><i>Germi</i><par n="Rosenburg__np"/></e>
+    <e lm="Gerrard"><i>Gerrard</i><par n="Rosenburg__np"/></e>
+    <e lm="Gershwin"><i>Gershwin</i><par n="Rosenburg__np"/></e>
+    <e lm="Giacumetti"><i>Giacumetti</i><par n="Rosenburg__np"/></e>
+    <e lm="Giganti"><i>Giganti</i><par n="Rosenburg__np"/></e>
+    <e lm="Ginoble"><i>Ginoble</i><par n="Rosenburg__np"/></e>
+    <e lm="Gintili"><i>Gintili</i><par n="Rosenburg__np"/></e>
+    <e lm="Giovio"><i>Giovio</i><par n="Rosenburg__np"/></e>
+    <e lm="Gleick"><i>Gleick</i><par n="Rosenburg__np"/></e>
+    <e lm="Gnagbo"><i>Gnagbo</i><par n="Rosenburg__np"/></e>
+    <e lm="Godwin"><i>Godwin</i><par n="Rosenburg__np"/></e>
+    <e lm="Goldbach"><i>Goldbach</i><par n="Rosenburg__np"/></e>
+    <e lm="Gooding"><i>Gooding</i><par n="Rosenburg__np"/></e>
+    <e lm="Gordon"><i>Gordon</i><par n="Rosenburg__np"/></e>
+    <e lm="Gore"><i>Gore</i><par n="Rosenburg__np"/></e>
+    <e lm="Grabowski"><i>Grabowski</i><par n="Rosenburg__np"/></e>
+    <e lm="Gramsci"><i>Gramsci</i><par n="Rosenburg__np"/></e>
+    <e lm="Grassu"><i>Grassu</i><par n="Rosenburg__np"/></e>
+    <e lm="Greco"><i>Greco</i><par n="Rosenburg__np"/></e>
+    <e lm="Grisham"><i>Grisham</i><par n="Rosenburg__np"/></e>
+    <e lm="Guana"><i>Guana</i><par n="Rosenburg__np"/></e>
+    <e lm="Guarneri"><i>Guarneri</i><par n="Rosenburg__np"/></e>
+    <e lm="Guicciardini"><i>Guicciardini</i><par n="Rosenburg__np"/></e>
+    <e lm="Gurdon"><i>Gurdon</i><par n="Rosenburg__np"/></e>
+    <e lm="Harrison"><i>Harrison</i><par n="Rosenburg__np"/></e>
+    <e lm="Hernández"><i>Hernández</i><par n="Rosenburg__np"/></e>
+    <e lm="Higgs"><i>Higgs</i><par n="Rosenburg__np"/></e>
+    <e lm="Hobbes"><i>Hobbes</i><par n="Rosenburg__np"/></e>
+    <e lm="Hugo"><i>Hugo</i><par n="Rosenburg__np"/></e>
+    <e lm="Hume"><i>Hume</i><par n="Rosenburg__np"/></e>
+    <e lm="Hussein"><i>Hussein</i><par n="Rosenburg__np"/></e>
+    <e lm="Infantinu"><i>Infantinu</i><par n="Rosenburg__np"/></e>
+    <e lm="Innografu"><i>Innografu</i><par n="Rosenburg__np"/></e>
+    <e lm="Interguglielmi"><i>Interguglielmi</i><par n="Rosenburg__np"/></e>
+    <e lm="Itris"><i>Itris</i><par n="Rosenburg__np"/></e>
+    <e lm="Ittar"><i>Ittar</i><par n="Rosenburg__np"/></e>
+    <e lm="James"><i>James</i><par n="Rosenburg__np"/></e>
+    <e lm="Jaquet-Droz"><i>Jaquet-Droz</i><par n="Rosenburg__np"/></e>
+    <e lm="Jefferson"><i>Jefferson</i><par n="Rosenburg__np"/></e>
+    <e lm="Jeralla"><i>Jeralla</i><par n="Rosenburg__np"/></e>
+    <e lm="Jobs"><i>Jobs</i><par n="Rosenburg__np"/></e>
+    <e lm="Johnson"><i>Johnson</i><par n="Rosenburg__np"/></e>
+    <e lm="Joyce"><i>Joyce</i><par n="Rosenburg__np"/></e>
+    <e lm="Kafka"><i>Kafka</i><par n="Rosenburg__np"/></e>
+    <e lm="Kahlo"><i>Kahlo</i><par n="Rosenburg__np"/></e>
+    <e lm="Kanakis"><i>Kanakis</i><par n="Rosenburg__np"/></e>
+    <e lm="Kant"><i>Kant</i><par n="Rosenburg__np"/></e>
+    <e lm="Khayyam"><i>Khayyam</i><par n="Rosenburg__np"/></e>
+    <e lm="Kjaer"><i>Kjaer</i><par n="Rosenburg__np"/></e>
+    <e lm="Klee"><i>Klee</i><par n="Rosenburg__np"/></e>
+    <e lm="Kobilka"><i>Kobilka</i><par n="Rosenburg__np"/></e>
+    <e lm="Kubrick"><i>Kubrick</i><par n="Rosenburg__np"/></e>
+    <e lm="Larizza"><i>Larizza</i><par n="Rosenburg__np"/></e>
+    <e lm="Lautner"><i>Lautner</i><par n="Rosenburg__np"/></e>
+    <e lm="Lefkowitz"><i>Lefkowitz</i><par n="Rosenburg__np"/></e>
+    <e lm="Lennon"><i>Lennon</i><par n="Rosenburg__np"/></e>
+    <e lm="Letta"><i>Letta</i><par n="Rosenburg__np"/></e>
+    <e lm="Lévi-Strauss"><i>Lévi-Strauss</i><par n="Rosenburg__np"/></e>
+    <e lm="Licitra"><i>Licitra</i><par n="Rosenburg__np"/></e>
+    <e lm="Lincoln"><i>Lincoln</i><par n="Rosenburg__np"/></e>
+    <e lm="Lindbergh"><i>Lindbergh</i><par n="Rosenburg__np"/></e>
+    <e lm="Liuni"><i>Liuni</i><par n="Rosenburg__np"/></e>
+    <e lm="Liverani"><i>Liverani</i><par n="Rosenburg__np"/></e>
+    <e lm="Lloyd"><i>Lloyd</i><par n="Rosenburg__np"/></e>
+    <e lm="Locke"><i>Locke</i><par n="Rosenburg__np"/></e>
+    <e lm="Lucenti"><i>Lucenti</i><par n="Rosenburg__np"/></e>
+    <e lm="Lukachenko"><i>Lukachenko</i><par n="Rosenburg__np"/></e>
+    <e lm="Łukasiewicz"><i>Łukasiewicz</i><par n="Rosenburg__np"/></e>
+    <e lm="Lupo"><i>Lupo</i><par n="Rosenburg__np"/></e>
+    <e lm="Luteru"><i>Luteru</i><par n="Rosenburg__np"/></e>
+    <e lm="Machiavelli"><i>Machiavelli</i><par n="Rosenburg__np"/></e>
+    <e lm="Madison"><i>Madison</i><par n="Rosenburg__np"/></e>
+    <e lm="Madonia"><i>Madonia</i><par n="Rosenburg__np"/></e>
+    <e lm="Magillanu"><i>Magillanu</i><par n="Rosenburg__np"/></e>
+    <e lm="Magnu"><i>Magnu</i><par n="Rosenburg__np"/></e>
+    <e lm="Magnu"><i>Magnu</i><par n="Rosenburg__np"/></e>
+    <e lm="Malvestiti"><i>Malvestiti</i><par n="Rosenburg__np"/></e>
+    <e lm="Maniaci"><i>Maniaci</i><par n="Rosenburg__np"/></e>
+    <e lm="Mannone"><i>Mannone</i><par n="Rosenburg__np"/></e>
+    <e lm="Mantegna"><i>Mantegna</i><par n="Rosenburg__np"/></e>
+    <e lm="Mantovani"><i>Mantovani</i><par n="Rosenburg__np"/></e>
+    <e lm="Manzi"><i>Manzi</i><par n="Rosenburg__np"/></e>
+    <e lm="Manzoni"><i>Manzoni</i><par n="Rosenburg__np"/></e>
+    <e lm="Maraini"><i>Maraini</i><par n="Rosenburg__np"/></e>
+    <e lm="Marchese"><i>Marchese</i><par n="Rosenburg__np"/></e>
+    <e lm="Marconi"><i>Marconi</i><par n="Rosenburg__np"/></e>
+    <e lm="Maresca"><i>Maresca</i><par n="Rosenburg__np"/></e>
+    <e lm="Marin"><i>Marin</i><par n="Rosenburg__np"/></e>
+    <e lm="Marino"><i>Marino</i><par n="Rosenburg__np"/></e>
+    <e lm="Marinu"><i>Marinu</i><par n="Rosenburg__np"/></e>
+    <e lm="Martin"><i>Martin</i><par n="Rosenburg__np"/></e>
+    <e lm="Marx"><i>Marx</i><par n="Rosenburg__np"/></e>
+    <e lm="Mascara"><i>Mascara</i><par n="Rosenburg__np"/></e>
+    <e lm="Massieu"><i>Massieu</i><par n="Rosenburg__np"/></e>
+    <e lm="Mattarella"><i>Mattarella</i><par n="Rosenburg__np"/></e>
+    <e lm="Mayor"><i>Mayor</i><par n="Rosenburg__np"/></e>
+    <e lm="Mazzarinu"><i>Mazzarinu</i><par n="Rosenburg__np"/></e>
+    <e lm="Mazzini"><i>Mazzini</i><par n="Rosenburg__np"/></e>
+    <e lm="Mazzotta"><i>Mazzotta</i><par n="Rosenburg__np"/></e>
+    <e lm="Meli"><i>Meli</i><par n="Rosenburg__np"/></e>
+    <e lm="Mengoni"><i>Mengoni</i><par n="Rosenburg__np"/></e>
+    <e lm="Mennea"><i>Mennea</i><par n="Rosenburg__np"/></e>
+    <e lm="Merisi"><i>Merisi</i><par n="Rosenburg__np"/></e>
+    <e lm="Merola"><i>Merola</i><par n="Rosenburg__np"/></e>
+    <e lm="Meucci"><i>Meucci</i><par n="Rosenburg__np"/></e>
+    <e lm="Miccoli"><i>Miccoli</i><par n="Rosenburg__np"/></e>
+    <e lm="Mickiewicz"><i>Mickiewicz</i><par n="Rosenburg__np"/></e>
+    <e lm="Migliaccio"><i>Migliaccio</i><par n="Rosenburg__np"/></e>
+    <e lm="Miller"><i>Miller</i><par n="Rosenburg__np"/></e>
+    <e lm="Miró"><i>Miró</i><par n="Rosenburg__np"/></e>
+    <e lm="Mistral"><i>Mistral</i><par n="Rosenburg__np"/></e>
+    <e lm="Modugno"><i>Modugno</i><par n="Rosenburg__np"/></e>
+    <e lm="Monet"><i>Monet</i><par n="Rosenburg__np"/></e>
+    <e lm="Monroe"><i>Monroe</i><par n="Rosenburg__np"/></e>
+    <e lm="Moratti"><i>Moratti</i><par n="Rosenburg__np"/></e>
+    <e lm="Morganella"><i>Morganella</i><par n="Rosenburg__np"/></e>
+    <e lm="Morsi"><i>Morsi</i><par n="Rosenburg__np"/></e>
+    <e lm="Munro"><i>Munro</i><par n="Rosenburg__np"/></e>
+    <e lm="Muscati"><i>Muscati</i><par n="Rosenburg__np"/></e>
+    <e lm="Muscegh"><i>Muscegh</i><par n="Rosenburg__np"/></e>
+    <e lm="Nabokov"><i>Nabokov</i><par n="Rosenburg__np"/></e>
+    <e lm="Nadal"><i>Nadal</i><par n="Rosenburg__np"/></e>
+    <e lm="Napolitano"><i>Napolitano</i><par n="Rosenburg__np"/></e>
+    <e lm="Nash"><i>Nash</i><par n="Rosenburg__np"/></e>
+    <e lm="Natta"><i>Natta</i><par n="Rosenburg__np"/></e>
+    <e lm="Neri"><i>Neri</i><par n="Rosenburg__np"/></e>
+    <e lm="Newton"><i>Newton</i><par n="Rosenburg__np"/></e>
+    <e lm="Nocerino"><i>Nocerino</i><par n="Rosenburg__np"/></e>
+    <e lm="Noiret"><i>Noiret</i><par n="Rosenburg__np"/></e>
+    <e lm="Novelli"><i>Novelli</i><par n="Rosenburg__np"/></e>
+    <e lm="Offenbach"><i>Offenbach</i><par n="Rosenburg__np"/></e>
+    <e lm="Orsi"><i>Orsi</i><par n="Rosenburg__np"/></e>
+    <e lm="Orwell"><i>Orwell</i><par n="Rosenburg__np"/></e>
+    <e lm="Paganini"><i>Paganini</i><par n="Rosenburg__np"/></e>
+    <e lm="Palomes"><i>Palomes</i><par n="Rosenburg__np"/></e>
+    <e lm="Parker"><i>Parker</i><par n="Rosenburg__np"/></e>
+    <e lm="Parmitanu"><i>Parmitanu</i><par n="Rosenburg__np"/></e>
+    <e lm="Pascoli"><i>Pascoli</i><par n="Rosenburg__np"/></e>
+    <e lm="Pasteur"><i>Pasteur</i><par n="Rosenburg__np"/></e>
+    <e lm="Pausini"><i>Pausini</i><par n="Rosenburg__np"/></e>
+    <e lm="Peanu"><i>Peanu</i><par n="Rosenburg__np"/></e>
+    <e lm="Pegg"><i>Pegg</i><par n="Rosenburg__np"/></e>
+    <e lm="Pennac"><i>Pennac</i><par n="Rosenburg__np"/></e>
+    <e lm="Persegano"><i>Persegano</i><par n="Rosenburg__np"/></e>
+    <e lm="Pessoa"><i>Pessoa</i><par n="Rosenburg__np"/></e>
+    <e lm="Petit"><i>Petit</i><par n="Rosenburg__np"/></e>
+    <e lm="Petrarca"><i>Petrarca</i><par n="Rosenburg__np"/></e>
+    <e lm="Pezzali"><i>Pezzali</i><par n="Rosenburg__np"/></e>
+    <e lm="Piaget"><i>Piaget</i><par n="Rosenburg__np"/></e>
+    <e lm="Piazzi"><i>Piazzi</i><par n="Rosenburg__np"/></e>
+    <e lm="Piccittu"><i>Piccittu</i><par n="Rosenburg__np"/></e>
+    <e lm="Pine"><i>Pine</i><par n="Rosenburg__np"/></e>
+    <e lm="Pirandellu"><i>Pirandellu</i><par n="Rosenburg__np"/></e>
+    <e lm="Pitrè"><i>Pitrè</i><par n="Rosenburg__np"/></e>
+    <e lm="Plantagenetu"><i>Plantagenetu</i><par n="Rosenburg__np"/></e>
+    <e lm="Polu"><i>Polu</i><par n="Rosenburg__np"/></e>
+    <e lm="Porchia"><i>Porchia</i><par n="Rosenburg__np"/></e>
+    <e lm="Pratt"><i>Pratt</i><par n="Rosenburg__np"/></e>
+    <e lm="Prestigiacumu"><i>Prestigiacumu</i><par n="Rosenburg__np"/></e>
+    <e lm="Prima"><i>Prima</i><par n="Rosenburg__np"/></e>
+    <e lm="Prinzi"><i>Prinzi</i><par n="Rosenburg__np"/></e>
+    <e lm="Puliti"><i>Puliti</i><par n="Rosenburg__np"/></e>
+    <e lm="Quartararu"><i>Quartararu</i><par n="Rosenburg__np"/></e>
+    <e lm="Queloz"><i>Queloz</i><par n="Rosenburg__np"/></e>
+    <e lm="Raggi"><i>Raggi</i><par n="Rosenburg__np"/></e>
+    <e lm="Raimondi"><i>Raimondi</i><par n="Rosenburg__np"/></e>
+    <e lm="Ranucci"><i>Ranucci</i><par n="Rosenburg__np"/></e>
+    <e lm="Ravenna"><i>Ravenna</i><par n="Rosenburg__np"/></e>
+    <e lm="Riccobbonu"><i>Riccobbonu</i><par n="Rosenburg__np"/></e>
+    <e lm="Richards"><i>Richards</i><par n="Rosenburg__np"/></e>
+    <e lm="Riganò"><i>Riganò</i><par n="Rosenburg__np"/></e>
+    <e lm="Rigoni"><i>Rigoni</i><par n="Rosenburg__np"/></e>
+    <e lm="Rizzo"><i>Rizzo</i><par n="Rosenburg__np"/></e>
+    <e lm="Rohani"><i>Rohani</i><par n="Rosenburg__np"/></e>
+    <e lm="Rohlfs"><i>Rohlfs</i><par n="Rosenburg__np"/></e>
+    <e lm="Rosi"><i>Rosi</i><par n="Rosenburg__np"/></e>
+    <e lm="Rothman"><i>Rothman</i><par n="Rosenburg__np"/></e>
+    <e lm="Rubbia"><i>Rubbia</i><par n="Rosenburg__np"/></e>
+    <e lm="Rugova"><i>Rugova</i><par n="Rosenburg__np"/></e>
+    <e lm="Rumana"><i>Rumana</i><par n="Rosenburg__np"/></e>
+    <e lm="Russell"><i>Russell</i><par n="Rosenburg__np"/></e>
+    <e lm="Sabatini"><i>Sabatini</i><par n="Rosenburg__np"/></e>
+    <e lm="Sabra"><i>Sabra</i><par n="Rosenburg__np"/></e>
+    <e lm="Salibra"><i>Salibra</i><par n="Rosenburg__np"/></e>
+    <e lm="Salieri"><i>Salieri</i><par n="Rosenburg__np"/></e>
+    <e lm="Sandrelli"><i>Sandrelli</i><par n="Rosenburg__np"/></e>
+    <e lm="Sant"><i>Sant</i><par n="Rosenburg__np"/></e>
+    <e lm="Santapaola"><i>Santapaola</i><par n="Rosenburg__np"/></e>
+    <e lm="Scalfari"><i>Scalfari</i><par n="Rosenburg__np"/></e>
+    <e lm="Scandurra"><i>Scandurra</i><par n="Rosenburg__np"/></e>
+    <e lm="Scarlatti"><i>Scarlatti</i><par n="Rosenburg__np"/></e>
+    <e lm="Schiavone"><i>Schiavone</i><par n="Rosenburg__np"/></e>
+    <e lm="Schopenhauer"><i>Schopenhauer</i><par n="Rosenburg__np"/></e>
+    <e lm="Schumacher"><i>Schumacher</i><par n="Rosenburg__np"/></e>
+    <e lm="Schumann"><i>Schumann</i><par n="Rosenburg__np"/></e>
+    <e lm="Scianna"><i>Scianna</i><par n="Rosenburg__np"/></e>
+    <e lm="Scurto"><i>Scurto</i><par n="Rosenburg__np"/></e>
+    <e lm="Sèttimu"><i>Sèttimu</i><par n="Rosenburg__np"/></e>
+    <e lm="Sgrena"><i>Sgrena</i><par n="Rosenburg__np"/></e>
+    <e lm="Shakespeare"><i>Shakespeare</i><par n="Rosenburg__np"/></e>
+    <e lm="Shelley"><i>Shelley</i><par n="Rosenburg__np"/></e>
+    <e lm="Sheperd-Barron"><i>Sheperd-Barron</i><par n="Rosenburg__np"/></e>
+    <e lm="Simenon"><i>Simenon</i><par n="Rosenburg__np"/></e>
+    <e lm="Simone"><i>Simone</i><par n="Rosenburg__np"/></e>
+    <e lm="Sinatra"><i>Sinatra</i><par n="Rosenburg__np"/></e>
+    <e lm="Sirigu"><i>Sirigu</i><par n="Rosenburg__np"/></e>
+    <e lm="Skłodowska-Curie"><i>Skłodowska-Curie</i><par n="Rosenburg__np"/></e>
+    <e lm="Smith"><i>Smith</i><par n="Rosenburg__np"/></e>
+    <e lm="Sor"><i>Sor</i><par n="Rosenburg__np"/></e>
+    <e lm="Sordi"><i>Sordi</i><par n="Rosenburg__np"/></e>
+    <e lm="Sorrentino"><i>Sorrentino</i><par n="Rosenburg__np"/></e>
+    <e lm="Spadolini"><i>Spadolini</i><par n="Rosenburg__np"/></e>
+    <e lm="Spampinatu"><i>Spampinatu</i><par n="Rosenburg__np"/></e>
+    <e lm="Strauss-Kahn"><i>Strauss-Kahn</i><par n="Rosenburg__np"/></e>
+    <e lm="Succi"><i>Succi</i><par n="Rosenburg__np"/></e>
+    <e lm="Suchard"><i>Suchard</i><par n="Rosenburg__np"/></e>
+    <e lm="Südhof"><i>Südhof</i><par n="Rosenburg__np"/></e>
+    <e lm="Surrintinu"><i>Surrintinu</i><par n="Rosenburg__np"/></e>
+    <e lm="Swinburne"><i>Swinburne</i><par n="Rosenburg__np"/></e>
+    <e lm="Tabucchi"><i>Tabucchi</i><par n="Rosenburg__np"/></e>
+    <e lm="Tedesco"><i>Tedesco</i><par n="Rosenburg__np"/></e>
+    <e lm="Terranova"><i>Terranova</i><par n="Rosenburg__np"/></e>
+    <e lm="Terzi"><i>Terzi</i><par n="Rosenburg__np"/></e>
+    <e lm="Tirole"><i>Tirole</i><par n="Rosenburg__np"/></e>
+    <e lm="Titsingh"><i>Titsingh</i><par n="Rosenburg__np"/></e>
+    <e lm="Toni"><i>Toni</i><par n="Rosenburg__np"/></e>
+    <e lm="Totti"><i>Totti</i><par n="Rosenburg__np"/></e>
+    <e lm="Trashorras"><i>Trashorras</i><par n="Rosenburg__np"/></e>
+    <e lm="Trewhella"><i>Trewhella</i><par n="Rosenburg__np"/></e>
+    <e lm="Truffaut"><i>Truffaut</i><par n="Rosenburg__np"/></e>
+    <e lm="Turnaturi"><i>Turnaturi</i><par n="Rosenburg__np"/></e>
+    <e lm="Ungaretti"><i>Ungaretti</i><par n="Rosenburg__np"/></e>
+    <e lm="Urbani"><i>Urbani</i><par n="Rosenburg__np"/></e>
+    <e lm="Vanni"><i>Vanni</i><par n="Rosenburg__np"/></e>
+    <e lm="Vasari"><i>Vasari</i><par n="Rosenburg__np"/></e>
+    <e lm="Vázquez"><i>Vázquez</i><par n="Rosenburg__np"/></e>
+    <e lm="Verga"><i>Verga</i><par n="Rosenburg__np"/></e>
+    <e lm="Veru"><i>Veru</i><par n="Rosenburg__np"/></e>
+    <e lm="Vettel"><i>Vettel</i><par n="Rosenburg__np"/></e>
+    <e lm="Vezzosi"><i>Vezzosi</i><par n="Rosenburg__np"/></e>
+    <e lm="Vicari"><i>Vicari</i><par n="Rosenburg__np"/></e>
+    <e lm="Vinizzianu"><i>Vinizzianu</i><par n="Rosenburg__np"/></e>
+    <e lm="Viola"><i>Viola</i><par n="Rosenburg__np"/></e>
+    <e lm="Virduni"><i>Virduni</i><par n="Rosenburg__np"/></e>
+    <e lm="Vitiello"><i>Vitiello</i><par n="Rosenburg__np"/></e>
+    <e lm="Vivaldi"><i>Vivaldi</i><par n="Rosenburg__np"/></e>
+    <e lm="Vivarini"><i>Vivarini</i><par n="Rosenburg__np"/></e>
+    <e lm="Vizzini"><i>Vizzini</i><par n="Rosenburg__np"/></e>
+    <e lm="Wagner"><i>Wagner</i><par n="Rosenburg__np"/></e>
+    <e lm="Warhol"><i>Warhol</i><par n="Rosenburg__np"/></e>
+    <e lm="Washington"><i>Washington</i><par n="Rosenburg__np"/></e>
+    <e lm="Webber"><i>Webber</i><par n="Rosenburg__np"/></e>
+    <e lm="Weithaas"><i>Weithaas</i><par n="Rosenburg__np"/></e>
+    <e lm="Williamson"><i>Williamson</i><par n="Rosenburg__np"/></e>
+    <e lm="Wilson"><i>Wilson</i><par n="Rosenburg__np"/></e>
+    <e lm="Wineland"><i>Wineland</i><par n="Rosenburg__np"/></e>
+    <e lm="Wollstonecraft"><i>Wollstonecraft</i><par n="Rosenburg__np"/></e>
+    <e lm="Yunus"><i>Yunus</i><par n="Rosenburg__np"/></e>
+    <e lm="Zamparini"><i>Zamparini</i><par n="Rosenburg__np"/></e>
+    <e lm="Zanforlin"><i>Zanforlin</i><par n="Rosenburg__np"/></e>
+    <e lm="Ziegler"><i>Ziegler</i><par n="Rosenburg__np"/></e>
+    <e lm="Zipelli"><i>Zipelli</i><par n="Rosenburg__np"/></e>
+
     <e lm="Wikipedia"><i>Wikipedia</i><par n="Wikipedia__np"/></e>
     <e lm="Wikipedia" r="LR"><p><l>wikipedia</l><r>Wikipedia</r></p><par n="Wikipedia__np"/></e>
     <e lm="Vichipedia"><i>Vichipedia</i><par n="Wikipedia__np"/></e>
@@ -7723,7 +8163,7 @@
     <e lm="Adriàticu"><i>Adriàtic</i><par n="elettrumagnetic/u__adj"/></e>
     <e lm="Atlanticu"><i>Atlantic</i><par n="elettrumagnetic/u__adj"/></e>
     <e lm="Bàlticu"><i>Bàltic</i><par n="elettrumagnetic/u__adj"/></e>
-    <e lm="Articu"><i>Artic</i><par n="elettrumagnetic/u__adj"/></e>
+    <e lm="Àrticu"><i>Àrtic</i><par n="elettrumagnetic/u__adj"/></e>
 
     <e lm="variu"><i>var</i><par n="lar/iu__adj"/></e>
     <e lm="lìbbiru"><i>lìbbir</i><par n="bedd/u__adj"/></e>
