@@ -3224,8 +3224,10 @@
     <e lm="flussu"><i>fluss</i><par n="ann/u__n"/></e>
     <e lm="frussu" r="LR"><p><l>fruss</l><r>fluss</r></p><par n="ann/u__n"/></e>
     
-    
-    
+    <e lm="amu"><i>am</i><par n="ann/u__n"/></e>
+    <e lm="ancilu"><i>ancil</i><par n="ann/u__n"/></e>
+    <e lm="amuri"><i>amuri</i><par n="patri__n"/></e>
+    <e lm="abbitutini"><i>abbitutini</i><par n="matri__n"/></e>
     
 
 
@@ -4340,6 +4342,13 @@
     <e lm="mircatu"><i>mircat</i><par n="ann/u__n"/></e>
     <e lm="rolu"><i>rol</i><par n="ann/u__n"/></e>
     <e lm="chistioni"><i>chistioni</i><par n="matri__n"/></e>
+    <e lm="aduri"><i>aduri</i><par n="patri__n"/></e>
+    <e lm="oduri"><i>oduri</i><par n="patri__n"/></e>
+    
+    <e lm="agneddu"><i>agnedd</i><par n="ann/u__n"/></e>
+    <e lm="aiutu"><i>aiut</i><par n="ann/u__n"/></e>
+    
+    <e lm="acitu"><i>acit</i><par n="ann/u__n"/></e>
 
     <!-- SECTION: Proper nouns -->
 
@@ -8174,6 +8183,7 @@
     <e lm="omònim"><par n="o/u"/><i>mònim</i><par n="bedd/u__adj"/></e>
     <e lm="veru"><i>ver</i><par n="bedd/u__adj"/></e>
     <e lm="vicinu"><i>vicin</i><par n="bedd/u__adj"/></e>
+    <e lm="amaru"><i>amar</i><par n="bedd/u__adj"/></e>
 
     <e lm="ex"><i>ex</i><par n="duci__adj"/></e>
 
@@ -8293,6 +8303,7 @@
 
     <e lm="maiuri"><i>maiuri</i><par n="duci__adj"/></e>
     <e lm="cèlibbri"><i>cèlibbri</i><par n="duci__adj"/></e>
+    <e lm="abbituali"><i>abbituali</i><par n="duci__adj"/></e>
 
     <e lm="salentinu"><i>salentin</i><par n="bedd/u__adj"/></e>
 
@@ -8509,6 +8520,7 @@
     <e lm="rialmenti"><i>rialmenti</i><par n="ùoggi__adv"/></e>
     <e lm="principalmenti"><i>principalmenti</i><par n="ùoggi__adv"/></e>
     <e lm="oggijornu"><i>oggijornu</i><par n="ùoggi__adv"/></e>
+    
 
     
     
@@ -8747,7 +8759,7 @@
     <e lm="arriminari"><i>arrimin</i><par n="parr/ari__vblex"/></e>
     <e lm="ascutari"><i>ascut</i><par n="parr/ari__vblex"/></e>
     <e lm="astutari"><i>addum</i><par n="parr/ari__vblex"/></e>
-    
+    <e lm="attuppari"><i>attupp</i><par n="parr/ari__vblex"/></e>
     
     
     <e lm="battiri"><i>batt</i><par n="batt/iri__vblex"/></e>
