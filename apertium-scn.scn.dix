@@ -2016,6 +2016,7 @@
     <e lm="cuntra" r="LR"><p><l>cuntra</l><r>contra</r></p><par n="tra__pr"/></e>
     <e lm="duranti"><i>durant</i><par n="durant/i__pr"/></e>
     <e lm="senza"><i>senza</i><par n="tra__pr"/></e>
+    <e lm="senza" r="LR"><p><l>sinza</l><r>senza</r></p><par n="tra__pr"/></e>
     <e lm="sutta"><i>sutta</i><par n="tra__pr"/></e>
     <e lm="supra"><i>supra</i><par n="tra__pr"/></e>
     <e lm="avanti"><i>avanti</i><par n="tra__pr"/></e>
@@ -4005,6 +4006,7 @@
 
     <e lm="frati"><i>frati</i><par n="patri__n"/></e>
     <e lm="sinistra"><i>sinistr</i><par n="cas/a__n"/></e>
+    <e lm="destra"><i>destr</i><par n="cas/a__n"/></e>
 
 
     <e lm="funnazzioni"><i>funnaz</i><par n="pupulaz/zioni__n"/></e>
@@ -4411,6 +4413,8 @@
     <e lm="nurmalizzazzioni"><i>nurmalizzaz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="falta"><i>falt</i><par n="cas/a__n"/></e>
     <e lm="paritati"><i>parit</i><par n="cit/ati__n"/></e>
+    <e lm="jurnali"><i>jurnali</i><par n="patri__n"/></e>
+    <e lm="telejurnali"><i>telejurnali</i><par n="patri__n"/></e>
 
     <!-- SECTION: Proper nouns -->
 
@@ -7951,6 +7955,104 @@
     <e lm="Ziegler"><i>Ziegler</i><par n="Rosenburg__np"/></e>
     <e lm="Zipelli"><i>Zipelli</i><par n="Rosenburg__np"/></e>
 
+    <e lm="Saint-Andéol"><i>Saint-Andéol</i><par n="Sicilia__np"/></e>
+    <e lm="Saint-André"><i>Saint-André</i><par n="Sicilia__np"/></e>
+    <e lm="Saint-Anselme"><i>Saint-Anselme</i><par n="Sicilia__np"/></e>
+    <e lm="Saint-Antoine"><i>Saint-Antoine</i><par n="Sicilia__np"/></e>
+    <e lm="Saint-Barthélemy"><i>Saint-Barthélemy</i><par n="Sicilia__np"/></e>
+    <e lm="Saint-Chamond"><i>Saint-Chamond</i><par n="Sicilia__np"/></e>
+    <e lm="Saint-Didier"><i>Saint-Didier</i><par n="Sicilia__np"/></e>
+    <e lm="Saint-Dié-des-Vosges"><i>Saint-Dié-des-Vosges</i><par n="Sicilia__np"/></e>
+    <e lm="Saint-Epvre"><i>Saint-Epvre</i><par n="Sicilia__np"/></e>
+    <e lm="Saint-Etienne"><i>Saint-Etienne</i><par n="Sicilia__np"/></e>
+    <e lm="Saint-Étienne"><i>Saint-Étienne</i><par n="Sicilia__np"/></e>
+    <e lm="Saint-Etienne-du-Bois"><i>Saint-Etienne-du-Bois</i><par n="Sicilia__np"/></e>
+    <e lm="Saint-Exupéry"><i>Saint-Exupéry</i><par n="Sicilia__np"/></e>
+    <e lm="Saint-Fargeau"><i>Saint-Fargeau</i><par n="Sicilia__np"/></e>
+    <e lm="Saint-Florent"><i>Saint-Florent</i><par n="Sicilia__np"/></e>
+    <e lm="Saint-Georges"><i>Saint-Georges</i><par n="Sicilia__np"/></e>
+    <e lm="Saint-Germain-en-Laye"><i>Saint-Germain-en-Laye</i><par n="Sicilia__np"/></e>
+    <e lm="Saint-Germain-Laval"><i>Saint-Germain-Laval</i><par n="Sicilia__np"/></e>
+    <e lm="Saint-Gilles-du-Gard"><i>Saint-Gilles-du-Gard</i><par n="Sicilia__np"/></e>
+    <e lm="Saint-Jean"><i>Saint-Jean</i><par n="Sicilia__np"/></e>
+    <e lm="Saint-Jean-Pied-de-Port"><i>Saint-Jean-Pied-de-Port</i><par n="Sicilia__np"/></e>
+    <e lm="Saint-Lambert"><i>Saint-Lambert</i><par n="Sicilia__np"/></e>
+    <e lm="Saint-Léon"><i>Saint-Léon</i><par n="Sicilia__np"/></e>
+    <e lm="Saint-Lizier"><i>Saint-Lizier</i><par n="Sicilia__np"/></e>
+    <e lm="Saint-Luc"><i>Saint-Luc</i><par n="Sicilia__np"/></e>
+    <e lm="Saint-Malo"><i>Saint-Malo</i><par n="Sicilia__np"/></e>
+    <e lm="Saint-Martin"><i>Saint-Martin</i><par n="Sicilia__np"/></e>
+    <e lm="Saint-Martin-du-Mont"><i>Saint-Martin-du-Mont</i><par n="Sicilia__np"/></e>
+    <e lm="Saint-Max"><i>Saint-Max</i><par n="Sicilia__np"/></e>
+    <e lm="Saint-Montaigne"><i>Saint-Montaigne</i><par n="Sicilia__np"/></e>
+    <e lm="Saint-Nazaire"><i>Saint-Nazaire</i><par n="Sicilia__np"/></e>
+    <e lm="Saint-Non"><i>Saint-Non</i><par n="Sicilia__np"/></e>
+    <e lm="Saint-Ouen"><i>Saint-Ouen</i><par n="Sicilia__np"/></e>
+    <e lm="Saint-Palais"><i>Saint-Palais</i><par n="Sicilia__np"/></e>
+    <e lm="Saint-Palas"><i>Saint-Palas</i><par n="Sicilia__np"/></e>
+    <e lm="Saint-Quentin-en-Yvelines"><i>Saint-Quentin-en-Yvelines</i><par n="Sicilia__np"/></e>
+    <e lm="Saint-Remi"><i>Saint-Remi</i><par n="Sicilia__np"/></e>
+    <e lm="Saint-Remy"><i>Saint-Remy</i><par n="Sicilia__np"/></e>
+    <e lm="Saint-Simon"><i>Saint-Simon</i><par n="Sicilia__np"/></e>
+    <e lm="Saint-Trond"><i>Saint-Trond</i><par n="Sicilia__np"/></e>
+    <e lm="Saint-Trophime"><i>Saint-Trophime</i><par n="Sicilia__np"/></e>
+    <e lm="Saint-Vallier"><i>Saint-Vallier</i><par n="Sicilia__np"/></e>
+    <e lm="Saint-Victor"><i>Saint-Victor</i><par n="Sicilia__np"/></e>
+
+    <e lm="Vercelli"><i>Vercelli</i><par n="Sicilia__np"/></e>
+    <e lm="Arezzu"><i>Arezzu</i><par n="Sicilia__np"/></e>
+    <e lm="Arezzu"><i>Arezzu</i><par n="Sicilia__np"/></e>
+    <e lm="Brìnnisi"><i>Brìnnisi</i><par n="Sicilia__np"/></e>
+    <e lm="Bulzanu"><i>Bulzanu</i><par n="Sicilia__np"/></e>
+    <e lm="Călăraşi"><i>Călăraşi</i><par n="Sicilia__np"/></e>
+    <e lm="Caltanissetta"><i>Caltanissetta</i><par n="Sicilia__np"/></e>
+    <e lm="Carbonia-Iglesias"><i>Carbonia-Iglesias</i><par n="Sicilia__np"/></e>
+    <e lm="Cartanisetta"><i>Cartanisetta</i><par n="Sicilia__np"/></e>
+    <e lm="Caserta"><i>Caserta</i><par n="Sicilia__np"/></e>
+    <e lm="Chieti"><i>Chieti</i><par n="Sicilia__np"/></e>
+    <e lm="Crutoni"><i>Crutoni</i><par n="Sicilia__np"/></e>
+    <e lm="Cunìu"><i>Cunìu</i><par n="Sicilia__np"/></e>
+    <e lm="Cutroni"><i>Cutroni</i><par n="Sicilia__np"/></e>
+    <e lm="Enna"><i>Enna</i><par n="Sicilia__np"/></e>
+    <e lm="Foggia"><i>Foggia</i><par n="Sicilia__np"/></e>
+    <e lm="Frusinuni"><i>Frusinuni</i><par n="Sicilia__np"/></e>
+    <e lm="Gènua"><i>Gènua</i><par n="Sicilia__np"/></e>
+    <e lm="Girona"><i>Girona</i><par n="Sicilia__np"/></e>
+    <e lm="Hohenzollern"><i>Hohenzollern</i><par n="Sicilia__np"/></e>
+    <e lm="Imperia"><i>Imperia</i><par n="Sicilia__np"/></e>
+    <e lm="Isernia"><i>Isernia</i><par n="Sicilia__np"/></e>
+    <e lm="Latina"><i>Latina</i><par n="Sicilia__np"/></e>
+    <e lm="Lecce"><i>Lecce</i><par n="Sicilia__np"/></e>
+    <e lm="Lecci"><i>Lecci</i><par n="Sicilia__np"/></e>
+    <e lm="Lecci"><i>Lecci</i><par n="Sicilia__np"/></e>
+    <e lm="Livornu"><i>Livornu</i><par n="Sicilia__np"/></e>
+    <e lm="Logroño"><i>Logroño</i><par n="Sicilia__np"/></e>
+    <e lm="l'Ontariu"><i>l'Ontariu</i><par n="Sicilia__np"/></e>
+    <e lm="l'Orléanais"><i>l'Orléanais</i><par n="Sicilia__np"/></e>
+    <e lm="Lucca"><i>Lucca</i><par n="Sicilia__np"/></e>
+    <e lm="l'Ugghiastra"><i>l'Ugghiastra</i><par n="Sicilia__np"/></e>
+    <e lm="Matera"><i>Matera</i><par n="Sicilia__np"/></e>
+    <e lm="Muntilusa"><i>Muntilusa</i><par n="Sicilia__np"/></e>
+    <e lm="Olbia-Tempiu"><i>Olbia-Tempiu</i><par n="Sicilia__np"/></e>
+    <e lm="Ourense"><i>Ourense</i><par n="Sicilia__np"/></e>
+    <e lm="Piscara"><i>Piscara</i><par n="Sicilia__np"/></e>
+    <e lm="Pistoia"><i>Pistoia</i><par n="Sicilia__np"/></e>
+    <e lm="Potenza"><i>Potenza</i><par n="Sicilia__np"/></e>
+    <e lm="Pratu"><i>Pratu</i><par n="Sicilia__np"/></e>
+    <e lm="Putenza"><i>Putenza</i><par n="Sicilia__np"/></e>
+    <e lm="Rausa"><i>Rausa</i><par n="Sicilia__np"/></e>
+    <e lm="Rieti"><i>Rieti</i><par n="Sicilia__np"/></e>
+    <e lm="Siena"><i>Siena</i><par n="Sicilia__np"/></e>
+    <e lm="Teramu"><i>Teramu</i><par n="Sicilia__np"/></e>
+    <e lm="Tèramu"><i>Tèramu</i><par n="Sicilia__np"/></e>
+    <e lm="Terni"><i>Terni</i><par n="Sicilia__np"/></e>
+    <e lm="Trapani"><i>Trapani</i><par n="Sicilia__np"/></e>
+    <e lm="Tràpani"><i>Tràpani</i><par n="Sicilia__np"/></e>
+    <e lm="Trento"><i>Trento</i><par n="Sicilia__np"/></e>
+    <e lm="Trevisu"><i>Trevisu</i><par n="Sicilia__np"/></e>
+    <e lm="Viterbu"><i>Viterbu</i><par n="Sicilia__np"/></e>
+
+
     <e lm="Wikipedia"><i>Wikipedia</i><par n="Wikipedia__np"/></e>
     <e lm="Wikipedia" r="LR"><p><l>wikipedia</l><r>Wikipedia</r></p><par n="Wikipedia__np"/></e>
     <e lm="Vichipedia"><i>Vichipedia</i><par n="Wikipedia__np"/></e>
@@ -8429,6 +8531,7 @@
     <e lm="drammàticu"><i>drammàtic</i><par n="magnètic/u__adj"/></e>
     <e lm="obbligatoriu"><i>obbligatori</i><par n="magnètic/u__adj"/></e>
     <e lm="sculàsticu"><i>sculàstic</i><par n="magnètic/u__adj"/></e>
+    <e lm="ràpidu"><i>ràpid</i><par n="magnètic/u__adj"/></e>
     <e lm="urdinàriu"><par n="u/o"/><i>rdinàri</i><par n="magnètic/u__adj"/></e>
     <e lm="straurdinariu"><i>stra</i><par n="u/o"/><i>rdinàri</i><par n="magnètic/u__adj"/></e>
 
