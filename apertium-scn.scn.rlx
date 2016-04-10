@@ -31,6 +31,7 @@ LIST CS/ca = "<ca>" ;
 LIST Haver = vbhaver ;
 
 LIST Chi = "<chi>" ;
+LIST Cristianu = "cristianu" ;
 
 LIST Imper = imp ;
 LIST PrfPrc = pp ;
@@ -99,6 +100,8 @@ REMOVE Imper IF (NOT 1* Excl) (NOT 1 Cm) ;
 SELECT Adv IF (-1C Pron) (0 Adv OR Det) (1 Fin) ;
 
 REMOVE Ind IF (0 Ind OR Pr) (1 Def) ;
+
+SELECT N IF (-1 Det OR Pr) (0 Cristianu) ;
 
 AFTER-SECTIONS
 
