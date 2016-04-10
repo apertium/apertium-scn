@@ -898,6 +898,7 @@
     	<e><p><l>fomu</l><r>èssiri<s n="vbser"/><s n="ifi"/><s n="p1"/><s n="pl"/></r></p></e>
     	<e><p><l>fùstivu</l><r>èssiri<s n="vbser"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
         <e><p><l>foru</l><r>èssiri<s n="vbser"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
+        <e r="LR"><p><l>fuorru</l><r>èssiri<s n="vbser"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
         
     	<e><p><l>sì</l><r>èssiri<s n="vbser"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
     	<e><p><l>sia</l><r>èssiri<s n="vbser"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -4423,6 +4424,7 @@
     <e lm="falta"><i>falt</i><par n="cas/a__n"/></e>
     <e lm="coppa"><i>copp</i><par n="cas/a__n"/></e>
     <e lm="lava"><i>lav</i><par n="cas/a__n"/></e>
+    <e lm="fama"><i>fam</i><par n="cas/a__n"/></e>
     <e lm="autizza"><i>autizz</i><par n="cas/a__n"/></e>
     <e lm="paritati"><i>parit</i><par n="cit/ati__n"/></e>
     <e lm="jurnali"><i>jurnali</i><par n="patri__n"/></e>
@@ -8055,15 +8057,14 @@
     <e lm="Rausa"><i>Rausa</i><par n="Sicilia__np"/></e>
     <e lm="Rieti"><i>Rieti</i><par n="Sicilia__np"/></e>
     <e lm="Siena"><i>Siena</i><par n="Sicilia__np"/></e>
-    <e lm="Teramu"><i>Teramu</i><par n="Sicilia__np"/></e>
     <e lm="Tèramu"><i>Tèramu</i><par n="Sicilia__np"/></e>
     <e lm="Terni"><i>Terni</i><par n="Sicilia__np"/></e>
-    <e lm="Trapani"><i>Trapani</i><par n="Sicilia__np"/></e>
     <e lm="Tràpani"><i>Tràpani</i><par n="Sicilia__np"/></e>
     <e lm="Trento"><i>Trento</i><par n="Sicilia__np"/></e>
     <e lm="Trevisu"><i>Trevisu</i><par n="Sicilia__np"/></e>
     <e lm="Viterbu"><i>Viterbu</i><par n="Sicilia__np"/></e>
 
+    <e lm="Licata"><i>Licata</i><par n="Sicilia__np"/></e>
 
     <e lm="Wikipedia"><i>Wikipedia</i><par n="Wikipedia__np"/></e>
     <e lm="Wikipedia" r="LR"><p><l>wikipedia</l><r>Wikipedia</r></p><par n="Wikipedia__np"/></e>
@@ -8112,6 +8113,7 @@
     <e lm="grassu"><i>grass</i><par n="bedd/u__adj"/></e>
     <e lm="siccu"><i>sicc</i><par n="magnètic/u__adj"/></e>
     <e lm="longu"><i>long</i><par n="bedd/u__adj"/></e>
+    <e lm="loncu" r="LR"><p><l>lonc</l><r>long</r></p><par n="magnètic/u__adj"/></e>
     <e lm="falsu"><i>fals</i><par n="bedd/u__adj"/></e>
     <e lm="densu"><i>dens</i><par n="bedd/u__adj"/></e>
     <e lm="àutu"><i>àut</i><par n="bedd/u__adj"/></e>
@@ -8536,6 +8538,7 @@
     <e lm="criativu"><i>criativ</i><par n="bedd/u__adj"/></e>
     <e lm="lìricu"><i>lìric</i><par n="bedd/u__adj"/></e>
     <e lm="jurìdicu"><i>jurìdic</i><par n="bedd/u__adj"/></e>
+    <e lm="cuntrariu"><i>cuntrari</i><par n="bedd/u__adj"/></e>
     <e lm="vivu"><i>viv</i><par n="bedd/u__adj"/></e>
     <e lm="puèticu"><i>puètic</i><par n="magnètic/u__adj"/></e>
     <e lm="puièticu" r="LR"><p><l>puiètic</l><r>puètic</r></p><par n="bedd/u__adj"/></e>
@@ -8555,6 +8558,7 @@
     <e lm="minuritari"><i>minuritari</i><par n="duci__adj"/></e>
     <e lm="duminanti"><i>duminanti</i><par n="duci__adj"/></e>
     <e lm="brevi"><i>brevi</i><par n="duci__adj"/></e>
+    <e lm="gravi"><i>gravi</i><par n="duci__adj"/></e>
 
     <!-- SECTION: Adverbs -->
 
@@ -9062,6 +9066,7 @@
     <e lm="dicìdiri"><i>dicìd</i><par n="batt/iri__vblex"/></e>
     <e lm="discutiri"><i>discut</i><par n="batt/iri__vblex"/></e>
     <e lm="spàrtiri"><i>spàrt</i><par n="batt/iri__vblex"/></e>
+    <e lm="appartèniri"><i>appartèn</i><par n="batt/iri__vblex"/></e>
 
     
     <e lm="scrìviri"><i>scrì</i><par n="scrì/viri__vblex"/></e>
