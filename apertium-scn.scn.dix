@@ -618,6 +618,8 @@
       	<e r="LR"><p><l>î</l><r>a<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="mf"/><s n="pl"/></r></p></e>
       	<e r="LR"><p><l>ôn</l><r>a<s n="pr"/><j/>un<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
 
+      	<e r="LR"><p><l>a'</l><r>a<s n="pr"/></r></p></e>
+
       	<e r="LR"><p><l>al</l><r>a<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
       	<e r="LR"><p><l>au</l><r>a<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
       	<e r="LR"><p><l>allu</l><r>a<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
@@ -733,6 +735,7 @@
       	<e r="LR"><p><l>pûn</l><r>pi<s n="pr"/><j/>un<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
 
       	<e r="LR"><p><l>pì</l><r>pi<s n="pr"/></r></p></e>
+      	<e r="LR"><p><l>pi'</l><r>pi<s n="pr"/></r></p></e>
     </pardef>
 
 
@@ -2040,6 +2043,7 @@
     <e lm="grazzi a"><i>grazzi<b/></i><par n="conta__pr"/></e>
     <e lm="avanzi a"><i>avanzi<b/></i><par n="conta__pr"/></e>
     <e lm="supra di"><i>supra<b/></i><par n="contdi__pr"/></e>
+    <e lm="supra a"><i>supra<b/></i><par n="conta__pr"/></e>
     <e lm="au latu di"><i>au<b/>latu<b/></i><par n="contdi__pr"/></e>
     <e lm="a pàrtiri di"><i>a<b/>pàrtiri<b/></i><par n="contdi__pr"/></e>
     <e lm="sutta a"><i>sutta<b/></i><par n="conta__pr"/></e>
@@ -2353,6 +2357,7 @@
     <e lm="càmmara"><i>càmmar</i><par n="cas/a__n"/></e>
     <e lm="fiura"><i>fiur</i><par n="cas/a__n"/></e>
     <e lm="mimoria"><i>mimori</i><par n="cas/a__n"/></e>
+    <e lm="matèria"><i>matèri</i><par n="cas/a__n"/></e>
     <e lm="mimòria" r="LR"><p><l>mimòri</l><r>mimori</r></p><par n="cas/a__n"/></e>
     <e lm="data"><i>dat</i><par n="cas/a__n"/></e>
     
@@ -2743,6 +2748,7 @@
     <e lm="uccidenti"><par n="u/o"/><i>ccidenti</i><par n="patri__n"/></e>
     <e lm="cuntinenti"><i>cuntinenti</i><par n="patri__n"/></e>
     <e lm="artista"><i>artist</i><par n="chitarrist/a__n"/></e>
+    <e lm="musicista"><i>musicist</i><par n="chitarrist/a__n"/></e>
     <e lm="siparatista"><i>siparatist</i><par n="chitarrist/a__n"/></e>
     <e lm="sicilianista"><i>sicilianist</i><par n="chitarrist/a__n"/></e>
     <e lm="film"><i>film</i><par n="patri__n"/></e>
@@ -4406,12 +4412,15 @@
     
     <e lm="acitu"><i>acit</i><par n="ann/u__n"/></e>
     <e lm="statutu"><i>statut</i><par n="ann/u__n"/></e>
+    <e lm="canciamentu"><i>canciament</i><par n="ann/u__n"/></e>
     <e lm="pinseru"><i>pinser</i><par n="ann/u__n"/></e>
+    <e lm="attu"><i>att</i><par n="ann/u__n"/></e>
     <e lm="niputi"><i>niputi</i><par n="patri__n"/></e>
     <e lm="cunzunanti"><i>cunzunanti</i><par n="patri__n"/></e>
     <e lm="cunsunanti" r="LR"><p><l>cunsunanti</l><r>cunzunanti</r></p><par n="patri__n"/></e>
     <e lm="nurmalizzazzioni"><i>nurmalizzaz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="falta"><i>falt</i><par n="cas/a__n"/></e>
+    <e lm="coppa"><i>copp</i><par n="cas/a__n"/></e>
     <e lm="paritati"><i>parit</i><par n="cit/ati__n"/></e>
     <e lm="jurnali"><i>jurnali</i><par n="patri__n"/></e>
     <e lm="telejurnali"><i>telejurnali</i><par n="patri__n"/></e>
@@ -5752,8 +5761,9 @@
 
     <e lm="N'Djamena"><i>N'Djamena</i><par n="Sicilia__np"/></e>
 
-    <e lm="Einstein"><i>Einstein</i><par n="Rosenburg__np"/></e>
     <e lm="Rosenburg"><i>Rosenburg</i><par n="Rosenburg__np"/></e>
+    <e lm="Einstein"><i>Einstein</i><par n="Rosenburg__np"/></e>
+    <e lm="Bach"><i>Bach</i><par n="Rosenburg__np"/></e>
     <e lm="Nobel"><i>Nobel</i><par n="Rosenburg__np"/></e>
     <e lm="Obama"><i>Obama</i><par n="Rosenburg__np"/></e>
     <e lm="May"><i>May</i><par n="Rosenburg__np"/></e>
@@ -7661,7 +7671,6 @@
     <e lm="Dybala"><i>Dybala</i><par n="Rosenburg__np"/></e>
     <e lm="Ecu"><i>Ecu</i><par n="Rosenburg__np"/></e>
     <e lm="Edwards"><i>Edwards</i><par n="Rosenburg__np"/></e>
-    <e lm="Einstein"><i>Einstein</i><par n="Rosenburg__np"/></e>
     <e lm="Emperado"><i>Emperado</i><par n="Rosenburg__np"/></e>
     <e lm="Engels"><i>Engels</i><par n="Rosenburg__np"/></e>
     <e lm="Englert"><i>Englert</i><par n="Rosenburg__np"/></e>
@@ -8532,6 +8541,8 @@
     <e lm="obbligatoriu"><i>obbligatori</i><par n="magnètic/u__adj"/></e>
     <e lm="sculàsticu"><i>sculàstic</i><par n="magnètic/u__adj"/></e>
     <e lm="ràpidu"><i>ràpid</i><par n="magnètic/u__adj"/></e>
+    <e lm="ràpidu" r="LR"><p><l>rìpid</l><r>ràpid</r></p><par n="magnètic/u__adj"/></e>
+    <e lm="pocu"><i>poc</i><par n="magnètic/u__adj"/></e>
     <e lm="urdinàriu"><par n="u/o"/><i>rdinàri</i><par n="magnètic/u__adj"/></e>
     <e lm="straurdinariu"><i>stra</i><par n="u/o"/><i>rdinàri</i><par n="magnètic/u__adj"/></e>
 
@@ -8540,6 +8551,7 @@
     <e lm="fàcili"><i>fàcili</i><par n="duci__adj"/></e>
     <e lm="minuritari"><i>minuritari</i><par n="duci__adj"/></e>
     <e lm="duminanti"><i>duminanti</i><par n="duci__adj"/></e>
+    <e lm="brevi"><i>brevi</i><par n="duci__adj"/></e>
 
     <!-- SECTION: Adverbs -->
 
@@ -8620,6 +8632,7 @@
     <e lm="nzemi"><i>nzemi</i><par n="ùoggi__adv"/></e>
     <e lm="bonu"><i>bonu</i><par n="ùoggi__adv"/></e>
     <e lm="megghiu"><i>megghiu</i><par n="ùoggi__adv"/></e>
+    <e lm="pocu"><i>pocu</i><par n="ùoggi__adv"/></e>
     <e lm="sulu"><i>sulu</i><par n="ùoggi__adv"/></e>
     <e lm="accamora"><i>accamora</i><par n="ùoggi__adv"/></e>
     <e lm="menu"><i>menu</i><par n="ùoggi__adv"/></e>
