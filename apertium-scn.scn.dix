@@ -2079,8 +2079,37 @@
 	<e lm="avanti a"><i>avanzi<b/></i><par n="conta__pr"/></e>  
 	<e lm="finu a"><i>finu<b/></i><par n="conta__pr"/></e>
 	<e lm="affina a" r="LR"><p><l>affina</l><r>finu<b/></r></p><par n="conta__pr"/></e>
-	<e lm="fina a" r="LR"><p><l>fina</l><r>finu<b/></r></p><par n="conta__pr"/></e>
-
+	<e lm="fina a" r="LR"><p><l>fina</l><r>finu<b/></r></p><par n="conta__pr"/></e>	
+	<e lm="iuntu a"><i>iuntu<b/></i><par n="conta__pr"/></e>
+	<e lm="nfacci a"><i>nfacci<b/></i><par n="conta__pr"/></e>
+	<e lm="ntornu a"><i>ntornu<b/></i><par n="conta__pr"/></e>
+	<e lm="ntunnu a"><i>ntunnu<b/></i><par n="conta__pr"/></e>
+	<e lm="ntunnu ntunnu a"><i>ntunnu<b/>ntunnu<b/></i><par n="conta__pr"/></e>
+	<e lm="ntornu ntornu a"><i>ntornu<b/>ntornu<b/></i><par n="conta__pr"/></e>
+	<e lm="oltri a"><i>oltri<b/></i><par n="conta__pr"/></e>
+	<e lm="noltri a" r="LR"><p><l>noltri<b/></l><r>oltri<b/></r></p><par n="conta__pr"/></e>	
+	<e lm="pi quantu riguardu a"><i>pi<b/>quantu<b/>riguardu<b/></i><par n="conta__pr"/></e>
+	<e lm="quantu a"><i>quantu<b/></i><par n="conta__pr"/></e>
+	
+	<e lm="vicinu a"><i>vicinu<b/></i><par n="conta__pr"/></e>
+	<e lm="nzinu a"><i>nzinu<b/></i><par n="conta__pr"/></e>
+	<e lm="nzina a" r="LR"><p><l>nzina<b/></l><r>nzinu<b/></r></p><par n="conta__pr"/></e>
+	<e lm="sinu a" r="LR"><p><l>sinu<b/></l><r>nzinu<b/></r></p><par n="conta__pr"/></e>
+	<e lm="sina a" r="LR"><p><l>sina<b/></l><r>nzinu<b/></r></p><par n="conta__pr"/></e>
+	
+	<e lm="a causa di"><i>a<b/>causa<b/></i><par n="contdi__pr"/></e>
+	<e lm="a prupòsitu di"><i>a<b/>prupòsitu<b/></i><par n="contdi__pr"/></e>
+	<e lm="a rispettu di"><i>a<b/>rispettu<b/></i><par n="contdi__pr"/></e>
+	<e lm="fora di"><i>fora<b/></i><par n="contdi__pr"/></e>
+	<e lm="luntanu di"><i>luntanu<b/></i><par n="contdi__pr"/></e>
+	<e lm="ncugnuntu di"><i>ncugnuntu<b/></i><par n="contdi__pr"/></e>
+	<e lm="mmeci di"><i>mmeci<b/></i><par n="contdi__pr"/></e>
+	<e lm="mmenzu di"><i>mmenzu<b/></i><par n="contdi__pr"/></e>
+	<e lm="pi via di"><i>pi<b/>via<b/></i><par n="contdi__pr"/></e>
+	<e lm="prima di"><i>prima<b/></i><par n="contdi__pr"/></e>
+	<e lm="sarvu di"><i>sarvu<b/></i><par n="contdi__pr"/></e>
+	<e lm="versu di"><i>versu<b/></i><par n="contdi__pr"/></e>
+	
 	
     <!-- SECTION: Pronouns -->
 
