@@ -8665,6 +8665,7 @@
     <e lm="ancora"><i>ancora</i><par n="oggi__adv"/></e>
     <e lm="arretu"><i>arretu</i><par n="oggi__adv"/></e>
     <e lm="accussì"><i>accussì</i><par n="oggi__adv"/></e>
+    <e lm="cussì" r="LR"><p><l>cussì</l><r>cussì</r></p><par n="oggi__adv"/></e>
     <e lm="nzèmmula"><i>nzèmmula</i><par n="oggi__adv"/></e>
     
     <e lm="tali"><i>tali</i><par n="assai__preadv"/></e>
@@ -8786,8 +8787,87 @@
     <e lm="tannu"><i>tannu</i><par n="oggi__adv"/></e>
     <e lm="tardu"><i>tardu</i><par n="oggi__adv"/></e>
     <e lm="tra pocu"><i>tra<b/>pocu</i><par n="oggi__adv"/></e>
+    <e lm="quannu tempu"><i>quannu<b/>tempu</i><par n="oggi__adv"/></e>
     
+    <e lm="accuddì"><i>accuddì</i><par n="oggi__adv"/></e>
+    <e lm="cuddì" r="LR"><p><l>cuddì</l><r>accuddì</r></p><par n="oggi__adv"/></e>
+    <e lm="adaciu"><i>adaciu</i><par n="oggi__adv"/></e>
+    <e lm="a l'improvissu"><i>a<b/>l'improvissu</i><par n="oggi__adv"/></e>
+    <e lm="beni"><i>beni</i><par n="oggi__adv"/></e>
+    <e lm="dirittu"><i>dirittu</i><par n="oggi__adv"/></e>
+    <e lm="drittu" r="LR"><p><l>drittu</l><r>dirittu</r></p><par n="oggi__adv"/></e>
+    <e lm="di prupositu"><i>di<b/>pruposity</i><par n="oggi__adv"/></e>
+    <e lm="di propositu" r="LR"><p><l>di<b/>propositu</l><r>di<b/>pruposity</r></p><par n="oggi__adv"/></e>
+    <e lm="lestu"><i>lestu</i><par n="oggi__adv"/></e>
+    <e lm="vasinnò"><i>vasinnò</i><par n="oggi__adv"/></e>
+    <e lm="masinnò" r="LR"><p><l>masinnò</l><r>vasinnò</r></p><par n="oggi__adv"/></e>
+    <e lm="mancu"><i>mancu</i><par n="oggi__adv"/></e>
+    <e lm="nippuru"><i>nippuru</i><par n="oggi__adv"/></e>
+    <e lm="nzemmula"><i>nzemmula</i><par n="oggi__adv"/></e>
+    <e lm="nzemmi"><i>nzemmi</i><par n="oggi__adv"/></e>
+    <e lm="macari"><i>macari</i><par n="oggi__adv"/></e>
+    <e lm="mali"><i>mali</i><par n="oggi__adv"/></e>
+    <e lm="ne già"><i>ne<b/>già</i><par n="oggi__adv"/></e>
+    <e lm="propiu"><i>propiu</i><par n="oggi__adv"/></e>
+    <e lm="propriu" r="LR"><p><l>propriu</l><r>propiu</r></p><par n="oggi__adv"/></e>
+    <e lm="puru"><i>puru</i><par n="oggi__adv"/></e>
+    <e lm="quasi"><i>quasi</i><par n="oggi__adv"/></e>
+    <e lm="veru"><i>veru</i><par n="oggi__adv"/></e>    
     
+    <e lm="attuarmenti"><i>riccamenti</i><par n="oggi__adv"/></e>
+    <e lm="veramenti"><i>veramenti</i><par n="oggi__adv"/></e>
+    <e lm="chiaramenti"><i>chiaramenti</i><par n="oggi__adv"/></e>
+    <e lm="cuntentimenti"><i>cuntentimenti</i><par n="oggi__adv"/></e>
+    <e lm="facilmenti"><i>facilmenti</i><par n="oggi__adv"/></e>
+    <e lm="popularmenti"><i>popularmenti</i><par n="oggi__adv"/></e>
+    <e lm="finarmenti"><i>finarmenti</i><par n="oggi__adv"/></e>
+    <e lm="finarmenti"><i>cumpletamenti</i><par n="oggi__adv"/></e>
+    <e lm="gintilmenti"><i>gintilmenti</i><par n="oggi__adv"/></e>
+    <e lm="ntirnazzionarmenti"><i>ntirnazzionarmenti</i><par n="oggi__adv"/></e>
+    <e lm="litteramenti"><i>litteramenti</i><par n="oggi__adv"/></e>
+    <e lm="particularmenti"><i>particularmenti</i><par n="oggi__adv"/></e>
+    <e lm="pirsunalmenti"><i>pirsunalmenti</i><par n="oggi__adv"/></e>
+    <e lm="facirmenti"><i>facirmenti</i><par n="oggi__adv"/></e>
+    <e lm="cummattimenti"><i>cummattimenti</i><par n="oggi__adv"/></e>
+    <e lm="ricintimenti"><i>ricintimenti</i><par n="oggi__adv"/></e>
+    <e lm="gineticamenti"><i>gineticamenti</i><par n="oggi__adv"/></e>
+    <e lm="pruvvidimenti"><i>pruvvidimenti</i><par n="oggi__adv"/></e>
+    <e lm="nigativamenti"><i>nigativamenti</i><par n="oggi__adv"/></e>
+    <e lm="istrimamenti"><i>istrimamenti</i><par n="oggi__adv"/></e>
+    <e lm="prufunnamenti"><i>prufunnamenti</i><par n="oggi__adv"/></e>
+    <e lm="sulamenti"><i>sulamenti</i><par n="oggi__adv"/></e>
+    <e lm="pirfizziunamenti"><i>pirfizziunamenti</i><par n="oggi__adv"/></e>
+    <e lm="rapidamenti"><i>strateggicamenti</i><par n="oggi__adv"/></e>
+    <e lm="facirmenti"><i>facirmenti</i><par n="oggi__adv"/></e>
+    <e lm="succissivamenti"><i>succissivamenti</i><par n="oggi__adv"/></e>
+    <e lm="ufficiarmenti"><i>ufficiarmenti</i><par n="oggi__adv"/></e>
+    <e lm="rilativamenti"><i>rilativamenti</i><par n="oggi__adv"/></e>
+    <e lm="spiciarmenti"><i>spiciarmenti</i><par n="oggi__adv"/></e>
+    <e lm="prubabirmenti"><i>prubabirmenti</i><par n="oggi__adv"/></e>
+    <e lm="prubabbirmenti" r="LR"><p><l>prubabbirmenti</l><r>prubabirmenti</r></p><par n="oggi__adv"/></e>
+    <e lm="urigginariamenti"><i>facirmenti</i><par n="oggi__adv"/></e>
+    <e lm="origginariamenti" r="LR"><p><l>origginariamenti</l><r>urigginariamenti</r></p><par n="oggi__adv"/></e>
+    <e lm="amministrativamenti"><i>amministrativamenti</i><par n="oggi__adv"/></e>
+    <e lm="definitivamenti"><i>definitivamenti</i><par n="oggi__adv"/></e>
+    <e lm="musicarmenti"><i>musicarmenti</i><par n="oggi__adv"/></e>
+    <e lm="etimologicamenti"><i>etimologicamenti</i><par n="oggi__adv"/></e>
+    <e lm="tipicamenti"><i>tipicamenti</i><par n="oggi__adv"/></e>
+    <e lm="assolutamenti"><i>assolutamenti</i><par n="oggi__adv"/></e>
+    <e lm="storicamenti"><i>storicamenti</i><par n="oggi__adv"/></e>
+    <e lm="semplicementi"><i>semplicementi</i><par n="oggi__adv"/></e>
+    <e lm="bruscamenti"><i>bruscamenti</i><par n="oggi__adv"/></e>
+    <e lm="inizialmenti"><i>inizialmenti</i><par n="oggi__adv"/></e>
+    <e lm="nizzialmenti" r="LR"><p><l>nizzialmenti</l><r>inizialmenti</r></p><par n="oggi__adv"/></e>
+    <e lm="localmenti"><i>storicamenti</i><par n="oggi__adv"/></e>
+    <e lm="prevalentementi"><i>prevalentementi</i><par n="oggi__adv"/></e>
+    <e lm="contemporaneamenti"><i>contemporaneamenti</i><par n="oggi__adv"/></e>
+    <e lm="anticamenti"><i>anticamenti</i><par n="oggi__adv"/></e>
+    <e lm="ampiamenti"><i>ampiamenti</i><par n="oggi__adv"/></e>
+    <e lm="pirmanintimenti"><i>pirmanintimenti</i><par n="oggi__adv"/></e>
+    <e lm="timpuraniamenti"><i>timpuraniamenti</i><par n="oggi__adv"/></e>
+    <e lm="spuraticamenti"><i>spuraticamenti</i><par n="oggi__adv"/></e>
+    <e lm="cuntinuamenti"><i>cuntinuamenti</i><par n="oggi__adv"/></e>
+
     
     <e lm="attuarmenti"><i>attuarmenti</i><par n="oggi__adv"/></e>
     <e lm="ovviamenti"><i>ovviamenti</i><par n="oggi__adv"/></e>
