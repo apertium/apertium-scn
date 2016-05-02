@@ -2027,6 +2027,7 @@
     <e lm="senza" r="LR"><p><l>sinza</l><r>senza</r></p><par n="tra__pr"/></e>
     <e lm="sutta"><i>sutta</i><par n="tra__pr"/></e>
     <e lm="supra"><i>supra</i><par n="tra__pr"/></e>
+    <e lm="su" r="LR"><p><l>su</l><r>supra</r></p><par n="tra__pr"/></e>
     <e lm="avanti"><i>avanti</i><par n="tra__pr"/></e>
     <e lm="doppu"><i>doppu</i><par n="tra__pr"/></e>
     <e lm="doppu" r="LR"><p><l>dopu</l><r>doppu</r></p><par n="tra__pr"/></e>
@@ -2050,6 +2051,7 @@
     <e lm="arrè"><i>arrè</i><par n="tra__pr"/></e>
     <e lm="nnarrè"><i>nnarrè</i><par n="tra__pr"/></e>
     <e lm="nnarreri"><i>nnarreri</i><par n="tra__pr"/></e>
+    <e lm="ammeri"><i>ammeri</i><par n="tra__pr"/></e> 
     
     <e lm="nzin'a" r="LR"><p><l>nzin'</l><r>nzinu<b/></r></p><par n="conta__pr"/></e>
     <e lm="nzinu a"><i>nzinu<b/></i><par n="conta__pr"/></e>
@@ -2070,9 +2072,16 @@
     <e lm="agghiri a"><i>agghiri<b/></i><par n="conta__pr"/></e>
     <e lm="agghiri di"><i>agghiri<b/></i><par n="contdi__pr"/></e>
     <e lm="nveci di"><i>nveci<b/></i><par n="contdi__pr"/></e>
-    <e lm="ammeri"><i>ammeri</i><par n="tra__pr"/></e>    
     
+    <e lm="accantu a"><i>accantu<b/></i><par n="conta__pr"/></e>   
+    <e lm="allatu a"><i>allatu<b/></i><par n="conta__pr"/></e>
+    <e lm="apressu a"><i>apressu<b/></i><par n="conta__pr"/></e>  
+	<e lm="avanti a"><i>avanzi<b/></i><par n="conta__pr"/></e>  
+	<e lm="finu a"><i>finu<b/></i><par n="conta__pr"/></e>
+	<e lm="affina a" r="LR"><p><l>affina</l><r>finu<b/></r></p><par n="conta__pr"/></e>
+	<e lm="fina a" r="LR"><p><l>fina</l><r>finu<b/></r></p><par n="conta__pr"/></e>
 
+	
     <!-- SECTION: Pronouns -->
 
     <e lm="io"><i>io</i><par n="io__prn"/></e>
