@@ -2018,6 +2018,7 @@
     <e lm="di"><i></i><par n="contdi__pr"/></e>
     <e lm="cu"><i></i><par n="contcu__pr"/></e>
     <e lm="tra"><i>tra</i><par n="tra__pr"/></e>
+    <e lm="fra"><i>tra</i><par n="tra__pr"/></e>
     <e lm="ntrâ"><i>ntrâ</i><par n="tra__pr"/></e>
     <e lm="contra"><i>contra</i><par n="tra__pr"/></e>
     <e lm="contru" r="LR"><p><l>contru</l><r>contra</r></p><par n="tra__pr"/></e>
@@ -2051,7 +2052,15 @@
     <e lm="arrè"><i>arrè</i><par n="tra__pr"/></e>
     <e lm="nnarrè"><i>nnarrè</i><par n="tra__pr"/></e>
     <e lm="nnarreri"><i>nnarreri</i><par n="tra__pr"/></e>
-    <e lm="ammeri"><i>ammeri</i><par n="tra__pr"/></e> 
+    <e lm="ammeri"><i>ammeri</i><par n="tra__pr"/></e>
+    <e lm="secunnu"><i>secunnu</i><par n="tra__pr"/></e>
+    <e lm="rasenti"><i>rasenti</i><par n="tra__pr"/></e>
+    <e lm="stanti"><i>stanti</i><par n="tra__pr"/></e>
+    <e lm="nostanti"><i>nostanti</i><par n="tra__pr"/></e>
+    <e lm="senza"><i>senza</i><par n="tra__pr"/></e>
+    <e lm="midianti"><i>midianti</i><par n="tra__pr"/></e>
+    <e lm="salvu"><i>salvu</i><par n="tra__pr"/></e>
+    
     
     <e lm="nzin'a" r="LR"><p><l>nzin'</l><r>nzinu<b/></r></p><par n="conta__pr"/></e>
     <e lm="nzinu a"><i>nzinu<b/></i><par n="conta__pr"/></e>
@@ -2090,13 +2099,11 @@
 	<e lm="noltri a" r="LR"><p><l>noltri<b/></l><r>oltri<b/></r></p><par n="conta__pr"/></e>	
 	<e lm="pi quantu riguardu a"><i>pi<b/>quantu<b/>riguardu<b/></i><par n="conta__pr"/></e>
 	<e lm="quantu a"><i>quantu<b/></i><par n="conta__pr"/></e>
-	
 	<e lm="vicinu a"><i>vicinu<b/></i><par n="conta__pr"/></e>
 	<e lm="nzinu a"><i>nzinu<b/></i><par n="conta__pr"/></e>
 	<e lm="nzina a" r="LR"><p><l>nzina<b/></l><r>nzinu<b/></r></p><par n="conta__pr"/></e>
 	<e lm="sinu a" r="LR"><p><l>sinu<b/></l><r>nzinu<b/></r></p><par n="conta__pr"/></e>
 	<e lm="sina a" r="LR"><p><l>sina<b/></l><r>nzinu<b/></r></p><par n="conta__pr"/></e>
-	
 	<e lm="a causa di"><i>a<b/>causa<b/></i><par n="contdi__pr"/></e>
 	<e lm="a prupòsitu di"><i>a<b/>prupòsitu<b/></i><par n="contdi__pr"/></e>
 	<e lm="a rispettu di"><i>a<b/>rispettu<b/></i><par n="contdi__pr"/></e>
@@ -2104,11 +2111,15 @@
 	<e lm="luntanu di"><i>luntanu<b/></i><par n="contdi__pr"/></e>
 	<e lm="ncugnuntu di"><i>ncugnuntu<b/></i><par n="contdi__pr"/></e>
 	<e lm="mmeci di"><i>mmeci<b/></i><par n="contdi__pr"/></e>
-	<e lm="mmenzu di"><i>mmenzu<b/></i><par n="contdi__pr"/></e>
+	<e lm="pi mmenzu di"><i>pi<b/>mmenzu<b/></i><par n="contdi__pr"/></e>
+	<e lm="mmenzu di" r="LR"><p><l>mmenzu<b/></l><r>pi<b/>mmenzu<b/></r></p><par n="contdi__pr"/></e>
 	<e lm="pi via di"><i>pi<b/>via<b/></i><par n="contdi__pr"/></e>
 	<e lm="prima di"><i>prima<b/></i><par n="contdi__pr"/></e>
 	<e lm="sarvu di"><i>sarvu<b/></i><par n="contdi__pr"/></e>
 	<e lm="versu di"><i>versu<b/></i><par n="contdi__pr"/></e>
+	<e lm="a lu postu di"><i>a<b/>lu<b/>postu<b/></i><par n="contdi__pr"/></e>
+	<e lm="doppu di"><i>doppu<b/></i><par n="contdi__pr"/></e>
+	<e lm="distanti di"><i>distanti<b/></i><par n="contdi__pr"/></e>
 	
 	
     <!-- SECTION: Pronouns -->
