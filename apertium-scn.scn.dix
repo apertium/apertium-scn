@@ -8655,7 +8655,10 @@
     <e lm="pirchì" r="LR"><p><l>pirchì</l><r>picchì</r></p><par n="picchì__adv"/></e>
 
     <e lm="assai"><i>assai</i><par n="assai__preadv"/></e>
+    <e lm="assai" r="LR"><p><l>assà</l><r>assai</r></p><par n="assai__preadv"/></e>
     <e lm="assai"><i>assai</i><par n="oggi__adv"/></e>
+    <e lm="assai" r="LR"><p><l>assà</l><r>assai</r></p><par n="oggi__adv"/></e>
+    
 
     <e lm="quasi"><i>quasi</i><par n="assai__preadv"/></e>
 
@@ -8782,6 +8785,8 @@
     <e lm="aieri avanti"><i>aieri<b/>avanti</i><par n="oggi__adv"/></e>
     <e lm="aieri l'autru"><i>aieri<b/>l'autru</i><par n="oggi__adv"/></e>
     <e lm="aieri sira"><i>aieri<b/>sira</i><par n="oggi__adv"/></e>
+    <e lm="aieri sira" r="LR"><p><l>assira</l><r>aieri sira</r></p><par n="oggi__adv"/></e>
+    <e lm="aieri sira" r="LR"><p><l>arsira</l><r>aieri sira</r></p><par n="oggi__adv"/></e>
     <e lm="allura"><i>allura</i><par n="oggi__adv"/></e>
     <e lm="ancora" r="LR"><p><l>ancura</l><r>ancora</r></p><par n="oggi__adv"/></e>
     <e lm="di iornu"><i>di<b/>iornu</i><par n="oggi__adv"/></e>
@@ -8818,7 +8823,11 @@
     
     <e lm="accuddì"><i>accuddì</i><par n="oggi__adv"/></e>
     <e lm="accuddì" r="LR"><p><l>cuddì</l><r>accuddì</r></p><par n="oggi__adv"/></e>
-    <e lm="adaciu"><i>adaciu</i><par n="oggi__adv"/></e>
+    <e lm="araciu"><i>araciu</i><par n="oggi__adv"/></e>
+    <e lm="araciu" r="LR"><p><l>adaciu</l><r>araciu</r></p><par n="oggi__adv"/></e>
+    <e lm="araciu" r="LR"><p><l>adaggiu</l><r>araciu</r></p><par n="oggi__adv"/></e>
+    <e lm="araciu" r="LR"><p><l>adagiu</l><r>araciu</r></p><par n="oggi__adv"/></e>
+    
     <e lm="a l'improvissu"><i>a<b/>l'improvissu</i><par n="oggi__adv"/></e>
     <e lm="beni"><i>beni</i><par n="oggi__adv"/></e>
     <e lm="dirittu"><i>dirittu</i><par n="oggi__adv"/></e>
@@ -9027,6 +9036,8 @@
     <e lm="nfatti"><i>nfatti</i><par n="oggi__adv"/></e>
     <e lm="luntanu"><i>luntanu</i><par n="oggi__adv"/></e>
     <e lm="dunca"><i>dunca</i><par n="oggi__adv"/></e>
+    <e lm="dunca" r="LR"><p><l>addunca</l><r>dunca</r></p><par n="oggi__adv"/></e>
+    <e lm="dunca" r="LR"><p><l>dunchi</l><r>dunca</r></p><par n="oggi__adv"/></e>
     <e lm="pirò"><i>pirò</i><par n="oggi__adv"/></e>
     <e lm="però" r="LR"><p><l>però</l><r>pirò</r></p><par n="oggi__adv"/></e>
     <e lm="tannu"><i>tannu</i><par n="oggi__adv"/></e> <!-- CHEQUEAR -->
@@ -9101,13 +9112,33 @@
     <e lm="a l'antrasatta" r="LR"><p><l>â<b/>ntrasatta</l><r>a<b/>l'antrasatta</r></p><par n="oggi__adv"/></e>
     <e lm="a l'antrasatta" r="LR"><p><l>alla<b/>ntrasatta</l><r>a<b/>l'antrasatta</r></p><par n="oggi__adv"/></e>
     
-    <e lm="allatu"><i>a<b/>latu</i><par n="oggi__adv"/></e>
+    <e lm="allatu"><i>allatu</i><par n="oggi__adv"/></e>
     <e lm="allatu" r="LR"><p><l>a<b/>latu</l><r>allatu</r></p><par n="oggi__adv"/></e>
     
     <e lm="a li tanti"><i>a<b/>li<b/>tanti</i><par n="oggi__adv"/></e>
     <e lm="a nenti"><i>a<b/>nenti</i><par n="oggi__adv"/></e>
     <e lm="a nenti" r="LR"><p><l>annenti</l><r>a<b/>nenti</r></p><par n="oggi__adv"/></e>
+    <e lm="abbastanti"><i>abbastanti</i><par n="oggi__adv"/></e>
+    <e lm="abbastanti" r="LR"><p><l>bastanti</l><r>abbastanti</r></p><par n="oggi__adv"/></e>
+    <e lm="affacciu"><i>affacciu</i><par n="oggi__adv"/></e>
     
+    
+    
+    
+    <e lm="abbersu"><i>abbersu</i><par n="oggi__adv"/></e>
+    <e lm="alleggiu"><i>alleggiu</i><par n="oggi__adv"/></e>
+    <e lm="almenu"><i>almenu</i><par n="oggi__adv"/></e>
+    <e lm="annintra"><i>annintra</i><par n="oggi__adv"/></e>
+    <e lm="annintra" r="LR"><p><l>nnintra</l><r>annintra</r></p><par n="oggi__adv"/></e>
+    <e lm="attorna"><i>attorna</i><par n="oggi__adv"/></e>
+    <e lm="abbersu"><i>abbersu</i><par n="oggi__adv"/></e>
+    <e lm="abbastanti"><i>abbastanti</i><par n="oggi__adv"/></e>
+    <e lm="abbastanti"><i>abbastanti</i><par n="oggi__adv"/></e>
+    <e lm="abbastanti"><i>abbastanti</i><par n="oggi__adv"/></e>
+    <e lm="abbastanti"><i>abbastanti</i><par n="oggi__adv"/></e>
+    
+
+
 
     
         
