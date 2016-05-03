@@ -8767,6 +8767,11 @@
     <e lm="ddocu"><i>ddocu</i><par n="oggi__adv"/></e>
     <e lm="ddà"><i>ddà</i><par n="oggi__adv"/></e>
     <e lm="iusu"><i>iusu</i><par n="oggi__adv"/></e>
+    <e lm="iusu" r="LR"><p><l>gnusu</l><r>iusu</r></p><par n="oggi__adv"/></e>
+    <e lm="iusu" r="LR"><p><l>jusu</l><r>iusu</r></p><par n="oggi__adv"/></e>
+    <e lm="iusu" r="LR"><p><l>njusu</l><r>iusu</r></p><par n="oggi__adv"/></e>
+
+    
     <e lm="luntanu"><i>luntanu</i><par n="oggi__adv"/></e>
     <e lm="nni"><i>nni</i><par n="oggi__adv"/></e>
     <e lm="susu"><i>susu</i><par n="oggi__adv"/></e>
@@ -9100,10 +9105,6 @@
     <e lm="addritta" r="LR"><p><l>a<b/>la<b/>dritta</l><r>addritta</r></p><par n="oggi__adv"/></e>
     <e lm="addritta" r="LR"><p><l>aggritta</l><r>addritta</r></p><par n="oggi__adv"/></e>
     
-    <e lm="a ddì ddì"><i>a<b/>ddì<b/>ddì</i><par n="oggi__adv"/></e>
-    <e lm="a ddì ddì" r="LR"><p><l>diddì</l><r>a<b/>ddì<b/>ddì</r></p><par n="oggi__adv"/></e>
-    <e lm="a ddì ddì" r="LR"><p><l>addiddì</l><r>a<b/>ddì<b/>ddì</r></p><par n="oggi__adv"/></e>
-    <e lm="a ddì ddì" r="LR"><p><l>ddaddà</l><r>a<b/>ddì<b/>ddì</r></p><par n="oggi__adv"/></e>
     
     <e lm="a l'antrasatta"><i>a<b/>l'antrasatta</i><par n="oggi__adv"/></e>
     <e lm="a l'antrasatta" r="LR"><p><l>a<b/>la<b/>ntrasatta</l><r>a<b/>l'antrasatta</r></p><par n="oggi__adv"/></e>
@@ -9132,9 +9133,12 @@
     <e lm="annintra" r="LR"><p><l>nnintra</l><r>annintra</r></p><par n="oggi__adv"/></e>
     <e lm="attorna"><i>attorna</i><par n="oggi__adv"/></e>
     <e lm="abbersu"><i>abbersu</i><par n="oggi__adv"/></e>
-    <e lm="abbastanti"><i>abbastanti</i><par n="oggi__adv"/></e>
-    <e lm="abbastanti"><i>abbastanti</i><par n="oggi__adv"/></e>
-    <e lm="abbastanti"><i>abbastanti</i><par n="oggi__adv"/></e>
+    <e lm="chiassai"><i>chiassai</i><par n="oggi__adv"/></e>
+    <e lm="chiassai" r="LR"><p><l>chiossai</l><r>chiassai</r></p><par n="oggi__adv"/></e>
+    <e lm="chiassai" r="LR"><p><l>chiossà</l><r>chiassai</r></p><par n="oggi__adv"/></e>
+    <e lm="daveru"><i>daveru</i><par n="oggi__adv"/></e>
+    <e lm="daveru" r="LR"><p><l>davveru</l><r>daveru</r></p><par n="oggi__adv"/></e>
+    <e lm="fraci"><i>fraci</i><par n="oggi__adv"/></e>
     <e lm="abbastanti"><i>abbastanti</i><par n="oggi__adv"/></e>
     
 
