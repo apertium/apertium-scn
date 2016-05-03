@@ -8727,8 +8727,6 @@
     <e lm="accamora"><i>accamora</i><par n="oggi__adv"/></e>
     <e lm="menu"><i>menu</i><par n="oggi__adv"/></e>
     
-    <!-- NEW      -->
-
 	<e lm="a nuddabbanna"><i>a<b/>nuddabbanna</i><par n="oggi__adv"/></e>
     <e lm="abbasciu"><i>abbasciu</i><par n="oggi__adv"/></e>
     <e lm="pressu"><i>pressu</i><par n="oggi__adv"/></e>
@@ -8745,14 +8743,14 @@
     <e lm="darreri" r="LR"><p><l>darredu</l><r>darreri</r></p><par n="oggi__adv"/></e>
     <e lm="darreri" r="LR"><p><l>darretu</l><r>darreri</r></p><par n="oggi__adv"/></e>
     <e lm="darreri" r="LR"><p><l>darreru</l><r>darreri</r></p><par n="oggi__adv"/></e>
-    <e lm="darreri" r="LR"><p><l>d'arreri</l><r>darreri</r></p><par n="oggi__adv"/></e>
-    <e lm="darreri" r="LR"><p><l>d'arredi</l><r>darreri</r></p><par n="oggi__adv"/></e>
-    <e lm="darreri" r="LR"><p><l>d'arreti</l><r>darreri</r></p><par n="oggi__adv"/></e>
-    <e lm="darreri" r="LR"><p><l>d'arredu</l><r>darreri</r></p><par n="oggi__adv"/></e>
-    <e lm="darreri" r="LR"><p><l>d'arretu</l><r>darreri</r></p><par n="oggi__adv"/></e>
-    <e lm="darreri" r="LR"><p><l>d'arrer</l><r>darreri</r></p><par n="oggi__adv"/></e>
-    <e lm="darreri" r="LR"><p><l>d'arretè</l><r>darreri</r></p><par n="oggi__adv"/></e>
-    <e lm="darreri" r="LR"><p><l>darrè</l><r>darreri</r></p><par n="oggi__adv"/></e>
+    <e lm="d'arreri" r="LR"><p><l>d'arreri</l><r>d'arreri</r></p><par n="oggi__adv"/></e>
+    <e lm="d'arreri" r="LR"><p><l>d'arredi</l><r>d'arreri</r></p><par n="oggi__adv"/></e>
+    <e lm="d'arreri" r="LR"><p><l>d'arreti</l><r>d'arreri</r></p><par n="oggi__adv"/></e>
+    <e lm="d'arreri" r="LR"><p><l>d'arredu</l><r>d'arreri</r></p><par n="oggi__adv"/></e>
+    <e lm="d'arreri" r="LR"><p><l>d'arretu</l><r>d'arreri</r></p><par n="oggi__adv"/></e>
+    <e lm="d'arreri" r="LR"><p><l>d'arrer</l><r>d'arreri</r></p><par n="oggi__adv"/></e>
+    <e lm="d'arreri" r="LR"><p><l>d'arretè</l><r>d'arreri</r></p><par n="oggi__adv"/></e>
+    <e lm="d'arreri" r="LR"><p><l>darrè</l><r>d'arreri</r></p><par n="oggi__adv"/></e>
     <e lm="davanti"><i>davanti</i><par n="oggi__adv"/></e>
     <e lm="dintra"><i>dintra</i><par n="oggi__adv"/></e>
     <e lm="ddocu"><i>ddocu</i><par n="oggi__adv"/></e>
@@ -8836,7 +8834,11 @@
     <e lm="picca"><i>picca</i><par n="oggi__adv"/></e>
     <e lm="na pocu"><i>na<b/>pocu</i><par n="oggi__adv"/></e>
     <e lm="na pocu" r="LR"><p><l>na<b/>pocu</l><r>un<b/>pocu</r></p><par n="oggi__adv"/></e>
-    
+    <e lm="peggiu"><i>peggiu</i><par n="oggi__adv"/></e>
+    <e lm="peggiu" r="LR"><p><l>peiu</l><r>peggiu</r></p><par n="oggi__adv"/></e>
+    <e lm="minuri"><i>minuri</i><par n="oggi__adv"/></e>
+    <e lm="maiuri"><i>maiuri</i><par n="oggi__adv"/></e>
+    <e lm="maggiuri" r="LR"><p><l>maggiuri</l><r>maiuri</r></p><par n="oggi__adv"/></e>
     
     <e lm="attuarmenti"><i>riccamenti</i><par n="oggi__adv"/></e>
     <e lm="veramenti"><i>veramenti</i><par n="oggi__adv"/></e>
@@ -9000,6 +9002,7 @@
     <e lm="giograficamenti"><i>giograficamenti</i><par n="oggi__adv"/></e>
     <e lm="autumaticamenti"><i>autumaticamenti</i><par n="oggi__adv"/></e>
     <e lm="raramenti"><i>raramenti</i><par n="oggi__adv"/></e>
+    
 
 
     <e lm="tanticchia"><i>tanticchia</i><par n="oggi__adv"/></e>
