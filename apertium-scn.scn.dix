@@ -8667,11 +8667,12 @@
     <e lm="accussì"><i>accussì</i><par n="oggi__adv"/></e>
     <e lm="cussì" r="LR"><p><l>cussì</l><r>cussì</r></p><par n="oggi__adv"/></e>
     <e lm="nzèmmula"><i>nzèmmula</i><par n="oggi__adv"/></e>
+    <e lm="nzèmmula" r="LR"><p><l>nzemmula</l><r>nzèmmula</r></p><par n="oggi__adv"/></e>
     
     <e lm="tali"><i>tali</i><par n="assai__preadv"/></e>
 
 	<e lm="oggi"><i>oggi</i><par n="oggi__adv"/></e>
-    <e lm="ùoggi" r="LR"><p><l>ùoggi</l><r>oggi</r></p><par n="oggi__adv"/></e>
+    <e lm="oggi" r="LR"><p><l>ùoggi</l><r>oggi</r></p><par n="oggi__adv"/></e>
     <e lm="òi" r="LR"><p><l>òi</l><r>oggi</r></p><par n="oggi__adv"/></e>
 
     <e lm="mai"><i>mai</i><par n="oggi__adv"/></e>
@@ -8680,6 +8681,7 @@
     <e lm="circa"><i>circa</i><par n="oggi__adv"/></e>
     <e lm="troppu"><i>troppu</i><par n="oggi__adv"/></e>
     <e lm="macàri"><i>macàri</i><par n="oggi__adv"/></e>
+    <e lm="macari" r="LR"><p><l>macari</l><r>macàri</r></p><par n="oggi__adv"/></e>
     <e lm="arreri"><i>arreri</i><par n="oggi__adv"/></e>
     <e lm="allura"><i>allura</i><par n="oggi__adv"/></e>
     <e lm="videmma"><i>videmma</i><par n="oggi__adv"/></e>
@@ -8724,7 +8726,7 @@
 	<e lm="a nuddabbanna"><i>a<b/>nuddabbanna</i><par n="oggi__adv"/></e>
     <e lm="abbasciu"><i>abbasciu</i><par n="oggi__adv"/></e>
     <e lm="pressu"><i>pressu</i><par n="oggi__adv"/></e>
-    <e lm="apressu" r="LR"><p><l>apressu</l><r>pressu</r></p><par n="oggi__adv"/></e>
+    <e lm="pressu" r="LR"><p><l>apressu</l><r>pressu</r></p><par n="oggi__adv"/></e>
     <e lm="dappirtuttu"><i>dappirtuttu</i><par n="oggi__adv"/></e>
     <e lm="a tutti banni"><i>a<b/>tutti<b/>banni</i><par n="oggi__adv"/></e>
     <e lm="arrassu"><i>arrassu</i><par n="oggi__adv"/></e>
@@ -8732,9 +8734,9 @@
     <e lm="ccà"><i>ccà</i><par n="oggi__adv"/></e>
     <e lm="cci"><i>cci</i><par n="oggi__adv"/></e>
     <e lm="darreri"><i>darreri</i><par n="oggi__adv"/></e>
-    <e lm="darrè" r="LR"><p><l>arrè</l><r>darreri</r></p><par n="oggi__adv"/></e>
-    <e lm="arreri" r="LR"><p><l>arreri</l><r>darreri</r></p><par n="oggi__adv"/></e>
-    <e lm="arrè" r="LR"><p><l>arrè</l><r>darreri</r></p><par n="oggi__adv"/></e>
+    <e lm="darreri" r="LR"><p><l>arrè</l><r>darreri</r></p><par n="oggi__adv"/></e>
+    <e lm="darreri" r="LR"><p><l>arreri</l><r>darreri</r></p><par n="oggi__adv"/></e>
+    <e lm="darreri" r="LR"><p><l>arrè</l><r>darreri</r></p><par n="oggi__adv"/></e>
     <e lm="davanti"><i>davanti</i><par n="oggi__adv"/></e>
     <e lm="dintra"><i>dintra</i><par n="oggi__adv"/></e>
     <e lm="ddocu"><i>ddocu</i><par n="oggi__adv"/></e>
@@ -8748,15 +8750,13 @@
     <e lm="unni"><i>unni</i><par n="oggi__adv"/></e>
     <e lm="dunni" r="LR"><p><l>dunni</l><r>unni</r></p><par n="oggi__adv"/></e>
     <e lm="vicinu"><i>vicinu</i><par n="oggi__adv"/></e>
-    <e lm="camora" r="LR"><p><l>camora</l><r>accamora</r></p><par n="oggi__adv"/></e>
-    <e lm="accamodora" r="LR"><p><l>accamodora</l><r>accamora</r></p><par n="oggi__adv"/></e>
+    <e lm="accamora" r="LR"><p><l>camora</l><r>accamora</r></p><par n="oggi__adv"/></e>
     <e lm="a manu a manu"><i>a<b/>manu<b/>a<b/>manu</i><par n="oggi__adv"/></e>
     <e lm="aieri avanti"><i>aieri<b/>avanti</i><par n="oggi__adv"/></e>
     <e lm="aieri l'autru"><i>aieri<b/>l'autru</i><par n="oggi__adv"/></e>
     <e lm="aieri sira"><i>aieri<b/>sira</i><par n="oggi__adv"/></e>
     <e lm="allura"><i>allura</i><par n="oggi__adv"/></e>
-    <e lm="ancora"><i>ancora</i><par n="oggi__adv"/></e>
-    <e lm="ancura" r="LR"><p><l>ancura</l><r>ancora</r></p><par n="oggi__adv"/></e>
+    <e lm="ancora" r="LR"><p><l>ancura</l><r>ancora</r></p><par n="oggi__adv"/></e>
     <e lm="di iornu"><i>di<b/>iornu</i><par n="oggi__adv"/></e>
     <e lm="di notti"><i>di<b/>notti</i><par n="oggi__adv"/></e>
     <e lm="dumani"><i>dumani</i><par n="oggi__adv"/></e>
@@ -8790,17 +8790,17 @@
     <e lm="quannu tempu"><i>quannu<b/>tempu</i><par n="oggi__adv"/></e>
     
     <e lm="accuddì"><i>accuddì</i><par n="oggi__adv"/></e>
-    <e lm="cuddì" r="LR"><p><l>cuddì</l><r>accuddì</r></p><par n="oggi__adv"/></e>
+    <e lm="accuddì" r="LR"><p><l>cuddì</l><r>accuddì</r></p><par n="oggi__adv"/></e>
     <e lm="adaciu"><i>adaciu</i><par n="oggi__adv"/></e>
     <e lm="a l'improvissu"><i>a<b/>l'improvissu</i><par n="oggi__adv"/></e>
     <e lm="beni"><i>beni</i><par n="oggi__adv"/></e>
     <e lm="dirittu"><i>dirittu</i><par n="oggi__adv"/></e>
-    <e lm="drittu" r="LR"><p><l>drittu</l><r>dirittu</r></p><par n="oggi__adv"/></e>
-    <e lm="di prupositu"><i>di<b/>pruposity</i><par n="oggi__adv"/></e>
-    <e lm="di propositu" r="LR"><p><l>di<b/>propositu</l><r>di<b/>pruposity</r></p><par n="oggi__adv"/></e>
+    <e lm="dirittu" r="LR"><p><l>drittu</l><r>dirittu</r></p><par n="oggi__adv"/></e>
+    <e lm="di prupositu"><i>di<b/>prupositu</i><par n="oggi__adv"/></e>
+    <e lm="di prupositu" r="LR"><p><l>di<b/>propositu</l><r>di<b/>prupositu</r></p><par n="oggi__adv"/></e>
     <e lm="lestu"><i>lestu</i><par n="oggi__adv"/></e>
     <e lm="vasinnò"><i>vasinnò</i><par n="oggi__adv"/></e>
-    <e lm="masinnò" r="LR"><p><l>masinnò</l><r>vasinnò</r></p><par n="oggi__adv"/></e>
+    <e lm="vasinnò" r="LR"><p><l>masinnò</l><r>vasinnò</r></p><par n="oggi__adv"/></e>
     <e lm="mancu"><i>mancu</i><par n="oggi__adv"/></e>
     <e lm="nippuru"><i>nippuru</i><par n="oggi__adv"/></e>
     <e lm="nzemmula"><i>nzemmula</i><par n="oggi__adv"/></e>
@@ -8809,7 +8809,7 @@
     <e lm="mali"><i>mali</i><par n="oggi__adv"/></e>
     <e lm="ne già"><i>ne<b/>già</i><par n="oggi__adv"/></e>
     <e lm="propiu"><i>propiu</i><par n="oggi__adv"/></e>
-    <e lm="propriu" r="LR"><p><l>propriu</l><r>propiu</r></p><par n="oggi__adv"/></e>
+    <e lm="propiu" r="LR"><p><l>propriu</l><r>propiu</r></p><par n="oggi__adv"/></e>
     <e lm="puru"><i>puru</i><par n="oggi__adv"/></e>
     <e lm="quasi"><i>quasi</i><par n="oggi__adv"/></e>
     <e lm="veru"><i>veru</i><par n="oggi__adv"/></e>    
