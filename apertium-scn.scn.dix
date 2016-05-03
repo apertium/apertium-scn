@@ -8665,7 +8665,15 @@
     <e lm="ancora"><i>ancora</i><par n="oggi__adv"/></e>
     <e lm="arretu"><i>arretu</i><par n="oggi__adv"/></e>
     <e lm="accussì"><i>accussì</i><par n="oggi__adv"/></e>
-    <e lm="cussì" r="LR"><p><l>cussì</l><r>cussì</r></p><par n="oggi__adv"/></e>
+    <e lm="accussì" r="LR"><p><l>cussì</l><r>accussì</r></p><par n="oggi__adv"/></e>
+    <e lm="accussì" r="LR"><p><l>ccussì</l><r>accussì</r></p><par n="oggi__adv"/></e>
+    <e lm="accussì" r="LR"><p><l>accussini</l><r>accussì</r></p><par n="oggi__adv"/></e>
+    <e lm="accussì" r="LR"><p><l>cussini</l><r>accussì</r></p><par n="oggi__adv"/></e>
+    <e lm="accussì" r="LR"><p><l>cussini</l><r>accussì</r></p><par n="oggi__adv"/></e>
+    <e lm="accussì" r="LR"><p><l>a<b/>ccussì</l><r>accussì</r></p><par n="oggi__adv"/></e>
+    <e lm="accussì" r="LR"><p><l>a<b/>cussì</l><r>accussì</r></p><par n="oggi__adv"/></e>
+    
+    
     <e lm="nzèmmula"><i>nzèmmula</i><par n="oggi__adv"/></e>
     <e lm="nzèmmula" r="LR"><p><l>nzemmula</l><r>nzèmmula</r></p><par n="oggi__adv"/></e>
     
@@ -9054,15 +9062,15 @@
     <e lm="a babbalà"><i>a<b/>babbalà</i><par n="oggi__adv"/></e>
     <e lm="a babbalà" r="LR"><p><l>a<b/>gangalà</l><r>a<b/>babbalà</r></p><par n="oggi__adv"/></e>
     
-    <e lm="a bbizzeffa"><i>a<b/>bbizzeffa</i><par n="oggi__adv"/></e>
-    <e lm="a bbizzeffa" r="LR"><p><l>abizzeffi</l><r>a<b/>bbizzeffa</r></p><par n="oggi__adv"/></e>
-    <e lm="a bbizzeffa" r="LR"><p><l>abbizzeffi</l><r>a<b/>bbizzeffa</r></p><par n="oggi__adv"/></e>
-    <e lm="a bbizzeffa" r="LR"><p><l>a<b/>bizzeffi</l><r>a<b/>bbizzeffa</r></p><par n="oggi__adv"/></e>
-    <e lm="a bbizzeffa" r="LR"><p><l>a<b/>bizzeffa</l><r>a<b/>bbizzeffa</r></p><par n="oggi__adv"/></e>
-    <e lm="a bbizzeffa" r="LR"><p><l>a<b/>bbizzeffa</l><r>a<b/>bbizzeffa</r></p><par n="oggi__adv"/></e>
-    <e lm="a bbizzeffa" r="LR"><p><l>a<b/>bbuzzeffa</l><r>a<b/>bbizzeffa</r></p><par n="oggi__adv"/></e>
-    <e lm="a bbizzeffa" r="LR"><p><l>abbizzeffa</l><r>a<b/>bbizzeffa</r></p><par n="oggi__adv"/></e>
-    <e lm="a bbizzeffa" r="LR"><p><l>abbuzzeffa</l><r>a<b/>bbizzeffa</r></p><par n="oggi__adv"/></e>
+    <e lm="a bizzeffa"><i>a<b/>bbizzeffa</i><par n="oggi__adv"/></e>
+    <e lm="a bizzeffa" r="LR"><p><l>abizzeffi</l><r>a<b/>bbizzeffa</r></p><par n="oggi__adv"/></e>
+    <e lm="a bizzeffa" r="LR"><p><l>abbizzeffi</l><r>a<b/>bbizzeffa</r></p><par n="oggi__adv"/></e>
+    <e lm="a bizzeffa" r="LR"><p><l>a<b/>bizzeffi</l><r>a<b/>bbizzeffa</r></p><par n="oggi__adv"/></e>
+    <e lm="a bizzeffa" r="LR"><p><l>a<b/>bbizzeffa</l><r>a<b/>bbizzeffa</r></p><par n="oggi__adv"/></e>
+    <e lm="a bizzeffa" r="LR"><p><l>a<b/>buzzeffa</l><r>a<b/>bbizzeffa</r></p><par n="oggi__adv"/></e>
+    <e lm="a bizzeffa" r="LR"><p><l>a<b/>bbuzzeffa</l><r>a<b/>bbizzeffa</r></p><par n="oggi__adv"/></e>
+    <e lm="a bizzeffa" r="LR"><p><l>abbizzeffa</l><r>a<b/>bbizzeffa</r></p><par n="oggi__adv"/></e>
+    <e lm="a bizzeffa" r="LR"><p><l>abbuzzeffa</l><r>a<b/>bbizzeffa</r></p><par n="oggi__adv"/></e>
     
     <e lm="a cca banna"><i>a<b/>cca<b/>banna</i><par n="oggi__adv"/></e>
     <e lm="a cca banna" r="LR"><p><l>accabbanna</l><r>a<b/>cca<b/>banna</r></p><par n="oggi__adv"/></e>
@@ -9070,10 +9078,31 @@
     <e lm="a cca banna" r="LR"><p><l>accabanna</l><r>a<b/>cca<b/>banna</r></p><par n="oggi__adv"/></e>
     <e lm="a cca banna" r="LR"><p><l>ccabanna</l><r>a<b/>cca<b/>banna</r></p><par n="oggi__adv"/></e>
     
+    <e lm="a dda banna"><i>a<b/>dda<b/>banna</i><par n="oggi__adv"/></e>
+    <e lm="a dda banna" r="LR"><p><l>addabbanna</l><r>a<b/>cca<b/>banna</r></p><par n="oggi__adv"/></e>
+    <e lm="a dda banna" r="LR"><p><l>a<b/>dda<b/>bbanna</l><r>a<b/>cca<b/>banna</r></p><par n="oggi__adv"/></e>
+    <e lm="a dda banna" r="LR"><p><l>addabanna</l><r>a<b/>cca<b/>banna</r></p><par n="oggi__adv"/></e>
+    <e lm="a dda banna" r="LR"><p><l>ddabanna</l><r>a<b/>cca<b/>banna</r></p><par n="oggi__adv"/></e>
     
-
+    <e lm="addritta"><i>addritta</i><par n="oggi__adv"/></e>
+    <e lm="addritta" r="LR"><p><l>a<b/>ddritta</l><r>addritta</r></p><par n="oggi__adv"/></e>
+    <e lm="addritta" r="LR"><p><l>a<b/>la<b/>dritta</l><r>addritta</r></p><par n="oggi__adv"/></e>
+    <e lm="addritta" r="LR"><p><l>aggritta</l><r>addritta</r></p><par n="oggi__adv"/></e>
+    
+    <e lm="a ddì ddì"><i>a<b/>ddì<b/>ddì</i><par n="oggi__adv"/></e>
+    <e lm="a ddì ddì" r="LR"><p><l>diddì</l><r>a<b/>ddì<b/>ddì</r></p><par n="oggi__adv"/></e>
+    <e lm="a ddì ddì" r="LR"><p><l>addiddì</l><r>a<b/>ddì<b/>ddì</r></p><par n="oggi__adv"/></e>
+    <e lm="a ddì ddì" r="LR"><p><l>ddaddà</l><r>a<b/>ddì<b/>ddì</r></p><par n="oggi__adv"/></e>
+    
+    <e lm="a l'antrasatta"><i>a<b/>l'antrasatta</i><par n="oggi__adv"/></e>
+    <e lm="a l'antrasatta" r="LR"><p><l>a<b/>la<b/>ntrasatta</l><r>a<b/>l'antrasatta</r></p><par n="oggi__adv"/></e>
+    <e lm="a l'antrasatta" r="LR"><p><l>antrasatta</l><r>a<b/>l'antrasatta</r></p><par n="oggi__adv"/></e>
+    <e lm="a l'antrasatta" r="LR"><p><l>ntrasattu</l><r>a<b/>l'antrasatta</r></p><par n="oggi__adv"/></e>
+    <e lm="a l'antrasatta" r="LR"><p><l>â<b/>ntrasatta</l><r>a<b/>l'antrasatta</r></p><par n="oggi__adv"/></e>
+    <e lm="a l'antrasatta" r="LR"><p><l>alla<b/>ntrasatta</l><r>a<b/>l'antrasatta</r></p><par n="oggi__adv"/></e>
     
     
+        
     <e lm="a.C."><i>a.C.</i><par n="a.C.__adv"/></e>
     <e lm="d.C."><i>d.C.</i><par n="a.C.__adv"/></e>
     <e lm="ecc."><i>ecc.</i><par n="a.C.__adv"/></e>
