@@ -2010,7 +2010,25 @@
     <e lm="nè"><i>nè</i><par n="nè__cnjcoo"/></e>
     <e lm="nì" r="LR"><p><l>nì</l><r>nè</r></p><par n="nè__cnjcoo"/></e>
     <e lm="né" r="LR"><p><l>né</l><r>nè</r></p><par n="nè__cnjcoo"/></e>
-
+    
+    <e lm="a menu chi"><i>menu<b/>chi</i><par n="picchì__cnjadv"/></e>
+    <e lm="menu chi" r="LR"><p><l>a<b/>menu<b/>chi</l><r>menu<b/>chi</r></p><par n="picchì__cnjadv"/></e>
+    <e lm="a patu chi"><i>a<b/>patu<b/>chi</i><par n="picchì__cnjadv"/></e>
+    <e lm="ancorchì"><i>ancorchì</i><par n="picchì__cnjadv"/></e>
+    <e lm="binchì"><i>ancorchì</i><par n="picchì__cnjadv"/></e>
+    <e lm="comu"><i>comu</i><par n="picchì__cnjadv"/></e>
+    <e lm="cu tuttu chi"><i>cu<b/>tuttu<b/>chi</i><par n="picchì__cnjadv"/></e>
+    <e lm="datu chi"><i>datu<b/>chi</i><par n="picchì__cnjadv"/></e>
+    <e lm="doppu chi"><i>doppu<b/>chi</i><par n="picchì__cnjadv"/></e>
+    <e lm="eccettu chi non"><i>eccettu<b/>chi<b/>non</i><par n="picchì__cnjadv"/></e>
+    <e lm="finu chi"><i>finu<b/>chi</i><par n="picchì__cnjadv"/></e>
+    <e lm="fina chi" r="LR"><p><l>fina<b/>chi</l><r>finu<b/>chi</r></p><par n="picchì__cnjadv"/></e>
+    <e lm="sinu chi" r="LR"><p><l>sinu<b/>chi</l><r>finu<b/>chi</r></p><par n="picchì__cnjadv"/></e>
+    <e lm="sina chi" r="LR"><p><l>sina<b/>chi</l><r>finu<b/>chi</r></p><par n="picchì__cnjadv"/></e>
+    <e lm="giacchì"><i>giacchì</i><par n="picchì__cnjadv"/></e>
+    <e lm="nnô modu chi"><i>nnô<b/>modu<b/>chi</i><par n="picchì__cnjadv"/></e>
+    <e lm="n modu chi" r="LR"><p><l>n<b/>modu<b/>chi</l><r>nnô<b/>modu<b/>chi</r></p><par n="picchì__cnjadv"/></e>
+    
 
     <!-- SECTION: Prepositions -->
 
@@ -2064,8 +2082,6 @@
     <e lm="n quantu"><i>n<b/>quantu</i><par n="tra__pr"/></e>
     <e lm="'n quantu" r="LR"><p><l>'n<b/>quantu</l><r>n<b/>quantu<b/></r></p><par n="tra__pr"/></e>
     
-    
-    
     <e lm="nzin'a" r="LR"><p><l>nzin'</l><r>nzinu<b/></r></p><par n="conta__pr"/></e>
     <e lm="nzinu a"><i>nzinu<b/></i><par n="conta__pr"/></e>
     <e lm="attornu a"><i>attornu<b/></i><par n="conta__pr"/></e>
@@ -2089,15 +2105,16 @@
     
     <e lm="accantu a"><i>accantu<b/></i><par n="conta__pr"/></e>   
     <e lm="allatu a"><i>allatu<b/></i><par n="conta__pr"/></e>
-    <e lm="apressu a"><i>apressu<b/></i><par n="conta__pr"/></e>  
+    <e lm="appressu a"><i>appressu<b/></i><par n="conta__pr"/></e>  
 	<e lm="avanti a"><i>avanzi<b/></i><par n="conta__pr"/></e>  
 	<e lm="finu a"><i>finu<b/></i><par n="conta__pr"/></e>
 	<e lm="affina a" r="LR"><p><l>affina</l><r>finu<b/></r></p><par n="conta__pr"/></e>
 	<e lm="fina a" r="LR"><p><l>fina</l><r>finu<b/></r></p><par n="conta__pr"/></e>	
-	<e lm="iuntu a"><i>iuntu<b/></i><par n="conta__pr"/></e>
+	<e lm="juntu a"><i>juntu<b/></i><par n="conta__pr"/></e>
+	<e lm="iuntu a" r="LR"><p><l>iuntu</l><r>juntu<b/></r></p><par n="conta__pr"/></e>	
 	<e lm="nfacci a"><i>nfacci<b/></i><par n="conta__pr"/></e>
 	<e lm="ntornu a"><i>ntornu<b/></i><par n="conta__pr"/></e>
-	<e lm="ntunnu a"><i>ntunnu<b/></i><par n="conta__pr"/></e>
+	<e lm="ntunnu a" r="LR"><p><l>ntunnu<b/></l><r>oltri<b/></r></p><par n="conta__pr"/></e>
 	<e lm="ntunnu ntunnu a"><i>ntunnu<b/>ntunnu<b/></i><par n="conta__pr"/></e>
 	<e lm="ntornu ntornu a"><i>ntornu<b/>ntornu<b/></i><par n="conta__pr"/></e>
 	<e lm="oltri a"><i>oltri<b/></i><par n="conta__pr"/></e>
@@ -2125,7 +2142,6 @@
 	<e lm="a lu postu di"><i>a<b/>lu<b/>postu<b/></i><par n="contdi__pr"/></e>
 	<e lm="doppu di"><i>doppu<b/></i><par n="contdi__pr"/></e>
 	<e lm="distanti di"><i>distanti<b/></i><par n="contdi__pr"/></e>
-	
 	
 	
 	
