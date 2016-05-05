@@ -3365,7 +3365,8 @@
     <e lm="frussu" r="LR"><p><l>fruss</l><r>fluss</r></p><par n="ann/u__n"/></e>
     
     <e lm="bisognu"><i>bisogn</i><par n="ann/u__n"/></e>
-    <e lm="culligamenti"><i>culligamenti</i><par n="ann/u__n"/></e>
+    <e lm="culligamentu"><i>culligament</i><par n="ann/u__n"/></e>
+    <e lm="ligamentu"><i>ligament</i><par n="ann/u__n"/></e>
 
     <e lm="amu"><i>am</i><par n="ann/u__n"/></e>
     <e lm="ancilu"><i>ancil</i><par n="ann/u__n"/></e>
@@ -4527,6 +4528,14 @@
     <e lm="urnamentu"><i>urnament</i><par n="ann/u__n"/></e>
     <e lm="nsidiamentu"><i>nsidiament</i><par n="ann/u__n"/></e>
     <e lm="pajamentu"><i>pajament</i><par n="ann/u__n"/></e>
+    <e lm="mutamentu"><i>mutament</i><par n="ann/u__n"/></e>
+    <e lm="ritrovamentu"><i>ritrovament</i><par n="ann/u__n"/></e>
+    <e lm="rigulamentu"><i>rigulament</i><par n="ann/u__n"/></e>
+    <e lm="riculament" r="LR"><p><l>riculamen</l><r>rigulament</r></p><par n="ann/u__n"/></e>
+    
+    
+    
+    
     
 
     <e lm="attu"><i>att</i><par n="ann/u__n"/></e>
@@ -9234,9 +9243,7 @@
     <e lm="anchiamenti"><i>anchiamenti</i><par n="oggi__adv"/></e>
     <e lm="prettamenti"><i>prettamenti</i><par n="oggi__adv"/></e>
     <e lm="architittonicamenti"><i>architittonicamenti</i><par n="oggi__adv"/></e>
-    <e lm="rigulamenti"><i>rigulamenti</i><par n="oggi__adv"/></e>
     <e lm="chirurgicamenti"><i>chirurgicamenti</i><par n="oggi__adv"/></e>
-    <e lm="grettamenti"><i>grettamenti</i><par n="oggi__adv"/></e>
     <e lm="figurativamenti"><i>figurativamenti</i><par n="oggi__adv"/></e>
     <e lm="aggiustamenti"><i>aggiustamenti</i><par n="oggi__adv"/></e>
     <e lm="indirittamenti"><i>indirittamenti</i><par n="oggi__adv"/></e>
@@ -9244,13 +9251,13 @@
     <e lm="denzamenti"><i>denzamenti</i><par n="oggi__adv"/></e>
     <e lm="densamenti" r="LR"><p><l>densamenti</l><r>denzamenti</r></p><par n="oggi__adv"/></e>
     <e lm="traggicamenti"><i>traggicamenti</i><par n="oggi__adv"/></e>
-    <e lm="gradatamenti"><i>gradatamenti</i><par n="oggi__adv"/></e>
     <e lm="cumpretamenti"><i>cumpretamenti</i><par n="oggi__adv"/></e>
     <e lm="effettivamenti"><i>effettivamenti</i><par n="oggi__adv"/></e>
     <e lm="scarsamenti"><i>scarsamenti</i><par n="oggi__adv"/></e>
     <e lm="pusitivamenti"><i>pusitivamenti</i><par n="oggi__adv"/></e>
     <e lm="positivamenti" r="LR"><p><l>positivamenti</l><r>pusitivamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="pruntamenti"><i>pruntamenti</i><par n="oggi__adv"/></e>
+    <e lm="prontamenti"><i>prontamenti</i><par n="oggi__adv"/></e>
+    <e lm="pruntamenti" r="LR"><p><l>pruntamenti</l><r>prontamenti</r></p><par n="oggi__adv"/></e>
     <e lm="basamenti"><i>basamenti</i><par n="oggi__adv"/></e>
     <e lm="gratuitamenti"><i>gratuitamenti</i><par n="oggi__adv"/></e>
     <e lm="pruvvisuriamenti"><i>pruvvisuriamenti</i><par n="oggi__adv"/></e>
@@ -9294,23 +9301,17 @@
     <e lm="nteramenti" r="LR"><p><l>nteramenti</l><r>ntiramenti</r></p><par n="oggi__adv"/></e>
 
     <e lm="seriamenti"><i>seriamenti</i><par n="oggi__adv"/></e>
-    <e lm="l'urdinamenti"><i>l'urdinamenti</i><par n="oggi__adv"/></e>
     <e lm="siriamenti"><i>siriamenti</i><par n="oggi__adv"/></e>
     <e lm="chinamenti"><i>chinamenti</i><par n="oggi__adv"/></e>
     <e lm="unitamenti"><i>unitamenti</i><par n="oggi__adv"/></e>
     <e lm="mpruvvisamenti"><i>mpruvvisamenti</i><par n="oggi__adv"/></e>
     <e lm="dirittamenti"><i>dirittamenti</i><par n="oggi__adv"/></e>
-    <e lm="ndubbiamenti"><i>ndubbiamenti</i><par n="oggi__adv"/></e>
     <e lm="lintamenti" r="LR"><p><l>lintamenti</l><r>lentamenti</r></p><par n="oggi__adv"/></e>
     <e lm="succisivamenti"><i>succisivamenti</i><par n="oggi__adv"/></e>
     <e lm="giugraficamenti"><i>giugraficamenti</i><par n="oggi__adv"/></e>
-    <e lm="assiduamenti"><i>assiduamenti</i><par n="oggi__adv"/></e>
-    <e lm="l'arrangiamenti"><i>l'arrangiamenti</i><par n="oggi__adv"/></e>
     <e lm="ruinusamenti"><i>ruinusamenti</i><par n="oggi__adv"/></e>
-    <e lm="ligamenti"><i>ligamenti</i><par n="oggi__adv"/></e>
     <e lm="siparatamenti"><i>siparatamenti</i><par n="oggi__adv"/></e>
     <e lm="mutamenti"><i>mutamenti</i><par n="oggi__adv"/></e>
-    <e lm="ritrovamenti"><i>ritrovamenti</i><par n="oggi__adv"/></e>
     <e lm="scintificamenti"><i>scintificamenti</i><par n="oggi__adv"/></e>
     <e lm="unanimamenti"><i>unanimamenti</i><par n="oggi__adv"/></e>
     <e lm="pratticamenti"><i>pratticamenti</i><par n="oggi__adv"/></e>
@@ -9323,7 +9324,6 @@
     <e lm="midiamenti"><i>midiamenti</i><par n="oggi__adv"/></e>
     <e lm="summariamenti"><i>summariamenti</i><par n="oggi__adv"/></e>
     <e lm="finanziamenti"><i>finanziamenti</i><par n="oggi__adv"/></e>
-    <e lm="fisteggiamenti"><i>fisteggiamenti</i><par n="oggi__adv"/></e>
     <e lm="algebbricamenti"><i>algebbricamenti</i><par n="oggi__adv"/></e>
     <e lm="ininterrottamenti"><i>ininterrottamenti</i><par n="oggi__adv"/></e>
     <e lm="vagamenti"><i>vagamenti</i><par n="oggi__adv"/></e>
