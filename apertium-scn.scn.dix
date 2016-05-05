@@ -534,6 +534,24 @@
     <pardef n="foc/u__n">
       	<e><p><l>u</l><r>u<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       	<e><p><l>u</l><r>a<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+      	<e r="LR"><p><l>i</l><r>a<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+    </pardef>
+    
+    <pardef n="corp/u__n">
+      	<e><p><l>u</l><r>u<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+      	<e><p><l>u</l><r>ura<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+      	<e r="LR"><p><l>i</l><r>ura<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+    </pardef>
+    
+    <pardef n="ioc/u__n">
+      	<e><p><l>u</l><r>u<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+      	<e><p><l>u</l><r>ura<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+      	<e r="LR"><p><l>hi</l><r>ura<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+    </pardef>
+    
+    <pardef n="liun/i__n">
+      	<e><p><l>i</l><r>i<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+      	<e><p><l>i</l><r>a<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
 
     <pardef n="sud__n">
@@ -559,6 +577,11 @@
     <pardef n="tirritori/u__n">
       	<e><p><l>u</l><r>u<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       	<e><p><l></l><r>u<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+    </pardef>
+    
+    <pardef n="om/u__n">
+      	<e><p><l>u</l><r>u<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+      	<e><p><l>ini</l><r>u<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
 
     <pardef n="t/empu__n">
@@ -2628,7 +2651,6 @@
     <e lm="nùmmuru"><i>nùmmur</i><par n="ann/u__n"/></e>
     <e lm="nùmmaru" r="LR"><p><l>nùmmar</l><r>nùmmur</r></p><par n="ann/u__n"/></e>
     <e lm="nùmmiru" r="LR"><p><l>nùmmir</l><r>nùmmur</r></p><par n="ann/u__n"/></e>
-    <e lm="omu"><i>om</i><par n="ann/u__n"/></e>
     <e lm="palazzu"><i>palazz</i><par n="ann/u__n"/></e>
     <e lm="partitu"><i>partit</i><par n="ann/u__n"/></e>
     <e lm="passaggiu"><i>passaggi</i><par n="tirritori/u__n"/></e>
@@ -2981,11 +3003,27 @@
 	<e lm="scarparu"><i>scarpar</i><par n="foc/u__n"/></e>
 	<e lm="sularu"><i>sular</i><par n="foc/u__n"/></e>
 	<e lm="tabbaccaru"><i>tabbaccar</i><par n="foc/u__n"/></e>
-	<e lm="paggghiaru"><i>paggghiar</i><par n="foc/u__n"/></e>
+	<e lm="baruni"><i>barun</i><par n="liun/i__n"/></e>
+	<e lm="liuni"><i>liun</i><par n="liun/i__n"/></e>
+	<e lm="patruni"><i>patruna</i><par n="liun/i__n"/></e>
+	<e lm="scagghiuni"><i>scagghiun</i><par n="liun/i__n"/></e>
+	<e lm="scaluni"><i>scalun</i><par n="liun/i__n"/></e>
+	<e lm="turruni"><i>turrun</i><par n="liun/i__n"/></e>
+	<e lm="vasuni"><i>vasun</i><par n="liun/i__n"/></e>
+	<e lm="vastuni"><i>vastun</i><par n="liun/i__n"/></e>
+	<e lm="cumpusituri"><i>cumpusitur</i><par n="liun/i__n"/></e>
+	<e lm="dutturi"><i>duttur</i><par n="liun/i__n"/></e>
+	<e lm="prufissuri"><i>prufissur</i><par n="liun/i__n"/></e>
+	<e lm="tradituri"><i>traditur</i><par n="liun/i__n"/></e>
+	<e lm="piccaturi"><i>piccatur</i><par n="liun/i__n"/></e>
+	
+	<e lm="iocu"><i>ioc</i><par n="ioc/u__n"/></e>
+	<e lm="vosc"><i>vosc</i><par n="ioc/u__n"/></e>
+	<e lm="corpu"><i>corp</i><par n="corp/u__n"/></e>
+	<e lm="omu"><i>om</i><par n="om/u__n"/></e>
 	
 	
 	
-
 
     <e lm="accilirazzioni"><i>acciliraz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="addizzioni"><i>addiz</i><par n="pupulaz/zioni__n"/></e>
@@ -3957,7 +3995,6 @@
     <e lm="carni"><i>carni</i><par n="matri__n"/></e>
     <e lm="manciuni"><i>manciuni</i><par n="matri__n"/></e>
     <e lm="raggiuni"><i>raggiuni</i><par n="matri__n"/></e>
-    <e lm="baruni"><i>baruni</i><par n="matri__n"/></e>
     <e lm="viviruni"><i>viviruni</i><par n="matri__n"/></e>
     <e lm="patruni"><i>patruni</i><par n="matri__n"/></e>
     <e lm="babbasuni"><i>babbasuni</i><par n="matri__n"/></e>
@@ -4063,7 +4100,6 @@
     <e lm="agnuni"><i>agnuni</i><par n="patri__n"/></e>
     <e lm="sapuni"><i>sapuni</i><par n="patri__n"/></e>
     <e lm="giappuni"><i>giappuni</i><par n="patri__n"/></e>
-    <e lm="baruni"><i>baruni</i><par n="patri__n"/></e>
     <e lm="patruni"><i>patruni</i><par n="patri__n"/></e>
     <e lm="elettrùni"><i>elettrùni</i><par n="patri__n"/></e>
     <e lm="cuttuni"><i>cuttuni</i><par n="patri__n"/></e>
