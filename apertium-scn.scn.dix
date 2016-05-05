@@ -2707,11 +2707,7 @@
     <e lm="disegnu"><i>disegn</i><par n="ann/u__n"/></e>
     <e lm="costu"><i>cost</i><par n="ann/u__n"/></e>
     <e lm="bordu"><i>bord</i><par n="ann/u__n"/></e>
-    
-    
-    
-    
-    
+
      
 
     <e lm="antichitati"><i>antichit</i><par n="cit/ati__n"/></e>
@@ -3022,8 +3018,6 @@
 	<e lm="corpu"><i>corp</i><par n="corp/u__n"/></e>
 	<e lm="omu"><i>om</i><par n="om/u__n"/></e>
 	
-	
-	
 
     <e lm="accilirazzioni"><i>acciliraz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="addizzioni"><i>addiz</i><par n="pupulaz/zioni__n"/></e>
@@ -3152,7 +3146,6 @@
     <e lm="aricchiu"><i>aricchi</i><par n="tirritori/u__n"/></e>
     <e lm="marmocchiu"><i>marmocchi</i><par n="tirritori/u__n"/></e>
     <e lm="dinocchiu"><i>dinocchi</i><par n="tirritori/u__n"/></e>
-    <e lm="migghiu"><i>migghi</i><par n="tirritori/u__n"/></e>
     <e lm="navigghiu"><i>navigghi</i><par n="tirritori/u__n"/></e>
     <e lm="èliu"><i>èli</i><par n="tirritori/u__n"/></e>
     <e lm="pitròliu"><i>pitròli</i><par n="tirritori/u__n"/></e>
@@ -3194,7 +3187,6 @@
     <e lm="giuiellu"><i>giuiell</i><par n="ann/u__n"/></e>
     <e lm="cartellu"><i>cartell</i><par n="ann/u__n"/></e>
     <e lm="bullu"><i>bull</i><par n="ann/u__n"/></e>
-    <e lm="linzolu"><i>linzol</i><par n="ann/u__n"/></e>
     <e lm="pirìculu"><i>pirìcul</i><par n="ann/u__n"/></e>
     <e lm="culu"><i>cul</i><par n="ann/u__n"/></e>
     <e lm="triànculu"><i>triàncul</i><par n="ann/u__n"/></e>
@@ -3347,7 +3339,6 @@
     <e lm="idrucarburu"><i>idrucarbur</i><par n="ann/u__n"/></e>
     <e lm="scuru"><i>scur</i><par n="ann/u__n"/></e>
     <e lm="euru"><i>eur</i><par n="ann/u__n"/></e>
-    <e lm="muru"><i>mur</i><par n="ann/u__n"/></e>
     <e lm="tammuru"><i>tammur</i><par n="ann/u__n"/></e>
     <e lm="vuturu"><i>vutur</i><par n="ann/u__n"/></e>
     <e lm="nasu"><i>nas</i><par n="ann/u__n"/></e>
@@ -4262,7 +4253,6 @@
     <e lm="alimagnu"><i>alimagn</i><par n="ann/u__n"/></e>
     <e lm="màssimu"><i>màssim</i><par n="ann/u__n"/></e>
     <e lm="mètudu"><i>mètud</i><par n="ann/u__n"/></e>
-    <e lm="paru"><i>par</i><par n="ann/u__n"/></e>
     <e lm="vucabbulariu"><i>vucabbulari</i><par n="ann/u__n"/></e>
     <e lm="punta"><i>punt</i><par n="cas/a__n"/></e>
     <e lm="idioma"><i>idiom</i><par n="pianet/a__n"/></e>
@@ -9043,7 +9033,7 @@
     <e lm="na pocu"><i>na<b/>pocu</i><par n="oggi__adv"/></e>
     <e lm="na pocu" r="LR"><p><l>un<b/>pocu</l><r>na<b/>pocu</r></p><par n="oggi__adv"/></e>
     
-    <e lm="attuarmenti"><i>riccamenti</i><par n="oggi__adv"/></e>
+    <e lm="attuarmenti"><i>attuarmenti</i><par n="oggi__adv"/></e>
     <e lm="veramenti"><i>veramenti</i><par n="oggi__adv"/></e>
     <e lm="chiaramenti"><i>chiaramenti</i><par n="oggi__adv"/></e>
     <e lm="popularmenti"><i>popularmenti</i><par n="oggi__adv"/></e>
@@ -9206,6 +9196,22 @@
     <e lm="autumaticamenti"><i>autumaticamenti</i><par n="oggi__adv"/></e>
     <e lm="raramenti"><i>raramenti</i><par n="oggi__adv"/></e>
     
+    <e lm="bruscamenti"><i>bruscamenti</i><par n="oggi__adv"/></e>
+    <e lm="umanamenti"><i>umanamenti</i><par n="oggi__adv"/></e>
+    <e lm="unitariamenti"><i>unitariamenti</i><par n="oggi__adv"/></e>
+    <e lm="mutuamenti"><i>mutuamenti</i><par n="oggi__adv"/></e>
+    <e lm="primariamenti"><i>primariamenti</i><par n="oggi__adv"/></e>
+    <e lm="necessariamenti"><i>necessariamenti</i><par n="oggi__adv"/></e>
+    <e lm="ampliamenti"><i>ampliamenti</i><par n="oggi__adv"/></e>
+    <e lm="pruggrissivamenti"><i>pruggrissivamenti</i><par n="oggi__adv"/></e>
+    <e lm="riligiosamenti"><i>riligiosamenti</i><par n="oggi__adv"/></e>
+    <e lm="malamenti"><i>malamenti</i><par n="oggi__adv"/></e>
+    <e lm="iffitivamenti"><i>iffitivamenti</i><par n="oggi__adv"/></e>
+    <e lm="impropriamenti"><i>impropriamenti</i><par n="oggi__adv"/></e>
+    <e lm="ngiustamenti"><i>ngiustamenti</i><par n="oggi__adv"/></e>
+    <e lm="invirsamenti"><i>invirsamenti</i><par n="oggi__adv"/></e>
+    <e lm="simanticamenti"><i>simanticamenti</i><par n="oggi__adv"/></e>
+    <e lm="intimamenti"><i>intimamenti</i><par n="oggi__adv"/></e>
 
 
     <e lm="tanticchia"><i>tanticchia</i><par n="oggi__adv"/></e>
