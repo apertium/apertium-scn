@@ -4377,6 +4377,7 @@
     <e lm="cilibbrazzioni"><i>cilibbraz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="circulazzioni"><i>circulaz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="culunizzazzioni"><i>culunizzaz</i><par n="pupulaz/zioni__n"/></e>
+    <e lm="diculunizzazzioni"><i>diculunizzaz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="evuluzzioni"><i>evuluz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="evoluzzioni" r="LR"><p><l>evoluz</l><r>evuluz</r></p><par n="pupulaz/zioni__n"/></e>
     <e lm="abbitazzioni"><i>abbitaz</i><par n="pupulaz/zioni__n"/></e>
@@ -4629,7 +4630,8 @@
     <e lm="rigulamentu"><i>rigulament</i><par n="ann/u__n"/></e>
     <e lm="riculament" r="LR"><p><l>riculamen</l><r>rigulament</r></p><par n="ann/u__n"/></e>
     <e lm="migghiuramentu"><i>migghiurament</i><par n="ann/u__n"/></e>
-    
+    <e lm="cammiamentu"><i>cammiament</i><par n="ann/u__n"/></e>
+    <e lm="cambiamentu" r="LR"><p><l>cambiament</l><r>cammiament</r></p><par n="ann/u__n"/></e>
     
     
     
@@ -4637,6 +4639,13 @@
 
     <e lm="attu"><i>att</i><par n="ann/u__n"/></e>
     <e lm="donu"><i>don</i><par n="ann/u__n"/></e>
+    <e lm="declinu"><i>declin</i><par n="ann/u__n"/></e>
+    <e lm="ndivìduu"><i>ndivìdu</i><par n="ann/u__n"/></e>
+    <e lm="ndividuu" r="LR"><p><l>ndividu</l><r>ndivìdu</r></p><par n="ann/u__n"/></e>
+    <e lm="nnivìduu" r="LR"><p><l>nnivìdu</l><r>ndivìdu</r></p><par n="ann/u__n"/></e>
+    <e lm="indivìduu" r="LR"><p><l>indivìduu</l><r>ndivìdu</r></p><par n="ann/u__n"/></e>
+    
+    
     
     <e lm="niputi"><i>niputi</i><par n="patri__n"/></e>
     <e lm="cunzunanti"><i>cunzunanti</i><par n="patri__n"/></e>
@@ -8384,7 +8393,9 @@
     <e lm="munniali"><i>munniali</i><par n="duci__adj"/></e>
     <e lm="piacèvuli"><i>piacèvuli</i><par n="duci__adj"/></e>
     <e lm="suvièticu"><i>suviètic</i><par n="magnètic/u__adj"/></e>
+    <e lm="antisuvièticu"><i>antisuviètic</i><par n="magnètic/u__adj"/></e>
     <e lm="sovièticu" r="LR"><p><l>soviètic</l><r>suviètic</r></p><par n="bedd/u__adj"/></e>
+    <e lm="antisovièticu" r="LR"><p><l>antisoviètic</l><r>antisuviètic</r></p><par n="bedd/u__adj"/></e>
     <e lm="mezzu"><i>mezz</i><par n="bedd/u__adj"/></e>
     <e lm="spagnolu"><i>spagnol</i><par n="bedd/u__adj"/></e>
     <e lm="mudernu"><i>mudern</i><par n="bedd/u__adj"/></e>
@@ -8439,7 +8450,6 @@
     <e lm="putenti"><i>putenti</i><par n="duci__adj"/></e>
     <e lm="caoticu"><i>caotic</i><par n="magnètic/u__adj"/></e>
     <e lm="assenti"><i>assenti</i><par n="duci__adj"/></e>
-    <e lm="bumbardamenti"><i>bumbardamenti</i><par n="duci__adj"/></e>
     <e lm="armamenti"><i>armamenti</i><par n="duci__adj"/></e>
 
 
@@ -9290,18 +9300,14 @@
     <e lm="decisamenti"><i>dicisamenti</i><par n="oggi__adv"/></e>
     <e lm="decisamenti" r="LR"><p><l>decisamenti</l><r>decisamenti</r></p><par n="oggi__adv"/></e>
     <e lm="girarchicamenti"><i>girarchicamenti</i><par n="oggi__adv"/></e>
-    <e lm="nuvamenti"><i>nuvamenti</i><par n="oggi__adv"/></e>
+    <e lm="novamenti"><i>novamenti</i><par n="oggi__adv"/></e>
+    <e lm="nuvamenti" r="LR"><p><l>nuvamenti</l><r>novamenti</r></p><par n="oggi__adv"/></e>
     <e lm="stremamenti"><i>stremamenti</i><par n="oggi__adv"/></e>
     <e lm="analiticamenti"><i>analiticamenti</i><par n="oggi__adv"/></e>
-    <e lm="genericamenti"><i>genericamenti</i><par n="oggi__adv"/></e>
-    <e lm="sacramenti"><i>sacramenti</i><par n="oggi__adv"/></e>
     <e lm="clannistinamenti"><i>clannistinamenti</i><par n="oggi__adv"/></e>
-    <e lm="libberamenti"><i>libberamenti</i><par n="oggi__adv"/></e>
+    <e lm="libberamenti" r="LR"><p><l>libberamenti</l><r>libbiramenti</r></p><par n="oggi__adv"/></e>
     <e lm="ecunomicamenti"><i>ecunomicamenti</i><par n="oggi__adv"/></e>
     <e lm="luntanamenti"><i>luntanamenti</i><par n="oggi__adv"/></e>
-    <e lm="ginirusamenti"><i>ginirusamenti</i><par n="oggi__adv"/></e>
-    <e lm="bummardamenti"><i>bummardamenti</i><par n="oggi__adv"/></e>
-    <e lm="cammiamenti"><i>cammiamenti</i><par n="oggi__adv"/></e>
     <e lm="prupriamenti"><i>prupriamenti</i><par n="oggi__adv"/></e>
     <e lm="esclusivamenti"><i>esclusivamenti</i><par n="oggi__adv"/></e>
     <e lm="automaticamenti"><i>automaticamenti</i><par n="oggi__adv"/></e>
@@ -9318,6 +9324,7 @@
     <e lm="spustamenti"><i>spustamenti</i><par n="oggi__adv"/></e>
     <e lm="nzidiamenti"><i>nzidiamenti</i><par n="oggi__adv"/></e>
     <e lm="giniricamenti"><i>giniricamenti</i><par n="oggi__adv"/></e>
+    <e lm="genericamenti" r="LR"><p><l>genericamenti</l><r>giniricamenti</r></p><par n="oggi__adv"/></e>
     <e lm="canciamenti"><i>canciamenti</i><par n="oggi__adv"/></e>
     <e lm="piazzamenti"><i>piazzamenti</i><par n="oggi__adv"/></e>
     <e lm="pacificamenti"><i>pacificamenti</i><par n="oggi__adv"/></e>
@@ -9607,6 +9614,7 @@
 
     <e lm="vidiri"><i>v</i><par n="v/idiri__vblex"/></e>
     <e lm="dari"><i>d</i><par n="d/ari__vblex"/></e>
+    <e lm="dunari" r="LR"><p><l>dun</l><r>d</r></p><par n="d/ari__vblex"/></e>
     <e lm="rid"><i>rid</i><par n="d/ari__vblex"/></e>
     <e lm="vuliti"><i>v</i><par n="v/uliri__vblex"/></e>
     
@@ -9761,7 +9769,6 @@
     <e lm="cunfinari"><i>cunfin</i><par n="parr/ari__vblex"/></e>
     <e lm="pruclamari"><i>pruclam</i><par n="parr/ari__vblex"/></e>
     <e lm="pruclamari" r="LR"><p><l>proclam</l><r>pruclam</r></p><par n="parr/ari__vblex"/></e>
-    <e lm="dunari"><i>dun</i><par n="parr/ari__vblex"/></e>
     <e lm="mudificari"><i>mudific</i><par n="parr/ari__vblex"/></e>
     <e lm="risultari"><i>risult</i><par n="parr/ari__vblex"/></e>
     <e lm="òccupari"><i>òccup</i><par n="parr/ari__vblex"/></e>
@@ -9869,6 +9876,7 @@
     <e lm="favuriri"><i>favur</i><par n="batt/iri__vblex"/></e>
     <e lm="pariri"><i>par</i><par n="batt/iri__vblex"/></e>
     <e lm="cumprènniri"><i>cumprènn</i><par n="batt/iri__vblex"/></e>
+    <e lm="cumprinniri" r="LR"><p><l>cumprinn</l><r>cumprènn</r></p><par n="batt/iri__vblex"/></e>
     <e lm="subbiri"><i>subb</i><par n="batt/iri__vblex"/></e>
     <e lm="distinguiri"><i>distingu</i><par n="batt/iri__vblex"/></e>
     <e lm="distinguiri" r="LR"><p><l>distìngu</l><r>distingu</r></p><par n="batt/iri__vblex"/></e>
@@ -9893,6 +9901,9 @@
     <e lm="addifènniri" r="LR"><p><l>addifènn</l><r>difin</r></p><par n="batt/iri__vblex"/></e>
     <e lm="succèdiri"><i>succèd</i><par n="batt/iri__vblex"/></e>
     <e lm="crisciri"><i>crisc</i><par n="batt/iri__vblex"/></e>
+    <e lm="stabbiliri"><i>stabbil</i><par n="batt/iri__vblex"/></e>
+    
+    
 
     <e lm="riprudùciri"><i>riprudùc</i><par n="batt/iri__vblex"/></e>
     <e lm="arricanùsciri"><i>arricanùsc</i><par n="batt/iri__vblex"/></e>
