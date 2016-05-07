@@ -440,6 +440,13 @@
       	<e><p><l>a</l><r>a<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       	<e><p><l>i</l><r>a<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
+    
+    <pardef n="sacchegg/iu__n">
+      	<e><p><l>iu</l><r>iu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+      	<e><p><l>i</l><r>iu<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    
 
     <pardef n="cas/a__n">
       	<e><p><l>a</l><r>a<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
@@ -2786,6 +2793,7 @@
     <e lm="costu"><i>cost</i><par n="ann/u__n"/></e>
     <e lm="bordu"><i>bord</i><par n="ann/u__n"/></e>
     <e lm="munti"><i>munti</i><par n="patri__n"/></e>
+    <e lm="etati"><i>etati</i><par n="matri__n"/></e>
 
      
      
@@ -2902,6 +2910,8 @@
     <e lm="prifirenza"><i>prifirenz</i><par n="cas/a__n"/></e>
     <e lm="risistenza"><i>risistenz</i><par n="cas/a__n"/></e>
     <e lm="sigla"><i>sigl</i><par n="cas/a__n"/></e>
+    <e lm="saccheggiu"><i>sacchegg</i><par n="sacchegg/iu__n"/></e>
+    
 
     <e lm="carattirìstica"><i>carattirìstic</i><par n="ripùbbric/a__n"/></e>
     <e lm="zona"><i>zon</i><par n="cas/a__n"/></e>
@@ -4393,6 +4403,8 @@
     <e lm="aumentu"><i>aument</i><par n="ann/u__n"/></e>
     <e lm="cumpurtamentu"><i>cumpurtament</i><par n="ann/u__n"/></e>
     <e lm="nsignamentu"><par n="ø/i/'"/><i>nsignament</i><par n="ann/u__n"/></e>
+    <e lm="mediuevu"><i>mediuev</i><par n="ann/u__n"/></e>
+    
 
     <e lm="mutivazzioni"><i>mutivaz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="cuncintrazzioni"><i>cuncintraz</i><par n="pupulaz/zioni__n"/></e>
@@ -4780,11 +4792,16 @@
     <e lm="Maria"><i>Maria</i><par n="María__np"/></e>
     <e lm="Marìa"><i>Marìa</i><par n="María__np"/></e>
     <e lm="Uliana"><i>Uliana</i><par n="María__np"/></e>
+    
+    
+    
 
     <e lm="Jaime"><i>Jaime</i><par n="Jaime__np"/></e>
     <e lm="Liuni"><i>Liuni</i><par n="Jaime__np"/></e>
     <e lm="Giacomo"><i>Giacomo</i><par n="Jaime__np"/></e>
     <e lm="Micheli"><i>Micheli</i><par n="Jaime__np"/></e>
+    <e lm="Ottavianu"><i>Ottavianu</i><par n="Jaime__np"/></e>
+    <e lm="Augustu"><i>Augustu</i><par n="Jaime__np"/></e>
 
     <e lm="Enricu"><i>Enricu</i><par n="Jaime__np"/></e>
     <e lm="Federicu"><i>Federicu</i><par n="Jaime__np"/></e>
@@ -9069,7 +9086,10 @@
     <e lm="vìrgini"><i>vìrgini</i><par n="duci__adj"/></e>
     <e lm="àbbili"><i>àbbili</i><par n="duci__adj"/></e>
     <e lm="ùtili"><i>ùtili</i><par n="duci__adj"/></e>
+    <e lm="bàrbaricu"><i>bàrbaric</i><par n="magnètic/u__adj"/></e>
+    <e lm="succissivu"><i>succissiv</i><par n="bedd/u__adj"/></e>
     
+        
     
     <e lm="autumàticu"><i>autumàtic</i><par n="bedd/u__adj"/></e>
     <e lm="automàticu" r="LR"><p><l>automàtic</l><r>autumàtic</r></p><par n="bedd/u__adj"/></e>
@@ -10419,6 +10439,9 @@
     <e lm="costruiri"><i>costru</i><par n="batt/iri__vblex"/></e>
     <e lm="dirìggiri"><i>dirìgg</i><par n="batt/iri__vblex"/></e>
     <e lm="cuntribbuiri"><i>cuntribbu</i><par n="batt/iri__vblex"/></e>
+    <e lm="ripitiri"><i>ripit</i><par n="batt/iri__vblex"/></e>
+
+
 
     <e lm="tèniri"><i>tèn</i><par n="batt/iri__vblex"/></e>
     <e lm="nasciri"><i>nasc</i><par n="batt/iri__vblex"/></e>
