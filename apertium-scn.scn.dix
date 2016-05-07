@@ -8387,7 +8387,12 @@
     <e lm="internu" r="LR"><p><l>intern</l><r>ntern</r></p><par n="bedd/u__adj"/></e>
     <e lm="ntiriuri"><i>ntiriuri</i><par n="duci__adj"/></e>
     <e lm="intiriuri" r="LR"><p><l>intiriuri</l><r>ntiriuri</r></p><par n="duci__adj"/></e>
+    <e lm="abbalintatu"><i>abbalintat</i><par n="bedd/u__adj"/></e>
     
+    <e lm="cecu"><i>cecu</i><par n="magnètic/u__adj"/></e>
+    <e lm="giuvini"><i>giuvini</i><par n="duci__adj"/></e>
+    <e lm="giustu"><i>giust</i><par n="bedd/u__adj"/></e>
+    <e lm="scioccu"><i>sciocc</i><par n="magnètic/u__adj"/></e>
     
     <e lm="dìlicu"><i>dìlic</i><par n="magnètic/u__adj"/></e>
     <e lm="nicu"><i>nic</i><par n="magnètic/u__adj"/></e>
@@ -10187,6 +10192,8 @@
     <e lm="prisintari"><i>prisint</i><par n="parr/ari__vblex"/></e>
     <e lm="rispittari"><i>rispitt</i><par n="parr/ari__vblex"/></e>
     <e lm="traspurtari"><i>traspurt</i><par n="parr/ari__vblex"/></e>
+    <e lm="ngannari"><i>ngann</i><par n="parr/ari__vblex"/></e>
+    
 
     <e lm="cunfinari"><i>cunfin</i><par n="parr/ari__vblex"/></e>
     <e lm="pruclamari"><i>pruclam</i><par n="parr/ari__vblex"/></e>
@@ -10254,6 +10261,26 @@
     <e lm="ascutari"><i>ascut</i><par n="parr/ari__vblex"/></e>
     <e lm="astutari"><i>addum</i><par n="parr/ari__vblex"/></e>
     <e lm="attuppari"><i>attupp</i><par n="parr/ari__vblex"/></e>
+    
+    
+    
+    <e lm="scinniri"><i>scinn</i><par n="batt/iri__vblex"/></e>
+    <e lm="godiri"><i>god</i><par n="batt/iri__vblex"/></e>
+    <e lm="scurriri"><i>scurr</i><par n="batt/iri__vblex"/></e>
+    <e lm="citari"><i>cit</i><par n="parr/ari__vblex"/></e>
+    <e lm="mparari"><i>mpar</i><par n="parr/ari__vblex"/></e>
+    <e lm="mpastari"><i>mpast</i><par n="parr/ari__vblex"/></e>
+    <e lm="mmitari"><i>mmit</i><par n="parr/ari__vblex"/></e>
+    <e lm="acchianari"><i>acchian</i><par n="parr/ari__vblex"/></e>
+    <e lm="rubbari"><i>rubb</i><par n="parr/ari__vblex"/></e>
+    <e lm="rumpiri"><i>rump</i><par n="batt/iri__vblex"/></e>
+    <e lm="truvari"><i>truv</i><par n="parr/ari__vblex"/></e>
+    <e lm="trasiri"><i>tras</i><par n="batt/iri__vblex"/></e>
+    <e lm="ncuntrari"><i>ncuntr</i><par n="parr/ari__vblex"/></e>
+    <e lm="nzignari"><i>nzign</i><par n="parr/ari__vblex"/></e>
+    <e lm="cunziddirari"><i>cunziddir</i><par n="parr/ari__vblex"/></e>
+    
+    
     
     <e lm="battiri"><i>batt</i><par n="batt/iri__vblex"/></e>
     <e lm="arrispùnniri"><i>arrispùnn</i><par n="batt/iri__vblex"/></e>
