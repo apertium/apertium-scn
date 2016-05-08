@@ -2595,6 +2595,8 @@
     
     <e lm="figghiu"><i>figgh</i><par n="figgh/iu__n"/></e>
     <e lm="oricchia"><i>oricch</i><par n="oricch/ia__n"/></e>
+    <e lm="aricchia" r="LR"><p><l>aricch</l><r>oricch</r></p><par n="oricch/ia__n"/></e>
+    <e lm="auricchia" r="LR"><p><l>auricch</l><r>oricch</r></p><par n="oricch/ia__n"/></e>
     <e lm="matri"><i>matri</i><par n="matri__n"/></e>
     <e lm="mancanza"><i>mancanza</i><par n="matri__n"/></e> <!-- CHEQUEAR-->
     <e lm="unioni"><i>unioni</i><par n="matri__n"/></e>
@@ -2616,7 +2618,7 @@
     <e lm="mmàggini"><i>mmàggini</i><par n="matri__n"/></e>
     <e lm="fisioni"><i>fisioni</i><par n="matri__n"/></e>
     <e lm="scena"><i>scen</i><par n="cas/a__n"/></e>
-    
+    <e lm="sordi"><i>sordi</i><par n="patri__n"/></e>
     
     
     
@@ -3429,7 +3431,7 @@
     <e lm="ferru"><i>ferr</i><par n="ann/u__n"/></e>
     <e lm="verru"><i>verr</i><par n="ann/u__n"/></e>
     <e lm="butirru"><i>butirr</i><par n="ann/u__n"/></e>
-    <e lm="épuca"><i>épuc</i><par n="ripùbbric/a__n"/></e>
+    <e lm="èpuca"><i>èpuc</i><par n="ripùbbric/a__n"/></e>
     
     
     
@@ -4127,6 +4129,7 @@
     <e lm="arnisi"><i>arnisi</i><par n="matri__n"/></e>
     <e lm="abbati"><i>abbati</i><par n="matri__n"/></e>
     <e lm="funnaturi"><i>funnaturi</i><par n="patri__n"/></e>
+    <e lm="firita"><i>firit</i><par n="cas/a__n"/></e>
     
     
 
@@ -8779,7 +8782,7 @@
     <e lm="vucali"><i>vucali</i><par n="duci__adj"/></e>
     <e lm="esperimentali"><i>esperimentali</i><par n="duci__adj"/></e>
     <e lm="risunanti"><i>risunanti</i><par n="duci__adj"/></e>
-    
+    <e lm="rinascimintali"><i>rinascimintali</i><par n="duci__adj"/></e>
     
     
     
@@ -9936,7 +9939,8 @@
     <e lm="giograficamenti"><i>giograficamenti</i><par n="oggi__adv"/></e>
     <e lm="autumaticamenti"><i>autumaticamenti</i><par n="oggi__adv"/></e>
     <e lm="raramenti"><i>raramenti</i><par n="oggi__adv"/></e>
-    
+    <e lm="a manu nudi"><i>a<b/>manu<b/>nudi</i><par n="oggi__adv"/></e>
+        
     <e lm="bruscamenti"><i>bruscamenti</i><par n="oggi__adv"/></e>
     <e lm="umanamenti"><i>umanamenti</i><par n="oggi__adv"/></e>
     <e lm="unitariamenti"><i>unitariamenti</i><par n="oggi__adv"/></e>
@@ -10664,6 +10668,7 @@
     <e lm="discutiri"><i>discut</i><par n="batt/iri__vblex"/></e>
     <e lm="spàrtiri"><i>spàrt</i><par n="batt/iri__vblex"/></e>
     <e lm="appartèniri"><i>appartèn</i><par n="batt/iri__vblex"/></e>
+    <e lm="firiri"><i>fir</i><par n="batt/iri__vblex"/></e>
     
     <e lm="finiri"><i>fin</i><par n="batt/iri__vblex"/></e>
     <e lm="curpiri"><i>curp</i><par n="batt/iri__vblex"/></e>
@@ -10681,7 +10686,7 @@
     <e lm="spugghiari"><i>spugghi</i><par n="parr/ari__vblex"/></e>
     <e lm="scippari"><i>scipp</i><par n="parr/ari__vblex"/></e>
     <e lm="custari"><i>cust</i><par n="parr/ari__vblex"/></e>
-
+    <e lm="penzari"><i>penz</i><par n="parr/ari__vblex"/></e>
 
     
     <e lm="scrìviri"><i>scrì</i><par n="scrì/viri__vblex"/></e>
