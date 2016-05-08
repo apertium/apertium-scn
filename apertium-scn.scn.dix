@@ -2812,7 +2812,6 @@
     <e lm="etati"><i>etati</i><par n="matri__n"/></e>
     <e lm="cònzuli"><i>cònzuli</i><par n="patri__n"/></e>
      
-     
 
     <e lm="antichitati"><i>antichit</i><par n="cit/ati__n"/></e>
     <e lm="fattibbilitati"><i>fattibbilit</i><par n="cit/ati__n"/></e>
@@ -4688,7 +4687,7 @@
     <e lm="anfitiatru"><i>anfitiatr</i><par n="ann/u__n"/></e>
     <e lm="antichità"><i>antichità</i><par n="matri__n"/></e>
     <e lm="dinastia"><i>dinasti</i><par n="cas/a__n"/></e>
-    
+    <e lm="addestramentu"><i>addestrament</i><par n="ann/u__n"/></e>
     
     
     
@@ -10677,11 +10676,16 @@
     <e lm="tuccari"><i>tucc</i><par n="manc/ari__vblex"/></e>
     <e lm="suprannuminari"><i>suprannumin</i><par n="parr/ari__vblex"/></e>
     <e lm="assimpicari"><i>assimpic</i><par n="manc/ari__vblex"/></e>
+    <e lm="cummàttiri"><i>cummàtt</i><par n="batt/iri__vblex"/></e>
+    <e lm="cummattiri" r="LR"><p><l>cummatt</l><r>cummàtt</r></p><par n="batt/iri__vblex"/></e>
+    <e lm="spugghiari"><i>spugghi</i><par n="parr/ari__vblex"/></e>
+    <e lm="scippari"><i>scipp</i><par n="parr/ari__vblex"/></e>
+    <e lm="custari"><i>cust</i><par n="parr/ari__vblex"/></e>
+
 
     
     <e lm="scrìviri"><i>scrì</i><par n="scrì/viri__vblex"/></e>
     <e lm="discrìviri"><par n="di/de"/><i>scrì</i><par n="scrì/viri__vblex"/></e>
-    
     
     
     <e lm="rifiriri"><i>rifir</i><par n="batt/iri__vblex"/></e>
