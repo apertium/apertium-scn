@@ -560,6 +560,13 @@
       	<e><p><l>i</l><r>i<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       	<e><p><l>i</l><r>a<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
+    
+    <pardef n="libirtà__n">
+      	<e><p><l></l><r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+      	<e><p><l></l><r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
+    
+    
 
     <pardef n="sud__n">
       	<e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
@@ -2608,6 +2615,7 @@
     <e lm="vuci"><i>vuci</i><par n="matri__n"/></e>
     <e lm="mmàggini"><i>mmàggini</i><par n="matri__n"/></e>
     <e lm="fisioni"><i>fisioni</i><par n="matri__n"/></e>
+    <e lm="scena"><i>scen</i><par n="cas/a__n"/></e>
     
     
     
@@ -3110,6 +3118,9 @@
 	<e lm="prufissuri"><i>prufissur</i><par n="liun/i__n"/></e>
 	<e lm="tradituri"><i>traditur</i><par n="liun/i__n"/></e>
 	<e lm="piccaturi"><i>piccatur</i><par n="liun/i__n"/></e>
+	<e lm="libirtà"><i>libirtà</i><par n="libirtà__n"/></e>
+	
+	
 	
 	<e lm="iocu"><i>ioc</i><par n="ioc/u__n"/></e>
 	<e lm="vosc"><i>vosc</i><par n="ioc/u__n"/></e>
@@ -4018,9 +4029,10 @@
     
     <e lm="giurnali"><i>giurnali</i><par n="patri__n"/></e>
     <e lm="equipe"><i>equipe</i><par n="patri__n"/></e>
+    <e lm="battagghia"><i>battagghi</i><par n="culoni/a__n"/></e>
     
     
-    
+     
     
     
     
@@ -10640,6 +10652,7 @@
     <e lm="addifinniri" r="LR"><p><l>addifinn</l><r>addifin</r></p><par n="batt/iri__vblex"/></e>
     <e lm="spasciari"><i>spasci</i><par n="parr/ari__vblex"/></e>
     <e lm="ricògghiri"><i>ricòggh</i><par n="batt/iri__vblex"/></e>
+    <e lm="cògghiri"><i>còggh</i><par n="batt/iri__vblex"/></e>
     <e lm="sbintari"><i>sbint</i><par n="parr/ari__vblex"/></e>
     
     
@@ -10663,7 +10676,7 @@
     <e lm="agghiuntari"><i>agghiunt</i><par n="parr/ari__vblex"/></e>
     <e lm="tuccari"><i>tucc</i><par n="manc/ari__vblex"/></e>
     <e lm="suprannuminari"><i>suprannumin</i><par n="parr/ari__vblex"/></e>
-    
+    <e lm="assimpicari"><i>assimpic</i><par n="manc/ari__vblex"/></e>
 
     
     <e lm="scrìviri"><i>scrì</i><par n="scrì/viri__vblex"/></e>
