@@ -2673,6 +2673,8 @@
     
     <e lm="libbirtati"><i>libbirt</i><par n="cit/ati__n"/></e>
     <e lm="quantitati"><i>quantit</i><par n="cit/ati__n"/></e>  
+    <e lm="ntitati"><i>ntit</i><par n="cit/ati__n"/></e> 
+    <e lm="entitati" r="LR"><p><l>entit</l><r>ntit</r></p><par n="cit/ati__n"/></e>
     
     
     <e lm="patri"><i>patri</i><par n="patri__n"/></e>
@@ -2978,6 +2980,8 @@
     <e lm="risistenza"><i>risistenz</i><par n="cas/a__n"/></e>
     <e lm="sigla"><i>sigl</i><par n="cas/a__n"/></e>
     <e lm="saccheggiu"><i>sacchegg</i><par n="sacchegg/iu__n"/></e>
+    
+    <e lm="finalitati"><i>finalit</i><par n="cit/ati__n"/></e>
     
 
     <e lm="carattirìstica"><i>carattirìstic</i><par n="ripùbbric/a__n"/></e>
@@ -3652,6 +3656,9 @@
     <e lm="asciuttu"><i>asciutt</i><par n="ann/u__n"/></e>
     <e lm="avvucatu"><i>avvucat</i><par n="ann/u__n"/></e>
     <e lm="abbucatu"><i>abbucat</i><par n="ann/u__n"/></e>
+    <e lm="cuntrollu"><i>cuntroll</i><par n="ann/u__n"/></e>
+    
+    
     
     <e lm="angulu"><i>angul</i><par n="ann/u__n"/></e>
     <e lm="antinatu"><i>antinat</i><par n="ann/u__n"/></e>
@@ -4050,6 +4057,7 @@
     <e lm="sustanza"><i>sustanz</i><par n="cas/a__n"/></e>
     <e lm="picciuttanza"><i>picciuttanz</i><par n="cas/a__n"/></e>
     <e lm="simenza"><i>simenz</i><par n="cas/a__n"/></e>
+    <e lm="menza"><i>menz</i><par n="cas/a__n"/></e>
     <e lm="nnipinnenza"><i>nnipinnenz</i><par n="cas/a__n"/></e>
     <e lm="cuirenza"><i>cuirenz</i><par n="cas/a__n"/></e>
     <e lm="putenza"><i>putenz</i><par n="cas/a__n"/></e>
@@ -4079,6 +4087,7 @@
     <e lm="aliva"><i>aliv</i><par n="cas/a__n"/></e>
     <e lm="andatura"><i>andatur</i><par n="cas/a__n"/></e>
     <e lm="annatura"><i>annatur</i><par n="cas/a__n"/></e>
+    
     
     
     <e lm="giurnali"><i>giurnali</i><par n="patri__n"/></e>
@@ -8577,6 +8586,7 @@
     <e lm="beddu"><i>bedd</i><par n="bedd/u__adj"/></e>
     <e lm="bonu"><i>bon</i><par n="bedd/u__adj"/></e>
     <e lm="regiu"><i>regi</i><par n="bedd/u__adj"/></e>
+    <e lm="sculasticu"><i>sculastic</i><par n="magnètic/u__adj"/></e>
     
     
     <e lm="comunu"><i>comun</i><par n="bedd/u__adj"/></e>
@@ -9538,6 +9548,8 @@
     <e lm="ùtuli"><i>ùtuli</i><par n="duci__adj"/></e>
     <e lm="ùttuli" r="LR"><p><l>ùttuli</l><r>ùtuli</r></p><par n="duci__adj"/></e>
     <e lm="unitariu"><i>unitari</i><par n="bedd/u__adj"/></e>
+    
+    <e lm="significativu"><i>significativ</i><par n="duci__adj"/></e>
        
     <e lm="equivalenti"><i>equivalenti</i><par n="duci__adj"/></e>
     <e lm="pirmanenti"><i>pirmanenti</i><par n="duci__adj"/></e>
@@ -10666,6 +10678,7 @@
     <e lm="cuntribbuiri"><i>cuntribbu</i><par n="batt/iri__vblex"/></e>
     <e lm="ripitiri"><i>ripit</i><par n="batt/iri__vblex"/></e>
     <e lm="tràsiri"><i>tràs</i><par n="batt/iri__vblex"/></e>
+    <e lm="stènniri"><i>stènn</i><par n="batt/iri__vblex"/></e>
 
 
 
