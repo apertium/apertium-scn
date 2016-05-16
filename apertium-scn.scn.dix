@@ -2665,6 +2665,8 @@
     <e lm="mmàggini"><i>mmàggini</i><par n="matri__n"/></e>
     <e lm="fisioni"><i>fisioni</i><par n="matri__n"/></e>
     <e lm="scena"><i>scen</i><par n="cas/a__n"/></e>
+    <e lm="disigna"><i>disign</i><par n="cas/a__n"/></e>
+    
     <e lm="sordi"><i>sordi</i><par n="patri__n"/></e>
     
     
@@ -2918,6 +2920,7 @@
 
     <e lm="vita"><i>vit</i><par n="cas/a__n"/></e>
     <e lm="òrdini"><i>òrdini</i><par n="patri__n"/></e>
+    <e lm="atturi"><i>atturi</i><par n="patri__n"/></e>
     <e lm="morti"><i>morti</i><par n="patri__n"/></e>
 
     <e lm="èbbica"><i>èbbic</i><par n="ripùbbric/a__n"/></e>
@@ -2987,6 +2990,7 @@
 
     <e lm="paci"><i>paci</i><par n="matri__n"/></e>
     <e lm="supirfici"><i>supirfici</i><par n="matri__n"/></e>
+    <e lm="supirficî" r="LR"><p><l>supirficî</l><r>supirfici</r></p><par n="tirritori/u__n"/></e>
     <e lm="attrici"><i>attrici</i><par n="matri__n"/></e>
     <e lm="stili"><i>stili</i><par n="patri__n"/></e>
     <e lm="suli"><i>suli</i><par n="patri__n"/></e>
@@ -4741,7 +4745,7 @@
     <e lm="antichità"><i>antichità</i><par n="matri__n"/></e>
     <e lm="dinastia"><i>dinasti</i><par n="cas/a__n"/></e>
     <e lm="addestramentu"><i>addestrament</i><par n="ann/u__n"/></e>
-    
+    <e lm="cartuni"><i>cartuni</i><par n="patri__n"/></e>
     
     
     <e lm="Mediu Evu"><i>Mediu<b/>Ev</i><par n="ann/u__n"/></e>
@@ -9223,6 +9227,7 @@
     <e lm="trùbbulu"><i>trùbbul</i><par n="bedd/u__adj"/></e>
     <e lm="ubbitu"><i>ubbit</i><par n="bedd/u__adj"/></e>
     <e lm="vinirannu"><i>vinirann</i><par n="bedd/u__adj"/></e>
+    <e lm="animatu"><i>animat</i><par n="bedd/u__adj"/></e>
 
     
     <e lm="cocchi"><i>cocchi</i><par n="duci__adj"/></e>
@@ -9562,6 +9567,8 @@
     <e lm="cuntrariu"><i>cuntrari</i><par n="bedd/u__adj"/></e>
     <e lm="vivu"><i>viv</i><par n="bedd/u__adj"/></e>
     <e lm="puèticu"><i>puètic</i><par n="magnètic/u__adj"/></e>
+    <e lm="cinimatugràficu"><i>cinimatugràfic</i><par n="magnètic/u__adj"/></e>
+    
     <e lm="puièticu" r="LR"><p><l>puiètic</l><r>puètic</r></p><par n="bedd/u__adj"/></e>
     <e lm="superbu"><i>superb</i><par n="bedd/u__adj"/></e>
 
@@ -10399,7 +10406,7 @@
     <e lm="manciari"><i>manci</i><par n="parr/ari__vblex"/></e>
     <e lm="ascutari"><i>ascut</i><par n="parr/ari__vblex"/></e>
     <e lm="cuntari"><i>cunt</i><par n="parr/ari__vblex"/></e>
-    <e lm="cuntari" r="LR"><p><l>cont</l><r>cunt</r></p><par n="parr/ari__vblex"/></e>
+    <e lm="contari" r="LR"><p><l>cont</l><r>cunt</r></p><par n="parr/ari__vblex"/></e>
     <e lm="pinzari"><i>pinz</i><par n="parr/ari__vblex"/></e>
     <e lm="pinzari" r="LR"><p><l>pins</l><r>pinz</r></p><par n="parr/ari__vblex"/></e>
     <e lm="spiari"><i>spi</i><par n="parr/ari__vblex"/></e>
@@ -10714,6 +10721,7 @@
     <e lm="ricògghiri"><i>ricòggh</i><par n="batt/iri__vblex"/></e>
     <e lm="cògghiri"><i>còggh</i><par n="batt/iri__vblex"/></e>
     <e lm="sbintari"><i>sbint</i><par n="parr/ari__vblex"/></e>
+    <e lm="cunfinari"><i>cunfin</i><par n="parr/ari__vblex"/></e>
     
     
 
