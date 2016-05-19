@@ -11596,9 +11596,25 @@
 
     <e lm="jiri"><i></i><par n="/jiri__vblex"/></e>
     
-    <e lm="abbintari"><p><l>abbint</l><r>abbintari</r></p><par n="abbint/ari__vblex"/></e>
-    <e lm="abbintari"><p><l>abbent</l><r>abbintari</r></p><par n="abbent/u__vblex"/></e>
-    <e lm="abbintari"><p><l>abbènt</l><r>abbintari</r></p><par n="abbènt/anu__vblex"/></e>
+    <e lm="abbintari"><p><l>abbint</l><r>abbint</r></p><par n="abbint/ari__vblex"/></e>
+    <e lm="abbintari"><p><l>abbent</l><r>abbint</r></p><par n="abbent/u__vblex"/></e>
+    <e lm="abbintari"><p><l>abbènt</l><r>abbint</r></p><par n="abbènt/anu__vblex"/></e>
+    
+    <e lm="abbirsari"><p><l>abbirs</l><r>abbirs</r></p><par n="abbint/ari__vblex"/></e>
+    <e lm="abbirsari"><p><l>abbers</l><r>abbirs</r></p><par n="abbent/u__vblex"/></e>
+    <e lm="abbirsari"><p><l>abbèrs</l><r>abbirs</r></p><par n="abbènt/anu__vblex"/></e>
+    
+    <e lm="accittari"><p><l>accitt</l><r>accitt</r></p><par n="abbint/ari__vblex"/></e>
+    <e lm="accittari"><p><l>acett</l><r>accitt</r></p><par n="abbent/u__vblex"/></e>
+    <e lm="accittari"><p><l>acètt</l><r>accitt</r></p><par n="abbènt/anu__vblex"/></e>
+    
+    <e lm="abbirsari"><p><l>abbirs</l><r>abbirs</r></p><par n="abbint/ari__vblex"/></e>
+    <e lm="abbirsari"><p><l>abbers</l><r>abbirs</r></p><par n="abbent/u__vblex"/></e>
+    <e lm="abbirsari"><p><l>abbèrs</l><r>abbirs</r></p><par n="abbènt/anu__vblex"/></e>
+    
+    <e lm="affirrari"><p><l>affirr</l><r>affirr</r></p><par n="abbint/ari__vblex"/></e>
+    <e lm="affirrari"><p><l>afferr</l><r>affirr</r></p><par n="abbent/u__vblex"/></e>
+    <e lm="affirrari"><p><l>affèrr</l><r>affirr</r></p><par n="abbènt/anu__vblex"/></e>
     
 <!-- 
     <e lm="jucari" r="LR"><p><l>iucari</l><r>jucari</r></p><par n="j/ucari__vblex"/></e>
