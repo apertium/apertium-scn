@@ -1424,7 +1424,7 @@
     	<e><p><l>a</l><r>ari<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
     </pardef>
     
-    <pardef n="abbent/anu__vblex">
+    <pardef n="abbènt/anu__vblex">
     	<e><p><l>anu</l><r>ari<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
     	<e><p><l>anu</l><r>ari<s n="vblex"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
 
@@ -11596,12 +11596,9 @@
 
     <e lm="jiri"><i></i><par n="/jiri__vblex"/></e>
     
-    <e lm="abbintari"><i>abbint</i><par n="abbint/ari__vblex"/></e>
-    <e lm="abbintari"><i>abbent</i><par n="abbent/u__vblex"/></e>
-    <e lm="abbintari"><i>abbènt</i><par n="abbent/anu__vblex"/></e>
-    
-
-
+    <e lm="abbintari"><p><l>abbint</l><r>abbintari</r></p><par n="abbint/ari__vblex"/></e>
+    <e lm="abbintari"><p><l>abbent</l><r>abbintari</r></p><par n="abbent/u__vblex"/></e>
+    <e lm="abbintari"><p><l>abbènt</l><r>abbintari</r></p><par n="abbènt/anu__vblex"/></e>
     
 <!-- 
     <e lm="jucari" r="LR"><p><l>iucari</l><r>jucari</r></p><par n="j/ucari__vblex"/></e>
