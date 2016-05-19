@@ -1430,6 +1430,16 @@
 
     </pardef>
     
+    <pardef n="nvoc/u__vblex">
+    	<e><p><l>u</l><r>ari<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+    	<e><p><l>hi</l><r>ari<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+    	<e><p><l>a</l><r>ari<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+    	
+    	<e><p><l>u</l><r>ari<s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
+    	<e><p><l>hi</l><r>ari<s n="vblex"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
+    	<e><p><l>a</l><r>ari<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
+    </pardef>
+    
     <pardef n="manc/ari__vblex">
       	<e><p><l>ari</l><r>ari<s n="vblex"/><s n="inf"/></r></p></e>
       	<e><p><l>ari</l><r>ari<s n="vblex"/><s n="inf"/><j/></r></p><par n="S__battiri"/></e>
@@ -11677,7 +11687,7 @@
 
 
     <e lm="appiricari"><p><l>appiric</l><r>appiric</r></p><par n="abbint/ari__vblex"/></e>
-    <e lm="appiricari"><p><l>appirec</l><r>appiric</r></p><par n="abbent/u__vblex"/></e>
+    <e lm="appiricari"><p><l>appirec</l><r>appiric</r></p><par n="nvoc/u__vblex"/></e>
     <e lm="appiricari"><p><l>appirèc</l><r>appiric</r></p><par n="abbènt/anu__vblex"/></e>
 
 
@@ -11717,7 +11727,7 @@
 
 
     <e lm="circari"><p><l>circ</l><r>circ</r></p><par n="abbint/ari__vblex"/></e>
-    <e lm="circari"><p><l>cerc</l><r>circ</r></p><par n="abbent/u__vblex"/></e>
+    <e lm="circari"><p><l>cerc</l><r>circ</r></p><par n="nvoc/u__vblex"/></e>
     <e lm="circari"><p><l>cèrc</l><r>circ</r></p><par n="abbènt/anu__vblex"/></e>
 
 
@@ -11787,7 +11797,7 @@
 
 
     <e lm="pridicari"><p><l>pridic</l><r>pridic</r></p><par n="abbint/ari__vblex"/></e>
-    <e lm="pridicari"><p><l>pridec</l><r>pridic</r></p><par n="abbent/u__vblex"/></e>
+    <e lm="pridicari"><p><l>pridec</l><r>pridic</r></p><par n="nvoc/u__vblex"/></e>
     <e lm="pridicari"><p><l>pridèc</l><r>pridic</r></p><par n="abbènt/anu__vblex"/></e>
 
 
@@ -11875,10 +11885,10 @@
     <e lm="purtari"><p><l>port</l><r>purt</r></p><par n="abbent/u__vblex"/></e>
     <e lm="purtari"><p><l>pòrt</l><r>purt</r></p><par n="abbènt/anu__vblex"/></e>
     <e lm="tuccari"><p><l>tucc</l><r>tucc</r></p><par n="abbint/ari__vblex"/></e>
-    <e lm="tuccari"><p><l>tocc</l><r>tucc</r></p><par n="abbent/u__vblex"/></e>
+    <e lm="tuccari"><p><l>tocc</l><r>tucc</r></p><par n="nvoc/u__vblex"/></e>
     <e lm="tuccari"><p><l>tòcc</l><r>tucc</r></p><par n="abbènt/anu__vblex"/></e>
     <e lm="stuccari"><p><l>stucc</l><r>stucc</r></p><par n="abbint/ari__vblex"/></e>
-    <e lm="stuccari"><p><l>stocc</l><r>stucc</r></p><par n="abbent/u__vblex"/></e>
+    <e lm="stuccari"><p><l>stocc</l><r>stucc</r></p><par n="nvoc/u__vblex"/></e>
     <e lm="stuccari"><p><l>stòcc</l><r>stucc</r></p><par n="abbènt/anu__vblex"/></e>
     <e lm="allurdari"><p><l>allurd</l><r>allurd</r></p><par n="abbint/ari__vblex"/></e>
     <e lm="allurdari"><p><l>allord</l><r>allurd</r></p><par n="abbent/u__vblex"/></e>
@@ -11890,7 +11900,7 @@
     <e lm="arrubbari"><p><l>arrobb</l><r>arrubb</r></p><par n="abbent/u__vblex"/></e>
     <e lm="arrubbari"><p><l>arròbb</l><r>arrubb</r></p><par n="abbènt/anu__vblex"/></e>
     <e lm="allungari"><p><l>allung</l><r>allung</r></p><par n="abbint/ari__vblex"/></e>
-    <e lm="allungari"><p><l>allong</l><r>allung</r></p><par n="abbent/u__vblex"/></e>
+    <e lm="allungari"><p><l>allong</l><r>allung</r></p><par n="nvoc/u__vblex"/></e>
     <e lm="allungari"><p><l>allòng</l><r>allung</r></p><par n="abbènt/anu__vblex"/></e>
     <e lm="pusari"><p><l>pus</l><r>pus</r></p><par n="abbint/ari__vblex"/></e>
     <e lm="pusari"><p><l>pos</l><r>pus</r></p><par n="abbent/u__vblex"/></e>
@@ -11962,7 +11972,7 @@
     <e lm="furzari"><p><l>forz</l><r>furz</r></p><par n="abbent/u__vblex"/></e>
     <e lm="furzari"><p><l>fòrz</l><r>furz</r></p><par n="abbènt/anu__vblex"/></e>
     <e lm="jucari"><p><l>juc</l><r>juc</r></p><par n="abbint/ari__vblex"/></e>
-    <e lm="jucari"><p><l>joc</l><r>juc</r></p><par n="abbent/u__vblex"/></e>
+    <e lm="jucari"><p><l>joc</l><r>juc</r></p><par n="nvoc/u__vblex"/></e>
     <e lm="jucari"><p><l>jòc</l><r>juc</r></p><par n="abbènt/anu__vblex"/></e>
     <e lm="luttari"><p><l>lutt</l><r>lutt</r></p><par n="abbint/ari__vblex"/></e>
     <e lm="luttari"><p><l>lott</l><r>lutt</r></p><par n="abbent/u__vblex"/></e>
@@ -11980,7 +11990,7 @@
     <e lm="ncuntrari"><p><l>ncontr</l><r>ncuntr</r></p><par n="abbent/u__vblex"/></e>
     <e lm="ncuntrari"><p><l>ncòntr</l><r>ncuntr</r></p><par n="abbènt/anu__vblex"/></e>
     <e lm="nfucari"><p><l>nfuc</l><r>nfuc</r></p><par n="abbint/ari__vblex"/></e>
-    <e lm="nfucari"><p><l>nfoc</l><r>nfuc</r></p><par n="abbent/u__vblex"/></e>
+    <e lm="nfucari"><p><l>nfoc</l><r>nfuc</r></p><par n="nvoc/u__vblex"/></e>
     <e lm="nfucari"><p><l>nfòc</l><r>nfuc</r></p><par n="abbènt/anu__vblex"/></e>
     <e lm="nfurmari"><p><l>nfurm</l><r>nfurm</r></p><par n="abbint/ari__vblex"/></e>
     <e lm="nfurmari"><p><l>nform</l><r>nfurm</r></p><par n="abbent/u__vblex"/></e>
@@ -11989,10 +11999,10 @@
     <e lm="nfussari"><p><l>nfoss</l><r>nfuss</r></p><par n="abbent/u__vblex"/></e>
     <e lm="nfussari"><p><l>nfòss</l><r>nfuss</r></p><par n="abbènt/anu__vblex"/></e>
     <e lm="ntussicari"><p><l>ntussic</l><r>ntussic</r></p><par n="abbint/ari__vblex"/></e>
-    <e lm="ntussicari"><p><l>ntossic</l><r>ntussic</r></p><par n="abbent/u__vblex"/></e>
+    <e lm="ntussicari"><p><l>ntossic</l><r>ntussic</r></p><par n="nvoc/u__vblex"/></e>
     <e lm="ntussicari"><p><l>ntòssic</l><r>ntussic</r></p><par n="abbènt/anu__vblex"/></e>
     <e lm="nvucari"><p><l>nvuc</l><r>nvuc</r></p><par n="abbint/ari__vblex"/></e>
-    <e lm="nvucari"><p><l>nvoc</l><r>nvuc</r></p><par n="abbent/u__vblex"/></e>
+    <e lm="nvucari"><p><l>nvoc</l><r>nvuc</r></p><par n="nvoc/u__vblex"/></e>
     <e lm="nvucari"><p><l>nvòc</l><r>nvuc</r></p><par n="abbènt/anu__vblex"/></e>
     <e lm="pruvari"><p><l>pruv</l><r>pruv</r></p><par n="abbint/ari__vblex"/></e>
     <e lm="pruvari"><p><l>prov</l><r>pruv</r></p><par n="abbent/u__vblex"/></e>
@@ -12010,7 +12020,7 @@
     <e lm="ritruvari"><p><l>ritrov</l><r>ritruv</r></p><par n="abbent/u__vblex"/></e>
     <e lm="ritruvari"><p><l>ritròv</l><r>ritruv</r></p><par n="abbènt/anu__vblex"/></e>
     <e lm="rituccari"><p><l>ritucc</l><r>ritucc</r></p><par n="abbint/ari__vblex"/></e>
-    <e lm="rituccari"><p><l>ritocc</l><r>ritucc</r></p><par n="abbent/u__vblex"/></e>
+    <e lm="rituccari"><p><l>ritocc</l><r>ritucc</r></p><par n="nvoc/u__vblex"/></e>
     <e lm="rituccari"><p><l>ritòcc</l><r>ritucc</r></p><par n="abbènt/anu__vblex"/></e>
     <e lm="riturnari"><p><l>riturn</l><r>riturn</r></p><par n="abbint/ari__vblex"/></e>
     <e lm="riturnari"><p><l>ritorn</l><r>riturn</r></p><par n="abbent/u__vblex"/></e>
@@ -12019,7 +12029,7 @@
     <e lm="rivutari"><p><l>rivot</l><r>rivut</r></p><par n="abbent/u__vblex"/></e>
     <e lm="rivutari"><p><l>rivòt</l><r>rivut</r></p><par n="abbènt/anu__vblex"/></e>
     <e lm="sbummicari"><p><l>sbummic</l><r>sbummic</r></p><par n="abbint/ari__vblex"/></e>
-    <e lm="sbummicari"><p><l>sbommic</l><r>sbummic</r></p><par n="abbent/u__vblex"/></e>
+    <e lm="sbummicari"><p><l>sbommic</l><r>sbummic</r></p><par n="nvoc/u__vblex"/></e>
     <e lm="sbummicari"><p><l>sbòmmic</l><r>sbummic</r></p><par n="abbènt/anu__vblex"/></e>
     <e lm="sbutari"><p><l>sbut</l><r>sbut</r></p><par n="abbint/ari__vblex"/></e>
     <e lm="sbutari"><p><l>sbot</l><r>sbut</r></p><par n="abbent/u__vblex"/></e>
@@ -12028,7 +12038,7 @@
     <e lm="scarruzzari"><p><l>scarrozz</l><r>scarruzz</r></p><par n="abbent/u__vblex"/></e>
     <e lm="scarruzzari"><p><l>scarròzz</l><r>scarruzz</r></p><par n="abbènt/anu__vblex"/></e>
     <e lm="scuncicari"><p><l>scuncic</l><r>scuncic</r></p><par n="abbint/ari__vblex"/></e>
-    <e lm="scuncicari"><p><l>sconcic</l><r>scuncic</r></p><par n="abbent/u__vblex"/></e>
+    <e lm="scuncicari"><p><l>sconcic</l><r>scuncic</r></p><par n="nvoc/u__vblex"/></e>
     <e lm="scuncicari"><p><l>scòncic</l><r>scuncic</r></p><par n="abbènt/anu__vblex"/></e>
     <e lm="scunzari"><p><l>scunz</l><r>scunz</r></p><par n="abbint/ari__vblex"/></e>
     <e lm="scunzari"><p><l>sconz</l><r>scunz</r></p><par n="abbent/u__vblex"/></e>
@@ -12046,7 +12056,7 @@
     <e lm="scutulari"><p><l>scutol</l><r>scutul</r></p><par n="abbent/u__vblex"/></e>
     <e lm="scutulari"><p><l>scutòl</l><r>scutul</r></p><par n="abbènt/anu__vblex"/></e>
     <e lm="sfugari"><p><l>sfug</l><r>sfug</r></p><par n="abbint/ari__vblex"/></e>
-    <e lm="sfugari"><p><l>sfog</l><r>sfug</r></p><par n="abbent/u__vblex"/></e>
+    <e lm="sfugari"><p><l>sfog</l><r>sfug</r></p><par n="nvoc/u__vblex"/></e>
     <e lm="sfugari"><p><l>sfòg</l><r>sfug</r></p><par n="abbènt/anu__vblex"/></e>
     <e lm="sfurzari"><p><l>sfurz</l><r>sfurz</r></p><par n="abbint/ari__vblex"/></e>
     <e lm="sfurzari"><p><l>sforz</l><r>sfurz</r></p><par n="abbent/u__vblex"/></e>
@@ -12073,10 +12083,10 @@
     <e lm="turnari"><p><l>torn</l><r>turn</r></p><par n="abbent/u__vblex"/></e>
     <e lm="turnari"><p><l>tòrn</l><r>turn</r></p><par n="abbènt/anu__vblex"/></e>
     <e lm="urvicari"><p><l>urvic</l><r>urvic</r></p><par n="abbint/ari__vblex"/></e>
-    <e lm="urvicari"><p><l>orvic</l><r>urvic</r></p><par n="abbent/u__vblex"/></e>
+    <e lm="urvicari"><p><l>orvic</l><r>urvic</r></p><par n="nvoc/u__vblex"/></e>
     <e lm="urvicari"><p><l>òrvic</l><r>urvic</r></p><par n="abbènt/anu__vblex"/></e>
     <e lm="vucari"><p><l>vuc</l><r>vuc</r></p><par n="abbint/ari__vblex"/></e>
-    <e lm="vucari"><p><l>voc</l><r>vuc</r></p><par n="abbent/u__vblex"/></e>
+    <e lm="vucari"><p><l>voc</l><r>vuc</r></p><par n="nvoc/u__vblex"/></e>
     <e lm="vucari"><p><l>vòc</l><r>vuc</r></p><par n="abbènt/anu__vblex"/></e>
     <e lm="vulari"><p><l>vul</l><r>vul</r></p><par n="abbint/ari__vblex"/></e>
     <e lm="vulari"><p><l>vol</l><r>vul</r></p><par n="abbent/u__vblex"/></e>
