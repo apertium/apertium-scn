@@ -10902,8 +10902,6 @@
     <e lm="purmuni" r="LR"><p><l>primuni</l><r>purmuni</r></p><par n="patri__n"/></e>
     <e lm="purmuni" r="LR"><p><l>prummuni</l><r>purmuni</r></p><par n="patri__n"/></e>
     <e lm="pumperi"><i>pumperi</i><par n="patri__n"/></e>
-    <e lm="pumu_d%27amuri"><i>pumu_d%27amuri</i><par n="patri__n"/></e>
-    <e lm="pumu_d%27amuri" r="LR"><p><l>pumu_r%27amuri</l><r>pumu_d%27amuri</r></p><par n="patri__n"/></e>
     <e lm="pumudamuri"><i>pumudamuri</i><par n="patri__n"/></e>
     <e lm="pumudamuri" r="LR"><p><l>pumu_d%27amuri</l><r>pumudamuri</r></p><par n="patri__n"/></e>
     <e lm="pumudamuri" r="LR"><p><l>pumuramuri</l><r>pumudamuri</r></p><par n="patri__n"/></e>
@@ -11064,6 +11062,337 @@
     <e lm="ìnnici"><i>ìnnici</i><par n="patri__n"/></e>
     <e lm="ìnnici" r="LR"><p><l>ìndici</l><r>ìnnici</r></p><par n="patri__n"/></e>
     <e lm="òsputi"><i>òsputi</i><par n="patri__n"/></e>
+    
+    <e lm="abbagliamentu"><i>abbagliament</i><par n="ann/u__n"/></e>
+    <e lm="abbagliamentu" r="LR"><p><l>abbagghiament</l><r>abbagliament</r></p><par n="ann/u__n"/></e>
+    <e lm="abbaneddu"><i>abbanedd</i><par n="ann/u__n"/></e>
+    <e lm="abbattimentu"><i>abbattiment</i><par n="ann/u__n"/></e>
+    <e lm="avvicinamentu"><i>avvicinament</i><par n="ann/u__n"/></e>
+    <e lm="avvicinamentu" r="LR"><p><l>abbicinament</l><r>avvicinament</r></p><par n="ann/u__n"/></e>
+    <e lm="abbilimentu"><i>abbiliment</i><par n="ann/u__n"/></e>
+    <e lm="abbilimentu" r="LR"><p><l>avviliment</l><r>abbiliment</r></p><par n="ann/u__n"/></e>
+    <e lm="abbonamentu"><i>abbonament</i><par n="ann/u__n"/></e>
+    <e lm="abbonamentu" r="LR"><p><l>abbunament</l><r>abbonament</r></p><par n="ann/u__n"/></e>
+    <e lm="abbragamentu"><i>abbragament</i><par n="ann/u__n"/></e>
+    <e lm="abbragamentu" r="LR"><p><l>abbraament</l><r>abbragament</r></p><par n="ann/u__n"/></e>
+    <e lm="abbruciareddu"><i>abbruciaredd</i><par n="ann/u__n"/></e>
+    <e lm="abbruciareddu" r="LR"><p><l>abbruciariedd</l><r>abbruciaredd</r></p><par n="ann/u__n"/></e>
+    <e lm="abbruciareddu" r="LR"><p><l>bruciariedd</l><r>abbruciaredd</r></p><par n="ann/u__n"/></e>
+    <e lm="abbruciareddu" r="LR"><p><l>bruciaredd</l><r>abbruciaredd</r></p><par n="ann/u__n"/></e>
+    <e lm="acchiettu"><i>acchiett</i><par n="ann/u__n"/></e>
+    <e lm="acchiettu" r="LR"><p><l>acchett</l><r>acchiett</r></p><par n="ann/u__n"/></e>
+    <e lm="acchiettu" r="LR"><p><l>accett</l><r>acchiett</r></p><par n="ann/u__n"/></e>
+    <e lm="acchiettu" r="LR"><p><l>acciett</l><r>acchiett</r></p><par n="ann/u__n"/></e>
+    <e lm="accustamentu"><i>accustament</i><par n="ann/u__n"/></e>
+    <e lm="aciddittu"><i>acidditt</i><par n="ann/u__n"/></e>
+    <e lm="aculottu"><i>aculott</i><par n="ann/u__n"/></e>
+    <e lm="divertimentu"><i>divertiment</i><par n="ann/u__n"/></e>
+    <e lm="divertimentu" r="LR"><p><l>addivertiment</l><r>divertiment</r></p><par n="ann/u__n"/></e>
+    <e lm="divertimentu" r="LR"><p><l>divirtiment</l><r>divertiment</r></p><par n="ann/u__n"/></e>
+    <e lm="divertimentu" r="LR"><p><l>addivirtiment</l><r>divertiment</r></p><par n="ann/u__n"/></e>
+    <e lm="aghirettu"><i>aghirett</i><par n="ann/u__n"/></e>
+    <e lm="aghirettu" r="LR"><p><l>agrett</l><r>aghirett</r></p><par n="ann/u__n"/></e>
+    <e lm="aghirettu" r="LR"><p><l>airett</l><r>aghirett</r></p><par n="ann/u__n"/></e>
+    <e lm="ancieddu"><i>anciedd</i><par n="ann/u__n"/></e>
+    <e lm="ancieddu" r="LR"><p><l>aciedd</l><r>anciedd</r></p><par n="ann/u__n"/></e>
+    <e lm="ancieddu" r="LR"><p><l>ocedd</l><r>anciedd</r></p><par n="ann/u__n"/></e>
+    <e lm="ancieddu" r="LR"><p><l>aucedd</l><r>anciedd</r></p><par n="ann/u__n"/></e>
+    <e lm="appartamentu"><i>appartament</i><par n="ann/u__n"/></e>
+    <e lm="appeddu"><i>appedd</i><par n="ann/u__n"/></e>
+    <e lm="apprettu"><i>apprett</i><par n="ann/u__n"/></e>
+    <e lm="appuntamentu"><i>appuntament</i><par n="ann/u__n"/></e>
+    <e lm="arbaneddu"><i>arbanedd</i><par n="ann/u__n"/></e>
+    <e lm="arbaneddu" r="LR"><p><l>arvanedd</l><r>arbanedd</r></p><par n="ann/u__n"/></e>
+    <e lm="arribbuccamentu"><i>arribbuccament</i><par n="ann/u__n"/></e>
+    <e lm="rizzettu"><i>rizzett</i><par n="ann/u__n"/></e>
+    <e lm="rizzettu" r="LR"><p><l>arrisett</l><r>rizzett</r></p><par n="ann/u__n"/></e>
+    <e lm="arziddu"><i>arzidd</i><par n="ann/u__n"/></e>
+    <e lm="attrivimentu"><i>attriviment</i><par n="ann/u__n"/></e>
+    <e lm="attuppateddu"><i>attuppatedd</i><par n="ann/u__n"/></e>
+    <e lm="barboggiattu"><i>barboggiatt</i><par n="ann/u__n"/></e>
+    <e lm="bardareddu"><i>bardaredd</i><par n="ann/u__n"/></e>
+    <e lm="barraggeddu"><i>barraggedd</i><par n="ann/u__n"/></e>
+    <e lm="bastaddu"><i>bastadd</i><par n="ann/u__n"/></e>
+    <e lm="battareddu"><i>battaredd</i><par n="ann/u__n"/></e>
+    <e lm="bigliettu"><i>bigliett</i><par n="ann/u__n"/></e>
+    <e lm="bigliettu" r="LR"><p><l>bigghiett</l><r>bigliett</r></p><par n="ann/u__n"/></e>
+    <e lm="biscottu"><i>biscott</i><par n="ann/u__n"/></e>
+    <e lm="bottu"><i>bott</i><par n="ann/u__n"/></e>
+    <e lm="braccialettu"><i>braccialett</i><par n="ann/u__n"/></e>
+    <e lm="braccialettu" r="LR"><p><l>bracciulett</l><r>braccialett</r></p><par n="ann/u__n"/></e>
+    <e lm="brattu"><i>bratt</i><par n="ann/u__n"/></e>
+    <e lm="brivettu"><i>brivett</i><par n="ann/u__n"/></e>
+    <e lm="bruschettu"><i>bruschett</i><par n="ann/u__n"/></e>
+    <e lm="buddu"><i>budd</i><par n="ann/u__n"/></e>
+    <e lm="budeddu"><i>budedd</i><par n="ann/u__n"/></e>
+    <e lm="budeddu" r="LR"><p><l>vuredd</l><r>budedd</r></p><par n="ann/u__n"/></e>
+    <e lm="budeddu" r="LR"><p><l>buredd</l><r>budedd</r></p><par n="ann/u__n"/></e>
+    <e lm="bunettu"><i>bunett</i><par n="ann/u__n"/></e>
+    <e lm="buriddu"><i>buridd</i><par n="ann/u__n"/></e>
+    <e lm="burreddu"><i>burredd</i><par n="ann/u__n"/></e>
+    <e lm="busunettu"><i>busunett</i><par n="ann/u__n"/></e>
+    <e lm="butureddu"><i>buturedd</i><par n="ann/u__n"/></e>
+    <e lm="cabbinettu"><i>cabbinett</i><par n="ann/u__n"/></e>
+    <e lm="cabbinettu" r="LR"><p><l>cabinett</l><r>cabbinett</r></p><par n="ann/u__n"/></e>
+    <e lm="cabbinettu" r="LR"><p><l>gabbinett</l><r>cabbinett</r></p><par n="ann/u__n"/></e>
+    <e lm="cabbinettu" r="LR"><p><l>gabinett</l><r>cabbinett</r></p><par n="ann/u__n"/></e>
+    <e lm="cacciottu"><i>cacciott</i><par n="ann/u__n"/></e>
+    <e lm="caddu"><i>cadd</i><par n="ann/u__n"/></e>
+    <e lm="cagnuleddu"><i>cagnuledd</i><par n="ann/u__n"/></e>
+    <e lm="camarruneddu"><i>camarrunedd</i><par n="ann/u__n"/></e>
+    <e lm="canceddu"><i>cancedd</i><par n="ann/u__n"/></e>
+    <e lm="canceddu" r="LR"><p><l>cancidd</l><r>cancedd</r></p><par n="ann/u__n"/></e>
+    <e lm="canceddu" r="LR"><p><l>canciedd</l><r>cancedd</r></p><par n="ann/u__n"/></e>
+    <e lm="cangiamentu"><i>cangiament</i><par n="ann/u__n"/></e>
+    <e lm="canigghiottu"><i>canigghiott</i><par n="ann/u__n"/></e>
+    <e lm="cannettu"><i>cannett</i><par n="ann/u__n"/></e>
+    <e lm="capiddu"><i>capidd</i><par n="ann/u__n"/></e>
+    <e lm="capimentu"><i>capiment</i><par n="ann/u__n"/></e>
+    <e lm="cappeddu"><i>cappedd</i><par n="ann/u__n"/></e>
+    <e lm="cardiddu"><i>cardidd</i><par n="ann/u__n"/></e>
+    <e lm="cardiddu" r="LR"><p><l>caddidd</l><r>cardidd</r></p><par n="ann/u__n"/></e>
+    <e lm="careddu"><i>caredd</i><par n="ann/u__n"/></e>
+    <e lm="careddu" r="LR"><p><l>cairedd</l><r>caredd</r></p><par n="ann/u__n"/></e>
+    <e lm="carramattu"><i>carramatt</i><par n="ann/u__n"/></e>
+    <e lm="carramattu" r="LR"><p><l>carrumatt</l><r>carramatt</r></p><par n="ann/u__n"/></e>
+    <e lm="carrateddu"><i>carratedd</i><par n="ann/u__n"/></e>
+    <e lm="carrattu"><i>carratt</i><par n="ann/u__n"/></e>
+    <e lm="carrettu"><i>carrett</i><par n="ann/u__n"/></e>
+    <e lm="carrubbeddu"><i>carrubbedd</i><par n="ann/u__n"/></e>
+    <e lm="caruseddu"><i>carusedd</i><par n="ann/u__n"/></e>
+    <e lm="caciucavaddu"><i>caciucavadd</i><par n="ann/u__n"/></e>
+    <e lm="caciucavaddu" r="LR"><p><l>casicavadd</l><r>caciucavadd</r></p><par n="ann/u__n"/></e>
+    <e lm="caciucavaddu" r="LR"><p><l>casacavadd</l><r>caciucavadd</r></p><par n="ann/u__n"/></e>
+    <e lm="caciucavaddu" r="LR"><p><l>casucavadd</l><r>caciucavadd</r></p><par n="ann/u__n"/></e>
+    <e lm="caciucavaddu" r="LR"><p><l>casciucavadd</l><r>caciucavadd</r></p><par n="ann/u__n"/></e>
+    <e lm="caciucavaddu" r="LR"><p><l>cascavadd</l><r>caciucavadd</r></p><par n="ann/u__n"/></e>
+    <e lm="catalettu"><i>catalett</i><par n="ann/u__n"/></e>
+    <e lm="catarrattu"><i>catarratt</i><par n="ann/u__n"/></e>
+    <e lm="cazzottu"><i>cazzott</i><par n="ann/u__n"/></e>
+    <e lm="chirchiriddu"><i>chirchiridd</i><par n="ann/u__n"/></e>
+    <e lm="cianchettu"><i>cianchett</i><par n="ann/u__n"/></e>
+    <e lm="crapettu"><i>crapett</i><par n="ann/u__n"/></e>
+    <e lm="crapettu" r="LR"><p><l>ciaredd</l><r>crapett</r></p><par n="ann/u__n"/></e>
+    <e lm="crapettu" r="LR"><p><l>caprett</l><r>crapett</r></p><par n="ann/u__n"/></e>
+    <e lm="ciarvieddu"><i>ciarviedd</i><par n="ann/u__n"/></e>
+    <e lm="ciarvieddu" r="LR"><p><l>ciaredd</l><r>ciarviedd</r></p><par n="ann/u__n"/></e>
+    <e lm="ciarvieddu" r="LR"><p><l>ciavaredd</l><r>ciarviedd</r></p><par n="ann/u__n"/></e>
+    <e lm="ciarvieddu" r="LR"><p><l>ciavredd</l><r>ciarviedd</r></p><par n="ann/u__n"/></e>
+    <e lm="ciarvieddu" r="LR"><p><l>ciarvedd</l><r>ciarviedd</r></p><par n="ann/u__n"/></e>
+    <e lm="ciarvieddu" r="LR"><p><l>ciaravedd</l><r>ciarviedd</r></p><par n="ann/u__n"/></e>
+    <e lm="ciciddu"><i>cicidd</i><par n="ann/u__n"/></e>
+    <e lm="cippettu"><i>cippett</i><par n="ann/u__n"/></e>
+    <e lm="cirbeddu"><i>cirbedd</i><par n="ann/u__n"/></e>
+    <e lm="circeddu"><i>circedd</i><par n="ann/u__n"/></e>
+    <e lm="cruveddu"><i>cruvedd</i><par n="ann/u__n"/></e>
+    <e lm="cruveddu" r="LR"><p><l>curbedd</l><r>cruvedd</r></p><par n="ann/u__n"/></e>
+    <e lm="cruveddu" r="LR"><p><l>curvedd</l><r>cruvedd</r></p><par n="ann/u__n"/></e>
+    <e lm="cucuddu"><i>cucudd</i><par n="ann/u__n"/></e>
+    <e lm="cucunceddu"><i>cucuncedd</i><par n="ann/u__n"/></e>
+    <e lm="cugghiandreddu"><i>cugghiandredd</i><par n="ann/u__n"/></e>
+    <e lm="cugniceddu"><i>cugnicedd</i><par n="ann/u__n"/></e>
+    <e lm="cumplimentu"><i>cumpliment</i><par n="ann/u__n"/></e>
+    <e lm="cumprementu"><i>cumprement</i><par n="ann/u__n"/></e>
+    <e lm="cumprementu" r="LR"><p><l>cumplement</l><r>cumprement</r></p><par n="ann/u__n"/></e>
+    <e lm="cuncumeddu"><i>cuncumedd</i><par n="ann/u__n"/></e>
+    <e lm="cuncumeddu" r="LR"><p><l>cuccumedd</l><r>cuncumedd</r></p><par n="ann/u__n"/></e>
+    <e lm="cuncutriddu"><i>cuncutridd</i><par n="ann/u__n"/></e>
+    <e lm="cunigghieddu"><i>cunigghiedd</i><par n="ann/u__n"/></e>
+    <e lm="cuntattu"><i>cuntatt</i><par n="ann/u__n"/></e>
+    <e lm="curchettu"><i>curchett</i><par n="ann/u__n"/></e>
+    <e lm="curchettu" r="LR"><p><l>crucchett</l><r>curchett</r></p><par n="ann/u__n"/></e>
+    <e lm="cuzziddu"><i>cuzzidd</i><par n="ann/u__n"/></e>
+    <e lm="drittu"><i>dritt</i><par n="ann/u__n"/></e>
+    <e lm="dubblettu"><i>dubblett</i><par n="ann/u__n"/></e>
+    <e lm="dubblettu" r="LR"><p><l>dubbrett</l><r>dubblett</r></p><par n="ann/u__n"/></e>
+    <e lm="elementu"><i>element</i><par n="ann/u__n"/></e>
+    <e lm="fangottu"><i>fangott</i><par n="ann/u__n"/></e>
+    <e lm="farfareddu"><i>farfaredd</i><par n="ann/u__n"/></e>
+    <e lm="farfareddu" r="LR"><p><l>furfaredd</l><r>farfaredd</r></p><par n="ann/u__n"/></e>
+    <e lm="vasceddu"><i>vascedd</i><par n="ann/u__n"/></e>
+    <e lm="vasceddu" r="LR"><p><l>fascedd</l><r>vascedd</r></p><par n="ann/u__n"/></e>
+    <e lm="fazzulettu"><i>fazzulett</i><par n="ann/u__n"/></e>
+    <e lm="figghittu"><i>figghitt</i><par n="ann/u__n"/></e>
+    <e lm="fiscalettu"><i>fiscalett</i><par n="ann/u__n"/></e>
+    <e lm="frateddu"><i>fratedd</i><par n="ann/u__n"/></e>
+    <e lm="frateddu" r="LR"><p><l>fratiedd</l><r>fratedd</r></p><par n="ann/u__n"/></e>
+    <e lm="friddu"><i>fridd</i><par n="ann/u__n"/></e>
+    <e lm="friscalettu"><i>friscalett</i><par n="ann/u__n"/></e>
+    <e lm="friseddu"><i>frisedd</i><par n="ann/u__n"/></e>
+    <e lm="frisettu"><i>frisett</i><par n="ann/u__n"/></e>
+    <e lm="fruseddu"><i>frusedd</i><par n="ann/u__n"/></e>
+    <e lm="firettu"><i>firett</i><par n="ann/u__n"/></e>
+    <e lm="firettu" r="LR"><p><l>furett</l><r>firett</r></p><par n="ann/u__n"/></e>
+    <e lm="furgareddu"><i>furgaredd</i><par n="ann/u__n"/></e>
+    <e lm="furgareddu" r="LR"><p><l>fuaredd</l><r>furgaredd</r></p><par n="ann/u__n"/></e>
+    <e lm="furgareddu" r="LR"><p><l>fruaredd</l><r>furgaredd</r></p><par n="ann/u__n"/></e>
+    <e lm="furgareddu" r="LR"><p><l>frugaredd</l><r>furgaredd</r></p><par n="ann/u__n"/></e>
+    <e lm="furgareddu" r="LR"><p><l>surfaredd</l><r>furgaredd</r></p><par n="ann/u__n"/></e>
+    <e lm="gaddittu"><i>gadditt</i><par n="ann/u__n"/></e>
+    <e lm="camiddu"><i>camidd</i><par n="ann/u__n"/></e>
+    <e lm="camiddu" r="LR"><p><l>gamidd</l><r>camidd</r></p><par n="ann/u__n"/></e>
+    <e lm="camiddu" r="LR"><p><l>iamidd</l><r>camidd</r></p><par n="ann/u__n"/></e>
+    <e lm="camiddu" r="LR"><p><l>jamidd</l><r>camidd</r></p><par n="ann/u__n"/></e>
+    <e lm="garbettu"><i>garbett</i><par n="ann/u__n"/></e>
+    <e lm="gariddu"><i>garidd</i><par n="ann/u__n"/></e>
+    <e lm="giarrottu"><i>giarrott</i><par n="ann/u__n"/></e>
+    <e lm="giannettu"><i>giannett</i><par n="ann/u__n"/></e>
+    <e lm="giannettu" r="LR"><p><l>ginnett</l><r>giannett</r></p><par n="ann/u__n"/></e>
+    <e lm="giuittu"><i>giuitt</i><par n="ann/u__n"/></e>
+    <e lm="jugnettu"><i>jugnett</i><par n="ann/u__n"/></e>
+    <e lm="jugnettu" r="LR"><p><l>gnugnett</l><r>jugnett</r></p><par n="ann/u__n"/></e>
+    <e lm="jugnettu" r="LR"><p><l>iugnett</l><r>jugnett</r></p><par n="ann/u__n"/></e>
+    <e lm="jugnettu" r="LR"><p><l>njugnett</l><r>jugnett</r></p><par n="ann/u__n"/></e>
+    <e lm="gottu"><i>gott</i><par n="ann/u__n"/></e>
+    <e lm="grassottu"><i>grassott</i><par n="ann/u__n"/></e>
+    <e lm="griddu"><i>gridd</i><par n="ann/u__n"/></e>
+    <e lm="griddu" r="LR"><p><l>aridd</l><r>gridd</r></p><par n="ann/u__n"/></e>
+    <e lm="griddu" r="LR"><p><l>ridd</l><r>gridd</r></p><par n="ann/u__n"/></e>
+    <e lm="jaddu"><i>jadd</i><par n="ann/u__n"/></e>
+    <e lm="jaddu" r="LR"><p><l>iadd</l><r>jadd</r></p><par n="ann/u__n"/></e>
+    <e lm="iattu"><i>iatt</i><par n="ann/u__n"/></e>
+    <e lm="incruciamentu"><i>incruciament</i><par n="ann/u__n"/></e>
+    <e lm="incruciamentu" r="LR"><p><l>ncruciament</l><r>incruciament</r></p><par n="ann/u__n"/></e>
+    <e lm="issottu"><i>issott</i><par n="ann/u__n"/></e>
+    <e lm="issottu" r="LR"><p><l>jissott</l><r>issott</r></p><par n="ann/u__n"/></e>
+    <e lm="jattareddu"><i>jattaredd</i><par n="ann/u__n"/></e>
+    <e lm="jattareddu" r="LR"><p><l>iattaredd</l><r>jattaredd</r></p><par n="ann/u__n"/></e>
+    <e lm="jattareddu" r="LR"><p><l>gattaredd</l><r>jattaredd</r></p><par n="ann/u__n"/></e>
+    <e lm="jattareddu" r="LR"><p><l>attaredd</l><r>jattaredd</r></p><par n="ann/u__n"/></e>
+    <e lm="jitaleddu"><i>jitaledd</i><par n="ann/u__n"/></e>
+    <e lm="jitaleddu" r="LR"><p><l>italedd</l><r>jitaledd</r></p><par n="ann/u__n"/></e>
+    <e lm="landreddu"><i>landredd</i><par n="ann/u__n"/></e>
+    <e lm="libbriceddu"><i>libbricedd</i><par n="ann/u__n"/></e>
+    <e lm="libbriceddu" r="LR"><p><l>libricedd</l><r>libbricedd</r></p><par n="ann/u__n"/></e>
+    <e lm="lucchettu"><i>lucchett</i><par n="ann/u__n"/></e>
+    <e lm="lucchettu" r="LR"><p><l>licchett</l><r>lucchett</r></p><par n="ann/u__n"/></e>
+    <e lm="lissiamentu"><i>lissiament</i><par n="ann/u__n"/></e>
+    <e lm="manciamentu"><i>manciament</i><par n="ann/u__n"/></e>
+    <e lm="manciamentu" r="LR"><p><l>mangiament</l><r>manciament</r></p><par n="ann/u__n"/></e>
+    <e lm="marabbuttu"><i>marabbutt</i><par n="ann/u__n"/></e>
+    <e lm="marabbuttu" r="LR"><p><l>marabutt</l><r>marabbutt</r></p><par n="ann/u__n"/></e>
+    <e lm="marattu"><i>maratt</i><par n="ann/u__n"/></e>
+    <e lm="mariteddu"><i>maritedd</i><par n="ann/u__n"/></e>
+    <e lm="marranchineddu"><i>marranchinedd</i><par n="ann/u__n"/></e>
+    <e lm="martinettu"><i>martinett</i><par n="ann/u__n"/></e>
+    <e lm="mastriddu"><i>mastridd</i><par n="ann/u__n"/></e>
+    <e lm="matalottu"><i>matalott</i><par n="ann/u__n"/></e>
+    <e lm="mattareddu"><i>mattaredd</i><par n="ann/u__n"/></e>
+    <e lm="mattu"><i>matt</i><par n="ann/u__n"/></e>
+    <e lm="mazzamareddu"><i>mazzamaredd</i><par n="ann/u__n"/></e>
+    <e lm="mazzamareddu" r="LR"><p><l>mazzumauriedd</l><r>mazzamaredd</r></p><par n="ann/u__n"/></e>
+    <e lm="mazzamareddu" r="LR"><p><l>mazzamauriedd</l><r>mazzamaredd</r></p><par n="ann/u__n"/></e>
+    <e lm="mazzamareddu" r="LR"><p><l>mazzamariedd</l><r>mazzamaredd</r></p><par n="ann/u__n"/></e>
+    <e lm="mazzamareddu" r="LR"><p><l>marzamaredd</l><r>mazzamaredd</r></p><par n="ann/u__n"/></e>
+    <e lm="mazzamareddu" r="LR"><p><l>ammazzamaredd</l><r>mazzamaredd</r></p><par n="ann/u__n"/></e>
+    <e lm="mazzamareddu" r="LR"><p><l>mazzamauredd</l><r>mazzamaredd</r></p><par n="ann/u__n"/></e>
+    <e lm="mazzareddu"><i>mazzaredd</i><par n="ann/u__n"/></e>
+    <e lm="bruddu"><i>brudd</i><par n="ann/u__n"/></e>
+    <e lm="bruddu" r="LR"><p><l>mbrudd</l><r>brudd</r></p><par n="ann/u__n"/></e>
+    <e lm="mmiscareddu"><i>mmiscaredd</i><par n="ann/u__n"/></e>
+    <e lm="monumentu"><i>monument</i><par n="ann/u__n"/></e>
+    <e lm="muvumentu"><i>muvument</i><par n="ann/u__n"/></e>
+    <e lm="muvumentu" r="LR"><p><l>moviment</l><r>muvument</r></p><par n="ann/u__n"/></e>
+    <e lm="mpidicuddu"><i>mpidicudd</i><par n="ann/u__n"/></e>
+    <e lm="mulettu"><i>mulett</i><par n="ann/u__n"/></e>
+    <e lm="munneddu"><i>munnedd</i><par n="ann/u__n"/></e>
+    <e lm="munzeddu"><i>munzedd</i><par n="ann/u__n"/></e>
+    <e lm="munzeddu" r="LR"><p><l>munsedd</l><r>munzedd</r></p><par n="ann/u__n"/></e>
+    <e lm="murseddu"><i>mursedd</i><par n="ann/u__n"/></e>
+    <e lm="muschittu"><i>muschitt</i><par n="ann/u__n"/></e>
+    <e lm="musciddu"><i>muscidd</i><par n="ann/u__n"/></e>
+    <e lm="musciddu" r="LR"><p><l>miscidd</l><r>muscidd</r></p><par n="ann/u__n"/></e>
+    <e lm="musciddu" r="LR"><p><l>mucidd</l><r>muscidd</r></p><par n="ann/u__n"/></e>
+    <e lm="musciddu" r="LR"><p><l>micidd</l><r>muscidd</r></p><par n="ann/u__n"/></e>
+    <e lm="muttu"><i>mutt</i><par n="ann/u__n"/></e>
+    <e lm="ncrucchiamentu"><i>ncrucchiament</i><par n="ann/u__n"/></e>
+    <e lm="nguaiamentu"><i>nguaiament</i><par n="ann/u__n"/></e>
+    <e lm="nguaiamentu" r="LR"><p><l>nguajament</l><r>nguaiament</r></p><par n="ann/u__n"/></e>
+    <e lm="nsettu"><i>nsett</i><par n="ann/u__n"/></e>
+    <e lm="nsettu" r="LR"><p><l>insett</l><r>nsett</r></p><par n="ann/u__n"/></e>
+    <e lm="nsettu" r="LR"><p><l>inzett</l><r>nsett</r></p><par n="ann/u__n"/></e>
+    <e lm="ntantiddu"><i>ntantidd</i><par n="ann/u__n"/></e>
+    <e lm="oneddu"><i>onedd</i><par n="ann/u__n"/></e>
+    <e lm="panneddu"><i>pannedd</i><par n="ann/u__n"/></e>
+    <e lm="papiamentu"><i>papiament</i><par n="ann/u__n"/></e>
+    <e lm="pappajaddu"><i>pappajadd</i><par n="ann/u__n"/></e>
+    <e lm="pappajaddu" r="LR"><p><l>pappagadd</l><r>pappajadd</r></p><par n="ann/u__n"/></e>
+    <e lm="pappajaddu" r="LR"><p><l>pappaiadd</l><r>pappajadd</r></p><par n="ann/u__n"/></e>
+    <e lm="parlamentu"><i>parlament</i><par n="ann/u__n"/></e>
+    <e lm="parmentu"><i>parment</i><par n="ann/u__n"/></e>
+    <e lm="passapitittu"><i>passapititt</i><par n="ann/u__n"/></e>
+    <e lm="puvureddu"><i>puvuredd</i><par n="ann/u__n"/></e>
+    <e lm="puvureddu" r="LR"><p><l>pauredd</l><r>puvuredd</r></p><par n="ann/u__n"/></e>
+    <e lm="puvureddu" r="LR"><p><l>pavuredd</l><r>puvuredd</r></p><par n="ann/u__n"/></e>
+    <e lm="paurottu"><i>paurott</i><par n="ann/u__n"/></e>
+    <e lm="pettu"><i>pett</i><par n="ann/u__n"/></e>
+    <e lm="piccicaneddu"><i>piccicanedd</i><par n="ann/u__n"/></e>
+    <e lm="piccicaneddu" r="LR"><p><l>pirricanedd</l><r>piccicanedd</r></p><par n="ann/u__n"/></e>
+    <e lm="picciliddu"><i>piccilidd</i><par n="ann/u__n"/></e>
+    <e lm="piccittu"><i>piccitt</i><par n="ann/u__n"/></e>
+    <e lm="pidamentu"><i>pidament</i><par n="ann/u__n"/></e>
+    <e lm="pidamentu" r="LR"><p><l>affidament</l><r>pidament</r></p><par n="ann/u__n"/></e>
+    <e lm="pidamentu" r="LR"><p><l>appidament</l><r>pidament</r></p><par n="ann/u__n"/></e>
+    <e lm="piddu"><i>pidd</i><par n="ann/u__n"/></e>
+    <e lm="pidunettu"><i>pidunett</i><par n="ann/u__n"/></e>
+    <e lm="pinneddu"><i>pinnedd</i><par n="ann/u__n"/></e>
+    <e lm="pirrichettu"><i>pirrichett</i><par n="ann/u__n"/></e>
+    <e lm="pisciteddu"><i>piscitedd</i><par n="ann/u__n"/></e>
+    <e lm="pisciteddu" r="LR"><p><l>piscitiedd</l><r>piscitedd</r></p><par n="ann/u__n"/></e>
+    <e lm="pitittu"><i>pititt</i><par n="ann/u__n"/></e>
+    <e lm="pivireddu"><i>piviredd</i><par n="ann/u__n"/></e>
+    <e lm="pizzeddu"><i>pizzedd</i><par n="ann/u__n"/></e>
+    <e lm="pizziddu"><i>pizzidd</i><par n="ann/u__n"/></e>
+    <e lm="projettu"><i>projett</i><par n="ann/u__n"/></e>
+    <e lm="projettu" r="LR"><p><l>proiett</l><r>projett</r></p><par n="ann/u__n"/></e>
+    <e lm="prusciuttu"><i>prusciutt</i><par n="ann/u__n"/></e>
+    <e lm="prusciuttu" r="LR"><p><l>prosciutt</l><r>prusciutt</r></p><par n="ann/u__n"/></e>
+    <e lm="prusciuttu" r="LR"><p><l>prusutt</l><r>prusciutt</r></p><par n="ann/u__n"/></e>
+    <e lm="prusciuttu" r="LR"><p><l>prisutt</l><r>prusciutt</r></p><par n="ann/u__n"/></e>
+    <e lm="pruduttu"><i>prudutt</i><par n="ann/u__n"/></e>
+    <e lm="pruduttu" r="LR"><p><l>produtt</l><r>prudutt</r></p><par n="ann/u__n"/></e>
+    <e lm="pruitteddu"><i>pruittedd</i><par n="ann/u__n"/></e>
+    <e lm="puddu"><i>pudd</i><par n="ann/u__n"/></e>
+    <e lm="pumettu"><i>pumett</i><par n="ann/u__n"/></e>
+    <e lm="puntareddu"><i>puntaredd</i><par n="ann/u__n"/></e>
+    <e lm="puntiddu"><i>puntidd</i><par n="ann/u__n"/></e>
+    <e lm="punzeddu"><i>punzedd</i><par n="ann/u__n"/></e>
+    <e lm="purceddu"><i>purcedd</i><par n="ann/u__n"/></e>
+    <e lm="purreddu"><i>purredd</i><par n="ann/u__n"/></e>
+    <e lm="purrettu"><i>purrett</i><par n="ann/u__n"/></e>
+    <e lm="puseddu"><i>pusedd</i><par n="ann/u__n"/></e>
+    <e lm="puddiddu"><i>puddidd</i><par n="ann/u__n"/></e>
+    <e lm="puddiddu" r="LR"><p><l>putridd</l><r>puddidd</r></p><par n="ann/u__n"/></e>
+    <e lm="quareddu"><i>quaredd</i><par n="ann/u__n"/></e>
+    <e lm="rialettu"><i>rialett</i><par n="ann/u__n"/></e>
+    <e lm="rispettu"><i>rispett</i><par n="ann/u__n"/></e>
+    <e lm="ruvettu"><i>ruvett</i><par n="ann/u__n"/></e>
+    <e lm="sciuscieddu"><i>sciusciedd</i><par n="ann/u__n"/></e>
+    <e lm="sciuscieddu" r="LR"><p><l>ciuciedd</l><r>sciusciedd</r></p><par n="ann/u__n"/></e>
+    <e lm="sciuscieddu" r="LR"><p><l>sciuscedd</l><r>sciusciedd</r></p><par n="ann/u__n"/></e>
+    <e lm="sciuscieddu" r="LR"><p><l>ciucedd</l><r>sciusciedd</r></p><par n="ann/u__n"/></e>
+    <e lm="soddu"><i>sodd</i><par n="ann/u__n"/></e>
+    <e lm="sparacieddu"><i>sparaciedd</i><par n="ann/u__n"/></e>
+    <e lm="stabbilimentu"><i>stabbiliment</i><par n="ann/u__n"/></e>
+    <e lm="stabbilimentu" r="LR"><p><l>stabiliment</l><r>stabbiliment</r></p><par n="ann/u__n"/></e>
+    <e lm="stringipettu"><i>stringipett</i><par n="ann/u__n"/></e>
+    <e lm="stringipettu" r="LR"><p><l>strincipett</l><r>stringipett</r></p><par n="ann/u__n"/></e>
+    <e lm="stringipettu"><i>stringipett</i><par n="ann/u__n"/></e>
+    <e lm="stringipettu" r="LR"><p><l>reggipett</l><r>stringipett</r></p><par n="ann/u__n"/></e>
+    <e lm="stuppateddu"><i>stuppatedd</i><par n="ann/u__n"/></e>
+    <e lm="stuppateddu" r="LR"><p><l>ntuppatedd</l><r>stuppatedd</r></p><par n="ann/u__n"/></e>
+    <e lm="taddu"><i>tadd</i><par n="ann/u__n"/></e>
+    <e lm="tammureddu"><i>tammuredd</i><par n="ann/u__n"/></e>
+    <e lm="tammureddu" r="LR"><p><l>tamburedd</l><r>tammuredd</r></p><par n="ann/u__n"/></e>
+    <e lm="torcicoddu"><i>torcicodd</i><par n="ann/u__n"/></e>
+    <e lm="vaccareddu"><i>vaccaredd</i><par n="ann/u__n"/></e>
+    <e lm="varvarottu"><i>varvarott</i><par n="ann/u__n"/></e>
+    <e lm="varvarottu" r="LR"><p><l>varbarott</l><r>varvarott</r></p><par n="ann/u__n"/></e>
+    <e lm="varvarottu" r="LR"><p><l>babbarott</l><r>varvarott</r></p><par n="ann/u__n"/></e>
+    <e lm="viteddu"><i>vitedd</i><par n="ann/u__n"/></e>
+    <e lm="viteddu" r="LR"><p><l>vutidd</l><r>vitedd</r></p><par n="ann/u__n"/></e>
+    <e lm="viteddu" r="LR"><p><l>vutedd</l><r>vitedd</r></p><par n="ann/u__n"/></e>
+
 
 
 
