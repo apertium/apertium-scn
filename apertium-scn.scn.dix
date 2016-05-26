@@ -2913,7 +2913,7 @@
     <e lm="regnu"><i>regn</i><par n="ann/u__n"/></e>
     <e lm="restu"><i>rest</i><par n="ann/u__n"/></e>
     <e lm="rifirimentu"><i>rifiriment</i><par n="ann/u__n"/></e>
-    <e lm="sangu"><i>sang</i><par n="ann/u__n"/></e>
+    <e lm="sangu"><i>sang</i><par n="parc/u__n"/></e>
     <e lm="santu"><i>sant</i><par n="nànn/u__n"/></e>
     <e lm="significatu"><i>significat</i><par n="ann/u__n"/></e>
     <e lm="signu"><i>sign</i><par n="ann/u__n"/></e>
@@ -3378,10 +3378,10 @@
     <e lm="baffu"><i>baff</i><par n="ann/u__n"/></e>
     <e lm="schifu"><i>schif</i><par n="ann/u__n"/></e>
     <e lm="tartufu"><i>tartuf</i><par n="ann/u__n"/></e>
-    <e lm="fangu"><i>fang</i><par n="ann/u__n"/></e>
-    <e lm="embargu"><i>embarg</i><par n="ann/u__n"/></e>
-    <e lm="arbergu"><i>arberg</i><par n="ann/u__n"/></e>
-    <e lm="dialugu"><i>dialug</i><par n="ann/u__n"/></e>
+    <e lm="fangu"><i>fang</i><par n="parc/u__n"/></e>
+    <e lm="embargu"><i>embarg</i><par n="parc/u__n"/></e>
+    <e lm="arbergu"><i>arberg</i><par n="parc/u__n"/></e>
+    <e lm="dialugu"><i>dialug</i><par n="parc/u__n"/></e>
     <e lm="ghiacciaiu"><i>ghiacciai</i><par n="tirritori/u__n"/></e>
     <e lm="dubbiu"><i>dubbi</i><par n="tirritori/u__n"/></e>
     <e lm="cambiu"><i>cambi</i><par n="tirritori/u__n"/></e>
@@ -9868,7 +9868,6 @@
     <e lm="samuanu"><i>samuan</i><par n="ann/u__n"/></e>
     <e lm="sartu"><i>sart</i><par n="ann/u__n"/></e>
     <e lm="sauru"><i>saur</i><par n="ann/u__n"/></e>
-    <e lm="sauru_niru"><i>sauru_nir</i><par n="ann/u__n"/></e>
     <e lm="sbirru"><i>sbirr</i><par n="ann/u__n"/></e>
     <e lm="scaru"><i>scar</i><par n="ann/u__n"/></e>
     <e lm="scasciazzu"><i>scasciazz</i><par n="ann/u__n"/></e>
@@ -11393,7 +11392,84 @@
     <e lm="viteddu" r="LR"><p><l>vutidd</l><r>vitedd</r></p><par n="ann/u__n"/></e>
     <e lm="viteddu" r="LR"><p><l>vutedd</l><r>vitedd</r></p><par n="ann/u__n"/></e>
 
-
+    <e lm="bursista"><i>bursist</i><par n="chitarrist/a__n"/></e>
+    <e lm="dintista"><i>dintist</i><par n="chitarrist/a__n"/></e>
+    <e lm="dintista" r="LR"><p><l>rintist</l><r>dintist</r></p><par n="chitarrist/a__n"/></e>
+    <e lm="prutagunista"><i>prutagunist</i><par n="chitarrist/a__n"/></e>
+    <e lm="prutagunista" r="LR"><p><l>protagunist</l><r>prutagunist</r></p><par n="chitarrist/a__n"/></e>
+    <e lm="arrusbigghiata"><i>arrusbigghiat</i><par n="pianet/a__n"/></e>
+    <e lm="arrusbigghiata" r="LR"><p><l>arrisbigliat</l><r>arrusbigghiat</r></p><par n="pianet/a__n"/></e>
+    <e lm="arrusbigghiata" r="LR"><p><l>arrisvigghiat</l><r>arrusbigghiat</r></p><par n="pianet/a__n"/></e>
+    <e lm="arrusbigghiata" r="LR"><p><l>arrisbigghiat</l><r>arrusbigghiat</r></p><par n="pianet/a__n"/></e>
+    <e lm="bislama"><i>bislam</i><par n="pianet/a__n"/></e>
+    <e lm="cianciuta"><i>cianciut</i><par n="pianet/a__n"/></e>
+    <e lm="cota"><i>cot</i><par n="pianet/a__n"/></e>
+    <e lm="cùrcuma"><i>cùrcum</i><par n="pianet/a__n"/></e>
+    <e lm="diploma"><i>diplom</i><par n="pianet/a__n"/></e>
+    <e lm="diproma"><i>diprom</i><par n="pianet/a__n"/></e>
+    <e lm="enimma"><i>enimm</i><par n="pianet/a__n"/></e>
+    <e lm="enimma" r="LR"><p><l>nnimm</l><r>enimm</r></p><par n="pianet/a__n"/></e>
+    <e lm="enimma" r="LR"><p><l>nimm</l><r>enimm</r></p><par n="pianet/a__n"/></e>
+    <e lm="enìgghima"><i>enìgghim</i><par n="pianet/a__n"/></e>
+    <e lm="mozzabbita"><i>mozzabbit</i><par n="pianet/a__n"/></e>
+    <e lm="pisci_spata"><i>pisci_spat</i><par n="pianet/a__n"/></e>
+    <e lm="puieta"><i>puiet</i><par n="pianet/a__n"/></e>
+    <e lm="vietnamita"><i>vietnamit</i><par n="pianet/a__n"/></e>
+    <e lm="àsima"><i>àsim</i><par n="pianet/a__n"/></e>
+    <e lm="àsima" r="LR"><p><l>àcim</l><r>àsim</r></p><par n="pianet/a__n"/></e>
+    <e lm="àsima" r="LR"><p><l>ànzim</l><r>àsim</r></p><par n="pianet/a__n"/></e>
+    <e lm="abbeggu"><i>abbegg</i><par n="parc/u__n"/></e>
+    <e lm="abbeggu" r="LR"><p><l>alberg</l><r>abbegg</r></p><par n="parc/u__n"/></e>
+    <e lm="abbeggu" r="LR"><p><l>abberg</l><r>abbegg</r></p><par n="parc/u__n"/></e>
+    <e lm="arcipèlagu"><i>arcipèlag</i><par n="parc/u__n"/></e>
+    <e lm="dragu"><i>drag</i><par n="parc/u__n"/></e>
+    <e lm="fagu"><i>fag</i><par n="parc/u__n"/></e>
+    <e lm="fiammingu"><i>fiamming</i><par n="parc/u__n"/></e>
+    <e lm="giallongu"><i>giallong</i><par n="parc/u__n"/></e>
+    <e lm="gurgu"><i>gurg</i><par n="parc/u__n"/></e>
+    <e lm="mpiegu"><i>mpieg</i><par n="parc/u__n"/></e>
+    <e lm="mpiegu" r="LR"><p><l>impieg</l><r>mpieg</r></p><par n="parc/u__n"/></e>
+    <e lm="mpiegu" r="LR"><p><l>mpeg</l><r>mpieg</r></p><par n="parc/u__n"/></e>
+    <e lm="jugu"><i>jug</i><par n="parc/u__n"/></e>
+    <e lm="jugu" r="LR"><p><l>iug</l><r>jug</r></p><par n="parc/u__n"/></e>
+    <e lm="jugu" r="LR"><p><l>giug</l><r>jug</r></p><par n="parc/u__n"/></e>
+    <e lm="lagu"><i>lag</i><par n="parc/u__n"/></e>
+    <e lm="macingu"><i>macing</i><par n="parc/u__n"/></e>
+    <e lm="margu"><i>marg</i><par n="parc/u__n"/></e>
+    <e lm="pèlagu"><i>pèlag</i><par n="parc/u__n"/></e>
+    <e lm="ringu"><i>ring</i><par n="parc/u__n"/></e>
+    <e lm="scigu"><i>scig</i><par n="parc/u__n"/></e>
+    <e lm="spagu"><i>spag</i><par n="parc/u__n"/></e>
+    <e lm="telugu"><i>telug</i><par n="parc/u__n"/></e>
+    <e lm="òbbrigu"><i>òbbrig</i><par n="parc/u__n"/></e>
+    <e lm="òbbrigu" r="LR"><p><l>òbblig</l><r>òbbrig</r></p><par n="parc/u__n"/></e>
+    
+    <e lm="abbilità"><i>abbilità</i><par n="matri__n"/></e>
+    <e lm="cità"><i>cità</i><par n="matri__n"/></e>
+    <e lm="cumunità"><i>cumunità</i><par n="matri__n"/></e>
+    <e lm="curiusità"><i>curiusità</i><par n="matri__n"/></e>
+    <e lm="curiusità" r="LR"><p><l>cusirità</l><r>curiusità</r></p><par n="matri__n"/></e>
+    <e lm="facurtà"><i>facurtà</i><par n="matri__n"/></e>
+    <e lm="fistiulità"><i>fistiulità</i><par n="matri__n"/></e>
+    <e lm="fistiulità" r="LR"><p><l>fistivulità</l><r>fistiulità</r></p><par n="matri__n"/></e>
+    <e lm="fistiulità" r="LR"><p><l>fistulità</l><r>fistiulità</r></p><par n="matri__n"/></e>
+    <e lm="ginirusità"><i>ginirusità</i><par n="matri__n"/></e>
+    <e lm="libbirtà"><i>libbirtà</i><par n="matri__n"/></e>
+    <e lm="nichità"><i>nichità</i><par n="matri__n"/></e>
+    <e lm="nvalidità"><i>nvalidità</i><par n="matri__n"/></e>
+    <e lm="omusissualità"><i>omusissualità</i><par n="matri__n"/></e>
+    <e lm="omusissualità" r="LR"><p><l>omosissualità</l><r>omusissualità</r></p><par n="matri__n"/></e>
+    <e lm="pietà"><i>pietà</i><par n="matri__n"/></e>
+    <e lm="pietà" r="LR"><p><l>piatà</l><r>pietà</r></p><par n="matri__n"/></e>
+    <e lm="pietà"><i>pietà</i><par n="matri__n"/></e>
+    <e lm="pietà" r="LR"><p><l>abilità</l><r>pietà</r></p><par n="matri__n"/></e>
+    <e lm="puvirtà"><i>puvirtà</i><par n="matri__n"/></e>
+    <e lm="umirtà"><i>umirtà</i><par n="matri__n"/></e>
+    <e lm="univirsità"><i>univirsità</i><par n="matri__n"/></e>
+    <e lm="varità"><i>varità</i><par n="matri__n"/></e>
+    <e lm="virità"><i>virità</i><par n="matri__n"/></e>
+    <e lm="virità" r="LR"><p><l>virtà</l><r>virità</r></p><par n="matri__n"/></e>
+    <e lm="vuluntà"><i>vuluntà</i><par n="matri__n"/></e>
 
 
     <!-- SECTION: Proper nouns -->
