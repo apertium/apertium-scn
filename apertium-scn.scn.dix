@@ -110,6 +110,11 @@
       	<e r="LR"><p><l>gi</l><r>j</r></p></e>
       	<e r="LR"><p><l>i</l><r>j</r></p></e>
     </pardef>
+    
+    <pardef n="j/i">
+      	<e><p><l>j</l><r>j</r></p></e>
+      	<e r="LR"><p><l>i</l><r>j</r></p></e>
+    </pardef>
 
     <pardef n="c/g">
       	<e><p><l>c</l><r>c</r></p></e>
@@ -5825,9 +5830,7 @@
     <e lm="giurana" r="LR"><p><l>cirann</l><r>giuran</r></p><par n="cas/a__n"/></e>
     <e lm="giurana" r="LR"><p><l>giurann</l><r>giuran</r></p><par n="cas/a__n"/></e>
     <e lm="giurana" r="LR"><p><l>giran</l><r>giuran</r></p><par n="cas/a__n"/></e>
-    <e lm="jurnata"><i>jurnat</i><par n="cas/a__n"/></e>
-    <e lm="jurnata" r="LR"><p><l>giurnat</l><r>jurnat</r></p><par n="cas/a__n"/></e>
-    <e lm="jurnata" r="LR"><p><l>iurnat</l><r>jurnat</r></p><par n="cas/a__n"/></e>
+    <e lm="jurnata"><par n="j/gi/i"/><i>urnat</i><par n="cas/a__n"/></e>
     <e lm="giustalisa"><i>giustalis</i><par n="cas/a__n"/></e>
     <e lm="giustalisa" r="LR"><p><l>giustulis</l><r>giustalis</r></p><par n="cas/a__n"/></e>
     <e lm="giàmmira"><i>giàmmir</i><par n="cas/a__n"/></e>
@@ -5904,10 +5907,8 @@
     <e lm="issara" r="LR"><p><l>ghissar</l><r>issar</r></p><par n="cas/a__n"/></e>
     <e lm="jittatura"><i>jittatur</i><par n="cas/a__n"/></e>
     <e lm="jittatura" r="LR"><p><l>ittatur</l><r>jittatur</r></p><par n="cas/a__n"/></e>
-    <e lm="jumenta"><i>jument</i><par n="cas/a__n"/></e>
-    <e lm="jumenta" r="LR"><p><l>iument</l><r>jument</r></p><par n="cas/a__n"/></e>
-    <e lm="junta"><i>junt</i><par n="cas/a__n"/></e>
-    <e lm="junta" r="LR"><p><l>iunt</l><r>junt</r></p><par n="cas/a__n"/></e>
+    <e lm="jumenta"><par n="j/i"/><i>ument</i><par n="cas/a__n"/></e>
+    <e lm="junta"><par n="j/i"/><i>unt</i><par n="cas/a__n"/></e>
     <e lm="jarda"><i>jard</i><par n="cas/a__n"/></e>
     <e lm="jestra"><i>jestr</i><par n="cas/a__n"/></e>
     <e lm="jestra" r="LR"><p><l>iestr</l><r>jestr</r></p><par n="cas/a__n"/></e>
@@ -6882,8 +6883,7 @@
     <e lm="iudiscu"><i>iudisc</i><par n="parc/u__n"/></e>
     <e lm="iudiscu" r="LR"><p><l>judisc</l><r>iudisc</r></p><par n="parc/u__n"/></e>
     <e lm="jencu"><i>jenc</i><par n="parc/u__n"/></e>
-    <e lm="juncu"><i>junc</i><par n="parc/u__n"/></e>
-    <e lm="juncu" r="LR"><p><l>iunc</l><r>junc</r></p><par n="parc/u__n"/></e>
+    <e lm="juncu"><par n="j/i"/><i>unc</i><par n="parc/u__n"/></e>
     <e lm="leccu"><i>lecc</i><par n="parc/u__n"/></e>
     <e lm="leccu" r="LR"><p><l>lec</l><r>lecc</r></p><par n="parc/u__n"/></e>
     <e lm="listincu"><i>listinc</i><par n="parc/u__n"/></e>
@@ -7902,8 +7902,7 @@
     <e lm="intrugghiu" r="LR"><p><l>ntrugghi</l><r>intrugghi</r></p><par n="tirritori/u__n"/></e>
     <e lm="isempiu"><i>isempi</i><par n="tirritori/u__n"/></e>
     <e lm="isempiu" r="LR"><p><l>sempi</l><r>isempi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="junciu"><i>junci</i><par n="tirritori/u__n"/></e>
-    <e lm="junciu" r="LR"><p><l>iunci</l><r>junci</r></p><par n="tirritori/u__n"/></e>
+    <e lm="junciu"><par n="j/i"/><i>unci</i><par n="tirritori/u__n"/></e>
     <e lm="lappiu"><i>lappi</i><par n="tirritori/u__n"/></e>
     <e lm="lappiu" r="LR"><p><l>alappi</l><r>lappi</r></p><par n="tirritori/u__n"/></e>
     <e lm="laurunchiu"><i>laurunchi</i><par n="tirritori/u__n"/></e>
@@ -9187,8 +9186,7 @@
     <e lm="giornu" r="LR"><p><l>ionn</l><r>giorn</r></p><par n="ann/u__n"/></e>
     <e lm="giornu" r="LR"><p><l>giurn</l><r>giorn</r></p><par n="ann/u__n"/></e>
     <e lm="giornu" r="LR"><p><l>ghiorn</l><r>giorn</r></p><par n="ann/u__n"/></e>
-    <e lm="jucaloru"><i>jucalor</i><par n="ann/u__n"/></e>
-    <e lm="jucaloru" r="LR"><p><l>iucalor</l><r>jucalor</r></p><par n="ann/u__n"/></e>
+    <e lm="jucaloru"><par n="j/i"/><i>ucalor</i><par n="ann/u__n"/></e>
     <e lm="junìparu"><i>junìpar</i><par n="ann/u__n"/></e>
     <e lm="junìparu" r="LR"><p><l>inìper</l><r>junìpar</r></p><par n="ann/u__n"/></e>
     <e lm="junìparu" r="LR"><p><l>janìpar</l><r>junìpar</r></p><par n="ann/u__n"/></e>
@@ -9197,8 +9195,7 @@
     <e lm="jurnataru" r="LR"><p><l>iurnalor</l><r>jurnatar</r></p><par n="ann/u__n"/></e>
     <e lm="jurnataru" r="LR"><p><l>iurnatar</l><r>jurnatar</r></p><par n="ann/u__n"/></e>
     <e lm="jurnataru" r="LR"><p><l>jurnalor</l><r>jurnatar</r></p><par n="ann/u__n"/></e>
-    <e lm="jussu"><i>juss</i><par n="ann/u__n"/></e>
-    <e lm="jussu" r="LR"><p><l>iuss</l><r>juss</r></p><par n="ann/u__n"/></e>
+    <e lm="jussu"><par n="j/i"/><i>uss</i><par n="ann/u__n"/></e>
     <e lm="gàmmaru"><i>gàmmar</i><par n="ann/u__n"/></e>
     <e lm="gàmmaru" r="LR"><p><l>jàmmur</l><r>gàmmar</r></p><par n="ann/u__n"/></e>
     <e lm="gàmmaru" r="LR"><p><l>iàmmar</l><r>gàmmar</r></p><par n="ann/u__n"/></e>
@@ -10616,9 +10613,7 @@
     <e lm="ginuvisi"><i>ginuvisi</i><par n="patri__n"/></e>
     <e lm="ginuvisi" r="LR"><p><l>ginuisi</l><r>ginuvisi</r></p><par n="patri__n"/></e>
     <e lm="giseri"><i>giseri</i><par n="patri__n"/></e>
-    <e lm="jucaturi"><i>jucaturi</i><par n="patri__n"/></e>
-    <e lm="jucaturi" r="LR"><p><l>giucaturi</l><r>jucaturi</r></p><par n="patri__n"/></e>
-    <e lm="jucaturi" r="LR"><p><l>iucaturi</l><r>jucaturi</r></p><par n="patri__n"/></e>
+    <e lm="jucaturi"><par n="j/gi/i"/><i>ucaturi</i><par n="patri__n"/></e>
     <e lm="giugali"><i>giugali</i><par n="patri__n"/></e>
     <e lm="gnignali"><i>gnignali</i><par n="patri__n"/></e>
     <e lm="gnucculuni"><i>gnucculuni</i><par n="patri__n"/></e>
@@ -10666,8 +10661,7 @@
     <e lm="iovi"><i>iovi</i><par n="patri__n"/></e>
     <e lm="iovi" r="LR"><p><l>juovi</l><r>iovi</r></p><par n="patri__n"/></e>
     <e lm="iovi" r="LR"><p><l>iuovi</l><r>iovi</r></p><par n="patri__n"/></e>
-    <e lm="jurnateri"><i>jurnateri</i><par n="patri__n"/></e>
-    <e lm="jurnateri" r="LR"><p><l>iurnateri</l><r>jurnateri</r></p><par n="patri__n"/></e>
+    <e lm="jurnateri"><par n="j/i"/><i>urnateri</i><par n="patri__n"/></e>
     <e lm="kanuri"><i>kanuri</i><par n="patri__n"/></e>
     <e lm="kashmiri"><i>kashmiri</i><par n="patri__n"/></e>
     <e lm="kawi"><i>kawi</i><par n="patri__n"/></e>
@@ -11447,9 +11441,7 @@
     <e lm="mpiegu"><i>mpieg</i><par n="parc/u__n"/></e>
     <e lm="mpiegu" r="LR"><p><l>impieg</l><r>mpieg</r></p><par n="parc/u__n"/></e>
     <e lm="mpiegu" r="LR"><p><l>mpeg</l><r>mpieg</r></p><par n="parc/u__n"/></e>
-    <e lm="jugu"><i>jug</i><par n="parc/u__n"/></e>
-    <e lm="jugu" r="LR"><p><l>iug</l><r>jug</r></p><par n="parc/u__n"/></e>
-    <e lm="jugu" r="LR"><p><l>giug</l><r>jug</r></p><par n="parc/u__n"/></e>
+    <e lm="jugu"><par n="j/gi/i"/><i>ug</i><par n="parc/u__n"/></e>
     <e lm="lagu"><i>lag</i><par n="parc/u__n"/></e>
     <e lm="macingu"><i>macing</i><par n="parc/u__n"/></e>
     <e lm="margu"><i>marg</i><par n="parc/u__n"/></e>
@@ -14450,8 +14442,7 @@
     <e lm="inìperu" r="LR"><p><l>junìper</l><r>inìper</r></p><par n="ann/u__n"/></e>
     <e lm="iolu"><i>iol</i><par n="ann/u__n"/></e>
     <e lm="iucaloru"><i>iucalor</i><par n="ann/u__n"/></e>
-    <e lm="jucàttulu"><i>jucàttul</i><par n="ann/u__n"/></e>
-    <e lm="jucàttulu" r="LR"><p><l>iucàttul</l><r>jucàttul</r></p><par n="ann/u__n"/></e>
+    <e lm="jucàttulu"><par n="j/i"/><i>ucàttul</i><par n="ann/u__n"/></e>
     <e lm="iumazzu"><i>iumazz</i><par n="ann/u__n"/></e>
     <e lm="iumazzu" r="LR"><p><l>chjumazz</l><r>iumazz</r></p><par n="ann/u__n"/></e>
     <e lm="iuncu"><i>iunc</i><par n="ann/u__n"/></e>
@@ -27702,11 +27693,8 @@
     <e lm="aggrancari"><i>aggranc</i><par n="manc/ari__vblex"/></e>
     <e lm="aggrancari" r="LR"><p><l>granc</l><r>aggranc</r></p><par n="manc/ari__vblex"/></e>
     <e lm="aggrancari" r="LR"><p><l>ngranc</l><r>aggranc</r></p><par n="manc/ari__vblex"/></e>
-    <e lm="judicari"><i>judic</i><par n="manc/ari__vblex"/></e>
-    <e lm="judicari" r="LR"><p><l>iudic</l><r>judic</r></p><par n="manc/ari__vblex"/></e>
-    <e lm="judicari" r="LR"><p><l>giudic</l><r>judic</r></p><par n="manc/ari__vblex"/></e>
-    <e lm="juncari"><i>junc</i><par n="manc/ari__vblex"/></e>
-    <e lm="juncari" r="LR"><p><l>iunc</l><r>junc</r></p><par n="manc/ari__vblex"/></e>
+    <e lm="judicari"><par n="j/gi/i"/><i>udic</i><par n="manc/ari__vblex"/></e>
+    <e lm="juncari"><par n="j/i"/><i>unc</i><par n="manc/ari__vblex"/></e>
     <e lm="madduccari"><i>madducc</i><par n="manc/ari__vblex"/></e>
     <e lm="madduccari" r="LR"><p><l>ammadducc</l><r>madducc</r></p><par n="manc/ari__vblex"/></e>
     <e lm="malanchicari"><i>malanchic</i><par n="manc/ari__vblex"/></e>
@@ -27936,8 +27924,7 @@
     <e lm="inciri" r="LR"><p><l>mmidd</l><r>inc</r></p><par n="batt/iri__vblex"/></e>
     <e lm="irasciri"><i>irasc</i><par n="batt/iri__vblex"/></e>
     <e lm="irghiri"><i>irgh</i><par n="batt/iri__vblex"/></e>
-    <e lm="junciri"><i>junc</i><par n="batt/iri__vblex"/></e>
-    <e lm="junciri" r="LR"><p><l>iunc</l><r>junc</r></p><par n="batt/iri__vblex"/></e>
+    <e lm="junciri"><par n="j/i"/><i>unc</i><par n="batt/iri__vblex"/></e>
     <e lm="essiri"><i>ess</i><par n="batt/iri__vblex"/></e>
     <e lm="essiri" r="LR"><p><l>jess</l><r>ess</r></p><par n="batt/iri__vblex"/></e>
     <e lm="essiri" r="LR"><p><l>iess</l><r>ess</r></p><par n="batt/iri__vblex"/></e>
@@ -28216,8 +28203,7 @@
     <e lm="iapriri" r="LR"><p><l>japr</l><r>iapr</r></p><par n="batt/iri__vblex"/></e>
     <e lm="inciri"><i>inc</i><par n="batt/iri__vblex"/></e>
     <e lm="irasciri"><i>irasc</i><par n="batt/iri__vblex"/></e>
-    <e lm="junciri"><i>junc</i><par n="batt/iri__vblex"/></e>
-    <e lm="junciri" r="LR"><p><l>iunc</l><r>junc</r></p><par n="batt/iri__vblex"/></e>
+    <e lm="junciri"><par n="j/i"/><i>unc</i><par n="batt/iri__vblex"/></e>
     <e lm="mmattiri"><i>mmatt</i><par n="batt/iri__vblex"/></e>
     <e lm="mmessiri"><i>mmess</i><par n="batt/iri__vblex"/></e>
     <e lm="moviri"><i>mov</i><par n="batt/iri__vblex"/></e>
