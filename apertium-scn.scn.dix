@@ -3064,7 +3064,8 @@
     <e lm="carrera"><i>carrer</i><par n="cas/a__n"/></e>
     <e lm="òpira"><i>òpir</i><par n="cas/a__n"/></e>
     <e lm="chitarra"><i>chitarr</i><par n="cas/a__n"/></e>
-    <e lm="nùmmura"><i>nùmmur</i><par n="cas/a__n"/></e>
+    <e lm="nùmmuru"><i>nùmmur</i><par n="foc/u__n"/></e>
+    <e lm="nùmmaru"><i>nùmmar</i><par n="foc/u__n"/></e>
     <e lm="jucatura"><i>jucatur</i><par n="cas/a__n"/></e>
     <e lm="natura"><i>natur</i><par n="cas/a__n"/></e>
     <e lm="littiratura"><i>littiratur</i><par n="cas/a__n"/></e>
@@ -3116,6 +3117,8 @@
     <e lm="pirsuna"><i>pirsun</i><par n="cas/a__n"/></e>
     <e lm="tèrmini"><i>tèrmini</i><par n="patri__n"/></e>
     <e lm="valuri"><i>valuri</i><par n="patri__n"/></e>
+    <e lm="cantuni"><i>cantun</i><par n="vettur/a__n"/></e>
+    <e lm="sulista"><i>sulist</i><par n="chitarrist/a__n"/></e>
     
 
 <!--    <e lm="pisci"><i>pisci</i><par n="@__n"/></e>-->
@@ -3123,7 +3126,6 @@
     <e lm="arma"><i>arm</i><par n="cas/a__n"/></e>
 <!--    <e lm="ciumi"><i>ciumi</i><par n="@__n"/></e>-->
 <!--    <e lm="umani"><i>umani</i><par n="@__n"/></e>-->
-<!--    <e lm="fìmmini"><i>fìmmini</i><par n="@__n"/></e>-->
 <!--    <e lm="òmini"><i>òmini</i><par n="@__n"/></e>-->
 <!--    <e lm="cantuni"><i>cantuni</i><par n="@__n"/></e>-->
     <e lm="culuri"><i>culuri</i><par n="patri__n"/></e>
@@ -4387,6 +4389,7 @@
     <e lm="saluni"><i>saluni</i><par n="patri__n"/></e>
     <e lm="palluni"><i>palluni</i><par n="patri__n"/></e>
     <e lm="cànuni"><i>cànuni</i><par n="patri__n"/></e>
+    <e lm="eroi"><i>eroi</i><par n="patri__n"/></e>
     <e lm="agnuni"><i>agnuni</i><par n="patri__n"/></e>
     <e lm="sapuni"><i>sapuni</i><par n="patri__n"/></e>
     <e lm="giappuni"><i>giappuni</i><par n="patri__n"/></e>
@@ -10616,7 +10619,7 @@
     <e lm="giganti" r="LR"><p><l>giaianti</l><r>giganti</r></p><par n="patri__n"/></e>
     <e lm="gilbirtisi"><i>gilbirtisi</i><par n="patri__n"/></e>
     <e lm="ginisi"><i>ginisi</i><par n="patri__n"/></e>
-    <e lm="ginituri"><i>ginituri</i><par n="patri__n"/></e>
+    <e lm="ginituri"><i>ginituri</i><par n="liun/i__n"/></e>
     <e lm="ginuvisi"><i>ginuvisi</i><par n="patri__n"/></e>
     <e lm="ginuvisi" r="LR"><p><l>ginuisi</l><r>ginuvisi</r></p><par n="patri__n"/></e>
     <e lm="giseri"><i>giseri</i><par n="patri__n"/></e>
@@ -16001,7 +16004,7 @@
     <e lm="spluratura"><i>spluratur</i><par n="cas/a__n"/></e>
     <e lm="dicollatura"><i>dicollatur</i><par n="cas/a__n"/></e>
     <e lm="jocura"><i>jocur</i><par n="cas/a__n"/></e>
-    <e lm="autura"><i>autur</i><par n="cas/a__n"/></e>
+    <e lm="auturi"><i>autur</i><par n="liun/i__n"/></e>
     <e lm="villiggiatura"><i>villiggiatur</i><par n="cas/a__n"/></e>
     <e lm="nvasura"><i>nvasur</i><par n="cas/a__n"/></e>
     <e lm="cunquistatura"><i>cunquistatur</i><par n="cas/a__n"/></e>
@@ -23134,7 +23137,6 @@
     <e lm="litteramenti"><i>litteramenti</i><par n="oggi__adv"/></e>
     <e lm="particularmenti"><i>particularmenti</i><par n="oggi__adv"/></e>
     <e lm="pirsunalmenti"><i>pirsunalmenti</i><par n="oggi__adv"/></e>
-    <e lm="cummattimenti"><i>cummattimenti</i><par n="oggi__adv"/></e>
     <e lm="ricintimenti"><i>ricintimenti</i><par n="oggi__adv"/></e>
     <e lm="gineticamenti"><i>gineticamenti</i><par n="oggi__adv"/></e>
     <e lm="nigativamenti"><i>nigativamenti</i><par n="oggi__adv"/></e>
@@ -23665,6 +23667,7 @@
     <!-- SECTION: Verbs -->
     
     <e lm="èssiri"><i></i><par n="/èssiri__vbser"/></e>
+    <e lm="essiri"><i></i><par n="/èssiri__vbser"/></e>
     <e lm="aviri"><i></i><par n="/aviri__vbhaver"/></e>
     <e lm="aviri"><i></i><par n="/aviri__vblex"/></e>
     <e lm="putiri"><i>p</i><par n="p/utiri__vbmod"/></e>
@@ -28027,9 +28030,7 @@
     <e lm="irasciri"><i>irasc</i><par n="batt/iri__vblex"/></e>
     <e lm="irghiri"><i>irgh</i><par n="batt/iri__vblex"/></e>
     <e lm="junciri"><par n="j/i"/><i>unc</i><par n="batt/iri__vblex"/></e>
-    <e lm="essiri"><i>ess</i><par n="batt/iri__vblex"/></e>
-    <e lm="essiri" r="LR"><p><l>jess</l><r>ess</r></p><par n="batt/iri__vblex"/></e>
-    <e lm="essiri" r="LR"><p><l>iess</l><r>ess</r></p><par n="batt/iri__vblex"/></e>
+
     <e lm="jinchiri"><i>jinch</i><par n="batt/iri__vblex"/></e>
     <e lm="jinchiri" r="LR"><p><l>inc</l><r>jinch</r></p><par n="batt/iri__vblex"/></e>
     <e lm="chiuiri"><i>chiu</i><par n="batt/iri__vblex"/></e>
