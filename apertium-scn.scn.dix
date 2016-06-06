@@ -545,13 +545,13 @@
       	<e><p><l>ia</l><r>ia<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
       	<e><p><l>i</l><r>ia<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
       	<e r="LR"><p><l>î</l><r>ia<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
-      	<e r="LR"><p><l>i</l><r>a<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+      	<e r="LR"><p><l>i</l><r>ia<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
     
     <pardef n="foc/u__n">
       	<e><p><l>u</l><r>u<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      	<e><p><l>u</l><r>a<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
-      	<e r="LR"><p><l>i</l><r>a<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+      	<e><p><l>a</l><r>u<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+      	<e r="LR"><p><l>i</l><r>u<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
     </pardef>
     
     <pardef n="corp/u__n">
@@ -568,7 +568,7 @@
     
     <pardef n="liun/i__n">
       	<e><p><l>i</l><r>i<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      	<e><p><l>i</l><r>a<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+      	<e><p><l>a</l><r>i<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
     
     <pardef n="libirtà__n">
@@ -7192,6 +7192,7 @@
     <e lm="bistemia"><i>bistem</i><par n="oricch/ia__n"/></e>
     <e lm="bracia"><i>brac</i><par n="oricch/ia__n"/></e>
     <e lm="broccia"><i>brocc</i><par n="oricch/ia__n"/></e>
+    <e lm="roccia"><i>rocc</i><par n="oricch/ia__n"/></e>
     <e lm="broscia"><i>brosc</i><par n="oricch/ia__n"/></e>
     <e lm="broscia" r="LR"><p><l>proc</l><r>brosc</r></p><par n="oricch/ia__n"/></e>
     <e lm="bruscia"><i>brusc</i><par n="oricch/ia__n"/></e>
@@ -16014,7 +16015,7 @@
     <e lm="cullittura"><i>cullittur</i><par n="cas/a__n"/></e>
     <e lm="usura"><i>usur</i><par n="cas/a__n"/></e>
     <e lm="chianura"><i>chianur</i><par n="cas/a__n"/></e>
-    <e lm="visitatura"><i>visitatur</i><par n="cas/a__n"/></e>
+    <e lm="visitaturi"><i>visitatur</i><par n="liun/i__n"/></e>
     <e lm="quatratura"><i>quatratur</i><par n="cas/a__n"/></e>
     <e lm="vinnitura"><i>vinnitur</i><par n="cas/a__n"/></e>
     <e lm="ancura"><i>ancur</i><par n="cas/a__n"/></e>
@@ -16113,11 +16114,11 @@
     <e lm="custruttura"><i>custruttur</i><par n="cas/a__n"/></e>
     <e lm="sapura"><i>sapur</i><par n="cas/a__n"/></e>
     <e lm="tempura"><i>tempur</i><par n="cas/a__n"/></e>
-    <e lm="vincitura"><i>vincitur</i><par n="cas/a__n"/></e>
+    <e lm="vincituri"><i>vincitur</i><par n="liun/i__n"/></e>
     <e lm="addura"><i>addur</i><par n="cas/a__n"/></e>
     <e lm="nòmura"><i>nòmur</i><par n="cas/a__n"/></e>
     <e lm="cintura"><i>cintur</i><par n="cas/a__n"/></e>
-    <e lm="gladiatura"><i>gladiatur</i><par n="cas/a__n"/></e>
+    <e lm="gladiaturi"><i>gladiatur</i><par n="liun/i__n"/></e>
     <e lm="sònura"><i>sònur</i><par n="cas/a__n"/></e>
     <e lm="parratura"><i>parratur</i><par n="cas/a__n"/></e>
     <e lm="ciuritura"><i>ciuritur</i><par n="cas/a__n"/></e>
