@@ -1125,6 +1125,9 @@
         <e><p><l>utìssimu</l><r>utiri<s n="vbmod"/><s n="pis"/><s n="p1"/><s n="pl"/></r></p></e>
         <e><p><l>utìssivu</l><r>utiri<s n="vbmod"/><s n="pis"/><s n="p2"/><s n="pl"/></r></p></e>
         <e><p><l>utìssiru</l><r>utiri<s n="vbmod"/><s n="pis"/><s n="p3"/><s n="pl"/></r></p></e>
+        
+
+        
     </pardef>
         
     <!-- @@@: COMPLETAR -->
@@ -1136,7 +1139,10 @@
       	<e><p><l>vai</l><r>jiri<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
       	<e><p><l>va</l><r>jiri<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
       	<e><p><l>jemu</l><r>jiri<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+      	<e r="LR"><p><l>iemu</l><r>jiri<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+      	<e r="LR"><p><l>emu</l><r>jiri<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
       	<e><p><l>jiti</l><r>jiri<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+      	<e r="LR"><p><l>iti</l><r>jiri<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
       	<e><p><l>vannu</l><r>jiri<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
 
       	<e><p><l>jeva</l><r>jiri<s n="vblex"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -1152,6 +1158,39 @@
       	<e><p><l>jìssimu</l><r>jiri<s n="vblex"/><s n="pis"/><s n="p1"/><s n="pl"/></r></p></e>
       	<e><p><l>jìssivu</l><r>jiri<s n="vblex"/><s n="pis"/><s n="p2"/><s n="pl"/></r></p></e>
       	<e><p><l>jìssiru</l><r>jiri<s n="vblex"/><s n="pis"/><s n="p3"/><s n="pl"/></r></p></e>
+      	
+    	<e><p><l>sta</l><r>jiri<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e r="LR"><p><l>staia</l><r>jiri<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="sg"/></r></p></e>
+    	<e><p><l>stassi</l><r>jiri<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
+    	<e><p><l>stamu</l><r>jiri<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+    	<e><p><l>stati</l><r>jiri<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>stanu</l><r>jiri<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
+
+    	<e><p><l>ia</l><r>jiri<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="sg"/></r></p></e>
+    	<e r="LR"><p><l>iava</l><r>jiri<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="sg"/></r></p></e>
+    	<e r="LR"><p><l>eva</l><r>jiri<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="sg"/></r></p></e>
+    	<e><p><l>ivi</l><r>jiri<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="sg"/></r></p></e>
+    	<e r="LR"><p><l>iavi</l><r>jiri<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="sg"/></r></p></e>
+    	<e r="LR"><p><l>evi</l><r>jiri<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="sg"/></r></p></e>
+		<e><p><l>ia</l><r>jiri<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
+    	<e r="LR"><p><l>iava</l><r>jiri<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
+    	<e r="LR"><p><l>eva</l><r>jiri<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
+    	<e r="LR"><p><l>jiu</l><r>jiri<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
+    	<e r="LR"><p><l>jiù</l><r>jiri<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
+    	
+    	<e><p><l>iamu</l><r>jiri<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="pl"/></r></p></e>
+    	<e r="LR"><p><l>iavamu</l><r>jiri<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="pl"/></r></p></e>
+    	<e r="LR"><p><l>evamu</l><r>jiri<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="pl"/></r></p></e>
+    	
+    	<e><p><l>iavu</l><r>jiri<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
+    	<e r="LR"><p><l>iavavu</l><r>jiri<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
+    	<e r="LR"><p><l>evavu</l><r>jiri<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
+    	
+    	<e><p><l>ianu</l><r>jiri<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
+    	<e r="LR"><p><l>iavanu</l><r>jiri<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
+    	<e r="LR"><p><l>evanu</l><r>jiri<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
+    	
+
 
 
     </pardef>
@@ -16129,7 +16168,7 @@
     <e lm="cacciatura"><i>cacciatur</i><par n="cas/a__n"/></e>
     <e lm="uppusitura"><i>uppusitur</i><par n="cas/a__n"/></e>
     <e lm="laura"><i>laur</i><par n="cas/a__n"/></e>
-    <e lm="viaggiatura"><i>viaggiatur</i><par n="cas/a__n"/></e>
+    <e lm="viaggiaturi"><i>viaggiatur</i><par n="liun/i__n"/></e>
     <e lm="elàbbura"><i>elàbbur</i><par n="cas/a__n"/></e>
     <e lm="vettura"><i>vettur</i><par n="vettur/a__n"/></e>
     <e lm="astura"><i>astur</i><par n="cas/a__n"/></e>
@@ -16341,7 +16380,6 @@
     <e lm="ignazziu"><i>ignazzi</i><par n="tirritori/u__n"/></e>
     <e lm="iniziu"><i>inizi</i><par n="tirritori/u__n"/></e>
     <e lm="iquilibbriu"><i>iquilibbri</i><par n="tirritori/u__n"/></e>
-    <e lm="jiu"><i>ji</i><par n="tirritori/u__n"/></e>
     <e lm="judizziu"><i>judizzi</i><par n="tirritori/u__n"/></e>
     <e lm="labboratoriu"><i>labboratori</i><par n="tirritori/u__n"/></e>
     <e lm="lazziu"><i>lazzi</i><par n="tirritori/u__n"/></e>
