@@ -503,8 +503,8 @@
     </pardef>
 
     <pardef n="monac/a__n">
-      	<e><p><l>a</l><r>a<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-      	<e><p><l>hi</l><r>a<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+      	<e><p><l>a</l><r>a<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+      	<e><p><l>hi</l><r>a<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
     
     <pardef n="culoni/a__n">
@@ -16157,13 +16157,11 @@
     <e lm="sònura"><i>sònur</i><par n="cas/a__n"/></e>
     <e lm="parratura"><i>parratur</i><par n="cas/a__n"/></e>
     <e lm="ciuritura"><i>ciuritur</i><par n="cas/a__n"/></e>
-    <e lm="piscatura"><i>piscatur</i><par n="cas/a__n"/></e>
     <e lm="divisura"><i>divisur</i><par n="cas/a__n"/></e>
     <e lm="numinclatura"><i>numinclatur</i><par n="cas/a__n"/></e>
     <e lm="hasekura"><i>hasekur</i><par n="cas/a__n"/></e>
     <e lm="cacciatura"><i>cacciatur</i><par n="cas/a__n"/></e>
     <e lm="uppusitura"><i>uppusitur</i><par n="cas/a__n"/></e>
-    <e lm="laura"><i>laur</i><par n="cas/a__n"/></e>
     <e lm="viaggiaturi"><i>viaggiatur</i><par n="liun/i__n"/></e>
     <e lm="elàbbura"><i>elàbbur</i><par n="cas/a__n"/></e>
     <e lm="vettura"><i>vettur</i><par n="vettur/a__n"/></e>
@@ -16264,7 +16262,6 @@
     <e lm="agghiunciu"><i>agghiunci</i><par n="tirritori/u__n"/></e>
     <e lm="ajacciu"><i>ajacci</i><par n="tirritori/u__n"/></e>
     <e lm="aleziu"><i>alezi</i><par n="tirritori/u__n"/></e>
-    <e lm="alfiu"><i>alfi</i><par n="tirritori/u__n"/></e>
     <e lm="ammiragghiu"><i>ammiragghi</i><par n="tirritori/u__n"/></e>
     <e lm="anastasiu"><i>anastasi</i><par n="tirritori/u__n"/></e>
     <e lm="anchiu"><i>anchi</i><par n="tirritori/u__n"/></e>
@@ -16299,7 +16296,6 @@
     <e lm="calindariu"><i>calindari</i><par n="tirritori/u__n"/></e>
     <e lm="canciu"><i>canci</i><par n="tirritori/u__n"/></e>
     <e lm="caravaggiu"><i>caravaggi</i><par n="tirritori/u__n"/></e>
-    <e lm="cartesiu"><i>cartesi</i><par n="tirritori/u__n"/></e>
     <e lm="carvoniu"><i>carvoni</i><par n="tirritori/u__n"/></e>
     <e lm="casalvecchiu"><i>casalvecchi</i><par n="tirritori/u__n"/></e>
     <e lm="castellucciu"><i>castellucci</i><par n="tirritori/u__n"/></e>
@@ -16329,11 +16325,8 @@
     <e lm="cunvogghiu"><i>cunvogghi</i><par n="tirritori/u__n"/></e>
     <e lm="cunzirvatoriu"><i>cunzirvatori</i><par n="tirritori/u__n"/></e>
     <e lm="custruiu"><i>custrui</i><par n="tirritori/u__n"/></e>
-    <e lm="danubbiu"><i>danubbi</i><par n="tirritori/u__n"/></e>
     <e lm="dariu"><i>dari</i><par n="tirritori/u__n"/></e>
     <e lm="decenniu"><i>decenni</i><par n="tirritori/u__n"/></e>
-    <e lm="deciu"><i>deci</i><par n="tirritori/u__n"/></e>
-    <e lm="demetriu"><i>demetri</i><par n="tirritori/u__n"/></e>
     <e lm="dicenniu"><i>dicenni</i><par n="tirritori/u__n"/></e>
     <e lm="dificiu"><i>difici</i><par n="tirritori/u__n"/></e>
     <e lm="dimaniu"><i>dimani</i><par n="tirritori/u__n"/></e>
@@ -16367,28 +16360,20 @@
     <e lm="giorgiu"><i>giorgi</i><par n="tirritori/u__n"/></e>
     <e lm="giuliu"><i>giuli</i><par n="tirritori/u__n"/></e>
     <e lm="glucosiu"><i>glucosi</i><par n="tirritori/u__n"/></e>
-    <e lm="gnazziu"><i>gnazzi</i><par n="tirritori/u__n"/></e>
-    <e lm="gregoriu"><i>gregori</i><par n="tirritori/u__n"/></e>
-    <e lm="grigoriu"><i>grigori</i><par n="tirritori/u__n"/></e>
-    <e lm="haiu"><i>hai</i><par n="tirritori/u__n"/></e>
-    <e lm="ignazziu"><i>ignazzi</i><par n="tirritori/u__n"/></e>
     <e lm="iniziu"><i>inizi</i><par n="tirritori/u__n"/></e>
     <e lm="iquilibbriu"><i>iquilibbri</i><par n="tirritori/u__n"/></e>
     <e lm="judizziu"><i>judizzi</i><par n="tirritori/u__n"/></e>
     <e lm="labboratoriu"><i>labboratori</i><par n="tirritori/u__n"/></e>
     <e lm="lazziu"><i>lazzi</i><par n="tirritori/u__n"/></e>
     <e lm="linguàggiu"><i>linguàggi</i><par n="tirritori/u__n"/></e>
-    <e lm="littirariu"><i>littirari</i><par n="tirritori/u__n"/></e>
     <e lm="liviu"><i>livi</i><par n="tirritori/u__n"/></e>
     <e lm="lotariu"><i>lotari</i><par n="tirritori/u__n"/></e>
     <e lm="lutariu"><i>lutari</i><par n="tirritori/u__n"/></e>
     <e lm="manliu"><i>manli</i><par n="tirritori/u__n"/></e>
     <e lm="marchiu"><i>marchi</i><par n="tirritori/u__n"/></e>
-    <e lm="mariu"><i>mari</i><par n="tirritori/u__n"/></e>
     <e lm="martiriu"><i>martiri</i><par n="tirritori/u__n"/></e>
     <e lm="martirulogiu"><i>martirulogi</i><par n="tirritori/u__n"/></e>
     <e lm="martogliu"><i>martogli</i><par n="tirritori/u__n"/></e>
-    <e lm="marùggiu"><i>marùggi</i><par n="tirritori/u__n"/></e>
     <e lm="massicciu"><i>massicci</i><par n="tirritori/u__n"/></e>
     <e lm="mbrogghiu"><i>mbrogghi</i><par n="tirritori/u__n"/></e>
 
@@ -16428,12 +16413,9 @@
     <e lm="ozziu"><i>ozzi</i><par n="tirritori/u__n"/></e>
     <e lm="paisaggiu"><i>paisaggi</i><par n="tirritori/u__n"/></e>
     <e lm="paliu"><i>pali</i><par n="tirritori/u__n"/></e>
-    <e lm="pancraziu"><i>pancrazi</i><par n="tirritori/u__n"/></e>
-    <e lm="partiu"><i>parti</i><par n="tirritori/u__n"/></e>
     <e lm="patrimoniu"><i>patrimoni</i><par n="tirritori/u__n"/></e>
     <e lm="patrizziu"><i>patrizzi</i><par n="tirritori/u__n"/></e>
     <e lm="patrizziu" r="LR"><p><l>patrizi</l><r>patrizzi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="peggiu"><i>peggi</i><par n="tirritori/u__n"/></e>
     <e lm="petroliu"><i>petroli</i><par n="tirritori/u__n"/></e>
     <e lm="pilligrinaggiu"><i>pilligrinaggi</i><par n="tirritori/u__n"/></e>
     <e lm="piumaggiu"><i>piumaggi</i><par n="tirritori/u__n"/></e>
@@ -16499,8 +16481,6 @@
     <e lm="vantaggiu"><i>vantaggi</i><par n="tirritori/u__n"/></e>
     <e lm="vicariu"><i>vicari</i><par n="tirritori/u__n"/></e>
     <e lm="vucabulariu" r="LR"><p><l>vocabolari</l><r>vucabulari</r></p><par n="tirritori/u__n"/></e>
-    <e lm="vogghiu"><i>vogghi</i><par n="tirritori/u__n"/></e>
-    <e lm="vìdiu"><i>vìdi</i><par n="tirritori/u__n"/></e>
     
     <e lm="agnosticismu"><i>agnosticism</i><par n="sucialism/u__n"/></e>
     <e lm="agnosticismu" r="LR"><p><l>gnosticism</l><r>agnosticism</r></p><par n="sucialism/u__n"/></e>
@@ -16730,6 +16710,26 @@
     <e lm="Enricu"><i>Enricu</i><par n="Jaime__np"/></e>
     <e lm="Federicu"><i>Federicu</i><par n="Jaime__np"/></e>
     <e lm="Luduvicu"><i>Luduvicu</i><par n="Jaime__np"/></e>
+    <e lm="Pancraziu"><i>Pancraziu</i><par n="Jaime__np"/></e>
+    <e lm="Alfiu"><i>Alfiu</i><par n="Jaime__np"/></e>
+    <e lm="Silviu"><i>Silviu</i><par n="Jaime__np"/></e>
+    <e lm="Fidiricu"><i>Fidiricu</i><par n="Jaime__np"/></e>
+    <e lm="Grigoriu"><i>Grigoriu</i><par n="Jaime__np"/></e>
+    <e lm="Onoriu"><i>Onoriu</i><par n="Jaime__np"/></e>
+    <e lm="Giorgiu"><i>Giorgiu</i><par n="Jaime__np"/></e>
+    <e lm="Antoniu"><i>Antoniu</i><par n="Jaime__np"/></e>
+    <e lm="Mariu"><i>Mariu</i><par n="Jaime__np"/></e>
+    <e lm="Enricu"><i>Enricu</i><par n="Jaime__np"/></e>
+    <e lm="Annibbali"><i>Annibbali</i><par n="Jaime__np"/></e>
+    <e lm="Giuliu"><i>Giuliu</i><par n="Jaime__np"/></e>
+    <e lm="Eugeniu"><i>Eugeniu</i><par n="Jaime__np"/></e>
+    <e lm="Bonifaciu"><i>Bonifaciu</i><par n="Jaime__np"/></e>
+    <e lm="Basiliu"><i>Basiliu</i><par n="Jaime__np"/></e>
+    <e lm="Gnazziu"><i>Gnazziu</i><par n="Jaime__np"/></e>
+    <e lm="Ignazziu"><i>Gnazziu</i><par n="Jaime__np"/></e>   
+    <e lm="Claudiu"><i>Claudiu</i><par n="Jaime__np"/></e>
+    <e lm="Dariu"><i>Dariu</i><par n="Jaime__np"/></e>
+    
 
     <e lm="Alba"><i>Alba</i><par n="María__np"/></e>
     <e lm="Monica"><i>Monica</i><par n="María__np"/></e>
@@ -16864,6 +16864,8 @@
     <e lm="Kelly"><i>Kelly</i><par n="María__np"/></e>
     <e lm="Hillary"><i>Hillary</i><par n="María__np"/></e>
     <e lm="Mary"><i>Mary</i><par n="María__np"/></e>
+    
+    <e lm="Demetriu"><i>Demetriu</i><par n="Jaime__np"/></e>
 
     <e lm="Luca"><i>Luca</i><par n="Jaime__np"/></e>
     <e lm="Gianluca"><i>Gianluca</i><par n="Jaime__np"/></e>
@@ -17203,6 +17205,9 @@
     <e lm="Binidittu"><i>Binidittu</i><par n="Jaime__np"/></e>
     <e lm="Filippu"><i>Filippu</i><par n="Jaime__np"/></e>
     <e lm="Pietru"><i>Pietru</i><par n="Jaime__np"/></e>
+    <e lm="Marziu"><i>Marziu</i><par n="Jaime__np"/></e>
+    
+    
     
     <e lm="Servio Tulliu"><i>Servio<b/>Tulliu</i><par n="Jaime__np"/></e>
     <e lm="Remu"><i>Remu</i><par n="Jaime__np"/></e>
@@ -17212,6 +17217,7 @@
     <e lm="Ancu Marziu"><i>Ancu<b/>Marziu</i><par n="Jaime__np"/></e>
     <e lm="Tarquiniu Priscu"><i>Tarquiniu<b/>Priscu</i><par n="Jaime__np"/></e>
     <e lm="Tulliu"><i>Tulliu</i><par n="Jaime__np"/></e>
+    <e lm="Deciu"><i>Deciu</i><par n="Jaime__np"/></e>
 
 
     <e lm="Novosibirsk"><i>Novosibirsk</i><par n="Sicilia__np"/></e>
@@ -17426,6 +17432,7 @@
     <e lm="Delfi"><i>Delfi</i><par n="Sicilia__np"/></e>
     <e lm="Detroit"><i>Detroit</i><par n="Sicilia__np"/></e>
     <e lm="Doha"><i>Doha</i><par n="Sicilia__np"/></e>
+    <e lm="Danubbiu"><i>Danubbiu</i><par n="Sicilia__np"/></e>
     <e lm="Dominica"><i>Dominica</i><par n="Sicilia__np"/></e>
     <e lm="Doubs"><i>Doubs</i><par n="Sicilia__np"/></e>
     <e lm="Dresda"><i>Dresda</i><par n="Sicilia__np"/></e>
@@ -20406,6 +20413,7 @@
     <e lm="lariu"><i>lar</i><par n="lar/iu__adj"/></e>
     <e lm="binariu"><i>binar</i><par n="lar/iu__adj"/></e>
     <e lm="scrittoriu"><i>scrittor</i><par n="lar/iu__adj"/></e>
+    <e lm="littirariu"><i>littirar</i><par n="lar/iu__adj"/></e>
     
     <e lm="malu"><i>mal</i><par n="bedd/u__adj"/></e>
     <e lm="direttu"><i>dirett</i><par n="bedd/u__adj"/></e>
@@ -23435,7 +23443,6 @@
     <e lm="prupriamenti"><i>prupriamenti</i><par n="oggi__adv"/></e>
     <e lm="esclusivamenti"><i>esclusivamenti</i><par n="oggi__adv"/></e>
     <e lm="automaticamenti"><i>automaticamenti</i><par n="oggi__adv"/></e>
-    <e lm="fistiggiamenti"><i>fistiggiamenti</i><par n="oggi__adv"/></e>
     <e lm="cuntimpuraniamenti"><i>cuntimpuraniamenti</i><par n="oggi__adv"/></e>
     <e lm="tiuricamenti"><i>tiuricamenti</i><par n="oggi__adv"/></e>
     <e lm="sfurtunatamenti"><i>sfurtunatamenti</i><par n="oggi__adv"/></e>
@@ -23686,6 +23693,7 @@
     <e lm="p'asempiu" r="LR"><p><l>pi<b/>asempiu</l><r>p'asempiu</r></p><par n="oggi__adv"/></e>
     <e lm="p'asempiu" r="LR"><p><l>p'esempiu</l><r>p'asempiu</r></p><par n="oggi__adv"/></e>
 	<e lm="ovannu"><i>ovannu</i><par n="oggi__adv"/></e> 
+	<e lm="peggiu"><i>peggiu</i><par n="oggi__adv"/></e> 
 
 
         
