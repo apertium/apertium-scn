@@ -10946,6 +10946,8 @@
     <e lm="pittinali"><i>pittinali</i><par n="patri__n"/></e>
     <e lm="pizzicuni"><i>pizzicuni</i><par n="patri__n"/></e>
     <e lm="plurali"><i>plurali</i><par n="patri__n"/></e>
+    <e lm="prurali" r="LR"><p><l>prurari</l><r>prurali</r></p><par n="patri__n"/></e>
+    
     <e lm="prudi"><i>prudi</i><par n="patri__n"/></e>
     <e lm="prudi" r="LR"><p><l>bomprudi</l><r>prudi</r></p><par n="patri__n"/></e>
     <e lm="prunami"><i>prunami</i><par n="patri__n"/></e>
@@ -20400,6 +20402,9 @@
     <e lm="Wikipedia" r="LR"><p><l>wikipedia</l><r>Wikipedia</r></p><par n="Wikipedia__np"/></e>
     <e lm="Vichipedia"><i>Vichipedia</i><par n="Wikipedia__np"/></e>
     <e lm="Firefox"><i>Firefox</i><par n="Wikipedia__np"/></e>
+    
+    <e lm="Partinicu"><i>Partinicu</i><par n="Sicilia__np"/></e>
+    
 
     <!-- SECTION: Adjectives -->
     
@@ -21720,7 +21725,6 @@
     <e lm="fintizzu"><i>fintizz</i><par n="bedd/u__adj"/></e>
     <e lm="firringhiddu"><i>firringhidd</i><par n="bedd/u__adj"/></e>
     <e lm="firringhiddu" r="LR"><p><l>firrinchidd</l><r>firringhidd</r></p><par n="bedd/u__adj"/></e>
-    <e lm="fodutu"><i>fodut</i><par n="bedd/u__adj"/></e>
     <e lm="forbannitu"><i>forbannit</i><par n="bedd/u__adj"/></e>
     <e lm="frattariusu"><i>frattarius</i><par n="bedd/u__adj"/></e>
     <e lm="frattariusu" r="LR"><p><l>frattariddus</l><r>frattarius</r></p><par n="bedd/u__adj"/></e>
@@ -21951,7 +21955,6 @@
     <e lm="nfurniciatu"><i>nfurniciat</i><par n="bedd/u__adj"/></e>
     <e lm="nfutu"><i>nfut</i><par n="bedd/u__adj"/></e>
     <e lm="ngagghiunatu"><i>ngagghiunat</i><par n="bedd/u__adj"/></e>
-    <e lm="ngallunatu"><i>ngallunat</i><par n="bedd/u__adj"/></e>
     <e lm="ngazzariatu"><i>ngazzariat</i><par n="bedd/u__adj"/></e>
     <e lm="nghiòngaru"><i>nghiòngar</i><par n="bedd/u__adj"/></e>
     <e lm="ngrannusu"><i>ngrannus</i><par n="bedd/u__adj"/></e>
@@ -22527,7 +22530,6 @@
     <e lm="pacìficu"><i>pacìfic</i><par n="magnètic/u__adj"/></e>
     <e lm="pacìficu" r="LR"><p><l>pacific</l><r>pacìfic</r></p><par n="magnètic/u__adj"/></e>
     <e lm="palicu"><i>palic</i><par n="magnètic/u__adj"/></e>
-    <e lm="partinicu"><i>partinic</i><par n="magnètic/u__adj"/></e>
     <e lm="piriòdicu"><i>piriòdic</i><par n="magnètic/u__adj"/></e>
     <e lm="platònicu"><i>platònic</i><par n="magnètic/u__adj"/></e>
     <e lm="politecnicu"><i>politecnic</i><par n="magnètic/u__adj"/></e>
@@ -22666,7 +22668,6 @@
     <e lm="fatturiali"><i>fatturiali</i><par n="duci__adj"/></e>
     <e lm="federali"><i>federali</i><par n="duci__adj"/></e>
     <e lm="feudali"><i>feudali</i><par n="duci__adj"/></e>
-    <e lm="fimurali"><i>fimurali</i><par n="duci__adj"/></e>
     <e lm="fluviali"><i>fluviali</i><par n="duci__adj"/></e>
     <e lm="frattali"><i>frattali</i><par n="duci__adj"/></e>
     <e lm="fruntali"><i>fruntali</i><par n="duci__adj"/></e>
