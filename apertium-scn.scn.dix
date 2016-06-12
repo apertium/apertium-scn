@@ -3917,6 +3917,7 @@
     <e lm="gioluggìa"><i>gioluggì</i><par n="cas/a__n"/></e>
     <e lm="etimoluggìa"><i>etimoluggì</i><par n="cas/a__n"/></e>
     <e lm="fonoluggìa"><i>fonoluggì</i><par n="cas/a__n"/></e>
+    <e lm="polu"><i>pol</i><par n="ann/u__n"/></e>
     <e lm="apoluggìa"><i>apoluggì</i><par n="cas/a__n"/></e>
     <e lm="antropoluggìa"><i>antropoluggì</i><par n="cas/a__n"/></e>
     <e lm="topoluggìa"><i>topoluggì</i><par n="cas/a__n"/></e>
@@ -16707,6 +16708,9 @@
     <e lm="appartinenza"><i>appartinenz</i><par n="cas/a__n"/></e>
     <e lm="allittratu"><i>allittrat</i><par n="ann/u__n"/></e>
     <e lm="schelitru"><i>schelitr</i><par n="ann/u__n"/></e>
+    <e lm="carusu"><i>carus</i><par n="ann/u__n"/></e>
+    <e lm="dursali"><i>dursali</i><par n="patri__n"/></e>
+
 
     
     
@@ -20195,7 +20199,6 @@
     <e lm="Pirandellu"><i>Pirandellu</i><par n="Rosenburg__np"/></e>
     <e lm="Pitrè"><i>Pitrè</i><par n="Rosenburg__np"/></e>
     <e lm="Plantagenetu"><i>Plantagenetu</i><par n="Rosenburg__np"/></e>
-    <e lm="Polu"><i>Polu</i><par n="Rosenburg__np"/></e>
     <e lm="Porchia"><i>Porchia</i><par n="Rosenburg__np"/></e>
     <e lm="Pratt"><i>Pratt</i><par n="Rosenburg__np"/></e>
     <e lm="Prestigiacumu"><i>Prestigiacumu</i><par n="Rosenburg__np"/></e>
@@ -20237,7 +20240,6 @@
     <e lm="Schumann"><i>Schumann</i><par n="Rosenburg__np"/></e>
     <e lm="Scianna"><i>Scianna</i><par n="Rosenburg__np"/></e>
     <e lm="Scurto"><i>Scurto</i><par n="Rosenburg__np"/></e>
-    <e lm="Sèttimu"><i>Sèttimu</i><par n="Rosenburg__np"/></e>
     <e lm="Sgrena"><i>Sgrena</i><par n="Rosenburg__np"/></e>
     <e lm="Shakespeare"><i>Shakespeare</i><par n="Rosenburg__np"/></e>
     <e lm="Shelley"><i>Shelley</i><par n="Rosenburg__np"/></e>
@@ -21071,7 +21073,6 @@
     <e lm="struppiatu"><i>struppiat</i><par n="bedd/u__adj"/></e>
     <e lm="trùbbulu"><i>trùbbul</i><par n="bedd/u__adj"/></e>
     <e lm="ubbitu"><i>ubbit</i><par n="bedd/u__adj"/></e>
-    <e lm="vinirannu"><i>vinirann</i><par n="bedd/u__adj"/></e>
     <e lm="animatu"><i>animat</i><par n="bedd/u__adj"/></e>
     <e lm="astrattu"><i>astratt</i><par n="bedd/u__adj"/></e>
 
@@ -21500,7 +21501,6 @@
     <e lm="ancunu" r="LR"><p><l>accun</l><r>ancun</r></p><par n="bedd/u__adj"/></e>
     <e lm="ancunu" r="LR"><p><l>alicun</l><r>ancun</r></p><par n="bedd/u__adj"/></e>
     <e lm="ancunu" r="LR"><p><l>alcun</l><r>ancun</r></p><par n="bedd/u__adj"/></e>
-    <e lm="addicatu"><i>addicat</i><par n="bedd/u__adj"/></e>
     <e lm="adugghiatu"><i>adugghiat</i><par n="bedd/u__adj"/></e>
     <e lm="affaratu"><i>affarat</i><par n="bedd/u__adj"/></e>
     <e lm="affrattariatu"><i>affrattariat</i><par n="bedd/u__adj"/></e>
@@ -21686,7 +21686,6 @@
     <e lm="ciurusu" r="LR"><p><l>cirus</l><r>ciurus</r></p><par n="bedd/u__adj"/></e>
     <e lm="ciòciaru"><i>ciòciar</i><par n="bedd/u__adj"/></e>
     <e lm="crettu"><i>crett</i><par n="bedd/u__adj"/></e>
-    <e lm="cripatu"><i>cripat</i><par n="bedd/u__adj"/></e>
     <e lm="crittu"><i>critt</i><par n="bedd/u__adj"/></e>
     <e lm="cruru"><i>crur</i><par n="bedd/u__adj"/></e>
     <e lm="cucurugnatu"><i>cucurugnat</i><par n="bedd/u__adj"/></e>
@@ -21697,7 +21696,6 @@
     <e lm="cutrognu"><i>cutrogn</i><par n="bedd/u__adj"/></e>
     <e lm="cuttiatu"><i>cuttiat</i><par n="bedd/u__adj"/></e>
     <e lm="cutturiusu"><i>cutturius</i><par n="bedd/u__adj"/></e>
-    <e lm="cutupinu"><i>cutupin</i><par n="bedd/u__adj"/></e>
     <e lm="càfaru"><i>càfar</i><par n="bedd/u__adj"/></e>
     <e lm="càfaru" r="LR"><p><l>càfur</l><r>càfar</r></p><par n="bedd/u__adj"/></e>
     <e lm="càvudu"><i>càvud</i><par n="bedd/u__adj"/></e>
@@ -21837,7 +21835,6 @@
     <e lm="lianu" r="LR"><p><l>lien</l><r>lian</r></p><par n="bedd/u__adj"/></e>
     <e lm="licchiabbunnu"><i>licchiabbunn</i><par n="bedd/u__adj"/></e>
     <e lm="ligìtimu"><i>ligìtim</i><par n="bedd/u__adj"/></e>
-    <e lm="lingutu"><i>lingut</i><par n="bedd/u__adj"/></e>
     <e lm="lintu"><i>lint</i><par n="bedd/u__adj"/></e>
     <e lm="lintu" r="LR"><p><l>linn</l><r>lint</r></p><par n="bedd/u__adj"/></e>
     <e lm="ludatu"><i>ludat</i><par n="bedd/u__adj"/></e>
@@ -21891,7 +21888,6 @@
     <e lm="mmillittatu"><i>mmillittat</i><par n="bedd/u__adj"/></e>
     <e lm="mmillittatu" r="LR"><p><l>ammillittat</l><r>mmillittat</r></p><par n="bedd/u__adj"/></e>
     <e lm="mmisiatu"><i>mmisiat</i><par n="bedd/u__adj"/></e>
-    <e lm="mmrignatu"><i>mmrignat</i><par n="bedd/u__adj"/></e>
     <e lm="ammucciatu"><i>ammucciat</i><par n="bedd/u__adj"/></e>
     <e lm="ammucciatu" r="LR"><p><l>mmucciat</l><r>ammucciat</r></p><par n="bedd/u__adj"/></e>
     <e lm="morfitu"><i>morfit</i><par n="bedd/u__adj"/></e>
@@ -22657,7 +22653,6 @@
     <e lm="dimaniali"><i>dimaniali</i><par n="duci__adj"/></e>
     <e lm="dittaturiali"><i>dittaturiali</i><par n="duci__adj"/></e>
     <e lm="ducali"><i>ducali</i><par n="duci__adj"/></e>
-    <e lm="dursali"><i>dursali</i><par n="duci__adj"/></e>
     <e lm="eccizziunali"><i>eccizziunali</i><par n="duci__adj"/></e>
     <e lm="eccizziunali" r="LR"><p><l>eccezziunali</l><r>eccizziunali</r></p><par n="duci__adj"/></e>
     <e lm="edituriali"><i>edituriali</i><par n="duci__adj"/></e>
@@ -22930,7 +22925,6 @@
     <e lm="viggitativu"><i>viggitativ</i><par n="bedd/u__adj"/></e>
     <e lm="virìssivu"><i>virìssiv</i><par n="bedd/u__adj"/></e>
     <e lm="visivu"><i>visiv</i><par n="bedd/u__adj"/></e>
-    <e lm="vulìstivu"><i>vulìstiv</i><par n="bedd/u__adj"/></e>
     <e lm="àttivu"><i>àttiv</i><par n="bedd/u__adj"/></e>
     <e lm="tirchiu"><i>tirch</i><par n="lar/iu__adj"/></e>
     <e lm="furzivu"><i>furziv</i><par n="bedd/u__adj"/></e>
@@ -23038,7 +23032,7 @@
     <e lm="sempri" r="LR"><p><l>sempre</l><r>sempri</r></p><par n="oggi__adv"/></e>
     <e lm="no"><i>no</i><par n="oggi__adv"/></e>
     <e lm="granni"><i>granni</i><par n="oggi__adv"/></e>
-    <e lm="fuori"><i>fuori</i><par n="assai__preadv"/></e>
+    <e lm="fuori"><i>fuori</i><par n="oggi__adv"/></e>
     <e lm="cchiù"><i>cchiù</i><par n="oggi__adv"/></e>
     <e lm="cchiù" r="LR"><p><l>chiù</l><r>cchiù</r></p><par n="oggi__adv"/></e>
     <e lm="cchiù" r="LR"><p><l>ciù</l><r>cchiù</r></p><par n="oggi__adv"/></e>
@@ -28581,6 +28575,8 @@
     <e lm="cunfunniri"><i>cunfunn</i><par n="batt/iri__vblex"/></e>
     <e lm="cunfunniri" r="LR"><p><l>cunfùnn</l><r>cunfunn</r></p><par n="batt/iri__vblex"/></e>
     <e lm="adugghiari"><i>adugghi</i><par n="parr/ari__vblex"/></e>
+    
+    <e lm="aggiummari"><i>aggiumm</i><par n="parr/ari__vblex"/></e>
     
     
 <!-- 
