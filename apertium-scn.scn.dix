@@ -19671,6 +19671,8 @@
     <e lm="Siniscola"><i>Siniscola</i><par n="Sicilia__np"/></e>
     <e lm="Sinnai"><i>Sinnai</i><par n="Sicilia__np"/></e>
     <e lm="Siris"><i>Siris</i><par n="Sicilia__np"/></e>
+    <e lm="Siracusa"><i>Siracusa</i><par n="Sicilia__np"/></e>
+    <e lm="Sarausa"><i>Sarausa</i><par n="Sicilia__np"/></e>
     <e lm="Siror"><i>Siror</i><par n="Sicilia__np"/></e>
     <e lm="Sizzano"><i>Sizzano</i><par n="Sicilia__np"/></e>
     <e lm="Sluderno"><i>Sluderno</i><par n="Sicilia__np"/></e>
@@ -23993,7 +23995,9 @@
     <e lm="facilitari"><i>facilit</i><par n="parr/ari__vblex"/></e>
     <e lm="visitari"><i>visit</i><par n="parr/ari__vblex"/></e>
     <e lm="pruvari"><i>pruv</i><par n="parr/ari__vblex"/></e>
+    <e lm="nstallari"><i>nstall</i><par n="parr/ari__vblex"/></e>
     <e lm="cunquistari"><i>cunquist</i><par n="parr/ari__vblex"/></e>
+    <e lm="cunquistari" r="LR"><p><l>cunquìst</l><r>cunquist</r></p><par n="parr/ari__vblex"/></e>
     <e lm="pricisari"><i>pricis</i><par n="parr/ari__vblex"/></e>
     <e lm="rinunciari"><i>rinunci</i><par n="parr/ari__vblex"/></e>
     <e lm="registrari"><i>registr</i><par n="parr/ari__vblex"/></e>
@@ -28712,6 +28716,8 @@
     <e lm="sbarcari" r="LR"><p><l>sbàrc</l><r>sbarc</r></p><par n="parr/ari__vblex"/></e>
     
     <e lm="poniri"><i>p</i><par n="p/oniri__vblex"/></e>
+    <e lm="mponiri"><i>mp</i><par n="p/oniri__vblex"/></e>
+    
     
 <!-- 
     <e lm="jucari" r="LR"><p><l>iucari</l><r>jucari</r></p><par n="j/ucari__vblex"/></e>
