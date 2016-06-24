@@ -404,6 +404,7 @@
       	<e><p><l>i</l><r>u<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
 
+
     <pardef n="nimic/u__n">
       	<e><p><l>a</l><r>u<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
       	<e><p><l>hi</l><r>u<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
@@ -453,16 +454,14 @@
     <pardef n="sacchegg/iu__n">
       	<e><p><l>iu</l><r>iu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       	<e><p><l>i</l><r>iu<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
-      	<e><p><l>î</l><r>iu<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
       	<e r="LR"><p><l>î</l><r>iu<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+      	<e r="LR"><p><l>ii</l><r>iu<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
 
     <pardef n="ngrisi__n">
       	<e><p><l></l><r><s n="n"/><s n="mf"/><s n="sp"/></r></p></e>
     </pardef>
 
-
-    
 
     <pardef n="cas/a__n">
       	<e><p><l>a</l><r>a<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
@@ -513,6 +512,9 @@
       	<e><p><l>a</l><r>a<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       	<e><p><l>hi</l><r>a<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
+    
+
+
     
     <pardef n="culoni/a__n">
       	<e><p><l>a</l><r>a<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
@@ -617,12 +619,6 @@
       	<e><p><l>i</l><r>a<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
     
-
-
-    <pardef n="tirritori/u__n">
-      	<e><p><l>u</l><r>u<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      	<e><p><l></l><r>u<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
-    </pardef>
     
     <pardef n="om/u__n">
       	<e><p><l>u</l><r>u<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
@@ -2625,6 +2621,11 @@
 	<e lm="nzinu a" r="LR"><p><l>nzina<b/></l><r>nzinu<b/></r></p><par n="conta__pr"/></e>
 	<e lm="nzinu a" r="LR"><p><l>sinu<b/></l><r>nzinu<b/></r></p><par n="conta__pr"/></e>
 	<e lm="nzinu a" r="LR"><p><l>sina<b/></l><r>nzinu<b/></r></p><par n="conta__pr"/></e>
+	
+	<e lm="nzinu di"><i>nzinu<b/></i><par n="contdi__pr"/></e>
+	<e lm="nzinu di" r="LR"><p><l>nzina<b/></l><r>nzinu<b/></r></p><par n="contdi__pr"/></e>
+	<e lm="nzinu di" r="LR"><p><l>sinu<b/></l><r>nzinu<b/></r></p><par n="contdi__pr"/></e>
+	<e lm="nzinu di" r="LR"><p><l>sina<b/></l><r>nzinu<b/></r></p><par n="contdi__pr"/></e>
 	<e lm="a causa di"><i>a<b/>causa<b/></i><par n="contdi__pr"/></e>
 	<e lm="a prupòsitu di"><i>a<b/>prupòsitu<b/></i><par n="contdi__pr"/></e>
 	<e lm="a rispettu di"><i>a<b/>rispettu<b/></i><par n="contdi__pr"/></e>
@@ -2785,6 +2786,7 @@
     <e lm="sestu"><i>sest</i><par n="secunn/u__adj"/></e>
     <e lm="sèttimu"><i>sèttim</i><par n="secunn/u__adj"/></e>
     <e lm="uttavu"><i>uttav</i><par n="secunn/u__adj"/></e>
+    <e lm="uttavu" r="LR"><p><l>ottav</l><r>uttav</r></p><par n="secunn/u__adj"/></e>
     <e lm="nonu"><i>non</i><par n="secunn/u__adj"/></e>
     <e lm="dècimu"><i>dècim</i><par n="secunn/u__adj"/></e>
     <e lm="unnicèsimu"><i>unnicèsim</i><par n="secunn/u__adj"/></e>
@@ -2817,6 +2819,8 @@
     <e lm="nànnu"><i>nànn</i><par n="nànn/u__n"/></e>
     <e lm="cotraru"><i>cotrar</i><par n="nànn/u__n"/></e>
     <e lm="monacu"><i>monac</i><par n="ann/u__n"/></e>
+    <e lm="monacu" r="LR"><p><l>mònuc</l><r>monac</r></p><par n="ann/u__n"/></e>
+    
     
     <e lm="telèfonu"><i>telèfon</i><par n="ann/u__n"/></e>
     <e lm="sicritariu"><i>sicritari</i><par n="ann/u__n"/></e>
@@ -2839,19 +2843,19 @@
     <e lm="capu"><i>cap</i><par n="ann/u__n"/></e>
     <e lm="medicu"><i>medic</i><par n="ann/u__n"/></e>
     <e lm="fisicu"><i>fisic</i><par n="ann/u__n"/></e>
-    <e lm="studiu"><i>studi</i><par n="tirritori/u__n"/></e>
-    <e lm="disiu"><i>disi</i><par n="tirritori/u__n"/></e>
+    <e lm="studiu"><i>stud</i><par n="sacchegg/iu__n"/></e>
+    <e lm="disiu"><i>dis</i><par n="sacchegg/iu__n"/></e>
     <e lm="àrbulu"><i>àrbul</i><par n="ann/u__n"/></e>
     <e lm="sèculu"><i>sècul</i><par n="ann/u__n"/></e>
     <e lm="annu"><i>ann</i><par n="ann/u__n"/></e>
     <e lm="cuvernu"><par n="c/g"/><i>uvern</i><par n="ann/u__n"/></e>
     <e lm="aceddu"><i>acedd</i><par n="ann/u__n"/></e>
     <e lm="armalu"><i>armal</i><par n="ann/u__n"/></e>
-    <e lm="occhiu"><i>occhi</i><par n="tirritori/u__n"/></e>
+    <e lm="occhiu"><i>occh</i><par n="sacchegg/iu__n"/></e>
     <e lm="mpiru"><i>mpir</i><par n="ann/u__n"/></e>
     <e lm="sonu"><i>son</i><par n="ann/u__n"/></e>
     <e lm="aneddu"><i>anedd</i><par n="ann/u__n"/></e>
-    <e lm="fasciu"><i>fasci</i><par n="tirritori/u__n"/></e>
+    <e lm="fasciu"><i>fasc</i><par n="sacchegg/iu__n"/></e>
     <e lm="campu"><i>camp</i><par n="ann/u__n"/></e>
     <e lm="pruggettu"><i>pruggett</i><par n="ann/u__n"/></e>
     <e lm="pruggettu" r="LR"><p><l>prugett</l><r>pruggett</r></p><par n="ann/u__n"/></e>
@@ -2862,7 +2866,7 @@
     <e lm="liveddu"><i>livedd</i><par n="ann/u__n"/></e>
     <e lm="pisu"><i>pis</i><par n="ann/u__n"/></e>
     <e lm="effettu"><i>effett</i><par n="ann/u__n"/></e>
-    <e lm="labburatoriu"><i>labburatori</i><par n="tirritori/u__n"/></e>
+    <e lm="labburatoriu"><i>labburator</i><par n="sacchegg/iu__n"/></e>
     <e lm="funziunamentu"><i>funziunament</i><par n="ann/u__n"/></e>
     <e lm="rifiutu"><i>rifiut</i><par n="ann/u__n"/></e>
     
@@ -2872,10 +2876,10 @@
     
     
 <!--  FIXME: comprobar si la palabra "corridoiu" existe -->
-    <e lm="corridoiu"><i>corridoi</i><par n="tirritori/u__n"/></e>
+    <e lm="corridoiu"><i>corrido</i><par n="sacchegg/iu__n"/></e>
     <e lm="nomu"><i>nom</i><par n="ann/u__n"/></e>
     <e lm="centru"><i>centr</i><par n="ann/u__n"/></e>
-    <e lm="nùcliu"><i>nùcli</i><par n="tirritori/u__n"/></e>
+    <e lm="nùcliu"><i>nùcl</i><par n="sacchegg/iu__n"/></e>
     
     
     
@@ -3104,21 +3108,23 @@
     <e lm="dialettu"><i>dialett</i><par n="ann/u__n"/></e>
     <e lm="dirittu"><i>diritt</i><par n="ann/u__n"/></e>
     <e lm="discu"><i>disc</i><par n="ann/u__n"/></e>
-    <e lm="diu"><i>di</i><par n="tirritori/u__n"/></e>
-    <e lm="duminiu"><i>dumini</i><par n="tirritori/u__n"/></e>
+    <e lm="diu"><i>d</i><par n="sacchegg/iu__n"/></e>
+    <e lm="duminiu"><i>dumin</i><par n="sacchegg/iu__n"/></e>
     <e lm="esempiu"><i>esemp</i><par n="sacchegg/iu__n"/></e>
     <e lm="asempiu"><i>asemp</i><par n="sacchegg/iu__n"/></e>
     <e lm="filòsufu"><i>filòsuf</i><par n="ann/u__n"/></e>
     <e lm="finòminu"><i>finòmin</i><par n="ann/u__n"/></e>
     <e lm="fruttu"><i>frutt</i><par n="ann/u__n"/></e>
     <e lm="furu"><i>fur</i><par n="ann/u__n"/></e>
-    <e lm="grecu"><i>grec</i><par n="ann/u__n"/></e>
+    <e lm="grecu"><i>grec</i><par n="nimic/u__n"/></e>
+    <e lm="munarcu"><i>munarc</i><par n="nimic/u__n"/></e>
     <e lm="sardu"><i>sard</i><par n="ann/u__n"/></e>
-    <e lm="inizziu"><i>inizzi</i><par n="tirritori/u__n"/></e>
+    <e lm="sìmula"><i>sìmul</i><par n="cas/a__n"/></e>
+    <e lm="inizziu"><i>inizz</i><par n="sacchegg/iu__n"/></e>
     <e lm="jornu"><par n="j/gi/i"/><i>orn</i><par n="ann/u__n"/></e>
     <e lm="latinu"><i>latin</i><par n="ann/u__n"/></e>
     <e lm="lignu"><i>lign</i><par n="ann/u__n"/></e>
-    <e lm="linguaggiu"><i>linguaggi</i><par n="tirritori/u__n"/></e>
+    <e lm="linguaggiu"><i>linguagg</i><par n="sacchegg/iu__n"/></e>
     <e lm="ministru"><i>ministr</i><par n="ann/u__n"/></e>
     <e lm="modu"><i>mod</i><par n="ann/u__n"/></e>
     <e lm="mperu"><i>mper</i><par n="ann/u__n"/></e>
@@ -3134,17 +3140,17 @@
     <e lm="nùmmuru" r="LR"><p><l>nùmmir</l><r>nùmmur</r></p><par n="ann/u__n"/></e>
     <e lm="palazzu"><i>palazz</i><par n="ann/u__n"/></e>
     <e lm="partitu"><i>partit</i><par n="ann/u__n"/></e>
-    <e lm="passaggiu"><i>passaggi</i><par n="tirritori/u__n"/></e>
+    <e lm="passaggiu"><i>passagg</i><par n="sacchegg/iu__n"/></e>
     <e lm="pezzu"><i>pezz</i><par n="ann/u__n"/></e>
     <e lm="pianu"><i>pian</i><par n="ann/u__n"/></e>
     <e lm="pirìudu"><i>pirìud</i><par n="ann/u__n"/></e>
-    <e lm="pirsunaggiu"><i>pirsunaggi</i><par n="tirritori/u__n"/></e>
+    <e lm="pirsunaggiu"><i>pirsunagg</i><par n="sacchegg/iu__n"/></e>
     <e lm="pisu"><i>pis</i><par n="ann/u__n"/></e>
     <e lm="pòpulu"><i>pòpul</i><par n="ann/u__n"/></e>
     <e lm="postu"><i>post</i><par n="ann/u__n"/></e>
-    <e lm="premiu"><i>premi</i><par n="tirritori/u__n"/></e>
-    <e lm="principiu"><i>principi</i><par n="tirritori/u__n"/></e>
-    <e lm="pruverbiu"><i>pruverbi</i><par n="tirritori/u__n"/></e>
+    <e lm="premiu"><i>prem</i><par n="sacchegg/iu__n"/></e>
+    <e lm="principiu"><i>princip</i><par n="sacchegg/iu__n"/></e>
+    <e lm="pruverbiu"><i>pruverb</i><par n="sacchegg/iu__n"/></e>
     <e lm="puntu"><i>punt</i><par n="ann/u__n"/></e>
     <e lm="regnu"><i>regn</i><par n="ann/u__n"/></e>
     <e lm="restu"><i>rest</i><par n="ann/u__n"/></e>
@@ -3153,7 +3159,7 @@
     <e lm="santu"><i>sant</i><par n="nànn/u__n"/></e>
     <e lm="significatu"><i>significat</i><par n="ann/u__n"/></e>
     <e lm="signu"><i>sign</i><par n="ann/u__n"/></e>
-    <e lm="spàzziu"><i>spàzzi</i><par n="tirritori/u__n"/></e>
+    <e lm="spàzziu"><i>spàzz</i><par n="sacchegg/iu__n"/></e>
     <e lm="sviluppu"><i>svilupp</i><par n="ann/u__n"/></e>
     <e lm="tiatru"><i>tiatr</i><par n="ann/u__n"/></e>
     <e lm="tempu"><i>t</i><par n="t/empu__n"/></e>
@@ -3168,13 +3174,13 @@
     <e lm="cìrculu"><i>cìrcul</i><par n="ann/u__n"/></e>
     
     
-    <e lm="viaggiu"><i>viaggi</i><par n="tirritori/u__n"/></e>
+    <e lm="viaggiu"><i>viagg</i><par n="sacchegg/iu__n"/></e>
 
     <e lm="jinnaru"><i>jinnar</i><par n="ann/u__n"/></e>
     <e lm="jinnaru" r="LR"><p><l>innar</l><r>jinnar</r></p><par n="ann/u__n"/></e>
     <e lm="frivar"><i>frivar</i><par n="ann/u__n"/></e>
     <e lm="marzu"><i>marz</i><par n="ann/u__n"/></e>
-    <e lm="maiu"><i>mai</i><par n="tirritori/u__n"/></e>
+    <e lm="maiu"><i>ma</i><par n="sacchegg/iu__n"/></e>
     <e lm="maiu" r="LR"><p><l>maggio</l><r>maiu</r></p><par n="patri__n"/></e>
     <e lm="giugnu"><i>giugn</i><par n="ann/u__n"/></e>
     <e lm="giugnettu"><i>giugnett</i><par n="ann/u__n"/></e>
@@ -3323,17 +3329,15 @@
     <e lm="zona"><i>zon</i><par n="cas/a__n"/></e>
     <e lm="prupòsitu"><i>prupòsit</i><par n="ann/u__n"/></e>
 
-    <e lm="tirritoriu"><i>tirritori</i><par n="tirritori/u__n"/></e>
-    <e lm="tirritoriu" r="LR"><p><l>territori</l><r>tirritori</r></p><par n="tirritori/u__n"/></e>
-    <e lm="tirritoriu" r="LR"><p><l>territòri</l><r>tirritori</r></p><par n="tirritori/u__n"/></e>
-    <e lm="tirritoriu" r="LR"><p><l>tirritòri</l><r>tirritori</r></p><par n="tirritori/u__n"/></e>
-    <e lm="tirritoria"><i>tirritori</i><par n="culoni/a__n"/></e>
-    <e lm="tirritoria" r="LR"><p><l>territori</l><r>tirritori</r></p><par n="culoni/a__n"/></e>
+    <e lm="tirritoriu"><i>tirritor</i><par n="sacchegg/iu__n"/></e>
+    <e lm="tirritoriu" r="LR"><p><l>territor</l><r>tirritor</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="tirritoriu" r="LR"><p><l>territòr</l><r>tirritor</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="tirritoriu" r="LR"><p><l>tirritòr</l><r>tirritor</r></p><par n="sacchegg/iu__n"/></e>
     
 
     <e lm="paci"><i>paci</i><par n="matri__n"/></e>
     <e lm="supirfici"><i>supirfici</i><par n="matri__n"/></e>
-    <e lm="supirfici" r="LR"><p><l>supirficî</l><r>supirfici</r></p><par n="tirritori/u__n"/></e>
+    <e lm="supirfici" r="LR"><p><l>supirficî</l><r>supirfici</r></p><par n="matri__n"/></e>
     <e lm="attrici"><i>attrici</i><par n="matri__n"/></e>
     <e lm="scrittrici"><i>scrittrici</i><par n="matri__n"/></e>
     <e lm="stili"><i>stili</i><par n="patri__n"/></e>
@@ -3343,7 +3347,8 @@
     <e lm="pirsuna"><i>pirsun</i><par n="cas/a__n"/></e>
     <e lm="tèrmini"><i>tèrmini</i><par n="patri__n"/></e>
     <e lm="valuri"><i>valuri</i><par n="patri__n"/></e>
-    <e lm="cantuni"><i>cantun</i><par n="vettur/a__n"/></e>
+    <e lm="cantuna"><i>cantun</i><par n="vettur/a__n"/></e>
+    <e lm="fatturi"><i>fattur</i><par n="liun/i__n"/></e>
     <e lm="sulista"><i>sulist</i><par n="chitarrist/a__n"/></e>
     
 
@@ -3396,8 +3401,8 @@
     <e lm="capulocu" r="LR"><p><l>capolòc</l><r>capulòc</r></p><par n="parc/u__n"/></e>
     <e lm="capulòcu"><i>capulòc</i><par n="parc/u__n"/></e>
     <e lm="casteddu"><i>castedd</i><par n="ann/u__n"/></e>
-    <e lm="travagghiu"><i>travagghi</i><par n="tirritori/u__n"/></e>
-    <e lm="asèmpiu"><i>asèmpi</i><par n="tirritori/u__n"/></e>
+    <e lm="travagghiu"><i>travaggh</i><par n="sacchegg/iu__n"/></e>
+    <e lm="asèmpiu"><i>asèmp</i><par n="sacchegg/iu__n"/></e>
     <e lm="rolu"><i>rol</i><par n="ann/u__n"/></e>
     <e lm="sìmmulu"><i>sìmmul</i><par n="ann/u__n"/></e>
     <e lm="scopu"><i>scop</i><par n="ann/u__n"/></e>
@@ -3428,7 +3433,7 @@
     <e lm="funzioni"><i>funzioni</i><par n="matri__n"/></e>
     <e lm="sprissioni"><i>sprissioni</i><par n="matri__n"/></e>
 
-    <e lm="ogghiu"><i>ogghi</i><par n="tirritori/u__n"/></e>
+    <e lm="ogghiu"><i>oggh</i><par n="sacchegg/iu__n"/></e>
     <e lm="finanziamentu"><i>finanziament</i><par n="ann/u__n"/></e>
 
     <e lm="lunidìa"><i>lunidìa</i><par n="lunidìa__n"/></e>	
@@ -3473,8 +3478,8 @@
 	<e lm="ciriveddu"><i>cirivedd</i><par n="foc/u__n"/></e>
 	<e lm="ficatu"><i>ficat</i><par n="foc/u__n"/></e>
 	<e lm="iditu"><i>idit</i><par n="foc/u__n"/></e>
-	<e lm="ginocchiu"><i>ginocchi</i><par n="tirritori/u__n"/></e>
-	<e lm="ginocchiu" r="LR"><p><l>inocchi</l><r>ginocchi</r></p><par n="tirritori/u__n"/></e>
+	<e lm="ginocchiu"><i>ginocch</i><par n="sacchegg/iu__n"/></e>
+	<e lm="ginocchiu" r="LR"><p><l>inocch</l><r>ginocch</r></p><par n="sacchegg/iu__n"/></e>
 	<e lm="labbru"><i>labbr</i><par n="foc/u__n"/></e>
 	<e lm="ossu"><i>oss</i><par n="foc/u__n"/></e>
 	<e lm="piditu"><i>pidit</i><par n="foc/u__n"/></e>
@@ -3632,63 +3637,63 @@
     <e lm="embargu"><i>embarg</i><par n="parc/u__n"/></e>
     <e lm="arbergu"><i>arberg</i><par n="parc/u__n"/></e>
     <e lm="dialugu"><i>dialug</i><par n="parc/u__n"/></e>
-    <e lm="ghiacciaiu"><i>ghiacciai</i><par n="tirritori/u__n"/></e>
-    <e lm="dubbiu"><i>dubbi</i><par n="tirritori/u__n"/></e>
-    <e lm="cambiu"><i>cambi</i><par n="tirritori/u__n"/></e>
-    <e lm="ghiacciu"><i>ghiacci</i><par n="tirritori/u__n"/></e>
-    <e lm="mecciu"><i>mecci</i><par n="tirritori/u__n"/></e>
-    <e lm="stucciu"><i>stucci</i><par n="tirritori/u__n"/></e>
-    <e lm="calciu"><i>calci</i><par n="tirritori/u__n"/></e>
-    <e lm="franciu"><i>franci</i><par n="tirritori/u__n"/></e>
-    <e lm="cummerciu"><i>cummerci</i><par n="tirritori/u__n"/></e>
-    <e lm="scrusciu"><i>scrusci</i><par n="tirritori/u__n"/></e>
-    <e lm="assèdiu"><i>assèdi</i><par n="tirritori/u__n"/></e>
-    <e lm="omicidiu"><i>omicidi</i><par n="tirritori/u__n"/></e>
-    <e lm="sodiu"><i>sodi</i><par n="tirritori/u__n"/></e>
-    <e lm="dammaggiu"><i>dammaggi</i><par n="tirritori/u__n"/></e>
-    <e lm="furmaggiu"><i>furmaggi</i><par n="tirritori/u__n"/></e>
-    <e lm="spiunaggiu"><i>spiunaggi</i><par n="tirritori/u__n"/></e>
-    <e lm="curtumitraggiu"><i>curtumitraggi</i><par n="tirritori/u__n"/></e>
-    <e lm="missàggiu"><i>missàggi</i><par n="tirritori/u__n"/></e>
-    <e lm="brigantaggiu"><i>brigantaggi</i><par n="tirritori/u__n"/></e>
-    <e lm="campeggiu"><i>campeggi</i><par n="tirritori/u__n"/></e>
-    <e lm="rulòggiu"><i>rulòggi</i><par n="tirritori/u__n"/></e>
-    <e lm="rifuggiu"><i>rifuggi</i><par n="tirritori/u__n"/></e>
-    <e lm="specchiu"><i>specchi</i><par n="tirritori/u__n"/></e>
-    <e lm="aricchiu"><i>aricchi</i><par n="tirritori/u__n"/></e>
-    <e lm="marmocchiu"><i>marmocchi</i><par n="tirritori/u__n"/></e>
-    <e lm="dinocchiu"><i>dinocchi</i><par n="tirritori/u__n"/></e>
-    <e lm="navigghiu"><i>navigghi</i><par n="tirritori/u__n"/></e>
-    <e lm="èliu"><i>èli</i><par n="tirritori/u__n"/></e>
-    <e lm="pitròliu"><i>pitròli</i><par n="tirritori/u__n"/></e>
-    <e lm="gassoliu"><i>gassoli</i><par n="tirritori/u__n"/></e>
-    <e lm="uraniu"><i>urani</i><par n="tirritori/u__n"/></e>
-    <e lm="titaniu"><i>titani</i><par n="tirritori/u__n"/></e>
-    <e lm="geniu"><i>geni</i><par n="tirritori/u__n"/></e>
-    <e lm="aluminiu"><i>alumini</i><par n="tirritori/u__n"/></e>
-    <e lm="carbòniu"><i>carbòni</i><par n="tirritori/u__n"/></e>
-    <e lm="dimoniu"><i>dimoni</i><par n="tirritori/u__n"/></e>
-    <e lm="matrimoniu"><i>matrimoni</i><par n="tirritori/u__n"/></e>
-    <e lm="antimoniu"><i>antimoni</i><par n="tirritori/u__n"/></e>
-    <e lm="plutoniu"><i>plutoni</i><par n="tirritori/u__n"/></e>
-    <e lm="telescopiu"><i>telescopi</i><par n="tirritori/u__n"/></e>
-    <e lm="puemariu"><i>puemari</i><par n="tirritori/u__n"/></e>
-    <e lm="armariu"><i>armari</i><par n="tirritori/u__n"/></e>
-    <e lm="calannariu"><i>calannari</i><par n="tirritori/u__n"/></e>
-    <e lm="dizziunariu"><i>dizziunari</i><par n="tirritori/u__n"/></e>
-    <e lm="ducumintariu"><i>ducumintari</i><par n="tirritori/u__n"/></e>
-    <e lm="ovariu"><i>ovari</i><par n="tirritori/u__n"/></e>
-    <e lm="equilibbriu"><i>equilibbri</i><par n="tirritori/u__n"/></e>
-    <e lm="disideriu"><i>disideri</i><par n="tirritori/u__n"/></e>
-    <e lm="batteriu"><i>batteri</i><par n="tirritori/u__n"/></e>
-    <e lm="coriu"><i>cori</i><par n="tirritori/u__n"/></e>
-    <e lm="oriu"><i>ori</i><par n="tirritori/u__n"/></e>
+    <e lm="ghiacciaiu"><i>ghiaccia</i><par n="sacchegg/iu__n"/></e>
+    <e lm="dubbiu"><i>dubb</i><par n="sacchegg/iu__n"/></e>
+    <e lm="cambiu"><i>camb</i><par n="sacchegg/iu__n"/></e>
+    <e lm="ghiacciu"><i>ghiacc</i><par n="sacchegg/iu__n"/></e>
+    <e lm="mecciu"><i>mecc</i><par n="sacchegg/iu__n"/></e>
+    <e lm="stucciu"><i>stucc</i><par n="sacchegg/iu__n"/></e>
+    <e lm="calciu"><i>calc</i><par n="sacchegg/iu__n"/></e>
+    <e lm="franciu"><i>franc</i><par n="sacchegg/iu__n"/></e>
+    <e lm="cummerciu"><i>cummerc</i><par n="sacchegg/iu__n"/></e>
+    <e lm="scrusciu"><i>scrusc</i><par n="sacchegg/iu__n"/></e>
+    <e lm="assèdiu"><i>assèd</i><par n="sacchegg/iu__n"/></e>
+    <e lm="omicidiu"><i>omicid</i><par n="sacchegg/iu__n"/></e>
+    <e lm="sodiu"><i>sod</i><par n="sacchegg/iu__n"/></e>
+    <e lm="dammaggiu"><i>dammagg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="furmaggiu"><i>furmagg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="spiunaggiu"><i>spiunagg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="curtumitraggiu"><i>curtumitragg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="missàggiu"><i>missàgg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="brigantaggiu"><i>brigantagg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="campeggiu"><i>campegg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="rulòggiu"><i>rulògg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="rifuggiu"><i>rifugg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="specchiu"><i>specch</i><par n="sacchegg/iu__n"/></e>
+    <e lm="aricchiu"><i>aricch</i><par n="sacchegg/iu__n"/></e>
+    <e lm="marmocchiu"><i>marmocch</i><par n="sacchegg/iu__n"/></e>
+    <e lm="dinocchiu"><i>dinocch</i><par n="sacchegg/iu__n"/></e>
+    <e lm="navigghiu"><i>naviggh</i><par n="sacchegg/iu__n"/></e>
+    <e lm="èliu"><i>èl</i><par n="sacchegg/iu__n"/></e>
+    <e lm="pitròliu"><i>pitròl</i><par n="sacchegg/iu__n"/></e>
+    <e lm="gassoliu"><i>gassol</i><par n="sacchegg/iu__n"/></e>
+    <e lm="uraniu"><i>uran</i><par n="sacchegg/iu__n"/></e>
+    <e lm="titaniu"><i>titan</i><par n="sacchegg/iu__n"/></e>
+    <e lm="geniu"><i>gen</i><par n="sacchegg/iu__n"/></e>
+    <e lm="aluminiu"><i>alumin</i><par n="sacchegg/iu__n"/></e>
+    <e lm="carbòniu"><i>carbòn</i><par n="sacchegg/iu__n"/></e>
+    <e lm="dimoniu"><i>dimon</i><par n="sacchegg/iu__n"/></e>
+    <e lm="matrimoniu"><i>matrimon</i><par n="sacchegg/iu__n"/></e>
+    <e lm="antimoniu"><i>antimon</i><par n="sacchegg/iu__n"/></e>
+    <e lm="plutoniu"><i>pluton</i><par n="sacchegg/iu__n"/></e>
+    <e lm="telescopiu"><i>telescop</i><par n="sacchegg/iu__n"/></e>
+    <e lm="puemariu"><i>puemar</i><par n="sacchegg/iu__n"/></e>
+    <e lm="armariu"><i>armar</i><par n="sacchegg/iu__n"/></e>
+    <e lm="calannariu"><i>calannar</i><par n="sacchegg/iu__n"/></e>
+    <e lm="dizziunariu"><i>dizziunar</i><par n="sacchegg/iu__n"/></e>
+    <e lm="ducumintariu"><i>ducumintar</i><par n="sacchegg/iu__n"/></e>
+    <e lm="ovariu"><i>ovar</i><par n="sacchegg/iu__n"/></e>
+    <e lm="equilibbriu"><i>equilibbr</i><par n="sacchegg/iu__n"/></e>
+    <e lm="disideriu"><i>disider</i><par n="sacchegg/iu__n"/></e>
+    <e lm="batteriu"><i>batter</i><par n="sacchegg/iu__n"/></e>
+    <e lm="coriu"><i>cor</i><par n="sacchegg/iu__n"/></e>
+    <e lm="oriu"><i>or</i><par n="sacchegg/iu__n"/></e>
     <e lm="firrìu"><i>firrì</i><par n="ann/u__n"/></e>
-    <e lm="magnesiu"><i>magnesi</i><par n="tirritori/u__n"/></e>
-    <e lm="putàssiu"><i>putàssi</i><par n="tirritori/u__n"/></e>
+    <e lm="magnesiu"><i>magnes</i><par n="sacchegg/iu__n"/></e>
+    <e lm="putàssiu"><i>putàss</i><par n="sacchegg/iu__n"/></e>
     <e lm="vattìu"><i>vattì</i><par n="ann/u__n"/></e>
-    <e lm="divorziu"><i>divorzi</i><par n="tirritori/u__n"/></e>
-    <e lm="giudizziu"><i>giudizzi</i><par n="tirritori/u__n"/></e>
+    <e lm="divorziu"><i>divorz</i><par n="sacchegg/iu__n"/></e>
+    <e lm="giudizziu"><i>giudizz</i><par n="sacchegg/iu__n"/></e>
     <e lm="pizzìu"><i>pizzì</i><par n="ann/u__n"/></e>
     <e lm="celu"><i>cel</i><par n="ann/u__n"/></e>
     <e lm="àncilu"><i>àncil</i><par n="ann/u__n"/></e>
@@ -4353,6 +4358,9 @@
     <e lm="marta"><i>mart</i><par n="cas/a__n"/></e>
     <e lm="pasta"><i>past</i><par n="cas/a__n"/></e>
     <e lm="timpesta"><i>timpest</i><par n="cas/a__n"/></e>
+    <e lm="cirtizza"><i>cirtizz</i><par n="cas/a__n"/></e>
+    
+    
     <e lm="riggista"><i>riggist</i><par n="chitarrist/a__n"/></e>
     <e lm="sucialista"><i>sucialist</i><par n="chitarrist/a__n"/></e>
     <e lm="jurnalista"><i>jurnalist</i><par n="chitarrist/a__n"/></e>
@@ -4796,7 +4804,7 @@
     <e lm="alimagnu"><i>alimagn</i><par n="ann/u__n"/></e>
     <e lm="màssimu"><i>màssim</i><par n="ann/u__n"/></e>
     <e lm="mètudu"><i>mètud</i><par n="ann/u__n"/></e>
-    <e lm="vucabbulariu"><i>vucabbulari</i><par n="tirritori/u__n"/></e>
+    <e lm="vucabbulariu"><i>vucabbular</i><par n="sacchegg/iu__n"/></e>
     <e lm="punta"><i>punt</i><par n="cas/a__n"/></e>
     <e lm="idioma"><i>idiom</i><par n="pianet/a__n"/></e>
     <e lm="livanti"><i>livanti</i><par n="patri__n"/></e>
@@ -4809,7 +4817,7 @@
     <e lm="catina"><i>catin</i><par n="cas/a__n"/></e>
     <e lm="simana"><i>siman</i><par n="cas/a__n"/></e>
     <e lm="bannera"><i>banner</i><par n="cas/a__n"/></e>
-    <e lm="nizziu"><i>nizzi</i><par n="tirritori/u__n"/></e>
+    <e lm="nizziu"><i>nizz</i><par n="sacchegg/iu__n"/></e>
     <e lm="para"><i>par</i><par n="cas/a__n"/></e>
     <e lm="via"><i>vi</i><par n="cas/a__n"/></e>
     <e lm="banna"><i>bann</i><par n="cas/a__n"/></e>
@@ -6018,6 +6026,9 @@
     <e lm="garfa" r="LR"><p><l>arf</l><r>garf</r></p><par n="cas/a__n"/></e>
     <e lm="garfata"><i>garfat</i><par n="cas/a__n"/></e>
     <e lm="gargana"><i>gargan</i><par n="cas/a__n"/></e>
+    <e lm="nflussu"><i>nfluss</i><par n="ann/u__n"/></e>
+    <e lm="pruspiritati"><i>pruspiritati</i><par n="matri__n"/></e>
+    
     <e lm="càrzira"><i>càrzir</i><par n="cas/a__n"/></e>
     <e lm="càrzira" r="LR"><p><l>gargiubb</l><r>càrzir</r></p><par n="cas/a__n"/></e>
     <e lm="càrzira" r="LR"><p><l>carabozz</l><r>càrzir</r></p><par n="cas/a__n"/></e>
@@ -7915,472 +7926,472 @@
     <e lm="vuccirìa" r="LR"><p><l>uccir</l><r>vuccir</r></p><par n="filusuf/ìa__n"/></e>
     <e lm="vuccirìa" r="LR"><p><l>buccir</l><r>vuccir</r></p><par n="filusuf/ìa__n"/></e>
     <e lm="vìa"><i>v</i><par n="filusuf/ìa__n"/></e>
-    <e lm="abbaticchiu"><i>abbaticchi</i><par n="tirritori/u__n"/></e>
-    <e lm="abbaticchiu" r="LR"><p><l>abaticchi</l><r>abbaticchi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="abbacchiu"><i>abbacchi</i><par n="tirritori/u__n"/></e>
-    <e lm="abbagliu"><i>abbagli</i><par n="tirritori/u__n"/></e>
-    <e lm="abbagliu" r="LR"><p><l>abbagghi</l><r>abbagli</r></p><par n="tirritori/u__n"/></e>
-    <e lm="abbaiu"><i>abbai</i><par n="tirritori/u__n"/></e>
-    <e lm="abbecceddariu"><i>abbecceddari</i><par n="tirritori/u__n"/></e>
-    <e lm="abbecceddariu" r="LR"><p><l>abbaccianari</l><r>abbecceddari</r></p><par n="tirritori/u__n"/></e>
-    <e lm="abbecceddariu" r="LR"><p><l>abbeccennari</l><r>abbecceddari</r></p><par n="tirritori/u__n"/></e>
-    <e lm="abbiggiariu"><i>abbiggiari</i><par n="tirritori/u__n"/></e>
-    <e lm="accarpagghiu"><i>accarpagghi</i><par n="tirritori/u__n"/></e>
-    <e lm="accordiu"><i>accordi</i><par n="tirritori/u__n"/></e>
-    <e lm="aciu"><i>aci</i><par n="tirritori/u__n"/></e>
-    <e lm="aciu" r="LR"><p><l>agi</l><r>aci</r></p><par n="tirritori/u__n"/></e>
-    <e lm="addaurufogghiu"><i>addaurufogghi</i><par n="tirritori/u__n"/></e>
-    <e lm="addàniu"><i>addàni</i><par n="tirritori/u__n"/></e>
-    <e lm="agliu"><i>agli</i><par n="tirritori/u__n"/></e>
-    <e lm="auguriu"><i>auguri</i><par n="tirritori/u__n"/></e>
-    <e lm="auguriu" r="LR"><p><l>aguri</l><r>auguri</r></p><par n="tirritori/u__n"/></e>
-    <e lm="auguriu" r="LR"><p><l>auri</l><r>auguri</r></p><par n="tirritori/u__n"/></e>
-    <e lm="alloggiu"><i>alloggi</i><par n="tirritori/u__n"/></e>
-    <e lm="alluminiu"><i>allumini</i><par n="tirritori/u__n"/></e>
-    <e lm="ammizzigghiu"><i>ammizzigghi</i><par n="tirritori/u__n"/></e>
-    <e lm="ammizzigghiu" r="LR"><p><l>mmizzigghi</l><r>ammizzigghi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="anniversariu"><i>anniversari</i><par n="tirritori/u__n"/></e>
-    <e lm="anniversariu" r="LR"><p><l>annivirsari</l><r>anniversari</r></p><par n="tirritori/u__n"/></e>
-    <e lm="annunziu"><i>annunzi</i><par n="tirritori/u__n"/></e>
-    <e lm="appigghiu"><i>appigghi</i><par n="tirritori/u__n"/></e>
-    <e lm="appigghiu" r="LR"><p><l>firragghi</l><r>appigghi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="appigghiu" r="LR"><p><l>affirragghi</l><r>appigghi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="appigghiu" r="LR"><p><l>apprisagghi</l><r>appigghi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="apruacchiu"><i>apruacchi</i><par n="tirritori/u__n"/></e>
-    <e lm="apruacchiu" r="LR"><p><l>aprocchi</l><r>apruacchi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="arbaciu"><i>arbaci</i><par n="tirritori/u__n"/></e>
-    <e lm="arbaciu" r="LR"><p><l>abbraci</l><r>arbaci</r></p><par n="tirritori/u__n"/></e>
-    <e lm="arbaciu" r="LR"><p><l>avlaci</l><r>arbaci</r></p><par n="tirritori/u__n"/></e>
-    <e lm="arbaciu" r="LR"><p><l>avraci</l><r>arbaci</r></p><par n="tirritori/u__n"/></e>
-    <e lm="arbitriu"><i>arbitri</i><par n="tirritori/u__n"/></e>
-    <e lm="armadiu"><i>armadi</i><par n="tirritori/u__n"/></e>
-    <e lm="armadiu" r="LR"><p><l>armani</l><r>armadi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="armiggiu"><i>armiggi</i><par n="tirritori/u__n"/></e>
-    <e lm="armiggiu" r="LR"><p><l>armigghi</l><r>armiggi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="arminiu"><i>armini</i><par n="tirritori/u__n"/></e>
-    <e lm="arpagghiu"><i>arpagghi</i><par n="tirritori/u__n"/></e>
-    <e lm="arpegliu"><i>arpegli</i><par n="tirritori/u__n"/></e>
-    <e lm="arrembaggiu"><i>arrembaggi</i><par n="tirritori/u__n"/></e>
-    <e lm="arrembaggiu" r="LR"><p><l>arrammaggi</l><r>arrembaggi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="arrembaggiu" r="LR"><p><l>arrimbaggi</l><r>arrembaggi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="arristagghiu"><i>arristagghi</i><par n="tirritori/u__n"/></e>
-    <e lm="arritticchiu"><i>arritticchi</i><par n="tirritori/u__n"/></e>
-    <e lm="arsoliu"><i>arsoli</i><par n="tirritori/u__n"/></e>
-    <e lm="esircizziu"><i>esircizzi</i><par n="tirritori/u__n"/></e>
-    <e lm="esircizziu" r="LR"><p><l>asircizzi</l><r>esircizzi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="esircizziu" r="LR"><p><l>sarcizi</l><r>esircizzi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="esircizziu" r="LR"><p><l>sircizzi</l><r>esircizzi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="esircizziu" r="LR"><p><l>sarcizzi</l><r>esircizzi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="esircizziu" r="LR"><p><l>sircizi</l><r>esircizzi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="esircizziu" r="LR"><p><l>esircizi</l><r>esircizzi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="esircizziu" r="LR"><p><l>asircizi</l><r>esircizzi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="assaggiu"><i>assaggi</i><par n="tirritori/u__n"/></e>
-    <e lm="assaggiu" r="LR"><p><l>assai</l><r>assaggi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="assediu"><i>assedi</i><par n="tirritori/u__n"/></e>
-    <e lm="assediu" r="LR"><p><l>asseggi</l><r>assedi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="assenziu"><i>assenzi</i><par n="tirritori/u__n"/></e>
-    <e lm="attabbusciu"><i>attabbusci</i><par n="tirritori/u__n"/></e>
-    <e lm="attaciu"><i>attaci</i><par n="tirritori/u__n"/></e>
-    <e lm="avoriu"><i>avori</i><par n="tirritori/u__n"/></e>
-    <e lm="avoriu" r="LR"><p><l>avoli</l><r>avori</r></p><par n="tirritori/u__n"/></e>
-    <e lm="avvirsariu"><i>avvirsari</i><par n="tirritori/u__n"/></e>
-    <e lm="avvirsariu" r="LR"><p><l>avirsari</l><r>avvirsari</r></p><par n="tirritori/u__n"/></e>
-    <e lm="aèriu"><i>aèri</i><par n="tirritori/u__n"/></e>
-    <e lm="aèriu" r="LR"><p><l>apparecchi</l><r>aèri</r></p><par n="tirritori/u__n"/></e>
-    <e lm="baccagghiu"><i>baccagghi</i><par n="tirritori/u__n"/></e>
-    <e lm="badagghiu"><i>badagghi</i><par n="tirritori/u__n"/></e>
-    <e lm="badagghiu" r="LR"><p><l>baragghi</l><r>badagghi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="bagagghiu"><i>bagagghi</i><par n="tirritori/u__n"/></e>
-    <e lm="bagagghiu" r="LR"><p><l>bagagli</l><r>bagagghi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="barbalacchiu"><i>barbalacchi</i><par n="tirritori/u__n"/></e>
-    <e lm="barbalacchiu" r="LR"><p><l>babbalacchi</l><r>barbalacchi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="barbàniu"><i>barbàni</i><par n="tirritori/u__n"/></e>
-    <e lm="bardigghiu"><i>bardigghi</i><par n="tirritori/u__n"/></e>
-    <e lm="berilliu"><i>berilli</i><par n="tirritori/u__n"/></e>
-    <e lm="berilliu" r="LR"><p><l>birilli</l><r>berilli</r></p><par n="tirritori/u__n"/></e>
-    <e lm="biccacciu"><i>biccacci</i><par n="tirritori/u__n"/></e>
-    <e lm="birocciu"><i>birocci</i><par n="tirritori/u__n"/></e>
-    <e lm="briciu"><i>brici</i><par n="tirritori/u__n"/></e>
-    <e lm="brigghiu"><i>brigghi</i><par n="tirritori/u__n"/></e>
-    <e lm="brugghiu"><i>brugghi</i><par n="tirritori/u__n"/></e>
-    <e lm="brusciu"><i>brusci</i><par n="tirritori/u__n"/></e>
-    <e lm="bugghiu"><i>bugghi</i><par n="tirritori/u__n"/></e>
-    <e lm="busciu"><i>busci</i><par n="tirritori/u__n"/></e>
-    <e lm="busciu" r="LR"><p><l>abbusci</l><r>busci</r></p><par n="tirritori/u__n"/></e>
-    <e lm="busiu"><i>busi</i><par n="tirritori/u__n"/></e>
-    <e lm="busiu" r="LR"><p><l>buzzi</l><r>busi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="cacaticchiu"><i>cacaticchi</i><par n="tirritori/u__n"/></e>
-    <e lm="cacchiu"><i>cacchi</i><par n="tirritori/u__n"/></e>
-    <e lm="cacciu"><i>cacci</i><par n="tirritori/u__n"/></e>
-    <e lm="calaiu"><i>calai</i><par n="tirritori/u__n"/></e>
-    <e lm="calinnariu"><i>calinnari</i><par n="tirritori/u__n"/></e>
-    <e lm="calinnariu" r="LR"><p><l>calunnari</l><r>calinnari</r></p><par n="tirritori/u__n"/></e>
-    <e lm="calinnariu" r="LR"><p><l>calantari</l><r>calinnari</r></p><par n="tirritori/u__n"/></e>
-    <e lm="camiu"><i>cami</i><par n="tirritori/u__n"/></e>
-    <e lm="camorchiu"><i>camorchi</i><par n="tirritori/u__n"/></e>
-    <e lm="cannuttigghiu"><i>cannuttigghi</i><par n="tirritori/u__n"/></e>
-    <e lm="cannuttigghiu" r="LR"><p><l>cannittigghi</l><r>cannuttigghi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="capicchiu"><i>capicchi</i><par n="tirritori/u__n"/></e>
-    <e lm="cappucciu"><i>cappucci</i><par n="tirritori/u__n"/></e>
-    <e lm="caramuciu"><i>caramuci</i><par n="tirritori/u__n"/></e>
-    <e lm="caramuciu" r="LR"><p><l>caramusci</l><r>caramuci</r></p><par n="tirritori/u__n"/></e>
-    <e lm="caramuciu" r="LR"><p><l>grammusci</l><r>caramuci</r></p><par n="tirritori/u__n"/></e>
-    <e lm="caramuciu" r="LR"><p><l>carmusci</l><r>caramuci</r></p><par n="tirritori/u__n"/></e>
-    <e lm="caramuciu" r="LR"><p><l>grammuci</l><r>caramuci</r></p><par n="tirritori/u__n"/></e>
-    <e lm="caramuciu" r="LR"><p><l>carmuci</l><r>caramuci</r></p><par n="tirritori/u__n"/></e>
-    <e lm="caratariu"><i>caratari</i><par n="tirritori/u__n"/></e>
-    <e lm="caratariu" r="LR"><p><l>arrennatari</l><r>caratari</r></p><par n="tirritori/u__n"/></e>
-    <e lm="caratariu" r="LR"><p><l>calatari</l><r>caratari</r></p><par n="tirritori/u__n"/></e>
-    <e lm="caratariu" r="LR"><p><l>arrinnatari</l><r>caratari</r></p><par n="tirritori/u__n"/></e>
-    <e lm="carboniu"><i>carboni</i><par n="tirritori/u__n"/></e>
-    <e lm="carbuciu"><i>carbuci</i><par n="tirritori/u__n"/></e>
-    <e lm="carnaggiu"><i>carnaggi</i><par n="tirritori/u__n"/></e>
-    <e lm="carrittigghiu"><i>carrittigghi</i><par n="tirritori/u__n"/></e>
-    <e lm="carruggiu"><i>carruggi</i><par n="tirritori/u__n"/></e>
-    <e lm="carruggiu" r="LR"><p><l>carrui</l><r>carruggi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="cartiddunariu"><i>cartiddunari</i><par n="tirritori/u__n"/></e>
-    <e lm="catoiu"><i>catoi</i><par n="tirritori/u__n"/></e>
-    <e lm="cavaddunchiu"><i>cavaddunchi</i><par n="tirritori/u__n"/></e>
-    <e lm="cavalaggiu"><i>cavalaggi</i><par n="tirritori/u__n"/></e>
-    <e lm="cavalaggiu" r="LR"><p><l>vavalaggi</l><r>cavalaggi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="cavalaggiu" r="LR"><p><l>vavaluci</l><r>cavalaggi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="cavalaggiu" r="LR"><p><l>vavalaci</l><r>cavalaggi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="cavalaggiu" r="LR"><p><l>babbaluci</l><r>cavalaggi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="cummogghiu"><i>cummogghi</i><par n="tirritori/u__n"/></e>
-    <e lm="cummogghiu" r="LR"><p><l>chimmogli</l><r>cummogghi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="cummogghiu" r="LR"><p><l>chimmuogli</l><r>cummogghi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="ciliu"><i>cili</i><par n="tirritori/u__n"/></e>
-    <e lm="cincigghiu"><i>cincigghi</i><par n="tirritori/u__n"/></e>
-    <e lm="circhiu"><i>circhi</i><par n="tirritori/u__n"/></e>
-    <e lm="circhiu" r="LR"><p><l>chirchi</l><r>circhi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="ciurlaniu"><i>ciurlani</i><par n="tirritori/u__n"/></e>
-    <e lm="ciuvasciu"><i>ciuvasci</i><par n="tirritori/u__n"/></e>
-    <e lm="crafocchiu"><i>crafocchi</i><par n="tirritori/u__n"/></e>
-    <e lm="crafocchiu" r="LR"><p><l>caforchi</l><r>crafocchi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="crafocchiu" r="LR"><p><l>cafocchi</l><r>crafocchi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="crafocchiu" r="LR"><p><l>cavorchi</l><r>crafocchi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="cravunchiu"><i>cravunchi</i><par n="tirritori/u__n"/></e>
-    <e lm="cravunchiu" r="LR"><p><l>craunchi</l><r>cravunchi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="cravunchiu" r="LR"><p><l>carvunchi</l><r>cravunchi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="cricchiu"><i>cricchi</i><par n="tirritori/u__n"/></e>
-    <e lm="criu"><i>cri</i><par n="tirritori/u__n"/></e>
-    <e lm="criu" r="LR"><p><l>cirnigghi</l><r>cri</r></p><par n="tirritori/u__n"/></e>
-    <e lm="crucchigghiu"><i>crucchigghi</i><par n="tirritori/u__n"/></e>
-    <e lm="curvacchiu"><i>curvacchi</i><par n="tirritori/u__n"/></e>
-    <e lm="curvacchiu" r="LR"><p><l>cruvacchi</l><r>curvacchi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="curvacchiu" r="LR"><p><l>cruacchi</l><r>curvacchi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="cucucciu"><i>cucucci</i><par n="tirritori/u__n"/></e>
-    <e lm="cucutrigghiu"><i>cucutrigghi</i><par n="tirritori/u__n"/></e>
-    <e lm="cucutrigghiu" r="LR"><p><l>cuncutrigghi</l><r>cucutrigghi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="culleggiu"><i>culleggi</i><par n="tirritori/u__n"/></e>
-    <e lm="culleggiu" r="LR"><p><l>cullegi</l><r>culleggi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="cunfìddiu"><i>cunfìddi</i><par n="tirritori/u__n"/></e>
-    <e lm="cunigghiu"><i>cunigghi</i><par n="tirritori/u__n"/></e>
-    <e lm="cunigghiu" r="LR"><p><l>cunigli</l><r>cunigghi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="cuniu"><i>cuni</i><par n="tirritori/u__n"/></e>
-    <e lm="cunsigghiu"><i>cunsigghi</i><par n="tirritori/u__n"/></e>
-    <e lm="cunsigghiu" r="LR"><p><l>cunsigli</l><r>cunsigghi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="cunsigghiu" r="LR"><p><l>cunzigli</l><r>cunsigghi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="cunsigghiu" r="LR"><p><l>cunzigghi</l><r>cunsigghi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="cuntrariu"><i>cuntrari</i><par n="tirritori/u__n"/></e>
-    <e lm="cuperchiu"><i>cuperchi</i><par n="tirritori/u__n"/></e>
-    <e lm="cuperchiu" r="LR"><p><l>cuverchi</l><r>cuperchi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="curaggiu"><i>curaggi</i><par n="tirritori/u__n"/></e>
-    <e lm="curnicchiu"><i>curnicchi</i><par n="tirritori/u__n"/></e>
-    <e lm="curtigghiu"><i>curtigghi</i><par n="tirritori/u__n"/></e>
-    <e lm="curtigghiu" r="LR"><p><l>cuttigghi</l><r>curtigghi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="curtigghiu" r="LR"><p><l>bagghi</l><r>curtigghi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="curtigghiu" r="LR"><p><l>bagli</l><r>curtigghi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="curtigghiu" r="LR"><p><l>cuttigli</l><r>curtigghi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="curtigghiu" r="LR"><p><l>curtigli</l><r>curtigghi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="càuciu"><i>càuci</i><par n="tirritori/u__n"/></e>
-    <e lm="càuciu" r="LR"><p><l>càvuci</l><r>càuci</r></p><par n="tirritori/u__n"/></e>
-    <e lm="càuciu" r="LR"><p><l>carci</l><r>càuci</r></p><par n="tirritori/u__n"/></e>
-    <e lm="damaggiu"><i>damaggi</i><par n="tirritori/u__n"/></e>
-    <e lm="damaggiu" r="LR"><p><l>damai</l><r>damaggi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="disaggiu"><i>disaggi</i><par n="tirritori/u__n"/></e>
-    <e lm="disaggiu" r="LR"><p><l>diciaci</l><r>disaggi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="disaggiu" r="LR"><p><l>disaci</l><r>disaggi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="disaggiu" r="LR"><p><l>disagi</l><r>disaggi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="disfizziu"><i>disfizzi</i><par n="tirritori/u__n"/></e>
-    <e lm="documentariu"><i>documentari</i><par n="tirritori/u__n"/></e>
-    <e lm="documentariu" r="LR"><p><l>ducumentari</l><r>documentari</r></p><par n="tirritori/u__n"/></e>
-    <e lm="durmitoriu"><i>durmitori</i><par n="tirritori/u__n"/></e>
-    <e lm="edificiu"><i>edifici</i><par n="tirritori/u__n"/></e>
-    <e lm="eliu"><i>eli</i><par n="tirritori/u__n"/></e>
-    <e lm="eculibbriu"><i>eculibbri</i><par n="tirritori/u__n"/></e>
-    <e lm="eculibbriu" r="LR"><p><l>equilibri</l><r>eculibbri</r></p><par n="tirritori/u__n"/></e>
-    <e lm="eculibbriu" r="LR"><p><l>eculibri</l><r>eculibbri</r></p><par n="tirritori/u__n"/></e>
-    <e lm="falloppiu"><i>falloppi</i><par n="tirritori/u__n"/></e>
-    <e lm="fastidiu"><i>fastidi</i><par n="tirritori/u__n"/></e>
-    <e lm="fastidiu" r="LR"><p><l>catuni</l><r>fastidi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="fastidiu" r="LR"><p><l>fastiddi</l><r>fastidi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="favaragghiu"><i>favaragghi</i><par n="tirritori/u__n"/></e>
-    <e lm="favaragghiu" r="LR"><p><l>favaraggi</l><r>favaragghi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="figliu"><i>figli</i><par n="tirritori/u__n"/></e>
-    <e lm="finocchiu"><i>finocchi</i><par n="tirritori/u__n"/></e>
-    <e lm="firruggiu"><i>firruggi</i><par n="tirritori/u__n"/></e>
-    <e lm="fisciu"><i>fisci</i><par n="tirritori/u__n"/></e>
-    <e lm="fistuliggiu"><i>fistuliggi</i><par n="tirritori/u__n"/></e>
-    <e lm="fitigghiu"><i>fitigghi</i><par n="tirritori/u__n"/></e>
-    <e lm="fogghiu"><i>fogghi</i><par n="tirritori/u__n"/></e>
-    <e lm="fogghiu" r="LR"><p><l>fogli</l><r>fogghi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="freggiu"><i>freggi</i><par n="tirritori/u__n"/></e>
-    <e lm="freggiu" r="LR"><p><l>frici</l><r>freggi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="freggiu" r="LR"><p><l>frigi</l><r>freggi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="freggiu" r="LR"><p><l>fregi</l><r>freggi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="freggiu" r="LR"><p><l>friggi</l><r>freggi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="frigugliu"><i>frigugli</i><par n="tirritori/u__n"/></e>
-    <e lm="frivugghiu"><i>frivugghi</i><par n="tirritori/u__n"/></e>
-    <e lm="frivugghiu" r="LR"><p><l>friugghi</l><r>frivugghi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="frumaggiu"><i>frumaggi</i><par n="tirritori/u__n"/></e>
-    <e lm="frumaggiu" r="LR"><p><l>frummaggi</l><r>frumaggi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="frusciu"><i>frusci</i><par n="tirritori/u__n"/></e>
-    <e lm="frusciu" r="LR"><p><l>flusci</l><r>frusci</r></p><par n="tirritori/u__n"/></e>
-    <e lm="funnarigghiu"><i>funnarigghi</i><par n="tirritori/u__n"/></e>
-    <e lm="furruaggiu"><i>furruaggi</i><par n="tirritori/u__n"/></e>
-    <e lm="gallingiu"><i>gallingi</i><par n="tirritori/u__n"/></e>
-    <e lm="gallingiu" r="LR"><p><l>galiggi</l><r>gallingi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="gandusciu"><i>gandusci</i><par n="tirritori/u__n"/></e>
-    <e lm="gandusciu" r="LR"><p><l>cantusci</l><r>gandusci</r></p><par n="tirritori/u__n"/></e>
-    <e lm="gaviu"><i>gavi</i><par n="tirritori/u__n"/></e>
-    <e lm="giaiu"><i>giai</i><par n="tirritori/u__n"/></e>
-    <e lm="giogghiu"><i>giogghi</i><par n="tirritori/u__n"/></e>
-    <e lm="grasciu"><i>grasci</i><par n="tirritori/u__n"/></e>
-    <e lm="guanciu"><i>guanci</i><par n="tirritori/u__n"/></e>
-    <e lm="intrugghiu"><i>intrugghi</i><par n="tirritori/u__n"/></e>
-    <e lm="intrugghiu" r="LR"><p><l>ntugghi</l><r>intrugghi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="intrugghiu" r="LR"><p><l>intugghi</l><r>intrugghi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="intrugghiu" r="LR"><p><l>ntrugghi</l><r>intrugghi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="isempiu"><i>isempi</i><par n="tirritori/u__n"/></e>
-    <e lm="isempiu" r="LR"><p><l>sempi</l><r>isempi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="junciu"><par n="j/i"/><i>unci</i><par n="tirritori/u__n"/></e>
-    <e lm="lappiu"><i>lappi</i><par n="tirritori/u__n"/></e>
-    <e lm="lappiu" r="LR"><p><l>alappi</l><r>lappi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="laurunchiu"><i>laurunchi</i><par n="tirritori/u__n"/></e>
-    <e lm="laurunchiu" r="LR"><p><l>lavrunchi</l><r>laurunchi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="laurunchiu" r="LR"><p><l>larunchi</l><r>laurunchi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="libbiciu"><i>libbici</i><par n="tirritori/u__n"/></e>
-    <e lm="libbiciu" r="LR"><p><l>libici</l><r>libbici</r></p><par n="tirritori/u__n"/></e>
-    <e lm="litiu"><i>liti</i><par n="tirritori/u__n"/></e>
-    <e lm="littriggiu"><i>littriggi</i><par n="tirritori/u__n"/></e>
-    <e lm="loppiu"><i>loppi</i><par n="tirritori/u__n"/></e>
-    <e lm="luciu"><i>luci</i><par n="tirritori/u__n"/></e>
-    <e lm="luffiu"><i>luffi</i><par n="tirritori/u__n"/></e>
-    <e lm="lugliu"><i>lugli</i><par n="tirritori/u__n"/></e>
-    <e lm="lugliu" r="LR"><p><l>lugghi</l><r>lugli</r></p><par n="tirritori/u__n"/></e>
-    <e lm="lupucuviu"><i>lupucuvi</i><par n="tirritori/u__n"/></e>
-    <e lm="macaluggiu"><i>macaluggi</i><par n="tirritori/u__n"/></e>
-    <e lm="macciu"><i>macci</i><par n="tirritori/u__n"/></e>
-    <e lm="maggiu"><i>maggi</i><par n="tirritori/u__n"/></e>
-    <e lm="manciatariu"><i>manciatari</i><par n="tirritori/u__n"/></e>
-    <e lm="mandracchiu"><i>mandracchi</i><par n="tirritori/u__n"/></e>
-    <e lm="maniggiu"><i>maniggi</i><par n="tirritori/u__n"/></e>
-    <e lm="marchiggiu"><i>marchiggi</i><par n="tirritori/u__n"/></e>
-    <e lm="mareggiu"><i>mareggi</i><par n="tirritori/u__n"/></e>
-    <e lm="margiu"><i>margi</i><par n="tirritori/u__n"/></e>
-    <e lm="marianiggiu"><i>marianiggi</i><par n="tirritori/u__n"/></e>
-    <e lm="marruggiu"><i>marruggi</i><par n="tirritori/u__n"/></e>
-    <e lm="martogghiu"><i>martogghi</i><par n="tirritori/u__n"/></e>
-    <e lm="martoriu"><i>martori</i><par n="tirritori/u__n"/></e>
-    <e lm="marucortusiu"><i>marucortusi</i><par n="tirritori/u__n"/></e>
-    <e lm="massaggiu"><i>massaggi</i><par n="tirritori/u__n"/></e>
-    <e lm="mattogghiu"><i>mattogghi</i><par n="tirritori/u__n"/></e>
-    <e lm="mauggiu"><i>mauggi</i><par n="tirritori/u__n"/></e>
-    <e lm="mauggiu" r="LR"><p><l>maguggi</l><r>mauggi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="meriu"><i>meri</i><par n="tirritori/u__n"/></e>
-    <e lm="missaggiu"><i>missaggi</i><par n="tirritori/u__n"/></e>
-    <e lm="missaggiu" r="LR"><p><l>messaggi</l><r>missaggi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="miciaciu"><i>miciaci</i><par n="tirritori/u__n"/></e>
-    <e lm="miciu"><i>mici</i><par n="tirritori/u__n"/></e>
-    <e lm="migliu"><i>migli</i><par n="tirritori/u__n"/></e>
-    <e lm="mininchiu"><i>mininchi</i><par n="tirritori/u__n"/></e>
-    <e lm="mercuriu"><i>mercuri</i><par n="tirritori/u__n"/></e>
-    <e lm="mercuriu" r="LR"><p><l>mircuri</l><r>mercuri</r></p><par n="tirritori/u__n"/></e>
-    <e lm="misciu"><i>misci</i><par n="tirritori/u__n"/></e>
-    <e lm="misciu" r="LR"><p><l>muci</l><r>misci</r></p><par n="tirritori/u__n"/></e>
-    <e lm="mmogghiu"><i>mmogghi</i><par n="tirritori/u__n"/></e>
-    <e lm="mmogghiu" r="LR"><p><l>nvogghi</l><r>mmogghi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="mmogghiu" r="LR"><p><l>ammogghi</l><r>mmogghi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="burgiu"><i>burgi</i><par n="tirritori/u__n"/></e>
-    <e lm="burgiu" r="LR"><p><l>mmurgi</l><r>burgi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="moddiu"><i>moddi</i><par n="tirritori/u__n"/></e>
-    <e lm="mpacciu"><i>mpacci</i><par n="tirritori/u__n"/></e>
-    <e lm="mpacciu" r="LR"><p><l>mpidugghi</l><r>mpacci</r></p><par n="tirritori/u__n"/></e>
-    <e lm="mpeiu"><i>mpei</i><par n="tirritori/u__n"/></e>
-    <e lm="mperiu"><i>mperi</i><par n="tirritori/u__n"/></e>
-    <e lm="mpidicugghiu"><i>mpidicugghi</i><par n="tirritori/u__n"/></e>
-    <e lm="muddiu"><i>muddi</i><par n="tirritori/u__n"/></e>
-    <e lm="mulinigghiu"><i>mulinigghi</i><par n="tirritori/u__n"/></e>
-    <e lm="murcigghiu"><i>murcigghi</i><par n="tirritori/u__n"/></e>
-    <e lm="mursagghiu"><i>mursagghi</i><par n="tirritori/u__n"/></e>
-    <e lm="musciu"><i>musci</i><par n="tirritori/u__n"/></e>
-    <e lm="màntuciu"><i>màntuci</i><par n="tirritori/u__n"/></e>
-    <e lm="màntuciu" r="LR"><p><l>màntaci</l><r>màntuci</r></p><par n="tirritori/u__n"/></e>
-    <e lm="màntuciu" r="LR"><p><l>màntici</l><r>màntuci</r></p><par n="tirritori/u__n"/></e>
-    <e lm="ncasciu"><i>ncasci</i><par n="tirritori/u__n"/></e>
-    <e lm="ncrocchiu"><i>ncrocchi</i><par n="tirritori/u__n"/></e>
-    <e lm="ndagghiu"><i>ndagghi</i><par n="tirritori/u__n"/></e>
-    <e lm="nigozziu"><i>nigozzi</i><par n="tirritori/u__n"/></e>
-    <e lm="nigozziu" r="LR"><p><l>negozi</l><r>nigozzi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="nigozziu" r="LR"><p><l>nicozzi</l><r>nigozzi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="nigozziu" r="LR"><p><l>negozzi</l><r>nigozzi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="nigozziu" r="LR"><p><l>nicozi</l><r>nigozzi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="nigozziu" r="LR"><p><l>nigozi</l><r>nigozzi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="nfanfarricchiu"><i>nfanfarricchi</i><par n="tirritori/u__n"/></e>
-    <e lm="nfanfarricchiu" r="LR"><p><l>nfanfaricchi</l><r>nfanfarricchi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="nfanfarricchiu" r="LR"><p><l>farfaricchi</l><r>nfanfarricchi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="nguaggiu"><i>nguaggi</i><par n="tirritori/u__n"/></e>
-    <e lm="ngusciu"><i>ngusci</i><par n="tirritori/u__n"/></e>
-    <e lm="ngusciu" r="LR"><p><l>angusci</l><r>ngusci</r></p><par n="tirritori/u__n"/></e>
-    <e lm="nigghiu"><i>nigghi</i><par n="tirritori/u__n"/></e>
-    <e lm="nnacchiu"><i>nnacchi</i><par n="tirritori/u__n"/></e>
-    <e lm="ntrameddiu"><i>ntrameddi</i><par n="tirritori/u__n"/></e>
-    <e lm="ntrigghiu"><i>ntrigghi</i><par n="tirritori/u__n"/></e>
-    <e lm="nuleggiu"><i>nuleggi</i><par n="tirritori/u__n"/></e>
-    <e lm="occiu"><i>occi</i><par n="tirritori/u__n"/></e>
-    <e lm="odiu"><i>odi</i><par n="tirritori/u__n"/></e>
-    <e lm="odiu" r="LR"><p><l>oddi</l><r>odi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="oliu"><i>oli</i><par n="tirritori/u__n"/></e>
-    <e lm="pampiniggiu"><i>pampiniggi</i><par n="tirritori/u__n"/></e>
-    <e lm="pantasciu"><i>pantasci</i><par n="tirritori/u__n"/></e>
-    <e lm="pantasciu" r="LR"><p><l>pantaci</l><r>pantasci</r></p><par n="tirritori/u__n"/></e>
-    <e lm="papacchiu"><i>papacchi</i><par n="tirritori/u__n"/></e>
-    <e lm="pappannacchiu"><i>pappannacchi</i><par n="tirritori/u__n"/></e>
-    <e lm="parcheggiu"><i>parcheggi</i><par n="tirritori/u__n"/></e>
-    <e lm="pariggiu"><i>pariggi</i><par n="tirritori/u__n"/></e>
-    <e lm="partaggiu"><i>partaggi</i><par n="tirritori/u__n"/></e>
-    <e lm="pedaggiu"><i>pedaggi</i><par n="tirritori/u__n"/></e>
-    <e lm="pedaggiu" r="LR"><p><l>pidaggi</l><r>pedaggi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="picchiu"><i>picchi</i><par n="tirritori/u__n"/></e>
-    <e lm="pinnacchiu"><i>pinnacchi</i><par n="tirritori/u__n"/></e>
-    <e lm="pinnagghiu"><i>pinnagghi</i><par n="tirritori/u__n"/></e>
-    <e lm="pinsiunariu"><i>pinsiunari</i><par n="tirritori/u__n"/></e>
-    <e lm="pinsiunariu" r="LR"><p><l>pinziunari</l><r>pinsiunari</r></p><par n="tirritori/u__n"/></e>
-    <e lm="pipiu"><i>pipi</i><par n="tirritori/u__n"/></e>
-    <e lm="pircacciu"><i>pircacci</i><par n="tirritori/u__n"/></e>
-    <e lm="piripacchiu"><i>piripacchi</i><par n="tirritori/u__n"/></e>
-    <e lm="piripicchiu"><i>piripicchi</i><par n="tirritori/u__n"/></e>
-    <e lm="piripicchiu" r="LR"><p><l>pipiricchi</l><r>piripicchi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="piripicchiu" r="LR"><p><l>pirrichicchi</l><r>piripicchi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="pitaggiu"><i>pitaggi</i><par n="tirritori/u__n"/></e>
-    <e lm="pitaggiu" r="LR"><p><l>putaggi</l><r>pitaggi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="pitaggiu" r="LR"><p><l>pitagghi</l><r>pitaggi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="pitigghiu"><i>pitigghi</i><par n="tirritori/u__n"/></e>
-    <e lm="pitisciu"><i>pitisci</i><par n="tirritori/u__n"/></e>
-    <e lm="pitroliu"><i>pitroli</i><par n="tirritori/u__n"/></e>
-    <e lm="pittinicchiu"><i>pittinicchi</i><par n="tirritori/u__n"/></e>
-    <e lm="poiu"><i>poi</i><par n="tirritori/u__n"/></e>
-    <e lm="pumiriggiu"><i>pumiriggi</i><par n="tirritori/u__n"/></e>
-    <e lm="pumiriggiu" r="LR"><p><l>pomeriggi</l><r>pumiriggi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="pumiriggiu" r="LR"><p><l>pumeriggi</l><r>pumiriggi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="pumiriggiu" r="LR"><p><l>pomiriggi</l><r>pumiriggi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="portafogghiu"><i>portafogghi</i><par n="tirritori/u__n"/></e>
-    <e lm="portafogghiu" r="LR"><p><l>portafogli</l><r>portafogghi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="praiu"><i>prai</i><par n="tirritori/u__n"/></e>
-    <e lm="preggiu"><i>preggi</i><par n="tirritori/u__n"/></e>
-    <e lm="preggiu" r="LR"><p><l>pleggi</l><r>preggi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="preggiu" r="LR"><p><l>pergi</l><r>preggi</r></p><par n="tirritori/u__n"/></e>
+    <e lm="abbaticchiu"><i>abbaticch</i><par n="sacchegg/iu__n"/></e>
+    <e lm="abbaticchiu" r="LR"><p><l>abaticch</l><r>abbaticch</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="abbacchiu"><i>abbacch</i><par n="sacchegg/iu__n"/></e>
+    <e lm="abbagliu"><i>abbagl</i><par n="sacchegg/iu__n"/></e>
+    <e lm="abbagliu" r="LR"><p><l>abbaggh</l><r>abbagl</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="abbaiu"><i>abba</i><par n="sacchegg/iu__n"/></e>
+    <e lm="abbecceddariu"><i>abbecceddar</i><par n="sacchegg/iu__n"/></e>
+    <e lm="abbecceddariu" r="LR"><p><l>abbaccianar</l><r>abbecceddar</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="abbecceddariu" r="LR"><p><l>abbeccennar</l><r>abbecceddar</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="abbiggiariu"><i>abbiggiar</i><par n="sacchegg/iu__n"/></e>
+    <e lm="accarpagghiu"><i>accarpaggh</i><par n="sacchegg/iu__n"/></e>
+    <e lm="accordiu"><i>accord</i><par n="sacchegg/iu__n"/></e>
+    <e lm="aciu"><i>ac</i><par n="sacchegg/iu__n"/></e>
+    <e lm="aciu" r="LR"><p><l>agi</l><r>ac</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="addaurufogghiu"><i>addaurufoggh</i><par n="sacchegg/iu__n"/></e>
+    <e lm="addàniu"><i>addàn</i><par n="sacchegg/iu__n"/></e>
+    <e lm="agliu"><i>agl</i><par n="sacchegg/iu__n"/></e>
+    <e lm="auguriu"><i>augur</i><par n="sacchegg/iu__n"/></e>
+    <e lm="auguriu" r="LR"><p><l>agur</l><r>augur</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="auguriu" r="LR"><p><l>auri</l><r>augur</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="alloggiu"><i>allogg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="alluminiu"><i>allumin</i><par n="sacchegg/iu__n"/></e>
+    <e lm="ammizzigghiu"><i>ammizziggh</i><par n="sacchegg/iu__n"/></e>
+    <e lm="ammizzigghiu" r="LR"><p><l>mmizziggh</l><r>ammizziggh</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="anniversariu"><i>anniversar</i><par n="sacchegg/iu__n"/></e>
+    <e lm="anniversariu" r="LR"><p><l>annivirsar</l><r>anniversar</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="annunziu"><i>annunz</i><par n="sacchegg/iu__n"/></e>
+    <e lm="appigghiu"><i>appiggh</i><par n="sacchegg/iu__n"/></e>
+    <e lm="appigghiu" r="LR"><p><l>firraggh</l><r>appiggh</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="appigghiu" r="LR"><p><l>affirraggh</l><r>appiggh</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="appigghiu" r="LR"><p><l>apprisaggh</l><r>appiggh</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="apruacchiu"><i>apruacch</i><par n="sacchegg/iu__n"/></e>
+    <e lm="apruacchiu" r="LR"><p><l>aprocch</l><r>apruacch</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="arbaciu"><i>arbac</i><par n="sacchegg/iu__n"/></e>
+    <e lm="arbaciu" r="LR"><p><l>abbrac</l><r>arbac</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="arbaciu" r="LR"><p><l>avlac</l><r>arbac</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="arbaciu" r="LR"><p><l>avrac</l><r>arbac</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="arbitriu"><i>arbitr</i><par n="sacchegg/iu__n"/></e>
+    <e lm="armadiu"><i>armad</i><par n="sacchegg/iu__n"/></e>
+    <e lm="armadiu" r="LR"><p><l>arman</l><r>armad</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="armiggiu"><i>armigg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="armiggiu" r="LR"><p><l>armiggh</l><r>armigg</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="arminiu"><i>armin</i><par n="sacchegg/iu__n"/></e>
+    <e lm="arpagghiu"><i>arpaggh</i><par n="sacchegg/iu__n"/></e>
+    <e lm="arpegliu"><i>arpegl</i><par n="sacchegg/iu__n"/></e>
+    <e lm="arrembaggiu"><i>arrembagg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="arrembaggiu" r="LR"><p><l>arrammagg</l><r>arrembagg</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="arrembaggiu" r="LR"><p><l>arrimbagg</l><r>arrembagg</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="arristagghiu"><i>arristaggh</i><par n="sacchegg/iu__n"/></e>
+    <e lm="arritticchiu"><i>arritticch</i><par n="sacchegg/iu__n"/></e>
+    <e lm="arsoliu"><i>arsol</i><par n="sacchegg/iu__n"/></e>
+    <e lm="esircizziu"><i>esircizz</i><par n="sacchegg/iu__n"/></e>
+    <e lm="esircizziu" r="LR"><p><l>asircizz</l><r>esircizz</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="esircizziu" r="LR"><p><l>sarciz</l><r>esircizz</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="esircizziu" r="LR"><p><l>sircizz</l><r>esircizz</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="esircizziu" r="LR"><p><l>sarcizz</l><r>esircizz</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="esircizziu" r="LR"><p><l>sirciz</l><r>esircizz</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="esircizziu" r="LR"><p><l>esirciz</l><r>esircizz</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="esircizziu" r="LR"><p><l>asirciz</l><r>esircizz</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="assaggiu"><i>assagg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="assaggiu" r="LR"><p><l>assai</l><r>assagg</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="assediu"><i>assed</i><par n="sacchegg/iu__n"/></e>
+    <e lm="assediu" r="LR"><p><l>asseggi</l><r>assed</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="assenziu"><i>assenz</i><par n="sacchegg/iu__n"/></e>
+    <e lm="attabbusciu"><i>attabbusc</i><par n="sacchegg/iu__n"/></e>
+    <e lm="attaciu"><i>attac</i><par n="sacchegg/iu__n"/></e>
+    <e lm="avoriu"><i>avor</i><par n="sacchegg/iu__n"/></e>
+    <e lm="avoriu" r="LR"><p><l>avol</l><r>avor</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="avvirsariu"><i>avvirsar</i><par n="sacchegg/iu__n"/></e>
+    <e lm="avvirsariu" r="LR"><p><l>avirsar</l><r>avvirsar</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="aèriu"><i>aèr</i><par n="sacchegg/iu__n"/></e>
+    <e lm="aèriu" r="LR"><p><l>apparecch</l><r>aèr</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="baccagghiu"><i>baccaggh</i><par n="sacchegg/iu__n"/></e>
+    <e lm="badagghiu"><i>badaggh</i><par n="sacchegg/iu__n"/></e>
+    <e lm="badagghiu" r="LR"><p><l>baraggh</l><r>badaggh</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="bagagghiu"><i>bagaggh</i><par n="sacchegg/iu__n"/></e>
+    <e lm="bagagghiu" r="LR"><p><l>bagagl</l><r>bagaggh</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="barbalacchiu"><i>barbalacch</i><par n="sacchegg/iu__n"/></e>
+    <e lm="barbalacchiu" r="LR"><p><l>babbalacch</l><r>barbalacch</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="barbàniu"><i>barbàn</i><par n="sacchegg/iu__n"/></e>
+    <e lm="bardigghiu"><i>bardiggh</i><par n="sacchegg/iu__n"/></e>
+    <e lm="berilliu"><i>berill</i><par n="sacchegg/iu__n"/></e>
+    <e lm="berilliu" r="LR"><p><l>birill</l><r>berill</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="biccacciu"><i>biccacc</i><par n="sacchegg/iu__n"/></e>
+    <e lm="birocciu"><i>birocc</i><par n="sacchegg/iu__n"/></e>
+    <e lm="briciu"><i>bric</i><par n="sacchegg/iu__n"/></e>
+    <e lm="brigghiu"><i>briggh</i><par n="sacchegg/iu__n"/></e>
+    <e lm="brugghiu"><i>bruggh</i><par n="sacchegg/iu__n"/></e>
+    <e lm="brusciu"><i>brusc</i><par n="sacchegg/iu__n"/></e>
+    <e lm="bugghiu"><i>buggh</i><par n="sacchegg/iu__n"/></e>
+    <e lm="busciu"><i>busc</i><par n="sacchegg/iu__n"/></e>
+    <e lm="busciu" r="LR"><p><l>abbusci</l><r>busc</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="busiu"><i>bus</i><par n="sacchegg/iu__n"/></e>
+    <e lm="busiu" r="LR"><p><l>buzzi</l><r>bus</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="cacaticchiu"><i>cacaticch</i><par n="sacchegg/iu__n"/></e>
+    <e lm="cacchiu"><i>cacch</i><par n="sacchegg/iu__n"/></e>
+    <e lm="cacciu"><i>cacc</i><par n="sacchegg/iu__n"/></e>
+    <e lm="calaiu"><i>cala</i><par n="sacchegg/iu__n"/></e>
+    <e lm="calinnariu"><i>calinnar</i><par n="sacchegg/iu__n"/></e>
+    <e lm="calinnariu" r="LR"><p><l>calunnar</l><r>calinnar</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="calinnariu" r="LR"><p><l>calantar</l><r>calinnar</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="camiu"><i>cam</i><par n="sacchegg/iu__n"/></e>
+    <e lm="camorchiu"><i>camorch</i><par n="sacchegg/iu__n"/></e>
+    <e lm="cannuttigghiu"><i>cannuttiggh</i><par n="sacchegg/iu__n"/></e>
+    <e lm="cannuttigghiu" r="LR"><p><l>cannittiggh</l><r>cannuttiggh</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="capicchiu"><i>capicch</i><par n="sacchegg/iu__n"/></e>
+    <e lm="cappucciu"><i>cappucc</i><par n="sacchegg/iu__n"/></e>
+    <e lm="caramuciu"><i>caramuc</i><par n="sacchegg/iu__n"/></e>
+    <e lm="caramuciu" r="LR"><p><l>caramusc</l><r>caramuc</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="caramuciu" r="LR"><p><l>grammusc</l><r>caramuc</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="caramuciu" r="LR"><p><l>carmusc</l><r>caramuc</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="caramuciu" r="LR"><p><l>grammuc</l><r>caramuc</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="caramuciu" r="LR"><p><l>carmuc</l><r>caramuc</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="caratariu"><i>caratar</i><par n="sacchegg/iu__n"/></e>
+    <e lm="caratariu" r="LR"><p><l>arrennatar</l><r>caratar</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="caratariu" r="LR"><p><l>calatar</l><r>caratar</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="caratariu" r="LR"><p><l>arrinnatar</l><r>caratar</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="carboniu"><i>carbon</i><par n="sacchegg/iu__n"/></e>
+    <e lm="carbuciu"><i>carbuc</i><par n="sacchegg/iu__n"/></e>
+    <e lm="carnaggiu"><i>carnagg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="carrittigghiu"><i>carrittiggh</i><par n="sacchegg/iu__n"/></e>
+    <e lm="carruggiu"><i>carrugg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="carruggiu" r="LR"><p><l>carru</l><r>carrugg</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="cartiddunariu"><i>cartiddunar</i><par n="sacchegg/iu__n"/></e>
+    <e lm="catoiu"><i>cato</i><par n="sacchegg/iu__n"/></e>
+    <e lm="cavaddunchiu"><i>cavaddunch</i><par n="sacchegg/iu__n"/></e>
+    <e lm="cavalaggiu"><i>cavalagg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="cavalaggiu" r="LR"><p><l>vavalagg</l><r>cavalagg</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="cavalaggiu" r="LR"><p><l>vavaluc</l><r>cavalagg</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="cavalaggiu" r="LR"><p><l>vavalac</l><r>cavalagg</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="cavalaggiu" r="LR"><p><l>babbaluc</l><r>cavalagg</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="cummogghiu"><i>cummoggh</i><par n="sacchegg/iu__n"/></e>
+    <e lm="cummogghiu" r="LR"><p><l>chimmogl</l><r>cummoggh</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="cummogghiu" r="LR"><p><l>chimmuogl</l><r>cummoggh</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="ciliu"><i>cil</i><par n="sacchegg/iu__n"/></e>
+    <e lm="cincigghiu"><i>cinciggh</i><par n="sacchegg/iu__n"/></e>
+    <e lm="circhiu"><i>circh</i><par n="sacchegg/iu__n"/></e>
+    <e lm="circhiu" r="LR"><p><l>chirch</l><r>circh</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="ciurlaniu"><i>ciurlan</i><par n="sacchegg/iu__n"/></e>
+    <e lm="ciuvasciu"><i>ciuvasc</i><par n="sacchegg/iu__n"/></e>
+    <e lm="crafocchiu"><i>crafocch</i><par n="sacchegg/iu__n"/></e>
+    <e lm="crafocchiu" r="LR"><p><l>caforch</l><r>crafocch</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="crafocchiu" r="LR"><p><l>cafocch</l><r>crafocch</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="crafocchiu" r="LR"><p><l>cavorch</l><r>crafocch</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="cravunchiu"><i>cravunch</i><par n="sacchegg/iu__n"/></e>
+    <e lm="cravunchiu" r="LR"><p><l>craunch</l><r>cravunch</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="cravunchiu" r="LR"><p><l>carvunch</l><r>cravunch</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="cricchiu"><i>cricch</i><par n="sacchegg/iu__n"/></e>
+    <e lm="criu"><i>cr</i><par n="sacchegg/iu__n"/></e>
+    <e lm="criu" r="LR"><p><l>cirniggh</l><r>cr</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="crucchigghiu"><i>crucchiggh</i><par n="sacchegg/iu__n"/></e>
+    <e lm="curvacchiu"><i>curvacch</i><par n="sacchegg/iu__n"/></e>
+    <e lm="curvacchiu" r="LR"><p><l>cruvacch</l><r>curvacch</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="curvacchiu" r="LR"><p><l>cruacch</l><r>curvacch</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="cucucciu"><i>cucucc</i><par n="sacchegg/iu__n"/></e>
+    <e lm="cucutrigghiu"><i>cucutriggh</i><par n="sacchegg/iu__n"/></e>
+    <e lm="cucutrigghiu" r="LR"><p><l>cuncutriggh</l><r>cucutriggh</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="culleggiu"><i>cullegg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="culleggiu" r="LR"><p><l>culleg</l><r>cullegg</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="cunfìddiu"><i>cunfìdd</i><par n="sacchegg/iu__n"/></e>
+    <e lm="cunigghiu"><i>cuniggh</i><par n="sacchegg/iu__n"/></e>
+    <e lm="cunigghiu" r="LR"><p><l>cunigli</l><r>cuniggh</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="cuniu"><i>cun</i><par n="sacchegg/iu__n"/></e>
+    <e lm="cunsigghiu"><i>cunsiggh</i><par n="sacchegg/iu__n"/></e>
+    <e lm="cunsigghiu" r="LR"><p><l>cunsigl</l><r>cunsiggh</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="cunsigghiu" r="LR"><p><l>cunzigl</l><r>cunsiggh</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="cunsigghiu" r="LR"><p><l>cunziggh</l><r>cunsiggh</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="cuntrariu"><i>cuntrar</i><par n="sacchegg/iu__n"/></e>
+    <e lm="cuperchiu"><i>cuperch</i><par n="sacchegg/iu__n"/></e>
+    <e lm="cuperchiu" r="LR"><p><l>cuverch</l><r>cuperch</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="curaggiu"><i>curagg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="curnicchiu"><i>curnicch</i><par n="sacchegg/iu__n"/></e>
+    <e lm="curtigghiu"><i>curtiggh</i><par n="sacchegg/iu__n"/></e>
+    <e lm="curtigghiu" r="LR"><p><l>cuttiggh</l><r>curtiggh</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="curtigghiu" r="LR"><p><l>baggh</l><r>curtiggh</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="curtigghiu" r="LR"><p><l>bagl</l><r>curtiggh</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="curtigghiu" r="LR"><p><l>cuttigl</l><r>curtiggh</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="curtigghiu" r="LR"><p><l>curtigl</l><r>curtiggh</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="càuciu"><i>càuc</i><par n="sacchegg/iu__n"/></e>
+    <e lm="càuciu" r="LR"><p><l>càvuc</l><r>càuc</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="càuciu" r="LR"><p><l>carc</l><r>càuc</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="damaggiu"><i>damagg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="damaggiu" r="LR"><p><l>damai</l><r>damagg</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="disaggiu"><i>disagg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="disaggiu" r="LR"><p><l>diciac</l><r>disagg</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="disaggiu" r="LR"><p><l>disac</l><r>disagg</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="disaggiu" r="LR"><p><l>disag</l><r>disagg</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="disfizziu"><i>disfizz</i><par n="sacchegg/iu__n"/></e>
+    <e lm="documentariu"><i>documentar</i><par n="sacchegg/iu__n"/></e>
+    <e lm="documentariu" r="LR"><p><l>ducumentar</l><r>documentar</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="durmitoriu"><i>durmitor</i><par n="sacchegg/iu__n"/></e>
+    <e lm="edificiu"><i>edific</i><par n="sacchegg/iu__n"/></e>
+    <e lm="eliu"><i>el</i><par n="sacchegg/iu__n"/></e>
+    <e lm="eculibbriu"><i>eculibbr</i><par n="sacchegg/iu__n"/></e>
+    <e lm="eculibbriu" r="LR"><p><l>equilibr</l><r>eculibbr</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="eculibbriu" r="LR"><p><l>eculibr</l><r>eculibbr</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="falloppiu"><i>fallopp</i><par n="sacchegg/iu__n"/></e>
+    <e lm="fastidiu"><i>fastid</i><par n="sacchegg/iu__n"/></e>
+    <e lm="fastidiu" r="LR"><p><l>catun</l><r>fastid</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="fastidiu" r="LR"><p><l>fastidd</l><r>fastid</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="favaragghiu"><i>favaraggh</i><par n="sacchegg/iu__n"/></e>
+    <e lm="favaragghiu" r="LR"><p><l>favaragg</l><r>favaraggh</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="figliu"><i>figl</i><par n="sacchegg/iu__n"/></e>
+    <e lm="finocchiu"><i>finocch</i><par n="sacchegg/iu__n"/></e>
+    <e lm="firruggiu"><i>firrugg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="fisciu"><i>fisc</i><par n="sacchegg/iu__n"/></e>
+    <e lm="fistuliggiu"><i>fistuligg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="fitigghiu"><i>fitiggh</i><par n="sacchegg/iu__n"/></e>
+    <e lm="fogghiu"><i>foggh</i><par n="sacchegg/iu__n"/></e>
+    <e lm="fogghiu" r="LR"><p><l>fogl</l><r>foggh</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="freggiu"><i>fregg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="freggiu" r="LR"><p><l>fric</l><r>fregg</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="freggiu" r="LR"><p><l>frig</l><r>fregg</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="freggiu" r="LR"><p><l>freg</l><r>fregg</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="freggiu" r="LR"><p><l>frigg</l><r>fregg</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="frigugliu"><i>frigugl</i><par n="sacchegg/iu__n"/></e>
+    <e lm="frivugghiu"><i>frivuggh</i><par n="sacchegg/iu__n"/></e>
+    <e lm="frivugghiu" r="LR"><p><l>friuggh</l><r>frivuggh</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="frumaggiu"><i>frumagg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="frumaggiu" r="LR"><p><l>frummagg</l><r>frumagg</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="frusciu"><i>frusc</i><par n="sacchegg/iu__n"/></e>
+    <e lm="frusciu" r="LR"><p><l>flusc</l><r>frusc</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="funnarigghiu"><i>funnariggh</i><par n="sacchegg/iu__n"/></e>
+    <e lm="furruaggiu"><i>furruagg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="gallingiu"><i>galling</i><par n="sacchegg/iu__n"/></e>
+    <e lm="gallingiu" r="LR"><p><l>galigg</l><r>galling</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="gandusciu"><i>gandusc</i><par n="sacchegg/iu__n"/></e>
+    <e lm="gandusciu" r="LR"><p><l>cantusc</l><r>gandusc</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="gaviu"><i>gav</i><par n="sacchegg/iu__n"/></e>
+    <e lm="giaiu"><i>gia</i><par n="sacchegg/iu__n"/></e>
+    <e lm="giogghiu"><i>gioggh</i><par n="sacchegg/iu__n"/></e>
+    <e lm="grasciu"><i>grasc</i><par n="sacchegg/iu__n"/></e>
+    <e lm="guanciu"><i>guanc</i><par n="sacchegg/iu__n"/></e>
+    <e lm="intrugghiu"><i>intruggh</i><par n="sacchegg/iu__n"/></e>
+    <e lm="intrugghiu" r="LR"><p><l>ntuggh</l><r>intruggh</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="intrugghiu" r="LR"><p><l>intuggh</l><r>intruggh</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="intrugghiu" r="LR"><p><l>ntruggh</l><r>intruggh</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="isempiu"><i>isemp</i><par n="sacchegg/iu__n"/></e>
+    <e lm="isempiu" r="LR"><p><l>semp</l><r>isemp</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="junciu"><par n="j/i"/><i>unc</i><par n="sacchegg/iu__n"/></e>
+    <e lm="lappiu"><i>lapp</i><par n="sacchegg/iu__n"/></e>
+    <e lm="lappiu" r="LR"><p><l>alappi</l><r>lapp</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="laurunchiu"><i>laurunch</i><par n="sacchegg/iu__n"/></e>
+    <e lm="laurunchiu" r="LR"><p><l>lavrunch</l><r>laurunch</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="laurunchiu" r="LR"><p><l>larunch</l><r>laurunch</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="libbiciu"><i>libbic</i><par n="sacchegg/iu__n"/></e>
+    <e lm="libbiciu" r="LR"><p><l>libic</l><r>libbic</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="litiu"><i>lit</i><par n="sacchegg/iu__n"/></e>
+    <e lm="littriggiu"><i>littrigg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="loppiu"><i>lopp</i><par n="sacchegg/iu__n"/></e>
+    <e lm="luciu"><i>luc</i><par n="sacchegg/iu__n"/></e>
+    <e lm="luffiu"><i>luff</i><par n="sacchegg/iu__n"/></e>
+    <e lm="lugliu"><i>lugl</i><par n="sacchegg/iu__n"/></e>
+    <e lm="lugliu" r="LR"><p><l>luggh</l><r>lugl</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="lupucuviu"><i>lupucuv</i><par n="sacchegg/iu__n"/></e>
+    <e lm="macaluggiu"><i>macalugg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="macciu"><i>macc</i><par n="sacchegg/iu__n"/></e>
+    <e lm="maggiu"><i>magg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="manciatariu"><i>manciatar</i><par n="sacchegg/iu__n"/></e>
+    <e lm="mandracchiu"><i>mandracch</i><par n="sacchegg/iu__n"/></e>
+    <e lm="maniggiu"><i>manigg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="marchiggiu"><i>marchigg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="mareggiu"><i>maregg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="margiu"><i>marg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="marianiggiu"><i>marianigg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="marruggiu"><i>marrugg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="martogghiu"><i>martoggh</i><par n="sacchegg/iu__n"/></e>
+    <e lm="martoriu"><i>martor</i><par n="sacchegg/iu__n"/></e>
+    <e lm="marucortusiu"><i>marucortus</i><par n="sacchegg/iu__n"/></e>
+    <e lm="massaggiu"><i>massagg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="mattogghiu"><i>mattoggh</i><par n="sacchegg/iu__n"/></e>
+    <e lm="mauggiu"><i>maugg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="mauggiu" r="LR"><p><l>magugg</l><r>maugg</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="meriu"><i>mer</i><par n="sacchegg/iu__n"/></e>
+    <e lm="missaggiu"><i>missagg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="missaggiu" r="LR"><p><l>messagg</l><r>missagg</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="miciaciu"><i>miciac</i><par n="sacchegg/iu__n"/></e>
+    <e lm="miciu"><i>mic</i><par n="sacchegg/iu__n"/></e>
+    <e lm="migliu"><i>migl</i><par n="sacchegg/iu__n"/></e>
+    <e lm="mininchiu"><i>mininch</i><par n="sacchegg/iu__n"/></e>
+    <e lm="mercuriu"><i>mercur</i><par n="sacchegg/iu__n"/></e>
+    <e lm="mercuriu" r="LR"><p><l>mircur</l><r>mercur</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="misciu"><i>misc</i><par n="sacchegg/iu__n"/></e>
+    <e lm="misciu" r="LR"><p><l>muc</l><r>misc</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="mmogghiu"><i>mmoggh</i><par n="sacchegg/iu__n"/></e>
+    <e lm="mmogghiu" r="LR"><p><l>nvoggh</l><r>mmoggh</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="mmogghiu" r="LR"><p><l>ammoggh</l><r>mmoggh</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="burgiu"><i>burg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="burgiu" r="LR"><p><l>mmurg</l><r>burg</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="moddiu"><i>modd</i><par n="sacchegg/iu__n"/></e>
+    <e lm="mpacciu"><i>mpacc</i><par n="sacchegg/iu__n"/></e>
+    <e lm="mpacciu" r="LR"><p><l>mpiduggh</l><r>mpacc</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="mpeiu"><i>mpe</i><par n="sacchegg/iu__n"/></e>
+    <e lm="mperiu"><i>mper</i><par n="sacchegg/iu__n"/></e>
+    <e lm="mpidicugghiu"><i>mpidicuggh</i><par n="sacchegg/iu__n"/></e>
+    <e lm="muddiu"><i>mudd</i><par n="sacchegg/iu__n"/></e>
+    <e lm="mulinigghiu"><i>muliniggh</i><par n="sacchegg/iu__n"/></e>
+    <e lm="murcigghiu"><i>murciggh</i><par n="sacchegg/iu__n"/></e>
+    <e lm="mursagghiu"><i>mursaggh</i><par n="sacchegg/iu__n"/></e>
+    <e lm="musciu"><i>musc</i><par n="sacchegg/iu__n"/></e>
+    <e lm="màntuciu"><i>màntuc</i><par n="sacchegg/iu__n"/></e>
+    <e lm="màntuciu" r="LR"><p><l>màntac</l><r>màntuc</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="màntuciu" r="LR"><p><l>màntic</l><r>màntuc</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="ncasciu"><i>ncasc</i><par n="sacchegg/iu__n"/></e>
+    <e lm="ncrocchiu"><i>ncrocch</i><par n="sacchegg/iu__n"/></e>
+    <e lm="ndagghiu"><i>ndaggh</i><par n="sacchegg/iu__n"/></e>
+    <e lm="nigozziu"><i>nigozz</i><par n="sacchegg/iu__n"/></e>
+    <e lm="nigozziu" r="LR"><p><l>negoz</l><r>nigozz</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="nigozziu" r="LR"><p><l>nicozz</l><r>nigozz</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="nigozziu" r="LR"><p><l>negozz</l><r>nigozz</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="nigozziu" r="LR"><p><l>nicoz</l><r>nigozz</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="nigozziu" r="LR"><p><l>nigoz</l><r>nigozz</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="nfanfarricchiu"><i>nfanfarricch</i><par n="sacchegg/iu__n"/></e>
+    <e lm="nfanfarricchiu" r="LR"><p><l>nfanfaricch</l><r>nfanfarricch</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="nfanfarricchiu" r="LR"><p><l>farfaricch</l><r>nfanfarricch</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="nguaggiu"><i>nguagg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="ngusciu"><i>ngusc</i><par n="sacchegg/iu__n"/></e>
+    <e lm="ngusciu" r="LR"><p><l>angusc</l><r>ngusc</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="nigghiu"><i>niggh</i><par n="sacchegg/iu__n"/></e>
+    <e lm="nnacchiu"><i>nnacch</i><par n="sacchegg/iu__n"/></e>
+    <e lm="ntrameddiu"><i>ntramedd</i><par n="sacchegg/iu__n"/></e>
+    <e lm="ntrigghiu"><i>ntriggh</i><par n="sacchegg/iu__n"/></e>
+    <e lm="nuleggiu"><i>nulegg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="occiu"><i>occ</i><par n="sacchegg/iu__n"/></e>
+    <e lm="odiu"><i>od</i><par n="sacchegg/iu__n"/></e>
+    <e lm="odiu" r="LR"><p><l>odd</l><r>od</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="oliu"><i>ol</i><par n="sacchegg/iu__n"/></e>
+    <e lm="pampiniggiu"><i>pampinigg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="pantasciu"><i>pantasc</i><par n="sacchegg/iu__n"/></e>
+    <e lm="pantasciu" r="LR"><p><l>pantac</l><r>pantasc</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="papacchiu"><i>papacch</i><par n="sacchegg/iu__n"/></e>
+    <e lm="pappannacchiu"><i>pappannacch</i><par n="sacchegg/iu__n"/></e>
+    <e lm="parcheggiu"><i>parchegg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="pariggiu"><i>parigg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="partaggiu"><i>partagg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="pedaggiu"><i>pedagg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="pedaggiu" r="LR"><p><l>pidagg</l><r>pedagg</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="picchiu"><i>picch</i><par n="sacchegg/iu__n"/></e>
+    <e lm="pinnacchiu"><i>pinnacch</i><par n="sacchegg/iu__n"/></e>
+    <e lm="pinnagghiu"><i>pinnaggh</i><par n="sacchegg/iu__n"/></e>
+    <e lm="pinsiunariu"><i>pinsiunar</i><par n="sacchegg/iu__n"/></e>
+    <e lm="pinsiunariu" r="LR"><p><l>pinziunar</l><r>pinsiunar</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="pipiu"><i>pip</i><par n="sacchegg/iu__n"/></e>
+    <e lm="pircacciu"><i>pircacc</i><par n="sacchegg/iu__n"/></e>
+    <e lm="piripacchiu"><i>piripacch</i><par n="sacchegg/iu__n"/></e>
+    <e lm="piripicchiu"><i>piripicch</i><par n="sacchegg/iu__n"/></e>
+    <e lm="piripicchiu" r="LR"><p><l>pipiricch</l><r>piripicch</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="piripicchiu" r="LR"><p><l>pirrichicch</l><r>piripicch</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="pitaggiu"><i>pitagg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="pitaggiu" r="LR"><p><l>putagg</l><r>pitagg</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="pitaggiu" r="LR"><p><l>pitaggh</l><r>pitagg</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="pitigghiu"><i>pitiggh</i><par n="sacchegg/iu__n"/></e>
+    <e lm="pitisciu"><i>pitisc</i><par n="sacchegg/iu__n"/></e>
+    <e lm="pitroliu"><i>pitrol</i><par n="sacchegg/iu__n"/></e>
+    <e lm="pittinicchiu"><i>pittinicch</i><par n="sacchegg/iu__n"/></e>
+    <e lm="poiu"><i>po</i><par n="sacchegg/iu__n"/></e>
+    <e lm="pumiriggiu"><i>pumirigg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="pumiriggiu" r="LR"><p><l>pomerigg</l><r>pumirigg</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="pumiriggiu" r="LR"><p><l>pumerigg</l><r>pumirigg</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="pumiriggiu" r="LR"><p><l>pomirigg</l><r>pumirigg</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="portafogghiu"><i>portafoggh</i><par n="sacchegg/iu__n"/></e>
+    <e lm="portafogghiu" r="LR"><p><l>portafogl</l><r>portafoggh</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="praiu"><i>pra</i><par n="sacchegg/iu__n"/></e>
+    <e lm="preggiu"><i>pregg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="preggiu" r="LR"><p><l>plegg</l><r>pregg</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="preggiu" r="LR"><p><l>perg</l><r>pregg</r></p><par n="sacchegg/iu__n"/></e>
     <e lm="pregu" r="LR"><p><l>prei</l><r>preg</r></p><par n="foc/u__n"/></e>
     <e lm="pregu" r="LR"><p><l>pri</l><r>preg</r></p><par n="foc/u__n"/></e>
     <e lm="pregu" r="LR"><p><l>preg</l><r>preg</r></p><par n="foc/u__n"/></e>
     <e lm="pregu" r="LR"><p><l>prej</l><r>preg</r></p><par n="foc/u__n"/></e>
     <e lm="pregu" r="LR"><p><l>pre</l><r>preg</r></p><par n="foc/u__n"/></e>
-    <e lm="pràniu"><i>pràni</i><par n="tirritori/u__n"/></e>
-    <e lm="putassiu"><i>putassi</i><par n="tirritori/u__n"/></e>
-    <e lm="putassiu" r="LR"><p><l>potassi</l><r>putassi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="putiferiu"><i>putiferi</i><par n="tirritori/u__n"/></e>
-    <e lm="quagghiu"><i>quagghi</i><par n="tirritori/u__n"/></e>
-    <e lm="quagghiu" r="LR"><p><l>quagli</l><r>quagghi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="quarrenchiu"><i>quarrenchi</i><par n="tirritori/u__n"/></e>
-    <e lm="quisquigghiu"><i>quisquigghi</i><par n="tirritori/u__n"/></e>
-    <e lm="sticchiu"><i>sticchi</i><par n="tirritori/u__n"/></e>
-    <e lm="sticchiu" r="LR"><p><l>racchi</l><r>sticchi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="sticchiu" r="LR"><p><l>ciuci</l><r>sticchi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="sticchiu" r="LR"><p><l>ciugi</l><r>sticchi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="ragghiu"><i>ragghi</i><par n="tirritori/u__n"/></e>
-    <e lm="ragghiu" r="LR"><p><l>ragli</l><r>ragghi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="ranciu"><i>ranci</i><par n="tirritori/u__n"/></e>
-    <e lm="rinocchiu"><i>rinocchi</i><par n="tirritori/u__n"/></e>
-    <e lm="rinocchiu" r="LR"><p><l>jinocchi</l><r>rinocchi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="rinocchiu" r="LR"><p><l>inocchi</l><r>rinocchi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="rizzagghiu"><i>rizzagghi</i><par n="tirritori/u__n"/></e>
-    <e lm="ruloggiu"><i>ruloggi</i><par n="tirritori/u__n"/></e>
-    <e lm="ruloggiu" r="LR"><p><l>rulogi</l><r>ruloggi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="ruloggiu" r="LR"><p><l>rologgi</l><r>ruloggi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="ruloggiu" r="LR"><p><l>rumuntori</l><r>ruloggi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="ruloggiu" r="LR"><p><l>roggi</l><r>ruloggi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="ruloggiu" r="LR"><p><l>rilogi</l><r>ruloggi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="ruloggiu" r="LR"><p><l>ralogi</l><r>ruloggi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="ruloggiu" r="LR"><p><l>riloggi</l><r>ruloggi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="ruloggiu" r="LR"><p><l>rologi</l><r>ruloggi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="ruloggiu" r="LR"><p><l>ruoggi</l><r>ruloggi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="ruloggiu" r="LR"><p><l>raloggi</l><r>ruloggi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="ruloggiu" r="LR"><p><l>rumuntuari</l><r>ruloggi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="rumanciu"><i>rumanci</i><par n="tirritori/u__n"/></e>
-    <e lm="rusariu"><i>rusari</i><par n="tirritori/u__n"/></e>
-    <e lm="rusariu" r="LR"><p><l>rosari</l><r>rusari</r></p><par n="tirritori/u__n"/></e>
-    <e lm="sacrificiu"><i>sacrifici</i><par n="tirritori/u__n"/></e>
-    <e lm="sacrificiu" r="LR"><p><l>sacrifizzi</l><r>sacrifici</r></p><par n="tirritori/u__n"/></e>
-    <e lm="sacrificiu" r="LR"><p><l>sacrifizi</l><r>sacrifici</r></p><par n="tirritori/u__n"/></e>
-    <e lm="salifiziu"><i>salifizi</i><par n="tirritori/u__n"/></e>
-    <e lm="sbagghiu"><i>sbagghi</i><par n="tirritori/u__n"/></e>
-    <e lm="sbagghiu" r="LR"><p><l>sbagli</l><r>sbagghi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="scandiu"><i>scandi</i><par n="tirritori/u__n"/></e>
-    <e lm="scarafagghiu"><i>scarafagghi</i><par n="tirritori/u__n"/></e>
-    <e lm="scarafagghiu" r="LR"><p><l>scravagghi</l><r>scarafagghi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="scariu"><i>scari</i><par n="tirritori/u__n"/></e>
-    <e lm="scasciu"><i>scasci</i><par n="tirritori/u__n"/></e>
-    <e lm="schiticchiu"><i>schiticchi</i><par n="tirritori/u__n"/></e>
-    <e lm="sciu"><i>sci</i><par n="tirritori/u__n"/></e>
-    <e lm="scrosciu"><i>scrosci</i><par n="tirritori/u__n"/></e>
-    <e lm="sgalicciu"><i>sgalicci</i><par n="tirritori/u__n"/></e>
-    <e lm="silenziu"><i>silenzi</i><par n="tirritori/u__n"/></e>
-    <e lm="sirvizziu"><i>sirvizzi</i><par n="tirritori/u__n"/></e>
-    <e lm="sirvizziu" r="LR"><p><l>sirvizi</l><r>sirvizzi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="sirvizziu" r="LR"><p><l>survizzi</l><r>sirvizzi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="sirvizziu" r="LR"><p><l>survizi</l><r>sirvizzi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="spazziu"><i>spazzi</i><par n="tirritori/u__n"/></e>
-    <e lm="spazziu" r="LR"><p><l>spazi</l><r>spazzi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="spiecchiu"><i>spiecchi</i><par n="tirritori/u__n"/></e>
-    <e lm="spunsalizziu"><i>spunsalizzi</i><par n="tirritori/u__n"/></e>
-    <e lm="spunsalizziu" r="LR"><p><l>spunzalizi</l><r>spunsalizzi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="spunsalizziu" r="LR"><p><l>spunzalizzi</l><r>spunsalizzi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="spunsalizziu" r="LR"><p><l>spunsalizi</l><r>spunsalizzi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="spusalizziu"><i>spusalizzi</i><par n="tirritori/u__n"/></e>
-    <e lm="spusalizziu" r="LR"><p><l>spusalizi</l><r>spusalizzi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="spàraciu"><i>spàraci</i><par n="tirritori/u__n"/></e>
-    <e lm="stadiu"><i>stadi</i><par n="tirritori/u__n"/></e>
-    <e lm="supraccigghiu"><i>supraccigghi</i><par n="tirritori/u__n"/></e>
-    <e lm="surciu"><i>surci</i><par n="tirritori/u__n"/></e>
-    <e lm="surciu" r="LR"><p><l>surgi</l><r>surci</r></p><par n="tirritori/u__n"/></e>
-    <e lm="suçiu"><i>suçi</i><par n="tirritori/u__n"/></e>
-    <e lm="suçiu" r="LR"><p><l>susci</l><r>suçi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="suçiu" r="LR"><p><l>sciusci</l><r>suçi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="taiu"><i>tai</i><par n="tirritori/u__n"/></e>
-    <e lm="tigliu"><i>tigli</i><par n="tirritori/u__n"/></e>
-    <e lm="tigliu" r="LR"><p><l>tigghi</l><r>tigli</r></p><par n="tirritori/u__n"/></e>
-    <e lm="travagliu"><i>travagli</i><par n="tirritori/u__n"/></e>
-    <e lm="trifogghiu"><i>trifogghi</i><par n="tirritori/u__n"/></e>
-    <e lm="trifogghiu" r="LR"><p><l>trifogli</l><r>trifogghi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="vaiu"><i>vai</i><par n="tirritori/u__n"/></e>
-    <e lm="vaiu" r="LR"><p><l>uai</l><r>vai</r></p><par n="tirritori/u__n"/></e>
-    <e lm="vaiu" r="LR"><p><l>guai</l><r>vai</r></p><par n="tirritori/u__n"/></e>
-    <e lm="ufficiu"><i>uffici</i><par n="tirritori/u__n"/></e>
-    <e lm="ufficiu" r="LR"><p><l>offici</l><r>uffici</r></p><par n="tirritori/u__n"/></e>
-    <e lm="urariu"><i>urari</i><par n="tirritori/u__n"/></e>
-    <e lm="villaggiu"><i>villaggi</i><par n="tirritori/u__n"/></e>
-    <e lm="vircigghiu"><i>vircigghi</i><par n="tirritori/u__n"/></e>
-    <e lm="virseriu"><i>virseri</i><par n="tirritori/u__n"/></e>
-    <e lm="virseriu" r="LR"><p><l>avirseri</l><r>virseri</r></p><par n="tirritori/u__n"/></e>
-    <e lm="virticchiu"><i>virticchi</i><par n="tirritori/u__n"/></e>
-    <e lm="virticchiu" r="LR"><p><l>sdillinchi</l><r>virticchi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="vituperiu"><i>vituperi</i><par n="tirritori/u__n"/></e>
-    <e lm="vituperiu" r="LR"><p><l>mutuperi</l><r>vituperi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="vizziu"><i>vizzi</i><par n="tirritori/u__n"/></e>
-    <e lm="vizziu" r="LR"><p><l>vizi</l><r>vizzi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="vucabulariu"><i>vucabulari</i><par n="tirritori/u__n"/></e>
-    <e lm="ziu"><i>zi</i><par n="tirritori/u__n"/></e>
+    <e lm="pràniu"><i>pràn</i><par n="sacchegg/iu__n"/></e>
+    <e lm="putassiu"><i>putass</i><par n="sacchegg/iu__n"/></e>
+    <e lm="putassiu" r="LR"><p><l>potass</l><r>putass</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="putiferiu"><i>putifer</i><par n="sacchegg/iu__n"/></e>
+    <e lm="quagghiu"><i>quaggh</i><par n="sacchegg/iu__n"/></e>
+    <e lm="quagghiu" r="LR"><p><l>quagl</l><r>quaggh</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="quarrenchiu"><i>quarrench</i><par n="sacchegg/iu__n"/></e>
+    <e lm="quisquigghiu"><i>quisquiggh</i><par n="sacchegg/iu__n"/></e>
+    <e lm="sticchiu"><i>sticch</i><par n="sacchegg/iu__n"/></e>
+    <e lm="sticchiu" r="LR"><p><l>racch</l><r>sticch</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="sticchiu" r="LR"><p><l>ciuc</l><r>sticch</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="sticchiu" r="LR"><p><l>ciug</l><r>sticch</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="ragghiu"><i>raggh</i><par n="sacchegg/iu__n"/></e>
+    <e lm="ragghiu" r="LR"><p><l>ragl</l><r>raggh</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="ranciu"><i>ranc</i><par n="sacchegg/iu__n"/></e>
+    <e lm="rinocchiu"><i>rinocch</i><par n="sacchegg/iu__n"/></e>
+    <e lm="rinocchiu" r="LR"><p><l>jinocch</l><r>rinocch</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="rinocchiu" r="LR"><p><l>inocch</l><r>rinocch</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="rizzagghiu"><i>rizzaggh</i><par n="sacchegg/iu__n"/></e>
+    <e lm="ruloggiu"><i>rulogg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="ruloggiu" r="LR"><p><l>rulog</l><r>rulogg</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="ruloggiu" r="LR"><p><l>rologg</l><r>rulogg</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="ruloggiu" r="LR"><p><l>rumuntor</l><r>rulogg</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="ruloggiu" r="LR"><p><l>rogg</l><r>rulogg</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="ruloggiu" r="LR"><p><l>rilog</l><r>rulogg</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="ruloggiu" r="LR"><p><l>ralog</l><r>rulogg</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="ruloggiu" r="LR"><p><l>rilogg</l><r>rulogg</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="ruloggiu" r="LR"><p><l>rolog</l><r>rulogg</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="ruloggiu" r="LR"><p><l>ruogg</l><r>rulogg</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="ruloggiu" r="LR"><p><l>ralogg</l><r>rulogg</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="ruloggiu" r="LR"><p><l>rumuntuar</l><r>rulogg</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="rumanciu"><i>rumanc</i><par n="sacchegg/iu__n"/></e>
+    <e lm="rusariu"><i>rusar</i><par n="sacchegg/iu__n"/></e>
+    <e lm="rusariu" r="LR"><p><l>rosar</l><r>rusar</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="sacrificiu"><i>sacrific</i><par n="sacchegg/iu__n"/></e>
+    <e lm="sacrificiu" r="LR"><p><l>sacrifizz</l><r>sacrific</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="sacrificiu" r="LR"><p><l>sacrifiz</l><r>sacrific</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="salifiziu"><i>salifiz</i><par n="sacchegg/iu__n"/></e>
+    <e lm="sbagghiu"><i>sbaggh</i><par n="sacchegg/iu__n"/></e>
+    <e lm="sbagghiu" r="LR"><p><l>sbagl</l><r>sbaggh</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="scandiu"><i>scand</i><par n="sacchegg/iu__n"/></e>
+    <e lm="scarafagghiu"><i>scarafaggh</i><par n="sacchegg/iu__n"/></e>
+    <e lm="scarafagghiu" r="LR"><p><l>scravaggh</l><r>scarafaggh</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="scariu"><i>scar</i><par n="sacchegg/iu__n"/></e>
+    <e lm="scasciu"><i>scasc</i><par n="sacchegg/iu__n"/></e>
+    <e lm="schiticchiu"><i>schiticch</i><par n="sacchegg/iu__n"/></e>
+    <e lm="sciu"><i>sc</i><par n="sacchegg/iu__n"/></e>
+    <e lm="scrosciu"><i>scrosc</i><par n="sacchegg/iu__n"/></e>
+    <e lm="sgalicciu"><i>sgalicc</i><par n="sacchegg/iu__n"/></e>
+    <e lm="silenziu"><i>silenz</i><par n="sacchegg/iu__n"/></e>
+    <e lm="sirvizziu"><i>sirvizz</i><par n="sacchegg/iu__n"/></e>
+    <e lm="sirvizziu" r="LR"><p><l>sirviz</l><r>sirvizz</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="sirvizziu" r="LR"><p><l>survizz</l><r>sirvizz</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="sirvizziu" r="LR"><p><l>surviz</l><r>sirvizz</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="spazziu"><i>spazz</i><par n="sacchegg/iu__n"/></e>
+    <e lm="spazziu" r="LR"><p><l>spaz</l><r>spazz</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="spiecchiu"><i>spiecch</i><par n="sacchegg/iu__n"/></e>
+    <e lm="spunsalizziu"><i>spunsalizz</i><par n="sacchegg/iu__n"/></e>
+    <e lm="spunsalizziu" r="LR"><p><l>spunzaliz</l><r>spunsalizz</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="spunsalizziu" r="LR"><p><l>spunzalizz</l><r>spunsalizz</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="spunsalizziu" r="LR"><p><l>spunsaliz</l><r>spunsalizz</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="spusalizziu"><i>spusalizz</i><par n="sacchegg/iu__n"/></e>
+    <e lm="spusalizziu" r="LR"><p><l>spusaliz</l><r>spusalizz</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="spàraciu"><i>spàrac</i><par n="sacchegg/iu__n"/></e>
+    <e lm="stadiu"><i>stad</i><par n="sacchegg/iu__n"/></e>
+    <e lm="supraccigghiu"><i>supracciggh</i><par n="sacchegg/iu__n"/></e>
+    <e lm="surciu"><i>surc</i><par n="sacchegg/iu__n"/></e>
+    <e lm="surciu" r="LR"><p><l>surg</l><r>surc</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="suçiu"><i>suç</i><par n="sacchegg/iu__n"/></e>
+    <e lm="suçiu" r="LR"><p><l>susc</l><r>suç</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="suçiu" r="LR"><p><l>sciusc</l><r>suç</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="taiu"><i>ta</i><par n="sacchegg/iu__n"/></e>
+    <e lm="tigliu"><i>tigl</i><par n="sacchegg/iu__n"/></e>
+    <e lm="tigliu" r="LR"><p><l>tiggh</l><r>tigl</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="travagliu"><i>travagl</i><par n="sacchegg/iu__n"/></e>
+    <e lm="trifogghiu"><i>trifoggh</i><par n="sacchegg/iu__n"/></e>
+    <e lm="trifogghiu" r="LR"><p><l>trifogl</l><r>trifoggh</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="vaiu"><i>va</i><par n="sacchegg/iu__n"/></e>
+    <e lm="vaiu" r="LR"><p><l>ua</l><r>va</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="vaiu" r="LR"><p><l>gua</l><r>va</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="ufficiu"><i>uffic</i><par n="sacchegg/iu__n"/></e>
+    <e lm="ufficiu" r="LR"><p><l>offic</l><r>uffic</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="urariu"><i>urar</i><par n="sacchegg/iu__n"/></e>
+    <e lm="villaggiu"><i>villagg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="vircigghiu"><i>virciggh</i><par n="sacchegg/iu__n"/></e>
+    <e lm="virseriu"><i>virser</i><par n="sacchegg/iu__n"/></e>
+    <e lm="virseriu" r="LR"><p><l>avirser</l><r>virser</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="virticchiu"><i>virticch</i><par n="sacchegg/iu__n"/></e>
+    <e lm="virticchiu" r="LR"><p><l>sdillinch</l><r>virticch</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="vituperiu"><i>vituper</i><par n="sacchegg/iu__n"/></e>
+    <e lm="vituperiu" r="LR"><p><l>mutuper</l><r>vituper</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="vizziu"><i>vizz</i><par n="sacchegg/iu__n"/></e>
+    <e lm="vizziu" r="LR"><p><l>viz</l><r>vizz</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="vucabulariu"><i>vucabular</i><par n="sacchegg/iu__n"/></e>
+    <e lm="ziu"><i>z</i><par n="sacchegg/iu__n"/></e>
     
     
     
@@ -16051,190 +16062,190 @@
     <e lm="sfirnicìa"><i>sfirnic</i><par n="culoni/a__n"/></e>
     <e lm="buccirìa"><i>buccir</i><par n="culoni/a__n"/></e>
     <e lm="buccirìa" r="LR"><p><l>uccir</l><r>buccir</r></p><par n="culoni/a__n"/></e>
-    <e lm="abaticchiu"><i>abaticchi</i><par n="tirritori/u__n"/></e>
-    <e lm="abbagghiu"><i>abbagghi</i><par n="tirritori/u__n"/></e>
-    <e lm="abbeccennariu"><i>abbeccennari</i><par n="tirritori/u__n"/></e>
-    <e lm="abbeccennariu" r="LR"><p><l>abbaccianari</l><r>abbeccennari</r></p><par n="tirritori/u__n"/></e>
-    <e lm="abbusciu"><i>abbusci</i><par n="tirritori/u__n"/></e>
-    <e lm="agiu"><i>agi</i><par n="tirritori/u__n"/></e>
-    <e lm="alappiu"><i>alappi</i><par n="tirritori/u__n"/></e>
-    <e lm="ammogghiu"><i>ammogghi</i><par n="tirritori/u__n"/></e>
-    <e lm="ammogghiu" r="LR"><p><l>nvogghi</l><r>ammogghi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="angusciu"><i>angusci</i><par n="tirritori/u__n"/></e>
-    <e lm="annivirsariu"><i>annivirsari</i><par n="tirritori/u__n"/></e>
-    <e lm="apparecchiu"><i>apparecchi</i><par n="tirritori/u__n"/></e>
-    <e lm="apprisagghiu"><i>apprisagghi</i><par n="tirritori/u__n"/></e>
-    <e lm="aprocchiu"><i>aprocchi</i><par n="tirritori/u__n"/></e>
-    <e lm="armaniu"><i>armani</i><par n="tirritori/u__n"/></e>
-    <e lm="armigghiu"><i>armigghi</i><par n="tirritori/u__n"/></e>
-    <e lm="arrammaggiu"><i>arrammaggi</i><par n="tirritori/u__n"/></e>
-    <e lm="arrammaggiu" r="LR"><p><l>arrimbaggi</l><r>arrammaggi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="arrinnatariu"><i>arrinnatari</i><par n="tirritori/u__n"/></e>
-    <e lm="arrinnatariu" r="LR"><p><l>arrennatari</l><r>arrinnatari</r></p><par n="tirritori/u__n"/></e>
-    <e lm="assaiu"><i>assai</i><par n="tirritori/u__n"/></e>
-    <e lm="asseggiu"><i>asseggi</i><par n="tirritori/u__n"/></e>
-    <e lm="auriu"><i>auri</i><par n="tirritori/u__n"/></e>
-    <e lm="auriu" r="LR"><p><l>aguri</l><r>auri</r></p><par n="tirritori/u__n"/></e>
-    <e lm="avirsariu"><i>avirsari</i><par n="tirritori/u__n"/></e>
-    <e lm="avirseriu"><i>avirseri</i><par n="tirritori/u__n"/></e>
-    <e lm="avlaciu"><i>avlaci</i><par n="tirritori/u__n"/></e>
-    <e lm="avlaciu" r="LR"><p><l>avraci</l><r>avlaci</r></p><par n="tirritori/u__n"/></e>
-    <e lm="avlaciu" r="LR"><p><l>abbraci</l><r>avlaci</r></p><par n="tirritori/u__n"/></e>
-    <e lm="avoliu"><i>avoli</i><par n="tirritori/u__n"/></e>
-    <e lm="babbalacchiu"><i>babbalacchi</i><par n="tirritori/u__n"/></e>
-    <e lm="bagagliu"><i>bagagli</i><par n="tirritori/u__n"/></e>
-    <e lm="bagghiu"><i>bagghi</i><par n="tirritori/u__n"/></e>
-    <e lm="bagghiu" r="LR"><p><l>bagli</l><r>bagghi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="baragghiu"><i>baragghi</i><par n="tirritori/u__n"/></e>
-    <e lm="birilliu"><i>birilli</i><par n="tirritori/u__n"/></e>
-    <e lm="buzziu"><i>buzzi</i><par n="tirritori/u__n"/></e>
-    <e lm="cafocchiu"><i>cafocchi</i><par n="tirritori/u__n"/></e>
-    <e lm="cafocchiu" r="LR"><p><l>caforchi</l><r>cafocchi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="cafocchiu" r="LR"><p><l>cavorchi</l><r>cafocchi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="calatariu"><i>calatari</i><par n="tirritori/u__n"/></e>
-    <e lm="calunnariu"><i>calunnari</i><par n="tirritori/u__n"/></e>
-    <e lm="calunnariu" r="LR"><p><l>calantari</l><r>calunnari</r></p><par n="tirritori/u__n"/></e>
-    <e lm="cannittigghiu"><i>cannittigghi</i><par n="tirritori/u__n"/></e>
-    <e lm="cantusciu"><i>cantusci</i><par n="tirritori/u__n"/></e>
-    <e lm="caramusciu"><i>caramusci</i><par n="tirritori/u__n"/></e>
-    <e lm="caramusciu" r="LR"><p><l>carmuci</l><r>caramusci</r></p><par n="tirritori/u__n"/></e>
-    <e lm="caramusciu" r="LR"><p><l>grammusci</l><r>caramusci</r></p><par n="tirritori/u__n"/></e>
-    <e lm="caramusciu" r="LR"><p><l>carmusci</l><r>caramusci</r></p><par n="tirritori/u__n"/></e>
-    <e lm="caramusciu" r="LR"><p><l>grammuci</l><r>caramusci</r></p><par n="tirritori/u__n"/></e>
-    <e lm="carciu"><i>carci</i><par n="tirritori/u__n"/></e>
-    <e lm="carciu" r="LR"><p><l>càvuci</l><r>carci</r></p><par n="tirritori/u__n"/></e>
-    <e lm="carruiu"><i>carrui</i><par n="tirritori/u__n"/></e>
-    <e lm="catuniu"><i>catuni</i><par n="tirritori/u__n"/></e>
-    <e lm="chimmuogliu"><i>chimmuogli</i><par n="tirritori/u__n"/></e>
-    <e lm="chimmuogliu" r="LR"><p><l>chimmogli</l><r>chimmuogli</r></p><par n="tirritori/u__n"/></e>
-    <e lm="chirchiu"><i>chirchi</i><par n="tirritori/u__n"/></e>
-    <e lm="cirnigghiu"><i>cirnigghi</i><par n="tirritori/u__n"/></e>
-    <e lm="ciugiu"><i>ciugi</i><par n="tirritori/u__n"/></e>
-    <e lm="craunchiu"><i>craunchi</i><par n="tirritori/u__n"/></e>
-    <e lm="craunchiu" r="LR"><p><l>carvunchi</l><r>craunchi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="cruvacchiu"><i>cruvacchi</i><par n="tirritori/u__n"/></e>
-    <e lm="cruvacchiu" r="LR"><p><l>cruacchi</l><r>cruvacchi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="cullegiu"><i>cullegi</i><par n="tirritori/u__n"/></e>
-    <e lm="cuncutrigghiu"><i>cuncutrigghi</i><par n="tirritori/u__n"/></e>
-    <e lm="cunigliu"><i>cunigli</i><par n="tirritori/u__n"/></e>
-    <e lm="cunzigghiu"><i>cunzigghi</i><par n="tirritori/u__n"/></e>
-    <e lm="cunzigghiu" r="LR"><p><l>cunzigli</l><r>cunzigghi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="cunzigghiu" r="LR"><p><l>cunsigli</l><r>cunzigghi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="curtigliu"><i>curtigli</i><par n="tirritori/u__n"/></e>
-    <e lm="curtigliu" r="LR"><p><l>cuttigli</l><r>curtigli</r></p><par n="tirritori/u__n"/></e>
-    <e lm="curtigliu" r="LR"><p><l>cuttigghi</l><r>curtigli</r></p><par n="tirritori/u__n"/></e>
-    <e lm="cuverchiu"><i>cuverchi</i><par n="tirritori/u__n"/></e>
-    <e lm="damaiu"><i>damai</i><par n="tirritori/u__n"/></e>
-    <e lm="disaciu"><i>disaci</i><par n="tirritori/u__n"/></e>
-    <e lm="disaciu" r="LR"><p><l>disagi</l><r>disaci</r></p><par n="tirritori/u__n"/></e>
-    <e lm="disaciu" r="LR"><p><l>diciaci</l><r>disaci</r></p><par n="tirritori/u__n"/></e>
-    <e lm="ducumentariu"><i>ducumentari</i><par n="tirritori/u__n"/></e>
-    <e lm="equilibriu"><i>equilibri</i><par n="tirritori/u__n"/></e>
-    <e lm="equilibriu" r="LR"><p><l>eculibri</l><r>equilibri</r></p><par n="tirritori/u__n"/></e>
-    <e lm="fastiddiu"><i>fastiddi</i><par n="tirritori/u__n"/></e>
-    <e lm="favaraggiu"><i>favaraggi</i><par n="tirritori/u__n"/></e>
-    <e lm="firragghiu"><i>firragghi</i><par n="tirritori/u__n"/></e>
-    <e lm="firragghiu" r="LR"><p><l>affirragghi</l><r>firragghi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="flusciu"><i>flusci</i><par n="tirritori/u__n"/></e>
-    <e lm="fogliu"><i>fogli</i><par n="tirritori/u__n"/></e>
-    <e lm="fregiu"><i>fregi</i><par n="tirritori/u__n"/></e>
-    <e lm="fregiu" r="LR"><p><l>frici</l><r>fregi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="fregiu" r="LR"><p><l>frigi</l><r>fregi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="fregiu" r="LR"><p><l>friggi</l><r>fregi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="friugghiu"><i>friugghi</i><par n="tirritori/u__n"/></e>
-    <e lm="frummaggiu"><i>frummaggi</i><par n="tirritori/u__n"/></e>
-    <e lm="galiggiu"><i>galiggi</i><par n="tirritori/u__n"/></e>
-    <e lm="guaiu"><i>guai</i><par n="tirritori/u__n"/></e>
-    <e lm="guaiu" r="LR"><p><l>uai</l><r>guai</r></p><par n="tirritori/u__n"/></e>
-    <e lm="inocchiu"><i>inocchi</i><par n="tirritori/u__n"/></e>
-    <e lm="inocchiu" r="LR"><p><l>jinocchi</l><r>inocchi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="iunciu"><i>iunci</i><par n="tirritori/u__n"/></e>
-    <e lm="larunchiu"><i>larunchi</i><par n="tirritori/u__n"/></e>
-    <e lm="larunchiu" r="LR"><p><l>lavrunchi</l><r>larunchi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="libiciu"><i>libici</i><par n="tirritori/u__n"/></e>
-    <e lm="lugghiu"><i>lugghi</i><par n="tirritori/u__n"/></e>
-    <e lm="maguggiu"><i>maguggi</i><par n="tirritori/u__n"/></e>
-    <e lm="messaggiu"><i>messaggi</i><par n="tirritori/u__n"/></e>
-    <e lm="mircuriu"><i>mircuri</i><par n="tirritori/u__n"/></e>
-    <e lm="mmizzigghiu"><i>mmizzigghi</i><par n="tirritori/u__n"/></e>
-    <e lm="mmurgiu"><i>mmurgi</i><par n="tirritori/u__n"/></e>
-    <e lm="mpidugghiu"><i>mpidugghi</i><par n="tirritori/u__n"/></e>
-    <e lm="muciu"><i>muci</i><par n="tirritori/u__n"/></e>
-    <e lm="mutuperiu"><i>mutuperi</i><par n="tirritori/u__n"/></e>
-    <e lm="màntaciu"><i>màntaci</i><par n="tirritori/u__n"/></e>
-    <e lm="màntaciu" r="LR"><p><l>màntici</l><r>màntaci</r></p><par n="tirritori/u__n"/></e>
-    <e lm="negoziu"><i>negozi</i><par n="tirritori/u__n"/></e>
-    <e lm="nfanfaricchiu"><i>nfanfaricchi</i><par n="tirritori/u__n"/></e>
-    <e lm="nfanfaricchiu" r="LR"><p><l>farfaricchi</l><r>nfanfaricchi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="negozziu"><i>negozzi</i><par n="tirritori/u__n"/></e>
-    <e lm="negozziu" r="LR"><p><l>nicozi</l><r>negozzi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="negozziu" r="LR"><p><l>nicozzi</l><r>negozzi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="negozziu" r="LR"><p><l>nigozi</l><r>negozzi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="ntugghiu"><i>ntugghi</i><par n="tirritori/u__n"/></e>
-    <e lm="ntugghiu" r="LR"><p><l>intugghi</l><r>ntugghi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="ntugghiu" r="LR"><p><l>ntrugghi</l><r>ntugghi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="oddiu"><i>oddi</i><par n="tirritori/u__n"/></e>
-    <e lm="officiu"><i>offici</i><par n="tirritori/u__n"/></e>
-    <e lm="pantaciu"><i>pantaci</i><par n="tirritori/u__n"/></e>
-    <e lm="pidaggiu"><i>pidaggi</i><par n="tirritori/u__n"/></e>
-    <e lm="pinziunariu"><i>pinziunari</i><par n="tirritori/u__n"/></e>
-    <e lm="pipiricchiu"><i>pipiricchi</i><par n="tirritori/u__n"/></e>
-    <e lm="pipiricchiu" r="LR"><p><l>pirrichicchi</l><r>pipiricchi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="pitagghiu"><i>pitagghi</i><par n="tirritori/u__n"/></e>
-    <e lm="pitagghiu" r="LR"><p><l>putaggi</l><r>pitagghi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="pleggiu"><i>pleggi</i><par n="tirritori/u__n"/></e>
-    <e lm="pleggiu" r="LR"><p><l>pergi</l><r>pleggi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="pomeriggiu"><i>pomeriggi</i><par n="tirritori/u__n"/></e>
-    <e lm="pomeriggiu" r="LR"><p><l>pumeriggi</l><r>pomeriggi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="pomeriggiu" r="LR"><p><l>pomiriggi</l><r>pomeriggi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="portafogliu"><i>portafogli</i><par n="tirritori/u__n"/></e>
-    <e lm="potassiu"><i>potassi</i><par n="tirritori/u__n"/></e>
-    <e lm="quagliu"><i>quagli</i><par n="tirritori/u__n"/></e>
-    <e lm="racchiu"><i>racchi</i><par n="tirritori/u__n"/></e>
-    <e lm="ragliu"><i>ragli</i><par n="tirritori/u__n"/></e>
-    <e lm="riloggiu"><i>riloggi</i><par n="tirritori/u__n"/></e>
-    <e lm="riloggiu" r="LR"><p><l>rulogi</l><r>riloggi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="riloggiu" r="LR"><p><l>rologi</l><r>riloggi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="riloggiu" r="LR"><p><l>ralogi</l><r>riloggi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="riloggiu" r="LR"><p><l>rilogi</l><r>riloggi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="riloggiu" r="LR"><p><l>rologgi</l><r>riloggi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="riloggiu" r="LR"><p><l>roggi</l><r>riloggi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="riloggiu" r="LR"><p><l>ruoggi</l><r>riloggi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="riloggiu" r="LR"><p><l>raloggi</l><r>riloggi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="rosariu"><i>rosari</i><par n="tirritori/u__n"/></e>
-    <e lm="rumuntuariu"><i>rumuntuari</i><par n="tirritori/u__n"/></e>
-    <e lm="rumuntuariu" r="LR"><p><l>rumuntori</l><r>rumuntuari</r></p><par n="tirritori/u__n"/></e>
-    <e lm="sacrifizziu"><i>sacrifizzi</i><par n="tirritori/u__n"/></e>
-    <e lm="sacrifizziu" r="LR"><p><l>sacrifizi</l><r>sacrifizzi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="asircizziu"><i>asircizzi</i><par n="tirritori/u__n"/></e>
-    <e lm="asircizziu" r="LR"><p><l>sarcizi</l><r>asircizzi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="asircizziu" r="LR"><p><l>sircizi</l><r>asircizzi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="asircizziu" r="LR"><p><l>asircizi</l><r>asircizzi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="asircizziu" r="LR"><p><l>sircizzi</l><r>asircizzi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="asircizziu" r="LR"><p><l>esircizi</l><r>asircizzi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="asircizziu" r="LR"><p><l>sarcizzi</l><r>asircizzi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="sbagliu"><i>sbagli</i><par n="tirritori/u__n"/></e>
-    <e lm="scravagghiu"><i>scravagghi</i><par n="tirritori/u__n"/></e>
-    <e lm="sdillinchiu"><i>sdillinchi</i><par n="tirritori/u__n"/></e>
-    <e lm="sempiu"><i>sempi</i><par n="tirritori/u__n"/></e>
-    <e lm="spaziu"><i>spazi</i><par n="tirritori/u__n"/></e>
-    <e lm="spunsaliziu"><i>spunsalizi</i><par n="tirritori/u__n"/></e>
-    <e lm="spunsaliziu" r="LR"><p><l>spunzalizi</l><r>spunsalizi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="spunsaliziu" r="LR"><p><l>spunzalizzi</l><r>spunsalizi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="spusaliziu"><i>spusalizi</i><par n="tirritori/u__n"/></e>
-    <e lm="surgiu"><i>surgi</i><par n="tirritori/u__n"/></e>
-    <e lm="sirviziu"><i>sirvizi</i><par n="tirritori/u__n"/></e>
-    <e lm="sirviziu" r="LR"><p><l>survizzi</l><r>sirvizi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="sirviziu" r="LR"><p><l>survizi</l><r>sirvizi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="susciu"><i>susci</i><par n="tirritori/u__n"/></e>
-    <e lm="susciu" r="LR"><p><l>sciusci</l><r>susci</r></p><par n="tirritori/u__n"/></e>
-    <e lm="tigghiu"><i>tigghi</i><par n="tirritori/u__n"/></e>
-    <e lm="trifogliu"><i>trifogli</i><par n="tirritori/u__n"/></e>
-    <e lm="vavaluciu"><i>vavaluci</i><par n="tirritori/u__n"/></e>
-    <e lm="vavaluciu" r="LR"><p><l>vavalaggi</l><r>vavaluci</r></p><par n="tirritori/u__n"/></e>
-    <e lm="vavaluciu" r="LR"><p><l>vavalaci</l><r>vavaluci</r></p><par n="tirritori/u__n"/></e>
-    <e lm="vavaluciu" r="LR"><p><l>babbaluci</l><r>vavaluci</r></p><par n="tirritori/u__n"/></e>
-    <e lm="viziu"><i>vizi</i><par n="tirritori/u__n"/></e>
+    <e lm="abaticchiu"><i>abaticch</i><par n="sacchegg/iu__n"/></e>
+    <e lm="abbagghiu"><i>abbaggh</i><par n="sacchegg/iu__n"/></e>
+    <e lm="abbeccennariu"><i>abbeccennar</i><par n="sacchegg/iu__n"/></e>
+    <e lm="abbeccennariu" r="LR"><p><l>abbaccianar</l><r>abbeccennar</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="abbusciu"><i>abbusc</i><par n="sacchegg/iu__n"/></e>
+    <e lm="agiu"><i>ag</i><par n="sacchegg/iu__n"/></e>
+    <e lm="alappiu"><i>alapp</i><par n="sacchegg/iu__n"/></e>
+    <e lm="ammogghiu"><i>ammoggh</i><par n="sacchegg/iu__n"/></e>
+    <e lm="ammogghiu" r="LR"><p><l>nvoggh</l><r>ammoggh</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="angusciu"><i>angusc</i><par n="sacchegg/iu__n"/></e>
+    <e lm="annivirsariu"><i>annivirsar</i><par n="sacchegg/iu__n"/></e>
+    <e lm="apparecchiu"><i>apparecch</i><par n="sacchegg/iu__n"/></e>
+    <e lm="apprisagghiu"><i>apprisaggh</i><par n="sacchegg/iu__n"/></e>
+    <e lm="aprocchiu"><i>aprocch</i><par n="sacchegg/iu__n"/></e>
+    <e lm="armaniu"><i>arman</i><par n="sacchegg/iu__n"/></e>
+    <e lm="armigghiu"><i>armiggh</i><par n="sacchegg/iu__n"/></e>
+    <e lm="arrammaggiu"><i>arrammagg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="arrammaggiu" r="LR"><p><l>arrimbagg</l><r>arrammagg</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="arrinnatariu"><i>arrinnatar</i><par n="sacchegg/iu__n"/></e>
+    <e lm="arrinnatariu" r="LR"><p><l>arrennatar</l><r>arrinnatar</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="assaiu"><i>assa</i><par n="sacchegg/iu__n"/></e>
+    <e lm="asseggiu"><i>assegg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="auriu"><i>aur</i><par n="sacchegg/iu__n"/></e>
+    <e lm="auriu" r="LR"><p><l>agur</l><r>aur</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="avirsariu"><i>avirsar</i><par n="sacchegg/iu__n"/></e>
+    <e lm="avirseriu"><i>avirser</i><par n="sacchegg/iu__n"/></e>
+    <e lm="avlaciu"><i>avlac</i><par n="sacchegg/iu__n"/></e>
+    <e lm="avlaciu" r="LR"><p><l>avrac</l><r>avlac</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="avlaciu" r="LR"><p><l>abbrac</l><r>avlac</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="avoliu"><i>avol</i><par n="sacchegg/iu__n"/></e>
+    <e lm="babbalacchiu"><i>babbalacch</i><par n="sacchegg/iu__n"/></e>
+    <e lm="bagagliu"><i>bagagl</i><par n="sacchegg/iu__n"/></e>
+    <e lm="bagghiu"><i>baggh</i><par n="sacchegg/iu__n"/></e>
+    <e lm="bagghiu" r="LR"><p><l>bagl</l><r>baggh</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="baragghiu"><i>baraggh</i><par n="sacchegg/iu__n"/></e>
+    <e lm="birilliu"><i>birill</i><par n="sacchegg/iu__n"/></e>
+    <e lm="buzziu"><i>buzz</i><par n="sacchegg/iu__n"/></e>
+    <e lm="cafocchiu"><i>cafocch</i><par n="sacchegg/iu__n"/></e>
+    <e lm="cafocchiu" r="LR"><p><l>caforch</l><r>cafocch</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="cafocchiu" r="LR"><p><l>cavorch</l><r>cafocch</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="calatariu"><i>calatar</i><par n="sacchegg/iu__n"/></e>
+    <e lm="calunnariu"><i>calunnar</i><par n="sacchegg/iu__n"/></e>
+    <e lm="calunnariu" r="LR"><p><l>calantar</l><r>calunnar</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="cannittigghiu"><i>cannittiggh</i><par n="sacchegg/iu__n"/></e>
+    <e lm="cantusciu"><i>cantusc</i><par n="sacchegg/iu__n"/></e>
+    <e lm="caramusciu"><i>caramusc</i><par n="sacchegg/iu__n"/></e>
+    <e lm="caramusciu" r="LR"><p><l>carmuc</l><r>caramusc</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="caramusciu" r="LR"><p><l>grammusc</l><r>caramusc</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="caramusciu" r="LR"><p><l>carmusc</l><r>caramusc</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="caramusciu" r="LR"><p><l>grammuc</l><r>caramusc</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="carciu"><i>carc</i><par n="sacchegg/iu__n"/></e>
+    <e lm="carciu" r="LR"><p><l>càvuc</l><r>carc</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="carruiu"><i>carru</i><par n="sacchegg/iu__n"/></e>
+    <e lm="catuniu"><i>catun</i><par n="sacchegg/iu__n"/></e>
+    <e lm="chimmuogliu"><i>chimmuogl</i><par n="sacchegg/iu__n"/></e>
+    <e lm="chimmuogliu" r="LR"><p><l>chimmogl</l><r>chimmuogl</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="chirchiu"><i>chirch</i><par n="sacchegg/iu__n"/></e>
+    <e lm="cirnigghiu"><i>cirniggh</i><par n="sacchegg/iu__n"/></e>
+    <e lm="ciugiu"><i>ciug</i><par n="sacchegg/iu__n"/></e>
+    <e lm="craunchiu"><i>craunch</i><par n="sacchegg/iu__n"/></e>
+    <e lm="craunchiu" r="LR"><p><l>carvunch</l><r>craunch</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="cruvacchiu"><i>cruvacch</i><par n="sacchegg/iu__n"/></e>
+    <e lm="cruvacchiu" r="LR"><p><l>cruacch</l><r>cruvacch</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="cullegiu"><i>culleg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="cuncutrigghiu"><i>cuncutriggh</i><par n="sacchegg/iu__n"/></e>
+    <e lm="cunigliu"><i>cunigl</i><par n="sacchegg/iu__n"/></e>
+    <e lm="cunzigghiu"><i>cunziggh</i><par n="sacchegg/iu__n"/></e>
+    <e lm="cunzigghiu" r="LR"><p><l>cunzigl</l><r>cunziggh</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="cunzigghiu" r="LR"><p><l>cunsigl</l><r>cunziggh</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="curtigliu"><i>curtigl</i><par n="sacchegg/iu__n"/></e>
+    <e lm="curtigliu" r="LR"><p><l>cuttigl</l><r>curtigl</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="curtigliu" r="LR"><p><l>cuttiggh</l><r>curtigl</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="cuverchiu"><i>cuverch</i><par n="sacchegg/iu__n"/></e>
+    <e lm="damaiu"><i>dama</i><par n="sacchegg/iu__n"/></e>
+    <e lm="disaciu"><i>disac</i><par n="sacchegg/iu__n"/></e>
+    <e lm="disaciu" r="LR"><p><l>disag</l><r>disac</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="disaciu" r="LR"><p><l>diciac</l><r>disac</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="ducumentariu"><i>ducumentar</i><par n="sacchegg/iu__n"/></e>
+    <e lm="equilibriu"><i>equilibr</i><par n="sacchegg/iu__n"/></e>
+    <e lm="equilibriu" r="LR"><p><l>eculibr</l><r>equilibr</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="fastiddiu"><i>fastidd</i><par n="sacchegg/iu__n"/></e>
+    <e lm="favaraggiu"><i>favaragg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="firragghiu"><i>firraggh</i><par n="sacchegg/iu__n"/></e>
+    <e lm="firragghiu" r="LR"><p><l>affirraggh</l><r>firraggh</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="flusciu"><i>flusc</i><par n="sacchegg/iu__n"/></e>
+    <e lm="fogliu"><i>fogl</i><par n="sacchegg/iu__n"/></e>
+    <e lm="fregiu"><i>freg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="fregiu" r="LR"><p><l>fric</l><r>freg</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="fregiu" r="LR"><p><l>frig</l><r>freg</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="fregiu" r="LR"><p><l>frigg</l><r>freg</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="friugghiu"><i>friuggh</i><par n="sacchegg/iu__n"/></e>
+    <e lm="frummaggiu"><i>frummagg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="galiggiu"><i>galigg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="guaiu"><i>gua</i><par n="sacchegg/iu__n"/></e>
+    <e lm="guaiu" r="LR"><p><l>ua</l><r>gua</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="inocchiu"><i>inocch</i><par n="sacchegg/iu__n"/></e>
+    <e lm="inocchiu" r="LR"><p><l>jinocch</l><r>inocch</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="iunciu"><i>iunc</i><par n="sacchegg/iu__n"/></e>
+    <e lm="larunchiu"><i>larunch</i><par n="sacchegg/iu__n"/></e>
+    <e lm="larunchiu" r="LR"><p><l>lavrunch</l><r>larunch</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="libiciu"><i>libic</i><par n="sacchegg/iu__n"/></e>
+    <e lm="lugghiu"><i>luggh</i><par n="sacchegg/iu__n"/></e>
+    <e lm="maguggiu"><i>magugg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="messaggiu"><i>messagg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="mircuriu"><i>mircur</i><par n="sacchegg/iu__n"/></e>
+    <e lm="mmizzigghiu"><i>mmizziggh</i><par n="sacchegg/iu__n"/></e>
+    <e lm="mmurgiu"><i>mmurg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="mpidugghiu"><i>mpiduggh</i><par n="sacchegg/iu__n"/></e>
+    <e lm="muciu"><i>muc</i><par n="sacchegg/iu__n"/></e>
+    <e lm="mutuperiu"><i>mutuper</i><par n="sacchegg/iu__n"/></e>
+    <e lm="màntaciu"><i>màntac</i><par n="sacchegg/iu__n"/></e>
+    <e lm="màntaciu" r="LR"><p><l>màntic</l><r>màntac</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="negoziu"><i>negoz</i><par n="sacchegg/iu__n"/></e>
+    <e lm="nfanfaricchiu"><i>nfanfaricch</i><par n="sacchegg/iu__n"/></e>
+    <e lm="nfanfaricchiu" r="LR"><p><l>farfaricch</l><r>nfanfaricch</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="negozziu"><i>negozz</i><par n="sacchegg/iu__n"/></e>
+    <e lm="negozziu" r="LR"><p><l>nicoz</l><r>negozz</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="negozziu" r="LR"><p><l>nicozz</l><r>negozz</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="negozziu" r="LR"><p><l>nigoz</l><r>negozz</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="ntugghiu"><i>ntuggh</i><par n="sacchegg/iu__n"/></e>
+    <e lm="ntugghiu" r="LR"><p><l>intuggh</l><r>ntuggh</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="ntugghiu" r="LR"><p><l>ntruggh</l><r>ntuggh</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="oddiu"><i>odd</i><par n="sacchegg/iu__n"/></e>
+    <e lm="officiu"><i>offic</i><par n="sacchegg/iu__n"/></e>
+    <e lm="pantaciu"><i>pantac</i><par n="sacchegg/iu__n"/></e>
+    <e lm="pidaggiu"><i>pidagg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="pinziunariu"><i>pinziunar</i><par n="sacchegg/iu__n"/></e>
+    <e lm="pipiricchiu"><i>pipiricch</i><par n="sacchegg/iu__n"/></e>
+    <e lm="pipiricchiu" r="LR"><p><l>pirrichicch</l><r>pipiricch</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="pitagghiu"><i>pitaggh</i><par n="sacchegg/iu__n"/></e>
+    <e lm="pitagghiu" r="LR"><p><l>putagg</l><r>pitaggh</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="pleggiu"><i>plegg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="pleggiu" r="LR"><p><l>perg</l><r>plegg</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="pomeriggiu"><i>pomerigg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="pomeriggiu" r="LR"><p><l>pumerigg</l><r>pomerigg</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="pomeriggiu" r="LR"><p><l>pomirigg</l><r>pomerigg</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="portafogliu"><i>portafogl</i><par n="sacchegg/iu__n"/></e>
+    <e lm="potassiu"><i>potass</i><par n="sacchegg/iu__n"/></e>
+    <e lm="quagliu"><i>quagl</i><par n="sacchegg/iu__n"/></e>
+    <e lm="racchiu"><i>racch</i><par n="sacchegg/iu__n"/></e>
+    <e lm="ragliu"><i>ragl</i><par n="sacchegg/iu__n"/></e>
+    <e lm="riloggiu"><i>rilogg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="riloggiu" r="LR"><p><l>rulog</l><r>rilogg</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="riloggiu" r="LR"><p><l>rolog</l><r>rilogg</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="riloggiu" r="LR"><p><l>ralog</l><r>rilogg</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="riloggiu" r="LR"><p><l>rilog</l><r>rilogg</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="riloggiu" r="LR"><p><l>rologg</l><r>rilogg</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="riloggiu" r="LR"><p><l>rogg</l><r>rilogg</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="riloggiu" r="LR"><p><l>ruogg</l><r>rilogg</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="riloggiu" r="LR"><p><l>ralogg</l><r>rilogg</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="rosariu"><i>rosar</i><par n="sacchegg/iu__n"/></e>
+    <e lm="rumuntuariu"><i>rumuntuar</i><par n="sacchegg/iu__n"/></e>
+    <e lm="rumuntuariu" r="LR"><p><l>rumuntor</l><r>rumuntuar</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="sacrifizziu"><i>sacrifizz</i><par n="sacchegg/iu__n"/></e>
+    <e lm="sacrifizziu" r="LR"><p><l>sacrifiz</l><r>sacrifizz</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="asircizziu"><i>asircizz</i><par n="sacchegg/iu__n"/></e>
+    <e lm="asircizziu" r="LR"><p><l>sarciz</l><r>asircizz</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="asircizziu" r="LR"><p><l>sirciz</l><r>asircizz</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="asircizziu" r="LR"><p><l>asirciz</l><r>asircizz</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="asircizziu" r="LR"><p><l>sircizz</l><r>asircizz</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="asircizziu" r="LR"><p><l>esirciz</l><r>asircizz</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="asircizziu" r="LR"><p><l>sarcizz</l><r>asircizz</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="sbagliu"><i>sbagl</i><par n="sacchegg/iu__n"/></e>
+    <e lm="scravagghiu"><i>scravaggh</i><par n="sacchegg/iu__n"/></e>
+    <e lm="sdillinchiu"><i>sdillinch</i><par n="sacchegg/iu__n"/></e>
+    <e lm="sempiu"><i>semp</i><par n="sacchegg/iu__n"/></e>
+    <e lm="spaziu"><i>spaz</i><par n="sacchegg/iu__n"/></e>
+    <e lm="spunsaliziu"><i>spunsaliz</i><par n="sacchegg/iu__n"/></e>
+    <e lm="spunsaliziu" r="LR"><p><l>spunzaliz</l><r>spunsaliz</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="spunsaliziu" r="LR"><p><l>spunzalizz</l><r>spunsaliz</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="spusaliziu"><i>spusaliz</i><par n="sacchegg/iu__n"/></e>
+    <e lm="surgiu"><i>surg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="sirviziu"><i>sirviz</i><par n="sacchegg/iu__n"/></e>
+    <e lm="sirviziu" r="LR"><p><l>survizz</l><r>sirviz</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="sirviziu" r="LR"><p><l>surviz</l><r>sirviz</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="susciu"><i>susc</i><par n="sacchegg/iu__n"/></e>
+    <e lm="susciu" r="LR"><p><l>sciusc</l><r>susc</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="tigghiu"><i>tiggh</i><par n="sacchegg/iu__n"/></e>
+    <e lm="trifogliu"><i>trifogl</i><par n="sacchegg/iu__n"/></e>
+    <e lm="vavaluciu"><i>vavaluc</i><par n="sacchegg/iu__n"/></e>
+    <e lm="vavaluciu" r="LR"><p><l>vavalagg</l><r>vavaluc</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="vavaluciu" r="LR"><p><l>vavalac</l><r>vavaluc</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="vavaluciu" r="LR"><p><l>babbaluc</l><r>vavaluc</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="viziu"><i>viz</i><par n="sacchegg/iu__n"/></e>
     <e lm="dèbbitu"><i>dèbbit</i><par n="ann/u__n"/></e>
     <e lm="dèbbitu" r="LR"><p><l>dèbit</l><r>dèbbit</r></p><par n="ann/u__n"/></e>
     
@@ -16476,228 +16487,228 @@
     
     
     <e lm="prumuntoriu"><i>prumuntor</i><par n="sacchegg/iu__n"/></e>
-    <e lm="accissoriu"><i>accissori</i><par n="tirritori/u__n"/></e>
-    <e lm="adaciu"><i>adaci</i><par n="tirritori/u__n"/></e>
-    <e lm="addicidiu"><i>addicidi</i><par n="tirritori/u__n"/></e>
-    <e lm="addìcidiu"><i>addìcidi</i><par n="tirritori/u__n"/></e>
-    <e lm="aeriu"><i>aeri</i><par n="tirritori/u__n"/></e>
-    <e lm="agghiunciu"><i>agghiunci</i><par n="tirritori/u__n"/></e>
-    <e lm="ajacciu"><i>ajacci</i><par n="tirritori/u__n"/></e>
-    <e lm="ammiragghiu"><i>ammiragghi</i><par n="tirritori/u__n"/></e>
-    <e lm="anastasiu"><i>anastasi</i><par n="tirritori/u__n"/></e>
-    <e lm="anchiu"><i>anchi</i><par n="tirritori/u__n"/></e>
-    <e lm="annunciu"><i>annunci</i><par n="tirritori/u__n"/></e>
-    <e lm="antoniu"><i>antoni</i><par n="tirritori/u__n"/></e>
-    <e lm="apolloniu"><i>apolloni</i><par n="tirritori/u__n"/></e>
-    <e lm="appoggiu"><i>appoggi</i><par n="tirritori/u__n"/></e>
-    <e lm="appoiu"><i>appoi</i><par n="tirritori/u__n"/></e>
-    <e lm="approcciu"><i>approcci</i><par n="tirritori/u__n"/></e>
-    <e lm="arbitrariu"><i>arbitrari</i><par n="tirritori/u__n"/></e>
-    <e lm="archiviu"><i>archivi</i><par n="tirritori/u__n"/></e>
-    <e lm="arfiu"><i>arfi</i><par n="tirritori/u__n"/></e>
-    <e lm="armistizziu"><i>armistizzi</i><par n="tirritori/u__n"/></e>
-    <e lm="arriciviu"><i>arricivi</i><par n="tirritori/u__n"/></e>
-    <e lm="arricugghiu"><i>arricugghi</i><par n="tirritori/u__n"/></e>
-    <e lm="arrispunniu"><i>arrispunni</i><par n="tirritori/u__n"/></e>
-    <e lm="assassiniu"><i>assassini</i><par n="tirritori/u__n"/></e>
-    <e lm="attiliu"><i>attili</i><par n="tirritori/u__n"/></e>
-    <e lm="attirraggiu"><i>attirraggi</i><par n="tirritori/u__n"/></e>
-    <e lm="aureliu"><i>aureli</i><par n="tirritori/u__n"/></e>
-    <e lm="avverbiu"><i>avverbi</i><par n="tirritori/u__n"/></e>
-    <e lm="balluttaggiu"><i>balluttaggi</i><par n="tirritori/u__n"/></e>
-    <e lm="basiliu"><i>basili</i><par n="tirritori/u__n"/></e>
-    <e lm="battiu"><i>batti</i><par n="tirritori/u__n"/></e>
-    <e lm="battìriu"><i>battìri</i><par n="tirritori/u__n"/></e>
-    <e lm="belgiu"><i>belgi</i><par n="tirritori/u__n"/></e>
-    <e lm="bilanciu"><i>bilanci</i><par n="tirritori/u__n"/></e>
-    <e lm="bobbiu"><i>bobbi</i><par n="tirritori/u__n"/></e>
-    <e lm="bonifaciu"><i>bonifaci</i><par n="tirritori/u__n"/></e>
-    <e lm="briviariu"><i>briviari</i><par n="tirritori/u__n"/></e>
-    <e lm="caiu"><i>cai</i><par n="tirritori/u__n"/></e>
-    <e lm="calindariu"><i>calindari</i><par n="tirritori/u__n"/></e>
-    <e lm="canciu"><i>canci</i><par n="tirritori/u__n"/></e>
-    <e lm="caravaggiu"><i>caravaggi</i><par n="tirritori/u__n"/></e>
-    <e lm="carvoniu"><i>carvoni</i><par n="tirritori/u__n"/></e>
-    <e lm="casalvecchiu"><i>casalvecchi</i><par n="tirritori/u__n"/></e>
-    <e lm="castellucciu"><i>castellucci</i><par n="tirritori/u__n"/></e>
-    <e lm="cauciu"><i>cauci</i><par n="tirritori/u__n"/></e>
-    <e lm="cerchiu"><i>cerchi</i><par n="tirritori/u__n"/></e>
-    <e lm="clotariu"><i>clotari</i><par n="tirritori/u__n"/></e>
-    <e lm="colleggiu"><i>colleggi</i><par n="tirritori/u__n"/></e>
-    <e lm="commerciu"><i>commerci</i><par n="tirritori/u__n"/></e>
-    <e lm="commissariu"><i>commissari</i><par n="tirritori/u__n"/></e>
-    <e lm="consigghiu"><i>consigghi</i><par n="tirritori/u__n"/></e>
-    <e lm="craniu"><i>crani</i><par n="tirritori/u__n"/></e>
-    <e lm="critaciu"><i>critaci</i><par n="tirritori/u__n"/></e>
-    <e lm="criteriu"><i>criteri</i><par n="tirritori/u__n"/></e>
-    <e lm="cullèggiu"><i>cullèggi</i><par n="tirritori/u__n"/></e>
-    <e lm="cummattiu"><i>cummatti</i><par n="tirritori/u__n"/></e>
-    <e lm="cummissariu"><i>cummissari</i><par n="tirritori/u__n"/></e>
-    <e lm="cumpariu"><i>cumpari</i><par n="tirritori/u__n"/></e>
-    <e lm="cuncidiu"><i>cuncidi</i><par n="tirritori/u__n"/></e>
-    <e lm="cunciliu"><i>cuncili</i><par n="tirritori/u__n"/></e>
-    <e lm="cuncìliu"><i>cuncìli</i><par n="tirritori/u__n"/></e>
-    <e lm="cunfuciu"><i>cunfuci</i><par n="tirritori/u__n"/></e>
-    <e lm="cuntimpuraniu"><i>cuntimpurani</i><par n="tirritori/u__n"/></e>
-    <e lm="cuntimpuràniu"><i>cuntimpuràni</i><par n="tirritori/u__n"/></e>
-    <e lm="cuntribbuiu"><i>cuntribbui</i><par n="tirritori/u__n"/></e>
-    <e lm="cunvogghiu"><i>cunvogghi</i><par n="tirritori/u__n"/></e>
-    <e lm="cunzirvatoriu"><i>cunzirvatori</i><par n="tirritori/u__n"/></e>
-    <e lm="custruiu"><i>custrui</i><par n="tirritori/u__n"/></e>
-    <e lm="dariu"><i>dari</i><par n="tirritori/u__n"/></e>
-    <e lm="decenniu"><i>decenni</i><par n="tirritori/u__n"/></e>
-    <e lm="dicenniu"><i>dicenni</i><par n="tirritori/u__n"/></e>
-    <e lm="dificiu"><i>difici</i><par n="tirritori/u__n"/></e>
-    <e lm="dimaniu"><i>dimani</i><par n="tirritori/u__n"/></e>
-    <e lm="dionisiu"><i>dionisi</i><par n="tirritori/u__n"/></e>
-    <e lm="diriggiu"><i>diriggi</i><par n="tirritori/u__n"/></e>
-    <e lm="dittagghiu"><i>dittagghi</i><par n="tirritori/u__n"/></e>
-    <e lm="diunisiu"><i>diunisi</i><par n="tirritori/u__n"/></e>
-    <e lm="dominiu"><i>domini</i><par n="tirritori/u__n"/></e>
-    <e lm="dumìniu"><i>dumìni</i><par n="tirritori/u__n"/></e>
-    <e lm="duppiu"><i>duppi</i><par n="tirritori/u__n"/></e>
-    <e lm="eccidiu"><i>eccidi</i><par n="tirritori/u__n"/></e>
-    <e lm="eggizziu"><i>eggizzi</i><par n="tirritori/u__n"/></e>
-    <e lm="eleuteriu"><i>eleuteri</i><par n="tirritori/u__n"/></e>
-    <e lm="emiliu"><i>emili</i><par n="tirritori/u__n"/></e>
-    <e lm="episodiu"><i>episodi</i><par n="tirritori/u__n"/></e>
-    <e lm="equipaggiu"><i>equipaggi</i><par n="tirritori/u__n"/></e>
-    <e lm="esibiu"><i>esibi</i><par n="tirritori/u__n"/></e>
-    <e lm="esiliu"><i>esili</i><par n="tirritori/u__n"/></e>
-    <e lm="eufemiu"><i>eufemi</i><par n="tirritori/u__n"/></e>
-    <e lm="eugeniu"><i>eugeni</i><par n="tirritori/u__n"/></e>
-    <e lm="fabrizziu"><i>fabrizzi</i><par n="tirritori/u__n"/></e>
-    <e lm="fibbraiu"><i>fibbrai</i><par n="tirritori/u__n"/></e>
-    <e lm="finanziariu"><i>finanziari</i><par n="tirritori/u__n"/></e>
-    <e lm="firruviariu"><i>firruviari</i><par n="tirritori/u__n"/></e>
-    <e lm="flaviu"><i>flavi</i><par n="tirritori/u__n"/></e>
-    <e lm="floriu"><i>flori</i><par n="tirritori/u__n"/></e>
-    <e lm="funziunariu"><i>funziunari</i><par n="tirritori/u__n"/></e>
-    <e lm="gaiu"><i>gai</i><par n="tirritori/u__n"/></e>
-    <e lm="giorgiu"><i>giorgi</i><par n="tirritori/u__n"/></e>
-    <e lm="giuliu"><i>giuli</i><par n="tirritori/u__n"/></e>
-    <e lm="glucosiu"><i>glucosi</i><par n="tirritori/u__n"/></e>
-    <e lm="iniziu"><i>inizi</i><par n="tirritori/u__n"/></e>
-    <e lm="iquilibbriu"><i>iquilibbri</i><par n="tirritori/u__n"/></e>
-    <e lm="judizziu"><i>judizzi</i><par n="tirritori/u__n"/></e>
-    <e lm="labboratoriu"><i>labboratori</i><par n="tirritori/u__n"/></e>
-    <e lm="lazziu"><i>lazzi</i><par n="tirritori/u__n"/></e>
-    <e lm="linguàggiu"><i>linguàggi</i><par n="tirritori/u__n"/></e>
-    <e lm="liviu"><i>livi</i><par n="tirritori/u__n"/></e>
-    <e lm="lotariu"><i>lotari</i><par n="tirritori/u__n"/></e>
-    <e lm="lutariu"><i>lutari</i><par n="tirritori/u__n"/></e>
-    <e lm="manliu"><i>manli</i><par n="tirritori/u__n"/></e>
-    <e lm="marchiu"><i>marchi</i><par n="tirritori/u__n"/></e>
-    <e lm="martiriu"><i>martiri</i><par n="tirritori/u__n"/></e>
-    <e lm="martirulogiu"><i>martirulogi</i><par n="tirritori/u__n"/></e>
-    <e lm="martogliu"><i>martogli</i><par n="tirritori/u__n"/></e>
-    <e lm="massicciu"><i>massicci</i><par n="tirritori/u__n"/></e>
-    <e lm="mbrogghiu"><i>mbrogghi</i><par n="tirritori/u__n"/></e>
+    <e lm="accissoriu"><i>accissor</i><par n="sacchegg/iu__n"/></e>
+    <e lm="adaciu"><i>adac</i><par n="sacchegg/iu__n"/></e>
+    <e lm="addicidiu"><i>addicid</i><par n="sacchegg/iu__n"/></e>
+    <e lm="addìcidiu"><i>addìcid</i><par n="sacchegg/iu__n"/></e>
+    <e lm="aeriu"><i>aer</i><par n="sacchegg/iu__n"/></e>
+    <e lm="agghiunciu"><i>agghiunc</i><par n="sacchegg/iu__n"/></e>
+    <e lm="ajacciu"><i>ajacc</i><par n="sacchegg/iu__n"/></e>
+    <e lm="ammiragghiu"><i>ammiraggh</i><par n="sacchegg/iu__n"/></e>
+    <e lm="anastasiu"><i>anastas</i><par n="sacchegg/iu__n"/></e>
+    <e lm="anchiu"><i>anch</i><par n="sacchegg/iu__n"/></e>
+    <e lm="annunciu"><i>annunc</i><par n="sacchegg/iu__n"/></e>
+    <e lm="antoniu"><i>anton</i><par n="sacchegg/iu__n"/></e>
+    <e lm="apolloniu"><i>apollon</i><par n="sacchegg/iu__n"/></e>
+    <e lm="appoggiu"><i>appogg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="appoiu"><i>appo</i><par n="sacchegg/iu__n"/></e>
+    <e lm="approcciu"><i>approcc</i><par n="sacchegg/iu__n"/></e>
+    <e lm="arbitrariu"><i>arbitrar</i><par n="sacchegg/iu__n"/></e>
+    <e lm="archiviu"><i>archiv</i><par n="sacchegg/iu__n"/></e>
+    <e lm="arfiu"><i>arf</i><par n="sacchegg/iu__n"/></e>
+    <e lm="armistizziu"><i>armistizz</i><par n="sacchegg/iu__n"/></e>
+    <e lm="arriciviu"><i>arriciv</i><par n="sacchegg/iu__n"/></e>
+    <e lm="arricugghiu"><i>arricuggh</i><par n="sacchegg/iu__n"/></e>
+    <e lm="arrispunniu"><i>arrispunn</i><par n="sacchegg/iu__n"/></e>
+    <e lm="assassiniu"><i>assassin</i><par n="sacchegg/iu__n"/></e>
+    <e lm="attiliu"><i>attil</i><par n="sacchegg/iu__n"/></e>
+    <e lm="attirraggiu"><i>attirragg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="aureliu"><i>aurel</i><par n="sacchegg/iu__n"/></e>
+    <e lm="avverbiu"><i>avverb</i><par n="sacchegg/iu__n"/></e>
+    <e lm="balluttaggiu"><i>balluttagg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="basiliu"><i>basil</i><par n="sacchegg/iu__n"/></e>
+    <e lm="battiu"><i>batt</i><par n="sacchegg/iu__n"/></e>
+    <e lm="battìriu"><i>battìr</i><par n="sacchegg/iu__n"/></e>
+    <e lm="belgiu"><i>belg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="bilanciu"><i>bilanc</i><par n="sacchegg/iu__n"/></e>
+    <e lm="bobbiu"><i>bobb</i><par n="sacchegg/iu__n"/></e>
+    <e lm="bonifaciu"><i>bonifac</i><par n="sacchegg/iu__n"/></e>
+    <e lm="briviariu"><i>briviar</i><par n="sacchegg/iu__n"/></e>
+    <e lm="caiu"><i>ca</i><par n="sacchegg/iu__n"/></e>
+    <e lm="calindariu"><i>calindar</i><par n="sacchegg/iu__n"/></e>
+    <e lm="canciu"><i>canc</i><par n="sacchegg/iu__n"/></e>
+    <e lm="caravaggiu"><i>caravagg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="carvoniu"><i>carvon</i><par n="sacchegg/iu__n"/></e>
+    <e lm="casalvecchiu"><i>casalvecch</i><par n="sacchegg/iu__n"/></e>
+    <e lm="castellucciu"><i>castellucc</i><par n="sacchegg/iu__n"/></e>
+    <e lm="cauciu"><i>cauc</i><par n="sacchegg/iu__n"/></e>
+    <e lm="cerchiu"><i>cerch</i><par n="sacchegg/iu__n"/></e>
+    <e lm="clotariu"><i>clotar</i><par n="sacchegg/iu__n"/></e>
+    <e lm="colleggiu"><i>collegg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="commerciu"><i>commerc</i><par n="sacchegg/iu__n"/></e>
+    <e lm="commissariu"><i>commissar</i><par n="sacchegg/iu__n"/></e>
+    <e lm="consigghiu"><i>consiggh</i><par n="sacchegg/iu__n"/></e>
+    <e lm="craniu"><i>cran</i><par n="sacchegg/iu__n"/></e>
+    <e lm="critaciu"><i>critac</i><par n="sacchegg/iu__n"/></e>
+    <e lm="criteriu"><i>criter</i><par n="sacchegg/iu__n"/></e>
+    <e lm="cullèggiu"><i>cullègg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="cummattiu"><i>cummatt</i><par n="sacchegg/iu__n"/></e>
+    <e lm="cummissariu"><i>cummissar</i><par n="sacchegg/iu__n"/></e>
+    <e lm="cumpariu"><i>cumpar</i><par n="sacchegg/iu__n"/></e>
+    <e lm="cuncidiu"><i>cuncid</i><par n="sacchegg/iu__n"/></e>
+    <e lm="cunciliu"><i>cuncil</i><par n="sacchegg/iu__n"/></e>
+    <e lm="cuncìliu"><i>cuncìl</i><par n="sacchegg/iu__n"/></e>
+    <e lm="cunfuciu"><i>cunfuc</i><par n="sacchegg/iu__n"/></e>
+    <e lm="cuntimpuraniu"><i>cuntimpuran</i><par n="sacchegg/iu__n"/></e>
+    <e lm="cuntimpuràniu"><i>cuntimpuràn</i><par n="sacchegg/iu__n"/></e>
+    <e lm="cuntribbuiu"><i>cuntribbu</i><par n="sacchegg/iu__n"/></e>
+    <e lm="cunvogghiu"><i>cunvoggh</i><par n="sacchegg/iu__n"/></e>
+    <e lm="cunzirvatoriu"><i>cunzirvator</i><par n="sacchegg/iu__n"/></e>
+    <e lm="custruiu"><i>custru</i><par n="sacchegg/iu__n"/></e>
+    <e lm="dariu"><i>dar</i><par n="sacchegg/iu__n"/></e>
+    <e lm="decenniu"><i>decenn</i><par n="sacchegg/iu__n"/></e>
+    <e lm="dicenniu"><i>dicenn</i><par n="sacchegg/iu__n"/></e>
+    <e lm="dificiu"><i>dific</i><par n="sacchegg/iu__n"/></e>
+    <e lm="dimaniu"><i>diman</i><par n="sacchegg/iu__n"/></e>
+    <e lm="dionisiu"><i>dionis</i><par n="sacchegg/iu__n"/></e>
+    <e lm="diriggiu"><i>dirigg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="dittagghiu"><i>dittaggh</i><par n="sacchegg/iu__n"/></e>
+    <e lm="diunisiu"><i>diunis</i><par n="sacchegg/iu__n"/></e>
+    <e lm="dominiu"><i>domin</i><par n="sacchegg/iu__n"/></e>
+    <e lm="dumìniu"><i>dumìn</i><par n="sacchegg/iu__n"/></e>
+    <e lm="duppiu"><i>dupp</i><par n="sacchegg/iu__n"/></e>
+    <e lm="eccidiu"><i>eccid</i><par n="sacchegg/iu__n"/></e>
+    <e lm="eggizziu"><i>eggizz</i><par n="sacchegg/iu__n"/></e>
+    <e lm="eleuteriu"><i>eleuter</i><par n="sacchegg/iu__n"/></e>
+    <e lm="emiliu"><i>emil</i><par n="sacchegg/iu__n"/></e>
+    <e lm="episodiu"><i>episod</i><par n="sacchegg/iu__n"/></e>
+    <e lm="equipaggiu"><i>equipagg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="esibiu"><i>esib</i><par n="sacchegg/iu__n"/></e>
+    <e lm="esiliu"><i>esil</i><par n="sacchegg/iu__n"/></e>
+    <e lm="eufemiu"><i>eufem</i><par n="sacchegg/iu__n"/></e>
+    <e lm="eugeniu"><i>eugen</i><par n="sacchegg/iu__n"/></e>
+    <e lm="fabrizziu"><i>fabrizz</i><par n="sacchegg/iu__n"/></e>
+    <e lm="fibbraiu"><i>fibbra</i><par n="sacchegg/iu__n"/></e>
+    <e lm="finanziariu"><i>finanziar</i><par n="sacchegg/iu__n"/></e>
+    <e lm="firruviariu"><i>firruviar</i><par n="sacchegg/iu__n"/></e>
+    <e lm="flaviu"><i>flav</i><par n="sacchegg/iu__n"/></e>
+    <e lm="floriu"><i>flor</i><par n="sacchegg/iu__n"/></e>
+    <e lm="funziunariu"><i>funziunar</i><par n="sacchegg/iu__n"/></e>
+    <e lm="gaiu"><i>ga</i><par n="sacchegg/iu__n"/></e>
+    <e lm="giorgiu"><i>giorg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="giuliu"><i>giul</i><par n="sacchegg/iu__n"/></e>
+    <e lm="glucosiu"><i>glucos</i><par n="sacchegg/iu__n"/></e>
+    <e lm="iniziu"><i>iniz</i><par n="sacchegg/iu__n"/></e>
+    <e lm="iquilibbriu"><i>iquilibbr</i><par n="sacchegg/iu__n"/></e>
+    <e lm="judizziu"><i>judizz</i><par n="sacchegg/iu__n"/></e>
+    <e lm="labboratoriu"><i>labborator</i><par n="sacchegg/iu__n"/></e>
+    <e lm="lazziu"><i>lazz</i><par n="sacchegg/iu__n"/></e>
+    <e lm="linguàggiu"><i>linguàgg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="liviu"><i>liv</i><par n="sacchegg/iu__n"/></e>
+    <e lm="lotariu"><i>lotar</i><par n="sacchegg/iu__n"/></e>
+    <e lm="lutariu"><i>lutar</i><par n="sacchegg/iu__n"/></e>
+    <e lm="manliu"><i>manl</i><par n="sacchegg/iu__n"/></e>
+    <e lm="marchiu"><i>march</i><par n="sacchegg/iu__n"/></e>
+    <e lm="martiriu"><i>martir</i><par n="sacchegg/iu__n"/></e>
+    <e lm="martirulogiu"><i>martirulog</i><par n="sacchegg/iu__n"/></e>
+    <e lm="martogliu"><i>martogl</i><par n="sacchegg/iu__n"/></e>
+    <e lm="massicciu"><i>massicc</i><par n="sacchegg/iu__n"/></e>
+    <e lm="mbrogghiu"><i>mbroggh</i><par n="sacchegg/iu__n"/></e>
 
-    <e lm="metodiu"><i>metodi</i><par n="tirritori/u__n"/></e>
-    <e lm="micruscopiu"><i>micruscopi</i><par n="tirritori/u__n"/></e>
-    <e lm="meditirràniu"><i>meditirràni</i><par n="tirritori/u__n"/></e>
-    <e lm="meditirràniu" r="LR"><p><l>miditirràni</l><r>meditirràni</r></p><par n="tirritori/u__n"/></e>
-    <e lm="meditirràniu" r="LR"><p><l>miditirrani</l><r>meditirràni</r></p><par n="tirritori/u__n"/></e>
-    <e lm="meditirràniu" r="LR"><p><l>midittirrani</l><r>meditirràni</r></p><par n="tirritori/u__n"/></e>
-    <e lm="meditirràniu" r="LR"><p><l>miditirràni</l><r>meditirràni</r></p><par n="tirritori/u__n"/></e>
-    <e lm="miegghiu"><i>miegghi</i><par n="tirritori/u__n"/></e>
-    <e lm="millenniu"><i>millenni</i><par n="tirritori/u__n"/></e>
-    <e lm="missiunariu"><i>missiunari</i><par n="tirritori/u__n"/></e>
-    <e lm="mitraggiu"><i>mitraggi</i><par n="tirritori/u__n"/></e>
-    <e lm="mmagginariu"><i>mmagginari</i><par n="tirritori/u__n"/></e>
-    <e lm="monasteriu"><i>monasteri</i><par n="tirritori/u__n"/></e>
-    <e lm="monopoliu"><i>monopoli</i><par n="tirritori/u__n"/></e>
-    <e lm="moriu"><i>mori</i><par n="tirritori/u__n"/></e>
-    <e lm="mpèriu"><i>mpèri</i><par n="tirritori/u__n"/></e>
-    <e lm="munasteriu"><i>munasteri</i><par n="tirritori/u__n"/></e>
-    <e lm="municipiu"><i>municipi</i><par n="tirritori/u__n"/></e>
-    <e lm="muntaggiu"><i>muntaggi</i><par n="tirritori/u__n"/></e>
-    <e lm="muriu"><i>muri</i><par n="tirritori/u__n"/></e>
-    <e lm="mègghiu"><i>mègghi</i><par n="tirritori/u__n"/></e>
-    <e lm="ncendiu"><i>ncendi</i><par n="tirritori/u__n"/></e>
-    <e lm="ncrociu"><i>ncroci</i><par n="tirritori/u__n"/></e>
-    <e lm="nicasiu"><i>nicasi</i><par n="tirritori/u__n"/></e>
-    <e lm="nucliu"><i>nucli</i><par n="tirritori/u__n"/></e>
-    <e lm="omaggiu"><i>omaggi</i><par n="tirritori/u__n"/></e>
-    <e lm="onoriu"><i>onori</i><par n="tirritori/u__n"/></e>
-    <e lm="orariu"><i>orari</i><par n="tirritori/u__n"/></e>
-    <e lm="oratoriu"><i>oratori</i><par n="tirritori/u__n"/></e>
-    <e lm="orazziu"><i>orazzi</i><par n="tirritori/u__n"/></e>
-    <e lm="ossirvatoriu"><i>ossirvatori</i><par n="tirritori/u__n"/></e>
-    <e lm="ottaviu"><i>ottavi</i><par n="tirritori/u__n"/></e>
-    <e lm="ovidiu"><i>ovidi</i><par n="tirritori/u__n"/></e>
-    <e lm="ozziu"><i>ozzi</i><par n="tirritori/u__n"/></e>
-    <e lm="paisaggiu"><i>paisaggi</i><par n="tirritori/u__n"/></e>
-    <e lm="paliu"><i>pali</i><par n="tirritori/u__n"/></e>
-    <e lm="patrimoniu"><i>patrimoni</i><par n="tirritori/u__n"/></e>
-    <e lm="patrizziu"><i>patrizzi</i><par n="tirritori/u__n"/></e>
-    <e lm="patrizziu" r="LR"><p><l>patrizi</l><r>patrizzi</r></p><par n="tirritori/u__n"/></e>
-    <e lm="petroliu"><i>petroli</i><par n="tirritori/u__n"/></e>
-    <e lm="pilligrinaggiu"><i>pilligrinaggi</i><par n="tirritori/u__n"/></e>
-    <e lm="piumaggiu"><i>piumaggi</i><par n="tirritori/u__n"/></e>
-    <e lm="princìpiu"><i>princìpi</i><par n="tirritori/u__n"/></e>
-    <e lm="pristiggiu"><i>pristiggi</i><par n="tirritori/u__n"/></e>
-    <e lm="privileggiu"><i>privileggi</i><par n="tirritori/u__n"/></e>
+    <e lm="metodiu"><i>metod</i><par n="sacchegg/iu__n"/></e>
+    <e lm="micruscopiu"><i>micruscop</i><par n="sacchegg/iu__n"/></e>
+    <e lm="meditirràniu"><i>meditirràn</i><par n="sacchegg/iu__n"/></e>
+    <e lm="meditirràniu" r="LR"><p><l>miditirràn</l><r>meditirràn</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="meditirràniu" r="LR"><p><l>miditirran</l><r>meditirràn</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="meditirràniu" r="LR"><p><l>midittirran</l><r>meditirràn</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="meditirràniu" r="LR"><p><l>miditirràn</l><r>meditirràn</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="miegghiu"><i>mieggh</i><par n="sacchegg/iu__n"/></e>
+    <e lm="millenniu"><i>millenn</i><par n="sacchegg/iu__n"/></e>
+    <e lm="missiunariu"><i>missiunar</i><par n="sacchegg/iu__n"/></e>
+    <e lm="mitraggiu"><i>mitragg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="mmagginariu"><i>mmagginar</i><par n="sacchegg/iu__n"/></e>
+    <e lm="monasteriu"><i>monaster</i><par n="sacchegg/iu__n"/></e>
+    <e lm="monopoliu"><i>monopol</i><par n="sacchegg/iu__n"/></e>
+    <e lm="moriu"><i>mor</i><par n="sacchegg/iu__n"/></e>
+    <e lm="mpèriu"><i>mpèr</i><par n="sacchegg/iu__n"/></e>
+    <e lm="munasteriu"><i>munaster</i><par n="sacchegg/iu__n"/></e>
+    <e lm="municipiu"><i>municip</i><par n="sacchegg/iu__n"/></e>
+    <e lm="muntaggiu"><i>muntagg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="muriu"><i>mur</i><par n="sacchegg/iu__n"/></e>
+    <e lm="mègghiu"><i>mèggh</i><par n="sacchegg/iu__n"/></e>
+    <e lm="ncendiu"><i>ncend</i><par n="sacchegg/iu__n"/></e>
+    <e lm="ncrociu"><i>ncroc</i><par n="sacchegg/iu__n"/></e>
+    <e lm="nicasiu"><i>nicas</i><par n="sacchegg/iu__n"/></e>
+    <e lm="nucliu"><i>nucl</i><par n="sacchegg/iu__n"/></e>
+    <e lm="omaggiu"><i>omagg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="onoriu"><i>onor</i><par n="sacchegg/iu__n"/></e>
+    <e lm="orariu"><i>orar</i><par n="sacchegg/iu__n"/></e>
+    <e lm="oratoriu"><i>orator</i><par n="sacchegg/iu__n"/></e>
+    <e lm="orazziu"><i>orazz</i><par n="sacchegg/iu__n"/></e>
+    <e lm="ossirvatoriu"><i>ossirvator</i><par n="sacchegg/iu__n"/></e>
+    <e lm="ottaviu"><i>ottav</i><par n="sacchegg/iu__n"/></e>
+    <e lm="ovidiu"><i>ovid</i><par n="sacchegg/iu__n"/></e>
+    <e lm="ozziu"><i>ozz</i><par n="sacchegg/iu__n"/></e>
+    <e lm="paisaggiu"><i>paisagg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="paliu"><i>pal</i><par n="sacchegg/iu__n"/></e>
+    <e lm="patrimoniu"><i>patrimon</i><par n="sacchegg/iu__n"/></e>
+    <e lm="patrizziu"><i>patrizz</i><par n="sacchegg/iu__n"/></e>
+    <e lm="patrizziu" r="LR"><p><l>patriz</l><r>patrizz</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="petroliu"><i>petrol</i><par n="sacchegg/iu__n"/></e>
+    <e lm="pilligrinaggiu"><i>pilligrinagg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="piumaggiu"><i>piumagg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="princìpiu"><i>princìp</i><par n="sacchegg/iu__n"/></e>
+    <e lm="pristiggiu"><i>pristigg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="privileggiu"><i>privilegg</i><par n="sacchegg/iu__n"/></e>
     
-    <e lm="prumuntoriu"><i>prumuntori</i><par n="tirritori/u__n"/></e>
-    <e lm="prupitariu"><i>prupitari</i><par n="tirritori/u__n"/></e>
-    <e lm="punteggiu"><i>punteggi</i><par n="tirritori/u__n"/></e>
-    <e lm="puntificiu"><i>puntifici</i><par n="tirritori/u__n"/></e>
-    <e lm="raggiungiu"><i>raggiungi</i><par n="tirritori/u__n"/></e>
-    <e lm="raiu"><i>rai</i><par n="tirritori/u__n"/></e>
-    <e lm="reggiu"><i>reggi</i><par n="tirritori/u__n"/></e>
-    <e lm="ricordiu"><i>ricordi</i><par n="tirritori/u__n"/></e>
-    <e lm="rilasciu"><i>rilasci</i><par n="tirritori/u__n"/></e>
-    <e lm="rinisciu"><i>rinisci</i><par n="tirritori/u__n"/></e>
-    <e lm="ripirtoriu"><i>ripirtori</i><par n="tirritori/u__n"/></e>
-    <e lm="ripirtoriu" r="LR"><p><l>ripirtòri</l><r>ripirtori</r></p><par n="tirritori/u__n"/></e>
-    <e lm="rischiu"><i>rischi</i><par n="tirritori/u__n"/></e>
-    <e lm="sabbutaggiu"><i>sabbutaggi</i><par n="tirritori/u__n"/></e>
-    <e lm="saggiu"><i>saggi</i><par n="tirritori/u__n"/></e>
-    <e lm="santuariu"><i>santuari</i><par n="tirritori/u__n"/></e>
-    <e lm="scanciu"><i>scanci</i><par n="tirritori/u__n"/></e>
-    <e lm="scigghiu"><i>scigghi</i><par n="tirritori/u__n"/></e>
-    <e lm="scinariu"><i>scinari</i><par n="tirritori/u__n"/></e>
-    <e lm="scogghiu"><i>scogghi</i><par n="tirritori/u__n"/></e>
-    <e lm="scoppiu"><i>scoppi</i><par n="tirritori/u__n"/></e>
-    <e lm="screzziu"><i>screzzi</i><par n="tirritori/u__n"/></e>
-    <e lm="scumpariu"><i>scumpari</i><par n="tirritori/u__n"/></e>
-    <e lm="scunfiggiu"><i>scunfiggi</i><par n="tirritori/u__n"/></e>
-    <e lm="scupriu"><i>scupri</i><par n="tirritori/u__n"/></e>
-    <e lm="scànciu"><i>scànci</i><par n="tirritori/u__n"/></e>
-    <e lm="secretariu"><i>secretari</i><par n="tirritori/u__n"/></e>
-    <e lm="seggiu"><i>seggi</i><par n="tirritori/u__n"/></e>
-    <e lm="segretariu"><i>segretari</i><par n="tirritori/u__n"/></e>
-    <e lm="segretariu" r="LR"><p><l>secretari</l><r>segretari</r></p><par n="tirritori/u__n"/></e>
-    <e lm="selleriu"><i>selleri</i><par n="tirritori/u__n"/></e>
-    <e lm="seminariu"><i>seminari</i><par n="tirritori/u__n"/></e>
-    <e lm="seminariu" r="LR"><p><l>siminari</l><r>seminari</r></p><par n="tirritori/u__n"/></e>
-    <e lm="senziu"><i>senzi</i><par n="tirritori/u__n"/></e>
-    <e lm="serviziu"><i>servizi</i><par n="tirritori/u__n"/></e>
-    <e lm="sicritàriu"><i>sicritàri</i><par n="tirritori/u__n"/></e>
-    <e lm="siggritariu"><i>siggritari</i><par n="tirritori/u__n"/></e>
-    <e lm="sigritariu"><i>sigritari</i><par n="tirritori/u__n"/></e>
-    <e lm="silviu"><i>silvi</i><par n="tirritori/u__n"/></e>
-    <e lm="siminariu"><i>siminari</i><par n="tirritori/u__n"/></e>
-    <e lm="sondriu"><i>sondri</i><par n="tirritori/u__n"/></e>
-    <e lm="stigghiu"><i>stigghi</i><par n="tirritori/u__n"/></e>
-    <e lm="stirminiu"><i>stirmini</i><par n="tirritori/u__n"/></e>
-    <e lm="stirminiu" r="LR"><p><l>stermini</l><r>stirmini</r></p><par n="tirritori/u__n"/></e>
-    <e lm="sturiu"><i>sturi</i><par n="tirritori/u__n"/></e>
-    <e lm="stàdiu"><i>stàdi</i><par n="tirritori/u__n"/></e>
-    <e lm="stùdiu"><i>stùdi</i><par n="tirritori/u__n"/></e>
-    <e lm="suffraggiu"><i>suffraggi</i><par n="tirritori/u__n"/></e>
-    <e lm="sundaggiu"><i>sundaggi</i><par n="tirritori/u__n"/></e>
-    <e lm="tagghiu"><i>tagghi</i><par n="tirritori/u__n"/></e>
-    <e lm="tempiu"><i>tempi</i><par n="tirritori/u__n"/></e>
-    <e lm="tulliu"><i>tulli</i><par n="tirritori/u__n"/></e>
-    <e lm="tèmpiu"><i>tèmpi</i><par n="tirritori/u__n"/></e>
-    <e lm="umaggiu"><i>umaggi</i><par n="tirritori/u__n"/></e>
-    <e lm="unibidiu"><i>unibidi</i><par n="tirritori/u__n"/></e>
-    <e lm="vantaggiu"><i>vantaggi</i><par n="tirritori/u__n"/></e>
-    <e lm="vicariu"><i>vicari</i><par n="tirritori/u__n"/></e>
-    <e lm="vucabulariu" r="LR"><p><l>vocabolari</l><r>vucabulari</r></p><par n="tirritori/u__n"/></e>
+    <e lm="prumuntoriu"><i>prumuntor</i><par n="sacchegg/iu__n"/></e>
+    <e lm="prupitariu"><i>prupitar</i><par n="sacchegg/iu__n"/></e>
+    <e lm="punteggiu"><i>puntegg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="puntificiu"><i>puntific</i><par n="sacchegg/iu__n"/></e>
+    <e lm="raggiungiu"><i>raggiung</i><par n="sacchegg/iu__n"/></e>
+    <e lm="raiu"><i>ra</i><par n="sacchegg/iu__n"/></e>
+    <e lm="reggiu"><i>regg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="ricordiu"><i>ricord</i><par n="sacchegg/iu__n"/></e>
+    <e lm="rilasciu"><i>rilasc</i><par n="sacchegg/iu__n"/></e>
+    <e lm="rinisciu"><i>rinisc</i><par n="sacchegg/iu__n"/></e>
+    <e lm="ripirtoriu"><i>ripirtor</i><par n="sacchegg/iu__n"/></e>
+    <e lm="ripirtoriu" r="LR"><p><l>ripirtòr</l><r>ripirtor</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="rischiu"><i>risch</i><par n="sacchegg/iu__n"/></e>
+    <e lm="sabbutaggiu"><i>sabbutagg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="saggiu"><i>sagg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="santuariu"><i>santuar</i><par n="sacchegg/iu__n"/></e>
+    <e lm="scanciu"><i>scanc</i><par n="sacchegg/iu__n"/></e>
+    <e lm="scigghiu"><i>sciggh</i><par n="sacchegg/iu__n"/></e>
+    <e lm="scinariu"><i>scinar</i><par n="sacchegg/iu__n"/></e>
+    <e lm="scogghiu"><i>scoggh</i><par n="sacchegg/iu__n"/></e>
+    <e lm="scoppiu"><i>scopp</i><par n="sacchegg/iu__n"/></e>
+    <e lm="screzziu"><i>screzz</i><par n="sacchegg/iu__n"/></e>
+    <e lm="scumpariu"><i>scumpar</i><par n="sacchegg/iu__n"/></e>
+    <e lm="scunfiggiu"><i>scunfigg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="scupriu"><i>scupr</i><par n="sacchegg/iu__n"/></e>
+    <e lm="scànciu"><i>scànc</i><par n="sacchegg/iu__n"/></e>
+    <e lm="secretariu"><i>secretar</i><par n="sacchegg/iu__n"/></e>
+    <e lm="seggiu"><i>segg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="segretariu"><i>segretar</i><par n="sacchegg/iu__n"/></e>
+    <e lm="segretariu" r="LR"><p><l>secretar</l><r>segretar</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="selleriu"><i>seller</i><par n="sacchegg/iu__n"/></e>
+    <e lm="seminariu"><i>seminar</i><par n="sacchegg/iu__n"/></e>
+    <e lm="seminariu" r="LR"><p><l>siminar</l><r>seminar</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="senziu"><i>senz</i><par n="sacchegg/iu__n"/></e>
+    <e lm="serviziu"><i>serviz</i><par n="sacchegg/iu__n"/></e>
+    <e lm="sicritàriu"><i>sicritàr</i><par n="sacchegg/iu__n"/></e>
+    <e lm="siggritariu"><i>siggritar</i><par n="sacchegg/iu__n"/></e>
+    <e lm="sigritariu"><i>sigritar</i><par n="sacchegg/iu__n"/></e>
+    <e lm="silviu"><i>silv</i><par n="sacchegg/iu__n"/></e>
+    <e lm="siminariu"><i>siminar</i><par n="sacchegg/iu__n"/></e>
+    <e lm="sondriu"><i>sondr</i><par n="sacchegg/iu__n"/></e>
+    <e lm="stigghiu"><i>stiggh</i><par n="sacchegg/iu__n"/></e>
+    <e lm="stirminiu"><i>stirmin</i><par n="sacchegg/iu__n"/></e>
+    <e lm="stirminiu" r="LR"><p><l>stermin</l><r>stirmin</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="sturiu"><i>stur</i><par n="sacchegg/iu__n"/></e>
+    <e lm="stàdiu"><i>stàd</i><par n="sacchegg/iu__n"/></e>
+    <e lm="stùdiu"><i>stùd</i><par n="sacchegg/iu__n"/></e>
+    <e lm="suffraggiu"><i>suffragg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="sundaggiu"><i>sundagg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="tagghiu"><i>taggh</i><par n="sacchegg/iu__n"/></e>
+    <e lm="tempiu"><i>temp</i><par n="sacchegg/iu__n"/></e>
+    <e lm="tulliu"><i>tull</i><par n="sacchegg/iu__n"/></e>
+    <e lm="tèmpiu"><i>tèmp</i><par n="sacchegg/iu__n"/></e>
+    <e lm="umaggiu"><i>umagg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="unibidiu"><i>unibid</i><par n="sacchegg/iu__n"/></e>
+    <e lm="vantaggiu"><i>vantagg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="vicariu"><i>vicar</i><par n="sacchegg/iu__n"/></e>
+    <e lm="vucabulariu" r="LR"><p><l>vocabolar</l><r>vucabular</r></p><par n="sacchegg/iu__n"/></e>
     
     <e lm="agnosticismu"><i>agnosticism</i><par n="sucialism/u__n"/></e>
     <e lm="agnosticismu" r="LR"><p><l>gnosticism</l><r>agnosticism</r></p><par n="sucialism/u__n"/></e>
@@ -16819,7 +16830,7 @@
     <e lm="papanzicu"><i>papanzic</i><par n="parc/u__n"/></e>
     <e lm="pènnulu"><i>pènnul</i><par n="ann/u__n"/></e>
     <e lm="altaru"><i>altar</i><par n="ann/u__n"/></e>
-    <e lm="miciu"><i>mici</i><par n="tirritori/u__n"/></e>
+    <e lm="miciu"><i>mic</i><par n="sacchegg/iu__n"/></e>
     <e lm="currenti"><i>currenti</i><par n="matri__n"/></e>
     <e lm="fatturiali"><i>fatturiali</i><par n="patri__n"/></e>
     <e lm="papatu"><i>papat</i><par n="ann/u__n"/></e>
@@ -16843,7 +16854,7 @@
     <e lm="cùbbula"><i>cùbbul</i><par n="cas/a__n"/></e>
     <e lm="cuntisa"><i>cuntis</i><par n="cas/a__n"/></e>
     <e lm="custurera"><i>custurer</i><par n="cas/a__n"/></e>
-    <e lm="dazziu"><i>dazzi</i><par n="tirritori/u__n"/></e>
+    <e lm="dazziu"><i>dazz</i><par n="sacchegg/iu__n"/></e>
     <e lm="deca"><i>dec</i><par n="ripùbbric/a__n"/></e>
     <e lm="fanaticarìa"><i>fanaticarì</i><par n="culoni/a__n"/></e>
     <e lm="fattabbata"><i>fattabbat</i><par n="cas/a__n"/></e>
@@ -16854,14 +16865,14 @@
     <e lm="gezzista"><i>gezzist</i><par n="cas/a__n"/></e>
     <e lm="giudizziusu"><i>giudizzius</i><par n="ann/u__n"/></e>
     <e lm="lamintusu"><i>lamintus</i><par n="ann/u__n"/></e>
-    <e lm="mbrògghiu"><i>mbrògghi</i><par n="tirritori/u__n"/></e>
+    <e lm="mbrògghiu"><i>mbròggh</i><par n="sacchegg/iu__n"/></e>
     <e lm="minutagghia"><i>minutagghi</i><par n="oricch/ia__n"/></e>
     <e lm="mprunta"><i>mprunt</i><par n="cas/a__n"/></e>
     <e lm="mustazzolu"><i>mustazzol</i><par n="ann/u__n"/></e>
     <e lm="niculizzia"><i>niculizzi</i><par n="oricch/ia__n"/></e>
     <e lm="ntantazzioni"><i>ntantazzion</i><par n="pupulaz/zioni__n"/></e>
     <e lm="papella"><i>papell</i><par n="cas/a__n"/></e>
-    <e lm="pitafiu"><i>pitafi</i><par n="tirritori/u__n"/></e>
+    <e lm="pitafiu"><i>pitaf</i><par n="sacchegg/iu__n"/></e>
     <e lm="preju"><i>prej</i><par n="ann/u__n"/></e>
     <e lm="puparu"><i>pupar</i><par n="ann/u__n"/></e>
     <e lm="quaternu"><i>quatern</i><par n="ann/u__n"/></e>
@@ -16873,12 +16884,12 @@
     <e lm="ruggia"><i>ruggi</i><par n="oricch/ia__n"/></e>
     <e lm="sbrizza"><i>sbrizz</i><par n="cas/a__n"/></e>
     <e lm="schettu"><i>schett</i><par n="ann/u__n"/></e>
-    <e lm="sdillizziu"><i>sdillizzi</i><par n="tirritori/u__n"/></e>
-    <e lm="sdilluviu"><i>sdilluvi</i><par n="tirritori/u__n"/></e>
+    <e lm="sdillizziu"><i>sdillizz</i><par n="sacchegg/iu__n"/></e>
+    <e lm="sdilluviu"><i>sdilluv</i><par n="sacchegg/iu__n"/></e>
     <e lm="sdisertu"><i>sdisert</i><par n="ann/u__n"/></e>
     <e lm="sfracelu"><i>sfracel</i><par n="ann/u__n"/></e>
     <e lm="sgarru"><i>sgarr</i><par n="ann/u__n"/></e>
-    <e lm="siddiu"><i>siddi</i><par n="tirritori/u__n"/></e>
+    <e lm="siddiu"><i>sidd</i><par n="sacchegg/iu__n"/></e>
     <e lm="supraniata"><i>supraniat</i><par n="cas/a__n"/></e>
     <e lm="surcu"><i>surc</i><par n="ann/u__n"/></e>
     <e lm="trìvulu"><i>trìvul</i><par n="ann/u__n"/></e>
@@ -16887,9 +16898,9 @@
     <e lm="tumbulata"><i>tumbulat</i><par n="cas/a__n"/></e>
     <e lm="ugna"><i>ugn</i><par n="cas/a__n"/></e>
     <e lm="vardianu"><i>vardian</i><par n="ann/u__n"/></e>
-    <e lm="vucilìzziu"><i>vucilìzzi</i><par n="tirritori/u__n"/></e>
-    <e lm="mprisariu"><i>mprisari</i><par n="tirritori/u__n"/></e>
-    <e lm="vintagghiu"><i>vintagghi</i><par n="tirritori/u__n"/></e>
+    <e lm="vucilìzziu"><i>vucilìzz</i><par n="sacchegg/iu__n"/></e>
+    <e lm="mprisariu"><i>mprisar</i><par n="sacchegg/iu__n"/></e>
+    <e lm="vintagghiu"><i>vintaggh</i><par n="sacchegg/iu__n"/></e>
     <e lm="difficultati"><i>difficultati</i><par n="matri__n"/></e>
     
     
@@ -16956,6 +16967,7 @@
     <e lm="spittàculu" r="LR"><p><l>spittacul</l><r>spittàcul</r></p><par n="ann/u__n"/></e>
     <e lm="minuranza"><i>minuranz</i><par n="cas/a__n"/></e>
     <e lm="talentu"><i>talent</i><par n="ann/u__n"/></e>
+    <e lm="stremu"><i>strem</i><par n="ann/u__n"/></e>
     <e lm="fracchecha"><i>fracchech</i><par n="cas/a__n"/></e>
     
     
@@ -20762,6 +20774,9 @@
     <e lm="abbalintatu"><i>abbalintat</i><par n="bedd/u__adj"/></e>
     <e lm="minuri"><i>minur</i><par n="minur/i__adj"/></e>
     <e lm="mòbbili"><i>mòbbili</i><par n="duci__adj"/></e>
+    <e lm="vulgari"><i>vulgari</i><par n="duci__adj"/></e>
+    
+    
     
     <e lm="cecu"><i>cec</i><par n="magnètic/u__adj"/></e>
     <e lm="giuvini"><i>giuvini</i><par n="duci__adj"/></e>
@@ -21021,6 +21036,7 @@
 
 
     <e lm="nnipinnenti"><i>nnipinnenti</i><par n="duci__adj"/></e>
+    <e lm="nnipinnenti"><par n="u/o"/><p><l>ndipinnenti</l><r>nnipinnenti</r></p><par n="duci__adj"/></e>
     <e lm="dilittanti"><i>dilittanti</i><par n="duci__adj"/></e>
     <e lm="univirsali"><i>univirsali</i><par n="duci__adj"/></e>
     <e lm="ricenti"><i>ricenti</i><par n="duci__adj"/></e>
@@ -25169,6 +25185,9 @@
     <e lm="vìnniri"><i>vìnn</i><par n="batt/iri__vblex"/></e>
     <e lm="vìnniri" r="LR"><p><l>vinn</l><r>vìnn</r></p><par n="batt/iri__vblex"/></e>
     <e lm="rifiriri"><i>rifir</i><par n="batt/iri__vblex"/></e>
+    
+    <e lm="supravìviri"><i>supravì</i><par n="vi/viri__vblex"/></e>
+    <e lm="supravìviri" r="LR"><p><l>supravi</l><r>supravì</r></p><par n="vi/viri__vblex"/></e>
     <e lm="vìviri"><i>vì</i><par n="vi/viri__vblex"/></e>
     <e lm="vìviri" r="LR"><p><l>vi</l><r>vì</r></p><par n="vi/viri__vblex"/></e>
     <e lm="capiri"><i>cap</i><par n="batt/iri__vblex"/></e>
@@ -28960,6 +28979,10 @@
     <e lm="sàutari"><i>sàut</i><par n="parr/ari__vblex"/></e>
     <e lm="ristriri"><i>ristr</i><par n="batt/iri__vblex"/></e>
     <e lm="cumpuniri"><i>cumpun</i><par n="p/oniri__vblex"/></e>
+    <e lm="duminari"><i>dumin</i><par n="parr/ari__vblex"/></e>
+    <e lm="cumpritari"><i>cumprit</i><par n="parr/ari__vblex"/></e>
+    <e lm="cunchiudiri"><i>cunchiud</i><par n="batt/iri__vblex"/></e>
+    <e lm="cunchiudiri" r="LR"><p><l>cunchiùd</l><r>cunchiud</r></p><par n="batt/iri__vblex"/></e>
     
     
     
