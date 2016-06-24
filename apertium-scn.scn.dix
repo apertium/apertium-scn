@@ -3106,8 +3106,8 @@
     <e lm="discu"><i>disc</i><par n="ann/u__n"/></e>
     <e lm="diu"><i>di</i><par n="tirritori/u__n"/></e>
     <e lm="duminiu"><i>dumini</i><par n="tirritori/u__n"/></e>
-    <e lm="esempiu"><i>esempi</i><par n="tirritori/u__n"/></e>
-    <e lm="asempiu"><i>asempi</i><par n="tirritori/u__n"/></e>
+    <e lm="esempiu"><i>esemp</i><par n="sacchegg/iu__n"/></e>
+    <e lm="asempiu"><i>asemp</i><par n="sacchegg/iu__n"/></e>
     <e lm="filòsufu"><i>filòsuf</i><par n="ann/u__n"/></e>
     <e lm="finòminu"><i>finòmin</i><par n="ann/u__n"/></e>
     <e lm="fruttu"><i>frutt</i><par n="ann/u__n"/></e>
@@ -16596,8 +16596,11 @@
 
     <e lm="metodiu"><i>metodi</i><par n="tirritori/u__n"/></e>
     <e lm="micruscopiu"><i>micruscopi</i><par n="tirritori/u__n"/></e>
-    <e lm="miditirraniu"><i>miditirrani</i><par n="tirritori/u__n"/></e>
-    <e lm="miditirràniu"><i>miditirràni</i><par n="tirritori/u__n"/></e>
+    <e lm="meditirràniu"><i>meditirràni</i><par n="tirritori/u__n"/></e>
+    <e lm="meditirràniu" r="LR"><p><l>miditirràni</l><r>meditirràni</r></p><par n="tirritori/u__n"/></e>
+    <e lm="meditirràniu" r="LR"><p><l>miditirrani</l><r>meditirràni</r></p><par n="tirritori/u__n"/></e>
+    <e lm="meditirràniu" r="LR"><p><l>midittirrani</l><r>meditirràni</r></p><par n="tirritori/u__n"/></e>
+    <e lm="meditirràniu" r="LR"><p><l>miditirràni</l><r>meditirràni</r></p><par n="tirritori/u__n"/></e>
     <e lm="miegghiu"><i>miegghi</i><par n="tirritori/u__n"/></e>
     <e lm="millenniu"><i>millenni</i><par n="tirritori/u__n"/></e>
     <e lm="missiunariu"><i>missiunari</i><par n="tirritori/u__n"/></e>
@@ -16820,6 +16823,10 @@
     <e lm="currenti"><i>currenti</i><par n="matri__n"/></e>
     <e lm="fatturiali"><i>fatturiali</i><par n="patri__n"/></e>
     <e lm="papatu"><i>papat</i><par n="ann/u__n"/></e>
+    <e lm="tabbella"><i>tabbell</i><par n="cas/a__n"/></e>
+    <e lm="vucàbbulu"><i>vucàbbul</i><par n="ann/u__n"/></e>
+    
+    
     
     <e lm="affisa"><i>affis</i><par n="cas/a__n"/></e>
     <e lm="affucazzu"><i>affucazz</i><par n="ann/u__n"/></e>
@@ -16883,6 +16890,8 @@
     <e lm="vucilìzziu"><i>vucilìzzi</i><par n="tirritori/u__n"/></e>
     <e lm="mprisariu"><i>mprisari</i><par n="tirritori/u__n"/></e>
     <e lm="vintagghiu"><i>vintagghi</i><par n="tirritori/u__n"/></e>
+    <e lm="difficultati"><i>difficultati</i><par n="matri__n"/></e>
+    
     
     
     <e lm="strimitati"><i>strimitati</i><par n="matri__n"/></e>
@@ -21176,8 +21185,13 @@
     <e lm="càuru"><i>càur</i><par n="bedd/u__adj"/></e>
     <e lm="dannusu"><i>dannus</i><par n="bedd/u__adj"/></e>
     <e lm="duru"><i>dur</i><par n="bedd/u__adj"/></e>
-    <e lm="meditirraniu"><i>meditirrani</i><par n="bedd/u__adj"/></e>
-    <e lm="meditirràniu"><i>meditirràni</i><par n="bedd/u__adj"/></e>
+    <e lm="meditirràniu"><i>meditirràn</i><par n="lar/iu__adj"/></e>
+    <e lm="meditirràniu" r="LR"><p><l>meditirran</l><r>meditirràn</r></p><par n="lar/iu__adj"/></e>
+    <e lm="meditirràniu" r="LR"><p><l>miditirran</l><r>meditirràn</r></p><par n="lar/iu__adj"/></e>
+    <e lm="meditirràniu" r="LR"><p><l>miditirràn</l><r>meditirràn</r></p><par n="lar/iu__adj"/></e>
+    <e lm="meditirràniu" r="LR"><p><l>medittirran</l><r>meditirràn</r></p><par n="lar/iu__adj"/></e>
+    <e lm="meditirràniu" r="LR"><p><l>midittirran</l><r>meditirràn</r></p><par n="lar/iu__adj"/></e>
+    <e lm="meditirràniu" r="LR"><p><l>midittirràn</l><r>meditirràn</r></p><par n="lar/iu__adj"/></e>
     <e lm="elettu"><i>elett</i><par n="bedd/u__adj"/></e>
     <e lm="esternu"><i>estern</i><par n="bedd/u__adj"/></e>
     <e lm="fimmininu"><i>fimminin</i><par n="bedd/u__adj"/></e>
@@ -24126,6 +24140,7 @@
     <e lm="urganizzari"><par n="u/o"/><i>rganizz</i><par n="parr/ari__vblex"/></e>
     <e lm="accilirari"><i>accilir</i><par n="parr/ari__vblex"/></e>
     <e lm="trattari"><i>tratt</i><par n="parr/ari__vblex"/></e>
+    <e lm="trattari" r="LR"><p><l>tràtt</l><r>tratt</r></p><par n="parr/ari__vblex"/></e>
     <e lm="maltrattari"><i>maltratt</i><par n="parr/ari__vblex"/></e>
     <e lm="bisugnari"><i>bisugn</i><par n="parr/ari__vblex"/></e>
     <e lm="nvintari"><i>nvint</i><par n="parr/ari__vblex"/></e>
