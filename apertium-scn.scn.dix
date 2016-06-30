@@ -2825,7 +2825,6 @@
     <e lm="nuvantèsimu"><i>nuvantèsim</i><par n="bedd/u__adj"/></e>
     <e lm="cintèsimu"><i>cintèsim</i><par n="bedd/u__adj"/></e>
     <e lm="millèsimu"><i>millèsim</i><par n="bedd/u__adj"/></e>
-    
 
 
 
@@ -17028,6 +17027,11 @@
     <e lm="tumba"><i>tumb</i><par n="cas/a__n"/></e>
     <e lm="prìmitru"><i>prìmitr</i><par n="ann/u__n"/></e>
     <e lm="quatratura"><i>quatratur</i><par n="cas/a__n"/></e>
+    <e lm="miràculu"><i>miràcul</i><par n="ann/u__n"/></e>
+    
+    
+    
+    
 
     <!-- SECTION: Proper nouns -->
 
@@ -17233,7 +17237,8 @@
     <e lm="Jakob"><i>Jakob</i><par n="Jaime__np"/></e>
     <e lm="Isaac"><i>Isaac</i><par n="Jaime__np"/></e>
     <e lm="Frédéric"><i>Frédéric</i><par n="Jaime__np"/></e>
-    <e lm="Eric"><i>Eric</i><par n="Jaime__np"/></e>
+    <e lm="Archimedi"><i>Archimedi</i><par n="Jaime__np"/></e>
+    <e lm="Maurizio"><i>Maurizio</i><par n="Jaime__np"/></e>
     <e lm="Ahmad"><i>Ahmad</i><par n="Jaime__np"/></e>
     <e lm="Muhammad"><i>Muhammad</i><par n="Jaime__np"/></e>
     <e lm="Gottfried"><i>Gottfried</i><par n="Jaime__np"/></e>
@@ -17946,6 +17951,7 @@
     <e lm="Lima"><i>Lima</i><par n="Sicilia__np"/></e>
     <e lm="Limoges"><i>Limoges</i><par n="Sicilia__np"/></e>
     <e lm="Limusinu"><i>Limusinu</i><par n="Sicilia__np"/></e>
+    <e lm="Peloponnesu"><i>Peloponnesu</i><par n="Sicilia__np"/></e>
     <e lm="Lioni"><i>Lioni</i><par n="Sicilia__np"/></e>
     <e lm="Lisbona"><i>Lisbona</i><par n="Sicilia__np"/></e>
     <e lm="Lituania"><i>Lituania</i><par n="Sicilia__np"/></e>
@@ -24304,6 +24310,8 @@
     <e lm="sunari"><i>sun</i><par n="parr/ari__vblex"/></e>
     <e lm="prununzari"><i>prununz</i><par n="parr/ari__vblex"/></e>
     <e lm="prununzari" r="LR"><p><l>prununzi</l><r>prununz</r></p><par n="parr/ari__vblex"/></e>
+    <e lm="prununzari" r="LR"><p><l>prunùnci</l><r>prununz</r></p><par n="parr/ari__vblex"/></e>
+    <e lm="prununzari" r="LR"><p><l>prununci</l><r>prununz</r></p><par n="parr/ari__vblex"/></e>
     <e lm="ndicari"><par n="ø/i/'"/><i>ndic</i><par n="manc/ari__vblex"/></e>
     <e lm="ndicari"><par n="ø/i/'"/><p><l>ndìc</l><r>ndic</r></p><par n="abbènt/anu__vblex"/></e>
     
