@@ -2919,7 +2919,7 @@
     <e lm="prucessu"><i>prucess</i><par n="ann/u__n"/></e>
     <e lm="storia"><i>stor</i><par n="oricch/ia__n"/></e>
     <e lm="traccia"><i>tracc</i><par n="oricch/ia__n"/></e>
-    <e lm="terra"><i>terr</i><par n="matri__n"/></e>
+    <e lm="terra"><i>terr</i><par n="cas/a__n"/></e>
     <e lm="màrmuru"><i>màrmur</i><par n="ann/u__n"/></e>
     <e lm="disertu"><i>disert</i><par n="ann/u__n"/></e>
     <e lm="disertu" r="LR"><p><l>deseret</l><r>disert</r></p><par n="ann/u__n"/></e>
@@ -5879,6 +5879,7 @@
     <e lm="dea"><i>de</i><par n="cas/a__n"/></e>
     <e lm="deculonna"><i>deculonn</i><par n="cas/a__n"/></e>
     <e lm="delatura"><i>delatur</i><par n="cas/a__n"/></e>
+    <e lm="culonna"><i>culonn</i><par n="cas/a__n"/></e>
     <e lm="dera"><i>der</i><par n="cas/a__n"/></e>
     <e lm="dera" r="LR"><p><l>ded</l><r>der</r></p><par n="cas/a__n"/></e>
     <e lm="detta"><i>dett</i><par n="cas/a__n"/></e>
@@ -16414,6 +16415,7 @@
     <e lm="sònura"><i>sònura</i><par n="matri__n"/></e>
     <e lm="parratura"><i>parratur</i><par n="cas/a__n"/></e>
     <e lm="ciuritura"><i>ciuritur</i><par n="cas/a__n"/></e>
+    <e lm="nucleu"><i>nucle</i><par n="ann/u__n"/></e>
     <e lm="divisuri"><i>divisur</i><par n="liun/i__n"/></e>
     <e lm="numinclatura"><i>numinclatur</i><par n="cas/a__n"/></e>
     <e lm="hasekura"><i>hasekur</i><par n="cas/a__n"/></e>
@@ -17028,6 +17030,11 @@
     <e lm="prìmitru"><i>prìmitr</i><par n="ann/u__n"/></e>
     <e lm="quatratura"><i>quatratur</i><par n="cas/a__n"/></e>
     <e lm="miràculu"><i>miràcul</i><par n="ann/u__n"/></e>
+    <e lm="miràculu" r="LR"><p><l>miracol</l><r>miràcul</r></p><par n="ann/u__n"/></e>
+
+    <e lm="dipinnenza"><i>dipinnenz</i><par n="cas/a__n"/></e>
+    <e lm="urizzonti"><i>urizzonti</i><par n="patri__n"/></e>
+    
     
     
     
@@ -17830,6 +17837,9 @@
     <e lm="Figgi"><i>Figgi</i><par n="Sicilia__np"/></e>
     <e lm="Filippini"><i>Filippini</i><par n="Sicilia__np"/></e>
     <e lm="Finlandia"><i>Finlandia</i><par n="Sicilia__np"/></e>
+    <e lm="Finlandia" r="LR"><p><l>Finlannisa</l><r>Finlandia</r></p><par n="Sicilia__np"/></e>
+
+    
     <e lm="Firenzi"><i>Firenzi</i><par n="Sicilia__np"/></e>
     <e lm="Florida"><i>Florida</i><par n="Sicilia__np"/></e>
     <e lm="Formentera"><i>Formentera</i><par n="Sicilia__np"/></e>
@@ -20807,6 +20817,7 @@
     <e lm="palirmitanu" r="LR"><p><l>palermitan</l><r>palirmitan</r></p><par n="bedd/u__adj"/></e>
     <e lm="palirmitanu" r="LR"><p><l>palirmintan</l><r>palirmitan</r></p><par n="bedd/u__adj"/></e>
     <e lm="analfabbetu"><i>analfabbet</i><par n="bedd/u__adj"/></e>
+    <e lm="mìticu"><i>mìtic</i><par n="magnètic/u__adj"/></e>
     
     
     <e lm="tuscanu"><i>tuscan</i><par n="bedd/u__adj"/></e>
@@ -21119,6 +21130,8 @@
     <e lm="veru"><i>ver</i><par n="bedd/u__adj"/></e>
     <e lm="vicinu"><i>vicin</i><par n="bedd/u__adj"/></e>
     <e lm="amaru"><i>amar</i><par n="bedd/u__adj"/></e>
+    <e lm="scuru"><i>scur</i><par n="bedd/u__adj"/></e>
+
 
 
     <e lm="nnipinnenti"><par n="ø/i"/><i>nnipinnenti</i><par n="duci__adj"/></e>
@@ -23380,6 +23393,9 @@
     <e lm="assulùtu"><i>assulùt</i><par n="bedd/u__adj"/></e>
     <e lm="pusissivu"><i>pusissiv</i><par n="bedd/u__adj"/></e>
     <e lm="parallelu"><i>parallel</i><par n="bedd/u__adj"/></e>
+    <e lm="diggistivu"><i>diggistiv</i><par n="bedd/u__adj"/></e>
+    <e lm="fìnnicu"><i>fìnnic</i><par n="bedd/u__adj"/></e>
+
 
     
 
@@ -24312,6 +24328,7 @@
     <e lm="prununzari" r="LR"><p><l>prununzi</l><r>prununz</r></p><par n="parr/ari__vblex"/></e>
     <e lm="prununzari" r="LR"><p><l>prunùnci</l><r>prununz</r></p><par n="parr/ari__vblex"/></e>
     <e lm="prununzari" r="LR"><p><l>prununci</l><r>prununz</r></p><par n="parr/ari__vblex"/></e>
+
     <e lm="ndicari"><par n="ø/i/'"/><i>ndic</i><par n="manc/ari__vblex"/></e>
     <e lm="ndicari"><par n="ø/i/'"/><p><l>ndìc</l><r>ndic</r></p><par n="abbènt/anu__vblex"/></e>
     
@@ -25151,7 +25168,7 @@
     <e lm="ripitiri"><i>ripit</i><par n="batt/iri__vblex"/></e>
     <e lm="tràsiri"><i>tràs</i><par n="batt/iri__vblex"/></e>
     <e lm="stènniri"><i>stènn</i><par n="batt/iri__vblex"/></e>
-
+    <e lm="limitari" r="LR"><p><l>limmit</l><r>limit</r></p><par n="parr/ari__vblex"/></e>
 
 
     <e lm="tèniri"><i>tèn</i><par n="batt/iri__vblex"/></e>
@@ -29146,6 +29163,9 @@
     <e lm="attribbuiri"><i>attribbu</i><par n="batt/iri__vblex"/></e>
     <e lm="distruiri"><i>distru</i><par n="batt/iri__vblex"/></e>
     <e lm="pruiettari"><i>pruiett</i><par n="parr/ari__vblex"/></e>
+    <e lm="svillupari"><i>svillup</i><par n="parr/ari__vblex"/></e>
+    <e lm="chiudiri"><i>chiud</i><par n="batt/iri__vblex"/></e>
+
     
     
     
