@@ -991,6 +991,9 @@
         <e><p><l>furu</l><r>èssiri<s n="vbser"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
         <e r="LR"><p><l>fuorru</l><r>èssiri<s n="vbser"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
         <e r="LR"><p><l>foru</l><r>èssiri<s n="vbser"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
+        <e r="LR"><p><l>fôru</l><r>èssiri<s n="vbser"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
+
+        
         
     	<e><p><l>sìa</l><r>èssiri<s n="vbser"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
     	<e><p><l>fussi</l><r>èssiri<s n="vbser"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -1695,6 +1698,7 @@
     	<e><p><l>ia</l><r>iri<s n="vblex"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
     	<e><p><l>ivi</l><r>iri<s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
     	<e><p><l>ia</l><r>iri<s n="vblex"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
+    	<e r="LR"><p><l>eva</l><r>iri<s n="vblex"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
     	<e><p><l>iamu</l><r>iri<s n="vblex"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p></e>
     	<e><p><l>iavu</l><r>iri<s n="vblex"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
         <e><p><l>ianu</l><r>iri<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
@@ -29343,6 +29347,7 @@
     <e lm="tèniri"><i>t</i><par n="t/èniri__vblex"/></e>
     <e lm="appartèniri"><i>appart</i><par n="t/èniri__vblex"/></e>
     <e lm="appartiniri"><i>appartin</i><par n="batt/iri__vblex"/></e>
+    <e lm="spartisciri"><i>spartisc</i><par n="batt/iri__vblex"/></e>
 
 
     
