@@ -4672,7 +4672,7 @@
 
     <e lm="alfabbetizzazioni"><i>alfabbetiz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="intiggrazzioni"><par n="ø/i"/><i>ntiggraz</i><par n="pupulaz/zioni__n"/></e>
-    <e lm="intiggrazzioni" r="LR"><p><l>ntagraz</l><r>ntiggraz</r></p><par n="pupulaz/zioni__n"/></e>
+    <e lm="intiggrazzioni" r="LR"><par n="ø/i"/><p><l>ntagraz</l><r>ntiggraz</r></p><par n="pupulaz/zioni__n"/></e>
 
     <e lm="scarica"><i>scaric</i><par n="ripùbbric/a__n"/></e>
     
@@ -16370,6 +16370,7 @@
     <e lm="pitagghiu" r="LR"><p><l>putagg</l><r>pitaggh</r></p><par n="sacchegg/iu__n"/></e>
     <e lm="pleggiu"><i>plegg</i><par n="sacchegg/iu__n"/></e>
     <e lm="pleggiu" r="LR"><p><l>perg</l><r>plegg</r></p><par n="sacchegg/iu__n"/></e>
+
     <e lm="pomeriggiu"><i>pomerigg</i><par n="sacchegg/iu__n"/></e>
     <e lm="pomeriggiu" r="LR"><p><l>pumerigg</l><r>pomerigg</r></p><par n="sacchegg/iu__n"/></e>
     <e lm="pomeriggiu" r="LR"><p><l>pomirigg</l><r>pomerigg</r></p><par n="sacchegg/iu__n"/></e>
