@@ -451,6 +451,11 @@
       	<e><p><l>i</l><r>a<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
     
+    <pardef n="prufet/a__n">
+      	<e><p><l>a</l><r>a<s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
+      	<e><p><l>i</l><r>a<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+    </pardef>
+    
     <pardef n="sacchegg/iu__n">
       	<e><p><l>iu</l><r>iu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       	<e><p><l>i</l><r>iu<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
@@ -10547,8 +10552,8 @@
     <e lm="ànnatu"><i>ànnat</i><par n="ann/u__n"/></e>
     <e lm="ànnatu" r="LR"><p><l>ànnit</l><r>ànnat</r></p><par n="ann/u__n"/></e>
     <e lm="àrabbu"><i>àrabb</i><par n="ann/u__n"/></e>
-    <e lm="àrbitru"><i>àrbitr</i><par n="ann/u__n"/></e>
-    <e lm="àrbitru" r="LR"><p><l>àrbutr</l><r>àrbitr</r></p><par n="ann/u__n"/></e>
+    <e lm="àrbitru"><i>àrbitr</i><par n="nànn/u__n"/></e>
+    <e lm="àrbitru" r="LR"><p><l>àrbutr</l><r>àrbitr</r></p><par n="nànn/u__n"/></e>
     <e lm="àrvanu"><i>àrvan</i><par n="ann/u__n"/></e>
     <e lm="àrvanu" r="LR"><p><l>arvanedd</l><r>àrvan</r></p><par n="ann/u__n"/></e>
     <e lm="àrvanu" r="LR"><p><l>àrban</l><r>àrvan</r></p><par n="ann/u__n"/></e>
@@ -16995,7 +17000,7 @@
     <e lm="muneta"><i>munet</i><par n="pianet/a__n"/></e>
     <e lm="ncumpreta"><i>ncumpret</i><par n="pianet/a__n"/></e>
     <e lm="neta"><i>net</i><par n="pianet/a__n"/></e>
-    <e lm="prufeta"><i>prufet</i><par n="pianet/a__n"/></e>
+    <e lm="prufeta"><i>prufet</i><par n="prufet/a__n"/></e>
     <e lm="sicreta"><i>sicret</i><par n="pianet/a__n"/></e>
     <e lm="sicreta" r="LR"><p><l>sigret</l><r>sicret</r></p><par n="pianet/a__n"/></e>
     
