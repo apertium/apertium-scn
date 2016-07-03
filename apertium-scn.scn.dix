@@ -3574,6 +3574,7 @@
 
 
     <e lm="pueta"><i>puet</i><par n="chitarrist/a__n"/></e>
+    <e lm="pueta" r="LR"><p><l>puiet</l><r>puet</r></p><par n="pianet/a__n"/></e>
     <e lm="chitarrista"><i>chitarrist</i><par n="chitarrist/a__n"/></e>
 
     <e lm="riatturi"><i>riatturi</i><par n="patri__n"/></e>
@@ -11489,11 +11490,11 @@
     <e lm="vintilaturi" r="LR"><p><l>ventilaturi</l><r>vintilaturi</r></p><par n="patri__n"/></e>
     <e lm="bistiami"><i>bistiami</i><par n="patri__n"/></e>
     <e lm="bistiami" r="LR"><p><l>vistiami</l><r>bistiami</r></p><par n="patri__n"/></e>
-    <e lm="vucceri"><i>vucceri</i><par n="patri__n"/></e>
-    <e lm="vucceri" r="LR"><p><l>vuccieri</l><r>vucceri</r></p><par n="patri__n"/></e>
-    <e lm="vucceri" r="LR"><p><l>ucceri</l><r>vucceri</r></p><par n="patri__n"/></e>
-    <e lm="vucceri" r="LR"><p><l>bucceri</l><r>vucceri</r></p><par n="patri__n"/></e>
-    <e lm="vucceri" r="LR"><p><l>buccieri</l><r>vucceri</r></p><par n="patri__n"/></e>
+    <e lm="vucceri"><i>vucceri</i><par n="ngrisi__n"/></e>
+    <e lm="vucceri" r="LR"><p><l>vuccieri</l><r>vucceri</r></p><par n="ngrisi__n"/></e>
+    <e lm="vucceri" r="LR"><p><l>ucceri</l><r>vucceri</r></p><par n="ngrisi__n"/></e>
+    <e lm="vucceri" r="LR"><p><l>bucceri</l><r>vucceri</r></p><par n="ngrisi__n"/></e>
+    <e lm="vucceri" r="LR"><p><l>buccieri</l><r>vucceri</r></p><par n="ngrisi__n"/></e>
     <e lm="vuriddami"><i>vuriddami</i><par n="patri__n"/></e>
     <e lm="vuriddami" r="LR"><p><l>vudiddami</l><r>vuriddami</r></p><par n="patri__n"/></e>
     <e lm="vènniri"><i>vènniri</i><par n="patri__n"/></e>
