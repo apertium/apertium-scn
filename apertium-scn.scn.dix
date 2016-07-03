@@ -12115,6 +12115,8 @@
     <e lm="cinisa"><i>cinis</i><par n="cas/a__n"/></e>
     <e lm="cincili"><i>cincili</i><par n="patri__n"/></e>
     <e lm="cafè"><i>cafè</i><par n="patri__n"/></e>
+    <e lm="cafè" r="LR"><p><l>café</l><r>cafè</r></p><par n="patri__n"/></e>
+
     <e lm="botti"><i>botti</i><par n="patri__n"/></e>
     <e lm="basilicò"><i>basilicò</i><par n="patri__n"/></e>
     <e lm="bai"><i>bai</i><par n="patri__n"/></e>
@@ -20967,6 +20969,7 @@
     <e lm="pulaccu"><i>pulacc</i><par n="magnètic/u__adj"/></e>
     <e lm="balcànicu"><i>balcànic</i><par n="magnètic/u__adj"/></e>
     <e lm="ibbèricu"><i>ibbèric</i><par n="magnètic/u__adj"/></e>
+    <e lm="slovaccu"><i>slovacc</i><par n="magnètic/u__adj"/></e>
 
 
     
@@ -23597,6 +23600,7 @@
     <e lm="fìnnicu"><i>fìnnic</i><par n="bedd/u__adj"/></e>
     <e lm="paganu"><i>pagan</i><par n="bedd/u__adj"/></e>
     <e lm="anglosassoni"><i>anglosassoni</i><par n="duci__adj"/></e>
+    <e lm="chianu"><i>chian</i><par n="bedd/u__adj"/></e>
 
 
 
@@ -23684,7 +23688,6 @@
     
     <e lm="d'arretu"><i>d'arretu</i><par n="oggi__adv"/></e>
     <e lm="araciu"><i>araciu</i><par n="oggi__adv"/></e>
-    <e lm="chianu"><i>chianu</i><par n="oggi__adv"/></e>
     <e lm="fori"><i>fori</i><par n="oggi__adv"/></e>
     <e lm="fora"><i>fora</i><par n="oggi__adv"/></e>
     <e lm="già"><i>già</i><par n="oggi__adv"/></e>
