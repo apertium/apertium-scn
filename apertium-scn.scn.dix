@@ -434,6 +434,18 @@
     <pardef n="lunidìa__n">
       	<e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
     </pardef>
+    
+    <pardef n="tennis__n">
+      	<e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+    </pardef>
+    
+    <pardef n="crisi__n">
+      	<e><p><l></l><r><s n="n"/><s n="f"/><s n="sp"/></r></p></e>
+    </pardef>
+    
+    <pardef n="attillètica__n">
+      	<e><p><l></l><r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+    </pardef>
 
     <pardef n="ann/u__n">
       	<e><p><l>u</l><r>u<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
@@ -454,6 +466,11 @@
     <pardef n="prufet/a__n">
       	<e><p><l>a</l><r>a<s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
       	<e><p><l>i</l><r>a<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+    </pardef>
+    
+    <pardef n="visitatur/i__n">
+      	<e><p><l>i</l><r>i<s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
+      	<e><p><l>a</l><r>i<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
     </pardef>
     
     <pardef n="sacchegg/iu__n">
@@ -2872,7 +2889,8 @@
     <e lm="ottanta"><i>ottanta</i><par n="unu__num"/></e>
     <e lm="novanta"><i>novanta</i><par n="unu__num"/></e>
     <e lm="centu"><i>centu</i><par n="unu__num"/></e>
-    <e lm="mila"><i>mila</i><par n="unu__num"/></e>
+    <e lm="milli"><i>milli</i><par n="unu__num"/></e>
+
 
     <e lm="I"><i>I</i><par n="XIV__num"/></e>
     <e lm="II"><i>II</i><par n="XIV__num"/></e>
@@ -3019,16 +3037,16 @@
     <e lm="asturianu"><i>asturian</i><par n="sicilian/u__n"/></e> 
     
     
-    <e lm="prisidenti"><i>prisidenti</i><par n="patri__n"/></e>
+    <e lm="prisidenti"><i>prisidenti</i><par n="ngrisi__n"/></e>
     <e lm="standard"><i>standard</i><par n="patri__n"/></e>
-    <e lm="prisidenti" r="LR"><p><l>pricidenti</l><r>prisidenti</r></p><par n="patri__n"/></e>
+    <e lm="prisidenti" r="LR"><p><l>pricidenti</l><r>prisidenti</r></p><par n="ngrisi__n"/></e>
     <e lm="càmmira"><i>càmmir</i><par n="cas/a__n"/></e>
     <e lm="diputatu"><i>diputat</i><par n="ann/u__n"/></e> 
     <e lm="forma"><i>form</i><par n="cas/a__n"/></e>
     <e lm="forma" r="LR"><p><l>furm</l><r>form</r></p><par n="cas/a__n"/></e>
     <e lm="varca"><i>varc</i><par n="cas/a__n"/></e>
     <e lm="prucessu"><i>prucess</i><par n="ann/u__n"/></e>
-    <e lm="culunnellu"><i>culunnell</i><par n="ann/u__n"/></e>
+    <e lm="culunnellu"><i>culunnell</i><par n="sicilian/u__n"/></e>
     <e lm="storia"><i>stor</i><par n="oricch/ia__n"/></e>
     <e lm="tirritoria"><i>tirritor</i><par n="oricch/ia__n"/></e>
 
@@ -3046,7 +3064,6 @@
     <e lm="finòminu"><i>finòmin</i><par n="ann/u__n"/></e>
     <e lm="discursu"><i>discurs</i><par n="ann/u__n"/></e>
     <e lm="risurtatu"><i>risurtat</i><par n="ann/u__n"/></e>
-    <e lm="mila"><i>mil</i><par n="cas/a__n"/></e>
     <e lm="radici"><i>radici</i><par n="matri__n"/></e>
     <e lm="nuvena"><i>nuven</i><par n="cas/a__n"/></e>
 
@@ -3107,14 +3124,14 @@
     <e lm="unioni"><i>unioni</i><par n="matri__n"/></e>
     <e lm="prucissioni"><i>prucissioni</i><par n="matri__n"/></e>
     <e lm="capitali"><i>capitali</i><par n="matri__n"/></e>
-    <e lm="manu"><i>manu</i><par n="matri__n"/></e>
+    <e lm="manu"><i>manu</i><par n="man/u__n"/></e>
     <e lm="facci"><i>facci</i><par n="matri__n"/></e>
     <e lm="genti"><i>genti</i><par n="matri__n"/></e>
     <e lm="genti" r="LR"><p><l>ggenti</l><r>genti</r></p><par n="matri__n"/></e>
     <e lm="fasi"><i>fasi</i><par n="matri__n"/></e>
     <e lm="virsioni"><i>virsioni</i><par n="matri__n"/></e>
     <e lm="parti"><i>parti</i><par n="matri__n"/></e>
-    <e lm="crisi"><i>crisi</i><par n="matri__n"/></e>
+    <e lm="crisi"><i>crisi</i><par n="crisi__n"/></e>
     <e lm="soru"><i>soru</i><par n="matri__n"/></e>
     <e lm="sedi"><i>sedi</i><par n="matri__n"/></e>
     <e lm="fusioni"><i>fusioni</i><par n="matri__n"/></e>  
@@ -3316,7 +3333,7 @@
     <e lm="frivar"><i>frivar</i><par n="ann/u__n"/></e>
     <e lm="marzu"><i>marz</i><par n="ann/u__n"/></e>
     <e lm="maiu"><i>ma</i><par n="sacchegg/iu__n"/></e>
-    <e lm="maiu" r="LR"><p><l>maggio</l><r>maiu</r></p><par n="patri__n"/></e>
+    <e lm="maiu" r="LR"><p><l>maggio</l><r>ma</r></p><par n="sacchegg/iu__n"/></e>
     <e lm="giugnu"><i>giugn</i><par n="ann/u__n"/></e>
     <e lm="giugnettu"><i>giugnett</i><par n="ann/u__n"/></e>
     <e lm="austu"><i>aust</i><par n="ann/u__n"/></e>
@@ -4203,7 +4220,7 @@
     <e lm="mitafìsica"><i>mitafìsic</i><par n="cas/a__n"/></e>
     <e lm="grammàtica"><i>grammàtic</i><par n="cas/a__n"/></e>
     <e lm="ètica"><i>ètic</i><par n="cas/a__n"/></e>
-    <e lm="attillètica"><i>attillètic</i><par n="cas/a__n"/></e>
+    <e lm="attillètica"><i>attillètic</i><par n="attillètica__n"/></e>
     <e lm="estètica"><i>estètic</i><par n="cas/a__n"/></e>
     <e lm="pèrtica"><i>pèrtic</i><par n="cas/a__n"/></e>
     <e lm="plastica"><i>plastic</i><par n="cas/a__n"/></e>
@@ -4627,7 +4644,7 @@
     <e lm="pakistani"><i>pakistani</i><par n="wiki__n"/></e>
     <e lm="ateni"><i>ateni</i><par n="wiki__n"/></e>
     <e lm="spiuni"><i>spiuni</i><par n="wiki__n"/></e>
-    <e lm="palluni"><i>palluni</i><par n="wiki__n"/></e>
+    <e lm="palluni"><i>palluni</i><par n="tennis__n"/></e>
     <e lm="muntuni"><i>muntuni</i><par n="wiki__n"/></e>
     <e lm="cuntastori"><i>cuntastori</i><par n="wiki__n"/></e>
     <e lm="psicanalisi"><i>psicanalisi</i><par n="wiki__n"/></e>
@@ -4640,7 +4657,7 @@
     <e lm="arti"><i>arti</i><par n="wiki__n"/></e>
     <e lm="sahrawi"><i>sahrawi</i><par n="wiki__n"/></e>
     <e lm="nazzi"><i>nazzi</i><par n="wiki__n"/></e>
-    <e lm="tennis"><i>tennis</i><par n="wiki__n"/></e>
+    <e lm="tennis"><i>tennis</i><par n="tennis__n"/></e>
 
     <e lm="sport"><i>sport</i><par n="patri__n"/></e>
 
@@ -4750,7 +4767,7 @@
     <e lm="software"><i>software</i><par n="patri__n"/></e>
     <e lm="tè"><i>tè</i><par n="patri__n"/></e>
     <e lm="byte"><i>byte</i><par n="patri__n"/></e>
-    <e lm="marketing"><i>marketing</i><par n="patri__n"/></e>
+    <e lm="marketing"><i>marketing</i><par n="tennis__n"/></e>
     <e lm="blog"><i>blog</i><par n="patri__n"/></e>
     <e lm="orèfici"><i>orèfici</i><par n="patri__n"/></e>
     <e lm="carnìfici"><i>carnìfici</i><par n="patri__n"/></e>
@@ -12071,7 +12088,7 @@
     <e lm="lecu"><i>lec</i><par n="ann/u__n"/></e>
     <e lm="litu"><i>lit</i><par n="ann/u__n"/></e>
     <e lm="lutu"><i>lut</i><par n="ann/u__n"/></e>
-    <e lm="maju"><i>maj</i><par n="ann/u__n"/></e>
+    <e lm="maiu" r="LR"><p><l>maj</l><r>mai</r></p><par n="ann/u__n"/></e>
     <e lm="molu"><i>mol</i><par n="ann/u__n"/></e>
     <e lm="mulu"><i>mul</i><par n="ann/u__n"/></e>
     <e lm="mupu"><i>mup</i><par n="ann/u__n"/></e>
@@ -16458,7 +16475,7 @@
     <e lm="usura"><i>usur</i><par n="cas/a__n"/></e>
     <e lm="cunventu"><i>cunvent</i><par n="ann/u__n"/></e>
     <e lm="chianura"><i>chianur</i><par n="cas/a__n"/></e>
-    <e lm="visitaturi"><i>visitatur</i><par n="liun/i__n"/></e>
+    <e lm="visitaturi"><i>visitatur</i><par n="visitatur/i__n"/></e>
     <e lm="quatratura"><i>quatratur</i><par n="cas/a__n"/></e>
     <e lm="vinnitura"><i>vinnitur</i><par n="cas/a__n"/></e>
     <e lm="ancura"><i>ancur</i><par n="cas/a__n"/></e>
