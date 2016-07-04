@@ -3762,7 +3762,7 @@
     <e lm="vutazzioni"><i>vutaz</i><par n="pupulaz/zioni__n"/></e>
 
     <e lm="sìnnacu"><i>sìnnac</i><par n="ann/u__n"/></e>
-    <e lm="siliciu"><i>silic</i><par n="sacheggh/u__n"/></e>
+    <e lm="siliciu"><i>silic</i><par n="sacchegg/iu__n"/></e>
     <e lm="sociu"><i>soci</i><par n="soci/u__n"/></e>
     <e lm="siriu"><i>siri</i><par n="sicilian/u__n"/></e>
     <e lm="mèssicanu"><i>mèssican</i><par n="sicilian/u__n"/></e>
@@ -7269,7 +7269,7 @@
     <e lm="aramàicu"><i>aramàic</i><par n="parc/u__n"/></e>
     <e lm="arcu"><i>arc</i><par n="parc/u__n"/></e>
     <e lm="arvanìticu"><i>arvanìtic</i><par n="parc/u__n"/></e>
-    <e lm="austrìacu"><i>austrìac</i><par n="parc/u__n"/></e>
+    <e lm="austrìacu"><i>austrìac</i><par n="nimic/u__n"/></e>
     <e lm="avèsticu"><i>avèstic</i><par n="parc/u__n"/></e>
     <e lm="bancu"><i>banc</i><par n="parc/u__n"/></e>
     <e lm="bariloccu"><i>barilocc</i><par n="parc/u__n"/></e>
@@ -14715,7 +14715,6 @@
     <e lm="ciàiru"><i>ciàir</i><par n="ann/u__n"/></e>
     <e lm="ciàiru" r="LR"><p><l>ciàvir</l><r>ciàir</r></p><par n="ann/u__n"/></e>
     <e lm="ciàiru" r="LR"><p><l>ciàgur</l><r>ciàir</r></p><par n="ann/u__n"/></e>
-    <e lm="clavicèmbalu"><i>clavicèmbal</i><par n="ann/u__n"/></e>
     <e lm="clièntulu"><i>clièntul</i><par n="ann/u__n"/></e>
     <e lm="corbu"><i>corb</i><par n="ann/u__n"/></e>
     <e lm="crisùmmulu"><i>crisùmmul</i><par n="ann/u__n"/></e>
@@ -14840,6 +14839,7 @@
     <e lm="garagolu" r="LR"><p><l>caracoll</l><r>garagol</r></p><par n="ann/u__n"/></e>
     <e lm="gardùbbulu"><i>gardùbbul</i><par n="ann/u__n"/></e>
     <e lm="gardùbbulu" r="LR"><p><l>ardùbbul</l><r>gardùbbul</r></p><par n="ann/u__n"/></e>
+    <e lm="gardùbbulu" r="LR"><p><l>сardùbbul</l><r>gardùbbul</r></p><par n="ann/u__n"/></e>
     <e lm="garibbu"><i>garibb</i><par n="ann/u__n"/></e>
     <e lm="gattorfu"><i>gattorf</i><par n="ann/u__n"/></e>
     <e lm="gattorfu" r="LR"><p><l>gattuff</l><r>gattorf</r></p><par n="ann/u__n"/></e>
@@ -14982,8 +14982,7 @@
     <e lm="lollu"><i>loll</i><par n="ann/u__n"/></e>
     <e lm="lollu" r="LR"><p><l>nuzz</l><r>loll</r></p><par n="ann/u__n"/></e>
     <e lm="lumbardu"><i>lumbard</i><par n="ann/u__n"/></e>
-    <e lm="luordu"><i>luord</i><par n="ann/u__n"/></e>
-    <e lm="lupu_mannaru"><i>lupu_mannar</i><par n="ann/u__n"/></e>
+    <e lm="luordu"><i>luord</i><par n="bedd/u__adj"/></e>
     <e lm="làllaru"><i>làllar</i><par n="ann/u__n"/></e>
     <e lm="làuru"><i>làur</i><par n="ann/u__n"/></e>
     <e lm="làusu"><i>làus</i><par n="ann/u__n"/></e>
@@ -14993,10 +14992,7 @@
     <e lm="maistru"><i>maistr</i><par n="ann/u__n"/></e>
     <e lm="malandrinu"><i>malandrin</i><par n="ann/u__n"/></e>
     <e lm="malintisu"><i>malintis</i><par n="ann/u__n"/></e>
-    <e lm="malucriatu"><i>malucriat</i><par n="ann/u__n"/></e>
-    <e lm="malucriatu" r="LR"><p><l>malacriat</l><r>malucriat</r></p><par n="ann/u__n"/></e>
-    <e lm="malucriatu" r="LR"><p><l>malaccriat</l><r>malucriat</r></p><par n="ann/u__n"/></e>
-    <e lm="mancarusu"><i>mancarus</i><par n="ann/u__n"/></e>
+    <e lm="mancarusu"><i>mancarus</i><par n="bedd/u__adj"/></e>
     <e lm="mandriotu"><i>mandriot</i><par n="ann/u__n"/></e>
     <e lm="mangiamentu"><i>mangiament</i><par n="ann/u__n"/></e>
     <e lm="manriversu"><i>manrivers</i><par n="ann/u__n"/></e>
@@ -15184,11 +15180,12 @@
     <e lm="paganu"><i>pagan</i><par n="sicilian/u__n"/></e>
     <e lm="paganu" r="LR"><p><l>pavan</l><r>pagan</r></p><par n="sicilian/u__n"/></e>
     <e lm="ruccaru"><i>ruccar</i><par n="ann/u__n"/></e>
-    <e lm="rumitu"><i>rumit</i><par n="ann/u__n"/></e>
+    <e lm="rumitu"><i>rumit</i><par n="nànn/u__n"/></e>
     <e lm="arìganu"><i>arìgan</i><par n="ann/u__n"/></e>
     <e lm="arìganu" r="LR"><p><l>rìgan</l><r>arìgan</r></p><par n="ann/u__n"/></e>
     <e lm="arìganu" r="LR"><p><l>rìen</l><r>arìgan</r></p><par n="ann/u__n"/></e>
     <e lm="arìganu" r="LR"><p><l>rìan</l><r>arìgan</r></p><par n="ann/u__n"/></e>
+    <e lm="arìganu" r="LR"><p><l>arìan</l><r>arìgan</r></p><par n="ann/u__n"/></e>
     <e lm="rìulu"><i>rìul</i><par n="ann/u__n"/></e>
     <e lm="salintinu"><i>salintin</i><par n="ann/u__n"/></e>
     <e lm="sauru_niru"><i>sauru_nir</i><par n="ann/u__n"/></e>
@@ -16401,7 +16398,7 @@
     <e lm="pipiricchiu" r="LR"><p><l>pirrichicch</l><r>pipiricch</r></p><par n="sacchegg/iu__n"/></e>
     <e lm="pitagghiu"><i>pitaggh</i><par n="sacchegg/iu__n"/></e>
     <e lm="pitagghiu" r="LR"><p><l>putagg</l><r>pitaggh</r></p><par n="sacchegg/iu__n"/></e>
-    <e lm="pleggiu"><i>plegg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="pleggiu"><i>plegg</i><par n="sicritar/iu__n"/></e>
     <e lm="pleggiu" r="LR"><p><l>perg</l><r>plegg</r></p><par n="sacchegg/iu__n"/></e>
 
     <e lm="pomeriggiu"><i>pomerigg</i><par n="sacchegg/iu__n"/></e>
@@ -21016,8 +21013,9 @@
     <e lm="elemintari"><i>elemintar</i><par n="elemintar/i__adj"/></e>
     <e lm="portuariu"><i>portuar</i><par n="lar/iu__adj"/></e>
     <e lm="scandinaviu"><i>scandinav</i><par n="lar/iu__adj"/></e>
-
-    
+    <e lm="malucriatu"><i>malucriat</i><par n="bedd/u__adj"/></e>
+    <e lm="malucriatu" r="LR"><p><l>malacriat</l><r>malucriat</r></p><par n="bedd/u__adj"/></e>
+    <e lm="malucriatu" r="LR"><p><l>malaccriat</l><r>malucriat</r></p><par n="bedd/u__adj"/></e>
     
 
     <e lm="rumanzu"><i>rumanz</i><par n="bedd/u__adj"/></e>
