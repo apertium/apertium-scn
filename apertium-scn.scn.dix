@@ -4132,7 +4132,7 @@
     <e lm="dilittu"><i>dilitt</i><par n="ann/u__n"/></e>
     <e lm="viscottu"><i>viscott</i><par n="ann/u__n"/></e>
     <e lm="gasdottu"><i>gasdott</i><par n="ann/u__n"/></e>
-    <e lm="picciottu"><i>picciott</i><par n="ann/u__n"/></e>
+    <e lm="picciottu"><i>picciott</i><par n="nànn/u__n"/></e>
     <e lm="cunnuttu"><i>cunnutt</i><par n="ann/u__n"/></e>
     <e lm="tabbutu"><i>tabbut</i><par n="ann/u__n"/></e>
     <e lm="aiutu"><i>aiut</i><par n="ann/u__n"/></e>
@@ -4777,7 +4777,7 @@
     <e lm="software"><i>software</i><par n="patri__n"/></e>
     <e lm="tè"><i>tè</i><par n="patri__n"/></e>
     <e lm="byte"><i>byte</i><par n="patri__n"/></e>
-    <e lm="marketing"><i>marketing</i><par n="patri__n"/></e>
+    <e lm="marketing"><i>marketing</i><par n="lunidìa__n"/></e>
     <e lm="blog"><i>blog</i><par n="patri__n"/></e>
     <e lm="orèfici"><i>orèfici</i><par n="patri__n"/></e>
     <e lm="carnìfici"><i>carnìfici</i><par n="patri__n"/></e>
@@ -4820,7 +4820,7 @@
     <e lm="cugghiuni"><i>cugghiuni</i><par n="patri__n"/></e>
     <e lm="scurpiuni"><i>scurpiuni</i><par n="patri__n"/></e>
     <e lm="saluni"><i>saluni</i><par n="patri__n"/></e>
-    <e lm="palluni"><i>palluni</i><par n="patri__n"/></e>
+    <e lm="palluni"><i>palluni</i><par n="lunidìa__n"/></e>
     <e lm="cànuni"><i>cànuni</i><par n="patri__n"/></e>
     <e lm="eroi"><i>eroi</i><par n="patri__n"/></e>
     <e lm="agnuni"><i>agnuni</i><par n="patri__n"/></e>
@@ -4895,7 +4895,7 @@
     <e lm="gospel"><i>gospel</i><par n="patri__n"/></e>
     <e lm="festival"><i>festival</i><par n="patri__n"/></e>
     <e lm="mail"><i>mail</i><par n="patri__n"/></e>
-    <e lm="baseball"><i>baseball</i><par n="patri__n"/></e>
+    <e lm="baseball"><i>baseball</i><par n="lunidìa__n"/></e>
     <e lm="alcool"><i>alcool</i><par n="patri__n"/></e>
     <e lm="tram"><i>tram</i><par n="patri__n"/></e>
     <e lm="referendum"><i>referendum</i><par n="patri__n"/></e>
@@ -4925,9 +4925,9 @@
     <e lm="copyright"><i>copyright</i><par n="patri__n"/></e>
     <e lm="bit"><i>bit</i><par n="patri__n"/></e>
     <e lm="robot"><i>robot</i><par n="patri__n"/></e>
-    <e lm="rugby"><i>rugby</i><par n="patri__n"/></e>
-    <e lm="whisky"><i>whisky</i><par n="patri__n"/></e>
-    <e lm="jazz"><i>jazz</i><par n="patri__n"/></e>
+    <e lm="rugby"><i>rugby</i><par n="lunidìa__n"/></e>
+    <e lm="whisky"><i>whisky</i><par n="lunidìa__n"/></e>
+    <e lm="jazz"><i>jazz</i><par n="lunidìa__n"/></e>
     <e lm="cummustìbbili"><i>cummustìbbili</i><par n="patri__n"/></e>
     
     
@@ -6610,8 +6610,7 @@
     <e lm="mungana"><i>mungan</i><par n="cas/a__n"/></e>
     <e lm="munganazza"><i>munganazz</i><par n="cas/a__n"/></e>
     <e lm="munganazza" r="LR"><p><l>muganazz</l><r>munganazz</r></p><par n="cas/a__n"/></e>
-    <e lm="munitola"><i>munitol</i><par n="cas/a__n"/></e>
-    <e lm="munnalora"><i>munnalor</i><par n="cas/a__n"/></e>
+    <e lm="munitola"><i>munitola</i><par n="attillètica__n"/></e>
     <e lm="muntapiddata"><i>muntapiddat</i><par n="cas/a__n"/></e>
     <e lm="muntera"><i>munter</i><par n="cas/a__n"/></e>
     <e lm="muramma"><i>muramm</i><par n="cas/a__n"/></e>
@@ -6828,7 +6827,7 @@
     <e lm="picchiusa" r="LR"><p><l>miccius</l><r>picchius</r></p><par n="cas/a__n"/></e>
     <e lm="piccicuta"><i>piccicut</i><par n="cas/a__n"/></e>
     <e lm="piccicuta" r="LR"><p><l>piccicus</l><r>piccicut</r></p><par n="cas/a__n"/></e>
-    <e lm="picciotta"><i>picciott</i><par n="cas/a__n"/></e>
+    <e lm="picciottu"><i>picciott</i><par n="nànn/u__n"/></e>
     <e lm="picciridda"><i>picciridd</i><par n="cas/a__n"/></e>
     <e lm="picciridda" r="LR"><p><l>piccilidd</l><r>picciridd</r></p><par n="cas/a__n"/></e>
     <e lm="pidalina"><i>pidalin</i><par n="cas/a__n"/></e>
@@ -6866,7 +6865,6 @@
     <e lm="pisera"><i>piser</i><par n="cas/a__n"/></e>
     <e lm="pismina"><i>pismin</i><par n="cas/a__n"/></e>
     <e lm="pissuna"><i>pissun</i><par n="cas/a__n"/></e>
-    <e lm="pista_fatta"><i>pista_fatt</i><par n="cas/a__n"/></e>
     <e lm="pistidda"><i>pistidd</i><par n="cas/a__n"/></e>
     <e lm="pistulena"><i>pistulen</i><par n="cas/a__n"/></e>
     <e lm="pistulena" r="LR"><p><l>pistulan</l><r>pistulen</r></p><par n="cas/a__n"/></e>
@@ -8895,7 +8893,7 @@
     <e lm="bàttitu"><i>bàttit</i><par n="ann/u__n"/></e>
     <e lm="bàttitu" r="LR"><p><l>abbàttit</l><r>bàttit</r></p><par n="ann/u__n"/></e>
     <e lm="bàusu"><i>bàus</i><par n="ann/u__n"/></e>
-    <e lm="bèrbiru"><i>bèrbir</i><par n="ann/u__n"/></e>
+    <e lm="bèrbiru"><i>bèrbir</i><par n="nànn/u__n"/></e>
     <e lm="bìssinu"><i>bìssin</i><par n="ann/u__n"/></e>
     <e lm="bòddaru"><i>bòddar</i><par n="ann/u__n"/></e>
     <e lm="bùlbu"><i>bùlb</i><par n="ann/u__n"/></e>
@@ -8932,7 +8930,7 @@
     <e lm="carcagnu" r="LR"><p><l>caccagn</l><r>carcagn</r></p><par n="ann/u__n"/></e>
     <e lm="camalu"><i>camal</i><par n="ann/u__n"/></e>
     <e lm="camarruneddu"><i>camarrunedd</i><par n="ann/u__n"/></e>
-    <e lm="camaru"><i>camar</i><par n="ann/u__n"/></e>
+    <e lm="camaru"><i>camar</i><par n="nànn/u__n"/></e>
     <e lm="cambuggianu"><i>cambuggian</i><par n="ann/u__n"/></e>
     <e lm="caminu"><i>camin</i><par n="ann/u__n"/></e>
     <e lm="cammarinu"><i>cammarin</i><par n="ann/u__n"/></e>
@@ -9498,7 +9496,7 @@
     <e lm="garraffu"><i>garraff</i><par n="ann/u__n"/></e>
     <e lm="garufu"><i>garuf</i><par n="ann/u__n"/></e>
     <e lm="garzu"><i>garz</i><par n="nànn/u__n"/></e>
-    <e lm="garzu" r="LR"><p><l>ganz</l><r>garz</r></p><par n="ann/u__n"/></e>
+    <e lm="garzu" r="LR"><p><l>ganz</l><r>garz</r></p><par n="nànn/u__n"/></e>
     <e lm="gaspu"><i>gasp</i><par n="ann/u__n"/></e>
     <e lm="gattareddu"><i>gattaredd</i><par n="ann/u__n"/></e>
     <e lm="gattareddu" r="LR"><p><l>jattaredd</l><r>gattaredd</r></p><par n="ann/u__n"/></e>
@@ -9984,8 +9982,8 @@
     <e lm="nnirizzu" r="LR"><p><l>ndirizz</l><r>nnirizz</r></p><par n="ann/u__n"/></e>
     <e lm="nervu"><i>nerv</i><par n="ann/u__n"/></e>
     <e lm="nervu" r="LR"><p><l>nerb</l><r>nerv</r></p><par n="ann/u__n"/></e>
-    <e lm="niutrinu"><i>niutrin</i><par n="ann/u__n"/></e>
-    <e lm="niutrinu" r="LR"><p><l>neutrin</l><r>niutrin</r></p><par n="ann/u__n"/></e>
+    <e lm="niutrinu"><i>niutrinu</i><par n="lunidìa__n"/></e>
+    <e lm="niutrinu" r="LR"><p><l>neutrin</l><r>niutrin</r></p><par n="lunidìa__n"/></e>
     <e lm="nfànfaru"><i>nfànfar</i><par n="ann/u__n"/></e>
     <e lm="ngannu"><i>ngann</i><par n="ann/u__n"/></e>
     <e lm="ngannu" r="LR"><p><l>ingann</l><r>ngann</r></p><par n="ann/u__n"/></e>
@@ -10357,8 +10355,8 @@
     <e lm="scassu"><i>scass</i><par n="ann/u__n"/></e>
     <e lm="scazzùpulu"><i>scazzùpul</i><par n="ann/u__n"/></e>
     <e lm="schinu"><i>schin</i><par n="ann/u__n"/></e>
-    <e lm="sciafferru"><i>sciafferr</i><par n="ann/u__n"/></e>
-    <e lm="sciafferru" r="LR"><p><l>sciaffurr</l><r>sciafferr</r></p><par n="ann/u__n"/></e>
+    <e lm="sciafferru"><i>sciafferr</i><par n="nànn/u__n"/></e>
+    <e lm="sciafferru" r="LR"><p><l>sciaffurr</l><r>sciafferr</r></p><par n="nànn/u__n"/></e>
     <e lm="sciallu"><i>sciall</i><par n="ann/u__n"/></e>
     <e lm="sciamu"><i>sciam</i><par n="ann/u__n"/></e>
     <e lm="sciamu" r="LR"><p><l>assam</l><r>sciam</r></p><par n="ann/u__n"/></e>
@@ -10684,8 +10682,8 @@
     <e lm="pumaramuri"><i>pumaramuri</i><par n="matri__n"/></e>
     <e lm="pumaramuri" r="LR"><p><l>pumadamuri</l><r>pumaramuri</r></p><par n="matri__n"/></e>
     <e lm="pumaramuri"><i>pumaramuri</i><par n="matri__n"/></e>
-    <e lm="puntapedi"><i>puntapedi</i><par n="crisi__n"/></e>
-    <e lm="puntapedi" r="LR"><p><l>puntaperi</l><r>puntapedi</r></p><par n="crisi__n"/></e>
+    <e lm="puntapedi"><i>puntapedi</i><par n="attillètica__n"/></e>
+    <e lm="puntapedi" r="LR"><p><l>puntaperi</l><r>puntapedi</r></p><par n="attillètica__n"/></e>
     <e lm="pupianni"><i>pupianni</i><par n="matri__n"/></e>
     <e lm="quasi"><i>quasi</i><par n="matri__n"/></e>
     <e lm="quasi" r="LR"><p><l>canzi</l><r>quasi</r></p><par n="matri__n"/></e>
@@ -15050,7 +15048,6 @@
     <e lm="ndrizzu" r="LR"><p><l>ndirizz</l><r>ndrizz</r></p><par n="ann/u__n"/></e>
     <e lm="nemicu"><i>nemic</i><par n="ann/u__n"/></e>
     <e lm="nerbu"><i>nerb</i><par n="ann/u__n"/></e>
-    <e lm="neutrinu"><i>neutrin</i><par n="ann/u__n"/></e>
     <e lm="ngegnu"><i>ngegn</i><par n="ann/u__n"/></e>
     <e lm="ngegnu" r="LR"><p><l>njegn</l><r>ngegn</r></p><par n="ann/u__n"/></e>
     <e lm="ngegnu" r="LR"><p><l>gnegn</l><r>ngegn</r></p><par n="ann/u__n"/></e>
