@@ -16318,6 +16318,7 @@
     <e lm="alappiu"><i>alapp</i><par n="sacchegg/iu__n"/></e>
     <e lm="ammogghiu"><i>ammoggh</i><par n="sacchegg/iu__n"/></e>
     <e lm="ammogghiu" r="LR"><p><l>nvoggh</l><r>ammoggh</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="ammogghiu" r="LR"><p><l>ammòggh</l><r>ammoggh</r></p><par n="sacchegg/iu__n"/></e>
     <e lm="angusciu"><i>angusc</i><par n="sacchegg/iu__n"/></e>
     <e lm="annivirsariu"><i>annivirsar</i><par n="sacchegg/iu__n"/></e>
     <e lm="apparecchiu"><i>apparecch</i><par n="sacchegg/iu__n"/></e>
@@ -17168,6 +17169,12 @@
     <e lm="difficultati"><i>difficult</i><par n="cit/ati__n"/></e>
     <e lm="fiu"><i>fi</i><par n="sacchegg/iu__n"/></e>
     <e lm="sboccu"><i>sbocc</i><par n="parc/u__n"/></e>
+    <e lm="amicìzzia"><i>amicìzz</i><par n="oricch/ia__n"/></e>
+    <e lm="amicìzzia" r="LR"><p><l>amicizz</l><r>amicìzzia</r></p><par n="oricch/ia__n"/></e>
+    <e lm="ammarezu"><i>ammarez</i><par n="ann/u__n"/></e>
+    <e lm="àmmaru"><i>àmmar</i><par n="ann/u__n"/></e>
+    <e lm="ammarrunata"><i>ammarrunat</i><par n="cas/a__n"/></e>
+    <e lm="ammasciata"><i>ammasciat</i><par n="cas/a__n"/></e>
 
     
     
@@ -23789,6 +23796,10 @@
 	<e lm="oggi"><i>oggi</i><par n="oggi__adv"/></e>
     <e lm="oggi" r="LR"><p><l>ùoggi</l><r>oggi</r></p><par n="oggi__adv"/></e>
     <e lm="oggi" r="LR"><p><l>òi</l><r>oggi</r></p><par n="oggi__adv"/></e>
+    <e lm="ammèci"><i>ammèci</i><par n="oggi__adv"/></e>
+
+    
+    
 
     <e lm="mai"><i>mai</i><par n="oggi__adv"/></e>
     <e lm="poi"><i>poi</i><par n="oggi__adv"/></e>
@@ -27849,6 +27860,8 @@
     <e lm="ammalucchiri"><i>ammalucch</i><par n="batt/iri__vblex"/></e>
     <e lm="ammaschiri"><i>ammasch</i><par n="batt/iri__vblex"/></e>
     <e lm="ammattiri"><i>ammatt</i><par n="batt/iri__vblex"/></e>
+    <e lm="ammattiri" r="LR"><p><l>ammàtt</l><r>ammatt</r></p><par n="batt/iri__vblex"/></e>
+
     <e lm="amminnaliri"><i>amminnal</i><par n="batt/iri__vblex"/></e>
     <e lm="amminnaliri" r="LR"><p><l>amminchial</l><r>amminnal</r></p><par n="batt/iri__vblex"/></e>
     <e lm="ammudurriri"><i>ammudurr</i><par n="batt/iri__vblex"/></e>
