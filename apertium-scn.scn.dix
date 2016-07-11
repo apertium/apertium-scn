@@ -623,7 +623,18 @@
       	<e r="LR"><p><l>ziuni</l><r>zioni<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
       	<e r="LR"><p><l>iuni</l><r>zioni<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
     </pardef>
-
+    
+    <pardef n="vi/sioni__n">
+      	<e><p><l>sioni</l><r>sioni<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
+      	<e r="LR"><p><l>sione</l><r>sioni<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
+      	<e r="LR"><p><l>siuni</l><r>sioni<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
+      	<e r="LR"><p><l>ioni</l><r>zioni<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
+      	<e r="LR"><p><l>ione</l><r>zioni<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
+      	<e r="LR"><p><l>iuni</l><r>zioni<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
+    </pardef>
+    
+    
+    
     <pardef n="filusuf/ìa__n">
       	<e><p><l>ìa</l><r>ìa<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
       	<e><p><l>ì</l><r>ìa<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
@@ -3121,12 +3132,12 @@
     <e lm="pinna"><i>pinn</i><par n="cas/a__n"/></e>
     <e lm="luna"><i>lun</i><par n="cas/a__n"/></e>
     <e lm="gaddina"><i>gaddin</i><par n="cas/a__n"/></e>
-    <e lm="grazzia"><i>grazzi</i><par n="cas/a__n"/></e>
-    <e lm="farmacia"><i>farmaci</i><par n="cas/a__n"/></e>
+    <e lm="grazzia"><i>grazzi</i><par n="culoni/a__n"/></e>
+    <e lm="farmacia"><i>farmaci</i><par n="culoni/a__n"/></e>
     <e lm="cavesa"><i>caves</i><par n="cas/a__n"/></e>
     <e lm="finestra"><i>finestr</i><par n="cas/a__n"/></e>
     <e lm="dumanna"><i>dumann</i><par n="cas/a__n"/></e>
-    <e lm="seggia"><i>seggi</i><par n="cas/a__n"/></e>
+    <e lm="seggia"><i>seggi</i><par n="culoni/a__n"/></e>
     <e lm="scola"><i>scol</i><par n="cas/a__n"/></e>
     <e lm="scala"><i>scal</i><par n="cas/a__n"/></e>
     <e lm="sira"><i>sir</i><par n="cas/a__n"/></e>
@@ -3149,8 +3160,8 @@
     <e lm="particella" r="LR"><p><l>pacchitedd</l><r>particell</r></p><par n="cas/a__n"/></e>
     <e lm="càmmara"><i>càmmar</i><par n="cas/a__n"/></e>
     <e lm="fiura"><i>fiur</i><par n="cas/a__n"/></e>
-    <e lm="mimoria"><i>mimori</i><par n="cas/a__n"/></e>
-    <e lm="matèria"><i>matèri</i><par n="cas/a__n"/></e>
+    <e lm="mimoria"><i>mimori</i><par n="culoni/a__n"/></e>
+    <e lm="matèria"><i>matèri</i><par n="culoni/a__n"/></e>
     <e lm="mimoria" r="LR"><p><l>mimòri</l><r>mimori</r></p><par n="cas/a__n"/></e>
     <e lm="data"><i>dat</i><par n="cas/a__n"/></e>
     
@@ -3165,23 +3176,23 @@
     <e lm="matri"><i>matri</i><par n="matri__n"/></e>
     <e lm="mancanza"><i>mancanza</i><par n="matri__n"/></e> <!-- CHEQUEAR-->
     <e lm="unioni"><i>unioni</i><par n="matri__n"/></e>
-    <e lm="prucissioni"><i>prucissioni</i><par n="matri__n"/></e>
+    <e lm="prucissioni"><i>prucis</i><par n="vi/sioni__n"/></e>
     <e lm="capitali"><i>capitali</i><par n="matri__n"/></e>
     <e lm="manu"><i>manu</i><par n="man/u__n"/></e>
     <e lm="facci"><i>facci</i><par n="matri__n"/></e>
     <e lm="genti"><i>genti</i><par n="matri__n"/></e>
     <e lm="genti" r="LR"><p><l>ggenti</l><r>genti</r></p><par n="matri__n"/></e>
     <e lm="fasi"><i>fasi</i><par n="matri__n"/></e>
-    <e lm="virsioni"><i>virsioni</i><par n="matri__n"/></e>
+    <e lm="virsioni"><i>vir</i><par n="vi/sioni__n"/></e>
     <e lm="parti"><i>parti</i><par n="matri__n"/></e>
     <e lm="crisi"><i>crisi</i><par n="crisi__n"/></e>
     <e lm="soru"><i>soru</i><par n="matri__n"/></e>
     <e lm="sedi"><i>sedi</i><par n="matri__n"/></e>
-    <e lm="fusioni"><i>fusioni</i><par n="matri__n"/></e>  
-    <e lm="fissioni"><i>fissioni</i><par n="matri__n"/></e> 
+    <e lm="fusioni"><i>fu</i><par n="vi/sioni__n"/></e>  
+    <e lm="fissioni"><i>fis</i><par n="vi/sioni__n"/></e> 
     <e lm="vuci"><i>vuci</i><par n="matri__n"/></e>
     <e lm="mmàggini"><i>mmàggini</i><par n="matri__n"/></e>
-    <e lm="fisioni"><i>fisioni</i><par n="matri__n"/></e>
+    <e lm="fisioni"><i>fi</i><par n="vi/sioni__n"/></e>
     <e lm="scena"><i>scen</i><par n="cas/a__n"/></e>
     <e lm="disigna"><i>disign</i><par n="cas/a__n"/></e>
     
@@ -3298,7 +3309,7 @@
     <e lm="cenzimentu"><i>cenziment</i><par n="ann/u__n"/></e>
     <e lm="corpu"><i>corp</i><par n="ann/u__n"/></e>
     <e lm="corpu" r="LR"><p><l>curp</l><r>corp</r></p><par n="ann/u__n"/></e>
-    <e lm="cristianu"><i>cristian</i><par n="ann/u__n"/></e>
+    <e lm="cristianu"><i>cristian</i><par n="nànn/u__n"/></e>
     <e lm="cultu"><i>cult</i><par n="ann/u__n"/></e>
     <e lm="cumplessu"><i>cumpless</i><par n="ann/u__n"/></e>
     <e lm="cuncertu"><i>cuncert</i><par n="ann/u__n"/></e>
@@ -3457,7 +3468,7 @@
     <e lm="vita"><i>vit</i><par n="cas/a__n"/></e>
     <e lm="òrdini"><i>òrdini</i><par n="patri__n"/></e>
     <e lm="atturi"><i>atturi</i><par n="patri__n"/></e>
-    <e lm="morti"><i>morti</i><par n="patri__n"/></e>
+    <e lm="morti"><i>morti</i><par n="matri__n"/></e>
 
     <e lm="èbbica"><i>èbbic</i><par n="ripùbbric/a__n"/></e>
     <e lm="stilìstica"><i>stilìstic</i><par n="ripùbbric/a__n"/></e>
@@ -3473,15 +3484,11 @@
     <e lm="giografìa"><i>giografì</i><par n="cas/a__n"/></e>
     <e lm="filusufìa"><i>filusufì</i><par n="cas/a__n"/></e>
     
-    <e lm="battagghia"><i>battagghi</i><par n="cas/a__n"/></e>
     <e lm="econumìa"><i>econumì</i><par n="cas/a__n"/></e>
-    <e lm="ària"><i>àri</i><par n="cas/a__n"/></e>
+    <e lm="ària"><i>àri</i><par n="culoni/a__n"/></e>
     <e lm="ària" r="LR"><p><l>âri</l><r>àri</r></p><par n="cas/a__n"/></e>
     <e lm="tiurìa"><i>tiur</i><par n="filusuf/ìa__n"/></e>
-    <e lm="tiùria"><i>tiùri</i><par n="cas/a__n"/></e>
-    <e lm="cresia"><i>cresi</i><par n="cas/a__n"/></e>
-    <e lm="cresia" r="LR"><p><l>chies</l><r>cresi</r></p><par n="cas/a__n"/></e>
-    <e lm="cresia" r="LR"><p><l>chiesi</l><r>cresi</r></p><par n="cas/a__n"/></e>
+    <e lm="tiùria"><i>tiùri</i><par n="culoni/a__n"/></e>
     <e lm="fòrmula"><i>fòrmul</i><par n="cas/a__n"/></e>
     <e lm="fòrmula" r="LR"><p><l>formul</l><r>fòrmul</r></p><par n="cas/a__n"/></e>
 
@@ -3623,8 +3630,9 @@
 
 
     <e lm="locu"><i>loc</i><par n="parc/u__n"/></e>
-    <e lm="capulocu" r="LR"><p><l>capuluòc</l><r>capulòc</r></p><par n="parc/u__n"/></e>
-    <e lm="capulocu" r="LR"><p><l>capolòc</l><r>capulòc</r></p><par n="parc/u__n"/></e>
+    <e lm="capulòcu" r="LR"><p><l>capuluòc</l><r>capulòc</r></p><par n="parc/u__n"/></e>
+    <e lm="capulòcu" r="LR"><p><l>capolòc</l><r>capulòc</r></p><par n="parc/u__n"/></e>
+    <e lm="capulòcu" r="LR"><p><l>capuloc</l><r>capulòc</r></p><par n="parc/u__n"/></e>
     <e lm="capulòcu"><i>capulòc</i><par n="parc/u__n"/></e>
     <e lm="casteddu"><i>castedd</i><par n="ann/u__n"/></e>
     <e lm="travagghiu"><i>travaggh</i><par n="sacchegg/iu__n"/></e>
@@ -3660,9 +3668,9 @@
 
     <e lm="riatturi"><i>riatturi</i><par n="patri__n"/></e>
     <e lm="funzioni"><i>funzioni</i><par n="matri__n"/></e>
-    <e lm="diffusioni"><i>diffusioni</i><par n="matri__n"/></e>
+    <e lm="diffusioni"><i>diffu</i><par n="vi/sioni__n"/></e>
     <e lm="funzioni"><i>funzioni</i><par n="matri__n"/></e>
-    <e lm="sprissioni"><i>sprissioni</i><par n="matri__n"/></e>
+    <e lm="sprissioni"><i>spris</i><par n="vi/sioni__n"/></e>
 
     <e lm="finanziamentu"><i>finanziament</i><par n="ann/u__n"/></e>
 
@@ -3717,14 +3725,14 @@
 	<e lm="pugnu"><i>pugn</i><par n="foc/u__n"/></e>
 	<e lm="ugnu"><i>ugn</i><par n="foc/u__n"/></e>
 	<e lm="vrazzu"><i>vrazz</i><par n="foc/u__n"/></e>
-	<e lm="vudeddu"><i>vudeddu</i><par n="foc/u__n"/></e>
-	<e lm="agneddu"><i>agnedd</i><par n="foc/u__n"/></e>
-	<e lm="casteddu"><i>castedd</i><par n="foc/u__n"/></e>
-	<e lm="aneddu"><i>agnedd</i><par n="foc/u__n"/></e>
-	<e lm="cuteddu"><i>cutedd</i><par n="foc/u__n"/></e>
-	<e lm="marteddu"><i>martedd</i><par n="foc/u__n"/></e>
-	<e lm="panareddu"><i>panaredd</i><par n="foc/u__n"/></e>
-	<e lm="piatticeddu"><i>piatticedd</i><par n="foc/u__n"/></e>
+	<e lm="vudeddu"><i>vudedd</i><par n="ann/u__n"/></e>
+	<e lm="agneddu"><i>agnedd</i><par n="ann/u__n"/></e>
+	<e lm="casteddu"><i>castedd</i><par n="ann/u__n"/></e>
+	<e lm="aneddu"><i>agnedd</i><par n="ann/u__n"/></e>
+	<e lm="cuteddu"><i>cutedd</i><par n="ann/u__n"/></e>
+	<e lm="marteddu"><i>martedd</i><par n="ann/u__n"/></e>
+	<e lm="panareddu"><i>panaredd</i><par n="ann/u__n"/></e>
+	<e lm="piatticeddu"><i>piatticedd</i><par n="ann/u__n"/></e>
 	<e lm="buttunaru"><i>buttunar</i><par n="foc/u__n"/></e>
 	<e lm="cintinaru"><i>cintinar</i><par n="foc/u__n"/></e>
 	<e lm="firraru"><i>firrar</i><par n="foc/u__n"/></e>
@@ -3994,7 +4002,6 @@
     <e lm="logaritmu"><i>logaritm</i><par n="ann/u__n"/></e>
     <e lm="alguritmu"><i>alguritm</i><par n="ann/u__n"/></e>
     <e lm="astrònumu"><i>astrònum</i><par n="ann/u__n"/></e>
-    <e lm="pumu"><i>pum</i><par n="ann/u__n"/></e>
     <e lm="àfricanu"><i>àfrican</i><par n="sicilian/u__n"/></e>
     <e lm="vurcanu"><i>vurcan</i><par n="ann/u__n"/></e>
     <e lm="ocèanu"><i>ocèan</i><par n="ann/u__n"/></e>
@@ -4319,31 +4326,31 @@
     <e lm="spiga"><i>spig</i><par n="cas/a__n"/></e>
     <e lm="sinagoga"><i>sinagog</i><par n="cas/a__n"/></e>
     <e lm="droga"><i>drog</i><par n="cas/a__n"/></e>
-    <e lm="chiaia"><i>chiai</i><par n="cas/a__n"/></e>
-    <e lm="praia"><i>prai</i><par n="cas/a__n"/></e>
-    <e lm="bibbia"><i>bibbi</i><par n="cas/a__n"/></e>
-    <e lm="caccia"><i>cacci</i><par n="cas/a__n"/></e>
-    <e lm="freccia"><i>frecci</i><par n="cas/a__n"/></e>
-    <e lm="arancia"><i>aranci</i><par n="cas/a__n"/></e>
-    <e lm="valencia"><i>valenci</i><par n="cas/a__n"/></e>
-    <e lm="funcia"><i>funci</i><par n="cas/a__n"/></e>
-    <e lm="scorcia"><i>scorci</i><par n="cas/a__n"/></e>
-    <e lm="ntorcia"><i>ntorci</i><par n="cas/a__n"/></e>
-    <e lm="cascia"><i>casci</i><par n="cas/a__n"/></e>
-    <e lm="prescia"><i>presci</i><par n="cas/a__n"/></e>
+    <e lm="chiaia"><i>chiai</i><par n="culoni/a__n"/></e>
+    <e lm="praia"><i>prai</i><par n="culoni/a__n"/></e>
+    <e lm="bibbia"><i>bibbi</i><par n="culoni/a__n"/></e>
+    <e lm="caccia"><i>cacci</i><par n="culoni/a__n"/></e>
+    <e lm="freccia"><i>frecci</i><par n="culoni/a__n"/></e>
+    <e lm="arancia"><i>aranci</i><par n="culoni/a__n"/></e>
+    <e lm="valencia"><i>valenci</i><par n="culoni/a__n"/></e>
+    <e lm="funcia"><i>funci</i><par n="culoni/a__n"/></e>
+    <e lm="scorcia"><i>scorci</i><par n="culoni/a__n"/></e>
+    <e lm="ntorcia"><i>ntorci</i><par n="culoni/a__n"/></e>
+    <e lm="cascia"><i>casci</i><par n="culoni/a__n"/></e>
+    <e lm="prescia"><i>presci</i><par n="culoni/a__n"/></e>
     <e lm="traggèdia"><i>traggèdi</i><par n="culoni/a__n"/></e>
-    <e lm="media"><i>medi</i><par n="cas/a__n"/></e>
-    <e lm="cummedia"><i>cummedi</i><par n="cas/a__n"/></e>
+    <e lm="media"><i>medi</i><par n="culoni/a__n"/></e>
+    <e lm="cummedia"><i>cummedi</i><par n="culoni/a__n"/></e>
     <e lm="nciclupidìa"><i>nciclupidì</i><par n="cas/a__n"/></e>
-    <e lm="guardia"><i>guardi</i><par n="cas/a__n"/></e>
-    <e lm="mafia"><i>mafi</i><par n="cas/a__n"/></e>
+    <e lm="guardia"><i>guardi</i><par n="culoni/a__n"/></e>
+    <e lm="mafia"><i>mafi</i><par n="culoni/a__n"/></e>
     <e lm="dimografìa"><i>dimografì</i><par n="cas/a__n"/></e>
     <e lm="monugrafìa"><i>monugrafì</i><par n="cas/a__n"/></e>
     <e lm="pornugrafìa"><i>pornugrafì</i><par n="cas/a__n"/></e>
     <e lm="tipugrafìa"><i>tipugrafì</i><par n="cas/a__n"/></e>
-    <e lm="scuffia"><i>scuffi</i><par n="cas/a__n"/></e>
-    <e lm="gaggia"><i>gaggi</i><par n="cas/a__n"/></e>
-    <e lm="raggia"><i>raggi</i><par n="cas/a__n"/></e>
+    <e lm="scuffia"><i>scuffi</i><par n="culoni/a__n"/></e>
+    <e lm="gaggia"><i>gaggi</i><par n="culoni/a__n"/></e>
+    <e lm="raggia"><i>raggi</i><par n="culoni/a__n"/></e>
     <e lm="plibbiscitu"><i>plibbiscit</i><par n="ann/u__n"/></e>
     <e lm="ecoluggìa"><i>ecoluggì</i><par n="cas/a__n"/></e>
     <e lm="psicoluggìa"><i>psicoluggì</i><par n="cas/a__n"/></e>
@@ -4365,48 +4372,48 @@
     <e lm="zûluggìa"><i>zûluggì</i><par n="cas/a__n"/></e>
     <e lm="nustargìa"><i>nustargì</i><par n="cas/a__n"/></e>
     <e lm="chirurgìa"><i>chirurgì</i><par n="cas/a__n"/></e>
-    <e lm="nicchia"><i>nicchi</i><par n="cas/a__n"/></e>
+    <e lm="nicchia"><i>nicchi</i><par n="culoni/a__n"/></e>
     <e lm="oligarchìa"><i>oligarchì</i><par n="cas/a__n"/></e>
     <e lm="munarchìa"><i>munarchì</i><par n="cas/a__n"/></e>
-    <e lm="scagghia"><i>scagghi</i><par n="cas/a__n"/></e>
-    <e lm="midagghia"><i>midagghi</i><par n="cas/a__n"/></e>
-    <e lm="agghia"><i>agghi</i><par n="cas/a__n"/></e>
-    <e lm="magghia"><i>magghi</i><par n="cas/a__n"/></e>
-    <e lm="tinagghia"><i>tinagghi</i><par n="cas/a__n"/></e>
-    <e lm="pagghia"><i>pagghi</i><par n="cas/a__n"/></e>
-    <e lm="tuvagghia"><i>tuvagghi</i><par n="cas/a__n"/></e>
-    <e lm="negghia"><i>negghi</i><par n="cas/a__n"/></e>
-    <e lm="radigghia"><i>radigghi</i><par n="cas/a__n"/></e>
-    <e lm="cunchigghia"><i>cunchigghi</i><par n="cas/a__n"/></e>
-    <e lm="subfamigghia"><i>subfamigghi</i><par n="cas/a__n"/></e>
-    <e lm="cuttigghia"><i>cuttigghi</i><par n="cas/a__n"/></e>
-    <e lm="cavigghia"><i>cavigghi</i><par n="cas/a__n"/></e>
-    <e lm="dogghia"><i>dogghi</i><par n="cas/a__n"/></e>
-    <e lm="fogghia"><i>fogghi</i><par n="cas/a__n"/></e>
-    <e lm="grappugghia"><i>grappugghi</i><par n="cas/a__n"/></e>
-    <e lm="avugghia"><i>avugghi</i><par n="cas/a__n"/></e>
-    <e lm="marsupialia"><i>marsupiali</i><par n="cas/a__n"/></e>
-    <e lm="mammalia"><i>mammali</i><par n="cas/a__n"/></e>
-    <e lm="celia"><i>celi</i><par n="cas/a__n"/></e>
-    <e lm="reptilia"><i>reptili</i><par n="cas/a__n"/></e>
+    <e lm="scagghia"><i>scagghi</i><par n="culoni/a__n"/></e>
+    <e lm="midagghia"><i>midagghi</i><par n="culoni/a__n"/></e>
+    <e lm="agghia"><i>agghi</i><par n="culoni/a__n"/></e>
+    <e lm="magghia"><i>magghi</i><par n="culoni/a__n"/></e>
+    <e lm="tinagghia"><i>tinagghi</i><par n="culoni/a__n"/></e>
+    <e lm="pagghia"><i>pagghi</i><par n="culoni/a__n"/></e>
+    <e lm="tuvagghia"><i>tuvagghi</i><par n="culoni/a__n"/></e>
+    <e lm="negghia"><i>negghi</i><par n="culoni/a__n"/></e>
+    <e lm="radigghia"><i>radigghi</i><par n="culoni/a__n"/></e>
+    <e lm="cunchigghia"><i>cunchigghi</i><par n="culoni/a__n"/></e>
+    <e lm="subfamigghia"><i>subfamigghi</i><par n="culoni/a__n"/></e>
+    <e lm="cuttigghia"><i>cuttigghi</i><par n="culoni/a__n"/></e>
+    <e lm="cavigghia"><i>cavigghi</i><par n="culoni/a__n"/></e>
+    <e lm="dogghia"><i>dogghi</i><par n="culoni/a__n"/></e>
+    <e lm="fogghia"><i>fogghi</i><par n="culoni/a__n"/></e>
+    <e lm="grappugghia"><i>grappugghi</i><par n="culoni/a__n"/></e>
+    <e lm="avugghia"><i>avugghi</i><par n="culoni/a__n"/></e>
+    <e lm="marsupialia"><i>marsupiali</i><par n="culoni/a__n"/></e>
+    <e lm="mammalia"><i>mammali</i><par n="culoni/a__n"/></e>
+    <e lm="celia"><i>celi</i><par n="culoni/a__n"/></e>
+    <e lm="reptilia"><i>reptili</i><par n="culoni/a__n"/></e>
     <e lm="pidimìa"><i>pidimì</i><par n="cas/a__n"/></e>
     <e lm="archimìa"><i>archimì</i><par n="cas/a__n"/></e>
     <e lm="tassinumìa"><i>tassinumì</i><par n="cas/a__n"/></e>
     <e lm="astronumìa"><i>astronumì</i><par n="cas/a__n"/></e>
-    <e lm="vicchiania"><i>vicchiani</i><par n="cas/a__n"/></e>
+    <e lm="vicchiania"><i>vicchiani</i><par n="culoni/a__n"/></e>
     <e lm="scrivanìa"><i>scrivanì</i><par n="cas/a__n"/></e>
-    <e lm="lìnia"><i>lìni</i><par n="cas/a__n"/></e>
-    <e lm="capulìnia"><i>capulìni</i><par n="cas/a__n"/></e>
+    <e lm="lìnia"><i>lìni</i><par n="culoni/a__n"/></e>
+    <e lm="capulìnia"><i>capulìni</i><par n="culoni/a__n"/></e>
     <e lm="ciminìa"><i>ciminì</i><par n="cas/a__n"/></e>
     <e lm="schizzufrinìa"><i>schizzufrinì</i><par n="cas/a__n"/></e>
-    <e lm="macedonia"><i>macedoni</i><par n="cas/a__n"/></e>
-    <e lm="fannonia"><i>fannoni</i><par n="cas/a__n"/></e>
+    <e lm="macedonia"><i>macedoni</i><par n="culoni/a__n"/></e>
+    <e lm="fannonia"><i>fannoni</i><par n="culoni/a__n"/></e>
     <e lm="acunìa"><i>acunì</i><par n="cas/a__n"/></e>
-    <e lm="calunia"><i>caluni</i><par n="cas/a__n"/></e>
+    <e lm="calunia"><i>caluni</i><par n="culoni/a__n"/></e>
     <e lm="purmunìa"><i>purmunì</i><par n="cas/a__n"/></e>
     <e lm="intrupìa"><i>intrupì</i><par n="cas/a__n"/></e>
     <e lm="tabbaccarìa"><i>tabbaccarì</i><par n="cas/a__n"/></e>
-    <e lm="malaria"><i>malari</i><par n="cas/a__n"/></e>
+    <e lm="malaria"><i>malari</i><par n="culoni/a__n"/></e>
     <e lm="gallarìa"><i>gallarì</i><par n="cas/a__n"/></e>
     <e lm="minchiunarìa"><i>minchiunarì</i><par n="cas/a__n"/></e>
     <e lm="laparìa"><i>laparì</i><par n="cas/a__n"/></e>
@@ -4415,30 +4422,30 @@
     <e lm="carnizzarìa"><i>carnizzarì</i><par n="cas/a__n"/></e>
     <e lm="jallirìa"><i>jallirì</i><par n="cas/a__n"/></e>
     <e lm="ncignirìa"><i>ncignirì</i><par n="cas/a__n"/></e>
-    <e lm="preistoria"><i>preistori</i><par n="cas/a__n"/></e>
+    <e lm="preistoria"><i>preistori</i><par n="culoni/a__n"/></e>
     <e lm="giometrìa"><i>giometrì</i><par n="cas/a__n"/></e>
-    <e lm="nnustria"><i>nnustri</i><par n="cas/a__n"/></e>
-    <e lm="furia"><i>furi</i><par n="cas/a__n"/></e>
-    <e lm="nciùria"><i>nciùri</i><par n="cas/a__n"/></e>
-    <e lm="antunumàsia"><i>antunumàsi</i><par n="cas/a__n"/></e>
-    <e lm="galassia"><i>galassi</i><par n="cas/a__n"/></e>
+    <e lm="nnustria"><i>nnustri</i><par n="culoni/a__n"/></e>
+    <e lm="furia"><i>furi</i><par n="culoni/a__n"/></e>
+    <e lm="nciùria"><i>nciùri</i><par n="culoni/a__n"/></e>
+    <e lm="antunumàsia"><i>antunumàsi</i><par n="culoni/a__n"/></e>
+    <e lm="galassia"><i>galassi</i><par n="culoni/a__n"/></e>
     <e lm="lagnusìa"><i>lagnusì</i><par n="cas/a__n"/></e>
     <e lm="batìa"><i>batì</i><par n="cas/a__n"/></e>
     <e lm="caristìa"><i>caristì</i><par n="cas/a__n"/></e>
-    <e lm="ngustia"><i>ngusti</i><par n="cas/a__n"/></e>
-    <e lm="requia"><i>requi</i><par n="cas/a__n"/></e>
-    <e lm="bolivia"><i>bolivi</i><par n="cas/a__n"/></e>
-    <e lm="spirènzia"><i>spirènzi</i><par n="cas/a__n"/></e>
-    <e lm="sfrinzia"><i>sfrinzi</i><par n="cas/a__n"/></e>
-    <e lm="dinunzia"><i>dinunzi</i><par n="cas/a__n"/></e>
+    <e lm="ngustia"><i>ngusti</i><par n="culoni/a__n"/></e>
+    <e lm="requia"><i>requi</i><par n="culoni/a__n"/></e>
+    <e lm="bolivia"><i>bolivi</i><par n="culoni/a__n"/></e>
+    <e lm="spirènzia"><i>spirènzi</i><par n="culoni/a__n"/></e>
+    <e lm="sfrinzia"><i>sfrinzi</i><par n="culoni/a__n"/></e>
+    <e lm="dinunzia"><i>dinunzi</i><par n="culoni/a__n"/></e>
     <e lm="diprumazzìa"><i>diprumazzì</i><par n="cas/a__n"/></e>
     <e lm="pazzìa"><i>pazzì</i><par n="cas/a__n"/></e>
     <e lm="dimucrazzìa"><i>dimucrazzì</i><par n="cas/a__n"/></e>
     <e lm="aristucrazzìa"><i>aristucrazzì</i><par n="cas/a__n"/></e>
-    <e lm="polizzia"><i>polizzi</i><par n="cas/a__n"/></e>
-    <e lm="avarizzia"><i>avarizzi</i><par n="cas/a__n"/></e>
-    <e lm="giustizzia"><i>giustizzi</i><par n="cas/a__n"/></e>
-    <e lm="nutizzia"><i>nutizzi</i><par n="cas/a__n"/></e>
+    <e lm="polizzia"><i>polizzi</i><par n="culoni/a__n"/></e>
+    <e lm="avarizzia"><i>avarizzi</i><par n="culoni/a__n"/></e>
+    <e lm="giustizzia"><i>giustizzi</i><par n="culoni/a__n"/></e>
+    <e lm="nutizzia"><i>nutizzi</i><par n="culoni/a__n"/></e>
     <e lm="cala"><i>cal</i><par n="cas/a__n"/></e>
     <e lm="ala"><i>al</i><par n="cas/a__n"/></e>
     <e lm="sala"><i>sal</i><par n="cas/a__n"/></e>
@@ -4670,7 +4677,7 @@
     <e lm="tristizza"><i>tristizz</i><par n="cas/a__n"/></e>
     <e lm="purpuzza"><i>purpuzz</i><par n="cas/a__n"/></e>
     <e lm="idea"><i>ide</i><par n="cas/a__n"/></e>
-    <e lm="accademia"><i>accademi</i><par n="cas/a__n"/></e>
+    <e lm="accademia"><i>accademi</i><par n="culoni/a__n"/></e>
     <e lm="cavita"><i>cavit</i><par n="cas/a__n"/></e>
     <e lm="scuperta"><i>scupert</i><par n="cas/a__n"/></e>
     <e lm="mprisa"><i>mpris</i><par n="cas/a__n"/></e>
@@ -4751,14 +4758,14 @@
     <e lm="altitùddini"><i>altitùddini</i><par n="matri__n"/></e>
     <e lm="latitùdini"><i>latitùdini</i><par n="matri__n"/></e>
     <e lm="latitùdini" r="LR"><p><l>latidùdini</l><r>latitùdini</r></p><par n="matri__n"/></e>
-    <e lm="televisioni"><i>televisioni</i><par n="matri__n"/></e>
-    <e lm="visioni"><i>visioni</i><par n="matri__n"/></e>
-    <e lm="divisioni"><i>divisioni</i><par n="matri__n"/></e>
-    <e lm="riflissioni"><i>riflissioni</i><par n="matri__n"/></e>
-    <e lm="aggrissioni"><i>aggrissioni</i><par n="matri__n"/></e>
-    <e lm="prissioni"><i>prissioni</i><par n="matri__n"/></e>
-    <e lm="cunfusioni"><i>cunfusioni</i><par n="matri__n"/></e>
-    <e lm="erusioni"><i>erusioni</i><par n="matri__n"/></e>
+    <e lm="televisioni"><i>televi</i><par n="vi/sioni__n"/></e>
+    <e lm="visioni"><i>vi</i><par n="vi/sioni__n"/></e>
+    <e lm="divisioni"><i>divi</i><par n="vi/sioni__n"/></e>
+    <e lm="riflissioni"><i>riflis</i><par n="vi/sioni__n"/></e>
+    <e lm="aggrissioni"><i>aggris</i><par n="vi/sioni__n"/></e>
+    <e lm="prissioni"><i>pris</i><par n="vi/sioni__n"/></e>
+    <e lm="cunfusioni"><i>cunfu</i><par n="vi/sioni__n"/></e>
+    <e lm="erusioni"><i>eru</i><par n="vi/sioni__n"/></e>
 
     <e lm="alfabbetizzazioni"><i>alfabbetiz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="intiggrazzioni"><par n="ø/i"/><i>ntiggraz</i><par n="pupulaz/zioni__n"/></e>
@@ -5063,7 +5070,7 @@
     <e lm="bannera"><i>banner</i><par n="cas/a__n"/></e>
     <e lm="nizziu"><i>nizz</i><par n="sacchegg/iu__n"/></e>
     <e lm="para"><i>par</i><par n="cas/a__n"/></e>
-    <e lm="via"><i>vi</i><par n="cas/a__n"/></e>
+    <e lm="via"><i>vi</i><par n="culoni/a__n"/></e>
     <e lm="banna"><i>bann</i><par n="cas/a__n"/></e>
     <e lm="cumuna"><i>cumun</i><par n="cas/a__n"/></e>
     <e lm="squatra"><i>squatr</i><par n="cas/a__n"/></e>
@@ -5279,43 +5286,43 @@
     <e lm="dirizzioni"><i>diriz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="dirizzioni" r="LR"><p><l>direz</l><r>diriz</r></p><par n="pupulaz/zioni__n"/></e>
 
-    <e lm="esprissioni"><i>esprissioni</i><par n="matri__n"/></e>
+    <e lm="esprissioni"><i>espris</i><par n="vi/sioni__n"/></e>
     <e lm="esprissioni" r="LR"><p><l>espressioni</l><r>esprissioni</r></p><par n="matri__n"/></e>
-    <e lm="diminsioni"><i>diminsioni</i><par n="matri__n"/></e>
-    <e lm="occasioni"><i>occasioni</i><par n="matri__n"/></e>
+    <e lm="diminsioni"><i>dimin</i><par n="vi/sioni__n"/></e>
+    <e lm="occasioni"><i>occa</i><par n="vi/sioni__n"/></e>
     <e lm="occasioni" r="LR"><p><l>uccasioni</l><r>occasioni</r></p><par n="matri__n"/></e>
     <e lm="occasioni" r="LR"><p><l>accasioni</l><r>occasioni</r></p><par n="matri__n"/></e>
-    <e lm="nvasioni"><i>nvasioni</i><par n="matri__n"/></e>
-    <e lm="missioni"><i>missioni</i><par n="matri__n"/></e>
-    <e lm="sissioni"><i>sissioni</i><par n="matri__n"/></e>
+    <e lm="nvasioni"><i>nva</i><par n="vi/sioni__n"/></e>
+    <e lm="missioni"><i>mis</i><par n="vi/sioni__n"/></e>
+    <e lm="sissioni"><i>sis</i><par n="vi/sioni__n"/></e>
     <e lm="sissioni" r="LR"><p><l>sessioni</l><r>sissioni</r></p><par n="matri__n"/></e>
-    <e lm="mprissioni"><i>mprissioni</i><par n="matri__n"/></e>
-    <e lm="cunnissioni"><i>cunnissioni</i><par n="matri__n"/></e>
-    <e lm="prufissioni"><i>prufissioni</i><par n="matri__n"/></e>
-    <e lm="pircussioni"><i>pircussioni</i><par n="matri__n"/></e>
+    <e lm="mprissioni"><i>mpris</i><par n="vi/sioni__n"/></e>
+    <e lm="cunnissioni"><i>cunnis</i><par n="vi/sioni__n"/></e>
+    <e lm="prufissioni"><i>prufis</i><par n="vi/sioni__n"/></e>
+    <e lm="pircussioni"><i>pircus</i><par n="vi/sioni__n"/></e>
     <e lm="pircussioni" r="LR"><p><l>percussioni</l><r>pircussioni</r></p><par n="matri__n"/></e>
-    <e lm="cuncissioni"><i>cuncissioni</i><par n="matri__n"/></e>
-    <e lm="discussioni"><i>discussioni</i><par n="matri__n"/></e>
-    <e lm="dicisioni"><i>dicisioni</i><par n="matri__n"/></e>
-    <e lm="emissioni"><i>emissioni</i><par n="matri__n"/></e>
-    <e lm="ncursioni"><i>ncursioni</i><par n="matri__n"/></e>
-    <e lm="tilivisioni"><i>tilivisioni</i><par n="matri__n"/></e>
-    <e lm="espansioni"><i>espansioni</i><par n="matri__n"/></e>
-    <e lm="passioni"><i>passioni</i><par n="matri__n"/></e>
-    <e lm="estinsioni"><i>estinsioni</i><par n="matri__n"/></e>
-    <e lm="trasmissioni"><i>trasmissioni</i><par n="matri__n"/></e>
-    <e lm="pricisioni"><i>pricisioni</i><par n="matri__n"/></e>
-    <e lm="cunvirsioni"><i>cunvirsioni</i><par n="matri__n"/></e>
-    <e lm="cummissioni"><i>cummissioni</i><par n="matri__n"/></e>
-    <e lm="suspinsioni"><i>suspinsioni</i><par n="matri__n"/></e>
-    <e lm="riprissioni"><i>riprissioni</i><par n="matri__n"/></e>
-    <e lm="rivisioni"><i>rivisioni</i><par n="matri__n"/></e>
-    <e lm="incisioni"><i>incisioni</i><par n="matri__n"/></e>
+    <e lm="cuncissioni"><i>cuncis</i><par n="vi/sioni__n"/></e>
+    <e lm="discussioni"><i>discus</i><par n="vi/sioni__n"/></e>
+    <e lm="dicisioni"><i>dici</i><par n="vi/sioni__n"/></e>
+    <e lm="emissioni"><i>emis</i><par n="vi/sioni__n"/></e>
+    <e lm="ncursioni"><i>ncur</i><par n="vi/sioni__n"/></e>
+    <e lm="tilivisioni"><i>tilivi</i><par n="vi/sioni__n"/></e>
+    <e lm="espansioni"><i>espan</i><par n="vi/sioni__n"/></e>
+    <e lm="passioni"><i>pas</i><par n="vi/sioni__n"/></e>
+    <e lm="estinsioni"><i>estin</i><par n="vi/sioni__n"/></e>
+    <e lm="trasmissioni"><i>trasmis</i><par n="vi/sioni__n"/></e>
+    <e lm="pricisioni"><i>prici</i><par n="vi/sioni__n"/></e>
+    <e lm="cunvirsioni"><i>cunvir</i><par n="vi/sioni__n"/></e>
+    <e lm="cummissioni"><i>cummis</i><par n="vi/sioni__n"/></e>
+    <e lm="suspinsioni"><i>suspin</i><par n="vi/sioni__n"/></e>
+    <e lm="riprissioni"><i>ripris</i><par n="vi/sioni__n"/></e>
+    <e lm="rivisioni"><i>rivi</i><par n="vi/sioni__n"/></e>
+    <e lm="incisioni"><i>inci</i><par n="vi/sioni__n"/></e>
     <e lm="incisioni" r="LR"><p><l>ncisioni</l><r>incisioni</r></p><par n="matri__n"/></e>
-    <e lm="dimissioni"><i>dimissioni</i><par n="matri__n"/></e>
-    <e lm="virsioni"><i>virsioni</i><par n="matri__n"/></e>
+    <e lm="dimissioni"><i>dimis</i><par n="vi/sioni__n"/></e>
+    <e lm="virsioni"><i>vir</i><par n="vi/sioni__n"/></e>
     <e lm="virsioni" r="LR"><p><l>versioni</l><r>virsioni</r></p><par n="matri__n"/></e>
-    <e lm="succissioni"><i>succissioni</i><par n="matri__n"/></e>
+    <e lm="succissioni"><i>succis</i><par n="vi/sioni__n"/></e>
     <e lm="cunfini"><i>cunfini</i><par n="patri__n"/></e>
 
     <e lm="linìa"><i>lin</i><par n="filusuf/ìa__n"/></e>
@@ -5392,7 +5399,7 @@
     <e lm="lutta"><i>lutt</i><par n="cas/a__n"/></e>
     <e lm="anfitiatru"><i>anfitiatr</i><par n="ann/u__n"/></e>
     <e lm="antichità"><i>antichità</i><par n="libirtà__n"/></e>
-    <e lm="dinastia"><i>dinasti</i><par n="cas/a__n"/></e>
+    <e lm="dinastia"><i>dinasti</i><par n="culoni/a__n"/></e>
     <e lm="addestramentu"><i>addestrament</i><par n="ann/u__n"/></e>
     <e lm="cartuni"><i>cartuni</i><par n="patri__n"/></e>
     
@@ -6512,7 +6519,8 @@
     <e lm="lona"><i>lon</i><par n="cas/a__n"/></e>
     <e lm="lorda"><i>lord</i><par n="cas/a__n"/></e>
     <e lm="fanteria"><i>fanteri</i><par n="culoni/a__n"/></e>
-    
+    <e lm="tracciatu"><i>tracciat</i><par n="ann/u__n"/></e>
+
     <e lm="lotta"><i>lott</i><par n="cas/a__n"/></e>
     <e lm="lubbirtina"><i>lubbirtin</i><par n="cas/a__n"/></e>
     <e lm="lucèrtula"><i>lucèrtul</i><par n="cas/a__n"/></e>
@@ -10688,7 +10696,7 @@
     <e lm="abbitùdini" r="LR"><p><l>abitùtini</l><r>abbitùdini</r></p><par n="matri__n"/></e>
     <e lm="abbitùdini" r="LR"><p><l>abbitùtini</l><r>abbitùdini</r></p><par n="matri__n"/></e>
     <e lm="abbitùdini" r="LR"><p><l>bitùdini</l><r>abbitùdini</r></p><par n="matri__n"/></e>
-    <e lm="accasioni"><i>accasioni</i><par n="matri__n"/></e>
+    <e lm="accasioni"><i>acca</i><par n="vi/sioni__n"/></e>
     <e lm="accasioni" r="LR"><p><l>uccasioni</l><r>accasioni</r></p><par n="matri__n"/></e>
     <e lm="attitùtini"><i>attitùtini</i><par n="matri__n"/></e>
     <e lm="attitùtini" r="LR"><p><l>attitùdini</l><r>attitùtini</r></p><par n="matri__n"/></e>
@@ -10722,7 +10730,7 @@
     <e lm="cuitùtini" r="LR"><p><l>quitùtini</l><r>cuitùtini</r></p><par n="matri__n"/></e>
     <e lm="custumi"><i>custumi</i><par n="matri__n"/></e>
     <e lm="cùtini"><i>cùtini</i><par n="matri__n"/></e>
-    <e lm="fasioni"><i>fasioni</i><par n="matri__n"/></e>
+    <e lm="fasioni"><i>fa</i><par n="vi/sioni__n"/></e>
     <e lm="filìggini"><i>filìggini</i><par n="matri__n"/></e>
     <e lm="funi"><i>funi</i><par n="matri__n"/></e>
     <e lm="fàuci"><i>fàuci</i><par n="matri__n"/></e>
@@ -10753,12 +10761,12 @@
     <e lm="muggheri" r="LR"><p><l>muglieri</l><r>muggheri</r></p><par n="matri__n"/></e>
     <e lm="muggheri" r="LR"><p><l>mugghieri</l><r>muggheri</r></p><par n="matri__n"/></e>
     <e lm="muorti"><i>muorti</i><par n="matri__n"/></e>
-    <e lm="musioni"><i>musioni</i><par n="matri__n"/></e>
+    <e lm="musioni"><i>mu</i><par n="vi/sioni__n"/></e>
     <e lm="nuci"><i>nuci</i><par n="matri__n"/></e>
     <e lm="partenogènisi"><i>partenogènisi</i><par n="matri__n"/></e>
     <e lm="pirnici"><i>pirnici</i><par n="matri__n"/></e>
-    <e lm="pressioni"><i>pressioni</i><par n="matri__n"/></e>
-    <e lm="privisioni"><i>privisioni</i><par n="matri__n"/></e>
+    <e lm="pressioni"><i>pres</i><par n="vi/sioni__n"/></e>
+    <e lm="privisioni"><i>privi</i><par n="vi/sioni__n"/></e>
     <e lm="privisioni" r="LR"><p><l>previsioni</l><r>privisioni</r></p><par n="matri__n"/></e>
     <e lm="priggiuni"><i>priggiuni</i><par n="matri__n"/></e>
     <e lm="priggiuni" r="LR"><p><l>prigiuni</l><r>priggiuni</r></p><par n="matri__n"/></e>
@@ -14616,7 +14624,7 @@
     <e lm="malutrattamentu"><i>malutrattament</i><par n="ann/u__n"/></e>
     <e lm="rufriddamentu"><i>rufriddament</i><par n="ann/u__n"/></e>
     <e lm="arruolamentu"><i>arruolament</i><par n="ann/u__n"/></e>
-    <e lm="pinsioni"><i>pinsioni</i><par n="matri__n"/></e>
+    <e lm="pinsioni"><i>pin</i><par n="vi/sioni__n"/></e>
 
     <e lm="mudèllu"><i>mudèll</i><par n="ann/u__n"/></e>
     
@@ -16718,7 +16726,7 @@
     <e lm="vittura"><i>vittur</i><par n="cas/a__n"/></e>
     <e lm="cattura"><i>cattur</i><par n="cas/a__n"/></e>
     <e lm="cupirtura"><i>cupirtur</i><par n="cas/a__n"/></e>
-    <e lm="spulsioni"><i>spulsioni</i><par n="matri__n"/></e>
+    <e lm="spulsioni"><i>spul</i><par n="vi/sioni__n"/></e>
     
     <e lm="terminoluggìa"><i>terminolugg</i><par n="filusuf/ìa__n"/></e>
     <e lm="firruvìa"><i>firruv</i><par n="filusuf/ìa__n"/></e>
@@ -17254,8 +17262,8 @@
     <e lm="straggi"><i>straggii</i><par n="patri__n"/></e>
     <e lm="stròcchiuli"><i>stròcchiuli</i><par n="patri__n"/></e>
     <e lm="truppuri"><i>truppuri</i><par n="patri__n"/></e>
-    <e lm="mitafora"><i>mitafori</i><par n="cas/a__n"/></e>
-    <e lm="cutuliata"><i>cutuliati</i><par n="cas/a__n"/></e>
+    <e lm="mitafora"><i>mitafori</i><par n="culoni/a__n"/></e>
+    <e lm="cutuliata"><i>cutuliati</i><par n="culoni/a__n"/></e>
     <e lm="trimari"><i>trimari</i><par n="patri__n"/></e>
     <e lm="urigginu"><i>uriggin</i><par n="ann/u__n"/></e>
     <e lm="ncàrricu"><i>ncàrric</i><par n="parc/u__n"/></e>
