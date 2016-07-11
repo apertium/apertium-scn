@@ -636,7 +636,7 @@
     <pardef n="barun/i__n">
       	<e><p><l>i</l><r>i<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
       	<e><p><l>issa</l><r>i<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-      	<e><p><l>issi</l><r>i<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+      	<e><p><l>issi</l><r>i<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
     
     
@@ -3626,7 +3626,7 @@
     <e lm="album"><i>album</i><par n="patri__n"/></e>
     <e lm="video"><i>video</i><par n="patri__n"/></e>
     <e lm="computer"><i>computer</i><par n="patri__n"/></e>
-    <e lm="internet"><i>internet</i><par n="matri__n"/></e>
+    <e lm="internet"><i>internet</i><par n="patri__n"/></e>
     <e lm="musicanti"><i>musicanti</i><par n="patri__n"/></e>
 
     
@@ -3663,7 +3663,7 @@
     <e lm="prugramma"><i>prugramm</i><par n="pianet/a__n"/></e>
     <e lm="prugramma" r="LR"><p><l>programm</l><r>prugramm</r></p><par n="pianet/a__n"/></e>
     <e lm="puema"><i>puem</i><par n="pianet/a__n"/></e>
-    <e lm="tribbù"><i>tribbù</i><par n="patri__n"/></e>
+    <e lm="tribbù"><i>tribbù</i><par n="matri__n"/></e>
     <e lm="amarumi"><i>amarumi</i><par n="patri__n"/></e>
 
 
@@ -3764,10 +3764,10 @@
 	<e lm="prufissuri"><i>prufissur</i><par n="visitatur/i__n"/></e>
 	<e lm="tradituri"><i>traditur</i><par n="visitatur/i__n"/></e>
 	<e lm="piccaturi"><i>piccatur</i><par n="liun/i__n"/></e>
-	<e lm="libirtà"><i>libirtà</i><par n="libirtà__n"/></e>
-	<e lm="filicità"><i>filicità</i><par n="libirtà__n"/></e>
-	<e lm="rialtà"><i>rialtà</i><par n="libirtà__n"/></e>
-	<e lm="metà"><i>metà</i><par n="libirtà__n"/></e>
+	<e lm="libirtari"><i>libirt</i><par n="cit/ati__n"/></e>
+	<e lm="filicitati"><i>filicit</i><par n="cit/ati__n"/></e>
+	<e lm="rialtati"><i>rialt</i><par n="cit/ati__n"/></e>
+	<e lm="metati"><i>met</i><par n="cit/ati__n"/></e>
 	
 	
 	<e lm="iocu"><i>ioc</i><par n="ioc/u__n"/></e>
@@ -4998,7 +4998,7 @@
     <e lm="bit"><i>bit</i><par n="patri__n"/></e>
     <e lm="robot"><i>robot</i><par n="patri__n"/></e>
     <e lm="rugby"><i>rugby</i><par n="lunidìa__n"/></e>
-    <e lm="whisky"><i>whisky</i><par n="lunidìa__n"/></e>
+    <e lm="whisky"><i>whisky</i><par n="patri__n"/></e>
     <e lm="jazz"><i>jazz</i><par n="lunidìa__n"/></e>
     <e lm="cummustìbbili"><i>cummustìbbili</i><par n="patri__n"/></e>
     
@@ -5406,7 +5406,7 @@
     <e lm="gèniri"><i>gèniri</i><par n="patri__n"/></e>
     <e lm="lutta"><i>lutt</i><par n="cas/a__n"/></e>
     <e lm="anfitiatru"><i>anfitiatr</i><par n="ann/u__n"/></e>
-    <e lm="antichità"><i>antichità</i><par n="libirtà__n"/></e>
+    <e lm="antichitati"><i>antichit</i><par n="cit/ati__n"/></e>
     <e lm="dinastia"><i>dinasti</i><par n="culoni/a__n"/></e>
     <e lm="addestramentu"><i>addestrament</i><par n="ann/u__n"/></e>
     <e lm="cartuni"><i>cartuni</i><par n="patri__n"/></e>
@@ -9704,7 +9704,7 @@
     <e lm="nfernu"><i>nfern</i><par n="ann/u__n"/></e>
     <e lm="nfernu" r="LR"><p><l>infern</l><r>nfern</r></p><par n="ann/u__n"/></e>
     <e lm="innaru"><i>innar</i><par n="ann/u__n"/></e>
-    <e lm="innunisianu"><i>innunisian</i><par n="ann/u__n"/></e>
+    <e lm="innunisianu"><i>innunisian</i><par n="sicilian/u__n"/></e>
     <e lm="nsettu"><i>nsett</i><par n="ann/u__n"/></e>
     <e lm="nsettu" r="LR"><p><l>insett</l><r>nsett</r></p><par n="ann/u__n"/></e>
     <e lm="nsettu" r="LR"><p><l>inzett</l><r>nsett</r></p><par n="ann/u__n"/></e>
@@ -12028,38 +12028,36 @@
     <e lm="girmanisi"><i>girmanisi</i><par n="ngrisi__n"/></e>
     <e lm="girmanisi" r="LR"><p><l>germanisi</l><r>girmanisi</r></p><par n="ngrisi__n"/></e>
     <e lm="saracini"><i>saracini</i><par n="ngrisi__n"/></e>
-    <e lm="abbilità"><i>abbilità</i><par n="libirtà__n"/></e>
-    <e lm="cità"><i>cità</i><par n="libirtà__n"/></e>
-    <e lm="cumunità"><i>cumunità</i><par n="libirtà__n"/></e>
-    <e lm="curiusità"><i>curiusità</i><par n="libirtà__n"/></e>
-    <e lm="curiusità" r="LR"><p><l>cusirità</l><r>curiusità</r></p><par n="matri__n"/></e>
-    <e lm="facurtà"><i>facurtà</i><par n="libirtà__n"/></e>
-    <e lm="fistiulità"><i>fistiulità</i><par n="libirtà__n"/></e>
-    <e lm="fistiulità" r="LR"><p><l>fistivulità</l><r>fistiulità</r></p><par n="matri__n"/></e>
-    <e lm="fistiulità" r="LR"><p><l>fistulità</l><r>fistiulità</r></p><par n="matri__n"/></e>
-    <e lm="ginirusità"><i>ginirusità</i><par n="libirtà__n"/></e>
-    <e lm="libbirtà"><i>libbirtà</i><par n="libirtà__n"/></e>
-    <e lm="nichità"><i>nichità</i><par n="libirtà__n"/></e>
-    <e lm="nvalidità"><i>nvalidità</i><par n="libirtà__n"/></e>
-    <e lm="omusissualità"><i>omusissualità</i><par n="libirtà__n"/></e>
-    <e lm="omusissualità" r="LR"><p><l>omosissualità</l><r>omusissualità</r></p><par n="libirtà__n"/></e>
-    <e lm="pietà"><i>pietà</i><par n="libirtà__n"/></e>
-    <e lm="pietà" r="LR"><p><l>piatà</l><r>pietà</r></p><par n="matri__n"/></e>
-    <e lm="pietà"><i>pietà</i><par n="libirtà__n"/></e>
-    <e lm="pietà" r="LR"><p><l>abilità</l><r>pietà</r></p><par n="matri__n"/></e>
-    <e lm="puvirtà"><i>puvirtà</i><par n="libirtà__n"/></e>
-    <e lm="umirtà"><i>umirtà</i><par n="libirtà__n"/></e>
-    <e lm="univirsità"><i>univirsità</i><par n="libirtà__n"/></e>
-    <e lm="varità"><i>varità</i><par n="libirtà__n"/></e>
-    <e lm="virità"><i>virità</i><par n="libirtà__n"/></e>
-    <e lm="virità" r="LR"><p><l>virtà</l><r>virità</r></p><par n="matri__n"/></e>
-    <e lm="oppurtunità"><i>oppurtunità</i><par n="libirtà__n"/></e>
+    <e lm="abbilitati"><i>abbilit</i><par n="cit/ati__n"/></e>
+    <e lm="citati"><i>cit</i><par n="cit/ati__n"/></e>
+    <e lm="cumunitati"><i>cumunit</i><par n="cit/ati__n"/></e>
+    <e lm="curiusitati"><i>curiusit</i><par n="cit/ati__n"/></e>
+    <e lm="curiusità" r="LR"><p><l>cusirit</l><r>curiusit</r></p><par n="cit/ati__n"/></e>
+    <e lm="facurtati"><i>facurt</i><par n="cit/ati__n"/></e>
+    <e lm="fistiulitati"><i>fistiulit</i><par n="cit/ati__n"/></e>
+    <e lm="fistiulità" r="LR"><p><l>fistivulit</l><r>fistiulit</r></p><par n="cit/ati__n"/></e>
+    <e lm="fistiulità" r="LR"><p><l>fistulit</l><r>fistiulit</r></p><par n="cit/ati__n"/></e>
+    <e lm="ginirusitati"><i>ginirusit</i><par n="cit/ati__n"/></e>
+    <e lm="libbirtati"><i>libbirt</i><par n="cit/ati__n"/></e>
+    <e lm="nichitati"><i>nichit</i><par n="cit/ati__n"/></e>
+    <e lm="nvaliditati"><i>nvalidit</i><par n="cit/ati__n"/></e>
+    <e lm="omusissualitati"><i>omusissualit</i><par n="cit/ati__n"/></e>
+    <e lm="omusissualità" r="LR"><p><l>omosissualit</l><r>omusissualit</r></p><par n="cit/ati__n"/></e>
+    <e lm="pietati"><i>piet</i><par n="cit/ati__n"/></e>
+    <e lm="pietà" r="LR"><p><l>piat</l><r>piet</r></p><par n="cit/ati__n"/></e>
+    <e lm="puvirtati"><i>puvirt</i><par n="cit/ati__n"/></e>
+    <e lm="umirtati"><i>umirt</i><par n="cit/ati__n"/></e>
+    <e lm="univirsitati"><i>univirsit</i><par n="cit/ati__n"/></e>
+    <e lm="varitati"><i>varit</i><par n="cit/ati__n"/></e>
+    <e lm="viritati"><i>virit</i><par n="cit/ati__n"/></e>
+    <e lm="virità" r="LR"><p><l>virt</l><r>virit</r></p><par n="cit/ati__n"/></e>
+    <e lm="oppurtunitati"><i>oppurtunit</i><par n="cit/ati__n"/></e>
     <e lm="piscatura"><i>piscatur</i><par n="cas/a__n"/></e>
 
     
-    <e lm="vuluntà"><i>vuluntà</i><par n="libirtà__n"/></e>
-    <e lm="intità"><i>intità</i><par n="libirtà__n"/></e>
-    <e lm="estremità"><i>estremità</i><par n="libirtà__n"/></e>
+    <e lm="vulunati"><i>vulunt</i><par n="cit/ati__n"/></e>
+    <e lm="intitati"><i>intit</i><par n="cit/ati__n"/></e>
+    <e lm="estremitati"><i>estremit</i><par n="cit/ati__n"/></e>
 
     
     <e lm="acioli"><i>acioli</i><par n="patri__n"/></e>
