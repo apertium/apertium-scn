@@ -539,6 +539,11 @@
       	<e><p><l>a</l><r>a<s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
       	<e><p><l>i</l><r>a<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
     </pardef>
+    
+    <pardef n="patriarc/a__n">
+      	<e><p><l>a</l><r>a<s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
+      	<e><p><l>hi</l><r>a<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+    </pardef>
 
     <pardef n="monac/a__n">
       	<e><p><l>a</l><r>a<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
@@ -648,7 +653,6 @@
       	<e><p><l>issa</l><r>i<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
       	<e><p><l>issi</l><r>i<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
-    
     
     
     <pardef n="filusuf/ìa__n">
@@ -3942,6 +3946,8 @@
     <e lm="telescopiu"><i>telescop</i><par n="sacchegg/iu__n"/></e>
     <e lm="puemariu"><i>puemar</i><par n="sacchegg/iu__n"/></e>
     <e lm="armariu"><i>armar</i><par n="sacchegg/iu__n"/></e>
+    <e lm="armariu" r="LR"><p><l>arman</l><r>armar</r></p><par n="ann/u__n"/></e>
+    <e lm="armariu" r="LR"><p><l>armad</l><r>armar</r></p><par n="ann/u__n"/></e>
     <e lm="calannariu"><i>calannar</i><par n="sacchegg/iu__n"/></e>
     <e lm="dizziunariu"><i>dizziunar</i><par n="sacchegg/iu__n"/></e>
     <e lm="ducumintariu"><i>ducumintar</i><par n="sacchegg/iu__n"/></e>
@@ -4405,6 +4411,7 @@
     <e lm="cavigghia"><i>cavigghi</i><par n="culoni/a__n"/></e>
     <e lm="dogghia"><i>dogghi</i><par n="culoni/a__n"/></e>
     <e lm="fogghia"><i>fogghi</i><par n="culoni/a__n"/></e>
+    <e lm="fogghia" r="LR"><p><l>fogli</l><r>fogghi</r></p><par n="culoni/a__n"/></e>
     <e lm="grappugghia"><i>grappugghi</i><par n="culoni/a__n"/></e>
     <e lm="avugghia"><i>avugghi</i><par n="culoni/a__n"/></e>
     <e lm="marsupialia"><i>marsupiali</i><par n="culoni/a__n"/></e>
@@ -4484,6 +4491,7 @@
     <e lm="tiurema"><i>tiurem</i><par n="cas/a__n"/></e>
     <e lm="lima"><i>lim</i><par n="cas/a__n"/></e>
     <e lm="làcrima"><i>làcrim</i><par n="cas/a__n"/></e>
+    <e lm="casciuna"><i>casciun</i><par n="cas/a__n"/></e>
     <e lm="fantàsima"><i>fantàsim</i><par n="studenti__n"/></e>
     <e lm="palma"><i>palm</i><par n="cas/a__n"/></e>
     <e lm="jamma"><i>jamm</i><par n="cas/a__n"/></e>
@@ -4933,11 +4941,8 @@
     <e lm="ammasciaturi"><i>ammasciaturi</i><par n="studenti__n"/></e>
     <e lm="ammasciaturi" r="LR"><p><l>mmasciaturi</l><r>ammasciaturi</r></p><par n="studenti__n"/></e>
     <e lm="ammasciaturi" r="LR"><p><l>mbasciaturi</l><r>ammasciaturi</r></p><par n="studenti__n"/></e>
-
     <e lm="nascondimentu"><i>nascondiment</i><par n="ann/u__n"/></e>
     <e lm="narrativa"><i>narrativ</i><par n="cas/a__n"/></e>
-
-
     <e lm="sacchiaturi"><i>sacchiaturi</i><par n="patri__n"/></e>
     <e lm="pirriaturi"><i>pirriaturi</i><par n="patri__n"/></e>
     <e lm="lavaturi"><i>lavaturi</i><par n="patri__n"/></e>
@@ -5985,10 +5990,10 @@
     <e lm="circedda" r="LR"><p><l>aricchin</l><r>circedd</r></p><par n="cas/a__n"/></e>
     <e lm="cirnitura"><i>cirnitur</i><par n="cas/a__n"/></e>
     <e lm="cirsudda"><i>cirsudd</i><par n="cas/a__n"/></e>
-    <e lm="coffa"><i>coff</i><par n="cas/a__n"/></e>
-    <e lm="coffa" r="LR"><p><l>cist</l><r>coff</r></p><par n="cas/a__n"/></e>
-    <e lm="coffa" r="LR"><p><l>gistr</l><r>coff</r></p><par n="cas/a__n"/></e>
-    <e lm="coffa" r="LR"><p><l>cannistr</l><r>coff</r></p><par n="cas/a__n"/></e>
+    <e lm="cista"><i>cist</i><par n="cas/a__n"/></e>
+    <e lm="cista" r="LR"><p><l>coff</l><r>cist</r></p><par n="cas/a__n"/></e>
+    <e lm="cista" r="LR"><p><l>gistr</l><r>cist</r></p><par n="cas/a__n"/></e>
+    <e lm="cista" r="LR"><p><l>cannistr</l><r>cist</r></p><par n="cas/a__n"/></e>
     <e lm="citarra"><i>citarr</i><par n="cas/a__n"/></e>
     <e lm="ciuciulata"><i>ciuciulat</i><par n="cas/a__n"/></e>
     <e lm="ciuciulata" r="LR"><p><l>ciuciuliat</l><r>ciuciulat</r></p><par n="cas/a__n"/></e>
@@ -7464,9 +7469,11 @@
     <e lm="basìlica"><i>basìlic</i><par n="ripùbbric/a__n"/></e>
     <e lm="becca"><i>becc</i><par n="ripùbbric/a__n"/></e>
     <e lm="bibblioteca"><i>bibbliotec</i><par n="ripùbbric/a__n"/></e>
+    <e lm="bibblioteca" r="LR"><p><l>bibliotec</l><r>bibbliotec</r></p><par n="ripùbbric/a__n"/></e>
     <e lm="bibblioteca" r="LR"><p><l>bibbriutec</l><r>bibbliotec</r></p><par n="ripùbbric/a__n"/></e>
     <e lm="bibblioteca" r="LR"><p><l>bibriotec</l><r>bibbliotec</r></p><par n="ripùbbric/a__n"/></e>
     <e lm="bibblioteca" r="LR"><p><l>bibliutec</l><r>bibbliotec</r></p><par n="ripùbbric/a__n"/></e>
+    <e lm="bibblioteca" r="LR"><p><l>bibbliutec</l><r>bibbliotec</r></p><par n="ripùbbric/a__n"/></e>
     <e lm="bibblioteca" r="LR"><p><l>bibbriotec</l><r>bibbliotec</r></p><par n="ripùbbric/a__n"/></e>
     <e lm="bibblioteca" r="LR"><p><l>bibriutec</l><r>bibbliotec</r></p><par n="ripùbbric/a__n"/></e>
     <e lm="biddaca"><i>biddac</i><par n="ripùbbric/a__n"/></e>
@@ -7475,15 +7482,12 @@
     <e lm="buggiacca"><i>buggiacc</i><par n="ripùbbric/a__n"/></e>
     <e lm="buiacca"><i>buiacc</i><par n="ripùbbric/a__n"/></e>
     <e lm="bunaca"><i>bunac</i><par n="ripùbbric/a__n"/></e>
-    <e lm="greca"><i>grec</i><par n="ripùbbric/a__n"/></e>
-    <e lm="greca" r="LR"><p><l>burrasc</l><r>grec</r></p><par n="ripùbbric/a__n"/></e>
-    <e lm="greca" r="LR"><p><l>risacc</l><r>grec</r></p><par n="ripùbbric/a__n"/></e>
-    <e lm="greca" r="LR"><p><l>brocc</l><r>grec</r></p><par n="ripùbbric/a__n"/></e>
-    <e lm="greca" r="LR"><p><l>patriarc</l><r>grec</r></p><par n="ripùbbric/a__n"/></e>
-    <e lm="greca" r="LR"><p><l>branc</l><r>grec</r></p><par n="ripùbbric/a__n"/></e>
-    <e lm="greca" r="LR"><p><l>barc</l><r>grec</r></p><par n="ripùbbric/a__n"/></e>
-    <e lm="greca" r="LR"><p><l>frasc</l><r>grec</r></p><par n="ripùbbric/a__n"/></e>
-    <e lm="greca" r="LR"><p><l>bibliotec</l><r>grec</r></p><par n="ripùbbric/a__n"/></e>
+    <e lm="burrasca"><i>burrasc</i><par n="ripùbbric/a__n"/></e>
+    <e lm="risacca"><i>risacc</i><par n="ripùbbric/a__n"/></e>
+    <e lm="brocca"><i>brocc</i><par n="ripùbbric/a__n"/></e>
+    <e lm="patriarca"><i>patriarc</i><par n="patriarc/a__n"/></e>
+    <e lm="branca"><i>branc</i><par n="ripùbbric/a__n"/></e>
+    <e lm="frasca"><i>frasc</i><par n="ripùbbric/a__n"/></e>
     <e lm="butrica"><i>butric</i><par n="ripùbbric/a__n"/></e>
     <e lm="butàraca"><i>butàrac</i><par n="ripùbbric/a__n"/></e>
     <e lm="caleca"><i>calec</i><par n="ripùbbric/a__n"/></e>
@@ -7660,7 +7664,6 @@
     <e lm="biccaccia"><i>biccacc</i><par n="oricch/ia__n"/></e>
     <e lm="bisicchia"><i>bisicch</i><par n="oricch/ia__n"/></e>
     <e lm="bistemia"><i>bistem</i><par n="oricch/ia__n"/></e>
-    <e lm="broccia"><i>brocc</i><par n="oricch/ia__n"/></e>
     <e lm="roccia"><i>rocc</i><par n="oricch/ia__n"/></e>
     <e lm="broscia"><i>brosc</i><par n="oricch/ia__n"/></e>
     <e lm="broscia" r="LR"><p><l>proc</l><r>brosc</r></p><par n="oricch/ia__n"/></e>
@@ -7820,14 +7823,12 @@
     <e lm="gioia"><i>gio</i><par n="oricch/ia__n"/></e>
     <e lm="figlia"><i>figl</i><par n="oricch/ia__n"/></e>
     <e lm="coscia"><i>cosc</i><par n="oricch/ia__n"/></e>
-    <e lm="sfiducia"><i>sfiduc</i><par n="oricch/ia__n"/></e>
     <e lm="gloria"><i>glor</i><par n="oricch/ia__n"/></e>
     <e lm="famiglia"><i>famigl</i><par n="oricch/ia__n"/></e>
     <e lm="ascia"><i>asc</i><par n="oricch/ia__n"/></e>
     <e lm="miseria"><i>miser</i><par n="oricch/ia__n"/></e>
     <e lm="doglia"><i>dogl</i><par n="oricch/ia__n"/></e>
     <e lm="grazia"><i>graz</i><par n="oricch/ia__n"/></e>
-    <e lm="foglia"><i>fogl</i><par n="oricch/ia__n"/></e>
     <e lm="malàfria"><i>malàfr</i><par n="oricch/ia__n"/></e>
     <e lm="malàfria" r="LR"><p><l>malàf</l><r>malàfr</r></p><par n="oricch/ia__n"/></e>
     <e lm="manciacia"><i>manciac</i><par n="oricch/ia__n"/></e>
@@ -7839,6 +7840,7 @@
     <e lm="marcia"><i>marc</i><par n="oricch/ia__n"/></e>
     <e lm="marrubbia"><i>marrubb</i><par n="oricch/ia__n"/></e>
     <e lm="mbroccia"><i>mbrocc</i><par n="oricch/ia__n"/></e>
+    <e lm="mbroccia" r="LR"><p><l>brocc</l><r>mbrocc</r></p><par n="oricch/ia__n"/></e>
     <e lm="minchia"><i>minch</i><par n="oricch/ia__n"/></e>
     <e lm="minchia" r="LR"><p><l>minc</l><r>minch</r></p><par n="oricch/ia__n"/></e>
     <e lm="minchia" r="LR"><p><l>mingh</l><r>minch</r></p><par n="oricch/ia__n"/></e>
@@ -8624,6 +8626,7 @@
     <e lm="addàinu"><i>addàin</i><par n="ann/u__n"/></e>
     <e lm="addàuru"><i>addàur</i><par n="ann/u__n"/></e>
     <e lm="addàuru" r="LR"><p><l>làur</l><r>addàur</r></p><par n="ann/u__n"/></e>
+    <e lm="libbraru"><i>libbrar</i><par n="citadin/u__n"/></e>
     <e lm="adultu"><i>adult</i><par n="citadin/u__n"/></e>
     <e lm="adultu" r="LR"><p><l>adurt</l><r>adult</r></p><par n="citadin/u__n"/></e>
     <e lm="affissu"><i>affiss</i><par n="ann/u__n"/></e>
@@ -8665,6 +8668,8 @@
     <e lm="armuaru" r="LR"><p><l>ammuar</l><r>armuar</r></p><par n="ann/u__n"/></e>
     <e lm="armuaru" r="LR"><p><l>armuarr</l><r>armuar</r></p><par n="ann/u__n"/></e>
     <e lm="armuaru" r="LR"><p><l>ammuarr</l><r>armuar</r></p><par n="ann/u__n"/></e>
+
+    
     <e lm="ananassu"><i>ananass</i><par n="ann/u__n"/></e>
     <e lm="angru"><i>angr</i><par n="ann/u__n"/></e>
     <e lm="annaloru"><i>annalor</i><par n="ann/u__n"/></e>
@@ -8721,8 +8726,6 @@
     <e lm="arrumbatu"><i>arrumbat</i><par n="ann/u__n"/></e>
     <e lm="arrèpitu"><i>arrèpit</i><par n="ann/u__n"/></e>
     <e lm="arumenu"><i>arumen</i><par n="ann/u__n"/></e>
-    <e lm="arvaneddu"><i>arvanedd</i><par n="ann/u__n"/></e>
-    <e lm="arvaneddu" r="LR"><p><l>arbanedd</l><r>arvanedd</r></p><par n="ann/u__n"/></e>
     <e lm="arziddu"><i>arzidd</i><par n="ann/u__n"/></e>
     <e lm="aràsimu"><i>aràsim</i><par n="ann/u__n"/></e>
     <e lm="arìddaru"><i>arìddar</i><par n="ann/u__n"/></e>
@@ -8924,6 +8927,9 @@
     <e lm="carabbozzu"><i>carabbozz</i><par n="ann/u__n"/></e>
     <e lm="carabbozzu" r="LR"><p><l>caracozz</l><r>carabbozz</r></p><par n="ann/u__n"/></e>
     <e lm="carabbozzu" r="LR"><p><l>carabozz</l><r>carabbozz</r></p><par n="ann/u__n"/></e>
+    <e lm="carabbozza"><i>carabbozz</i><par n="cas/a__n"/></e>
+    <e lm="carabbozza" r="LR"><p><l>caracozz</l><r>carabbozz</r></p><par n="cas/a__n"/></e>
+    <e lm="carabbozza" r="LR"><p><l>carabozz</l><r>carabbozz</r></p><par n="cas/a__n"/></e>
     <e lm="caracèfalu"><i>caracèfal</i><par n="ann/u__n"/></e>
     <e lm="caraolu"><i>caraol</i><par n="ann/u__n"/></e>
     <e lm="caraolu" r="LR"><p><l>garagol</l><r>caraol</r></p><par n="ann/u__n"/></e>
@@ -8987,7 +8993,6 @@
     <e lm="catarru"><i>catarr</i><par n="ann/u__n"/></e>
     <e lm="catatrìpulu"><i>catatrìpul</i><par n="ann/u__n"/></e>
     <e lm="catatùffulu"><i>catatùfful</i><par n="ann/u__n"/></e>
-    <e lm="catazzùmmulu"><i>catazzùmmul</i><par n="ann/u__n"/></e>
     <e lm="catinazzu"><i>catinazz</i><par n="ann/u__n"/></e>
     <e lm="catoju"><i>catoj</i><par n="ann/u__n"/></e>
     <e lm="catusu"><i>catus</i><par n="ann/u__n"/></e>
@@ -9505,7 +9510,6 @@
     <e lm="jarrusu" r="LR"><p><l>iarrus</l><r>jarrus</r></p><par n="ann/u__n"/></e>
     <e lm="jarrusu" r="LR"><p><l>garrus</l><r>jarrus</r></p><par n="ann/u__n"/></e>
     <e lm="jarrusu" r="LR"><p><l>arrus</l><r>jarrus</r></p><par n="ann/u__n"/></e>
-    <e lm="iattu"><i>iatt</i><par n="ann/u__n"/></e>
     <e lm="jazzu"><i>jazz</i><par n="ann/u__n"/></e>
     <e lm="jazzu" r="LR"><p><l>iazz</l><r>jazz</r></p><par n="ann/u__n"/></e>
     <e lm="idròginu"><i>idrògin</i><par n="ann/u__n"/></e>
@@ -10192,8 +10196,8 @@
     <e lm="rospu"><i>rosp</i><par n="ann/u__n"/></e>
     <e lm="rumagnolu"><i>rumagnol</i><par n="ann/u__n"/></e>
     <e lm="rumenu"><i>rumen</i><par n="sicilian/u__n"/></e>
-    <e lm="rimitu"><i>rimit</i><par n="ann/u__n"/></e>
-    <e lm="rimitu" r="LR"><p><l>rumit</l><r>rimit</r></p><par n="ann/u__n"/></e>
+    <e lm="rimitu"><i>rimit</i><par n="citadin/u__n"/></e>
+    <e lm="rimitu" r="LR"><p><l>rumit</l><r>rimit</r></p><par n="citadin/u__n"/></e>
     <e lm="ruppu"><i>rupp</i><par n="ann/u__n"/></e>
     <e lm="rusignolu"><i>rusignol</i><par n="ann/u__n"/></e>
     <e lm="ruvettu"><i>ruvett</i><par n="ann/u__n"/></e>
@@ -10242,8 +10246,6 @@
     <e lm="sfacinnatu" r="LR"><p><l>spacinnat</l><r>sfacinnat</r></p><par n="ann/u__n"/></e>
     <e lm="sforzu"><i>sforz</i><par n="ann/u__n"/></e>
     <e lm="sicilianu"><i>sicilian</i><par n="sicilian/u__n"/></e>
-    <e lm="sicretu"><i>sicret</i><par n="ann/u__n"/></e>
-    <e lm="sicretu" r="LR"><p><l>sigret</l><r>sicret</r></p><par n="ann/u__n"/></e>
 
     <e lm="affannu"><i>affann</i><par n="ann/u__n"/></e>
     <e lm="simàfuru"><i>simàfur</i><par n="ann/u__n"/></e>
@@ -10288,6 +10290,7 @@
     <e lm="suprannomu"><i>suprannom</i><par n="ann/u__n"/></e>
     <e lm="surpassu"><i>surpass</i><par n="ann/u__n"/></e>
     <e lm="survizzu"><i>survizz</i><par n="ann/u__n"/></e>
+    <e lm="survizzu" r="LR"><p><l>sirvizz</l><r>survizz</r></p><par n="ann/u__n"/></e>
     <e lm="sustantivu"><i>sustantiv</i><par n="ann/u__n"/></e>
     <e lm="sàbbatu"><i>sàbbat</i><par n="ann/u__n"/></e>
     <e lm="sàbbatu" r="LR"><p><l>sàbat</l><r>sàbbat</r></p><par n="ann/u__n"/></e>
@@ -10425,6 +10428,8 @@
     <e lm="àjulu" r="LR"><p><l>gàjul</l><r>àjul</r></p><par n="ann/u__n"/></e>
     <e lm="àjulu" r="LR"><p><l>àiul</l><r>àjul</r></p><par n="ann/u__n"/></e>
     <e lm="àjulu" r="LR"><p><l>gàiul</l><r>àjul</r></p><par n="ann/u__n"/></e>
+    <e lm="àjulu" r="LR"><p><l>crisule</l><r>àjul</r></p><par n="ann/u__n"/></e>
+    <e lm="àjulu" r="LR"><p><l>crusule</l><r>àjul</r></p><par n="ann/u__n"/></e>
     <e lm="àmitu"><i>àmit</i><par n="ann/u__n"/></e>
     <e lm="àngilu"><i>àngil</i><par n="ann/u__n"/></e>
     <e lm="àngilu" r="LR"><p><l>ànciul</l><r>àngil</r></p><par n="ann/u__n"/></e>
@@ -10438,6 +10443,7 @@
     <e lm="àrvanu"><i>àrvan</i><par n="ann/u__n"/></e>
     <e lm="àrvanu" r="LR"><p><l>arvanedd</l><r>àrvan</r></p><par n="ann/u__n"/></e>
     <e lm="àrvanu" r="LR"><p><l>àrban</l><r>àrvan</r></p><par n="ann/u__n"/></e>
+    <e lm="àrvanu" r="LR"><p><l>arbanedd</l><r>àrvan</r></p><par n="ann/u__n"/></e>
     <e lm="àrvulu"><i>àrvul</i><par n="ann/u__n"/></e>
     <e lm="àrvulu" r="LR"><p><l>àrvur</l><r>àrvul</r></p><par n="ann/u__n"/></e>
     <e lm="àrvulu" r="LR"><p><l>àrbir</l><r>àrvul</r></p><par n="ann/u__n"/></e>
@@ -11414,6 +11420,7 @@
     <e lm="arribbuccamentu"><i>arribbuccament</i><par n="ann/u__n"/></e>
     <e lm="rizzettu"><i>rizzett</i><par n="ann/u__n"/></e>
     <e lm="rizzettu" r="LR"><p><l>arrisett</l><r>rizzett</r></p><par n="ann/u__n"/></e>
+    <e lm="rizzettu" r="LR"><p><l>arrisèttit</l><r>rizzett</r></p><par n="ann/u__n"/></e>
     <e lm="arziddu"><i>arzidd</i><par n="ann/u__n"/></e>
     <e lm="attrivimentu"><i>attriviment</i><par n="ann/u__n"/></e>
     <e lm="attuppateddu"><i>attuppatedd</i><par n="ann/u__n"/></e>
@@ -11506,7 +11513,6 @@
     <e lm="griddu" r="LR"><p><l>ridd</l><r>gridd</r></p><par n="ann/u__n"/></e>
     <e lm="jaddu"><i>jadd</i><par n="ann/u__n"/></e>
     <e lm="jaddu" r="LR"><p><l>iadd</l><r>jadd</r></p><par n="ann/u__n"/></e>
-    <e lm="iattu"><i>iatt</i><par n="ann/u__n"/></e>
     <e lm="landreddu"><i>landredd</i><par n="ann/u__n"/></e>
     <e lm="libbriceddu"><i>libbricedd</i><par n="ann/u__n"/></e>
     <e lm="libbriceddu" r="LR"><p><l>libricedd</l><r>libbricedd</r></p><par n="ann/u__n"/></e>
@@ -13469,6 +13475,7 @@
     <e lm="prospezzioni"><i>prospez</i><par n="pupulaz/zioni__n"/></e>
     <e lm="fiudalizzazzioni"><i>fiudalizzaz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="esclamazzioni"><i>esclamaz</i><par n="pupulaz/zioni__n"/></e>
+    <e lm="esclamazioni"><i>esclama</i><par n="pupulaz/zioni__n"/></e>
     <e lm="nrelazzioni"><i>nrelaz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="cumprinzzioni"><i>cumprinz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="imancipazzioni"><i>imancipaz</i><par n="pupulaz/zioni__n"/></e>
@@ -13542,6 +13549,7 @@
     <e lm="segregazzioni"><i>segregaz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="disirzzioni"><i>disirz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="riclassificazzioni"><i>riclassificaz</i><par n="pupulaz/zioni__n"/></e>
+    <e lm="abitazioni"><i>abita</i><par n="pupulaz/zioni__n"/></e>
     <e lm="abitazzioni"><i>abitaz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="upzzioni"><i>upz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="detenzzioni"><i>detenz</i><par n="pupulaz/zioni__n"/></e>
@@ -14426,45 +14434,22 @@
     <e lm="rufriddamentu"><i>rufriddament</i><par n="ann/u__n"/></e>
     <e lm="arruolamentu"><i>arruolament</i><par n="ann/u__n"/></e>
     <e lm="pinsioni"><i>pin</i><par n="vi/sioni__n"/></e>
-
     <e lm="mudèllu"><i>mudèll</i><par n="ann/u__n"/></e>
-    
-        <e lm="airettu"><i>airett</i><par n="ann/u__n"/></e>
+    <e lm="airettu"><i>airett</i><par n="ann/u__n"/></e>
     <e lm="appidamentu"><i>appidament</i><par n="ann/u__n"/></e>
-    <e lm="arrisettu"><i>arrisett</i><par n="ann/u__n"/></e>
-    <e lm="arrisettu" r="LR"><p><l>arrisèttit</l><r>arrisett</r></p><par n="ann/u__n"/></e>
     <e lm="curuna"><i>curun</i><par n="cas/a__n"/></e>
     <e lm="cancieddu"><i>canciedd</i><par n="ann/u__n"/></e>
-    <e lm="carabozzu"><i>carabozz</i><par n="ann/u__n"/></e>
-    <e lm="carabozzu" r="LR"><p><l>caracozz</l><r>carabozz</r></p><par n="ann/u__n"/></e>
-    <e lm="cascavaddu"><i>cascavadd</i><par n="ann/u__n"/></e>
-    <e lm="cascavaddu" r="LR"><p><l>casicavadd</l><r>cascavadd</r></p><par n="ann/u__n"/></e>
-    <e lm="cascavaddu" r="LR"><p><l>casciucavadd</l><r>cascavadd</r></p><par n="ann/u__n"/></e>
-    <e lm="cascavaddu" r="LR"><p><l>casacavadd</l><r>cascavadd</r></p><par n="ann/u__n"/></e>
-    <e lm="cascavaddu" r="LR"><p><l>casucavadd</l><r>cascavadd</r></p><par n="ann/u__n"/></e>
-    <e lm="ciaraveddu"><i>ciaravedd</i><par n="ann/u__n"/></e>
-    <e lm="ciaraveddu" r="LR"><p><l>ciarvedd</l><r>ciaravedd</r></p><par n="ann/u__n"/></e>
-    <e lm="ciaraveddu" r="LR"><p><l>ciavredd</l><r>ciaravedd</r></p><par n="ann/u__n"/></e>
-    <e lm="ciaraveddu" r="LR"><p><l>ciaredd</l><r>ciaravedd</r></p><par n="ann/u__n"/></e>
-    <e lm="ciaraveddu" r="LR"><p><l>ciavaredd</l><r>ciaravedd</r></p><par n="ann/u__n"/></e>
-    <e lm="caprettu"><i>caprett</i><par n="ann/u__n"/></e>
-    <e lm="caprettu" r="LR"><p><l>ciavredd</l><r>caprett</r></p><par n="ann/u__n"/></e>
     <e lm="cumplementu"><i>cumplement</i><par n="ann/u__n"/></e>
     <e lm="curveddu"><i>curvedd</i><par n="ann/u__n"/></e>
-    <e lm="dicièmmiru"><i>dicièmmir</i><par n="ann/u__n"/></e>
-    <e lm="dicièmmiru" r="LR"><p><l>ricièmmur</l><r>dicièmmir</r></p><par n="ann/u__n"/></e>
-    <e lm="dicièmmiru" r="LR"><p><l>ricièmmir</l><r>dicièmmir</r></p><par n="ann/u__n"/></e>
     <e lm="diàvulu"><i>divàul</i><par n="citadin/u__n"/></e>
     <e lm="diàvulu" r="LR"><p><l>riàul</l><r>divàul</r></p><par n="citadin/u__n"/></e>
     <e lm="diàvulu" r="LR"><p><l>diàul</l><r>divàul</r></p><par n="citadin/u__n"/></e>
     <e lm="diàvulu" r="LR"><p><l>riàvul</l><r>divàul</r></p><par n="citadin/u__n"/></e>
     <e lm="adenza"><i>adenz</i><par n="cas/a__n"/></e>
-    <e lm="carabozza"><i>carabozz</i><par n="cas/a__n"/></e>
-    <e lm="carabozza"><i>carabozz</i><par n="cas/a__n"/></e>
-
-
-    <e lm="fuareddu"><i>fuaredd</i><par n="ann/u__n"/></e>
-    <e lm="fuareddu" r="LR"><p><l>surfaredd</l><r>fuaredd</r></p><par n="ann/u__n"/></e>
+    <e lm="adenza" r="LR"><p><l>arenz</l><r>adenz</r></p><par n="cas/a__n"/></e>
+    <e lm="adenza" r="LR"><p><l>denz</l><r>adenz</r></p><par n="cas/a__n"/></e>
+    <e lm="adenza" r="LR"><p><l>audenz</l><r>adenz</r></p><par n="cas/a__n"/></e>
+    <e lm="adenza" r="LR"><p><l>aurenz</l><r>adenz</r></p><par n="cas/a__n"/></e>
     <e lm="iucaloru"><i>iucalor</i><par n="ann/u__n"/></e>
     <e lm="jucàttulu"><par n="j/i"/><i>ucàttul</i><par n="ann/u__n"/></e>
     <e lm="iuncu"><i>iunc</i><par n="ann/u__n"/></e>
@@ -14474,7 +14459,6 @@
     <e lm="jamiddu" r="LR"><p><l>gamill</l><r>jamidd</r></p><par n="citadin/u__n"/></e>
     <e lm="jamiddu" r="LR"><p><l>gamidd</l><r>jamidd</r></p><par n="citadin/u__n"/></e>
     <e lm="jamiddu" r="LR"><p><l>camidd</l><r>jamidd</r></p><par n="citadin/u__n"/></e>
-
     <e lm="jissottu"><i>jissott</i><par n="ann/u__n"/></e>
     <e lm="luordu"><i>luord</i><par n="bedd/u__adj"/></e>
     <e lm="mancarusu"><i>mancarus</i><par n="bedd/u__adj"/></e>
@@ -14483,14 +14467,11 @@
     <e lm="mazzamaureddu" r="LR"><p><l>mazzamariedd</l><r>mazzamauredd</r></p><par n="ann/u__n"/></e>
     <e lm="mazzamaureddu" r="LR"><p><l>marzamaredd</l><r>mazzamauredd</r></p><par n="ann/u__n"/></e>
     <e lm="mazzamaureddu" r="LR"><p><l>ammazzamaredd</l><r>mazzamauredd</r></p><par n="ann/u__n"/></e>
-    <e lm="oceddu"><i>ocedd</i><par n="ann/u__n"/></e>
-    <e lm="oceddu" r="LR"><p><l>aciedd</l><r>ocedd</r></p><par n="ann/u__n"/></e>
-    <e lm="pappaiaddu"><i>pappaiadd</i><par n="ann/u__n"/></e>
-    <e lm="pappaiaddu" r="LR"><p><l>pappagadd</l><r>pappaiadd</r></p><par n="ann/u__n"/></e>
-    <e lm="prosciuttu"><i>prosciutt</i><par n="ann/u__n"/></e>
-    <e lm="prosciuttu" r="LR"><p><l>prusutt</l><r>prosciutt</r></p><par n="ann/u__n"/></e>
-    <e lm="prosciuttu" r="LR"><p><l>prisutt</l><r>prosciutt</r></p><par n="ann/u__n"/></e>
-    <e lm="putriddu"><i>putridd</i><par n="ann/u__n"/></e>
+    <e lm="acieddu"><i>aciedd</i><par n="ann/u__n"/></e>
+    <e lm="acieddu" r="LR"><p><l>acedd</l><r>aciedd</r></p><par n="ann/u__n"/></e>
+    <e lm="acieddu" r="LR"><p><l>anciedd</l><r>aciedd</r></p><par n="ann/u__n"/></e>
+    <e lm="acieddu" r="LR"><p><l>ocedd</l><r>aciedd</r></p><par n="ann/u__n"/></e>
+    <e lm="acieddu" r="LR"><p><l>aucedd</l><r>aciedd</r></p><par n="ann/u__n"/></e>
     <e lm="paganu"><i>pagan</i><par n="sicilian/u__n"/></e>
     <e lm="paganu" r="LR"><p><l>pavan</l><r>pagan</r></p><par n="sicilian/u__n"/></e>
     <e lm="sauru_niru"><i>sauru_nir</i><par n="ann/u__n"/></e>
@@ -14516,6 +14497,7 @@
     <e lm="ammatticata"><i>ammatticat</i><par n="cas/a__n"/></e>
     <e lm="ammatticata" r="LR"><p><l>mmatticat</l><r>ammatticat</r></p><par n="cas/a__n"/></e>
     <e lm="ammuarra"><i>ammuarr</i><par n="cas/a__n"/></e>
+    <e lm="ammuarra" r="LR"><p><l>cifuner</l><r>ammuarr</r></p><par n="cas/a__n"/></e>
     <e lm="aspirina"><i>aspirin</i><par n="cas/a__n"/></e>
     <e lm="santa"><i>sant</i><par n="cas/a__n"/></e>
     <e lm="busta"><i>bust</i><par n="cas/a__n"/></e>
@@ -14538,9 +14520,6 @@
     <e lm="passata"><i>sard</i><par n="cas/a__n"/></e>
     <e lm="vespa"><i>vesp</i><par n="cas/a__n"/></e>
     <e lm="capra"><i>capr</i><par n="cas/a__n"/></e>
-    <e lm="carabozza"><i>carabozz</i><par n="cas/a__n"/></e>
-    <e lm="carabozza" r="LR"><p><l>carabbozz</l><r>carabozz</r></p><par n="cas/a__n"/></e>
-    <e lm="caracozza"><i>caracozz</i><par n="cas/a__n"/></e>
     <e lm="carcòcciula"><i>carcòcciul</i><par n="cas/a__n"/></e>
     <e lm="carcòcciula" r="LR"><p><l>carciòfful</l><r>carcòcciul</r></p><par n="cas/a__n"/></e>
     <e lm="garbona"><i>garbon</i><par n="cas/a__n"/></e>
@@ -14553,8 +14532,6 @@
     <e lm="iunta"><i>iunt</i><par n="cas/a__n"/></e>
     <e lm="iurnata"><i>iurnat</i><par n="cas/a__n"/></e>
     <e lm="iurnata" r="LR"><p><l>giurnat</l><r>iurnat</r></p><par n="cas/a__n"/></e>
-    <e lm="maara"><i>maar</i><par n="cas/a__n"/></e>
-    <e lm="maara" r="LR"><p><l>mavar</l><r>maar</r></p><par n="cas/a__n"/></e>
     <e lm="maglietta"><i>magliett</i><par n="cas/a__n"/></e>
     <e lm="persicu"><i>persic</i><par n="parc/u__n"/></e>
 
@@ -14577,9 +14554,6 @@
     <e lm="cicala"><i>cical</i><par n="cas/a__n"/></e>
     <e lm="cicala" r="LR"><p><l>tign</l><r>cical</r></p><par n="cas/a__n"/></e>
     <e lm="cicala" r="LR"><p><l>cabin</l><r>cical</r></p><par n="cas/a__n"/></e>
-    <e lm="virvina"><i>virvin</i><par n="cas/a__n"/></e>
-    <e lm="virvina" r="LR"><p><l>virvinedd</l><r>virvin</r></p><par n="cas/a__n"/></e>
-    <e lm="vìdua"><i>vìdu</i><par n="cas/a__n"/></e>
     <e lm="gnizzioni"><i>gniz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="gnizzioni" r="LR"><p><l>njiz</l><r>gni</r></p><par n="pupulaz/zioni__n"/></e>
     <e lm="gnizzioni" r="LR"><p><l>nji</l><r>gni</r></p><par n="pupulaz/zioni__n"/></e>
@@ -14588,23 +14562,13 @@
     <e lm="giugu"><i>giug</i><par n="parc/u__n"/></e>
     <e lm="iugu"><i>iug</i><par n="parc/u__n"/></e>
     <e lm="asca"><i>asc</i><par n="ripùbbric/a__n"/></e>
-    <e lm="brocca"><i>brocc</i><par n="ripùbbric/a__n"/></e>
-    <e lm="brocca" r="LR"><p><l>risacc</l><r>brocc</r></p><par n="ripùbbric/a__n"/></e>
+    <e lm="risacca"><i>risacc</i><par n="ripùbbric/a__n"/></e>
     <e lm="aritmetica"><i>aritmetic</i><par n="ripùbbric/a__n"/></e>
     <e lm="aritmetica" r="LR"><p><l>aritmètic</l><r>aritmetic</r></p><par n="ripùbbric/a__n"/></e>
     <e lm="pulìtica"><i>pulìtic</i><par n="ripùbbric/a__n"/></e>
-
     <e lm="ammizzigghia"><i>ammizziggh</i><par n="oricch/ia__n"/></e>
-
     <e lm="aria"><i>ar</i><par n="oricch/ia__n"/></e>
     <e lm="attrisagghia"><i>attrisaggh</i><par n="oricch/ia__n"/></e>
-    <e lm="aurenzia"><i>aurenz</i><par n="oricch/ia__n"/></e>
-    <e lm="aurenzia" r="LR"><p><l>aurienz</l><r>aurenz</r></p><par n="oricch/ia__n"/></e>
-    <e lm="babbillonia"><i>babbillon</i><par n="oricch/ia__n"/></e>
-    <e lm="babbillonia" r="LR"><p><l>pampilon</l><r>babbillon</r></p><par n="oricch/ia__n"/></e>
-    <e lm="babbillonia" r="LR"><p><l>mpampillon</l><r>babbillon</r></p><par n="oricch/ia__n"/></e>
-    <e lm="chesia"><i>ches</i><par n="oricch/ia__n"/></e>
-    <e lm="chesia" r="LR"><p><l>cles</l><r>ches</r></p><par n="oricch/ia__n"/></e>
     <e lm="nfafocchia"><i>nfafocch</i><par n="oricch/ia__n"/></e>
     <e lm="nfafocchia" r="LR"><p><l>mpapocch</l><r>nfafocch</r></p><par n="oricch/ia__n"/></e>
     <e lm="miniminagghia"><i>miniminaggh</i><par n="oricch/ia__n"/></e>
@@ -14624,8 +14588,6 @@
     <e lm="rigulizia" r="LR"><p><l>rigulizz</l><r>riguliz</r></p><par n="oricch/ia__n"/></e>
     <e lm="rigulizia" r="LR"><p><l>licuriz</l><r>riguliz</r></p><par n="oricch/ia__n"/></e>
     <e lm="rigulizia" r="LR"><p><l>licurizz</l><r>riguliz</r></p><par n="oricch/ia__n"/></e>
-    <e lm="maarìa"><i>maar</i><par n="filusuf/ìa__n"/></e>
-    <e lm="maarìa" r="LR"><p><l>mavar</l><r>maar</r></p><par n="filusuf/ìa__n"/></e>
     <e lm="abbusciu"><i>abbusc</i><par n="sacchegg/iu__n"/></e>
     <e lm="agiu"><i>ag</i><par n="sacchegg/iu__n"/></e>
     <e lm="assaiu"><i>assa</i><par n="sacchegg/iu__n"/></e>
@@ -15311,14 +15273,8 @@
     <e lm="amicìzzia"><i>amicìzz</i><par n="oricch/ia__n"/></e>
     <e lm="amicìzzia" r="LR"><p><l>amicizz</l><r>amicìzz</r></p><par n="oricch/ia__n"/></e>
     <e lm="ammarezu"><i>ammarez</i><par n="ann/u__n"/></e>
-    <e lm="àmmaru"><i>àmmar</i><par n="ann/u__n"/></e>
     <e lm="ammarrunata"><i>ammarrunat</i><par n="cas/a__n"/></e>
-    <e lm="ammasciata"><i>ammasciat</i><par n="cas/a__n"/></e>
-
-    
-    
     <e lm="strimitati"><i>strimit</i><par n="cit/ati__n"/></e>
-    
     <e lm="àremmi"><i>àremmi</i><par n="patri__n"/></e>
     <e lm="minuri"><i>minuri</i><par n="patri__n"/></e>
     <e lm="mustazzi"><i>mustazzi</i><par n="patri__n"/></e>
@@ -15340,8 +15296,6 @@
     <e lm="ncàrricu"><i>ncàrric</i><par n="parc/u__n"/></e>
     <e lm="palcuscenicu"><i>palcuscenic</i><par n="parc/u__n"/></e>
     <e lm="quatru"><i>quatr</i><par n="ann/u__n"/></e>
-
-    
     <e lm="signali"><i>signali</i><par n="patri__n"/></e>
     <e lm="minerali"><i>minerali</i><par n="patri__n"/></e>
     <e lm="occhiali"><i>occhiali</i><par n="patri__n"/></e>
