@@ -958,6 +958,8 @@
       	<e><p><l>i</l><r>iu<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
       	<e r="LR"><p><l>î</l><r>iu<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
       	<e r="LR"><p><l>î</l><r>iu<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
+      	<e r="LR"><p><l>ii</l><r>iu<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
+      	<e r="LR"><p><l>ii</l><r>iu<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
     
     <pardef n="duci__adj">
@@ -14236,6 +14238,7 @@
     <e lm="segretu" r="LR"><p><l>sigret</l><r>segret</r></p><par n="ann/u__n"/></e>
     <e lm="segretu" r="LR"><p><l>sicret</l><r>segret</r></p><par n="ann/u__n"/></e>
     <e lm="segretu" r="LR"><p><l>secret</l><r>segret</r></p><par n="ann/u__n"/></e>
+    <e lm="risvoltu"><i>risvolt</i><par n="ann/u__n"/></e>
 
     <e lm="stòricu"><i>stòric</i><par n="nimic/u__n"/></e>
     <e lm="àrbutru"><i>àrbutr</i><par n="citadin/u__n"/></e>
@@ -22438,6 +22441,9 @@
     <e lm="difatti"><i>difatti</i><par n="oggi__adv"/></e>
     <e lm="più"><i>più</i><par n="oggi__adv"/></e>
     
+    <e lm="di vota en vota"><i>di<b/>vota<b/>en<b/>vota</i><par n="oggi__adv"/></e>
+    <e lm="di vota en vota" r="LR"><p><l>di<b/>vota<b/>en<b/>vota</l><r>di<b/>vota<b/>'n<b/>vota</r></p><par n="oggi__adv"/></e>
+    
 <!-- 
     <e lm="propiu"><i>propiu</i><par n="oggi__adv"/></e>
     <e lm="propiu" r="LR"><p><l>propriu</l><r>propiu</r></p><par n="oggi__adv"/></e>
@@ -23795,6 +23801,7 @@
     <e lm="arriscèdiri"><i>arriscèd</i><par n="batt/iri__vblex"/></e>
     <e lm="arruspùnniri"><i>arruspùnn</i><par n="batt/iri__vblex"/></e>
     <e lm="asìstiri"><i>asìst</i><par n="batt/iri__vblex"/></e>
+    <e lm="tènniri"><i>tènn</i><par n="batt/iri__vblex"/></e>
     <e lm="attènniri"><i>attènn</i><par n="batt/iri__vblex"/></e>
     <e lm="cèdiri"><i>cèd</i><par n="batt/iri__vblex"/></e>
     <e lm="chiòviri"><i>chiòv</i><par n="batt/iri__vblex"/></e>
@@ -27752,9 +27759,10 @@
     <e lm="ntirfiriri"><i>ntirfir</i><par n="batt/iri__vblex"/></e>
     <e lm="custrìnciri"><i>custrìnc</i><par n="batt/iri__vblex"/></e>
     <e lm="mmàgginari"><i>mmàggin</i><par n="parr/ari__vblex"/></e>
-
-
+    <e lm="richiediri"><i>richied</i><par n="batt/iri__vblex"/></e>
     
+
+
     
     
     
