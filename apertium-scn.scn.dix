@@ -366,6 +366,7 @@
     <pardef n="/un__det">
     	<e><p><l>un</l><r>un<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
     	<e r="LR"><p><l>nu</l><r>un<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
+    	<e r="LR"><p><l>unu</l><r>un<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
     	<e r="LR"><p><l>'un</l><r>un<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
     	<e><p><l>na</l><r>un<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></r></p></e>
     	<e r="LR"><p><l>una</l><r>un<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></r></p></e>
@@ -587,10 +588,10 @@
     </pardef>
     
     <pardef n="att/uri__n">
-      	<e><p><l>uri</l><r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      	<e><p><l>ura</l><r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
-      	<e><p><l>ura</l><r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
-      	<e><p><l>rici</l><r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+      	<e><p><l>uri</l><r>uri<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+      	<e><p><l>ura</l><r>uri<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+      	<e><p><l>ura</l><r>uri<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+      	<e><p><l>rici</l><r>uri<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
     </pardef>
 
     <pardef n="figgh/iu__n">
@@ -10356,6 +10357,8 @@
     <e lm="lingulaca"><i>lingulac</i><par n="ripùbbric/a__n"/></e>
     <e lm="manunca"><i>manunc</i><par n="ripùbbric/a__n"/></e>
     <e lm="marmaruca"><i>marmaruc</i><par n="ripùbbric/a__n"/></e>
+    <e lm="matimàticu"><i>matimàtic</i><par n="nimic/u__n"/></e>
+
     <e lm="matimàtica"><i>matimàtic</i><par n="ripùbbric/a__n"/></e>
     <e lm="miliunca"><i>miliunc</i><par n="ripùbbric/a__n"/></e>
     <e lm="mmisca"><i>mmisc</i><par n="ripùbbric/a__n"/></e>

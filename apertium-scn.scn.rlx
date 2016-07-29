@@ -14,6 +14,7 @@ LIST Rel = rel ;
 LIST CS = cnjsub ;
 LIST Prop = np ;
 LIST Verb = vblex vbhaver vbmod vbser ;
+LIST Num = num ;
 
 
 LIST Pr = pr ; 
@@ -37,6 +38,11 @@ LIST Haver = vbhaver ;
 LIST Ser = vbser ;
 LIST Inf = inf ;
 
+LIST Det/unu = (det ind m sg);
+LIST Det/una = (det ind f sg);
+LIST Det/luMscPl = (det def m pl);
+LIST Det/luFemPl = (det def f pl);
+
 
 
 LIST Chi = "<chi>" ;
@@ -58,6 +64,13 @@ LIST Pl = pl ;
 LIST Sp = sp ;
 
 LIST Adj/pl = (adj pl) ;
+
+
+# Nouns
+LIST N/MscPl = (n m pl) ; 
+LIST N/MscSg = (n m sg) ; 
+LIST N/FemPl = (n f pl) ; 
+LIST N/FemSg = (n f sg) ; 
 
 
 LIST Ifi = ifi ; 
@@ -134,9 +147,24 @@ SELECT Pr IF (0 Pr OR PrDet) (1 Det) ;
 SELECT CS IF (1 Verb) ;
  # UBS è na banca ca havi la sedi principali nta Svìzzira.
 
-SELECT Det IF (-1C Ser) (0 Det OR PrDet) ;
+SELECT Det IF (-1C Ser) (0 Det) (0 Pr LINK 0/* Det) ;
  # UBS è na banca
+ 
+SELECT CS IF (1 Verb) ;
 
+
+# Construcción "nu/na di li ..."
+SELECT Det/unu IF (0 Det/unu OR Num) (1 Prep/di) ;
+
+SELECT Det/luMscPl IF (-2 Det/unu) (-1 Prep/di) (0 Det/luFemPl OR Det/luMscPl);
+
+SELECT Det/luFemPl IF (-2 Det/una) (-1 Prep/di) (0 Det/luFemPl OR Det/luMscPl);
+
+SELECT N/MscPl IF (-3 Det/unu) (-2 Prep/di) (-1 Det) (0 N/MscPl OR N/FemPl) ;
+ # Fibbonacci fu unu di li matimàtici granni.
+
+SELECT N/FemPl IF (-3 Det/una) (-2 Prep/di) (-1 Det) (0 N/MscPl OR N/FemPl) ;
+ # Chiara Strazzulla è na di li littirati siciliani.
 
 
 AFTER-SECTIONS
