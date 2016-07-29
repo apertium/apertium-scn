@@ -124,17 +124,18 @@ SELECT N IF (-1 Det OR Pr) (0 Cristianu) ;
 
 
 SELECT Pr IF (0 Pr OR PrDet) (1 Inf) ;
+ # Pi fari lu jurnalista prufissiuntista ...
+
 
 SELECT Pr IF (0 Pr OR PrDet) (1 Det) ;
+ # Nta lu Òrdini prufissiunali
+
 
 SELECT CS IF (1 Verb) ;
+ # UBS è na banca ca havi la sedi principali nta Svìzzira.
 
-SELECT Det IF (-1C Ser) (0 Pr) ;
-
-SELECT Msc IF (0 Adj/pl) ;
-
-
-
+SELECT Det IF (-1C Ser) (0 Det OR PrDet) ;
+ # UBS è na banca
 
 
 
