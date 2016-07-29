@@ -17,6 +17,8 @@ LIST Verb = vblex vbhaver vbmod vbser ;
 
 
 LIST Pr = pr ; 
+LIST PrDet = pr det; 
+
 
 LIST Prep/di = "<di>"i "<de>"i ;
 LIST Prep/a = "<a>"i "<davanti a>"i ;
@@ -33,6 +35,8 @@ LIST CS/ca = "<ca>" ;
 
 LIST Haver = vbhaver ;
 LIST Ser = vbser ;
+LIST Inf = inf ;
+
 
 
 LIST Chi = "<chi>" ;
@@ -119,11 +123,17 @@ SELECT N IF (-1 Det OR Pr) (0 Cristianu) ;
 
 
 
+SELECT Pr IF (0 Pr OR PrDet) (1 Inf) ;
+
+SELECT Pr IF (0 Pr OR PrDet) (1 Det) ;
+
 SELECT CS IF (1 Verb) ;
 
 SELECT Det IF (-1C Ser) (0 Pr) ;
 
 SELECT Msc IF (0 Adj/pl) ;
+
+
 
 
 
