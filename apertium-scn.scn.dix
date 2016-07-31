@@ -820,11 +820,10 @@
 
       	<e r="LR"><p><l>n</l><r>nta<s n="pr"/></r></p></e>
       	<e r="LR"><p><l>in</l><r>nta<s n="pr"/></r></p></e>
-<!-- 
       	<e r="LR"><p><l>n'</l><r>nta<s n="pr"/></r></p></e>
 
       	<e r="LR"><p><l>'n</l><r>nta<s n="pr"/></r></p></e>
- -->
+
 
       	<e r="LR"><p><l>nnô</l><r>nta<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
       	<e r="LR"><p><l>nnû</l><r>nta<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
@@ -29419,7 +29418,20 @@
     <e lm="mmistuliri" r="LR"><p><l>nvistul</l><r>mmistul</r></p><par n="batt/iri__vblex"/></e>
     <e lm="mmudurriri"><i>mmudurr</i><par n="batt/iri__vblex"/></e>
     <e lm="moriri"><i>mor</i><par n="batt/iri__vblex"/></e>
-    <e lm="moviri"><i>mov</i><par n="batt/iri__vblex"/></e>
+    <e lm="mòviri"><i>mòv</i><par n="pricèd/iri__vblex"/></e>
+    <e lm="mòviri" r="LR"><p><l>muv</l><r>mòv</r></p><par n="pricid/emu__vblex"/></e>
+    <e lm="mòviri" r="LR"><p><l>mov</l><r>mòv</r></p><par n="priced/u__vblex"/></e>
+    <e lm="mòviri" r="LR"><p><l>mòv</l><r>mòv</r></p><par n="pricèd/inu__vblex"/></e>
+    <e lm="mòviri" r="LR"><p><l>mov</l><r>mòv</r></p><par n="bàtt/iri__vblex"/></e>
+    
+    <e lm="prumòviri"><i>prumòv</i><par n="pricèd/iri__vblex"/></e>
+    <e lm="prumòviri" r="LR"><p><l>prumuv</l><r>prumòv</r></p><par n="pricid/emu__vblex"/></e>
+    <e lm="prumòviri" r="LR"><p><l>prumov</l><r>prumòv</r></p><par n="priced/u__vblex"/></e>
+    <e lm="prumòviri" r="LR"><p><l>prumòv</l><r>prumòv</r></p><par n="pricèd/inu__vblex"/></e>
+    <e lm="prumòviri" r="LR"><p><l>prumov</l><r>prumòv</r></p><par n="bàtt/iri__vblex"/></e>
+    <e lm="prumòviri" r="LR"><p><l>promuov</l><r>prumòv</r></p><par n="batt/iri__vblex"/></e>
+
+    <e lm="rafriddari"><i>rafridd</i><par n="parr/ari__vblex"/></e>
     <e lm="mpassuliri"><i>mpassul</i><par n="batt/iri__vblex"/></e>
     <e lm="mpenniri"><i>mpenn</i><par n="batt/iri__vblex"/></e>
     <e lm="ncancariri"><i>ncancar</i><par n="batt/iri__vblex"/></e>
@@ -29482,7 +29494,6 @@
     <e lm="profuttiri"><i>profutt</i><par n="batt/iri__vblex"/></e>
     <e lm="prumittiri"><i>prumitt</i><par n="batt/iri__vblex"/></e>
     <e lm="prumittiri" r="LR"><p><l>prumett</l><r>prumitt</r></p><par n="batt/iri__vblex"/></e>
-    <e lm="prumoviri"><i>prumov</i><par n="batt/iri__vblex"/></e>
     <e lm="risistiri"><i>risist</i><par n="batt/iri__vblex"/></e>
     <e lm="ristituiri"><i>ristitu</i><par n="batt/iri__vblex"/></e>
     <e lm="battiri" r="LR"><p><l>sbatt</l><r>batt</r></p><par n="batt/iri__vblex"/></e>
@@ -31958,8 +31969,6 @@
     <e lm="mmudurriri"><p><l>mmudùrr</l><r>mmudurr</r></p><par n="bàtt/inu__vblex"/></e>
     <e lm="moriri"><p><l>mòr</l><r>mor</r></p><par n="bàtt/iri__vblex"/></e>
     <e lm="moriri"><p><l>mòr</l><r>mor</r></p><par n="bàtt/inu__vblex"/></e>
-    <e lm="moviri"><p><l>mòv</l><r>mov</r></p><par n="bàtt/iri__vblex"/></e>
-    <e lm="moviri"><p><l>mòv</l><r>mov</r></p><par n="bàtt/inu__vblex"/></e>
     <e lm="mpassuliri"><p><l>mpassùl</l><r>mpassul</r></p><par n="bàtt/iri__vblex"/></e>
     <e lm="mpassuliri"><p><l>mpassùl</l><r>mpassul</r></p><par n="bàtt/inu__vblex"/></e>
     <e lm="mpenniri"><p><l>mpènn</l><r>mpenn</r></p><par n="bàtt/iri__vblex"/></e>
@@ -32064,8 +32073,6 @@
     <e lm="profuttiri"><p><l>profùtt</l><r>profutt</r></p><par n="bàtt/inu__vblex"/></e>
     <e lm="prumittiri"><p><l>prumìtt</l><r>prumitt</r></p><par n="bàtt/iri__vblex"/></e>
     <e lm="prumittiri"><p><l>prumìtt</l><r>prumitt</r></p><par n="bàtt/inu__vblex"/></e>
-    <e lm="prumoviri"><p><l>prumòv</l><r>prumov</r></p><par n="bàtt/iri__vblex"/></e>
-    <e lm="prumoviri"><p><l>prumòv</l><r>prumov</r></p><par n="bàtt/inu__vblex"/></e>
     <e lm="pirdiri"><p><l>pìrd</l><r>pird</r></p><par n="bàtt/iri__vblex"/></e>
     <e lm="pirdiri"><p><l>pìrd</l><r>pird</r></p><par n="bàtt/inu__vblex"/></e>
     <e lm="prudiri"><p><l>prùd</l><r>prud</r></p><par n="bàtt/iri__vblex"/></e>

@@ -18,11 +18,9 @@ LIST Vbmod = (vbmod) ;
 LIST Vbhaver = (vbhaver) ;
 LIST Vbser = (vbser);
 LIST Num = num ;
-
-
 LIST Pr = pr ; 
-LIST PrDet = pr det; 
 
+LIST Prn/si = (prn pro ref p3); 
 
 LIST Prep/di = "<di>"i "<de>"i ;
 LIST Prep/a = "<a>"i "<davanti a>"i ;
@@ -37,8 +35,6 @@ LIST CC/e = "<e>" ;
 LIST CC/o = "<o>" ;
 LIST CS/ca = "<ca>" ;
 
-LIST Haver = vbhaver ;
-LIST Ser = vbser ;
 LIST Inf = inf ;
 
 LIST Det/unu = (det ind m sg);
@@ -56,9 +52,6 @@ LIST nuddu = "<nuddu>" ;
 
 LIST Chi = "<chi>" ;
 LIST Cristianu = "cristianu" ;
-
-LIST Imper = imp ;
-LIST PrfPrc = pp ;
 
 LIST Sg3 = (p3 sg) ;
 LIST ProRef = (prn pro ref) ;
@@ -88,11 +81,20 @@ LIST N/f/sp = (n f sp) ;
 LIST N/m/sp = (n m sp) ; 
 LIST N/m = (n m) ; 
 LIST N/f = (n f) ;
+LIST N/pl = (n pl) ;
 
 
-
+LIST Pii = pii ; 
 LIST Ifi = ifi ; 
 LIST Pri = pri ;
+LIST Fti = fti ;
+LIST Prs = prs ;
+LIST Fts = fts ;
+LIST Pis = pis ;
+LIST Gerund = ger ; 
+LIST Imper = imp ;
+LIST PrfPrc = pp ;
+
 
 LIST Pii/p1 = (pii p1) ; 
 LIST Pii/p2 = (pii p2) ; 
@@ -128,6 +130,10 @@ SET Fin = Ifi | Pri ;
 
 SET Verb = Vblex OR Vbmod OR Vbhaver OR Vbser ;
 
+SET NonFiniteForm = Ifi OR Pis OR Pri OR Fti OR Fts OR Prs OR Imper OR Pii;
+
+SET FiniteForm = Inf OR PrfPrc or Gerund;
+
 
 SECTION
 
@@ -143,7 +149,7 @@ SELECT CS IF (0 CS/ca) ;
 
 SELECT A + $$Genero IF (-1C N + $$Genero) ;
 
-SELECT Haver IF (1C PrfPrc) ;
+SELECT Vbhaver IF (1C PrfPrc) ;
 
 SELECT Sg3 IF (-1 ProRef) ;
  # Nun si sapi quannu ci fu l’affirmazzioni di lu Cristianèsimu a Catania.
@@ -165,18 +171,18 @@ REMOVE Ind IF (0 Ind OR Pr) (1 Def) ;
 SELECT N IF (-1 Det OR Pr) (0 Cristianu) ;
 
 
-SELECT Pr IF (0 Pr OR PrDet) (1 Inf) ;
+SELECT Pr IF (0 Pr OR Pr LINK 0/* Det) (1 Inf) ;
  # Pi fari lu jurnalista prufissiuntista ...
 
 
-SELECT Pr IF (0 Pr OR PrDet) (1 Det) ;
+SELECT Pr IF (0 Pr OR Pr LINK 0/* Det) (1 Det) ;
  # Nta lu Òrdini prufissiunali
 
 
 SELECT CS IF (1 Verb) ;
  # UBS è na banca ca havi la sedi principali nta Svìzzira.
 
-SELECT Det IF (-1C Ser) (0 Det) (0 Pr LINK 0/* Det) ;
+SELECT Det IF (-1C Vbser) (0 Det) (0 Pr LINK 0/* Det) ;
  # UBS è na banca
  
 SELECT CS IF (1 Verb) ;
@@ -207,17 +213,30 @@ SELECT P3 IF (NOT -1C Pron + $$P1) (0 Pii/p1 OR Pii/p3) ;
 
 SELECT P1 IF (-1C Pron + $$P1) (0 Pii/p1 OR Pii/p3) ;
 
-SELECT P3 IF (NOT -1C Pron + $$P1 or Pron + $$P2) (0 Pis/p1 OR Pis/p2 OR Pis/p3 ) ;
+SELECT P3 IF (NOT -1C Pron + $$P1 OR Pron + $$P2) (0 Pis/p1 OR Pis/p2 OR Pis/p3 ) ;
 
 SELECT P2 IF (-1C Pron + $$P2) (0 Pis/p1 OR Pis/p2 OR Pis/p3 ) ;
 
 SELECT P1 IF (-1C Pron + $$P1) (0 Pis/p1 OR Pis/p2 OR Pis/p3 ) ;
 
-SELECT N IF (-1 Det or Pr LINK 0/* Det) (0 N + $$Msc or Verb + $$P1) ;
+SELECT N IF (-1 Det OR Pr LINK 0/* Det) (0 N + $$Msc OR Verb + $$P1) ;
+#Munnu/munnari
+
+SELECT N IF (-1 Det OR Pr LINK 0/* Det) (0 N + $$Fem OR Verb + $$P3) ;
+#Acqua/acquari
 
 SELECT Vblex IF (0 Vbhaver or Vblex) (1 Det) (2 N) ;
 
 SELECT Vblex IF (0 Vbhaver or Vblex) (1 N) ;
+
+SELECT Pr IF (0 Pr or Det + $$Ind) (1 Prop) ;
+
+SELECT Pron IF (0 Prn/si or Vbser + $$P2) (1 Vblex + $$NonFiniteForm) ;
+
+SELECT Msc IF (0 Adj/pl + $$Msc OR Adj/pl + $$Fem) (1 N/pl + $$Msc) ;
+
+SELECT Fem IF (0 Adj/pl + $$Msc OR Adj/pl + $$Fem) (1 N/pl + $$Fem) ;
+
 
 
 AFTER-SECTIONS
