@@ -21,6 +21,8 @@ LIST Num = num ;
 LIST Pr = pr ; 
 
 LIST Prn/si = (prn pro ref p3); 
+LIST Prn/ni = (prn pro p1 pl); 
+
 
 LIST Prep/di = "<di>"i "<de>"i ;
 LIST Prep/a = "<a>"i "<davanti a>"i ;
@@ -108,6 +110,14 @@ LIST P1 = p1;
 LIST P2 = p2;
 LIST P3 = p3; 
 
+LIST P1/pl = (p1 pl); 
+LIST P2/pl = (p2 pl);
+LIST P3/pl = (p3 pl); 
+
+LIST P1/sg = (p1 sg); 
+LIST P2/sg = (p2 sg);
+LIST P3/sg = (p3 sg); 
+
 LIST Msc = m ;
 LIST Fem = f ; 
 LIST MscFem = mf ;
@@ -174,10 +184,9 @@ SELECT N IF (-1 Det OR Pr) (0 Cristianu) ;
 SELECT Pr IF (0 Pr OR Pr LINK 0/* Det) (1 Inf) ;
  # Pi fari lu jurnalista prufissiuntista ...
 
-
 SELECT Pr IF (0 Pr OR Pr LINK 0/* Det) (1 Det) ;
  # Nta lu Òrdini prufissiunali
-
+ 
 
 SELECT CS IF (1 Verb) ;
  # UBS è na banca ca havi la sedi principali nta Svìzzira.
@@ -219,11 +228,14 @@ SELECT P2 IF (-1C Pron + $$P2) (0 Pis/p1 OR Pis/p2 OR Pis/p3 ) ;
 
 SELECT P1 IF (-1C Pron + $$P1) (0 Pis/p1 OR Pis/p2 OR Pis/p3 ) ;
 
-SELECT N IF (-1 Det OR Pr LINK 0/* Det) (0 N + $$Msc OR Verb + $$P1) ;
+SELECT N IF (-1 Det OR Pr LINK 0/* Det OR Pr) (0 N + $$Msc OR Verb + $$P1) ;
 #Munnu/munnari
 
-SELECT N IF (-1 Det OR Pr LINK 0/* Det) (0 N + $$Fem OR Verb + $$P3) ;
+SELECT N IF (-1 Det OR Pr LINK 0/* Det OR Pr) (0 N + $$Fem OR Verb + $$P3) ;
 #Acqua/acquari
+
+SELECT N IF (-1 Det OR Pr LINK 0/* Det OR Pr) (0 Verb + $$PrfPrc OR N) ;
+#significatu/significari
 
 SELECT Vblex IF (0 Vbhaver or Vblex) (1 Det) (2 N) ;
 
@@ -237,6 +249,10 @@ SELECT Msc IF (0 Adj/pl + $$Msc OR Adj/pl + $$Fem) (1 N/pl + $$Msc) ;
 
 SELECT Fem IF (0 Adj/pl + $$Msc OR Adj/pl + $$Fem) (1 N/pl + $$Fem) ;
 
+SELECT N IF (0 Adj/pl + $$Msc OR Adj/pl + $$Fem) (1 N/pl + $$Fem) ;
+
+SELECT Prn/ni IF (0 Prn/ni OR Pr LINK 0/* Det) (1 Verb + $$P1/pl) ;
+# n' accupamu cu ...(= "nos ocupamos con ...")
 
 
 AFTER-SECTIONS
