@@ -40,9 +40,15 @@ LIST Inf = inf ;
 
 LIST Det/unu = (det ind m sg);
 LIST Det/una = (det ind f sg);
-LIST Det/luMscPl = (det def m pl);
-LIST Det/luFemPl = (det def f pl);
+LIST DetIndMscPl = (det ind m pl);
+LIST DetIndFemPl = (det ind f pl);
+LIST DetDefMscPl = (det def m pl);
+LIST DetDefFemPl = (det def f pl);
 
+LIST DetDemMscPl = (det dem m pl);
+LIST DetDemFemPl = (det dem f pl);
+
+LIST nuddu = "<nuddu>" ;
 
 
 LIST Chi = "<chi>" ;
@@ -71,10 +77,26 @@ LIST N/MscPl = (n m pl) ;
 LIST N/MscSg = (n m sg) ; 
 LIST N/FemPl = (n f pl) ; 
 LIST N/FemSg = (n f sg) ; 
+LIST N/mf = (n mf) ; 
+LIST N/f/sp = (n f sp) ; 
+LIST N/m/sp = (n m sp) ; 
+
 
 
 LIST Ifi = ifi ; 
 LIST Pri = pri ;
+
+LIST Pii/p1 = (pii p1) ; 
+LIST Pii/p2 = (pii p2) ; 
+LIST Pii/p3 = (pii p3) ;
+
+LIST Pis/p1 = (pis p1) ; 
+LIST Pis/p2 = (pis p3) ;
+LIST Pis/p3 = (pis p3) ;
+
+LIST P1 = p1; 
+LIST P2 = p2;
+LIST P3 = p3; 
 
 LIST Msc = m ;
 LIST Fem = f ; 
@@ -135,7 +157,6 @@ REMOVE Ind IF (0 Ind OR Pr) (1 Def) ;
 SELECT N IF (-1 Det OR Pr) (0 Cristianu) ;
 
 
-
 SELECT Pr IF (0 Pr OR PrDet) (1 Inf) ;
  # Pi fari lu jurnalista prufissiuntista ...
 
@@ -156,15 +177,28 @@ SELECT CS IF (1 Verb) ;
 # Construcción "nu/na di li ..."
 SELECT Det/unu IF (0 Det/unu OR Num) (1 Prep/di) ;
 
-SELECT Det/luMscPl IF (-2 Det/unu) (-1 Prep/di) (0 Det/luFemPl OR Det/luMscPl);
+SELECT DetIndMscPl IF (-2 Det/unu) (-1 Prep/di) (0 DetIndFemPl OR DetIndMscPl);
 
-SELECT Det/luFemPl IF (-2 Det/una) (-1 Prep/di) (0 Det/luFemPl OR Det/luMscPl);
+SELECT DetIndFemPl IF (-2 Det/una) (-1 Prep/di) (0 DetIndFemPl OR DetIndMscPl);
 
 SELECT N/MscPl IF (-3 Det/unu) (-2 Prep/di) (-1 Det) (0 N/MscPl OR N/FemPl) ;
  # Fibbonacci fu unu di li matimàtici granni.
 
 SELECT N/FemPl IF (-3 Det/una) (-2 Prep/di) (-1 Det) (0 N/MscPl OR N/FemPl) ;
  # Chiara Strazzulla è na di li littirati siciliani.
+ 
+SELECT DetIndMscPl IF (0 DetIndMscPl OR DetIndFemPl) (1 N/mf + $$Pl) ;
+
+SELECT DetDemMscPl IF (0 DetDemMscPl OR DetDemFemPl) (1 N/m/sp) ;
+
+SELECT DetDemFemPl IF (0 DetDemMscPl OR DetDemFemPl) (1 N/f/sp) ;
+
+SELECT Pron IF (0 nuddu) (1 Verb) ;
+
+SELECT P3 IF (NOT -1C Pron + $$P1) (0 Pii/p1 OR Pii/p3) ;
+
+SELECT P3 IF (NOT -1C Pron + $$P1 or Pron + $$P2) (0 Pis/p1 OR Pis/p2 OR Pis/p3ccd ) ;
+
 
 
 AFTER-SECTIONS
