@@ -13,7 +13,10 @@ LIST CC = cnjcoo ;
 LIST Rel = rel ; 
 LIST CS = cnjsub ;
 LIST Prop = np ;
-LIST Verb = vblex vbhaver vbmod vbser ;
+LIST Vblex = (vblex) ;
+LIST Vbmod = (vbmod) ;
+LIST Vbhaver = (vbhaver) ;
+LIST Vbser = (vbser);
 LIST Num = num ;
 
 
@@ -69,7 +72,10 @@ LIST Sg = sg ;
 LIST Pl = pl ; 
 LIST Sp = sp ;
 
+# Adjectives
 LIST Adj/pl = (adj pl) ;
+LIST Adj/mf/sp = (adj mf sp) ;
+
 
 
 # Nouns
@@ -80,6 +86,8 @@ LIST N/FemSg = (n f sg) ;
 LIST N/mf = (n mf) ; 
 LIST N/f/sp = (n f sp) ; 
 LIST N/m/sp = (n m sp) ; 
+LIST N/m = (n m) ; 
+LIST N/f = (n f) ;
 
 
 
@@ -118,7 +126,7 @@ SET Numero = NotSg | NotPl ;
 
 SET Fin = Ifi | Pri ; 
 
-
+SET Verb = Vblex OR Vbmod OR Vbhaver OR Vbser ;
 
 
 SECTION
@@ -197,8 +205,19 @@ SELECT Pron IF (0 nuddu) (1 Verb) ;
 
 SELECT P3 IF (NOT -1C Pron + $$P1) (0 Pii/p1 OR Pii/p3) ;
 
-SELECT P3 IF (NOT -1C Pron + $$P1 or Pron + $$P2) (0 Pis/p1 OR Pis/p2 OR Pis/p3ccd ) ;
+SELECT P1 IF (-1C Pron + $$P1) (0 Pii/p1 OR Pii/p3) ;
 
+SELECT P3 IF (NOT -1C Pron + $$P1 or Pron + $$P2) (0 Pis/p1 OR Pis/p2 OR Pis/p3 ) ;
+
+SELECT P2 IF (-1C Pron + $$P2) (0 Pis/p1 OR Pis/p2 OR Pis/p3 ) ;
+
+SELECT P1 IF (-1C Pron + $$P1) (0 Pis/p1 OR Pis/p2 OR Pis/p3 ) ;
+
+SELECT N IF (-1 Det or Pr LINK 0/* Det) (0 N + $$Msc or Verb + $$P1) ;
+
+SELECT Vblex IF (0 Vbhaver or Vblex) (1 Det) (2 N) ;
+
+SELECT Vblex IF (0 Vbhaver or Vblex) (1 N) ;
 
 
 AFTER-SECTIONS
