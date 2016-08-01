@@ -291,9 +291,7 @@
     </pardef>
     
     <pardef n="cci__prn">
-        <e><p><l></l><r><s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sp"/></r></p></e>
-        <e><p><l></l><r><s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="sp"/></r></p></e>
-
+        <e><p><l></l><r><s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
     </pardef>
 
 
@@ -1052,11 +1050,9 @@
       <e><p><l>lla</l><r>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>lli</l><r>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>lli</l><r>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>  
-      <e><p><l>llu</l><r>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>    
+      <e><p><l>llu</l><r>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>  
     </pardef>
     
-
-
     
     <pardef n="S__scrivènnuti">
       <e><p><l>mi</l><r>mi<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
@@ -1069,13 +1065,12 @@
       <e><p><l>lli</l><r>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>  
       <e><p><l>llu</l><r>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>  
     </pardef>
-
     
     <pardef n="S__scrivènnusi">
       <e><p><l>mi</l><r>mi<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
       <e><p><l>ni</l><r>ni<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
-      <e><p><l>ti</l><r>ti<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
-      <e><p><l>vi</l><r>vi<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e><p><l>ti</l><r>ti<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e><p><l>vi</l><r>vi<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
       <e><p><l>cci</l><r>cci<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>  
       <e><p><l>cci</l><r>cci<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>  
       <e><p><l>llu</l><r>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
@@ -1117,6 +1112,7 @@
       <e><p><l>li</l><r>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
 
       <e><p><l>si</l><r>si<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
+      <e><p><l>si</l><r>si<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/><j/></r></p><par n="S__scrivènnusi"/></e>
 
       <e><p><l>lu</l><r>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>
     </pardef>
@@ -1641,44 +1637,17 @@
     <pardef n="annarb/ari__vblex">
       	<e><p><l>ari</l><r>ari<s n="vblex"/><s n="inf"/></r></p></e>
     	<e r="LR"><p><l>àri</l><r>ari<s n="vblex"/><s n="inf"/><j/></r></p></e>
-
-    	 <!-- Presento de Indicativo  -->
-
     	<e><p><l>a</l><r>ari<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
-
-    	 <!-- Imperativo -->
     	<e><p><l>assi</l><r>ari<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
-
-
-    	 <!-- Preterito de Indicativo -->
-
     	<e><p><l>au</l><r>ari<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
     	<e r="LR"><p><l>ò</l><r>ari<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
     	<e r="LR"><p><l>ài</l><r>ari<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
-
-    	 <!-- Imperfecto de Indicativo -->
-    	<e><p><l>avi</l><r>ari<s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
     	<e><p><l>ava</l><r>ari<s n="vblex"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
-        
-    	 <!-- Futuro Simple -->
-
     	<e><p><l>irà</l><r>ari<s n="vblex"/><s n="fti"/><s n="p3"/><s n="sg"/></r></p></e>
     	<e r="LR"><p><l>irrà</l><r>ari<s n="vblex"/><s n="fti"/><s n="p3"/><s n="sg"/></r></p></e>
-
-
-    	 <!-- Presente de Subjuntivo falta en Siciliano -->
-
-    	 <!-- Pretérito de Subjuntivo -->
     	<e><p><l>assi</l><r>ari<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
-
-    	
-    	 <!-- Condicional -->
     	<e><p><l>irìa</l><r>ari<s n="vblex"/><s n="cni"/><s n="p3"/><s n="sg"/></r></p></e>
     	<e r="LR"><p><l>iria</l><r>ari<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
-        
-        <e><p><l>at</l><r>ari<s n="vblex"/><s n="pp"/></r></p><par n="A__/u"/></e>
-        <e r="LR"><p><l>àt</l><r>ari<s n="vblex"/><s n="pp"/></r></p><par n="A__/u"/></e>
-
         <e><p><l>annu</l><r>ari<s n="vblex"/><s n="ger"/></r></p></e>
     </pardef>
         
@@ -27215,6 +27184,9 @@
     <e lm="spartiri" r="LR"><p><l>spart</l><r>spart</r></p><par n="batt/iri__vblex"/></e>
     <e lm="spartiri" r="LR"><p><l>spàrt</l><r>spart</r></p><par n="bàtt/iri__vblex"/></e>
     <e lm="spartiri" r="LR"><p><l>spàrt</l><r>spart</r></p><par n="bàtt/inu__vblex"/></e>
+    
+    <e lm="battiri"><i>batt</i><par n="batt/iri__vblex"/></e>
+    <e lm="battiri" r="LR"><p><l>bàtt</l><r>batt</r></p><par n="bàtt/inu__vblex"/></e>
     <e lm="nziriri"><i>nzir</i><par n="fin/iri__vblex"/></e>
 
     <e lm="rifiriri"><i>rifir</i><par n="fin/iri__vblex"/></e>
@@ -27356,8 +27328,6 @@
     <e lm="mmèstiri"><i>mmèst</i><par n="batt/iri__vblex"/></e>
     <e lm="accumuniàri"><i>accumun</i><par n="piggh/iari__vblex"/></e>
     <e lm="сhiùmpiri"><i>сhiùmp</i><par n="batt/iri__vblex"/></e>
-    <e lm="gràpiri"><i>gràp</i><par n="batt/iri__vblex"/></e>
-    <e lm="gràpiri" r="LR"><p><l>grap</l><r>gràp</r></p><par n="batt/iri__vblex"/></e>
     <e lm="timìri"><i>tim</i><par n="batt/iri__vblex"/></e>
     <e lm="ùrdiri"><i>ùrd</i><par n="batt/iri__vblex"/></e>
     <e lm="vistìri"><i>vist</i><par n="batt/iri__vblex"/></e>
