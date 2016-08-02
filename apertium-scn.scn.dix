@@ -26184,6 +26184,7 @@
     <e lm="ntrattèniri"><i>ntratt</i><par n="t/èniri__vblex"/></e>
     <e lm="cuntèniri"><i>cunt</i><par n="t/èniri__vblex"/></e>
     <e lm="mantèniri"><i>mant</i><par n="t/èniri__vblex"/></e>
+    <e lm="mantèniri" r="LR"><p><l>ammant</l><r>mant</r></p><par n="t/èniri__vblex"/></e>
     <e lm="ritèniri"><i>rit</i><par n="t/èniri__vblex"/></e>
     <e lm="ottèniri"><i>ott</i><par n="t/èniri__vblex"/></e>
     <e lm="ottèniri" r="LR"><p><l>utt</l><r>ott</r></p><par n="t/èniri__vblex"/></e>
@@ -26312,7 +26313,6 @@
     <e lm="avvicinari"><i>avvicin</i><par n="parr/ari__vblex"/></e>
     <e lm="manciari"><i>manci</i><par n="manci/ari__vblex"/></e>
     <e lm="cuntari"><i>cunt</i><par n="parr/ari__vblex"/></e>
-    <e lm="cuntari" r="LR"><p><l>cont</l><r>cunt</r></p><par n="parr/ari__vblex"/></e>
     <e lm="pinzari"><i>pinz</i><par n="parr/ari__vblex"/></e>
     <e lm="pinzari" r="LR"><p><l>pins</l><r>pinz</r></p><par n="parr/ari__vblex"/></e>
     <e lm="ammucciari"><i>ammucci</i><par n="manci/ari__vblex"/></e>
@@ -26406,7 +26406,6 @@
     <e lm="furmari" r="LR"><p><l>fòrm</l><r>furm</r></p><par n="abbènt/anu__vblex"/></e>
 
     <e lm="situari"><i>situ</i><par n="parr/ari__vblex"/></e>
-    <e lm="cunsidirari"><i>cunsidir</i><par n="parr/ari__vblex"/></e>
     <e lm="numinari"><i>numin</i><par n="parr/ari__vblex"/></e>
     <e lm="criari"><i>cr</i><par n="tal/iari__vblex"/></e>
     <e lm="significari"><i>signific</i><par n="manc/ari__vblex"/></e>
@@ -26443,9 +26442,7 @@
     <e lm="addivintari" r="LR"><p><l>addvènt</l><r>addivint</r></p><par n="abbent/u__vblex"/></e>
 
     <e lm="ammazzari"><i>ammazz</i><par n="parr/ari__vblex"/></e>
-    <e lm="cunsidirari" r="LR"><p><l>cunzidir</l><r>cunsidir</r></p><par n="parr/ari__vblex"/></e>
-    <e lm="cunsidirari" r="LR"><p><l>cunziddir</l><r>cunsidir</r></p><par n="parr/ari__vblex"/></e>
-    <e lm="cunsidirari" r="LR"><p><l>cunzìddir</l><r>cunsidir</r></p><par n="parr/ari__vblex"/></e>
+
     <e lm="sucari"><i>suc</i><par n="manc/ari__vblex"/></e>
     <e lm="prutistari"><i>prutist</i><par n="parr/ari__vblex"/></e>
     <e lm="aumintari"><i>aumint</i><par n="parr/ari__vblex"/></e>
@@ -27131,7 +27128,7 @@
     <e lm="cippari"><i>cipp</i><par n="parr/ari__vblex"/></e>
     <e lm="cutulari"><i>cutul</i><par n="parr/ari__vblex"/></e>
     <e lm="culari"><i>cul</i><par n="parr/ari__vblex"/></e>
-    <e lm="cunzari"><i>cunz</i><par n="parr/ari__vblex"/></e>
+    <e lm="cunzari"><i>cunz</i><par n="abbint/ari__vblex"/></e>
     <e lm="curdari"><i>curd</i><par n="parr/ari__vblex"/></e>
     <e lm="dirraricari"><i>dirraric</i><par n="manc/ari__vblex"/></e>
     <e lm="fracari"><i>frac</i><par n="manc/ari__vblex"/></e>
@@ -27170,6 +27167,13 @@
     <e lm="accidiri" r="LR"><p><l>accìd</l><r>accid</r></p><par n="bàtt/inu__vblex"/></e>
     <e lm="nzignari"><i>nzign</i><par n="parr/ari__vblex"/></e>
     <e lm="cunziddirari"><i>cunziddir</i><par n="parr/ari__vblex"/></e>
+    <e lm="cunziddirari" r="LR"><p><l>cunzidir</l><r>cunziddir</r></p><par n="parr/ari__vblex"/></e>
+    <e lm="cunziddirari" r="LR"><p><l>cunsidir</l><r>cunziddir</r></p><par n="parr/ari__vblex"/></e>
+    <e lm="cunziddirari" r="LR"><p><l>cunzìddir</l><r>cunziddir</r></p><par n="parr/ari__vblex"/></e>
+    <e lm="cunziddirari" r="LR"><p><l>cunzidìr</l><r>cunziddir</r></p><par n="pàrr/anu__vblex"/></e>
+    <e lm="cunziddirari" r="LR"><p><l>cunsidìr</l><r>cunziddir</r></p><par n="pàrr/anu__vblex"/></e>
+    <e lm="cunziddirari" r="LR"><p><l>cunzìddir</l><r>cunziddir</r></p><par n="pàrr/anu__vblex"/></e>
+
     <e lm="arrignari"><i>arrign</i><par n="parr/ari__vblex"/></e>
     <e lm="rignari"><i>rign</i><par n="parr/ari__vblex"/></e>
     <e lm="surpassari"><i>surpass</i><par n="parr/ari__vblex"/></e>
@@ -27207,6 +27211,11 @@
     <e lm="succèdiri"><p><l>succid</l><r>succèd</r></p><par n="pricid/emu__vblex"/></e>
     <e lm="succèdiri"><p><l>succed</l><r>succèd</r></p><par n="priced/u__vblex"/></e>
     <e lm="succèdiri"><p><l>succèd</l><r>succèd</r></p><par n="pricèd/inu__vblex"/></e>
+    <e lm="succèdiri"><p><l>succìd</l><r>succèd</r></p><par n="bàtt/iri__vblex"/></e>
+    <e lm="succèdiri"><p><l>succid</l><r>succèd</r></p><par n="bàtt/iri__vblex"/></e>
+    
+    <e lm="uccìdiri"><i>uccìd</i><par n="batt/iri__vblex"/></e>
+
     <e lm="cèdiri"><i>cèd</i><par n="pricèd/iri__vblex"/></e>
     <e lm="cèdiri"><p><l>cid</l><r>cèd</r></p><par n="pricid/emu__vblex"/></e>
     <e lm="cèdiri"><p><l>ced</l><r>cèd</r></p><par n="priced/u__vblex"/></e>
@@ -28309,14 +28318,23 @@
     <e lm="cunfissari"><i>cunfiss</i><par n="parr/ari__vblex"/></e>
     <e lm="cunniari"><i>cunn</i><par n="piggh/iari__vblex"/></e>
     <e lm="cunnuliari"><i>cunnul</i><par n="piggh/iari__vblex"/></e>
-    <e lm="cunsigghiari"><i>cunsiggh</i><par n="piggh/iari__vblex"/></e>
+    <e lm="cunzigghiari" a="BonnerDict"><i>cunziggh</i><par n="piggh/iari__vblex"/></e>
+    <e lm="cunzigghiari" r="LR" a="BonnerDict"><p><l>cunziggh</l><r>cunziggh</r></p><par n="batt/iri__vblex"/></e>
+    <e lm="cunzigghiari" r="LR" a="BonnerDict"><p><l>cunsiggh</l><r>cunziggh</r></p><par n="piggh/iari__vblex"/></e>
+    <e lm="cunzigghiari" r="LR" a="BonnerDict"><p><l>cunzìggh</l><r>cunziggh</r></p><par n="pìggh/ianu__vblex"/></e>
+    <e lm="cunzigghiari" r="LR" a="BonnerDict"><p><l>cunsìggh</l><r>cunziggh</r></p><par n="pìggh/ianu__vblex"/></e>
+    
     <e lm="cunzigghiri"><i>cunziggh</i><par n="batt/iri__vblex"/></e>
-    <e lm="cunsigghiari" r="LR"><p><l>cunziggh</l><r>cunsiggh</r></p><par n="piggh/iari__vblex"/></e>
+    <e lm="cunzigghiri" r="LR"><p><l>cunsiggh</l><r>cunziggh</r></p><par n="batt/iri__vblex"/></e>
+
     <e lm="cunzultari"><i>cunzult</i><par n="parr/ari__vblex"/></e>
     <e lm="cunzultari" r="LR"><p><l>cunsult</l><r>cunzult</r></p><par n="parr/ari__vblex"/></e>
     <e lm="cunurtari"><i>cunurt</i><par n="parr/ari__vblex"/></e>
-    <e lm="cupiari"><i>cup</i><par n="piggh/iari__vblex"/></e>
     <e lm="cuppiari"><i>cupp</i><par n="piggh/iari__vblex"/></e>
+    <e lm="cuppiari" r="LR"><p><l>cup</l><r>cupp</r></p><par n="piggh/iari__vblex"/></e>
+
+    <e lm="curcari" a="BonnerDict"><i>curc</i><par n="manc/ari__vblex"/></e>
+
     <e lm="curmari"><i>curm</i><par n="parr/ari__vblex"/></e>
     <e lm="curpiari"><i>curp</i><par n="piggh/iari__vblex"/></e>
     <e lm="curriari"><i>curr</i><par n="piggh/iari__vblex"/></e>
@@ -29183,7 +29201,7 @@
     <e lm="stirari"><i>stir</i><par n="parr/ari__vblex"/></e>
     <e lm="strascinari"><i>strascin</i><par n="parr/ari__vblex"/></e>
     <e lm="stuiari"><i>stu</i><par n="tal/iari__vblex"/></e>
-    <e lm="stuiari" r="LR"><p><l>stuj</l><r>stui</r></p><par n="parr/ari__vblex"/></e>
+    <e lm="stuiari" r="LR"><p><l>stuj</l><r>stui</r></p><par n="tal/iari__vblex"/></e>
     <e lm="studiari" r="LR"><p><l>stur</l><r>stud</r></p><par n="tal/iari__vblex"/></e>
     <e lm="ciusciari"><i>ciusci</i><par n="manci/ari__vblex"/></e>
     <e lm="ciusciari" r="LR"><p><l>susci</l><r>ciusci</r></p><par n="manci/ari__vblex"/></e>
@@ -30084,6 +30102,8 @@
     <e lm="allurdari"><p><l>allòrd</l><r>allurd</r></p><par n="abbènt/anu__vblex"/></e>
     <e lm="cunzari"><p><l>conz</l><r>cunz</r></p><par n="abbent/u__vblex"/></e>
     <e lm="cunzari"><p><l>cònz</l><r>cunz</r></p><par n="abbènt/anu__vblex"/></e>
+    <e lm="cunzari"><p><l>cunz</l><r>cunz</r></p><par n="abbint/amu__vblex"/></e>
+
     <e lm="arrubbari"><p><l>arrobb</l><r>arrubb</r></p><par n="abbent/u__vblex"/></e>
     <e lm="arrubbari"><p><l>arròbb</l><r>arrubb</r></p><par n="abbènt/anu__vblex"/></e>
     <e lm="arrubbari"><p><l>arrob</l><r>arrubb</r></p><par n="abbent/u__vblex"/></e>
@@ -30598,9 +30618,6 @@
     <e lm="svidiri"><i>svid</i><par n="batt/iri__vblex"/></e>
     <e lm="svidiri" r="LR"><p><l>sbid</l><r>svid</r></p><par n="batt/iri__vblex"/></e>
     <e lm="tingiri"><i>ting</i><par n="batt/iri__vblex"/></e>
-    <e lm="uccidiri"><i>uccid</i><par n="batt/iri__vblex"/></e>
-    <e lm="uccidiri" r="LR"><p><l>auccid</l><r>uccid</r></p><par n="batt/iri__vblex"/></e>
-    <e lm="vieniri"><i>vien</i><par n="batt/iri__vblex"/></e>
     <e lm="cummunicari"><i>cummunic</i><par n="manc/ari__vblex"/></e>
     <e lm="cullucari"><i>culluc</i><par n="manc/ari__vblex"/></e>
     <e lm="idintificari"><i>idintific</i><par n="manc/ari__vblex"/></e>
@@ -31096,8 +31113,6 @@
     <e lm="addrummìsciri" r="LR"><p><l>addurmìsc</l><r>addrummìsc</r></p><par n="ntrudùc/inu__vblex"/></e>
     <e lm="addrummìsciri" r="LR"><p><l>addurmisc</l><r>addrummìsc</r></p><par n="bàtt/iri__vblex"/></e>
     <e lm="addrummìsciri" r="LR"><p><l>addurmisc</l><r>addrummìsc</r></p><par n="ntruduc/i__vblex"/></e>
-    
-    
 
     <e lm="cunvìnciri"><i>cunvìnc</i><par n="ntrudùc/iri__vblex"/></e>
     <e lm="cunvìnciri" r="LR"><p><l>cunvinc</l><r>cunvìnc</r></p><par n="ntruduc/i__vblex"/></e>
@@ -31110,8 +31125,6 @@
     <e lm="cunvìnciri" r="LR"><p><l>cummìnc</l><r>cunvìnc</r></p><par n="ntrudùc/inu__vblex"/></e>
     <e lm="cunvìnciri" r="LR"><p><l>cumminc</l><r>cunvìnc</r></p><par n="bàtt/iri__vblex"/></e>
     <e lm="cunvìnciri" r="LR"><p><l>cumminc</l><r>cunvìnc</r></p><par n="ntrudùc/inu__vblex"/></e>
-
-
     
     <e lm="ngùsciri"><i>ngùsc</i><par n="ntrudùc/iri__vblex"/></e>
     <e lm="ngùsciri" r="LR"><p><l>ngusc</l><r>ngùsc</r></p><par n="ntruduc/i__vblex"/></e>
@@ -31693,7 +31706,6 @@
     <e lm="cugnilari" r="LR"><p><l>cugnìl</l><r>cugnil</r></p><par n="pàrr/anu__vblex"/></e>
     <e lm="carramari" r="LR"><p><l>carràm</l><r>carram</r></p><par n="pàrr/anu__vblex"/></e>
     <e lm="cullabburari" r="LR"><p><l>cullabbùr</l><r>cullabbur</r></p><par n="pàrr/anu__vblex"/></e>
-    <e lm="cunzari" r="LR"><p><l>cùnz</l><r>cunz</r></p><par n="pàrr/anu__vblex"/></e>
     <e lm="crafassari" r="LR"><p><l>crafàss</l><r>crafass</r></p><par n="pàrr/anu__vblex"/></e>
     <e lm="cullari" r="LR"><p><l>cùll</l><r>cull</r></p><par n="pàrr/anu__vblex"/></e>
     <e lm="cumannari" r="LR"><p><l>cumànn</l><r>cumann</r></p><par n="pàrr/anu__vblex"/></e>
@@ -32209,8 +32221,6 @@
     <e lm="capiri"><p><l>càp</l><r>cap</r></p><par n="bàtt/inu__vblex"/></e>
     <e lm="cunsistiri"><p><l>cunsìst</l><r>cunsist</r></p><par n="bàtt/iri__vblex"/></e>
     <e lm="cunsistiri"><p><l>cunsìst</l><r>cunsist</r></p><par n="bàtt/inu__vblex"/></e>
-    <e lm="cunzigghiri"><p><l>cunzìggh</l><r>cunziggh</r></p><par n="bàtt/iri__vblex"/></e>
-    <e lm="cunzigghiri"><p><l>cunzìggh</l><r>cunziggh</r></p><par n="bàtt/inu__vblex"/></e>
     <e lm="cadiri"><p><l>càd</l><r>cad</r></p><par n="bàtt/iri__vblex"/></e>
     <e lm="cadiri"><p><l>càd</l><r>cad</r></p><par n="bàtt/inu__vblex"/></e>
     <e lm="camuliri"><p><l>camùl</l><r>camul</r></p><par n="bàtt/iri__vblex"/></e>
