@@ -224,6 +224,8 @@ SELECT P1 IF (-1C Pron + $$P1) (0 Pii/p1 OR Pii/p3) ;
 
 SELECT P3 IF (NOT -1C Pron + $$P1 OR Pron + $$P2) (0 Pis/p1 OR Pis/p2 OR Pis/p3 ) ;
 
+SELECT P3 IF (NOT -1C Pron + $$P2) (0 Pri + $$P2 OR Pri + $$P3) ;
+
 SELECT P2 IF (-1C Pron + $$P2) (0 Pis/p1 OR Pis/p2 OR Pis/p3 ) ;
 
 SELECT P1 IF (-1C Pron + $$P1) (0 Pis/p1 OR Pis/p2 OR Pis/p3 ) ;

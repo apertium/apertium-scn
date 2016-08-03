@@ -26554,9 +26554,9 @@
     <e lm="catturari"><i>cattur</i><par n="parr/ari__vblex"/></e>
     <e lm="prisentari"><i>prisent</i><par n="parr/ari__vblex"/></e>
     <e lm="addivintari"><i>addivint</i><par n="abbint/ari__vblex"/></e>
-    <e lm="addivintari" r="LR"><p><l>addvint</l><r>addivint</r></p><par n="abbint/ari__vblex"/></e>
-    <e lm="addivintari" r="LR"><p><l>addvent</l><r>addivint</r></p><par n="abbent/u__vblex"/></e>
-    <e lm="addivintari" r="LR"><p><l>addvènt</l><r>addivint</r></p><par n="abbent/u__vblex"/></e>
+    <e lm="addivintari" r="LR"><p><l>addivint</l><r>addivint</r></p><par n="abbint/amu__vblex"/></e>
+    <e lm="addivintari" r="LR"><p><l>addivent</l><r>addivint</r></p><par n="abbent/u__vblex"/></e>
+    <e lm="addivintari" r="LR"><p><l>addivènt</l><r>addivint</r></p><par n="abbènt/anu__vblex"/></e>
 
     <e lm="ammazzari"><i>ammazz</i><par n="parr/ari__vblex"/></e>
 
@@ -27286,9 +27286,7 @@
     <e lm="rumpiri"><i>rump</i><par n="batt/iri__vblex"/></e>
     <e lm="truvari"><i>truv</i><par n="abbint/ari__vblex"/></e>
     <e lm="trasiri"><i>tras</i><par n="batt/iri__vblex"/></e>
-    <e lm="accidiri"><i>accid</i><par n="batt/iri__vblex"/></e>
-    <e lm="accidiri" r="LR"><p><l>accìd</l><r>accid</r></p><par n="bàtt/iri__vblex"/></e>
-    <e lm="accidiri" r="LR"><p><l>accìd</l><r>accid</r></p><par n="bàtt/inu__vblex"/></e>
+
     <e lm="nzignari"><i>nzign</i><par n="parr/ari__vblex"/></e>
     <e lm="cunziddirari"><i>cunziddir</i><par n="parr/ari__vblex"/></e>
     <e lm="cunziddirari" r="LR"><p><l>cunzidir</l><r>cunziddir</r></p><par n="parr/ari__vblex"/></e>
@@ -27343,6 +27341,9 @@
 
     <e lm="uccìdiri" a="BonnerDict"><i>uccìd</i><par n="scùrr/iri__vblex"/></e>
     <e lm="uccìdiri" r="LR" a="BonnerDict"><p><l>uccid</l><r>uccìd</r></p><par n="scurr/u__vblex"/></e>
+    
+    <e lm="accìdiri" a="BonnerDict"><i>accìd</i><par n="scùrr/iri__vblex"/></e>
+    <e lm="accìdiri" r="LR" a="BonnerDict"><p><l>accid</l><r>accìd</r></p><par n="scurr/u__vblex"/></e>
     
     <e lm="omèttiri"><i>om</i><par n="m/èttiri__vblex"/></e>
     <e lm="omèttiri" r="LR"><p><l>um</l><r>om</r></p><par n="m/èttiri__vblex"/></e>
