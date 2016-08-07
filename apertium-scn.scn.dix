@@ -5017,6 +5017,9 @@
     <pardef n="p/èrdiri__vblex">
       	<e><p><l>èrdiri</l><r>èrdiri<s n="vblex"/><s n="inf"/></r></p></e>
       	<e r="LR"><p><l>erdiri</l><r>èrdiri<s n="vblex"/><s n="inf"/></r></p></e>
+      	<e r="LR"><p><l>eddiri</l><r>èrdiri<s n="vblex"/><s n="inf"/></r></p></e>
+      	<e r="LR"><p><l>èddiri</l><r>èrdiri<s n="vblex"/><s n="inf"/></r></p></e>
+
       	<e><p><l>èrdiri</l><r>èrdiri<s n="vblex"/><s n="inf"/><j/></r></p><par n="S__battiri"/></e>
       	<e r="LR"><p><l>erdiri</l><r>èrdiri<s n="vblex"/><s n="inf"/><j/></r></p><par n="S__battiri"/></e>
 
@@ -5593,6 +5596,11 @@
     <pardef n="f/ari__vblex">
       	<e><p><l>ari</l><r>ari<s n="vblex"/><s n="inf"/></r></p></e>
       	<e><p><l>ari</l><r>ari<s n="vblex"/><s n="inf"/><j/></r></p><par n="S__battiri"/></e>
+      	
+        <e r="LR"><p><l>àciri</l><r>ari<s n="vblex"/><s n="inf"/></r></p></e>
+      	<e r="LR"><p><l>àciri</l><r>ari<s n="vblex"/><s n="inf"/><j/></r></p><par n="S__battiri"/></e>
+        <e r="LR"><p><l>aciri</l><r>ari<s n="vblex"/><s n="inf"/></r></p></e>
+      	<e r="LR"><p><l>aciri</l><r>ari<s n="vblex"/><s n="inf"/><j/></r></p><par n="S__battiri"/></e>
         
     	<e><p><l>azzu</l><r>ari<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
     	<e><p><l>ai</l><r>ari<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
@@ -26649,8 +26657,13 @@
     <e lm="agghiùttiri" r="LR"><p><l>nghiùtt</l><r>agghiùtt</r></p><par n="scùrr/iri__vblex"/></e>
     <e lm="agghiùttiri" r="LR"><p><l>nghiutt</l><r>agghiùtt</r></p><par n="scurr/u__vblex"/></e>
     
+    <e lm="lèdiri"><i>lèd</i><par n="scùrr/iri__vblex"/></e>
+    <e lm="lèdiri" r="LR"><p><l>led</l><r>lèd</r></p><par n="scurr/u__vblex"/></e>
+    
     <e lm="cummàttiri"><i>cummàtt</i><par n="scùrr/iri__vblex"/></e>
     <e lm="cummàttiri" r="LR"><p><l>cummatt</l><r>cummàtt</r></p><par n="scurr/u__vblex"/></e>
+    <e lm="cummàttiri" r="LR"><p><l>cumbàtt</l><r>cummàtt</r></p><par n="scùrr/iri__vblex"/></e>
+    <e lm="cummàttiri" r="LR"><p><l>cumbatt</l><r>cummàtt</r></p><par n="scurr/u__vblex"/></e>
 
     <e lm="mètiri"><i>mèt</i><par n="scùrr/iri__vblex"/></e>
     <e lm="mètiri" r="LR"><p><l>met</l><r>mèt</r></p><par n="scurr/u__vblex"/></e>
@@ -28132,6 +28145,8 @@
     <e lm="sìggiri"><i>sìgg</i><par n="ntrudùc/iri__vblex"/></e>
     <e lm="sprèmiri"><i>sprèm</i><par n="scùrr/iri__vblex"/></e>
     <e lm="sprèmiri" r="LR"><p><l>sprem</l><r>sprèm</r></p><par n="scurr/u__vblex"/></e>
+    <e lm="mìsiri"><i>mìs</i><par n="scùrr/iri__vblex"/></e>
+    <e lm="mìsiri" r="LR"><p><l>mis</l><r>mìs</r></p><par n="scurr/u__vblex"/></e>
 
     <e lm="lèggiri"><i>lègg</i><par n="ntrudùc/iri__vblex"/></e>
     <e lm="lèggiri" r="LR"><p><l>legg</l><r>lègg</r></p><par n="ntruduc/i__vblex"/></e>
@@ -28762,6 +28777,12 @@
 
     <e lm="arricògliri" a="BonnerDict"><i>arricògl</i><par n="scùrr/iri__vblex"/></e>
     <e lm="arricògliri" r="LR" a="BonnerDict"><p><l>arricogl</l><r>arricògl</r></p><par n="scurr/u__vblex"/></e>
+    
+    <e lm="ricògliri" a="BonnerDict"><i>ricògl</i><par n="scùrr/iri__vblex"/></e>
+    <e lm="ricògliri" r="LR" a="BonnerDict"><p><l>ricogl</l><r>ricògl</r></p><par n="scurr/u__vblex"/></e>
+    
+    <e lm="cògliri" a="BonnerDict"><i>cògl</i><par n="scùrr/iri__vblex"/></e>
+    <e lm="cògliri" r="LR" a="BonnerDict"><p><l>cogl</l><r>cògl</r></p><par n="scurr/u__vblex"/></e>
 
     <e lm="scògliri" a="BonnerDict"><i>scògl</i><par n="scùrr/iri__vblex"/></e>
     <e lm="scògliri" r="LR" a="BonnerDict"><p><l>scogl</l><r>scògl</r></p><par n="scurr/u__vblex"/></e>
@@ -29406,7 +29427,7 @@
     <e lm="minnittiari" r="LR"><p><l>sminnitt</l><r>minnitt</r></p><par n="piggh/iari__vblex"/></e>
     <e lm="mirguliari"><i>mirgul</i><par n="piggh/iari__vblex"/></e>
     <e lm="meritiri"><i>merit</i><par n="batt/iri__vblex"/></e>
-    <e lm="meritiri" r="LR"><p><l>merit</l><r>merit</r></p><par n="bàtt/inu__vblex"/></e>
+    <e lm="meritiri" r="LR"><p><l>merìt</l><r>merit</r></p><par n="bàtt/inu__vblex"/></e>
     <e lm="meritiri" r="LR"><p><l>mirit</l><r>merit</r></p><par n="bàtt/inu__vblex"/></e>
     <e lm="miscitari"><i>miscit</i><par n="parr/ari__vblex"/></e>
     <e lm="misiari"><i>mis</i><par n="piggh/iari__vblex"/></e>
@@ -30508,7 +30529,12 @@
     <e lm="padiri" r="LR"><p><l>appod</l><r>pad</r></p><par n="batt/iri__vblex"/></e>
     <e lm="precaviri"><i>precav</i><par n="batt/iri__vblex"/></e>
     <e lm="profuttiri"><i>profutt</i><par n="batt/iri__vblex"/></e>
-    <e lm="risistiri"><i>risist</i><par n="batt/iri__vblex"/></e>
+    <e lm="risìstiri"><i>risìst</i><par n="scùrr/iri__vblex"/></e>
+    <e lm="risìstiri" r="LR"><p><l>risist</l><r>risìst</r></p><par n="scurr/u__vblex"/></e>
+
+    <e lm="nzìstiri"><i>nzìst</i><par n="scùrr/iri__vblex"/></e>
+    <e lm="nzìstiri" r="LR"><p><l>nzist</l><r>nzìst</r></p><par n="scurr/u__vblex"/></e>
+
     <e lm="ristituiri"><i>ristitu</i><par n="batt/iri__vblex"/></e>
     <e lm="battiri" r="LR"><p><l>sbatt</l><r>batt</r></p><par n="batt/iri__vblex"/></e>
     <e lm="sbidiri"><i>sbid</i><par n="batt/iri__vblex"/></e>
