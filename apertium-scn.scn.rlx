@@ -45,11 +45,18 @@ LIST DetIndMscPl = (det ind m pl);
 LIST DetIndFemPl = (det ind f pl);
 LIST DetDefMscPl = (det def m pl);
 LIST DetDefFemPl = (det def f pl);
+LIST DetDefMsc = (det def m);
+LIST DetDefFem = (det def f);
+
+LIST DetDef = (det def);
+
 
 LIST DetDemMscPl = (det dem m pl);
 LIST DetDemFemPl = (det dem f pl);
 
 LIST nuddu = "<nuddu>" ;
+
+LIST Vèniri = "<vèniri>" ;
 
 
 LIST Chi = "<chi>" ;
@@ -96,6 +103,13 @@ LIST Pis = pis ;
 LIST Gerund = ger ; 
 LIST Imper = imp ;
 LIST PrfPrc = pp ;
+
+LIST PrfPrc/m = (pp m) ;
+LIST PrfPrc/f = (pp f) ;
+
+LIST Verb/pri/p3 = (vblex pri p3) ; 
+LIST Verb/imp/p2 = (vblex imp p2) ; 
+
 
 
 LIST Pii/p1 = (pii p1) ; 
@@ -147,6 +161,9 @@ SET FiniteForm = Inf OR PrfPrc or Gerund;
 
 SECTION
 
+
+
+SELECT DetDef IF (0 DetDef OR Verb + $$Pri) (1 N + $$Pl) ;
 
 REMOVE SUB:1 Det IF (0 Prep/di OR Prep/a OR Prep/pi OR Prep/cu OR Prep/nta) ;
  # "di" y "a" etc. deberían quedar como preposiciones simples por defecto.
@@ -216,6 +233,11 @@ SELECT DetDemMscPl IF (0 DetDemMscPl OR DetDemFemPl) (1 N/m/sp) ;
 
 SELECT DetDemFemPl IF (0 DetDemMscPl OR DetDemFemPl) (1 N/f/sp) ;
 
+SELECT DetDefMscPl IF (0 DetDefMscPl OR DetDefFemPl) (1 N/m/sp) ;
+
+SELECT DetDefFemPl IF (0 DetDefMscPl OR DetDefFemPl) (1 N/f/sp) ;
+
+
 SELECT Pron IF (0 nuddu) (1 Verb) ;
 
 SELECT P3 IF (NOT -1C Pron + $$P1) (0 Pii/p1 OR Pii/p3) ;
@@ -255,6 +277,10 @@ SELECT N IF (0 Adj/pl + $$Msc OR Adj/pl + $$Fem) (1 N/pl + $$Fem) ;
 
 SELECT Prn/ni IF (0 Prn/ni OR Pr LINK 0/* Det) (1 Verb + $$P1/pl) ;
 # n' accupamu cu ...(= "nos ocupamos con ...")
+
+SELECT PrfPrc IF (-1 Vèniri) (0 PrfPrc/m OR PrfPrc/f OR NonFiniteForm) ;
+
+SELECT N IF (-1 DetDefFem) (0 N/FemSg OR Verb);
 
 
 AFTER-SECTIONS
