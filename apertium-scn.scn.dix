@@ -337,22 +337,23 @@
     </pardef>
 
     <pardef n="m/iu__adj">
-    	<e><p><l>è</l><r>iu<s n="adj"/><s n="pos"/><s n="mf"/><s n="sp"/></r></p></e>
-    	<e r="LR"><p><l>iu</l><r>iu<s n="adj"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+    	<e><p><l>iu</l><r>iu<s n="adj"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
     	<e><p><l>ia</l><r>iu<s n="adj"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
     	<e><p><l>ei</l><r>iu<s n="adj"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
     	<e><p><l>ei</l><r>iu<s n="adj"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
     
     <pardef n="t/o__adj">
-    	<e><p><l>ò</l><r>o<s n="adj"/><s n="pos"/><s n="mf"/><s n="sp"/></r></p></e>
+    	<e><p><l>o</l><r>o<s n="adj"/><s n="pos"/><s n="mf"/><s n="sg"/></r></p></e>
+    	<e><p><l>oi</l><r>o<s n="adj"/><s n="pos"/><s n="mf"/><s n="pl"/></r></p></e>
+    	<e r="LR"><p><l>ò</l><r>o<s n="adj"/><s n="pos"/><s n="mf"/><s n="sg"/></r></p></e>
+<!-- 
     	<e r="LR"><p><l>ô</l><r>o<s n="adj"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
     	<e r="LR"><p><l>ou</l><r>o<s n="adj"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
     	<e r="LR"><p><l>uu</l><r>o<s n="adj"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
     	<e r="LR"><p><l>ua</l><r>o<s n="adj"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
     	<e r="LR"><p><l>a</l><r>o<s n="adj"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
-    	<e><p><l>oi</l><r>o<s n="adj"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
-    	<e><p><l>oi</l><r>o<s n="adj"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+ -->
     </pardef>
 
     <pardef n="nostr/u__adj">
@@ -419,6 +420,19 @@
       <e><p><l>i</l><r>u<s n="predet"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>u</l><r>u<s n="predet"/><s n="m"/><s n="sg"/></r></p></e>
       <!--<e><p><l>u</l><r>u<s n="predet"/><s n="nt"/><s n="sp"/></r></p></e>-->
+    </pardef>
+    
+    <pardef n="me__det">
+    	<e><p><l>me</l><r>me<s n="det"/><s n="pos"/><s n="mf"/><s n="sp"/></r></p></e>
+    	<e><p><l>mè</l><r>me<s n="det"/><s n="pos"/><s n="mf"/><s n="sp"/></r></p></e>
+    </pardef>
+    
+    <pardef n="to__det">
+    	<e><p><l>to</l><r>to<s n="det"/><s n="pos"/><s n="mf"/><s n="sp"/></r></p></e>
+    </pardef>
+    
+    <pardef n="so__det">
+    	<e><p><l>so</l><r>so<s n="det"/><s n="pos"/><s n="mf"/><s n="sp"/></r></p></e>
     </pardef>
 
  
@@ -6675,6 +6689,11 @@
     
     <e lm="un" r="LR"><i></i><par n="/un__det"/></e>
     <e lm="un" r="RL"><p><l><a/></l><r></r></p><par n="/un__det"/></e>
+
+    <e lm="me"><i></i><par n="me__det"/></e>
+    <e lm="to"><i></i><par n="to__det"/></e>
+    <e lm="so"><i></i><par n="so__det"/></e>
+
 
 
     <e lm="lu" r="LR"><i>l</i><par n="l/u__det"/></e>

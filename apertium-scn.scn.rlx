@@ -162,7 +162,6 @@ SET FiniteForm = Inf OR PrfPrc or Gerund;
 SECTION
 
 
-
 SELECT DetDef IF (0 DetDef OR Verb + $$Pri) (1 N + $$Pl) ;
 
 REMOVE SUB:1 Det IF (0 Prep/di OR Prep/a OR Prep/pi OR Prep/cu OR Prep/nta) ;
@@ -237,6 +236,7 @@ SELECT DetDefMscPl IF (0 DetDefMscPl OR DetDefFemPl) (1 N/m/sp) ;
 
 SELECT DetDefFemPl IF (0 DetDefMscPl OR DetDefFemPl) (1 N/f/sp) ;
 
+SELECT N IF (-1 DetDef) (0 N or Vblex);
 
 SELECT Pron IF (0 nuddu) (1 Verb) ;
 
@@ -256,7 +256,7 @@ SELECT N IF (-1 Det OR Pr LINK 0/* Det OR Pr) (0 N + $$Msc OR Verb + $$P1) ;
 #Munnu/munnari
 
 SELECT N IF (-1 Det OR Pr LINK 0/* Det OR Pr) (0 N + $$Fem OR Verb + $$P3) ;
-#Acqua/acquari
+#Acqua/acquari, porta/purtari
 
 SELECT N IF (-1 Det OR Pr LINK 0/* Det OR Pr) (0 Verb + $$PrfPrc OR N) ;
 #significatu/significari
@@ -280,7 +280,9 @@ SELECT Prn/ni IF (0 Prn/ni OR Pr LINK 0/* Det) (1 Verb + $$P1/pl) ;
 
 SELECT PrfPrc IF (-1 Vèniri) (0 PrfPrc/m OR PrfPrc/f OR NonFiniteForm) ;
 
-SELECT N IF (-1 DetDefFem) (0 N/FemSg OR Verb);
+SELECT PrfPrc IF (-1 Verb) (0 PrfPrc OR A) ;
+
+
 
 
 AFTER-SECTIONS
