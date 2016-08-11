@@ -20,6 +20,9 @@ LIST Vbser = (vbser);
 LIST Num = num ;
 LIST Pr = pr ; 
 
+LIST A/pos = (adj pos) ;
+
+
 LIST Prn/si = (prn pro ref p3); 
 LIST Prn/ni = (prn pro p1 pl); 
 
@@ -49,6 +52,7 @@ LIST DetDefMsc = (det def m);
 LIST DetDefFem = (det def f);
 
 LIST DetDef = (det def);
+LIST DetPos = (det pos) ;
 
 
 LIST DetDemMscPl = (det dem m pl);
@@ -236,6 +240,12 @@ SELECT DetDefMscPl IF (0 DetDefMscPl OR DetDefFemPl) (1 N/m/sp) ;
 
 SELECT DetDefFemPl IF (0 DetDefMscPl OR DetDefFemPl) (1 N/f/sp) ;
 
+SELECT DetDefMscPl IF (0 DetDefMscPl OR DetDefFemPl) (1 N/m/sp) ;
+
+SELECT DetDefFemPl IF (0 DetDefMscPl OR DetDefFemPl) (1 A OR DetPos) (2 N/f + $$Pl OR N/f/sp) ;
+
+SELECT DetDefMscPl IF (0 DetDefMscPl OR DetDefFemPl) (1 A OR DetPos) (2 N/m + $$Pl OR N/m/sp) ;
+
 SELECT N IF (-1 DetDef) (0 N or Vblex);
 
 SELECT Pron IF (0 nuddu) (1 Verb) ;
@@ -281,6 +291,11 @@ SELECT Prn/ni IF (0 Prn/ni OR Pr LINK 0/* Det) (1 Verb + $$P1/pl) ;
 SELECT PrfPrc IF (-1 Vèniri) (0 PrfPrc/m OR PrfPrc/f OR NonFiniteForm) ;
 
 SELECT PrfPrc IF (-1 Verb) (0 PrfPrc OR A) ;
+
+SELECT DetPos IF (-1 DetDef) (0 A/pos OR DetPos) ;
+# sunnu li so libbra
+
+
 
 
 

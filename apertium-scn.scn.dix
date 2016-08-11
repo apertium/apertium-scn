@@ -424,7 +424,7 @@
     
     <pardef n="me__det">
     	<e><p><l>me</l><r>me<s n="det"/><s n="pos"/><s n="mf"/><s n="sp"/></r></p></e>
-    	<e><p><l>mè</l><r>me<s n="det"/><s n="pos"/><s n="mf"/><s n="sp"/></r></p></e>
+    	<e r="LR"><p><l>mè</l><r>me<s n="det"/><s n="pos"/><s n="mf"/><s n="sp"/></r></p></e>
     </pardef>
     
     <pardef n="to__det">
