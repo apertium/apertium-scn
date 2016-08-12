@@ -25,8 +25,20 @@ LIST A/pos = (adj pos) ;
 
 LIST Prn/si = (prn pro ref p3); 
 LIST Prn/ni = (prn pro p1 pl); 
+LIST Pron/nt = (prn nt); 
+LIST Pron/itg = (prn itg); 
+LIST ProRef = (prn pro ref) ;
+LIST Pron/p1/sg = (prn pro p1 mf sg) ;
+LIST Pron/p2/sg = (prn pro p2 mf sg) ;
+LIST Pron/p3/sg = (prn pro p2 mf sg) ;
+LIST Pron/p1/pl = (prn pro p1 mf pl) ;
+LIST Pron/p2/pl = (prn pro p2 mf pl) ;
+LIST Pron/p3/pl = (prn pro p2 mf pl) ;
+
+SET PronPers = Pron/p1/sg OR Pron/p2/sg OR Pron/p3/sg OR Pron/p1/pl OR Pron/p2/pl OR Pron/p3/pl ;
 
 LIST Rel/aa = (rel aa);
+LIST Rel/an = (rel an);
 
 
 LIST Prep/di = "<di>"i "<de>"i ;
@@ -70,7 +82,6 @@ LIST Chi = "<chi>" ;
 LIST Cristianu = "cristianu" ;
 
 LIST Sg3 = (p3 sg) ;
-LIST ProRef = (prn pro ref) ;
 
 LIST Cog = cog ;
 LIST Top = top ;
@@ -144,6 +155,7 @@ LIST Fem = f ;
 LIST MscFem = mf ;
 
 LIST Excl = "!" ;
+LIST Intrg = "?" ;
 LIST Cm = cm ;
 
 LIST unknown = ("\\*.*"r) ; 
@@ -168,7 +180,6 @@ SET FiniteForm = Inf OR PrfPrc or Gerund;
 
 SECTION
 
-
 SELECT DetDef IF (0 DetDef OR Verb + $$Pri) (1 N + $$Pl) ;
 
 REMOVE SUB:1 Det IF (0 Prep/di OR Prep/a OR Prep/pi OR Prep/cu OR Prep/nta) ;
@@ -176,9 +187,6 @@ REMOVE SUB:1 Det IF (0 Prep/di OR Prep/a OR Prep/pi OR Prep/cu OR Prep/nta) ;
  # necesitamos esta regla porque a veces se escribe siciliano sin tildes, 
  # y allí "a" y "â" son ambiguos
 
-SELECT CC IF (0 CC/e OR CC/o) ;
-
-SELECT CS IF (0 CS/ca) ;
 
 SELECT A + $$Genero IF (-1C N + $$Genero) ;
 
@@ -191,10 +199,6 @@ SELECT Fin IF (-1C Prop) (0 Fin OR N) ;
 
 SELECT Sg3 IF (-1C Prop) ;
 
-SELECT CS IF (1 Verb) ;
-
-SELECT Rel IF (0 Chi) (1 Fin) ;
-
 REMOVE Imper IF (NOT 1* Excl) (NOT 1 Cm) ;
 
 SELECT Adv IF (-1C Pron) (0 Adv OR Det) (1 Fin) ;
@@ -203,7 +207,6 @@ REMOVE Ind IF (0 Ind OR Pr) (1 Def) ;
 
 SELECT N IF (-1 Det OR Pr) (0 Cristianu) ;
 
-
 SELECT Pr IF (0 Pr OR Pr LINK 0/* Det) (1 Inf) ;
  # Pi fari lu jurnalista prufissiuntista ...
 
@@ -211,13 +214,8 @@ SELECT Pr IF (0 Pr OR Pr LINK 0/* Det) (1 Det) ;
  # Nta lu Òrdini prufissiunali
  
 
-SELECT CS IF (1 Verb) ;
- # UBS è na banca ca havi la sedi principali nta Svìzzira.
-
 SELECT Det IF (-1C Vbser) (0 Det) (0 Pr LINK 0/* Det) ;
  # UBS è na banca
- 
-SELECT CS IF (1 Verb) ;
 
 
 # Construcción "nu/na di li ..."
@@ -232,7 +230,8 @@ SELECT N/MscPl IF (-3 Det/unu) (-2 Prep/di) (-1 Det) (0 N/MscPl OR N/FemPl) ;
 
 SELECT N/FemPl IF (-3 Det/una) (-2 Prep/di) (-1 Det) (0 N/MscPl OR N/FemPl) ;
  # Chiara Strazzulla è na di li littirati siciliani.
- 
+
+
 SELECT DetIndMscPl IF (0 DetIndMscPl OR DetIndFemPl) (1 N/mf + $$Pl) ;
 
 SELECT DetDemMscPl IF (0 DetDemMscPl OR DetDemFemPl) (1 N/m/sp) ;
@@ -302,11 +301,51 @@ SELECT DetInd + $$Pl IF (0 DetInd + $$Pl) (0 DetInd + $$Sg) (1 N + $$Pl);
 SELECT DetInd + $$Sg IF (0 DetInd + $$Pl) (0 DetInd + $$Sg) (1 N + $$Sg);
 # qualunqui libbra voi...
 
-SELECT Rel/aa IF (0 Rel/aa OR Pr) (1 Verb);
-SELECT Pr IF (0 Rel/aa OR Pr) (1 Pron OR A OR N OR Det);
-# cu disìa troppu finisci cu nenti
+# ==================================
+# PRONOMBRES
+# ==================================
 
 
+SELECT Pron/itg IF (0 Rel) (0 Pron/itg) (1* Intrg);
+
+# Chequar! --->
+SELECT Pron/itg + $$Sg IF (0 Rel) (0 Pron/itg + $$Sg) (0 Pron/itg + $$Pl) (1 Verb + $$Sg) (2* Intrg);
+SELECT Pron/itg + $$Pl IF (0 Rel) (0 Pron/itg + $$Sg) (0 Pron/itg + $$Pl) (1 Verb + $$Pl) (2* Intrg);
+SELECT Pron/itg + $$Sg IF (0 Rel) (0 Pron/itg + $$Sg) (0 Pron/itg + $$Pl) (1 Pron OR N) (2 Verb + $$Sg) (3* Intrg);
+SELECT Pron/itg + $$Pl IF (0 Rel) (0 Pron/itg + $$Sg) (0 Pron/itg + $$Pl) (1 Pron OR N) (2 Verb + $$Pl) (3* Intrg);
+
+
+REMOVE Pron/itg (NOT 1* Intrg);
+
+SELECT Pron/itg IF (0 Rel) (0 Pron/itg) (1* Intrg);
+
+SELECT Rel IF (0 Rel) (0 Pr) (1 Fin);
+
+
+
+# ==================================
+# SELECT Rel/aa IF (0 Rel/aa OR Pr) (1 Verb);
+# SELECT Rel/aa IF (0 Rel/aa OR Pr) (1 Pron/p1/sg) (2 Verb + $$P1/sg);
+# SELECT Rel/aa IF (0 Rel/aa OR Pr) (1 Pron/p2/sg) (2 Verb + $$P2/sg);
+# SELECT Rel/aa IF (0 Rel/aa OR Pr) (1 Pron/p3/sg) (2 Verb + $$P3/sg);
+# SELECT Rel/aa IF (0 Rel/aa OR Pr) (1 Pron/p1/pl) (2 Verb + $$P1/pl);
+# SELECT Rel/aa IF (0 Rel/aa OR Pr) (1 Pron/p2/pl) (2 Verb + $$P2/pl);
+# SELECT Rel/aa IF (0 Rel/aa OR Pr) (1 Pron/p3/pl) (2 Verb + $$P3/pl);
+# 
+# SELECT Pr IF (0 Rel/aa OR Pr) (1 Pron/nt OR A OR N OR Det);
+# # cu disìa troppu finisci cu nenti
+# 
+# 
+# # SELECT CS IF (0C CS OR Pr LINK 0/* Det) (1 Verb) ;
+#  # UBS è na banca ca havi la sedi principali nta Svìzzira.
+#  
+# SELECT CC IF (0 CC/e OR CC/o) ;
+# # 
+# # SELECT CS IF (0 CS/ca) ;
+# # 
+# # SELECT CS IF (1 Verb) ;
+# 
+# # SELECT Rel IF (0 Chi) (1 Fin) ;
 
 
 AFTER-SECTIONS

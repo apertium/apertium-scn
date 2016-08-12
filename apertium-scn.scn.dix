@@ -307,6 +307,13 @@
     <pardef n="chi__prn">
       <e><p><l></l><r><s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></r></p></e>
     </pardef>
+    
+    <pardef n="/cui__prn">
+      <e r="LR"><p><l>cu</l><r>cui<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>cu</l><r>cui<s n="prn"/><s n="itg"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e><p><l>cui</l><r>cui<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e><p><l>cui</l><r>cui<s n="prn"/><s n="itg"/><s n="mf"/><s n="pl"/></r></p></e>
+    </pardef>
 
     <pardef n="nenti__prn">
       <e><p><l></l><r><s n="prn"/><s n="tn"/><s n="nt"/></r></p></e>
@@ -6696,7 +6703,7 @@
 
     <e lm="chiddu chi"><i></i><par n="/chiddu_chi__rel"/></e>    
 
-    
+    <e lm="cui"><i></i><par n="/cui__prn"/></e>
     <e lm="nenti"><i>nenti</i><par n="nenti__prn"/></e>
     <e lm="nenti" r="LR"><p><l>neccu</l><r>nenti</r></p><par n="nenti__prn"/></e>
     <e lm="nenti" r="LR"><p><l>nienti</l><r>nenti</r></p><par n="nenti__prn"/></e>
