@@ -441,6 +441,18 @@
     <pardef n="so__det">
     	<e><p><l>so</l><r>so<s n="det"/><s n="pos"/><s n="mf"/><s n="sp"/></r></p></e>
     </pardef>
+    
+    <pardef n="/qualunqui__det">
+    	<e><p><l>qualunqui</l><r>qualunqui<s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></r></p></e>
+    	<e><p><l>qualunqui</l><r>qualunqui<s n="det"/><s n="ind"/><s n="mf"/><s n="pl"/></r></p></e>
+    	<e r="LR"><p><l>qualunchi</l><r>qualunqui<s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></r></p></e>
+    	<e r="LR"><p><l>qualunchi</l><r>qualunqui<s n="det"/><s n="ind"/><s n="mf"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="quarcunu__det">
+    	<e><p><l></l><r><s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></r></p></e>
+    	<e><p><l></l><r><s n="det"/><s n="ind"/><s n="mf"/><s n="pl"/></r></p></e>
+    </pardef>
 
  
     <!-- SECTION: Nouns -->
@@ -6680,6 +6692,8 @@
     <e lm="quali"><i>quali</i><par n="quali__rel"/></e>
     <e lm="chi"><par n="c/cc"/><i>hi</i><par n="quali__rel"/></e>
     <e lm="cui"><i>cui</i><par n="cui__rel"/></e>    
+    <e lm="cui" r="LR"><p><l>cu</l><r>cui</r></p><par n="cui__rel"/></e>
+
     <e lm="chiddu chi"><i></i><par n="/chiddu_chi__rel"/></e>    
 
     
@@ -6707,6 +6721,13 @@
     <e lm="to"><i></i><par n="to__det"/></e>
     <e lm="so"><i></i><par n="so__det"/></e>
 
+    <e lm="qualunqui"><i></i><par n="/qualunqui__det"/></e>
+
+    <e lm="quarcunu"><i>quarcunu</i><par n="quarcunu__det"/></e>
+    <e lm="quarcunu" r="LR"><p><l>qualcunu</l><r>quarcunu</r></p><par n="quarcunu__det"/></e>
+    <e lm="quarchidunu"><i>quarchidunu</i><par n="quarcunu__det"/></e>
+    <e lm="quarchidunu" r="LR"><p><l>qualchidunu</l><r>quarchidunu</r></p><par n="quarcunu__det"/></e>
+    <e lm="quarchidunu" r="LR"><p><l>qualchirunu</l><r>quarchidunu</r></p><par n="quarcunu__det"/></e>
 
 
     <e lm="lu" r="LR"><i>l</i><par n="l/u__det"/></e>
@@ -6719,6 +6740,7 @@
     <e lm="arcunu" r="LR"><p><l>accadun</l><r>arcun</r></p><par n="nudd/u__det"/></e>
     <e lm="tuttu"><i>tutt</i><par n="tutt/u__predet"/></e>
     <e lm="ognidunu"><i>ognidun</i><par n="nudd/u__det"/></e>
+    <e lm="ognidunu" r="LR"><p><l>ognirun</l><r>ognidun</r></p><par n="nudd/u__det"/></e>
 
     <e lm="ogni"><i>ogni</i><par n="ogni__det"/></e>
     <e lm="quarchi"><i>quarchi</i><par n="ogni__det"/></e>
@@ -10560,10 +10582,11 @@
     <e lm="pinta"><i>pint</i><par n="cas/a__n"/></e>
     <e lm="pintalora"><i>pintalor</i><par n="cas/a__n"/></e>
     <e lm="partita"><i>partit</i><par n="cas/a__n"/></e>
-    <e lm="partita" r="LR"><p><l>pip</l><r>partit</r></p><par n="cas/a__n"/></e>
-    <e lm="partita" r="LR"><p><l>tan</l><r>partit</r></p><par n="cas/a__n"/></e>
-    <e lm="partita" r="LR"><p><l>statur</l><r>partit</r></p><par n="cas/a__n"/></e>
-    <e lm="partita" r="LR"><p><l>giraff</l><r>partit</r></p><par n="cas/a__n"/></e>
+    <e lm="pipa"><i>pip</i><par n="cas/a__n"/></e>
+    <e lm="statura"><i>statur</i><par n="cas/a__n"/></e>
+    <e lm="giraffa"><i>giraff</i><par n="cas/a__n"/></e>
+    <e lm="tana"><i>tan</i><par n="cas/a__n"/></e>
+
     <e lm="pipinera"><i>pipiner</i><par n="cas/a__n"/></e>
     <e lm="pipita"><i>pipit</i><par n="cas/a__n"/></e>
     <e lm="pirara"><i>pirar</i><par n="cas/a__n"/></e>

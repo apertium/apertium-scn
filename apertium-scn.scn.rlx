@@ -26,6 +26,8 @@ LIST A/pos = (adj pos) ;
 LIST Prn/si = (prn pro ref p3); 
 LIST Prn/ni = (prn pro p1 pl); 
 
+LIST Rel/aa = (rel aa);
+
 
 LIST Prep/di = "<di>"i "<de>"i ;
 LIST Prep/a = "<a>"i "<davanti a>"i ;
@@ -51,6 +53,7 @@ LIST DetDefFemPl = (det def f pl);
 LIST DetDefMsc = (det def m);
 LIST DetDefFem = (det def f);
 
+LIST DetInd = (det ind);
 LIST DetDef = (det def);
 LIST DetPos = (det pos) ;
 
@@ -294,6 +297,15 @@ SELECT PrfPrc IF (-1 Verb) (0 PrfPrc OR A) ;
 
 SELECT DetPos IF (-1 DetDef) (0 A/pos OR DetPos) ;
 # sunnu li so libbra
+
+SELECT DetInd + $$Pl IF (0 DetInd + $$Pl) (0 DetInd + $$Sg) (1 N + $$Pl);
+SELECT DetInd + $$Sg IF (0 DetInd + $$Pl) (0 DetInd + $$Sg) (1 N + $$Sg);
+# qualunqui libbra voi...
+
+SELECT Rel/aa IF (0 Rel/aa OR Pr) (1 Verb);
+SELECT Pr IF (0 Rel/aa OR Pr) (1 Pron OR A OR N OR Det);
+# cu disìa troppu finisci cu nenti
+
 
 
 
