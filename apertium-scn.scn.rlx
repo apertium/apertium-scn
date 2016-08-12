@@ -297,9 +297,6 @@ SELECT DetPos IF (-1 DetDef) (0 A/pos OR DetPos) ;
 
 
 
-
-
-
 AFTER-SECTIONS
 
 REMOVE SUB:1 Det (NOT 0 Imper) ;
