@@ -9064,9 +9064,8 @@
     <e lm="cunfini"><i>cunfini</i><par n="patri__n"/></e>
 
     <e lm="cosmoluggìa"><i>cosmolugg</i><par n="filusuf/ìa__n"/></e>
-    <e lm="filosufìa" r="LR"><p><l>filusuf</l><r>filosuf</r></p><par n="filusuf/ìa__n"/></e>
-    <e lm="filosofia"><i>filosofi</i><par n="culoni/a__n"/></e>
-    <e lm="filosofia" r="LR"><p><l>filusufi</l><r>filosofi</r></p><par n="filusuf/ìa__n"/></e>
+    <e lm="filusufìa"><i>filosofi</i><par n="filusuf/ìa__n"/></e>
+    <e lm="filusufìa" r="LR"><p><l>filosuf</l><r>filusuf</r></p><par n="filusuf/ìa__n"/></e>
 
 
     <e lm="triluggìa"><i>trilugg</i><par n="filusuf/ìa__n"/></e>
@@ -27237,6 +27236,11 @@
     <e lm="moralizzari"><i>moralizz</i><par n="parr/ari__vblex"/></e>
     <e lm="ussirvari"><i>ussirv</i><par n="parr/ari__vblex"/></e>
     <e lm="spiari"><i>sp</i><par n="piggh/iari__vblex"/></e>
+    
+    <e lm="furmulari"><i>furmul</i><par n="parr/ari__vblex"/></e>
+    <e lm="furmulari"><p><l>furmùl</l><r>furmul</r></p><par n="pàrr/anu__vblex"/></e>
+
+    
 
     <e lm="cuminciari" a="BonnerDict"><i>cuminci</i><par n="cuminci/ari__vblex"/></e>
     <e lm="cuminciari" a="BonnerDict"><p><l>cumenci</l><r>cuminci</r></p><par n="cumenci/u__vblex"/></e>
@@ -27335,6 +27339,8 @@
     <e lm="studiari" r="LR"><p><l>stùd</l><r>stud</r></p><par n="piggh/iari__vblex"/></e>
     <e lm="urganizzari"><par n="u/o"/><i>rganizz</i><par n="parr/ari__vblex"/></e>
     <e lm="accilirari"><i>accilir</i><par n="parr/ari__vblex"/></e>
+    <e lm="accilirari"><p><l>accilìr</l><r>accilir</r></p><par n="pàrr/anu__vblex"/></e>
+
     <e lm="trattari"><i>tratt</i><par n="parr/ari__vblex"/></e>
     <e lm="trattari" r="LR"><p><l>tràtt</l><r>tratt</r></p><par n="parr/ari__vblex"/></e>
     <e lm="maltrattari"><i>maltratt</i><par n="parr/ari__vblex"/></e>
@@ -31151,6 +31157,8 @@
     <e lm="cunfunniri"><i>cunfunn</i><par n="batt/iri__vblex"/></e>
     <e lm="cunfunniri" r="LR"><p><l>cunfùnn</l><r>cunfunn</r></p><par n="batt/iri__vblex"/></e>
     <e lm="adugghiari"><i>aduggh</i><par n="piggh/iari__vblex"/></e>
+    <e lm="adugghiari" r="LR"><p><l>adùggh</l><r>aduggh</r></p><par n="pàrr/anu__vblex"/></e>
+
     <e lm="tiurizzari"><i>tiurizz</i><par n="parr/ari__vblex"/></e>
     <e lm="uspitari"><i>uspit</i><par n="parr/ari__vblex"/></e>
     <e lm="lìggiri"><i>lìgg</i><par n="ntrudùc/iri__vblex"/></e>
