@@ -306,20 +306,26 @@ SELECT DetInd + $$Sg IF (0 DetInd + $$Pl) (0 DetInd + $$Sg) (1 N + $$Sg);
 # ==================================
 
 
-SELECT Pron/itg IF (0 Rel) (0 Pron/itg) (1* Intrg);
+SELECT Pron/itg IF (0 Rel) (0 Pron/itg) (1* Rel) (1* Pron/itg) (2* Intrg);
+
+
+# SELECT Pron/itg IF (0 Rel) (0 Pron/itg) (NOT 2 Pron/itg) (2* Intrg);
+
+SELECT Rel IF (-1* Pron/itg) (0 Rel) (0 Pron/itg) (1* Intrg);
+
 
 # Chequar! --->
-SELECT Pron/itg + $$Sg IF (0 Rel) (0 Pron/itg + $$Sg) (0 Pron/itg + $$Pl) (1 Verb + $$Sg) (2* Intrg);
-SELECT Pron/itg + $$Pl IF (0 Rel) (0 Pron/itg + $$Sg) (0 Pron/itg + $$Pl) (1 Verb + $$Pl) (2* Intrg);
-SELECT Pron/itg + $$Sg IF (0 Rel) (0 Pron/itg + $$Sg) (0 Pron/itg + $$Pl) (1 Pron OR N) (2 Verb + $$Sg) (3* Intrg);
-SELECT Pron/itg + $$Pl IF (0 Rel) (0 Pron/itg + $$Sg) (0 Pron/itg + $$Pl) (1 Pron OR N) (2 Verb + $$Pl) (3* Intrg);
+# SELECT Pron/itg + $$Sg IF (0 Rel) (0 Pron/itg + $$Sg) (0 Pron/itg + $$Pl) (1 Verb + $$Sg) (2* Intrg);
+# SELECT Pron/itg + $$Pl IF (0 Rel) (0 Pron/itg + $$Sg) (0 Pron/itg + $$Pl) (1 Verb + $$Pl) (2* Intrg);
+# SELECT Pron/itg + $$Sg IF (0 Rel) (0 Pron/itg + $$Sg) (0 Pron/itg + $$Pl) (1 Pron OR N) (2 Verb + $$Sg) (3* Intrg);
+# SELECT Pron/itg + $$Pl IF (0 Rel) (0 Pron/itg + $$Sg) (0 Pron/itg + $$Pl) (1 Pron OR N) (2 Verb + $$Pl) (3* Intrg);
 
 
 REMOVE Pron/itg (NOT 1* Intrg);
 
-SELECT Pron/itg IF (0 Rel) (0 Pron/itg) (1* Intrg);
+# SELECT Pron/itg IF (0 Rel) (0 Pron/itg) (1* Intrg);
 
-SELECT Rel IF (0 Rel) (0 Pr) (1 Fin);
+# SELECT Rel IF (0 Rel) (0 Pr) (1 Fin);
 
 
 
