@@ -298,7 +298,10 @@
     <pardef n="nudd/u__prn">
       <e><p><l>u</l><r>u<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>a</l><r>u<s n="prn"/><s n="tn"/><s n="f"/><s n="sg"/></r></p></e>
+
     </pardef>
+    
+
 
     <pardef n="tutti_e_dui__prn">
       <e><p><l></l><r><s n="prn"/><s n="tn"/><s n="mf"/><s n="pl"/></r></p></e>
@@ -1337,10 +1340,11 @@
         <e><p><l>sìanu</l><r>èssiri<s n="vbser"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
         <e r="LR"><p><l>sinu</l><r>èssiri<s n="vbser"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
         
-        
+        <!-- 
 
         <e r="LR"><p><l>sidu</l><r>èssiri<s n="vbser"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
         <e><p><l>stat</l><r>èssiri<s n="vbser"/><s n="pp"/></r></p><par n="A__/u"/></e>
+ -->
         <e><p><l>essennu</l><r>èssiri<s n="vbser"/><s n="ger"/></r></p></e>
     </pardef>
 
@@ -27187,7 +27191,8 @@
     <e lm="picca"><i>picca</i><par n="oggi__adv"/></e>
     <e lm="na pocu"><i>na<b/>pocu</i><par n="oggi__adv"/></e>
     <e lm="na pocu" r="LR"><p><l>un<b/>pocu</l><r>na<b/>pocu</r></p><par n="oggi__adv"/></e>
-    
+        <e lm="pi asempiu"><i>p<b/>asempiu</i><par n="oggi__adv"/></e> 
+
     <e lm="attuarmenti"><i>attuarmenti</i><par n="oggi__adv"/></e>
     <e lm="veramenti"><i>veramenti</i><par n="oggi__adv"/></e>
     <e lm="chiaramenti"><i>chiaramenti</i><par n="oggi__adv"/></e>
@@ -27213,7 +27218,8 @@
 
     <e lm="facirmenti" r="LR"><p><l>facilmenti</l><r>facirmenti</r></p><par n="oggi__adv"/></e>
     <e lm="successivamenti"><i>successivamenti</i><par n="oggi__adv"/></e>
-    
+        <e lm="miegghiu"><i>miegghiu</i><par n="oggi__adv"/></e>
+
     
     <e lm="successivamenti" r="LR"><p><l>succissivamenti</l><r>successivamenti</r></p><par n="oggi__adv"/></e>
     <e lm="ufficiarmenti"><i>ufficiarmenti</i><par n="oggi__adv"/></e>
@@ -27316,6 +27322,7 @@
 
     <e lm="probabilmenti"><i>probabilmenti</i><par n="oggi__adv"/></e>
     <e lm="prubbabbirmenti"><i>prubbabbirmenti</i><par n="oggi__adv"/></e>
+    <e lm="custantimenti"><i>custantimenti</i><par n="oggi__adv"/></e>
 
     <e lm="direttamenti"><i>direttamenti</i><par n="oggi__adv"/></e>
     <e lm="direttamenti" r="LR"><p><l>drittamenti</l><r>direttamenti</r></p><par n="oggi__adv"/></e>
@@ -27327,8 +27334,12 @@
     <e lm="novamenti"><i>novamenti</i><par n="oggi__adv"/></e>
     <e lm="ricintimenti" r="LR"><p><l>ricentimenti</l><r>ricintimenti</r></p><par n="oggi__adv"/></e>
     <e lm="nclusi"><i>nclusi</i><par n="oggi__adv"/></e>
+    <e lm="addirrittura"><i>addirrittura</i><par n="oggi__adv"/></e>
+
     
-    
+    <e lm="moralmenti"><i>moralmenti</i><par n="oggi__adv"/></e>
+    <e lm="non"><i>non</i><par n="oggi__adv"/></e>
+
     <e lm="sclusivamenti"><i>sclusivamenti</i><par n="oggi__adv"/></e>
     <e lm="fortimenti"><i>fortimenti</i><par n="oggi__adv"/></e>
     <e lm="giniralmenti"><i>giniralmenti</i><par n="oggi__adv"/></e>
@@ -29397,7 +29408,7 @@
     <e lm="durari"><i>dur</i><par n="parr/ari__vblex"/></e>
     <e lm="nsignari"><par n="ø/i"/><i>nsign</i><par n="parr/ari__vblex"/></e>
     <e lm="ntirissari"><par n="ø/i"/><i>ntiriss</i><par n="parr/ari__vblex"/></e>
-    <e lm="ntirissari"><par n="ø/i"/><p><l>ntiress</l><r>ntiriss</r></p><par n="abbent/u__vblex"/></e>
+    <e lm="ntirissari" r="LR"><par n="ø/i"/><p><l>ntiress</l><r>ntiriss</r></p><par n="abbent/u__vblex"/></e>
     <e lm="justificari"><par n="j/gi/i"/><i>ustific</i><par n="manc/ari__vblex"/></e>
     <e lm="nnicari"><i>nnic</i><par n="manc/ari__vblex"/></e>
     <e lm="nnicari" r="LR"><p><l>ìnnic</l><r>nnic</r></p><par n="parr/ari__vblex"/></e>
@@ -33696,7 +33707,8 @@
     <e lm="ntipuddari"><p><l>ntipùdd</l><r>ntipudd</r></p><par n="pàrr/anu__vblex"/></e>
     <e lm="ntiressari"><p><l>ntirèss</l><r>ntiress</r></p><par n="pàrr/anu__vblex"/></e>
     <e lm="ntirfiriri"><p><l>ntirfìr</l><r>ntirfir</r></p><par n="bàtt/inu__vblex"/></e>
-    <e lm="ntirissari"><par n="ø/i"/><p><l>ntirèss</l><r>ntiriss</r></p><par n="abbènt/anu__vblex"/></e>
+    <e lm="ntirissari" r="LR"><par n="ø/i"/><p><l>ntirèss</l><r>ntiriss</r></p><par n="pàrr/anu__vblex"/></e>
+    <e lm="ntirissari" r="LR"><par n="ø/i"/><p><l>ntirèss</l><r>ntiriss</r></p><par n="abbènt/anu__vblex"/></e>
     <e lm="ntirpritari" r="LR"><par n="ø/i"/><p><l>ntirprìt</l><r>ntirprit</r></p><par n="pàrr/anu__vblex"/></e>
     <e lm="ntirpritari" r="LR"><par n="ø/i"/><p><l>ntrippìt</l><r>ntirprit</r></p><par n="pàrr/anu__vblex"/></e>
     <e lm="ntirrugari"><p><l>ntirròg</l><r>ntirrug</r></p><par n="abbènt/anu__vblex"/></e>
