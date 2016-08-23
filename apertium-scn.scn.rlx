@@ -336,11 +336,6 @@ SELECT Adv/itg IF (0 Adv/itg OR Adv) (1* Intrg);
 
 
 
-# Chequar! --->
-# SELECT Pron/itg + $$Sg IF (0 Rel) (0 Pron/itg + $$Sg) (0 Pron/itg + $$Pl) (1 Verb + $$Sg) (2* Intrg);
-# SELECT Pron/itg + $$Pl IF (0 Rel) (0 Pron/itg + $$Sg) (0 Pron/itg + $$Pl) (1 Verb + $$Pl) (2* Intrg);
-# SELECT Pron/itg + $$Sg IF (0 Rel) (0 Pron/itg + $$Sg) (0 Pron/itg + $$Pl) (1 Pron OR N) (2 Verb + $$Sg) (3* Intrg);
-# SELECT Pron/itg + $$Pl IF (0 Rel) (0 Pron/itg + $$Sg) (0 Pron/itg + $$Pl) (1 Pron OR N) (2 Verb + $$Pl) (3* Intrg);
 
 
 REMOVE Pron/itg (NOT 1* Intrg);
@@ -353,6 +348,11 @@ SELECT CC IF (0 CC/e OR CC/o) ;
 
 # SELECT Rel IF (0 Rel) (0 Pr) (1 Fin);
 
+# Chequar! --->
+# SELECT Pron/itg + $$Sg IF (0 Rel) (0 Pron/itg + $$Sg) (0 Pron/itg + $$Pl) (1 Verb + $$Sg) (2* Intrg);
+# SELECT Pron/itg + $$Pl IF (0 Rel) (0 Pron/itg + $$Sg) (0 Pron/itg + $$Pl) (1 Verb + $$Pl) (2* Intrg);
+# SELECT Pron/itg + $$Sg IF (0 Rel) (0 Pron/itg + $$Sg) (0 Pron/itg + $$Pl) (1 Pron OR N) (2 Verb + $$Sg) (3* Intrg);
+# SELECT Pron/itg + $$Pl IF (0 Rel) (0 Pron/itg + $$Sg) (0 Pron/itg + $$Pl) (1 Pron OR N) (2 Verb + $$Pl) (3* Intrg);
 
 
 # ==================================
