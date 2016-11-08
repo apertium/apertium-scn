@@ -36,6 +36,11 @@ LIST Pron/p1/pl = (prn pro p1 mf pl) ;
 LIST Pron/p2/pl = (prn pro p2 mf pl) ;
 LIST Pron/p3/pl = (prn pro p2 mf pl) ;
 
+
+LIST AdjPos = (adj pos);
+LIST PrnPos = (prn pos);
+
+
 SET PronPers = Pron/p1/sg OR Pron/p2/sg OR Pron/p3/sg OR Pron/p1/pl OR Pron/p2/pl OR Pron/p3/pl ;
 
 LIST Rel/aa = (rel aa);
@@ -185,6 +190,9 @@ SET FiniteForm = Inf OR PrfPrc or Gerund;
 
 
 SECTION
+
+
+SELECT AdjPos IF (-1 N) (0 AdjPos OR PrnPos);
 
 SELECT CS IF (-1 Vblex/pariri OR N) (0 Pr LINK 0/* Det OR CS/ca) ;
 
