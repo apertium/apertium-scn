@@ -1237,6 +1237,20 @@
 
       <e><p><l>lu</l><r>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>
     </pardef>
+    <pardef n="ficc/arisi__vblex">
+<e><p><l>ànnu</l><r>arisi<s n="vblex"/><s n="ger"/><j/></r></p><par n="S__scrivennu"/></e>
+<e><p><l>ari</l><r>arisi<s n="vblex"/><s n="inf"/><j/></r></p><par n="S__battiri"/></e>
+<e><p><l>amu</l><r>arisi<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+<e><p><l>àmu</l><r>arisi<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__parràmuni"/></e>
+<e><p><l>ati</l><r>arisi<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+<e><p><l>àti</l><r>arisi<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__scrìvivi"/></e>
+<e><p><l>a</l><r>arisi<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+<e><p><l>ate</l><r>arisi<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/>ti<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+<e><p><l>àssiru</l><r>arisi<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
+<e><p><l>àssiru</l><r>arisi<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/><j/></r></p><par n="S__scrivennu"/></e>
+</pardef>
+
+
 
     <pardef n="/c'è__vblex">
       	<e r="LR"><p><l>c'è</l><r>c'è<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -17429,7 +17443,7 @@
     <e lm="assiomatizzazzioni"><i>assiomatizzaz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="rigginirazzioni"><i>rigginiraz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="telecumunicazzioni"><i>telecumunicaz</i><par n="pupulaz/zioni__n"/></e>
-    <e lm="da opirazzioni"><i>da opiraz</i><par n="pupulaz/zioni__n"/></e>
+    <e lm="da opirazzioni"><i>da opiraz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="cupuosizioni"><i>cupuosi</i><par n="pupulaz/zioni__n"/></e>
     <e lm="ricumpusizzioni"><i>ricumpusiz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="filicitazzioni"><i>filicitaz</i><par n="pupulaz/zioni__n"/></e>
@@ -17876,7 +17890,7 @@
     <e lm="dicudificazzioni"><i>dicudificaz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="cunfiurazzioni"><i>cunfiuraz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="ambizioni"><i>ambi</i><par n="pupulaz/zioni__n"/></e>
-    <e lm="dî esecuzioni"><i>dî esecu</i><par n="pupulaz/zioni__n"/></e>
+    <e lm="dî esecuzioni"><i>dî esecu</i><par n="pupulaz/zioni__n"/></e>
     <e lm="reiterazzioni"><i>reiteraz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="dissimminazzioni"><i>dissimminaz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="innovazioni"><i>innova</i><par n="pupulaz/zioni__n"/></e>
@@ -18714,7 +18728,7 @@
     <e lm="insoddisfazzioni"><i>insoddisfaz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="iccizzioni"><i>icciz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="prefazzioni"><i>prefaz</i><par n="pupulaz/zioni__n"/></e>
-    <e lm="dî esecuzzioni"><i>dî esecuz</i><par n="pupulaz/zioni__n"/></e>
+    <e lm="dî esecuzzioni"><i>dî esecuz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="assocoiazzioni"><i>assocoiaz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="purzzioni"><i>purz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="distinzzioni"><i>distinz</i><par n="pupulaz/zioni__n"/></e>
@@ -44191,6 +44205,103 @@
 <e lm="‘mpurr"><p><l>‘mpùrr</l>                        <r>‘mpurr</r></p><par n="bàtt/inu__vblex"/></e>
 
 
+
+
+    <e lm="ammuttarisi"><i>ammutt</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="mmagginarisi"><i>mmaggin</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="addinucchiarisi"><i>addinucchi</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="spiciarisi"><i>spici</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="abbicinarisi"><i>abbicin</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="curcarisi"><i>curc</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="assuciarisi"><i>assuci</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="cuminicarisi"><i>cuminic</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="lamintarisi"><i>lamint</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="pricipitarisi"><i>pricipit</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="immagginarisi"><i>immaggin</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="lauriarisi"><i>lauri</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="ciaccarisi"><i>ciacc</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="fermarisi"><i>ferm</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="impegnarisi"><i>impegn</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="‘nguaggiarisi"><i>‘nguaggi</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="inclinarisi"><i>inclin</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="prijarisi"><i>prij</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="figurarisi"><i>figur</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="imbarcarisi"><i>imbarc</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="scurdarisi"><i>scurd</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="separarisi"><i>separ</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="ambintarisi"><i>ambint</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="appricarisi"><i>appric</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="isarisi"><i>is</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="chiamarisi"><i>chiam</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="quardarisi"><i>quard</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="spusarisi"><i>spus</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="procurarisi"><i>procur</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="sbrigarisi"><i>sbrig</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="cunfarisi"><i>cunf</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="ancrignarisi"><i>ancrign</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="assicurarisi"><i>assicur</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="ribbellarisi"><i>ribbell</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="dedicarisi"><i>dedic</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="prisintarisi"><i>prisint</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="addunarisi"><i>addun</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="beffarisi"><i>beff</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="affrittarisi"><i>affritt</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="ammazzarisi"><i>ammazz</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="preoccuparisi"><i>preoccup</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="ricudarisi"><i>ricud</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="canciarisi"><i>canci</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="inchinarisi"><i>inchin</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="spugghiarisi"><i>spugghi</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="impirugghiarisi"><i>impirugghi</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="‘ncagnarisi"><i>‘ncagn</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="scuntrarisi"><i>scuntr</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="priarisi"><i>pri</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="fidarisi"><i>fid</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="burlarisi"><i>burl</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="piegarisi"><i>pieg</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="annigarisi"><i>annig</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="dilettarisi"><i>dilett</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="ajutarisi"><i>ajut</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="arraggiarisi"><i>arraggi</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="stancarisi"><i>stanc</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="sazziarisi"><i>sazzi</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="rivelarisi"><i>rivel</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="ncazzarisi"><i>ncazz</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="sistimarisi"><i>sistim</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="riaffacciarisi"><i>riaffacci</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="rivutarisi"><i>rivut</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="spicciarisi"><i>spicci</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="‘ngrupparisi"><i>‘ngrupp</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="sciattarisi"><i>sciatt</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="‘mmuscarisi"><i>‘mmusc</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="sbarazzarisi"><i>sbarazz</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="assittarisi"><i>assitt</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="cungratularisi"><i>cungratul</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="sullivarisi"><i>sulliv</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="avvicinarisi"><i>avvicin</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="nausiarisi"><i>nausi</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="slanciarisi"><i>slanci</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="cumunicarisi"><i>cumunic</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="ribbillarisi"><i>ribbill</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="arricriarisi"><i>arricri</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="sunnarisi"><i>sunn</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="stinnicchiarisi"><i>stinnicchi</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="sciarriarisi"><i>sciarri</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="avvirarisi"><i>avvir</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="livarisi"><i>liv</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="spassiarisi"><i>spassi</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="felicitarisi"><i>felicit</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="abbigghiarisi"><i>abbigghi</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="arrifarisi"><i>arrif</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="bifurcarisi"><i>bifurc</i><par n="ficc/arisi__vblex"/></e>
+    <e lm="arrampicarisi"><i>arrampic</i><par n="ficc/arisi__vblex"/></e>
+
+
+
+
+
+
+
     
     <!-- SECTION: Interjections -->
 
@@ -44270,3 +44381,4 @@ Resources:
     http://wiki.apertium.org/wiki/Monodix_basics
     http://wiki.apertium.org/wiki/Apertium_New_Language_Pair_HOWTO#Monolingual_dictionaries
 -->
+
