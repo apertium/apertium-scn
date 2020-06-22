@@ -1411,6 +1411,7 @@
         <e r="LR"><p><l>aviavu</l><r><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
         <e><p><l>avìanu</l><r><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
         <e r="LR"><p><l>avianu</l><r><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
+        <e r="LR"><p><l>avèvanu</l><r><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
     	 <!-- Alternative forms: with "h". Forms without accent accepted as well.  -->
         <e r="LR"><p><l>havia</l><r><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
         <e r="LR"><p><l>havìa</l><r><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -26247,6 +26248,8 @@
     <e lm="Deciu"><i>Deciu</i><par n="Jaime__np"/></e>
 
 
+    <e lm="Persia"><i>Persia</i><par n="Sicilia__np"/></e>
+    <e lm="India"><i>India</i><par n="Sicilia__np"/></e>
     <e lm="Novosibirsk"><i>Novosibirsk</i><par n="Sicilia__np"/></e>
 
     <e lm="Abbruzzu"><i>Abbruzzu</i><par n="Sicilia__np"/></e>
@@ -32545,6 +32548,7 @@
     <e lm="miricanu" r="LR"><p><l>amirican</l><r>mirican</r></p><par n="bedd/u__adj"/></e>
     <e lm="latinu"><i>latin</i><par n="bedd/u__adj"/></e>
     <e lm="àrabbu"><i>àrabb</i><par n="bedd/u__adj"/></e>
+    <e lm="àrabbu" r="LR"><p><l>àrab</l><r>àrabb</r></p><par n="bedd/u__adj"/></e>
     <e lm="famusu"><i>famus</i><par n="bedd/u__adj"/></e>
     <e lm="propriu"><i>propr</i><par n="lar/iu__adj"/></e>
     <e lm="europeu"><i>europe</i><par n="bedd/u__adj"/></e>
@@ -39170,7 +39174,9 @@
     <e lm="rapprisintari"><i>rapprisint</i><par n="abbint/ari__vblex"/></e>
     <e lm="riturnari"><i>riturn</i><par n="abbint/ari__vblex"/></e>
     <e lm="riturnari" r="LR"><p><l>riturn</l><r>riturn</r></p><par n="parr/ari__vblex"/></e>
+    <e lm="riturnari" r="LR"><p><l>arriturn</l><r>riturn</r></p><par n="parr/ari__vblex"/></e>
     <e lm="riturnari" r="LR"><p><l>ritùrn</l><r>riturn</r></p><par n="pàrr/anu__vblex"/></e>
+    <e lm="riturnari" r="LR"><p><l>arritùrn</l><r>riturn</r></p><par n="pàrr/anu__vblex"/></e>
 
     <e lm="rigulari"><i>rigul</i><par n="parr/ari__vblex"/></e>
     <e lm="facilitari"><i>facilit</i><par n="parr/ari__vblex"/></e>
