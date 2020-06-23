@@ -6199,6 +6199,8 @@
     <pardef n="f/ari__vblex">
       	<e><p><l>ari</l><r>ari<s n="vblex"/><s n="inf"/></r></p></e>
       	<e><p><l>ari</l><r>ari<s n="vblex"/><s n="inf"/><j/></r></p><par n="S__battiri"/></e>
+      	<e r="LR"><p><l>àri</l><r>ari<s n="vblex"/><s n="inf"/></r></p></e>
+      	<e r="LR"><p><l>àri</l><r>ari<s n="vblex"/><s n="inf"/><j/></r></p><par n="S__battiri"/></e>
       	
         <e r="LR"><p><l>àciri</l><r>ari<s n="vblex"/><s n="inf"/></r></p></e>
       	<e r="LR"><p><l>àciri</l><r>ari<s n="vblex"/><s n="inf"/><j/></r></p><par n="S__battiri"/></e>
@@ -27455,7 +27457,6 @@
     <e lm="Vittoria"><i>Vittoria</i><par n="Sicilia__np"/></e>
     <e lm="Volgograd"><i>Volgograd</i><par n="Sicilia__np"/></e>
     <e lm="Wadowice"><i>Wadowice</i><par n="Sicilia__np"/></e>
-    <e lm="Wales"><i>Wales</i><par n="Sicilia__np"/></e>
     <e lm="Wasilla"><i>Wasilla</i><par n="Sicilia__np"/></e>
     <e lm="Weimar"><i>Weimar</i><par n="Sicilia__np"/></e>
     <e lm="Winterthur"><i>Winterthur</i><par n="Sicilia__np"/></e>
@@ -27473,6 +27474,7 @@
     <e lm="Einstein"><i>Einstein</i><par n="Rosenburg__np"/></e>
     <e lm="Bach"><i>Bach</i><par n="Rosenburg__np"/></e>
     <e lm="Nobel"><i>Nobel</i><par n="Rosenburg__np"/></e>
+    <e lm="Wales"><i>Wales</i><par n="Rosenburg__np"/></e>
     <e lm="Obama"><i>Obama</i><par n="Rosenburg__np"/></e>
     <e lm="May"><i>May</i><par n="Rosenburg__np"/></e>
     <e lm="Deacon"><i>Deacon</i><par n="Rosenburg__np"/></e>

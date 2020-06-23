@@ -1,6 +1,6 @@
 # Firstly, we need to define what tags should be considered sentence delimiters. For this example, only full stop is set as delimiter.
 DELIMITERS = "<.>" "<!>" "<?>" ;
-SOFT-DELIMITERS = "<,>" ;
+SOFT-DELIMITERS = "<,>" "<:>" "<;>" ;
 
 SUBREADINGS = LTR ;
 
@@ -92,6 +92,7 @@ LIST Chi = "<chi>" ;
 LIST Cristianu = "cristianu" ;
 
 LIST Sg3 = (p3 sg) ;
+LIST Sg1 = (p1 sg) ;
 
 LIST Cog = cog ;
 LIST Top = top ;
@@ -354,6 +355,9 @@ SELECT Adv/itg IF (0 Adv/itg OR Adv) (1* Intrg);
 REMOVE Pron/itg (NOT 1* Intrg);
 
 SELECT CC IF (0 CC/e OR CC/o) ;
+
+SELECT Sg3 IF (0C Sg3 OR Sg1) (-1 Pron + Sg3) ;
+    ## Lu 20 di giugnettu dû 2005, addivintau la nostra terza sysop, e lu 26 di austu, 2005 idda scrissi lu 2000èsimu artìculu.
 
 REMOVE Pri IF (-1C Det) (0C PrfPrc OR Pri) ;
 
