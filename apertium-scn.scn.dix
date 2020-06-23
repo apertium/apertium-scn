@@ -998,9 +998,10 @@
 
     <pardef n="A__/u">
       	<e><p><l>u</l><r><s n="m"/><s n="sg"/></r></p></e>
-      	<e><p><l>i</l><r><s n="m"/><s n="pl"/></r></p></e>
       	<e><p><l>a</l><r><s n="f"/><s n="sg"/></r></p></e>
-      	<e><p><l>i</l><r><s n="f"/><s n="pl"/></r></p></e>
+<!--      	<e><p><l>i</l><r><s n="m"/><s n="pl"/></r></p></e>-->
+<!--      	<e><p><l>i</l><r><s n="f"/><s n="pl"/></r></p></e>-->
+      	<e><p><l>i</l><r><s n="mf"/><s n="pl"/></r></p></e>
     </pardef>
 
     <pardef n="atr/u__adj">
@@ -1031,9 +1032,8 @@
     
     <pardef n="lar/iu__adj">
       	<e><p><l>iu</l><r>iu<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
-      	<e><p><l>i</l><r>iu<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
       	<e><p><l>ia</l><r>iu<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
-      	<e><p><l>i</l><r>iu<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
+      	<e><p><l>i</l><r>iu<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
       	<e r="LR"><p><l>î</l><r>iu<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
       	<e r="LR"><p><l>î</l><r>iu<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
       	<e r="LR"><p><l>ii</l><r>iu<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
@@ -1056,9 +1056,8 @@
     
     <pardef n="ètic/u__adj">
       	<e><p><l>u</l><r>u<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
-      	<e><p><l>hi</l><r>u<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
       	<e><p><l>a</l><r>u<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
-      	<e><p><l>hi</l><r>u<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
+      	<e><p><l>hi</l><r>u<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
       	<e r="LR"><p><l>i</l><r>u<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
       	<e r="LR"><p><l>i</l><r>u<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
@@ -6068,7 +6067,9 @@
 
     <pardef n="d/ari__vblex">
       	<e><p><l>ari</l><r>ari<s n="vblex"/><s n="inf"/></r></p></e>
+      	<e r="LR"><p><l>àri</l><r>ari<s n="vblex"/><s n="inf"/></r></p></e>
       	<e><p><l>ari</l><r>ari<s n="vblex"/><s n="inf"/><j/></r></p><par n="S__battiri"/></e>
+      	<e r="LR"><p><l>àri</l><r>ari<s n="vblex"/><s n="inf"/><j/></r></p><par n="S__battiri"/></e>
         
     	<e><p><l>ugnu</l><r>ari<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
     	<e><p><l>uni</l><r>ari<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
@@ -20907,6 +20908,7 @@
     <e lm="mmàgini" r="LR"><p><l>mmàggini</l><r>mmàgini</r></p><par n="matri__n"/></e>
     <e lm="fruvuliata" r="LR"><p><l>fruviat</l><r>fruvuliat</r></p><par n="cas/a__n"/></e>
     <e lm="mperiu" r="LR"><p><l>mpèr</l><r>mper</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="mperiu" r="LR"><p><l>mpir</l><r>mper</r></p><par n="sacchegg/iu__n"/></e>
     <e lm="mperiu" r="LR"><p><l>mpe</l><r>mper</r></p><par n="sacchegg/iu__n"/></e>
     <e lm="cufularu" r="LR"><p><l>fucular</l><r>cufular</r></p><par n="ann/u__n"/></e>
     <e lm="cauciu" r="LR"><p><l>càuc</l><r>cauc</r></p><par n="sacchegg/iu__n"/></e>

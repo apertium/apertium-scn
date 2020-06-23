@@ -353,7 +353,7 @@ REMOVE Pron/itg (NOT 1* Intrg);
 
 SELECT CC IF (0 CC/e OR CC/o) ;
 
-
+REMOVE Pri IF (-1C Det) (0C PrfPrc OR Pri) ;
 
 # SELECT Pron/itg IF (0 Rel) (0 Pron/itg) (1* Intrg);
 
@@ -394,11 +394,3 @@ SELECT CC IF (0 CC/e OR CC/o) ;
 AFTER-SECTIONS
 
 REMOVE SUB:1 Det (NOT 0 Imper) ;
-
-# Resources:
-# http://visl.sdu.dk/cg3.html
-# http://groups.google.com/group/constraint-grammar
-# http://kevindonnelly.org.uk/2010/05/constraint-grammar-tutorial/
-# http://wiki.apertium.org/wiki/Constraint_Grammar
-# http://wiki.apertium.org/wiki/Apertium_and_Constraint_Grammar
-
