@@ -13,7 +13,7 @@ LIST CC = cnjcoo ;
 LIST Rel = rel ; 
 LIST CS = cnjsub ;
 LIST Prop = np ;
-LIST Vblex = (vblex) ;
+LIST V = (vblex) ;
 LIST Vbmod = (vbmod) ;
 LIST Vbhaver = (vbhaver) ;
 LIST Vbser = (vbser);
@@ -36,6 +36,8 @@ LIST Pron/p1/pl = (prn pro p1 mf pl) ;
 LIST Pron/p2/pl = (prn pro p2 mf pl) ;
 LIST Pron/p3/pl = (prn pro p2 mf pl) ;
 
+LIST Circa = "circa" ; 
+LIST Di = "di" ; 
 
 LIST AdjPos = (adj pos);
 
@@ -82,7 +84,7 @@ LIST DetDemFemPl = (det dem f pl);
 LIST nuddu = "<nuddu>" ;
 
 LIST Vèniri = "<vèniri>" ;
-LIST Vblex/pariri = "<pariri>" ;
+LIST Pariri = "<pariri>" ;
 
 
 
@@ -181,7 +183,7 @@ SET Numero = NotSg | NotPl ;
 
 SET Fin = Ifi | Pri ; 
 
-SET Verb = Vblex OR Vbmod OR Vbhaver OR Vbser ;
+SET Verb = V OR Vbmod OR Vbhaver OR Vbser ;
 
 SET NonFiniteForm = Ifi OR Pis OR Pri OR Fti OR Fts OR Prs OR Imper OR Pii;
 
@@ -197,9 +199,9 @@ SELECT DetPos IF (0 AdjPos OR DetPos) (1 N) ;
 
 
 
-SELECT CS IF (-1 Vblex/pariri OR N) (0 Pr LINK 0/* Det OR CS/ca) ;
+SELECT CS IF (0C Pariri) (0 V OR N) (0 Pr LINK 0/* Det OR CS/ca) ;
 
-SELECT Vblex IF (0 Vblex/pariri OR N) (1 CS/ca OR Pr LINK 0/* Det) ;
+SELECT V IF (0C Pariri) (0 V OR N) (1 CS/ca OR Pr LINK 0/* Det) ;
 
 SELECT DetDef IF (0 DetDef OR Verb + $$Pri) (1 N + $$Pl) ;
 
@@ -275,7 +277,7 @@ SELECT DetDefFemPl IF (0 DetDefMscPl OR DetDefFemPl) (1 A OR DetPos) (2 N/f + $$
 
 SELECT DetDefMscPl IF (0 DetDefMscPl OR DetDefFemPl) (1 A OR DetPos) (2 N/m + $$Pl OR N/m/sp) ;
 
-SELECT N IF (-1 DetDef) (0 N or Vblex);
+SELECT N IF (-1 DetDef) (0 N or V);
 
 SELECT Pron IF (0 nuddu) (1 Verb) ;
 
@@ -300,13 +302,13 @@ SELECT N IF (-1 Det OR Pr LINK 0/* Det OR Pr) (0 N + $$Fem OR Verb + $$P3) ;
 SELECT N IF (-1 Det OR Pr LINK 0/* Det OR Pr) (0 Verb + $$PrfPrc OR N) ;
 #significatu/significari
 
-SELECT Vblex IF (0 Vbhaver or Vblex) (1 Det) (2 N) ;
+SELECT V IF (0 Vbhaver or V) (1 Det) (2 N) ;
 
-SELECT Vblex IF (0 Vbhaver or Vblex) (1 N) ;
+SELECT V IF (0 Vbhaver or V) (1 N) ;
 
 SELECT Pr IF (0 Pr or Det + $$Ind) (1 Prop) ;
 
-SELECT Pron IF (0 Prn/si or Vbser + $$P2) (1 Vblex + $$NonFiniteForm) ;
+SELECT Pron IF (0 Prn/si or Vbser + $$P2) (1 V + $$NonFiniteForm) ;
 
 SELECT Msc IF (0 Adj/pl + $$Msc OR Adj/pl + $$Fem) (1 N/pl + $$Msc) ;
 
@@ -390,6 +392,7 @@ REMOVE Pri IF (-1C Det) (0C PrfPrc OR Pri) ;
 # 
 # # SELECT Rel IF (0 Chi) (1 Fin) ;
 
+SELECT Pr IF (0 Circa) (-1 Di) (1 Num) ;
 
 AFTER-SECTIONS
 
