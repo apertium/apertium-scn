@@ -1,0 +1,622 @@
+# sent_id = wikipedia-1k:1
+# text = Lu balinisi è la lingua parrata nta l'ìsula indunisiana di Bali.
+# labels = complete
+^Lu/lu<det><def><m><sg>$
+^balinisi/balinisi<n><m><sp>$
+^è/èssiri<vbser><pri><p3><sg>$
+^la/lu<det><def><f><sg>$
+^lingua/lingua<n><f><sg>$
+^parrata/parrari<vblex><pp><f><sg>$
+^nta/nta<pr>$
+^l'/lu<det><def><mf><sp>$
+^ìsula/ìsula<n><f><sg>$
+^indunisiana/indunisianu<adj><f><sg>$
+^di/di<pr>$
+^Bali/Bali<np><top>$
+^./.<sent>$
+
+# sent_id = wikipedia-1k:2
+# text = Ntô 1824 fu funnata a Catania l'Accademia Gioenia di Scienzi Naturali, n'istituzzioni chi esisti ancora òi.
+# labels = complete
+^Ntô/nta<pr>+lu<det><def><m><sg>$
+^1824/1824<num>$
+^fu/èssiri<vbser><ifi><p3><sg>$
+^funnata/funnari<vblex><pp><f><sg>$
+^a/a<pr>$
+^Catania/Catania<np><top>$
+^l'/lu<det><def><mf><sp>$
+^Accademia/accaremia<n><f><sg>$
+^Gioenia/Gioenia<np><al>$
+^di/di<pr>+lu<det><def><mf><pl>$
+^Scienzi/scienza<n><f><pl>$
+^Naturali/naturali<adj><mf><sp>$
+^,/,<cm>$
+^n'/un<det><ind><mf><sg>$
+^istituzzioni/istituzzioni<n><f><sp>$
+^chi/chi<rel><an><mf><sp>$
+^esisti/esìstiri<vblex><pri><p3><sg>$
+^ancora/ancora<adv>$
+^òi/oggi<adv>$
+^./.<sent>$
+
+# sent_id = wikipedia-1k:10
+# text = Abu al-Hasan 'Alī al-Mas'ūdī (Bagdad, 897 - Fostat 957) fu nu giògrafu e viaggiaturi àrabbu.
+# labels = complete
+^Abu/Abu<np><ant>$
+^al-Hasan/al-Hasan<np><cog>$
+^'Alī/'Alī<np><ant>$
+^al-Mas'ūdī/al-Mas'ūdī<np><cog>$
+^(/(<lpar>$
+^Bagdad/Bagdad<np><top>$
+^,/,<cm>$
+^897/897<num>$
+^-/-<guio>$
+^Fostat/Fostat<np><top>$
+^957/957<num>$
+^)/)<rpar>$
+^fu/èssiri<vbser><ifi><p3><sg>$
+^nu/un<det><ind><m><sg>$
+^giògrafu/giògrafu<n><m><sg>$
+^e/e<cnjcoo>$
+^viaggiaturi/viaggiaturi<n><m><sg>$
+^àrabbu/àrabbu<adj><m><sg>$
+^./.<sent>$
+
+# sent_id = wikipedia-1k:11
+# text = E' cunzidiratu lu cchiù granni enciclupidista àrabbu dû X sèculu.
+# labels = complete
+^E'/èssiri<vbser><pri><p3><sg>$
+^cunzidiratu/cunziddirari<vblex><pp><m><sg>$
+^lu/lu<det><def><m><sg>$
+^cchiù/cchiù<adv>$
+^granni/granni<adj><mf><sp>$
+^enciclupidista/enciclupidista<n><mf><sg>$
+^àrabbu/àrabbu<adj><m><sg>$
+^dû/di<pr>+lu<det><def><m><sg>$
+^X/X<num><mf><sp>$
+^sèculu/sèculu<n><m><sg>$
+^./.<sent>$
+
+# sent_id = wikipedia-1k:13
+# text = Li pneumatici hannu sizzioni cumprisa di sòlitu tra 1,8 e 2,5 puseri, ma nta casi spiciali ("fat bike") si ponnu rruvari li 4,8 puseri (circa 122 mm).
+# labels = complete
+^Li/lu<det><def><mf><pl>$
+^pneumatici/pneumaticu<n><m><pl>$
+^hannu/aviri<vblex><pri><p3><pl>$
+^sizzioni/sizzioni<n><f><sp>$
+^cumprisa/cumprisu<adj><f><sg>$
+^di/di<pr>$
+^sòlitu/sòlitu<n><m><sg>$
+^tra/tra<pr>$
+^1,8/1,8<num>$
+^e/e<cnjcoo>$
+^2,5/2,5<num>$
+^puseri/puseri<n><m><sp>$
+^,/,<cm>$
+^ma/ma<cnjcoo>$
+^nta/nta<pr>$
+^casi/casu<n><m><pl>$
+^spiciali/spiciali<adj><mf><sp>$
+^(/(<lpar>$
+^"/"<quot>$
+^fat/fat<n><barb>$
+^bike/bike<n><barb>$
+^"/"<quot>$
+^)/)<rpar>$
+^si/si<prn><pro><ref><p3><mf><sp>$
+^ponnu/putiri<vbmod><pri><p3><pl>$
+^rruvari/rruvari<vblex><inf>$
+^li/lu<det><def><mf><pl>$
+^4,8/4,8<num>$
+^puseri/puseri<n><m><sp>$
+^(/(<lpar>$
+^circa/circa<pr>$
+^122/122<num>$
+^mm/mm<n><acr><m><sp>$
+^)/)<rpar>$
+^./.<sent>$
+
+# sent_id = wikipedia-1k:14
+# text = La carcassa havi rubbustizza e pisu variàbbili a’ secunna dâ distinazzioni d’utilizzu.
+# labels = complete
+^La/lu<det><def><f><sg>$
+^carcassa/carcassa<n><f><sg>$
+^havi/aviri<vblex><pri><p3><sg>$
+^rubbustizza/rubbustizza<n><f><sg>$
+^e/e<cnjcoo>$
+^pisu/pisu<n><m><sg>$
+^variàbbili/variàbbili<adj><mf><sp>$
+^a’/a<pr>$
+^secunna/secunnu<adj><f><sg>$
+^dâ/di<pr>+lu<det><def><f><sg>$
+^distinazzioni/distinazzioni<n><f><sp>$
+^d’/di<pr>$
+^utilizzu/utilizzari<vblex><pri><p1><sg>$
+^./.<sent>$
+
+# sent_id = wikipedia-1k:18
+# text = Munti Casteddu di Vibiu è nu cumuni dâ pruvincia di Pirùggia.
+# labels = complete
+^Munti/Munti<np><top>$
+^Casteddu/Casteddu<np><top>$
+^di/di<pr>$
+^Vibiu/Vibiu<np><top>$
+^è/èssiri<vbser><pri><p3><sg>$
+^nu/un<det><ind><m><sg>$
+^cumuni/cumuni<n><m><sp>$
+^dâ/di<pr>+lu<det><def><f><sg>$
+^pruvincia/pruvincia<n><f><sg>$
+^di/di<pr>$
+^Pirùggia/Pirùggia<np><top>$
+^./.<sent>$
+
+# sent_id = wikipedia-1k:19
+# text = Havi na pupulazzioni di 1'627 abbitanti.
+# labels = complete
+^Havi/aviri<vblex><pri><p3><sg>$
+^na/un<det><ind><f><sg>$
+^pupulazzioni/populazzioni<n><f><sp>$
+^di/di<pr>$
+^1'627/1'627<num>$
+^abbitanti/abbitanti<n><m><sp>$
+^./.<sent>$
+
+# sent_id = wikipedia-1k:21
+# text = La missioni fu lanciata dâ basi da NASA di Cape Canaveral ntê Stati Uniti ntô 1997 e agghicau ntê pressi dû sistema di Saturnu â fini dû 2004.
+# labels = complete
+^La/lu<det><def><f><sg>$
+^missioni/missioni<n><f><sp>$
+^fu/èssiri<vbser><ifi><p3><sg>$
+^lanciata/lanciari<vblex><pp><f><sg>$
+^dâ/di<pr>+lu<det><def><f><sg>$
+^basi/basi<n><f><sp>$
+^da/di<pr>+lu<det><def><f><sg>$
+^NASA/NASA<n><acr><f><sg>$
+^di/di<pr>$
+^Cape Canaveral/Cape Canaveral<np><top>$
+^ntê/nta<pr>+lu<det><def><mf><pl>$
+^Stati Uniti/Stati Uniti<np><top>$
+^ntô/nta<pr>+lu<det><def><m><sg>$
+^1997/1997<num>$
+^e/e<cnjcoo>$
+^agghicau/agghicari<vblex><ifi><p3><sg>$
+^ntê/nta<pr>+lu<det><def><mf><pl>$
+^pressi/*pressi<n><mf><pl>$
+^dû/di<pr>+lu<det><def><m><sg>$
+^sistema/sistema<n><m><sg>$
+^di/di<pr>$
+^Saturnu/Saturnu<np><top>$
+^â/a<pr>+lu<det><def><f><sg>$
+^fini/fini<n><f><sp>$
+^dû/di<pr>+lu<det><def><m><sg>$
+^2004/2004<num>$
+^./.<sent>$
+
+# sent_id = wikipedia-1k:23
+# text = Settimo San Pietro è un cumuni talianu dâ pruvincia di Càgliari ntâ Sardigna.
+# labels = complete
+^Settimo/Settimo<np><top>$
+^San/San<np><top>$
+^Pietro/Pietro<np><top>$
+^è/èssiri<vbser><pri><p3><sg>$
+^un/un<det><ind><m><sg>$
+^cumuni/cumuni<n><m><sp>$
+^talianu/talianu<adj><m><sg>$
+^dâ/di<pr>+lu<det><def><f><sg>$
+^pruvincia/pruvincia<n><f><sg>$
+^di/di<pr>$
+^Càgliari/Càgliari<np><top>$
+^ntâ/nta<pr>+lu<det><def><f><sg>$
+^Sardigna/Sardigna<np><top>$
+^./.<sent>$
+
+# sent_id = wikipedia-1k:24
+# text = Cullabburau cu sò frati ô sviluppu dû calculu nfinitesimali.
+# labels = complete
+^Cullabburau/cullabburari<vblex><ifi><p3><sg>$
+^cu/cu<pr>+lu<det><def><m><sg>$
+^sò/so<adj><pos><mf><sg>$
+^frati/frati<n><m><sp>$
+^ô/a<pr>+lu<det><def><m><sg>$
+^sviluppu/sviluppu<n><m><sg>$
+^dû/di<pr>+lu<det><def><m><sg>$
+^calculu/calculu<n><m><sg>$
+^nfinitesimali/nfinitesimali<adj><mf><sp>$
+^./.<sent>$
+
+# sent_id = wikipedia-1k:26
+# text = Fazziu Gaggini (1520 - 27 di maiu 1567) fu nu sculturi sicilianu figghiu di Antonellu Gaggini e niputi di Dumìnicu Gaggini.
+# labels = complete
+^Fazziu/Fazziu<np><ant>$
+^Gaggini/Gaggini<np><cog>$
+^(/(<lpar>$
+^1520/1520<num>$
+^-/-<guio>$
+^27/27<num>$
+^di/di<pr>$
+^maiu/maiu<n><m><sg>$
+^1567/1567<num>$
+^)/)<rpar>$
+^fu/èssiri<vbser><ifi><p3><sg>$
+^nu/un<det><ind><m><sg>$
+^sculturi/sculturi<n><mf><sg>$
+^sicilianu/sicilianu<adj><m><sg>$
+^figghiu/figghiu<n><m><sg>$
+^di/di<pr>$
+^Antonellu/Antonellu<np><ant>$
+^Gaggini/Gaggini<np><cog>$
+^e/e<cnjcoo>$
+^niputi/niputi<n><m><sp>$
+^di/di<pr>$
+^Dumìnicu/Duminicu<np><ant>$
+^Gaggini/Gaggini<np><cog>$
+^./.<sent>$
+
+# sent_id = wikipedia-1k:27
+# text = La palora siciliana papalea è aduprata pi nummarusi specii di pùddiri nutturni o cripusculari di l’òrdini di li Lepidòttiri.
+# labels = complete
+^La/lu<det><def><f><sg>$
+^palora/palora<n><f><sg>$
+^siciliana/sicilianu<adj><f><sg>$
+^papalea/papalea<n><f><sg>$
+^è/èssiri<vbser><pri><p3><sg>$
+^aduprata/aduprari<vblex><pp><f><sg>$
+^pi/pi<pr>$
+^nummarusi/nummarusi<adj><mf><sp>$
+^specii/specii<n><f><sp>$
+^di/di<pr>$
+^pùddiri/pùddira<n><f><pl>$
+^nutturni/nutturna<n><m><pl>$
+^o/o<cnjcoo>$
+^cripusculari/*cripusculari<n><mf><pl>$
+^di/di<pr>$
+^l’/lu<det><def><mf><sp>$
+^òrdini/òrdini<n><m><sp>$
+^di/di<pr>$
+^li/lu<det><def><mf><pl>$
+^Lepidòttiri/*Lepidòttiri<n><mf><pl>$
+^./.<sent>$
+
+# sent_id = wikipedia-1k:31
+# text = Ma è ntô cuntinutu musicali ca The Game rapprisenta nu elementu di svolta ntâ carrera dû gruppu.
+# labels = complete
+^Ma/ma<cnjcoo>$
+^è/èssiri<vbser><pri><p3><sg>$
+^ntô/nta<pr>+lu<det><def><m><sg>$
+^cuntinutu/cuntinutu<n><m><sg>$
+^musicali/musicali<adj><mf><sp>$
+^ca/ca<cnjsub>$
+^The/The<np><al>$
+^Game/Game<np><al>$
+^rapprisenta/rapprisentari<vblex><pri><p3><sg>$
+^nu/un<det><ind><m><sg>$
+^elementu/elementu<n><m><sg>$
+^di/di<pr>$
+^svolta/svolta<n><f><sg>$
+^ntâ/nta<pr>+lu<det><def><f><sg>$
+^carrera/carrera<n><f><sg>$
+^dû/di<pr>+lu<det><def><m><sg>$
+^gruppu/gruppu<n><m><sg>$
+^./.<sent>$
+
+# sent_id = wikipedia-1k:33
+# text = Sta proposizioni fu usata ndâ prima vota ndô 1972 dô prufissuri William J. Rapaport, dâ Università di Buffalo.
+# labels = complete
+^Sta/chistu<det><dem><f><sg>$
+^proposizioni/proposizioni<n><f><sp>$
+^fu/èssiri<vbser><ifi><p3><sg>$
+^usata/usari<vblex><pp><f><sg>$
+^ndâ/nta<pr>+lu<det><def><f><sg>$
+^prima/primu<adj><ord><f><sg>$
+^vota/vota<n><f><sg>$
+^ndô/nta<pr>+lu<det><def><m><sg>$
+^1972/1972<num>$
+^dô/di<pr>+lu<det><def><m><sg>$
+^prufissuri/prufissuri<n><m><sp>$
+^William/William<np><ant>$
+^J./J.<np><abbr>$
+^Rapaport/Rapaport<np><cog>$
+^,/,<cm>$
+^dâ/di<pr>+lu<det><def><f><sg>$
+^Università/università<n><f><sp>$
+^di/di<pr>$
+^Buffalo/Buffalo<np><top>$
+^./.<sent>$
+
+# sent_id = wikipedia-1k:34
+# text = Pearl S. Buck (Hillsboro, 26 di giugnu 1892 - Danby, 6 di marzu 1973) fu na scrittrici miricana.
+# labels = complete
+^Pearl/Pearl<np><ant>$
+^S./S.<np><abbr>$
+^Buck/Buck<np><cog>$
+^(/(<lpar>$
+^Hillsboro/Hillsboro<np><top>$
+^,/,<cm>$
+^26/26<num>$
+^di/di<pr>$
+^giugnu/giugnu<n><m><sg>$
+^1892/1892<num>$
+^-/-<guio>$
+^Danby/Danby<np><top>$
+^,/,<cm>$
+^6/6<num>$
+^di/di<pr>$
+^marzu/marzu<n><m><sg>$
+^1973/1973<num>$
+^)/)<rpar>$
+^fu/èssiri<vbser><ifi><p3><sg>$
+^na/un<det><ind><f><sg>$
+^scrittrici/scritturi<n><f><sg>$
+^miricana/miricanu<adj><f><sg>$
+^./.<sent>$
+
+# sent_id = wikipedia-1k:35
+# text = Ntô 1938 vinciu lu premiu Nobel pâ littiratura.
+# labels = complete
+^Ntô/nta<pr>+lu<det><def><m><sg>$
+^1938/1938<num>$
+^vinciu/vinciri<vblex><ifi><p3><sg>$
+^lu/lu<det><def><m><sg>$
+^premiu/premiu<n><m><sg>$
+^Nobel/Nobel<np><cog>$
+^pâ/pi<pr>+lu<det><def><f><sg>$
+^littiratura/littiratura<n><f><sg>$
+^./.<sent>$
+
+# sent_id = wikipedia-1k:38
+# text = L'aramàicu è a lingua di nu munzieddu di parti di li dui libbri di la Bibbia attribbuiti a Danieli e Ezra.
+# labels = complete
+^L'/lu<det><def><mf><sp>$
+^aramàicu/aramàicu<n><m><sg>$
+^è/èssiri<vbser><pri><p3><sg>$
+^a/lu<det><def><f><sg>$
+^lingua/lingua<n><f><sg>$
+^di/di<pr>$
+^nu/un<det><ind><m><sg>$
+^munzieddu/munzieddu<n><m><sg>$
+^di/di<pr>+lu<det><def><mf><pl>$
+^parti/parti<n><f><sp>$
+^di/di<pr>$
+^li/lu<det><def><mf><pl>$
+^dui/dui<num><mf><sp>$
+^libbri/libbru<n><m><sg>$
+^di/di<pr>$
+^la/lu<det><def><f><sg>$
+^Bibbia/bibbia<n><f><sg>$
+^attribbuiti/attribbuiri<vblex><pp><mf><pl>$
+^a/a<pr>$
+^Danieli/Danieli<np><ant>$
+^e/e<cnjcoo>$
+^Ezra/Ezra<np><ant>$
+^./.<sent>$
+
+# sent_id = wikipedia-1k:39
+# text = Lu cchiù granni diu di l'Etruria.
+# labels = complete
+^Lu/lu<det><def><m><sg>$
+^cchiù/cchiù<adv>$
+^granni/granni<adj><mf><sp>$
+^diu/diu<n><m><sg>$
+^di/di<pr>$
+^l'/lu<det><def><mf><sp>$
+^Etruria/Etruria<np><top>$
+^./.<sent>$
+
+# sent_id = wikipedia-1k:41
+# text = Era aduratu nta lu santuariu di Volsinii ("Velzna" 'n Etruscu), dunni si cilibbràvanu ogni annu li festi dî 12 pòpuli etruschi.
+# labels = complete
+^Era/èssiri<vbser><pii><p3><sg>$
+^aduratu/adurari<vblex><pp><m><sg>$
+^nta/nta<pr>$
+^lu/lu<det><def><m><sg>$
+^santuariu/santuariu<n><m><sg>$
+^di/di<pr>+lu<det><def><mf><pl>$
+^Volsinii/Volsinii<np><al>$
+^(/(<lpar>$
+^"/"<quot>$
+^Velzna/Velzna<np><top>$
+^"/"<quot>$
+^'n/nta<pr>$
+^Etruscu/etruscu<n><m><sg>$
+^)/)<rpar>$
+^,/,<cm>$
+^dunni/dunni<adv>$
+^si/si<prn><pro><ref><p3><mf><sp>$
+^cilibbràvanu/cilibbrari<vblex><pii><p3><pl>$
+^ogni/ogni<det><ind><mf><sg>$
+^annu/annu<n><m><sg>$
+^li/lu<det><def><mf><pl>$
+^festi/festa<n><f><pl>$
+^dî/di<pr>+lu<det><def><mf><pl>$
+^12/12<num>$
+^pòpuli/pòpulu<n><m><pl>$
+^etruschi/etruscu<adj><mf><pl>$
+^./.<sent>$
+
+# sent_id = wikipedia-1k:42
+# text = Muriu a trentacincu anni a Vienna.
+# labels = complete
+^Muriu/muriri<vblex><ifi><p3><sg>$
+^a/a<pr>$
+^trentacincu/trentacincu<num><mf><sp>$
+^anni/annu<n><m><pl>$
+^a/a<pr>$
+^Vienna/Vienna<np><top>$
+^./.<sent>$
+
+# sent_id = wikipedia-1k:44
+# text = La Ducea di Curlannia era la cchiù nica nazzioni d'Amèrica duranti l'èbbica di culunizzazzioni europea ntô sèculu XVI.
+# labels = complete
+^La/lu<det><def><f><sg>$
+^Ducea/Ducea<np><top>$
+^di/di<pr>$
+^Curlannia/Curlannia<np><top>$
+^era/èssiri<vbser><pii><p3><sg>$
+^la/lu<det><def><f><sg>$
+^cchiù/cchiù<adv>$
+^nica/nicu<adj><f><sg>$
+^nazzioni/nazzioni<n><f><sp>$
+^d'/di<pr>$
+^Amèrica/Mèrica<np><top>$
+^duranti/duranti<pr>$
+^l'/lu<det><def><mf><sp>$
+^èbbica/èbbuca<n><f><sg>$
+^di/di<pr>$
+^culunizzazzioni/culunizzazzioni<n><f><sp>$
+^europea/europeu<adj><f><sg>$
+^ntô/nta<pr>+lu<det><def><m><sg>$
+^sèculu/sèculu<n><m><sg>$
+^XVI/XVI<num><mf><sp>$
+^./.<sent>$
+
+# sent_id = wikipedia-1k:45
+# text = Na culonia di curta durata vinni stabbiluta 'n Tobbagu duranti lu pirìudu 1654–1659, e arrè 1660–1689.
+# labels = incomplete
+^Na/un<det><ind><f><sg>$
+^culonia/culonia<n><f><sg>$
+^di/di<pr>$
+^curta/curtu<adj><f><sg>$
+^durata/durata<n><f><sg>$
+^vinni/vèniri<vblex><ifi><p3><sg>$
+^stabbiluta/stabbiliri<vblex><pp><f><sg>$
+^'n/nta<pr>$
+^Tobbagu/Tobbagu<np><top>$
+^duranti/duranti<pr>$
+^lu/lu<det><def><m><sg>$
+^pirìudu/pirìudu<n><m><sg>$
+^1654/1654<num>$
+^–/–<guio>$
+^1659/1659<num>$
+^,/,<cm>$
+^e/e<cnjcoo>$
+^arrè/arrè<pr>$
+^1660/1660<num>$
+^–/–<guio>$
+^1689/1689<num>$
+^./.<sent>$
+
+# sent_id = wikipedia-1k:46
+# text = Dô "“tablinum”" si putìa jiri direttamenti nta tri càmiri privati, pavimintati cu mosàichi janchi e nìuri.
+# labels = complete
+^Dô/di<pr>+lu<det><def><m><sg>$
+^“/“<lquot>$
+^tablinum/tablinum<n><barb>$
+^”/”<rquot>$
+^si/si<prn><pro><ref><p3><mf><sp>$
+^putìa/putiri<vbmod><pii><p3><sg>$
+^jiri/jiri<vblex><inf>$
+^direttamenti/direttamenti<adv>$
+^nta/nta<pr>$
+^tri/tri<num><mf><sp>$
+^càmiri/càmira<n><f><pl>$
+^privati/privatu<adj><mf><pl>$
+^,/,<cm>$
+^pavimintati/pavimintari<vblex><pp><mf><pl>$
+^cu/cu<pr>$
+^mosàichi/mosàicu<n><m><pl>$
+^janchi/iancu<adj><mf><pl>$
+^e/e<cnjcoo>$
+^nìuri/nìuru<adj><mf><pl>$
+^./.<sent>$
+
+# sent_id = wikipedia-1k:47
+# text = L'arsènicu è n'elimentu chimicu.
+# labels = complete
+^L'/lu<det><def><mf><sp>$
+^arsènicu/arsènicu<adj><m><sg>$
+^è/èssiri<vbser><pri><p3><sg>$
+^n'/un<det><ind><mf><sg><SELECT:255>$
+^elimentu/elimentu<n><m><sg>$
+^chimicu/chimicu<adj><m><sg>$
+^./.<sent>$
+
+# sent_id = wikipedia-1k:48
+# text = L`atomu di arsènicu si cumponi di 33 protoni e 42 neutroni.
+# labels = complete
+^L`/lu<det><def><mf><sp>$
+^atomu/atomu<n><m><sg>$
+^di/di<pr>$
+^arsènicu/arsènicu<n><m><sg>$
+^si/si<prn><pro><ref><p3><mf><sp>$
+^cumponi/cumpòniri<vblex><pri><p3><sg>$
+^di/di<pr>$
+^33/33<num>$
+^protoni/prutuni<n><m><sp>$
+^e/e<cnjcoo>$
+^42/42<num>$
+^neutroni/niutrùni<n><m><sp>$
+^./.<sent>$
+
+# sent_id = wikipedia-1k:49
+# text = Lu sìmmulu chìmicu è As.
+# labels = complete
+^Lu/lu<det><def><m><sg>$
+^sìmmulu/sìmmulu<n><m><sg>$
+^chìmicu/chìmicu<adj><m><sg>$
+^è/èssiri<vbser><pri><p3><sg>$
+^As/As<np><al>$
+^./.<sent>$
+
+# sent_id = wikipedia-1k:52
+# text = Lu splinnuri.
+# labels = complete
+^Lu/lu<det><def><m><sg>$
+^splinnuri/splinnuri<n><m><sp>$
+^./.<sent>$
+
+# sent_id = wikipedia-1k:59
+# text = St'abbinimentu è puru ricurdatu nti na puisia dû pueta àrabbu-sicilianu Ibn Hamdis chi all'èbbica era esiliatu â curti zirita di Mahdia.
+# labels = complete
+^St'/chistu<det><dem><mf><sp>$
+^abbinimentu/abbinimentu<n><m><sg>$
+^è/èssiri<vbser><pri><p3><sg>$
+^puru/puru<adv>$
+^ricurdatu/ricurdari<vblex><pp><m><sg>$
+^nti/nta<pr>+lu<det><def><mf><pl>$
+^na/nta<pr>+lu<det><def><f><sg>$
+^puisia/puisia<n><f><sg>$
+^dû/di<pr>+lu<det><def><m><sg>$
+^pueta/pueta<n><mf><sg>$
+^àrabbu-sicilianu/àrabbu-sicilianu<adj><m><sg>$
+^Ibn/Ibn<np><ant>$
+^Hamdis/Hamdis<np><ant>$
+^chi/ca<cnjsub>/chi<rel><an><mf><sp>$
+^all'/a<pr>+lu<det><def><mf><sp>$
+^èbbica/èbbuca<n><f><sg>$
+^era/èssiri<vbser><pii><p3><sg>$
+^esiliatu/esiliari<vblex><pp><m><sg>$
+^â/a<pr>+lu<det><def><f><sg>$
+^curti/curti<n><f><sp>$
+^zirita/ziritu<adj><f><sg>$
+^di/di<pr>$
+^Mahdia/Mahdia<np><top>$
+^./.<sent>$
+
+# sent_id = wikipedia-1k:1000
+# text = United Internet Team Germani è nu team vèlicu tedescu participanti â 32-èsima edizzioni dâ America's Cup chi si tinìu a Valencia ntô 2007.
+# labels = complete
+^United/United<np><al>$
+^Internet/Internet<np><al>$
+^Team/Team<np><al>$
+^Germani/Germani<np><al>$
+^è/èssiri<vbser><pri><p3><sg>$
+^nu/un<det><ind><m><sg>$
+^team/team<n><m><sp>$
+^vèlicu/vèlicu<adj><m><sg>$
+^tedescu/tedescu<adj><m><sg>$
+^participanti/participanti<n><m><sp>$
+^â/a<pr>+lu<det><def><f><sg>$
+^32-èsima/32<num><ord><f><sg>$
+^edizzioni/edizzioni<n><f><sp>$
+^dâ/di<pr>+lu<det><def><f><sg>$
+^America's/America's<np><al>$
+^Cup/Cup<np><al>$
+^chi/chi<rel><an><mf><sp>$
+^si/si<prn><pro><ref><p3><mf><sp>$
+^tinìu/tènniri<vblex><ifi><p3><sg>$
+^a/a<pr>$
+^Valencia/Valencia<np><top>$
+^ntô/nta<pr>+lu<det><def><m><sg>$
+^2007/2007<num>$
+^./.<sent>$
+

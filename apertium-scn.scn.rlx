@@ -2,9 +2,14 @@
 DELIMITERS = "<.>" "<!>" "<?>" ;
 SOFT-DELIMITERS = "<,>" "<:>" "<;>" ;
 
+
 SUBREADINGS = LTR ;
 
+LIST BOS = (>>>) ;
+LIST EOS = (<<<) ;
+
 LIST Det = det ; 
+LIST Predet = predet ; 
 LIST N = n ;
 LIST A = adj ;
 LIST Pron = prn ;
@@ -81,18 +86,26 @@ LIST DetPos = (det pos) ;
 LIST DetDemMscPl = (det dem m pl);
 LIST DetDemFemPl = (det dem f pl);
 
-LIST nuddu = "<nuddu>" ;
+LIST nuddu = "<nuddu>"i ;
 
-LIST Vèniri = "<vèniri>" ;
-LIST Pariri = "<pariri>" ;
+LIST Vèniri = "<vèniri>"i ;
+LIST Pariri = "<pariri>"i ;
 
+LIST Tuttu = "<tuttu>"i ;
+LIST Lu = "lu" ;
+
+LIST Assai = "<assai>"i ; 
 
 
 LIST Chi = "<chi>" ;
 LIST Cristianu = "cristianu" ;
 
-LIST Sg3 = (p3 sg) ;
 LIST Sg1 = (p1 sg) ;
+LIST Sg2 = (p2 sg) ;
+LIST Sg3 = (p3 sg) ;
+LIST Pl1 = (p1 pl) ;
+LIST Pl2 = (p2 pl) ;
+LIST Pl3 = (p3 pl) ;
 
 LIST Cog = cog ;
 LIST Top = top ;
@@ -288,20 +301,22 @@ SELECT P1 IF (-1C Pron + $$P1) (0 Pii/p1 OR Pii/p3) ;
 
 SELECT P3 IF (NOT -1C Pron + $$P1 OR Pron + $$P2) (0 Pis/p1 OR Pis/p2 OR Pis/p3 ) ;
 
-SELECT P3 IF (NOT -1C Pron + $$P2) (0 Pri + $$P2 OR Pri + $$P3) ;
+SELECT P3 IF (NOT -1C Pron + $$P2) (0C Pri + $$P2 OR Pri + $$P3) ;
+    ## Domusnovas è un cumuni talianu dâ pruvincia di Carbonia-Iglesias ntâ Sardigna . 
 
 SELECT P2 IF (-1C Pron + $$P2) (0 Pis/p1 OR Pis/p2 OR Pis/p3 ) ;
 
 SELECT P1 IF (-1C Pron + $$P1) (0 Pis/p1 OR Pis/p2 OR Pis/p3 ) ;
 
 SELECT N IF (-1 Det OR Pr LINK 0/* Det OR Pr) (0 N + $$Msc OR Verb + $$P1) ;
-#Munnu/munnari
+    ## Munnu/munnari
 
-SELECT N IF (-1 Det OR Pr LINK 0/* Det OR Pr) (0 N + $$Fem OR Verb + $$P3) ;
-#Acqua/acquari, porta/purtari
+SELECT N IF (-1 Det OR Pr LINK 0/* Det OR Pr) (0C N + $$Fem OR Verb + $$P3) ;
+    ## Acqua/acquari, porta/purtari
+    ## Stu finòminu asisti nta vari zoni di la Sicilia . 
 
 SELECT N IF (-1 Det OR Pr LINK 0/* Det OR Pr) (0 Verb + $$PrfPrc OR N) ;
-#significatu/significari
+    ## significatu/significari
 
 SELECT V IF (0 Vbhaver or V) (1 Det) (2 N) ;
 
@@ -361,6 +376,15 @@ SELECT Sg3 IF (0C Sg3 OR Sg1) (-1 Pron + Sg3) ;
 
 REMOVE Pri IF (-1C Det) (0C PrfPrc OR Pri) ;
 
+SELECT Predet IF (0 Tuttu) (1C Det) ;
+    ## Lu portu addivintau assai friquintatu di parti di mmarcazzioni di tuttu lu Miditirràniu , n modu spiciali dî menzi mircantili ca vinìanu a rifurnìrisi di granu . 
+
+SELECT Det IF (-1 BOS) (0 Lu + $$Genero) (1C N + $$Genero) ;
+    ## Lu portu addivintau assai friquintatu di parti di mmarcazzioni di tuttu lu Miditirràniu , n modu spiciali dî menzi mircantili ca vinìanu a rifurnìrisi di granu . 
+
+REMOVE Sg2 IF (0 Assai) (NOT -1* Sg2) ;
+    ## Lu portu addivintau assai friquintatu di parti di mmarcazzioni di tuttu lu Miditirràniu , n modu spiciali dî menzi mircantili ca vinìanu a rifurnìrisi di granu . 
+
 # SELECT Pron/itg IF (0 Rel) (0 Pron/itg) (1* Intrg);
 
 # SELECT Rel IF (0 Rel) (0 Pr) (1 Fin);
@@ -397,6 +421,11 @@ REMOVE Pri IF (-1C Det) (0C PrfPrc OR Pri) ;
 # # SELECT Rel IF (0 Chi) (1 Fin) ;
 
 SELECT Pr IF (0 Circa) (-1 Di) (1 Num) ;
+
+
+SELECT Det IF (-1C Vbser) (0C Det OR Pron) (1C N) ;
+    ## E' lu capulòcu dâ pruvincia omònima . 
+
 
 AFTER-SECTIONS
 
