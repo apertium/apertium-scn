@@ -243,7 +243,7 @@ SELECT Det IF (-1C Vbser) (0 Det) (0 Pr LINK 0/* Det) ;
  
 
 
-SUBSTITUTE ("tra" pr S1) ("tra" pr S1) Prep/tra (1* DetDefMscPl OR DetDefFemPl BARRIER N + $$Pl);
+#SUBSTITUTE ("tra" pr S1) ("tra" pr S1) Prep/tra (1* DetDefMscPl OR DetDefFemPl BARRIER N + $$Pl);
 
 
 

@@ -379,8 +379,7 @@
     <pardef n="nostr/u__adj">
     	<e><p><l>u</l><r>u<s n="adj"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
     	<e><p><l>a</l><r>u<s n="adj"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
-    	<e><p><l>i</l><r>u<s n="adj"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
-    	<e><p><l>i</l><r>u<s n="adj"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+    	<e><p><l>i</l><r>u<s n="adj"/><s n="pos"/><s n="mf"/><s n="pl"/></r></p></e>
     </pardef>
 
 
@@ -1404,6 +1403,7 @@
         <e r="LR"><p><l>avivi</l><r><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
     	<e><p><l>avìa</l><r><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
         <e r="LR"><p><l>avia</l><r><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e r="LR"><p><l>iaveva</l><r><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
     	<e><p><l>avìamu</l><r><s n="pii"/><s n="p1"/><s n="pl"/></r></p></e>
         <e r="LR"><p><l>aviamu</l><r><s n="pii"/><s n="p1"/><s n="pl"/></r></p></e>
     	<e><p><l>avìavu</l><r><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
@@ -1423,6 +1423,18 @@
         <e r="LR"><p><l>haviavu</l><r><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
         <e r="LR"><p><l>havìanu</l><r><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
         <e r="LR"><p><l>havianu</l><r><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
+        <!-- Alternate forms: with "i". Found in Wikipedia -->
+        <e r="LR"><p><l>iavia</l><r><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e r="LR"><p><l>iavìa</l><r><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e r="LR"><p><l>iavivi</l><r><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e r="LR"><p><l>iavìa</l><r><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e r="LR"><p><l>iavia</l><r><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e r="LR"><p><l>iavìamu</l><r><s n="pii"/><s n="p1"/><s n="pl"/></r></p></e>
+        <e r="LR"><p><l>iaviamu</l><r><s n="pii"/><s n="p1"/><s n="pl"/></r></p></e>
+        <e r="LR"><p><l>iavìavu</l><r><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e r="LR"><p><l>iaviavu</l><r><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e r="LR"><p><l>iavìanu</l><r><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
+        <e r="LR"><p><l>iavianu</l><r><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
 
     	<e><p><l>avirrìa</l><r><s n="cni"/><s n="p1"/><s n="sg"/></r></p></e>
     	<e><p><l>avissi</l><r><s n="cni"/><s n="p2"/><s n="sg"/></r></p></e>
@@ -8681,6 +8693,8 @@
 
     <e lm="dudicèsimu"><i>dudicèsim</i><par n="secunn/u__adj"/></e>
 
+
+    <e r="LR" lm="mill'anni"><p><l>mill'anni</l><r>mill<s n="num"/><s n="mf"/><s n="sp"/><j/>annu<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 
 
     <!-- SECTION: Nouns -->
@@ -32214,6 +32228,7 @@
     <e lm="so"><i>s</i><par n="t/o__adj"/></e>
 
     <e lm="nostru"><i>nostr</i><par n="nostr/u__adj"/></e> <!-- CHEQUEAR -->
+    <e lm="nostru" r="LR"><p><l>nostŗ</l><r>nostr</r></p><par n="nostr/u__adj"/></e> <!-- CHEQUEAR -->
     <e lm="vostru"><i>vostr</i><par n="nostr/u__adj"/></e>     <!-- CHEQUEAR -->
 
     <e lm="beddu"><i>bedd</i><par n="bedd/u__adj"/></e>
@@ -32233,6 +32248,7 @@
     <e lm="sculasticu"><i>sculastic</i><par n="ètic/u__adj"/></e>
     <e lm="parabbòlicu"><i>parabbòlic</i><par n="ètic/u__adj"/></e>
     <e lm="clannistinu"><i>clannistin</i><par n="bedd/u__adj"/></e>
+    <e lm="ndìggini"><i>ndìggin</i><par n="bedd/u__adj"/></e>
     <e lm="nòrdicu"><i>nòrdic</i><par n="ètic/u__adj"/></e>
     <e lm="pulaccu"><i>pulacc</i><par n="ètic/u__adj"/></e>
     <e lm="balcànicu"><i>balcànic</i><par n="ètic/u__adj"/></e>
@@ -35193,6 +35209,8 @@
     <e lm="sùbbitu"><i>sùbbitu</i><par n="oggi__adv"/></e>
     <e lm="sùbbitu" r="LR"><p><l>sùbbutu</l><r>sùbbitu</r></p><par n="oggi__adv"/></e>
     
+    <e lm="a.C."><i>a.C.</i><par n="a.C.__adv"/></e>
+    <e lm="d.C."><i>d.C.</i><par n="a.C.__adv"/></e>
     
 	<e lm="a nuddabbanna"><i>a<b/>nuddabbanna</i><par n="oggi__adv"/></e>
     <e lm="abbasciu"><i>abbasciu</i><par n="oggi__adv"/></e>
@@ -47116,6 +47134,8 @@
 
     <e r="LR" lm="unn'"><p><l>unn'</l><r>unni<s n="adv"/><s n="itg"/></r></p></e>
 
+    <e r="LR" lm="un'"><p><l>un'</l><r>un<s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></r></p></e>
+
     <e r="LR" lm="nzinu all'"><p><l>nzinu<b/>all'</l><r>nzinu<b/>a<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="mf"/><s n="sp"/></r></p></e>
 
     <e r="LR" lm="all'"><p><l>all'</l><r>a<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="mf"/><s n="sp"/></r></p></e>
@@ -47131,6 +47151,8 @@
     <e r="LR" lm="ch'"><p><l>ch'</l><r>chi<s n="rel"/><s n="an"/><s n="mf"/><s n="sp"/></r></p></e>
 
     <e r="LR" lm="c'"><p><l>c'</l><r>chi<s n="rel"/><s n="an"/><s n="mf"/><s n="sp"/></r></p></e>
+
+    <e r="LR" lm="ci'"><p><l>ci'</l><r>ci<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
 
     <e r="LR" lm="cc'"><p><l>cc'</l><r>ci<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
 
@@ -47161,6 +47183,53 @@
     <e r="LR" lm="zocch'"><p><l>zocch'</l><r>zoccu<s n="rel"/><s n="an"/><s n="nt"/></r></p></e>
 
     <e r="LR" lm="zocc'"><p><l>zocc'</l><r>zoccu<s n="rel"/><s n="an"/><s n="nt"/></r></p></e>
+
+    <e r="LR" lm="zokk'"><p><l>zokk'</l><r>zoccu<s n="rel"/><s n="an"/><s n="nt"/></r></p></e>
+
+<!--
+    <e lm="unu"><i>unu</i><par n="unu__num"/></e>
+    <e lm="dui"><i>dui</i><par n="unu__num"/></e>
+    <e lm="dui" r="LR"><p><l>dù</l><r>dui</r></p><par n="unu__num"/></e>
+    <e lm="tri"><i>tri</i><par n="unu__num"/></e>
+    <e lm="sei"><i>sei</i><par n="unu__num"/></e>
+-->
+    <e lm="quattru" r="LR"><p><l>quattr'</l><r>quattru</r></p><par n="unu__num"/></e>
+    <e lm="quattru" r="LR"><p><l>quatt'</l><r>quattru</r></p><par n="unu__num"/></e>
+    <e lm="quattru" r="LR"><p><l>quart'</l><r>quattru</r></p><par n="unu__num"/></e>
+    <e lm="cincu" r="LR"><p><l>cinc'</l><r>cincu</r></p><par n="unu__num"/></e>
+    <e lm="setti" r="LR"><p><l>sett'</l><r>setti</r></p><par n="unu__num"/></e>
+    <e lm="ottu" r="LR"><p><l>ott'</l><r>ottu</r></p><par n="unu__num"/></e>
+    <e lm="novi" r="LR"><p><l>nov'</l><r>novi</r></p><par n="unu__num"/></e>
+    <e lm="deci" r="LR"><p><l>dec'</l><r>deci</r></p><par n="unu__num"/></e>
+    <e lm="ùnnici" r="LR"><p><l>ùnnic'</l><r>ùnnici</r></p><par n="unu__num"/></e>
+    <e lm="dùdici" r="LR"><p><l>dùdic'</l><r>dùdici</r></p><par n="unu__num"/></e>
+    <e lm="trìdici" r="LR"><p><l>trìdic'</l><r>trìdici</r></p><par n="unu__num"/></e>
+    <e lm="quattòrdici" r="LR"><p><l>quattòrdic'</l><r>quattòrdici</r></p><par n="unu__num"/></e>
+    <e lm="chìnnici" r="LR"><p><l>chìnnic'</l><r>chìnnici</r></p><par n="unu__num"/></e>
+    <e lm="sìdici" r="LR"><p><l>sìdic'</l><r>sìdici</r></p><par n="unu__num"/></e>
+    <e lm="diciassetti" r="LR"><p><l>diciassett'</l><r>diciassetti</r></p><par n="unu__num"/></e>
+    <e lm="diciadottu" r="LR"><p><l>diciadott'</l><r>diciadottu</r></p><par n="unu__num"/></e>
+    <e lm="diciadottu" r="LR"><p><l>dicidott'</l><r>diciadottu</r></p><par n="unu__num"/></e>
+    <e lm="diciadottu" r="LR"><p><l>diciott'</l><r>diciadottu</r></p><par n="unu__num"/></e>
+    <e lm="diciannovi" r="LR"><p><l>diciannov'</l><r>diciannovi</r></p><par n="unu__num"/></e>
+    <e lm="vinti" r="LR"><p><l>vint'</l><r>vinti</r></p><par n="unu__num"/></e>
+    <e lm="trenta" r="LR"><p><l>trent'</l><r>trenta</r></p><par n="unu__num"/></e>
+    <e lm="trenta" r="LR"><p><l>trint'</l><r>trenta</r></p><par n="unu__num"/></e>
+    <e lm="quaranta" r="LR"><p><l>quarant'</l><r>quaranta</r></p><par n="unu__num"/></e>
+    <e lm="cinquanta" r="LR"><p><l>cinquant'</l><r>cinquanta</r></p><par n="unu__num"/></e>
+    <e lm="sissanta" r="LR"><p><l>sissant'</l><r>sissanta</r></p><par n="unu__num"/></e>
+    <e lm="sittanta" r="LR"><p><l>sittant'</l><r>sittanta</r></p><par n="unu__num"/></e>
+    <e lm="sittantanovi" r="LR"><p><l>sittantanov'</l><r>sittantanovi</r></p><par n="unu__num"/></e>
+    <e lm="ottanta" r="LR"><p><l>ottant'</l><r>ottanta</r></p><par n="unu__num"/></e>
+    <e lm="novanta" r="LR"><p><l>novant'</l><r>novanta</r></p><par n="unu__num"/></e>
+    <e lm="centu" r="LR"><p><l>cent'</l><r>centu</r></p><par n="unu__num"/></e>
+    <e lm="ducentu" r="LR"><p><l>ducent'</l><r>ducentu</r></p><par n="unu__num"/></e>
+    <e lm="quattrucentu" r="LR"><p><l>quattrucent'</l><r>quattrucentu</r></p><par n="unu__num"/></e>
+    <e lm="milli" r="LR"><p><l>mill'</l><r>milli</r></p><par n="unu__num"/></e>
+
+
+    <e lm="troppu" r="LR"><p><l>tropp'</l><r>troppu</r></p><par n="oggi__adv"/></e>
+
   </section>
 
   <section id="final" type="inconditional">
