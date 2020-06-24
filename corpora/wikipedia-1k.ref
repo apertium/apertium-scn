@@ -592,6 +592,186 @@
 ^Mahdia/Mahdia<np><top>$
 ^./.<sent>$
 
+# sent_id = wikipedia-1k:200
+# text = Lu cuntrastu è na contrappusizzioni, na forti divirsitati.
+# labels = complete
+^Lu/lu<det><def><m><sg>$
+^cuntrastu/cuntrastu<n><m><sg>$
+^è/èssiri<vbser><pri><p3><sg>$
+^na/un<det><ind><f><sg>$
+^contrappusizzioni/contrappusizzioni<n><f><sp>$
+^,/,<cm>$
+^na/un<det><ind><f><sg>$
+^forti/forti<adj><mf><sp>$
+^divirsitati/divirsitati<n><f><sp>$
+^./.<sent>$
+
+# sent_id = wikipedia-1k:201
+# text = Azzardi Putinzziali.
+# labels = complete
+^Azzardi/azzardu<n><m><pl>$
+^Putinzziali/putinzziali<adj><mf><sp>$
+^./.<sent>$
+
+# sent_id = wikipedia-1k:202
+# text = La nuvena è na pràttica di divuzzioni cattòlica n cui si dèdicanu novi jorna cunzicutivi â ripitizzioni di prijeri o riti n priparazzioni di na festa, pi mplurari la grazzia o p'anurari un santu.
+# labels = complete
+^La/lu<det><def><f><sg>$
+^nuvena/nuvena<n><f><sg>$
+^è/èssiri<vbser><pri><p3><sg>$
+^na/nta<pr>+lu<det><def><f><sg>$
+^pràttica/pràtica<n><f><sg>$
+^di/di<pr>$
+^divuzzioni/divuzzioni<n><f><sp>$
+^cattòlica/cattòlicu<adj><f><sg>$
+^n/nta<pr>$
+^cui/cui<rel><aa><mf><sg>$
+^si/si<prn><pro><ref><p3><mf><sp>$
+^dèdicanu/dedicari<vblex><pri><p3><pl>$
+^novi/novi<num><mf><sp>$
+^jorna/jorna<n><f><sg>$
+^cunzicutivi/cunzicutivi<adj><mf><sp>$
+^â/a<pr>+lu<det><def><f><sg>$
+^ripitizzioni/ripitizzioni<n><f><sp>$
+^di/di<pr>$
+^prijeri/prijera<n><f><pl>$
+^o/o<cnjcoo>$
+^riti/riti<n><m><sp>$
+^n/nta<pr>$
+^priparazzioni/priparazzioni<n><f><sp>$
+^di/di<pr>$
+^na/un<det><ind><f><sg>$
+^festa/festa<n><f><sg>$
+^,/,<cm>$
+^pi/pi<pr>$
+^mplurari/mplurari<vblex><inf>$
+^la/lu<det><def><f><sg>$
+^grazzia/grazzia<n><f><sg>$
+^o/o<cnjcoo>$
+^p'/pi<pr>$
+^anurari/unurari<vblex><inf>$
+^un/un<det><ind><m><sg>$
+^santu/santu<n><m><sg>$
+^./.<sent>$
+
+# sent_id = wikipedia-1k:203
+# text = Amuri e Psichi è na cèlibbri scurtura di Antoniu Canova, espunuta ô Louvre.
+# labels = complete
+^Amuri/amuri<n><m><sp>$
+^e/e<cnjcoo>$
+^Psichi/*Psichi<n><mf><sp>$
+^è/èssiri<vbser><pri><p3><sg>$
+^na/un<det><ind><f><sg>$
+^cèlibbri/cèlibbri<adj><mf><sp>$
+^scurtura/scurtura<n><f><sg>$
+^di/di<pr>$
+^Antoniu/Antoniu<np><ant>$
+^Canova/Canova<np><cog>$
+^,/,<cm>$
+^espunuta/*espunuta$
+^ô/a<pr>+lu<det><def><m><sg>$
+^Louvre/Louvre<np><al>$
+^./.<sent>$
+
+# sent_id = wikipedia-1k:204
+# text = Lu suggettu, ispiratu â mituluggìa greca, fu scurputu tra lu 1788 e lu 1793.
+# labels = complete
+^Lu/lu<det><def><m><sg>$
+^suggettu/suggettu<n><m><sg>$
+^,/,<cm>$
+^ispiratu/ispirari<vblex><pp><m><sg>$
+^â/a<pr>+lu<det><def><f><sg>$
+^mituluggìa/mituluggìa<n><f><sg>$
+^greca/grecu<adj><f><sg>$
+^,/,<cm>$
+^fu/èssiri<vbser><ifi><p3><sg>$
+^scurputu/scurpari<vblex><pp><m><sg>$
+^tra/tra<pr>$
+^lu/lu<det><def><m><sg>$
+^1788/1788<num>$
+^e/e<cnjcoo>$
+^lu/lu<det><def><m><sg>$
+^1793/1793<num>$
+^./.<sent>$
+
+# sent_id = wikipedia-1k:205
+# text = L' astrufìsica è la parti dâ fisica chi si ntiressa â fìsica di l'oggetti cilesti.
+# labels = complete
+^L'/lu<det><def><mf><sp>$
+^astrufìsica/astrufìsica<n><f><sg>$
+^è/èssiri<vbser><pri><p3><sg>$
+^la/lu<det><def><f><sg>$
+^parti/parti<n><f><sp>$
+^dâ/di<pr>+lu<det><def><f><sg>$
+^fisica/fìsica<n><f><sg>$
+^chi/chi<rel><an><mf><sp>$
+^si/si<prn><pro><ref><p3><mf><sp>$
+^ntiressa/ntirissari<vblex><pri><p3><sg>$
+^â/a<pr>+lu<det><def><f><sg>$
+^fìsica/fìsica<n><f><sg>$
+^di/di<pr>$
+^l'/lu<det><def><mf><sp>$
+^oggetti/oggettu<n><m><pl>$
+^cilesti/cilesti<adj><mf><sp>$
+^./.<sent>$
+
+# sent_id = wikipedia-1k:207
+# text = Lu canguru è nu marsupiali dâ famigghia Macropodidae (chi signìfica ddi marsupiali chi nn'hannu li pedi granni).
+# labels = complete
+^Lu/lu<det><def><m><sg>$
+^canguru/canguru<n><m><sg>$
+^è/èssiri<vbser><pri><p3><sg>$
+^nu/un<det><ind><m><sg>$
+^marsupiali/marsupiali<n><m><sp>$
+^dâ/di<pr>+lu<det><def><f><sg>$
+^famigghia/famigghia<n><f><sg>$
+^Macropodidae/*macropodidae<n><barb>$
+^(/(<lpar>$
+^chi/chi<rel><an><mf><sp>$
+^signìfica/significari<vblex><pri><p3><sg>$
+^ddi/chiddu<det><dem><mf><pl>$
+^marsupiali/marsupialia<n><f><pl>$
+^chi/chi<rel><an><mf><sp>$
+^nn'/ni<prn><pro><adv>$
+^hannu/aviri<vblex><pri><p3><pl>$
+^li/lu<det><def><mf><pl>$
+^pedi/pedi<n><m><sp>$
+^granni/granni<adj><mf><sp>$
+^)/)<rpar>$
+^./.<sent>$
+
+# sent_id = wikipedia-1k:208
+# text = Particularmenti, stu tèrmini veni usatu pi discrìviri lu gèniri cchiù granni di sta famigghia e chi havi nu mossu nutèvuli di sautàrisi pi jìrisinni unni voli.
+# labels = complete
+^Particularmenti/particularmenti<adv>$
+^,/,<cm>$
+^stu/chistu<det><dem><m><sg>$
+^tèrmini/tèrmini<n><m><sp>$
+^veni/vèniri<vblex><pri><p3><sg>$
+^usatu/usari<vblex><pp><m><sg>$
+^pi/pi<pr>$
+^discrìviri/discrìviri<vblex><inf>$
+^lu/lu<det><def><m><sg>$
+^gèniri/gèniri<n><m><sp>$
+^cchiù/cchiù<adv>$
+^granni/$;	"granni" adj mf sp
+^di/di<pr>$
+^sta/chistu<det><dem><f><sg>$
+^famigghia/famigghia<n><f><sg>$
+^e/e<cnjcoo>$
+^chi/ca<cnjsub>/chi<rel><an><mf><sp>$
+^havi/aviri<vblex><pri><p3><sg>$
+^nu/un<det><ind><m><sg>$
+^mossu/mossu<n><m><sg>$
+^nutèvuli/nutèvuli<adj><mf><sp>$
+^di/di<pr>$
+^sautàrisi/sautari<vblex><inf>+si<prn><enc><ref><p3><mf><sp>$
+^pi/pi<pr>$
+^jìrisinni/jiri<vblex><inf>+si<prn><enc><ref><p3><mf><sp>+ni<prn><pro><adv>$
+^unni/unni<rel><adv>$
+^voli/vuliri<vblex><pri><p3><sg>$
+^./.<sent>$
+
 # sent_id = wikipedia-1k:1000
 # text = United Internet Team Germani è nu team vèlicu tedescu participanti â 32-èsima edizzioni dâ America's Cup chi si tinìu a Valencia ntô 2007.
 # labels = complete
