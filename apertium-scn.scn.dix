@@ -10,6 +10,8 @@
     <sdef n="ord" /> 
     <sdef n="top" /> 
     <sdef n="quot" /> 
+    <sdef n="rquot" /> 
+    <sdef n="lquot" /> 
     <sdef n="ant" /> 
     <sdef n="cog" /> 
     <sdef n="al" /> 
@@ -92,6 +94,12 @@
 
     <pardef n="quotes">
         <e><p><l>"</l><r>"<s n="quot"/></r></p></e>
+        <e><p><l>«</l><r>«<s n="lquot"/></r></p></e>
+        <e><p><l>»</l><r>»<s n="rquot"/></r></p></e>
+    </pardef>
+
+    <pardef n="initialisms">
+        <e w="2.0"><re>[BCDFGHJKLMNPQRSTVWXYZ][BCDFGHJKLMNPQRSTVWXYZ]+</re><p><l></l><r><s n="n"/><s n="acr"/><s n="mf"/><s n="sp"/></r></p></e>
     </pardef>
 
     <pardef n="separa">
@@ -892,7 +900,13 @@
 
       	<e r="LR"><p><l>ddì</l><r>di<s n="pr"/></r></p></e>
       	<e r="LR"><p><l>te</l><r>di<s n="pr"/></r></p></e> <!-- famosu soprattuttu pe l'olio te ottima qualità. -->
-
+      	<e r="LR"><p><l>ti</l><r>di<s n="pr"/></r></p></e> <!-- Eti 'nna torri tìpica ti lu regnu. -->
+      	<e r="LR"><p><l>tô</l><r>di<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
+      	<e r="LR"><p><l>tû</l><r>di<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
+      	<e r="LR"><p><l>tâ</l><r>di<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="f"/><s n="sg"/></r></p></e>
+      	<e r="LR"><p><l>tî</l><r>di<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="mf"/><s n="pl"/></r></p></e>
+      	<e r="LR"><p><l>tê</l><r>di<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="mf"/><s n="pl"/></r></p></e>
+ 
       	<e r="LR"><p><l>ri</l><r>di<s n="pr"/></r></p></e>
       	<e r="LR"><p><l>râ</l><r>di<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="f"/><s n="sg"/></r></p></e>
       	<e r="LR"><p><l>rû</l><r>di<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
@@ -982,6 +996,7 @@
       	<e r="LR"><p><l>chî</l><r>cu<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="mf"/><s n="pl"/></r></p></e>
       	<e r="LR"><p><l>chê</l><r>cu<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="mf"/><s n="pl"/></r></p></e>
       	<e r="LR"><p><l>c'un</l><r>cu<s n="pr"/><j/>un<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
+      	<e r="LR"><p><l>cûn</l><r>cu<s n="pr"/><j/>un<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
 
       	<e r="LR"><p><l>ccu</l><r>cu<s n="pr"/></r></p></e>
       	<e r="LR"><p><l>con</l><r>cu<s n="pr"/></r></p></e>
@@ -1338,6 +1353,7 @@
     	<e r="LR"><p><l>esta</l><r>èssiri<s n="vbser"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
     	<e r="LR"><p><l>e'</l><r>èssiri<s n="vbser"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
     	<e r="LR"><p><l>ete</l><r>èssiri<s n="vbser"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+    	<e r="LR"><p><l>eti</l><r>èssiri<s n="vbser"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
     	<e r="LR"><p><l>ète</l><r>èssiri<s n="vbser"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
     	<e r="LR"><p><l>sinna</l><r>èssiri<s n="vbser"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
     	<e><p><l>semu</l><r>èssiri<s n="vbser"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
@@ -4419,6 +4435,7 @@
       	<e><p><l>utemu</l><r>utiri<s n="vbmod"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
       	<e><p><l>utiti</l><r>utiri<s n="vbmod"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
       	<e><p><l>onnu</l><r>utiri<s n="vbmod"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+      	<e r="LR"><p><l>ònnu</l><r>utiri<s n="vbmod"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
       	<e r="LR"><p><l>utennu</l><r>utiri<s n="vbmod"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
       	
     	 <!-- Imperativo -->
@@ -8672,9 +8689,11 @@
     <e lm="mentri"><i>mentri</i><par n="picchì__cnjadv"/></e>
     <e lm="nustanti"><i>nustanti</i><par n="oggi__adv"/></e>
     <e lm="nustanti" r="LR"><p><l>nonostanti</l><r>nustanti</r></p><par n="picchì__cnjadv"/></e>
+    <e lm="nustanti" r="LR"><p><l>nunustanti</l><r>nustanti</r></p><par n="picchì__cnjadv"/></e>
     <e lm="mentri chi"><i>mentri<b/>chi</i><par n="picchì__cnjadv"/></e>
     <e lm="nustanti chi"><i>nustanti<b/>chi</i><par n="picchì__cnjadv"/></e>
     <e lm="nustanti chi" r="LR"><p><l>nostanti<b/>chi</l><r>nustanti<b/>chi</r></p><par n="picchì__cnjadv"/></e>
+    <e lm="nustanti chi" r="LR"><p><l>nunustanti<b/>chi</l><r>nustanti<b/>chi</r></p><par n="picchì__cnjadv"/></e>
     <e lm="nunnimenu chi"><i>nunnimenu<b/>chi</i><par n="picchì__cnjadv"/></e>
     <e lm="nnô casu chi"><i>nnô<b/>casu<b/>chi</i><par n="picchì__cnjadv"/></e>
     <e lm="nunnimenu"><i>nunnimenu</i><par n="picchì__cnjadv"/></e>
@@ -8769,6 +8788,8 @@
     
     <e lm="nzinu a" r="LR"><p><l>nzin'</l><r>nzinu<b/></r></p><par n="conta__pr"/></e>
     <e lm="nzinu a"><i>nzinu<b/></i><par n="conta__pr"/></e>
+
+
     <e lm="attornu a"><i>attornu<b/></i><par n="conta__pr"/></e>
     <e lm="juntu a"><i>juntu<b/></i><par n="conta__pr"/></e>
     <e lm="grazzi a"><i>grazzi<b/></i><par n="conta__pr"/></e>
@@ -8811,6 +8832,7 @@
 	<e lm="pi quantu riguardu a"><i>pi<b/>quantu<b/>riguardu<b/></i><par n="conta__pr"/></e>
 	<e lm="quantu a"><i>quantu<b/></i><par n="conta__pr"/></e>
 	<e lm="vicinu a"><i>vicinu<b/></i><par n="conta__pr"/></e>
+
 	<e lm="nzinu a"><i>nzinu<b/></i><par n="conta__pr"/></e>
 	<e lm="nzinu a" r="LR"><p><l>nzina<b/></l><r>nzinu<b/></r></p><par n="conta__pr"/></e>
 	<e lm="nzinu a" r="LR"><p><l>sinu<b/></l><r>nzinu<b/></r></p><par n="conta__pr"/></e>
@@ -8820,6 +8842,7 @@
 	<e lm="nzinu di" r="LR"><p><l>nzina<b/></l><r>nzinu<b/></r></p><par n="contdi__pr"/></e>
 	<e lm="nzinu di" r="LR"><p><l>sinu<b/></l><r>nzinu<b/></r></p><par n="contdi__pr"/></e>
 	<e lm="nzinu di" r="LR"><p><l>sina<b/></l><r>nzinu<b/></r></p><par n="contdi__pr"/></e>
+
 	<e lm="a causa di"><i>a<b/>causa<b/></i><par n="contdi__pr"/></e>
 	<e lm="nfacci di"><i>nfacci<b/></i><par n="contdi__pr"/></e>
 	<e lm="a prupòsitu di"><i>a<b/>prupòsitu<b/></i><par n="contdi__pr"/></e>
@@ -9098,6 +9121,7 @@
     <e lm="arìganu" r="LR"><p><l>rìen</l><r>arìgan</r></p><par n="ann/u__n"/></e>
 
     <e lm="surdatu"><i>surdat</i><par n="citadin/u__n"/></e>
+    <e lm="manuscrittu"><i>manuscritt</i><par n="ann/u__n"/></e>
     <e lm="museu"><i>muse</i><par n="ann/u__n"/></e>
     <e lm="munnu"><i>munn</i><par n="ann/u__n"/></e>
     <e lm="argumentu"><i>argument</i><par n="ann/u__n"/></e>
@@ -9728,10 +9752,11 @@
     <e lm="locu"><i>loc</i><par n="parc/u__n"/></e>
     <e lm="locu" r="LR"><p><l>luog</l><r>loc</r></p><par n="parc/u__n"/></e>
     <e lm="locu" r="LR"><p><l>log</l><r>loc</r></p><par n="parc/u__n"/></e>
+    <e lm="capulòcu"><i>capulòc</i><par n="parc/u__n"/></e>
     <e lm="capulòcu" r="LR"><p><l>capuluòc</l><r>capulòc</r></p><par n="parc/u__n"/></e>
     <e lm="capulòcu" r="LR"><p><l>capolòc</l><r>capulòc</r></p><par n="parc/u__n"/></e>
     <e lm="capulòcu" r="LR"><p><l>capuloc</l><r>capulòc</r></p><par n="parc/u__n"/></e>
-    <e lm="capulòcu"><i>capulòc</i><par n="parc/u__n"/></e>
+    <e lm="capulòcu" r="LR"><p><l>capuluocu</l><r>capulòc</r></p><par n="parc/u__n"/></e>
     <e lm="casteddu"><i>castedd</i><par n="ann/u__n"/></e>
     <e lm="travagghiu"><i>travaggh</i><par n="sacchegg/iu__n"/></e>
     <e lm="asèmpiu"><i>asèmp</i><par n="sacchegg/iu__n"/></e>
@@ -10907,6 +10932,7 @@
     <e lm="ardiri"><i>ardiri</i><par n="matri__n"/></e>
     <e lm="cìnniri"><i>cìnniri</i><par n="matri__n"/></e>
     <e lm="turri"><i>turri</i><par n="matri__n"/></e>
+    <e lm="turri" r="LR"><p><l>torri</l><r>turri</r></p><par n="matri__n"/></e>
     <e lm="ammasciaturi"><i>ammasciatur</i><par n="visitatur/i__n"/></e>
     <e lm="amministraturi"><i>amministratur</i><par n="visitatur/i__n"/></e>
     <e lm="cunnutturi"><i>cunnuttur</i><par n="visitatur/i__n"/></e>
@@ -13811,7 +13837,7 @@
     <e lm="cagghia" r="LR"><p><l>gaggh</l><r>caggh</r></p><par n="oricch/ia__n"/></e>
     <e lm="gaia"><i>ga</i><par n="oricch/ia__n"/></e>
     <e lm="gaia" r="LR"><p><l>ca</l><r>ga</r></p><par n="oricch/ia__n"/></e>
-    <e lm="gallu-itàlicu_di_"><i>gallu-itàlicu_di_Sicil</i><par n="oricch/ia__n"/></e>
+<!--    <e lm="gallu-itàlicu"><i>gallu-itàlicu</i><par n="patroni__n"/></e>-->
     <e lm="gebbia"><i>gebb</i><par n="oricch/ia__n"/></e>
     <e lm="ghèiscia"><i>ghèisc</i><par n="oricch/ia__n"/></e>
     <e lm="ghèiscia" r="LR"><p><l>gèisc</l><r>ghèisc</r></p><par n="oricch/ia__n"/></e>
@@ -17098,6 +17124,10 @@
     <e lm="ntrèppiti" r="LR"><p><l>ntrèrpriti</l><r>ntrèppiti</r></p><par n="studenti__n"/></e>
     <e lm="nomi"><i>nomi</i><par n="patri__n"/></e>
     <e lm="nomi" r="LR"><p><l>nuomi</l><r>nomi</r></p><par n="patri__n"/></e>
+    <e lm="nomi" r="LR"><p><l>numi</l><r>nomi</r></p><par n="patri__n"/></e>
+    <e lm="cugnomi"><i>cugnomi</i><par n="patri__n"/></e>
+    <e lm="cugnomi" r="LR"><p><l>cugnuomi</l><r>cugnomi</r></p><par n="patri__n"/></e>
+    <e lm="cugnomi" r="LR"><p><l>cugnumi</l><r>cugnomi</r></p><par n="patri__n"/></e>
     <e lm="nurrimi"><i>nurrimi</i><par n="patri__n"/></e>
     <e lm="nurviggisi"><i>nurviggisi</i><par n="ngrisi__n"/></e>
     <e lm="nurviggisi" r="LR"><p><l>nurviggìsi</l><r>nurviggisi</r></p><par n="ngrisi__n"/></e>
@@ -24424,6 +24454,7 @@
     <e lm="peri"><i>peri</i><par n="patri__n"/></e>
     <e lm="periculu"><i>pericul</i><par n="ann/u__n"/></e>
     <e lm="periodu"><i>period</i><par n="ann/u__n"/></e>
+    <e lm="periodu" r="LR"><p><l>piriod</l><r>period</r></p><par n="ann/u__n"/></e>
     <e lm="peritu"><i>perit</i><par n="ann/u__n"/></e>
     <e lm="perla"><i>perl</i><par n="cas/a__n"/></e>
     <e lm="permissu"><i>permiss</i><par n="ann/u__n"/></e>
@@ -26055,6 +26086,200 @@
 <e lm="zirvanismu" c="1"><i>zirvanism</i><par n="sucialism/u__n"/></e>
 
 
+<e lm="itati"><i>it</i><par n="cit/ati__n"/></e>
+<e lm="istati"><i>ist</i><par n="cit/ati__n"/></e>
+<e lm="ambiguitati"><i>ambiguit</i><par n="cit/ati__n"/></e>
+<e lm="velocitati"><i>velocit</i><par n="cit/ati__n"/></e>
+<e lm="licitati"><i>licit</i><par n="cit/ati__n"/></e>
+<e lm="disambiguitati"><i>disambiguit</i><par n="cit/ati__n"/></e>
+<e lm="cavitati"><i>cavit</i><par n="cit/ati__n"/></e>
+<e lm="pussibilitati"><i>pussibilit</i><par n="cit/ati__n"/></e>
+<e lm="proprietati"><i>propriet</i><par n="cit/ati__n"/></e>
+<e lm="luminusitati"><i>luminusit</i><par n="cit/ati__n"/></e>
+<e lm="societati"><i>societ</i><par n="cit/ati__n"/></e>
+<e lm="intensitati"><i>intensit</i><par n="cit/ati__n"/></e>
+<e lm="nuvitati"><i>nuvit</i><par n="cit/ati__n"/></e>
+<e lm="realtati"><i>realt</i><par n="cit/ati__n"/></e>
+<e lm="stabbilitati"><i>stabbilit</i><par n="cit/ati__n"/></e>
+<e lm="maturitati"><i>maturit</i><par n="cit/ati__n"/></e>
+<e lm="autoritati"><i>autorit</i><par n="cit/ati__n"/></e>
+<e lm="mudalitati"><i>mudalit</i><par n="cit/ati__n"/></e>
+<e lm="ntinzitati"><i>ntinzit</i><par n="cit/ati__n"/></e>
+<e lm="tistati"><i>tist</i><par n="cit/ati__n"/></e>
+<e lm="suvranitati"><i>suvranit</i><par n="cit/ati__n"/></e>
+<e lm="sunuritati"><i>sunurit</i><par n="cit/ati__n"/></e>
+<e lm="utilitati"><i>utilit</i><par n="cit/ati__n"/></e>
+<e lm="rivalitati"><i>rivalit</i><par n="cit/ati__n"/></e>
+<e lm="identitati"><i>identit</i><par n="cit/ati__n"/></e>
+<e lm="funziunalitati"><i>funziunalit</i><par n="cit/ati__n"/></e>
+<e lm="cuntinuitati"><i>cuntinuit</i><par n="cit/ati__n"/></e>
+<e lm="tranquillitati"><i>tranquillit</i><par n="cit/ati__n"/></e>
+<e lm="densitati"><i>densit</i><par n="cit/ati__n"/></e>
+<e lm="murtalitati"><i>murtalit</i><par n="cit/ati__n"/></e>
+<e lm="dispunibbilitati"><i>dispunibbilit</i><par n="cit/ati__n"/></e>
+<e lm="ustilitati"><i>ustilit</i><par n="cit/ati__n"/></e>
+<e lm="umiditati"><i>umidit</i><par n="cit/ati__n"/></e>
+<e lm="necessitati"><i>necessit</i><par n="cit/ati__n"/></e>
+<e lm="maggiuritati"><i>maggiurit</i><par n="cit/ati__n"/></e>
+<e lm="civitati"><i>civit</i><par n="cit/ati__n"/></e>
+<e lm="sunoritati"><i>sunorit</i><par n="cit/ati__n"/></e>
+<e lm="summitati"><i>summit</i><par n="cit/ati__n"/></e>
+<e lm="sucietati"><i>suciet</i><par n="cit/ati__n"/></e>
+<e lm="rispunsabbilitati"><i>rispunsabbilit</i><par n="cit/ati__n"/></e>
+<e lm="relativitati"><i>relativit</i><par n="cit/ati__n"/></e>
+<e lm="possibilitati"><i>possibilit</i><par n="cit/ati__n"/></e>
+<e lm="nubbirtati"><i>nubbirt</i><par n="cit/ati__n"/></e>
+<e lm="sulidaritati"><i>sulidarit</i><par n="cit/ati__n"/></e>
+<e lm="simpricitati"><i>simpricit</i><par n="cit/ati__n"/></e>
+<e lm="radiuattivitati"><i>radiuattivit</i><par n="cit/ati__n"/></e>
+<e lm="ncapacitati"><i>ncapacit</i><par n="cit/ati__n"/></e>
+<e lm="divirsitati"><i>divirsit</i><par n="cit/ati__n"/></e>
+<e lm="dintati"><i>dint</i><par n="cit/ati__n"/></e>
+<e lm="tustati"><i>tust</i><par n="cit/ati__n"/></e>
+<e lm="supiriuritati"><i>supiriurit</i><par n="cit/ati__n"/></e>
+<e lm="sissualitati"><i>sissualit</i><par n="cit/ati__n"/></e>
+<e lm="elittricitati"><i>elittricit</i><par n="cit/ati__n"/></e>
+<e lm="cristianitati"><i>cristianit</i><par n="cit/ati__n"/></e>
+<e lm="criminalitati"><i>criminalit</i><par n="cit/ati__n"/></e>
+<e lm="santitati"><i>santit</i><par n="cit/ati__n"/></e>
+<e lm="ntinsitati"><i>ntinsit</i><par n="cit/ati__n"/></e>
+<e lm="nstabbilitati"><i>nstabbilit</i><par n="cit/ati__n"/></e>
+<e lm="niutralitati"><i>niutralit</i><par n="cit/ati__n"/></e>
+<e lm="ligalitati"><i>ligalit</i><par n="cit/ati__n"/></e>
+<e lm="dignitati"><i>dignit</i><par n="cit/ati__n"/></e>
+<e lm="civilitati"><i>civilit</i><par n="cit/ati__n"/></e>
+<e lm="attualitati"><i>attualit</i><par n="cit/ati__n"/></e>
+<e lm="alittricitati"><i>alittricit</i><par n="cit/ati__n"/></e>
+<e lm="acititati"><i>acitit</i><par n="cit/ati__n"/></e>
+<e lm="visibbilitati"><i>visibbilit</i><par n="cit/ati__n"/></e>
+<e lm="spiritualitati"><i>spiritualit</i><par n="cit/ati__n"/></e>
+<e lm="sicilianitati"><i>sicilianit</i><par n="cit/ati__n"/></e>
+<e lm="prussimitati"><i>prussimit</i><par n="cit/ati__n"/></e>
+<e lm="pruggittati"><i>pruggitt</i><par n="cit/ati__n"/></e>
+<e lm="pruduttivitati"><i>pruduttivit</i><par n="cit/ati__n"/></e>
+<e lm="permeabilitati"><i>permeabilit</i><par n="cit/ati__n"/></e>
+<e lm="mubbilitati"><i>mubbilit</i><par n="cit/ati__n"/></e>
+<e lm="fistivitati"><i>fistivit</i><par n="cit/ati__n"/></e>
+<e lm="fidiltati"><i>fidilt</i><par n="cit/ati__n"/></e>
+<e lm="cumplissitati"><i>cumplissit</i><par n="cit/ati__n"/></e>
+<e lm="uspitalitati"><i>uspitalit</i><par n="cit/ati__n"/></e>
+<e lm="tichittati"><i>tichitt</i><par n="cit/ati__n"/></e>
+<e lm="sonoritati"><i>sonorit</i><par n="cit/ati__n"/></e>
+<e lm="sirinitati"><i>sirinit</i><par n="cit/ati__n"/></e>
+<e lm="simplicitati"><i>simplicit</i><par n="cit/ati__n"/></e>
+<e lm="sensibilitati"><i>sensibilit</i><par n="cit/ati__n"/></e>
+<e lm="sanitati"><i>sanit</i><par n="cit/ati__n"/></e>
+<e lm="proporzionalitati"><i>proporzionalit</i><par n="cit/ati__n"/></e>
+<e lm="pirsicutati"><i>pirsicut</i><par n="cit/ati__n"/></e>
+<e lm="nubbiltati"><i>nubbilt</i><par n="cit/ati__n"/></e>
+<e lm="mintalitati"><i>mintalit</i><par n="cit/ati__n"/></e>
+<e lm="ilittricitati"><i>ilittricit</i><par n="cit/ati__n"/></e>
+<e lm="fiudalitati"><i>fiudalit</i><par n="cit/ati__n"/></e>
+<e lm="cuntraritati"><i>cuntrarit</i><par n="cit/ati__n"/></e>
+<e lm="buntati"><i>bunt</i><par n="cit/ati__n"/></e>
+<e lm="affinitati"><i>affinit</i><par n="cit/ati__n"/></e>
+<e lm="urientati"><i>urient</i><par n="cit/ati__n"/></e>
+<e lm="sinzibbilitati"><i>sinzibbilit</i><par n="cit/ati__n"/></e>
+<e lm="prupietati"><i>prupiet</i><par n="cit/ati__n"/></e>
+<e lm="prubabbilitati"><i>prubabbilit</i><par n="cit/ati__n"/></e>
+<e lm="mudirnitati"><i>mudirnit</i><par n="cit/ati__n"/></e>
+<e lm="ducumintati"><i>ducumint</i><par n="cit/ati__n"/></e>
+<e lm="disabbilitati"><i>disabbilit</i><par n="cit/ati__n"/></e>
+<e lm="dipurtati"><i>dipurt</i><par n="cit/ati__n"/></e>
+<e lm="cullittivitati"><i>cullittivit</i><par n="cit/ati__n"/></e>
+<e lm="autinticitati"><i>autinticit</i><par n="cit/ati__n"/></e>
+<e lm="accriditati"><i>accridit</i><par n="cit/ati__n"/></e>
+<e lm="accreditati"><i>accredit</i><par n="cit/ati__n"/></e>
+<e lm="accìttati"><i>accìtt</i><par n="cit/ati__n"/></e>
+<e lm="visibilitati"><i>visibilit</i><par n="cit/ati__n"/></e>
+<e lm="unicitati"><i>unicit</i><par n="cit/ati__n"/></e>
+<e lm="unanimitati"><i>unanimit</i><par n="cit/ati__n"/></e>
+<e lm="spicificitati"><i>spicificit</i><par n="cit/ati__n"/></e>
+<e lm="siccitati"><i>siccit</i><par n="cit/ati__n"/></e>
+<e lm="rappresentati"><i>rappresent</i><par n="cit/ati__n"/></e>
+<e lm="pubbirtati"><i>pubbirt</i><par n="cit/ati__n"/></e>
+<e lm="prujittati"><i>prujitt</i><par n="cit/ati__n"/></e>
+<e lm="permittivitati"><i>permittivit</i><par n="cit/ati__n"/></e>
+<e lm="ospitati"><i>ospit</i><par n="cit/ati__n"/></e>
+<e lm="nfinitati"><i>nfinit</i><par n="cit/ati__n"/></e>
+<e lm="malignitati"><i>malignit</i><par n="cit/ati__n"/></e>
+<e lm="fidilitati"><i>fidilit</i><par n="cit/ati__n"/></e>
+<e lm="disparitati"><i>disparit</i><par n="cit/ati__n"/></e>
+<e lm="cuminitati"><i>cuminit</i><par n="cit/ati__n"/></e>
+<e lm="cintralitati"><i>cintralit</i><par n="cit/ati__n"/></e>
+<e lm="brutalitati"><i>brutalit</i><par n="cit/ati__n"/></e>
+<e lm="amistati"><i>amist</i><par n="cit/ati__n"/></e>
+<e lm="umititati"><i>umitit</i><par n="cit/ati__n"/></e>
+<e lm="ufficialitati"><i>ufficialit</i><par n="cit/ati__n"/></e>
+<e lm="trinitati"><i>trinit</i><par n="cit/ati__n"/></e>
+<e lm="tipicitati"><i>tipicit</i><par n="cit/ati__n"/></e>
+<e lm="tarantati"><i>tarant</i><par n="cit/ati__n"/></e>
+<e lm="sulitati"><i>sulit</i><par n="cit/ati__n"/></e>
+<e lm="sinsualitati"><i>sinsualit</i><par n="cit/ati__n"/></e>
+<e lm="rigularitati"><i>rigularit</i><par n="cit/ati__n"/></e>
+<e lm="riattivitati"><i>riattivit</i><par n="cit/ati__n"/></e>
+<e lm="putinzialitati"><i>putinzialit</i><par n="cit/ati__n"/></e>
+<e lm="patirnitati"><i>patirnit</i><par n="cit/ati__n"/></e>
+<e lm="nuturitati"><i>nuturit</i><par n="cit/ati__n"/></e>
+<e lm="majuritati"><i>majurit</i><par n="cit/ati__n"/></e>
+<e lm="luminositati"><i>luminosit</i><par n="cit/ati__n"/></e>
+<e lm="ligittimitati"><i>ligittimit</i><par n="cit/ati__n"/></e>
+<e lm="liggittimitati"><i>liggittimit</i><par n="cit/ati__n"/></e>
+<e lm="dilimitati"><i>dilimit</i><par n="cit/ati__n"/></e>
+<e lm="cunnutati"><i>cunnut</i><par n="cit/ati__n"/></e>
+<e lm="cunfurmitati"><i>cunfurmit</i><par n="cit/ati__n"/></e>
+<e lm="criativitati"><i>criativit</i><par n="cit/ati__n"/></e>
+<e lm="clannistinitati"><i>clannistinit</i><par n="cit/ati__n"/></e>
+<e lm="arrispittati"><i>arrispitt</i><par n="cit/ati__n"/></e>
+<e lm="aristati"><i>arist</i><par n="cit/ati__n"/></e>
+<e lm="arbitraritati"><i>arbitrarit</i><par n="cit/ati__n"/></e>
+<e lm="viscositati"><i>viscosit</i><par n="cit/ati__n"/></e>
+<e lm="variabbilitati"><i>variabbilit</i><par n="cit/ati__n"/></e>
+<e lm="supirioritati"><i>supiriorit</i><par n="cit/ati__n"/></e>
+<e lm="shtati"><i>sht</i><par n="cit/ati__n"/></e>
+<e lm="sacralitati"><i>sacralit</i><par n="cit/ati__n"/></e>
+<e lm="possibbilitati"><i>possibbilit</i><par n="cit/ati__n"/></e>
+<e lm="pirsiquitati"><i>pirsiquit</i><par n="cit/ati__n"/></e>
+<e lm="piculiaritati"><i>piculiarit</i><par n="cit/ati__n"/></e>
+<e lm="musicalitati"><i>musicalit</i><par n="cit/ati__n"/></e>
+<e lm="mpuritati"><i>mpurit</i><par n="cit/ati__n"/></e>
+<e lm="listati"><i>list</i><par n="cit/ati__n"/></e>
+<e lm="iriditati"><i>iridit</i><par n="cit/ati__n"/></e>
+<e lm="fidirtati"><i>fidirt</i><par n="cit/ati__n"/></e>
+<e lm="elasticitati"><i>elasticit</i><par n="cit/ati__n"/></e>
+<e lm="denzitati"><i>denzit</i><par n="cit/ati__n"/></e>
+<e lm="casualitati"><i>casualit</i><par n="cit/ati__n"/></e>
+<e lm="brivitati"><i>brivit</i><par n="cit/ati__n"/></e>
+<e lm="arrifiutati"><i>arrifiut</i><par n="cit/ati__n"/></e>
+<e lm="arrapprisintati"><i>arrapprisint</i><par n="cit/ati__n"/></e>
+<e lm="ammiguitati"><i>ammiguit</i><par n="cit/ati__n"/></e>
+<e lm="addìvintati"><i>addìvint</i><par n="cit/ati__n"/></e>
+<e lm="vivacitati"><i>vivacit</i><par n="cit/ati__n"/></e>
+<e lm="vitalitati"><i>vitalit</i><par n="cit/ati__n"/></e>
+<e lm="viluntati"><i>vilunt</i><par n="cit/ati__n"/></e>
+<e lm="variabilitati"><i>variabilit</i><par n="cit/ati__n"/></e>
+<e lm="univirsalitati"><i>univirsalit</i><par n="cit/ati__n"/></e>
+<e lm="umilitati"><i>umilit</i><par n="cit/ati__n"/></e>
+<e lm="tubbirusitati"><i>tubbirusit</i><par n="cit/ati__n"/></e>
+<e lm="transissualitati"><i>transissualit</i><par n="cit/ati__n"/></e>
+<e lm="surmuntati"><i>surmunt</i><par n="cit/ati__n"/></e>
+<e lm="sucialitati"><i>sucialit</i><par n="cit/ati__n"/></e>
+<e lm="subbunitati"><i>subbunit</i><par n="cit/ati__n"/></e>
+<e lm="straordinarietati"><i>straordinariet</i><par n="cit/ati__n"/></e>
+<e lm="sicuritati"><i>sicurit</i><par n="cit/ati__n"/></e>
+<e lm="semplicitati"><i>semplicit</i><par n="cit/ati__n"/></e>
+<e lm="scarsitati"><i>scarsit</i><par n="cit/ati__n"/></e>
+<e lm="riportati"><i>riport</i><par n="cit/ati__n"/></e>
+<e lm="rapprisintati"><i>rapprisint</i><par n="cit/ati__n"/></e>
+<e lm="puittati"><i>puitt</i><par n="cit/ati__n"/></e>
+<e lm="probabilitati"><i>probabilit</i><par n="cit/ati__n"/></e>
+<e lm="prioritati"><i>priorit</i><par n="cit/ati__n"/></e>
+<e lm="pluralitati"><i>pluralit</i><par n="cit/ati__n"/></e>
+<e lm="cuncavitati"><i>cuncavit</i><par n="cit/ati__n"/></e>
+<e lm="cumprissitati"><i>cumprissit</i><par n="cit/ati__n"/></e>
+<e lm="stirilitati"><i>stirilit</i><par n="cit/ati__n"/></e>
+<e lm="rivisitati"><i>rivisit</i><par n="cit/ati__n"/></e>
+
     <e lm="Mediu Evu"><i>Mediu<b/>Evu</i><par n="Wikipedia__np"/></e>
     <e lm="mediuevu"><i>mediuevu</i><par n="Wikipedia__np"/></e>
     <e lm="mediu evu"><i>mediu<b/>evu</i><par n="Wikipedia__np"/></e>
@@ -26074,6 +26299,8 @@
 <e lm="disco"><i>disco</i><par n="rock__n"/></e>
 <e lm="kernel"><i>kernel</i><par n="rock__n"/></e>
 <e lm="browser"><i>browser</i><par n="rock__n"/></e>
+
+
 
     <!-- SECTION: Proper nouns -->
 
@@ -26366,7 +26593,8 @@
     <e lm="Auguste"><i>Auguste</i><par n="Jaime__np"/></e>
     <e lm="Dominique"><i>Dominique</i><par n="Jaime__np"/></e>
     <e lm="Giosuè"><i>Giosuè</i><par n="Jaime__np"/></e>
-    <e lm="Fibonacci"><i>Fibonacci</i><par n="Sicilia__np"/></e>
+    <e lm="Fibonacci"><i>Fibonacci</i><par n="Rosenburg__np"/></e>
+    <e lm="Corsica"><i>Corsica</i><par n="Sicilia__np"/></e>
     <e lm="Gustave"><i>Gustave</i><par n="Jaime__np"/></e>
     <e lm="Steve"><i>Steve</i><par n="Jaime__np"/></e>
     <e lm="Jeff"><i>Jeff</i><par n="Jaime__np"/></e>
@@ -33981,6 +34209,173 @@
 <e lm="Waterloo"><i>Waterloo</i><par n="Sicilia__np"/></e>
 <e lm="Zürich"><i>Zürich</i><par n="Sicilia__np"/></e>
 
+<e lm="Aarau"><i>Aarau</i><par n="Sicilia__np"/></e>
+<e lm="Abakwasimbo"><i>Abakwasimbo</i><par n="Sicilia__np"/></e>
+<e lm="Abbottabad"><i>Abbottabad</i><par n="Sicilia__np"/></e>
+<e lm="Amol"><i>Amol</i><par n="Sicilia__np"/></e>
+<e lm="Annapolis"><i>Annapolis</i><par n="Sicilia__np"/></e>
+<e lm="Arequipa"><i>Arequipa</i><par n="Sicilia__np"/></e>
+<e lm="Avenches"><i>Avenches</i><par n="Sicilia__np"/></e>
+<e lm="Barranquilla"><i>Barranquilla</i><par n="Sicilia__np"/></e>
+<e lm="Bellagiu"><i>Bellagiu</i><par n="Sicilia__np"/></e>
+<e lm="Bienne"><i>Bienne</i><par n="Sicilia__np"/></e>
+<e lm="Birkirkara"><i>Birkirkara</i><par n="Sicilia__np"/></e>
+<e lm="Bitonto"><i>Bitonto</i><par n="Sicilia__np"/></e>
+<e lm="Bodrum"><i>Bodrum</i><par n="Sicilia__np"/></e>
+<e lm="Boise"><i>Boise</i><par n="Sicilia__np"/></e>
+<e lm="Bourg-la-Reine"><i>Bourg-la-Reine</i><par n="Sicilia__np"/></e>
+<e lm="Bourges"><i>Bourges</i><par n="Sicilia__np"/></e>
+<e lm="Brasilia"><i>Brasilia</i><par n="Sicilia__np"/></e>
+<e lm="Briga"><i>Briga</i><par n="Sicilia__np"/></e>
+<e lm="Brisbane"><i>Brisbane</i><par n="Sicilia__np"/></e>
+<e lm="Canterbury"><i>Canterbury</i><par n="Sicilia__np"/></e>
+<e lm="Carrara"><i>Carrara</i><par n="Sicilia__np"/></e>
+<e lm="Casteddammari"><i>Casteddammari</i><par n="Sicilia__np"/></e>
+<e lm="Cataviñá"><i>Cataviñá</i><par n="Sicilia__np"/></e>
+<e lm="Charleston"><i>Charleston</i><par n="Sicilia__np"/></e>
+<e lm="Chêne-Bougeries"><i>Chêne-Bougeries</i><par n="Sicilia__np"/></e>
+<e lm="Civitavecchia"><i>Civitavecchia</i><par n="Sicilia__np"/></e>
+<e lm="Clermont-Ferrant"><i>Clermont-Ferrant</i><par n="Sicilia__np"/></e>
+<e lm="Concepcion"><i>Concepcion</i><par n="Sicilia__np"/></e>
+<e lm="Concord"><i>Concord</i><par n="Sicilia__np"/></e>
+<e lm="Coratu"><i>Coratu</i><par n="Sicilia__np"/></e>
+<e lm="Creel"><i>Creel</i><par n="Sicilia__np"/></e>
+<e lm="Cropani"><i>Cropani</i><par n="Sicilia__np"/></e>
+<e lm="Davos"><i>Davos</i><par n="Sicilia__np"/></e>
+<e lm="Dietikon"><i>Dietikon</i><par n="Sicilia__np"/></e>
+<e lm="Dili"><i>Dili</i><par n="Sicilia__np"/></e>
+<e lm="Dnipro"><i>Dnipro</i><par n="Sicilia__np"/></e>
+<e lm="Dover"><i>Dover</i><par n="Sicilia__np"/></e>
+<e lm="Durazzu"><i>Durazzu</i><par n="Sicilia__np"/></e>
+<e lm="Durban"><i>Durban</i><par n="Sicilia__np"/></e>
+<e lm="Erfurt"><i>Erfurt</i><par n="Sicilia__np"/></e>
+<e lm="Erode"><i>Erode</i><par n="Sicilia__np"/></e>
+<e lm="Evian"><i>Evian</i><par n="Sicilia__np"/></e>
+<e lm="Fgura"><i>Fgura</i><par n="Sicilia__np"/></e>
+<e lm="Frankfort"><i>Frankfort</i><par n="Sicilia__np"/></e>
+<e lm="Fukushima"><i>Fukushima</i><par n="Sicilia__np"/></e>
+<e lm="Gorizzia"><i>Gorizzia</i><par n="Sicilia__np"/></e>
+<e lm="Graz"><i>Graz</i><par n="Sicilia__np"/></e>
+<e lm="Grossetu"><i>Grossetu</i><par n="Sicilia__np"/></e>
+<e lm="Gruttafirrata"><i>Gruttafirrata</i><par n="Sicilia__np"/></e>
+<e lm="Guanajuato"><i>Guanajuato</i><par n="Sicilia__np"/></e>
+<e lm="Gudja"><i>Gudja</i><par n="Sicilia__np"/></e>
+<e lm="Haifa"><i>Haifa</i><par n="Sicilia__np"/></e>
+<e lm="Harrisburg"><i>Harrisburg</i><par n="Sicilia__np"/></e>
+<e lm="Hartford"><i>Hartford</i><par n="Sicilia__np"/></e>
+<e lm="Helena"><i>Helena</i><par n="Sicilia__np"/></e>
+<e lm="Hertford"><i>Hertford</i><par n="Sicilia__np"/></e>
+<e lm="Hoboken"><i>Hoboken</i><par n="Sicilia__np"/></e>
+<e lm="Horsens"><i>Horsens</i><par n="Sicilia__np"/></e>
+<e lm="Innsbruck"><i>Innsbruck</i><par n="Sicilia__np"/></e>
+<e lm="Interlaken"><i>Interlaken</i><par n="Sicilia__np"/></e>
+<e lm="Iulida"><i>Iulida</i><par n="Sicilia__np"/></e>
+<e lm="Juba"><i>Juba</i><par n="Sicilia__np"/></e>
+<e lm="Juneau"><i>Juneau</i><par n="Sicilia__np"/></e>
+<e lm="Kairouan"><i>Kairouan</i><par n="Sicilia__np"/></e>
+<e lm="Kaluga"><i>Kaluga</i><par n="Sicilia__np"/></e>
+<e lm="Katmandù"><i>Katmandù</i><par n="Sicilia__np"/></e>
+<e lm="Klagenfurt"><i>Klagenfurt</i><par n="Sicilia__np"/></e>
+<e lm="Kumbakonam"><i>Kumbakonam</i><par n="Sicilia__np"/></e>
+<e lm="Kunduz"><i>Kunduz</i><par n="Sicilia__np"/></e>
+<e lm="Langesund"><i>Langesund</i><par n="Sicilia__np"/></e>
+<e lm="Leukerbad"><i>Leukerbad</i><par n="Sicilia__np"/></e>
+<e lm="Lija"><i>Lija</i><par n="Sicilia__np"/></e>
+<e lm="Lucerna"><i>Lucerna</i><par n="Sicilia__np"/></e>
+<e lm="Luhansk"><i>Luhansk</i><par n="Sicilia__np"/></e>
+<e lm="Maciràta"><i>Maciràta</i><par n="Sicilia__np"/></e>
+<e lm="Mahdia"><i>Mahdia</i><par n="Sicilia__np"/></e>
+<e lm="Martigny"><i>Martigny</i><par n="Sicilia__np"/></e>
+<e lm="Meknes"><i>Meknes</i><par n="Sicilia__np"/></e>
+<e lm="Meudon"><i>Meudon</i><par n="Sicilia__np"/></e>
+<e lm="Mitileni"><i>Mitileni</i><par n="Sicilia__np"/></e>
+<e lm="Monopolu"><i>Monopolu</i><par n="Sicilia__np"/></e>
+<e lm="Montgomery"><i>Montgomery</i><par n="Sicilia__np"/></e>
+<e lm="Montpelier"><i>Montpelier</i><par n="Sicilia__np"/></e>
+<e lm="Montreux"><i>Montreux</i><par n="Sicilia__np"/></e>
+<e lm="Monzón"><i>Monzón</i><par n="Sicilia__np"/></e>
+<e lm="Morges"><i>Morges</i><par n="Sicilia__np"/></e>
+<e lm="Munticatini"><i>Munticatini</i><par n="Sicilia__np"/></e>
+<e lm="Nagasaki"><i>Nagasaki</i><par n="Sicilia__np"/></e>
+<e lm="Nantes"><i>Nantes</i><par n="Sicilia__np"/></e>
+<e lm="Nashville"><i>Nashville</i><par n="Sicilia__np"/></e>
+<e lm="Neilly-sur-Seine"><i>Neilly-sur-Seine</i><par n="Sicilia__np"/></e>
+<e lm="Nettunu"><i>Nettunu</i><par n="Sicilia__np"/></e>
+<e lm="Newark"><i>Newark</i><par n="Sicilia__np"/></e>
+<e lm="Northampton"><i>Northampton</i><par n="Sicilia__np"/></e>
+<e lm="Nur-sultan"><i>Nur-sultan</i><par n="Sicilia__np"/></e>
+<e lm="Nīshāpūr"><i>Nīshāpūr</i><par n="Sicilia__np"/></e>
+<e lm="Olten"><i>Olten</i><par n="Sicilia__np"/></e>
+<e lm="Oskarshamn"><i>Oskarshamn</i><par n="Sicilia__np"/></e>
+<e lm="Pafu"><i>Pafu</i><par n="Sicilia__np"/></e>
+<e lm="Payerne"><i>Payerne</i><par n="Sicilia__np"/></e>
+<e lm="Perm"><i>Perm</i><par n="Sicilia__np"/></e>
+<e lm="Perth"><i>Perth</i><par n="Sicilia__np"/></e>
+<e lm="Pescara"><i>Pescara</i><par n="Sicilia__np"/></e>
+<e lm="Petropavlovsk-Kamčatskij'"><i>Petropavlovsk-Kamčatskij'</i><par n="Sicilia__np"/></e>
+<e lm="Pittsburgh"><i>Pittsburgh</i><par n="Sicilia__np"/></e>
+<e lm="Plan-Les-Ouates"><i>Plan-Les-Ouates</i><par n="Sicilia__np"/></e>
+<e lm="Pomezzia"><i>Pomezzia</i><par n="Sicilia__np"/></e>
+<e lm="Pordenoni"><i>Pordenoni</i><par n="Sicilia__np"/></e>
+<e lm="Poschiavu"><i>Poschiavu</i><par n="Sicilia__np"/></e>
+<e lm="Princeton"><i>Princeton</i><par n="Sicilia__np"/></e>
+<e lm="Providence"><i>Providence</i><par n="Sicilia__np"/></e>
+<e lm="Pèrgamu"><i>Pèrgamu</i><par n="Sicilia__np"/></e>
+<e lm="Quiro"><i>Quiro</i><par n="Sicilia__np"/></e>
+<e lm="Raleigh"><i>Raleigh</i><par n="Sicilia__np"/></e>
+<e lm="Rapperswil"><i>Rapperswil</i><par n="Sicilia__np"/></e>
+<e lm="Rawalpindi"><i>Rawalpindi</i><par n="Sicilia__np"/></e>
+<e lm="Rennes"><i>Rennes</i><par n="Sicilia__np"/></e>
+<e lm="Rotterdam"><i>Rotterdam</i><par n="Sicilia__np"/></e>
+<e lm="Rovigu"><i>Rovigu</i><par n="Sicilia__np"/></e>
+<e lm="Rüti"><i>Rüti</i><par n="Sicilia__np"/></e>
+<e lm="Sacramento"><i>Sacramento</i><par n="Sicilia__np"/></e>
+<e lm="Saint-Sulpice"><i>Saint-Sulpice</i><par n="Sicilia__np"/></e>
+<e lm="Salem"><i>Salem</i><par n="Sicilia__np"/></e>
+<e lm="Sanremu"><i>Sanremu</i><par n="Sicilia__np"/></e>
+<e lm="Sant'Agnellu"><i>Sant'Agnellu</i><par n="Sicilia__np"/></e>
+<e lm="Sant'Antrìa"><i>Sant'Antrìa</i><par n="Sicilia__np"/></e>
+<e lm="Sant'Apollinare"><i>Sant'Apollinare</i><par n="Sicilia__np"/></e>
+<e lm="Sant'Arcangilu"><i>Sant'Arcangilu</i><par n="Sicilia__np"/></e>
+<e lm="Sant'Arseniu"><i>Sant'Arseniu</i><par n="Sicilia__np"/></e>
+<e lm="Sant'Oresti"><i>Sant'Oresti</i><par n="Sicilia__np"/></e>
+<e lm="Sant'Àntimu"><i>Sant'Àntimu</i><par n="Sicilia__np"/></e>
+<e lm="Sarzana"><i>Sarzana</i><par n="Sicilia__np"/></e>
+<e lm="Savuna"><i>Savuna</i><par n="Sicilia__np"/></e>
+<e lm="Sendai"><i>Sendai</i><par n="Sicilia__np"/></e>
+<e lm="Sheffield"><i>Sheffield</i><par n="Sicilia__np"/></e>
+<e lm="Simferopuli"><i>Simferopuli</i><par n="Sicilia__np"/></e>
+<e lm="Sirti"><i>Sirti</i><par n="Sicilia__np"/></e>
+<e lm="Sliema"><i>Sliema</i><par n="Sicilia__np"/></e>
+<e lm="Sogliu"><i>Sogliu</i><par n="Sicilia__np"/></e>
+<e lm="Spaccafurnu"><i>Spaccafurnu</i><par n="Sicilia__np"/></e>
+<e lm="Spiez"><i>Spiez</i><par n="Sicilia__np"/></e>
+<e lm="Springfield"><i>Springfield</i><par n="Sicilia__np"/></e>
+<e lm="Sukhumi"><i>Sukhumi</i><par n="Sicilia__np"/></e>
+<e lm="Sutz-Lattrigen"><i>Sutz-Lattrigen</i><par n="Sicilia__np"/></e>
+<e lm="Svittu"><i>Svittu</i><par n="Sicilia__np"/></e>
+<e lm="Tallahassee"><i>Tallahassee</i><par n="Sicilia__np"/></e>
+<e lm="Thun"><i>Thun</i><par n="Sicilia__np"/></e>
+<e lm="Timișoara"><i>Timișoara</i><par n="Sicilia__np"/></e>
+<e lm="Tivoli"><i>Tivoli</i><par n="Sicilia__np"/></e>
+<e lm="Topeka"><i>Topeka</i><par n="Sicilia__np"/></e>
+<e lm="Trani"><i>Trani</i><par n="Sicilia__np"/></e>
+<e lm="Trentola-Ducenta"><i>Trentola-Ducenta</i><par n="Sicilia__np"/></e>
+<e lm="Trenton"><i>Trenton</i><par n="Sicilia__np"/></e>
+<e lm="Urumqi"><i>Urumqi</i><par n="Sicilia__np"/></e>
+<e lm="Valona"><i>Valona</i><par n="Sicilia__np"/></e>
+<e lm="Vancouver"><i>Vancouver</i><par n="Sicilia__np"/></e>
+<e lm="Varesi"><i>Varesi</i><par n="Sicilia__np"/></e>
+<e lm="Velletri"><i>Velletri</i><par n="Sicilia__np"/></e>
+<e lm="Vientiane"><i>Vientiane</i><par n="Sicilia__np"/></e>
+<e lm="Villeneuve-d'Ascq"><i>Villeneuve-d'Ascq</i><par n="Sicilia__np"/></e>
+<e lm="Virbània"><i>Virbània</i><par n="Sicilia__np"/></e>
+<e lm="Vladikavkaz"><i>Vladikavkaz</i><par n="Sicilia__np"/></e>
+<e lm="Vladivostok"><i>Vladivostok</i><par n="Sicilia__np"/></e>
+<e lm="Vufflens-le-Château"><i>Vufflens-le-Château</i><par n="Sicilia__np"/></e>
+<e lm="Èfesu"><i>Èfesu</i><par n="Sicilia__np"/></e>
+<e lm="Čeboksary"><i>Čeboksary</i><par n="Sicilia__np"/></e>
+
 <e lm="A."><i>A.</i><par n="A.__np"/></e>
 <e lm="B."><i>B.</i><par n="A.__np"/></e>
 <e lm="C."><i>C.</i><par n="A.__np"/></e>
@@ -34272,7 +34667,12 @@
 <e lm="famosu"><i>famos</i><par n="duci__adj"/></e>
 <e lm="fèrtili"><i>fèrtili</i><par n="duci__adj"/></e>
 <e lm="liniàri"><i>liniàri</i><par n="duci__adj"/></e>
+
 <e lm="live"><i>live</i><par n="duci__adj"/></e>
+<e lm="heavy"><i>heavy</i><par n="duci__adj"/></e>
+<e lm="sexy"><i>sexy</i><par n="duci__adj"/></e>
+<e lm="hard"><i>hard</i><par n="duci__adj"/></e>
+
 <e lm="muliculari"><i>muliculari</i><par n="duci__adj"/></e>
 <e lm="musurmani"><i>musurmani</i><par n="duci__adj"/></e>
 <e lm="numirusi"><i>numirusi</i><par n="duci__adj"/></e>
@@ -49156,6 +49556,13 @@
     <e lm="quannu" r="LR"><p><l>quann'</l><r>quannu</r></p><par n="quannu__adv"/></e>
     <e lm="quannu" r="LR"><p><l>cuann'</l><r>quannu</r></p><par n="quannu__adv"/></e>
     <e lm="quannu" r="LR"><p><l>quann'</l><r>quannu</r></p><par n="picchì__adv"/></e>
+
+
+    <e r="LR"><p><l>nzinô</l><r>nzinu<b/>a<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
+  </section>
+
+  <section id="regex" type="standard">
+    <e><par n="initialisms"/></e>
   </section>
 
   <section id="final" type="inconditional">

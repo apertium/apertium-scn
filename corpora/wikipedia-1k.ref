@@ -469,32 +469,6 @@
 ^XVI/XVI<num><mf><sp>$
 ^./.<sent>$
 
-# sent_id = wikipedia-1k:45
-# text = Na culonia di curta durata vinni stabbiluta 'n Tobbagu duranti lu pirìudu 1654–1659, e arrè 1660–1689.
-# labels = incomplete
-^Na/un<det><ind><f><sg>$
-^culonia/culonia<n><f><sg>$
-^di/di<pr>$
-^curta/curtu<adj><f><sg>$
-^durata/durata<n><f><sg>$
-^vinni/vèniri<vblex><ifi><p3><sg>$
-^stabbiluta/stabbiliri<vblex><pp><f><sg>$
-^'n/nta<pr>$
-^Tobbagu/Tobbagu<np><top>$
-^duranti/duranti<pr>$
-^lu/lu<det><def><m><sg>$
-^pirìudu/pirìudu<n><m><sg>$
-^1654/1654<num>$
-^–/–<guio>$
-^1659/1659<num>$
-^,/,<cm>$
-^e/e<cnjcoo>$
-^arrè/arrè<pr>$
-^1660/1660<num>$
-^–/–<guio>$
-^1689/1689<num>$
-^./.<sent>$
-
 # sent_id = wikipedia-1k:46
 # text = Dô "“tablinum”" si putìa jiri direttamenti nta tri càmiri privati, pavimintati cu mosàichi janchi e nìuri.
 # labels = complete
@@ -590,6 +564,85 @@
 ^zirita/ziritu<adj><f><sg>$
 ^di/di<pr>$
 ^Mahdia/Mahdia<np><top>$
+^./.<sent>$
+
+# sent_id = wikipedia-1k:194
+# text = La prima Dumìnica di Maiu c'è la festa di Santa Lucìa dê quagghi, pi ricurdari nu miràculu dâ Santa.
+# labels = complete
+^La/lu<det><def><f><sg>$
+^prima/primu<adj><f><sg>$
+^Dumìnica/dumìnica<n><f><sg>$
+^di/di<pr>$
+^Maiu/maiu<n><m><sg>$
+^c'è/c'è<vblex><pri><p3><sg>$
+^la/lu<det><def><f><sg>$
+^festa/festa<n><f><sg>$
+^di/di<pr>$
+^Santa/santa<n><f><sg>$
+^Lucìa/Lucìa<np><ant>$
+^dê/di<pr>+lu<det><def><mf><pl>$
+^quagghi/quagghiu<n><m><pl>$
+^,/,<cm>$
+^pi/pi<pr>$
+^ricurdari/ricurdari<vblex><inf>$
+^nu/un<det><ind><m><sg>$
+^miràculu/miràculu<n><m><sg>$
+^dâ/di<pr>+lu<det><def><f><sg>$
+^Santa/santa<n><f><sg>$
+^./.<sent>$
+
+# sent_id = wikipedia-1k:197
+# text = Havi na pupulazzioni di 519 abbitanti.
+# labels = complete
+^Havi/aviri<vblex><pri><p3><sg>$
+^na/un<det><ind><f><sg>$
+^pupulazzioni/pupulàzzioni<n><f><sp>$
+^di/di<pr>$
+^519/519<num>$
+^abbitanti/abbitanti<n><m><sp>$
+^./.<sent>$
+
+# sent_id = wikipedia-1k:198
+# text = Jean-Paul Sartre (Pariggi 21 di giugnu 1905 - 15 di aprili 1980) fu nu filòsufu, littiratu e ntillittuali francisi dû XX sèculu.
+# labels = complete
+^Jean-Paul/Jean-Paul<np><ant>$
+^Sartre/Sartre<np><ant>$
+^(/(<lpar>$
+^Pariggi/Pariggi<np><top>$
+^21/21<num>$
+^di/di<pr>$
+^giugnu/giugnu<n><m><sg>$
+^1905/1905<num>$
+^-/-<guio>$
+^15/15<num>$
+^di/di<pr>$
+^aprili/aprili<n><m><sp>$
+^1980/1980<num>$
+^)/)<rpar>$
+^fu/èssiri<vbser><ifi><p3><sg>$
+^nu/un<det><ind><m><sg>$
+^filòsufu/filòsufu<n><m><sg>$
+^,/,<cm>$
+^littiratu/littiratu<n><m><sg>$
+^e/e<cnjcoo>$
+^ntillittuali/ntillittuali<n><mf><sp>$
+^francisi/francisi<adj><mf><sp>$
+^dû/di<pr>+lu<det><def><m><sg>$
+^XX/XX<num><mf><sp>$
+^sèculu/sèculu<n><m><sg>$
+^./.<sent>$
+
+# sent_id = wikipedia-1k:199
+# text = Ntô 1965 vincìu lu premiu Nobel pâ littiratura.
+# labels = complete
+^Ntô/nta<pr>+lu<det><def><m><sg>$
+^1965/1965<num>$
+^vincìu/vìnciri<vblex><ifi><p3><sg>$
+^lu/lu<det><def><m><sg>$
+^premiu/premiu<n><m><sg>$
+^Nobel/Nobel<np><cog>$
+^pâ/pi<pr>+lu<det><def><f><sg>$
+^littiratura/littiratura<n><f><sg>$
 ^./.<sent>$
 
 # sent_id = wikipedia-1k:200
@@ -754,7 +807,7 @@
 ^lu/lu<det><def><m><sg>$
 ^gèniri/gèniri<n><m><sp>$
 ^cchiù/cchiù<adv>$
-^granni/$;	"granni" adj mf sp
+^granni/granni<adj><mf><sp>$
 ^di/di<pr>$
 ^sta/chistu<det><dem><f><sg>$
 ^famigghia/famigghia<n><f><sg>$
@@ -963,75 +1016,6 @@
 ^)/)<rpar>$
 ^./.<sent>$
 
-# sent_id = wikipedia-1k:223
-# text = L'eventu principali (XI gradu MCS) s'eppi a l'ori 9 dâ sira di l'11 jinnaru, doppu ca na para di scossi di cchiù nica ntinzità (circa VIII gradu MCS) s'avìanu gia' fattu sèntiri la sira dû jornu 9 e la matina dû stissu jornu 11.
-# labels = incomplete
-^L'/lu<det><def><mf><sp>$
-^eventu/eventu<n><m><sg>$
-^principali/principali<adj><mf><sp>/principipali<adj><mf><sp>$
-^(/(<lpar>$
-^XI/XI<num><mf><sp>$
-^gradu/gradu<n><m><sg>/gradiri<vblex><pri><p1><sg>$
-^MCS/*MCS$
-^)/)<rpar>$
-^s'/si<prn><pro><ref><p3><mf><sp>$
-^eppi/*eppi$
-^a/a<pr><SELECT:251>$;	"lu" det def f sg SELECT:251
-;	"a" pr
-;		"lu" det def f sg REMOVE:222
-^l'/lu<det><def><mf><sp>$
-^ori/oru<n><m><pl>/oriu<n><m><pl>$
-^9/9<num>$
-^dâ/di<pr>+lu<det><def><f><sg>$
-^sira/sira<n><f><sg>$
-^di/di<pr>/du<adj><mf><pl>/dia<n><f><pl>$;	"di" pr
-;		"lu" det def mf pl REMOVE:222
-^l'/lu<det><def><mf><sp>$
-^11/11<num>$
-^jinnaru/jinnaru<n><m><sg>$
-^,/,<cm>$
-^doppu/doppu<adv>/doppu<pr>$
-^ca/cu<pr><SELECT:251>+lu<det><def><f><sg>$;	"ca" cnjsub SELECT:251
-;	"cà" adv SELECT:251
-^na/nu<adj><f><sg>/na<adj><mf><sg>/un<det><ind><f><sg>$;	"nta" pr
-;		"lu" det def f sg REMOVE:432
-^para/para<n><f><sg><SELECT:311>/paru<n><m><pl><SELECT:311>$;	"parari" vblex imp p2 sg REMOVE:240
-;	"parari" vblex pri p3 sg SELECT:311
-^di/di<pr>/du<adj><mf><pl>/dia<n><f><pl>$;	"di" pr
-;		"lu" det def mf pl REMOVE:222
-^scossi/scossa<n><f><pl>$
-^di/di<pr>/du<adj><mf><pl>/dia<n><f><pl>$;	"di" pr
-;		"lu" det def mf pl REMOVE:222
-^cchiù/cchiù<adv>$
-^nica/nica<n><f><sg>/nicu<adj><f><sg>$
-^ntinzità/*ntinzità$
-^(/(<lpar>$
-^circa/circa<adv>/circa<pr>$
-^VIII/VIII<num><mf><sp>$
-^gradu/gradu<n><m><sg>/gradiri<vblex><pri><p1><sg>$
-^MCS/*MCS$
-^)/)<rpar>$
-^s'/si<prn><pro><ref><p3><mf><sp>$
-^avìanu/aviri<vblex><pii><p3><pl>/aviri<vbhaver><pii><p3><pl>$
-^gia/gia<adv>/già<adv>$' 
-^fattu/fattu<adj><m><sg>/fari<vblex><pp><m><sg>$
-^sèntiri/sèntiri<vblex><inf>$
-^la/lu<det><def><f><sg>/lu<prn><pro><p3><f><sg>$
-^sira/sira<n><f><sg>$
-^dû/di<pr>+lu<det><def><m><sg>$
-^jornu/giornu<n><m><sg>$
-^9/9<num>$
-^e/e<cnjcoo><SELECT:227>$;	"a" pr SELECT:227
-;		"lu" det def mf pl
-;	"èssiri" vbser pri p3 sg SELECT:227
-^la/lu<det><def><f><sg>/lu<prn><pro><p3><f><sg>$
-^matina/matina<n><f><sg>$
-^dû/di<pr>+lu<det><def><m><sg>$
-^stissu/stissu<adj><m><sg>$
-^jornu/giornu<n><m><sg>$
-^11/11<num>$
-^./.<sent>$
-
 # sent_id = wikipedia-1k:226
 # text = La prufunnità ipucintrali cunziddirata pi l'eventu principali è di quarchi 20 chilòmitri.
 # labels = complete
@@ -1192,7 +1176,7 @@
 ^,/,<cm>$
 ^la/lu<det><def><f><sg>$
 ^natura/natura<n><f><sg>$
-^di/di<pr>$;		"lu" det def mf pl
+^di/di<pr>$
 ^Gesù/Gesù<np><ant>$
 ^cristu/Cristu<np><ant>$
 ^era/èssiri<vbser><pii><p3><sg>$
@@ -1349,6 +1333,78 @@
 ^,/,<cm>$
 ^'n/nta<pr>$
 ^Girmania/Girmania<np><top>$
+^./.<sent>$
+
+# sent_id = wikipedia-1k:983
+# text = L'Europa.
+# labels = complete
+^L'/lu<det><def><mf><sp>$
+^Europa/Europa<np><top>$
+^./.<sent>$
+
+# sent_id = wikipedia-1k:984
+# text = Sutta la sò binidizzioni la Sicilia fu prugrissivamenti cristianizzata.
+# labels = complete
+^Sutta/sutta<pr>$
+^la/lu<det><def><f><sg>$
+^sò/so<adj><pos><mf><sg>$
+^binidizzioni/binidizzioni<n><f><sp>$
+^la/lu<det><def><f><sg>$
+^Sicilia/Sicilia<np><top>$
+^fu/èssiri<vbser><ifi><p3><sg>$
+^prugrissivamenti/prugrissivamenti<adv>$
+^cristianizzata/cristianizzari<vblex><pp><f><sg>$
+^./.<sent>$
+
+# sent_id = wikipedia-1k:993
+# text = Aviglianu Umbru è nu cumuni dâ pruvincia di Terni.
+# labels = complete
+^Aviglianu/Aviglianu<np><top>$
+^Umbru/Umbru<np><top>$
+^è/èssiri<vbser><pri><p3><sg>$
+^nu/un<det><ind><m><sg>$
+^cumuni/cumuni<n><m><sp>$
+^dâ/di<pr>+lu<det><def><f><sg>$
+^pruvincia/pruvincia<n><f><sg>$
+^di/di<pr>$
+^Terni/Terni<np><top>$
+^./.<sent>$
+
+# sent_id = wikipedia-1k:994
+# text = Havi na pupulazzioni di 2'378 abbitanti.
+# labels = complete
+^Havi/aviri<vblex><pri><p3><sg><SELECT:321>$
+^na/un<det><ind><f><sg>$
+^pupulazzioni/pupulàzzioni<n><f><sp>$
+^di/di<pr>$
+^2'378/2'378<num>$
+^abbitanti/abbitanti<n><m><sp>$
+^./.<sent>$
+
+# sent_id = wikipedia-1k:995
+# text = Ntô sèculu XIX l'oidiu e la fillussera, malattìi dâ viti pruvinenti dâ Mèrica, distruinu enormi quantitati di vigneti.
+# labels = complete
+^Ntô/nta<pr>+lu<det><def><m><sg>$
+^sèculu/sèculu<n><m><sg>$
+^XIX/XIX<num><mf><sp>$
+^l'/lu<det><def><mf><sp>$
+^oidiu/oidiu<n><m><sg>$
+^e/e<cnjcoo>$
+^la/lu<det><def><f><sg>$
+^fillussera/fillussera<n><f><sg>$
+^,/,<cm>$
+^malattìi/malattìa<n><f><pl>$
+^dâ/di<pr>+lu<det><def><f><sg>$
+^viti/viti<n><f><sp>$
+^pruvinenti/pruvinenti<adj><mf><sp>$
+^dâ/di<pr>+lu<det><def><f><sg>$
+^Mèrica/Mèrica<np><top>$
+^,/,<cm>$
+^distruinu/distruiri<vblex><pri><p3><pl>$
+^enormi/enormi<adj><mf><sp>$
+^quantitati/quantitati<n><f><sp>$
+^di/di<pr>$
+^vigneti/*vigneti<n><m><pl>$
 ^./.<sent>$
 
 # sent_id = wikipedia-1k:1000

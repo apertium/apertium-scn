@@ -38,7 +38,7 @@
       <program name="cg-proc -w">
         <file name="scn.rlx.bin"/>
       </program>
-      <program name="apertium-tagger -g">
+      <program name="apertium-tagger -u 1 -g">
         <file name="scn.prob"/>
       </program>
     </pipeline>
