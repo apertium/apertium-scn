@@ -1335,6 +1335,75 @@
 ^Girmania/Girmania<np><top>$
 ^./.<sent>$
 
+# sent_id = wikipedia-1k:977
+# text = Cu tuttu chissu, lu muvimentu cuntatinu nun s'avìa piecatu e allura ci fu quarchidunu ca pinzò ca avìa vinutu lu mumentu di dàricci nu corpu dicisivu.
+# labels = complete
+^Cu/cu<pr>$
+^tuttu/tuttu<predet><m><sg>$
+^chissu/chissu<prn><tn><m><sg>$
+^,/,<cm>$
+^lu/lu<det><def><m><sg>$
+^muvimentu/muvumentu<n><m><sg>$
+^cuntatinu/cuntadinu<n><m><sg>$
+^nun/nun<adv>$
+^s'/si<prn><pro><ref><p3><mf><sp>$
+^avìa/aviri<vbhaver><pii><p3><sg>$
+^piecatu/piecari<vblex><pp><m><sg>$
+^e/e<cnjcoo>$
+^allura/allura<adv>$
+^ci/ci<prn><pro><adv>$
+^fu/èssiri<vbser><ifi><p3><sg>$
+^quarchidunu/quarchidunu<det><ind><mf><sg>$
+^ca/ca<cnjsub>$
+^pinzò/pinzari<vblex><ifi><p3><sg>$
+^ca/ca<cnjsub>$
+^avìa/aviri<vbhaver><pii><p3><sg>$
+^vinutu/vèniri<vblex><pp><m><sg>$
+^lu/lu<det><def><m><sg>$
+^mumentu/momentu<n><m><sg>$
+^di/di<pr>$
+^dàricci/dari<vblex><inf>+cci<prn><enc><p3><mf><sp>$
+^nu/un<det><ind><m><sg>$
+^corpu/corpu<n><m><sg>$
+^dicisivu/dicisivu<adj><m><sg>$
+^./.<sent>$
+
+# sent_id = wikipedia-1k:981
+# text = Pì evitari chistu prubblema, u chilugrammu vinni ridefinitu comu a massa "prìcisa" di na particulari massa standard, crìata pi approssimari a definizzioni originali e rializzata nto 1875.
+# labels = complete
+^Pì/pi<pr>$
+^evitari/evitari<vblex><inf>$
+^chistu/chistu<det><dem><m><sg>$
+^prubblema/prubblema<n><m><sg>$
+^,/,<cm>$
+^u/lu<det><def><m><sg>$
+^chilugrammu/chilugrammu<n><m><sg>$
+^vinni/vèniri<vblex><ifi><p3><sg>$
+^ridefinitu/ridefiniri<vblex><pp><m><sg>$
+^comu/comu<pr>$
+^a/a<pr>$
+^massa/massa<n><f><sg>$
+^"/"<quot>$
+^prìcisa/prìcisa$
+^"/"<quot>$
+^di/di<pr>$
+^na/un<det><ind><f><sg>$
+^particulari/particulari<adj><mf><sp>$
+^massa/massa<n><f><sg>$
+^standard/standard<n><m><sp>$
+^,/,<cm>$
+^crìata/criari<vblex><pp><f><sg>$
+^pi/pi<pr>$
+^approssimari/approssimari<vblex><inf>$
+^a/a<pr>+lu<det><def><f><sg>$
+^definizzioni/definizzioni<n><f><sp>$
+^originali/urigginali<adj><mf><sp>$
+^e/e<cnjcoo>$
+^rializzata/rializzari<vblex><pp><f><sg>$
+^nto/nta<pr>+lu<det><def><m><sg>$
+^1875/1875<num>$
+^./.<sent>$
+
 # sent_id = wikipedia-1k:983
 # text = L'Europa.
 # labels = complete
@@ -1354,6 +1423,99 @@
 ^fu/èssiri<vbser><ifi><p3><sg>$
 ^prugrissivamenti/prugrissivamenti<adv>$
 ^cristianizzata/cristianizzari<vblex><pp><f><sg>$
+^./.<sent>$
+
+# sent_id = wikipedia-1k:988
+# text = Rudolfu Valintinu (o Rudolph Valentino pi ngrisi) (nomu d'arti di Rodolfo Alfonso Raffaele Pierre Filibert Guglielmi) - (Castellaneta, Tarantu, 6 di maiu 1895 - Nova Jorca, 23 di austu 1926) era un atturi italu-miricanu dâ pillìcula muta: natu in Italia emigrau giuvanissimu ntê Stati Uniti unni rinisciu aviri na carrera curta ma di granni successu.
+# labels = complete
+^Rudolfu/Rudolfu<np><ant>$
+^Valintinu/Valintinu<np><cog>$
+^(/(<lpar>$
+^o/o<cnjcoo>$
+^Rudolph/Rudolph<np><cog>$
+^Valentino/Valentino<np><ant>$
+^pi/pi<pr>$
+^ngrisi/ngrisi<n><mf><sp>$
+^)/)<rpar>$
+^(/(<lpar>$
+^nomu/nomu<n><m><sg>$
+^d'/di<pr>$
+^arti/arti<n><mf><sp>$
+^di/di<pr>$
+^Rodolfo/Rodolfo<np><ant>$
+^Alfonso/Alfonso<np><ant>$
+^Raffaele/Raffaele<np><ant>$
+^Pierre/Pierre<np><ant>$
+^Filibert/Filibert<np><ant>$
+^Guglielmi/Guglielmi<np><cog>$
+^)/)<rpar>$
+^-/-<guio>$
+^(/(<lpar>$
+^Castellaneta/Castellaneta<np><top>$
+^,/,<cm>$
+^Tarantu/Tàrantu<np><top>$
+^,/,<cm>$
+^6/6<num>$
+^di/di<pr>$
+^maiu/maiu<n><m><sg>$
+^1895/1895<num>$
+^-/-<guio>$
+^Nova/Nova<np><top>$
+^Jorca/Jorca<np><top>$
+^,/,<cm>$
+^23/23<num>$
+^di/di<pr>$
+^austu/austu<n><m><sg>$
+^1926/1926<num>$
+^)/)<rpar>$
+^era/èssiri<vbser><pii><p3><sg>$
+^un/un<det><ind><m><sg>$
+^atturi/atturi<n><m><sg>$
+^italu-miricanu/italu-miricanu<adj><m><sg>$
+^dâ/di<pr>+lu<det><def><f><sg>$
+^pillìcula/pillìcula<n><f><sg>$
+^muta/mutu<adj><f><sg>$
+^:/:<sent>$
+^natu/natari<vblex><pp><m><sg>$
+^in/nta<pr>$
+^Italia/Italia<np><top>$
+^emigrau/emigrari<vblex><ifi><p3><sg>$
+^giuvanissimu/giuvanissimu<adj><m><sg>$
+^ntê/nta<pr>+lu<det><def><mf><pl>$
+^Stati Uniti/Stati Uniti<np><top>$
+^unni/unni<rel><adv>$
+^rinisciu/arrinèsciri<vblex><ifi><p3><sg>$
+^aviri/aviri<vblex><inf>$
+^na/un<det><ind><f><sg>$
+^carrera/carrera<n><f><sg>$
+^curta/curtu<adj><f><sg>$
+^ma/ma<cnjcoo>$
+^di/di<pr>$
+^granni/granni<adj><mf><sp>$
+^successu/successu<n><m><sg>$
+^./.<sent>$
+
+# sent_id = wikipedia-1k:989
+# text = Fu canusciutu pâ sò biddizza e fu forsi unu dî primi "sex symbol" maschili dâ pillìcula.
+# labels = complete
+^Fu/èssiri<vbser><ifi><p3><sg>$
+^canusciutu/canùsciri<vblex><pp><m><sg>$
+^pâ/pi<pr>+lu<det><def><f><sg>$
+^sò/so<adj><pos><mf><sg>$
+^biddizza/biddizza<n><f><sg>$
+^e/e<cnjcoo>$
+^fu/èssiri<vbser><ifi><p3><sg>$
+^forsi/forsi<adv>$
+^unu/unu<num><mf><sp>$
+^dî/di<pr>+lu<det><def><mf><pl>$
+^primi/primu<adj><mf><pl>$
+^"/"<guio>$
+^sex/*sex<n><barb>$
+^symbol/*symbol<n><barb>$
+^"/"<guio>$
+^maschili/maschili<adj><mf><sp>$
+^dâ/di<pr>+lu<det><def><f><sg>$
+^pillìcula/pillìcula<n><f><sg>$
 ^./.<sent>$
 
 # sent_id = wikipedia-1k:993
