@@ -1221,7 +1221,7 @@
       <e><p><l>lli</l><r>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>lli</l><r>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>  
       <e><p><l>llu</l><r>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>   
-      <e><p><l>nni</l><r>ni<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e> <!-- pi jìrisinni unni voli. -->
+      <e><p><l>nni</l><r>ni<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e> <!-- pi jìrisinni unni voli. -->
 
     </pardef>
 
@@ -1253,6 +1253,8 @@
 
       <e><p><l>si</l><r>si<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
       <e><p><l>si</l><r>si<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/><j/></r></p><par n="S__scrivènnusi"/></e>
+
+      <e><p><l>ci</l><r>ci<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
 
       <e><p><l>lu</l><r>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>
     </pardef>
@@ -8720,6 +8722,7 @@
     <e lm="supra" r="LR"><p><l>sùpira</l><r>supra</r></p><par n="tra__pr"/></e>
     <e lm="supra" r="LR"><p><l>suprâ</l><r>supra<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="f"/><s n="sg"/></r></p></e>
     <e lm="supra" r="LR"><p><l>suprô</l><r>supra<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
+    <e lm="supra" r="LR"><p><l>supr'ê</l><r>supra<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="mf"/><s n="pl"/></r></p></e>
     <e lm="avanti"><i>avanti</i><par n="tra__pr"/></e>
     <e lm="doppu"><i>doppu</i><par n="tra__pr"/></e>
     <e lm="doppu" r="LR"><p><l>dopu</l><r>doppu</r></p><par n="tra__pr"/></e>
@@ -34132,6 +34135,7 @@
     <e lm="longu" r="LR"><p><l>lung</l><r>long</r></p><par n="bedd/u__adj"/></e>
     <e lm="falsu"><i>fals</i><par n="bedd/u__adj"/></e>
     <e lm="àutu"><i>àut</i><par n="bedd/u__adj"/></e>
+     <e lm="altu" r="LR"><p><l>alt</l><r>àut</r></p><par n="bedd/u__adj"/></e>
     <e lm="tunnu"><i>tunn</i><par n="bedd/u__adj"/></e>
     <e lm="russu"><i>russ</i><par n="bedd/u__adj"/></e>
     <e lm="anàrchicu"><i>anàrchic</i><par n="ètic/u__adj"/></e>
@@ -34231,7 +34235,6 @@
     <e lm="aràbbicu"><i>aràbbic</i><par n="ètic/u__adj"/></e>
     
 <e lm="agrìculu"><i>agrìcul</i><par n="bedd/u__adj"/></e>
-<e lm="altu"><i>alt</i><par n="bedd/u__adj"/></e>
 <e lm="artiggianu"><i>artiggian</i><par n="bedd/u__adj"/></e>
 <e lm="belgu"><i>belg</i><par n="bedd/u__adj"/></e>
 <e lm="bizantinu"><i>bizantin</i><par n="bedd/u__adj"/></e>
@@ -34393,6 +34396,12 @@
     <e lm="magnèticu"><i>magnètic</i><par n="ètic/u__adj"/></e>
     <e lm="filusòficu"><i>filusòfic</i><par n="ètic/u__adj"/></e>
     <e lm="pulìticu"><i>pulìtic</i><par n="ètic/u__adj"/></e>
+    <e lm="pulìticu" r="LR"><p><l>puliticu</l><r>pulìtic</r></p><par n="ètic/u__adj"/></e>
+    <e lm="pulìticu" r="LR"><p><l>pùliticu</l><r>pulìtic</r></p><par n="ètic/u__adj"/></e>
+    <e lm="pulìticu" r="LR"><p><l>politic</l><r>pulìtic</r></p><par n="ètic/u__adj"/></e>
+    <e lm="pulìticu" r="LR"><p><l>pulitic</l><r>pulìtic</r></p><par n="ètic/u__adj"/></e>
+    <e lm="pulìticu" r="LR"><p><l>pulìtìc</l><r>pulìtic</r></p><par n="ètic/u__adj"/></e>
+
     <e lm="nazziunalìsticu"><i>nazziunalìstic</i><par n="ètic/u__adj"/></e>
     <e lm="turìsticu"><i>turìstic</i><par n="ètic/u__adj"/></e>
     
@@ -36022,7 +36031,6 @@
     <e lm="transuranicu"><i>transuranic</i><par n="ètic/u__adj"/></e>
     <e lm="ntervucàlicu"><i>ntervucàlic</i><par n="ètic/u__adj"/></e>
     <e lm="statìsticu"><i>statìstic</i><par n="ètic/u__adj"/></e>
-    <e lm="pùliticu"><i>pùlitic</i><par n="ètic/u__adj"/></e>
     <e lm="ciràmicu"><i>ciràmic</i><par n="ètic/u__adj"/></e>
     <e lm="etimològgicu"><i>etimològgic</i><par n="ètic/u__adj"/></e>
     <e lm="sfèricu"><i>sfèric</i><par n="ètic/u__adj"/></e>
@@ -36758,8 +36766,6 @@
     <e lm="riggiunali" r="LR"><p><l>reggionali</l><r>riggiunali</r></p><par n="duci__adj"/></e>
     <e lm="pricisu" r="LR"><p><l>precis</l><r>pricis</r></p><par n="bedd/u__adj"/></e>
     <e lm="pricisu" r="LR"><p><l>esatt</l><r>pricis</r></p><par n="bedd/u__adj"/></e>
-    <e lm="pulìticu" r="LR"><p><l>politic</l><r>pulìtic</r></p><par n="ètic/u__adj"/></e>
-    <e lm="pulìticu" r="LR"><p><l>pulitic</l><r>pulìtic</r></p><par n="ètic/u__adj"/></e>
     <e lm="munumintali" r="LR"><p><l>monumintali</l><r>munumintali</r></p><par n="duci__adj"/></e>
     <e lm="munumintali" r="LR"><p><l>munumentali</l><r>munumintali</r></p><par n="duci__adj"/></e>
     <e lm="castagnu" r="LR"><p><l>capiddar</l><r>castagn</r></p><par n="bedd/u__adj"/></e>
@@ -36886,7 +36892,6 @@
     <e lm="fotugraficu" r="LR"><p><l>fotografic</l><r>fotugrafic</r></p><par n="ètic/u__adj"/></e>
     <e lm="mitulòggicu" r="LR"><p><l>mituloggic</l><r>mitulòggic</r></p><par n="ètic/u__adj"/></e>
     <e lm="ecunòmicu" r="LR"><p><l>ecunumic</l><r>ecunòmic</r></p><par n="ètic/u__adj"/></e>
-    <e lm="pulìticu" r="LR"><p><l>pulìtìc</l><r>pulìtic</r></p><par n="ètic/u__adj"/></e>
     <e lm="turìsticu" r="LR"><p><l>turìistic</l><r>turìstic</r></p><par n="ètic/u__adj"/></e>
     <e lm="mozambicu" r="LR"><p><l>mozzambic</l><r>mozambic</r></p><par n="ètic/u__adj"/></e>
     <e lm="sucialdimucràticu" r="LR"><p><l>sucialdimucratic</l><r>sucialdimucràtic</r></p><par n="ètic/u__adj"/></e>
@@ -38128,7 +38133,6 @@
     <e lm="psichicu"><i>psichic</i><par n="ètic/u__adj"/></e>
     <e lm="psicologicu"><i>psicologic</i><par n="ètic/u__adj"/></e>
     <e lm="pubblicu"><i>pubblic</i><par n="ètic/u__adj"/></e>
-    <e lm="puliticu"><i>pulitic</i><par n="ètic/u__adj"/></e>
     <e lm="puntuali"><i>puntual</i><par n="cintral/i__adj"/></e>
     <e lm="pupulusu"><i>pupulus</i><par n="bedd/u__adj"/></e>
     <e lm="purciara"><i>purciar</i><par n="fascist/a__adj"/></e>
@@ -49140,6 +49144,8 @@
     <e lm="troppu" r="LR"><p><l>tropp'</l><r>troppu</r></p><par n="oggi__adv"/></e>
 
     <e lm="a" r="LR"><p><l>a'</l><r>a<s n="pr"/></r></p></e>
+
+    <e lm="eggh'" r="LR"><p><l>eggh'</l><r>e<s n="cnjcoo"/></r></p></e> <!-- FIXME: Comprobar -->
 
     <e lm="quannu" r="LR"><p><l>quann'</l><r>quannu</r></p><par n="quannu__adv"/></e>
     <e lm="quannu" r="LR"><p><l>cuann'</l><r>quannu</r></p><par n="quannu__adv"/></e>

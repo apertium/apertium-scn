@@ -772,6 +772,414 @@
 ^voli/vuliri<vblex><pri><p3><sg>$
 ^./.<sent>$
 
+# sent_id = wikipedia-1k:210
+# text = Vicenzu Bellini è raffiguratu supr'ê bancunoti di 5.000 (cincumila) Liri.
+# labels = complete
+^Vicenzu/Vicenzu<np><ant>$
+^Bellini/Bellini<np><cog>$
+^è/èssiri<vbser><pri><p3><sg>$
+^raffiguratu/raffigurari<vblex><pp><m><sg>$
+^supr'ê/supra<pr>+lu<det><def><mf><pl>$
+^bancunoti/bancunota<n><f><pl>$
+^di/di<pr>$
+^5.000/5.000<num>$
+^(/(<lpar>$
+^cincumila/cincumila<n><f><sg>$
+^)/)<rpar>$
+^Liri/lira<n><f><pl>$
+^./.<sent>$
+
+# sent_id = wikipedia-1k:211
+# text = Dû stissu annu è lu "San Girolamu ntô studiu", sarbatu â National Gallery di Londra.
+# labels = complete
+^Dû/di<pr>+lu<det><def><m><sg>$
+^stissu/stissu<adj><m><sg>$
+^annu/annu<n><m><sg>$
+^è/èssiri<vbser><pri><p3><sg>$
+^lu/lu<det><def><m><sg>$
+^"/"<quot>$
+^San/santu<adj><m><sg>$
+^Girolamu/Girolamu<np><ant>$
+^ntô/nta<pr>+lu<det><def><m><sg>$
+^studiu/studiu<n><m><sg>$
+^"/"<quot>$
+^,/,<cm>$
+^sarbatu/sarbari<vblex><pp><m><sg>$
+^â/a<pr>+lu<det><def><f><sg>$
+^National/National<np><al>$
+^Gallery/Gallery<np><al>$
+^di/di<pr>$
+^Londra/Londra<np><top>$
+^./.<sent>$
+
+# sent_id = wikipedia-1k:213
+# text = Giba è un cumuni talianu dâ pruvincia di Carbonia-Iglesias ntâ Sardigna.
+# labels = complete
+^Giba/Giba<np><top>$
+^è/èssiri<vbser><pri><p3><sg>$
+^un/un<det><ind><m><sg>$
+^cumuni/cumuni<n><m><sp>$
+^talianu/talianu<adj><m><sg>$
+^dâ/di<pr>+lu<det><def><f><sg>$
+^pruvincia/pruvincia<n><f><sg>$
+^di/di<pr>$
+^Carbonia-Iglesias/Carbonia-Iglesias<np><top>$
+^ntâ/nta<pr>+lu<det><def><f><sg>$
+^Sardigna/Sardigna<np><top>$
+^./.<sent>$
+
+# sent_id = wikipedia-1k:214
+# text = Na fava o faviana è nu ligumi tipicu dâ cucina siciliana tradizziunali campagnola.
+# labels = complete
+^Na/un<det><ind><f><sg>$
+^fava/fava<n><f><sg>$
+^o/o<cnjcoo>$
+^faviana/faviana<n><f><sg>$
+^è/èssiri<vbser><pri><p3><sg>$
+^nu/un<det><ind><m><sg>$
+^ligumi/ligumi<n><m><sp>$
+^tipicu/tìpicu<adj><m><sg>$
+^dâ/di<pr>+lu<det><def><f><sg>$
+^cucina/cucina<n><f><sg>$
+^siciliana/sicilianu<adj><f><sg>$
+^tradizziunali/tradizziunali<adj><mf><sp>$
+^campagnola/campagnolu<n><f><sg>$
+^./.<sent>$
+
+# sent_id = wikipedia-1k:215
+# text = E' lu ngridienti principali dû maccu.
+# labels = complete
+^E'/èssiri<vbser><pri><p3><sg>$
+^lu/lu<det><def><m><sg>$
+^ngridienti/ngridienti<n><m><sp>$
+^principali/principali<adj><mf><sp>$
+^dû/di<pr>+lu<det><def><m><sg>$
+^maccu/maccu<n><m><sg>$
+^./.<sent>$
+
+# sent_id = wikipedia-1k:217
+# text = Havi circa 120'000 abbitanti.
+# labels = complete
+^Havi/aviri<vblex><pri><p3><sg>$
+^circa/circa<pr>$
+^120'000/120'000<num>$
+^abbitanti/abbitanti<n><m><sp>$
+^./.<sent>$
+
+# sent_id = wikipedia-1k:218
+# text = Fu funnata ntô XIX sèculu di n'ufficiali britannicu di cui pigghiau lu prifissu dû nomu Abbot.
+# labels = complete
+^Fu/èssiri<vbser><ifi><p3><sg>$
+^funnata/funnari<vblex><pp><f><sg>$
+^ntô/nta<pr>+lu<det><def><m><sg>$
+^XIX/XIX<num><mf><sp>$
+^sèculu/sèculu<n><m><sg>$
+^di/di<pr>$
+^n'/un<det><ind><mf><sg>$
+^ufficiali/ufficiali<adj><mf><sp>$
+^britannicu/britànnicu<adj><m><sg>$
+^di/di<pr>$
+^cui/cui<rel><aa><mf><sg>$
+^pigghiau/pigghiari<vblex><ifi><p3><sg>$
+^lu/lu<det><def><m><sg>$
+^prifissu/prifissu<n><m><sg>$
+^dû/di<pr>+lu<det><def><m><sg>$
+^nomu/nomu<n><m><sg>$
+^Abbot/Abbot<np><cog>$
+^./.<sent>$
+
+# sent_id = wikipedia-1k:219
+# text = S'attrova a na cinquantina di chilòmitri a nord di Islamabad, la capitali, eggh'è na cità sedi di n'accademia militari.
+# labels = complete
+^S'/si<prn><pro><ref><p3><mf><sp>$
+^attrova/attruvari<vblex><pri><p3><sg>$
+^a/a<pr>$
+^na/un<det><ind><f><sg>$
+^cinquantina/cinquantina<n><f><sg>$
+^di/di<pr>$
+^chilòmitri/chilòmitru<n><m><pl>$
+^a/a<pr>$
+^nord/nord<n><m><sg>$
+^di/di<pr>$
+^Islamabad/Islamabad<np><top>$
+^,/,<cm>$
+^la/lu<det><def><f><sg>$
+^capitali/capitali<n><f><sp>$
+^,/,<cm>$
+^eggh'/e<cnjcoo>$
+^è/èssiri<vbser><pri><p3><sg>$
+^na/un<det><ind><f><sg>$
+^cità/citati<n><f><sp>$
+^sedi/sedi<n><f><sp>$
+^di/di<pr>$
+^n'/un<det><ind><mf><sg>$
+^accademia/accaremia<n><f><sg>$
+^militari/militari<adj><mf><sp>$
+^./.<sent>$
+
+# sent_id = wikipedia-1k:221
+# text = L'elezioni.
+# labels = complete
+^L'/lu<det><def><mf><sp>$
+^elezioni/elezioni<n><f><sp>$
+^./.<sent>$
+
+# sent_id = wikipedia-1k:222
+# text = La siquenza sìsmica ca cumprenni stu tirrimotu, accuminciau lu jornu 9 di jinnaru 1693 e cuntinuau pri quarchi dui anni, cu nu nùmmiru assai àutu di rèbbrichi (cchiù di 1500).
+# labels = complete
+^La/lu<det><def><f><sg>$
+^siquenza/siquenza<n><f><sg>$
+^sìsmica/sìsmicu<adj><f><sg>$
+^ca/ca<cnjsub>$
+^cumprenni/cumprènniri<vblex><pri><p3><sg>$
+^stu/chistu<det><dem><m><sg>$
+^tirrimotu/tirrimotu<n><m><sg>$
+^,/,<cm>$
+^accuminciau/accuminciari<vblex><ifi><p3><sg>$
+^lu/lu<det><def><m><sg>$
+^jornu/giornu<n><m><sg>$
+^9/9<num>$
+^di/di<pr>$
+^jinnaru/jinnaru<n><m><sg>$
+^1693/1693<num>$
+^e/e<cnjcoo>$
+^cuntinuau/cuntinuari<vblex><ifi><p3><sg>$
+^pri/per<pr>$
+^quarchi/quarchi<det><ind><mf><sg>$
+^dui/dui<num><mf><sp>$
+^anni/annu<n><m><pl>$
+^,/,<cm>$
+^cu/cu<pr>$
+^nu/un<det><ind><m><sg>$
+^nùmmiru/numiru<n><m><sg>$
+^assai/assai<preadv>$
+^àutu/àutu<adj><m><sg>$
+^di/di<pr>$
+^rèbbrichi/rèbbricu<n><m><pl>$
+^(/(<lpar>$
+^cchiù/cchiù<adv>$
+^di/di<pr>$
+^1500/1500<num>$
+^)/)<rpar>$
+^./.<sent>$
+
+# sent_id = wikipedia-1k:223
+# text = L'eventu principali (XI gradu MCS) s'eppi a l'ori 9 dâ sira di l'11 jinnaru, doppu ca na para di scossi di cchiù nica ntinzità (circa VIII gradu MCS) s'avìanu gia' fattu sèntiri la sira dû jornu 9 e la matina dû stissu jornu 11.
+# labels = incomplete
+^L'/lu<det><def><mf><sp>$
+^eventu/eventu<n><m><sg>$
+^principali/principali<adj><mf><sp>/principipali<adj><mf><sp>$
+^(/(<lpar>$
+^XI/XI<num><mf><sp>$
+^gradu/gradu<n><m><sg>/gradiri<vblex><pri><p1><sg>$
+^MCS/*MCS$
+^)/)<rpar>$
+^s'/si<prn><pro><ref><p3><mf><sp>$
+^eppi/*eppi$
+^a/a<pr><SELECT:251>$;	"lu" det def f sg SELECT:251
+;	"a" pr
+;		"lu" det def f sg REMOVE:222
+^l'/lu<det><def><mf><sp>$
+^ori/oru<n><m><pl>/oriu<n><m><pl>$
+^9/9<num>$
+^dâ/di<pr>+lu<det><def><f><sg>$
+^sira/sira<n><f><sg>$
+^di/di<pr>/du<adj><mf><pl>/dia<n><f><pl>$;	"di" pr
+;		"lu" det def mf pl REMOVE:222
+^l'/lu<det><def><mf><sp>$
+^11/11<num>$
+^jinnaru/jinnaru<n><m><sg>$
+^,/,<cm>$
+^doppu/doppu<adv>/doppu<pr>$
+^ca/cu<pr><SELECT:251>+lu<det><def><f><sg>$;	"ca" cnjsub SELECT:251
+;	"cà" adv SELECT:251
+^na/nu<adj><f><sg>/na<adj><mf><sg>/un<det><ind><f><sg>$;	"nta" pr
+;		"lu" det def f sg REMOVE:432
+^para/para<n><f><sg><SELECT:311>/paru<n><m><pl><SELECT:311>$;	"parari" vblex imp p2 sg REMOVE:240
+;	"parari" vblex pri p3 sg SELECT:311
+^di/di<pr>/du<adj><mf><pl>/dia<n><f><pl>$;	"di" pr
+;		"lu" det def mf pl REMOVE:222
+^scossi/scossa<n><f><pl>$
+^di/di<pr>/du<adj><mf><pl>/dia<n><f><pl>$;	"di" pr
+;		"lu" det def mf pl REMOVE:222
+^cchiù/cchiù<adv>$
+^nica/nica<n><f><sg>/nicu<adj><f><sg>$
+^ntinzità/*ntinzità$
+^(/(<lpar>$
+^circa/circa<adv>/circa<pr>$
+^VIII/VIII<num><mf><sp>$
+^gradu/gradu<n><m><sg>/gradiri<vblex><pri><p1><sg>$
+^MCS/*MCS$
+^)/)<rpar>$
+^s'/si<prn><pro><ref><p3><mf><sp>$
+^avìanu/aviri<vblex><pii><p3><pl>/aviri<vbhaver><pii><p3><pl>$
+^gia/gia<adv>/già<adv>$' 
+^fattu/fattu<adj><m><sg>/fari<vblex><pp><m><sg>$
+^sèntiri/sèntiri<vblex><inf>$
+^la/lu<det><def><f><sg>/lu<prn><pro><p3><f><sg>$
+^sira/sira<n><f><sg>$
+^dû/di<pr>+lu<det><def><m><sg>$
+^jornu/giornu<n><m><sg>$
+^9/9<num>$
+^e/e<cnjcoo><SELECT:227>$;	"a" pr SELECT:227
+;		"lu" det def mf pl
+;	"èssiri" vbser pri p3 sg SELECT:227
+^la/lu<det><def><f><sg>/lu<prn><pro><p3><f><sg>$
+^matina/matina<n><f><sg>$
+^dû/di<pr>+lu<det><def><m><sg>$
+^stissu/stissu<adj><m><sg>$
+^jornu/giornu<n><m><sg>$
+^11/11<num>$
+^./.<sent>$
+
+# sent_id = wikipedia-1k:226
+# text = La prufunnità ipucintrali cunziddirata pi l'eventu principali è di quarchi 20 chilòmitri.
+# labels = complete
+^La/lu<det><def><f><sg>$
+^prufunnità/prufunnità<n><f><sp>$
+^ipucintrali/ipucintrali<adj><mf><sp>$
+^cunziddirata/cunziddirari<vblex><pp><f><sg>$
+^pi/pi<pr>$
+^l'/lu<det><def><mf><sp>$
+^eventu/eventu<n><m><sg>$
+^principali/principali<adj><mf><sp>$
+^è/èssiri<vbser><pri><p3><sg>$
+^di/di<pr>$
+^quarchi/quarchi<det><ind><mf><sg>$
+^20/20<num>$
+^chilòmitri/chilòmitru<n><m><pl>$
+^./.<sent>$
+
+# sent_id = wikipedia-1k:227
+# text = Cantarana è un cumuni talianu dâ pruvincia di Asti ntô Piemunti.
+# labels = complete
+^Cantarana/Cantarana<np><top>$
+^è/èssiri<vbser><pri><p3><sg>$
+^un/un<det><ind><m><sg>$
+^cumuni/cumuni<n><m><sp>$
+^talianu/talianu<adj><m><sg>$
+^dâ/di<pr>+lu<det><def><f><sg>$
+^pruvincia/pruvincia<n><f><sg>$
+^di/di<pr>$
+^Asti/Asti<np><top>$
+^ntô/nta<pr>+lu<det><def><m><sg>$
+^Piemunti/Piemunti<np><top>$
+^./.<sent>$
+
+# sent_id = wikipedia-1k:228
+# text = Abu-l-Laith As-Siqilli (attivu â fini dû XII sèculu), fu n'architettu prubbabbirmenti sicilianu d'urìggini, attivu a Siviglia, unni ntô 1198 accapau la costruzzioni dâ "Giralda", nu minaretu ancora òi visìbbili.
+# labels = complete
+^Abu-l-Laith/Abu-l-Laith<np><ant>$
+^As-Siqilli/As-Siqilli$
+^(/(<lpar>$
+^attivu/àttivu<adj><m><sg>$
+^â/a<pr>+lu<det><def><f><sg>$
+^fini/fini<n><m><sp>$
+^dû/di<pr>+lu<det><def><m><sg>$
+^XII/XII<num><mf><sp>$
+^sèculu/sèculu<n><m><sg>$
+^)/)<rpar>$
+^,/,<cm>$
+^fu/èssiri<vbser><ifi><p3><sg>$
+^n'/un<det><ind><mf><sg>$
+^architettu/architettu<n><m><sg>$
+^prubbabbirmenti/prubbabbirmenti<adv>$
+^sicilianu/sicilianu<adj><m><sg>$
+^d'/di<pr>$
+^urìggini/urìgini<n><f><sp>$
+^,/,<cm>$
+^attivu/àttivu<adj><m><sg>$
+^a/a<pr>$
+^Siviglia/Siviglia<np><top>$
+^,/,<cm>$
+^unni/unni<rel><adv>$
+^ntô/nta<pr>+lu<det><def><m><sg>$
+^1198/1198<num>$
+^accapau/accapari<vblex><ifi><p3><sg>$
+^la/lu<det><def><f><sg>$
+^costruzzioni/costruzzioni<n><f><sp>$
+^dâ/di<pr>+lu<det><def><f><sg>$
+^"/"<quot>$
+^Giralda/Giralda<np><al>$
+^"/"<quot>$
+^,/,<cm>$
+^nu/un<det><ind><m><sg>$
+^minaretu/minaretu<n><m><sg>$
+^ancora/ancora<adv>$
+^òi/oggi<adv>$
+^visìbbili/visìbbili<adj><mf><sp>$
+^./.<sent>$
+
+# sent_id = wikipedia-1k:229
+# text = Lu African National Congress (abbriviatu puru cu la sigla ANC) è nu partitu puliticu dû Sudafrica.
+# labels = complete
+^Lu/lu<det><def><m><sg>$
+^African/African<np><al>$
+^National/National<np><al>$
+^Congress/Congress<np><al>$
+^(/(<lpar>$
+^abbriviatu/abbriviari<vblex><pp><m><sg>$
+^puru/puru<adv>$
+^cu/cu<pr>$
+^la/lu<det><def><f><sg>$
+^sigla/sigla<n><f><sg>$
+^ANC/ANC<np><al>$
+^)/)<rpar>$
+^è/èssiri<vbser><pri><p3><sg>$
+^nu/un<det><ind><m><sg>$
+^partitu/partitu<n><m><sg>$
+^puliticu/pulìticu<adj><m><sg>$
+^dû/di<pr>+lu<det><def><m><sg>$
+^Sudafrica/Sudàfrica<np><top>$
+^./.<sent>$
+
+# sent_id = wikipedia-1k:230
+# text = Funnatu di Nelson Mandela, ê tempa di l'apartheid, lu partitu luttava clannistinamenti pi li diritti di li nìuri.
+# text[spa] = Fundado por Nelson Mandela, en los tiempos del apartheid, el partido luchaba clandestinamente para los derectos de los negros.
+# labels = complete
+^Funnatu/funnari<vblex><pp><m><sg>$
+^di/di<pr>$
+^Nelson/Nelson<np><ant>$
+^Mandela/Mandela<np><top>$
+^,/,<cm>$
+^ê/a<pr>+lu<det><def><mf><pl>$
+^tempa/tempu<n><m><pl>$
+^di/di<pr>$
+^l'/lu<det><def><mf><sp>$
+^apartheid/apartheid<n><m><sp>$
+^,/,<cm>$
+^lu/lu<det><def><m><sg>$
+^partitu/partitu<n><m><sg>$
+^luttava/luttari<vblex><pii><p3><sg>$
+^clannistinamenti/clannistinamenti<adv>$
+^pi/pi<pr>$
+^li/lu<det><def><mf><pl>$
+^diritti/drittu<n><m><pl>$
+^di/di<pr>$
+^li/lu<det><def><mf><pl>$
+^nìuri/nìuru<adj><mf><pl>$
+^./.<sent>$
+
+# sent_id = wikipedia-1k:240
+# text = John Deacon rissi ca lu gruppu apprizzò i cuncerti ri Newcastle, Glasgow e Bournemouth.
+# labels = complete
+^John/John<np><ant>$
+^Deacon/Deacon<np><cog>$
+^rissi/diri<vblex><ifi><p3><sg>$
+^ca/ca<cnjsub>$
+^lu/lu<det><def><m><sg>$
+^gruppu/gruppu<n><m><sg>$
+^apprizzò/apprizzari<vblex><ifi><p3><sg>$
+^i/lu<det><def><mf><pl>$
+^cuncerti/cuncertu<n><m><pl>$
+^ri/di<pr>$
+^Newcastle/Newcastle<np><top>$
+^,/,<cm>$
+^Glasgow/Glasgow<np><top>$
+^e/e<cnjcoo>$
+^Bournemouth/Bournemouth<np><top>$
+^./.<sent>$
+
 # sent_id = wikipedia-1k:1000
 # text = United Internet Team Germani è nu team vèlicu tedescu participanti â 32-èsima edizzioni dâ America's Cup chi si tinìu a Valencia ntô 2007.
 # labels = complete
