@@ -94,6 +94,8 @@ LIST Pariri = "<pariri>"i ;
 LIST Tuttu = "<tuttu>"i ;
 LIST Lu = "lu" ;
 
+LIST Putiri = "putiri" ; 
+
 LIST Assai = "<assai>"i ; 
 
 
@@ -245,15 +247,16 @@ REMOVE Ind IF (0 Ind OR Pr) (1 Def) ;
 
 SELECT N IF (-1 Det OR Pr) (0 Cristianu) ;
 
-SELECT Pr IF (0 Pr OR Pr LINK 0/* Det) (1 Inf) ;
- # Pi fari lu jurnalista prufissiuntista ...
+SELECT Pr IF (0 Pr OR Pr LINK 0/* Det) (1 Inf) (NOT 0 Putiri) ;
+    ## Pi fari lu jurnalista prufissiuntista ...
+    ## A prugrammazzioni liniàri ppo ssiri appricata a diversa campi di studiu.
 
 SELECT Pr IF (0 Pr OR Pr LINK 0/* Det) (1 Det) ;
- # Nta lu Òrdini prufissiunali
+    ## Nta lu Òrdini prufissiunali
  
 
 SELECT Det IF (-1C Vbser) (0 Det) (0 Pr LINK 0/* Det) ;
- # UBS è na banca
+    ## UBS è na banca
  
 
 

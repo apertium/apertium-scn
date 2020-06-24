@@ -372,6 +372,7 @@
     	<e><p><l>o</l><r>o<s n="adj"/><s n="pos"/><s n="mf"/><s n="sg"/></r></p></e>
     	<e r="LR"><p><l>ò</l><r>o<s n="adj"/><s n="pos"/><s n="mf"/><s n="sg"/></r></p></e>
     	<e r="LR"><p><l>ô</l><r>o<s n="adj"/><s n="pos"/><s n="mf"/><s n="sg"/></r></p></e>
+    	<e r="LR"><p><l>ou</l><r>o<s n="adj"/><s n="pos"/><s n="mf"/><s n="sg"/></r></p></e> <!--Lu fiju sou-->
     	<e r="LR"><p><l>ua</l><r>o<s n="adj"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
     	<e><p><l>oi</l><r>o<s n="adj"/><s n="pos"/><s n="mf"/><s n="pl"/></r></p></e>
 <!-- 
@@ -404,6 +405,7 @@
     <!-- SECTION: Determiners -->
     <pardef n="l/u__det">
       <e><p><l>u</l><r>u<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>lu</l><r>u<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
       <e r="LR"><p><l>û</l><r>u<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>a</l><r>u<s n="det"/><s n="def"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>i</l><r>u<s n="det"/><s n="def"/><s n="mf"/><s n="pl"/></r></p></e>
@@ -412,6 +414,7 @@
     <pardef n="/un__det">
     	<e><p><l>un</l><r>un<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
     	<e r="LR"><p><l>nu</l><r>un<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
+    	<e r="LR"><p><l>nù</l><r>un<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e> <!--Sciumara 'i Muru è nù cumuni-->
     	<e r="LR"><p><l>unu</l><r>un<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
     	<e r="LR"><p><l>'un</l><r>un<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
     	<e><p><l>na</l><r>un<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></r></p></e>
@@ -507,8 +510,7 @@
       	<e r="LR"><p><l>iggina</l><r>e<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
       	<e><p><l>igini</l><r>e<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
       	<e r="LR"><p><l>iggini</l><r>e<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
-      	<e><p><l>e</l><r>e<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      	<e><p><l>e</l><r>e<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+      	<e><p><l>e</l><r>e<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
     </pardef>
 
     <pardef n="sèc/.__n">
@@ -576,6 +578,7 @@
     <pardef n="cas/a__n">
       	<e><p><l>a</l><r>a<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
       	<e><p><l>i</l><r>a<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+      	<e r="LR"><p><l>e</l><r>a<s n="n"/><s n="f"/><s n="pl"/></r></p></e> <!--Puerto Balleto jè la principale città dilli isole-->
     </pardef>
      
     <pardef n="cit/ati__n">
@@ -732,6 +735,7 @@
     <pardef n="barun/i__n">
       	<e><p><l>i</l><r>i<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
       	<e><p><l>issa</l><r>i<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+      	<e><p><l>a</l><r>i<s n="n"/><s n="m"/><s n="pl"/></r></p></e> <!-- Littra dî baruna siciliani ô Re Petru III d'Araguna: -->
       	<e><p><l>issi</l><r>i<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
     
@@ -878,7 +882,10 @@
       	<e r="LR"><p><l>della</l><r>di<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="f"/><s n="sg"/></r></p></e>
       	<e r="LR"><p><l>dalli</l><r>di<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="f"/><s n="pl"/></r></p></e>
       	<e r="LR"><p><l>dalli</l><r>di<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="m"/><s n="pl"/></r></p></e>
+
       	<e r="LR"><p><l>dei</l><r>di<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="mf"/><s n="pl"/></r></p></e>
+
+      	<e r="LR"><p><l>dilli</l><r>di<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="mf"/><s n="pl"/></r></p></e>
     </pardef>
 
     <pardef n="contnta__pr">
@@ -934,6 +941,7 @@
       	<e r="LR"><p><l>nâ</l><r>nta<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="f"/><s n="sg"/></r></p></e>
 
       	<e r="LR"><p><l>nò</l><r>nta<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
+      	<e r="LR"><p><l>no</l><r>nta<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
       	<e r="LR"><p><l>nà</l><r>nta<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="f"/><s n="sg"/></r></p></e>
 
       	<e r="LR"><p><l>ntò</l><r>nta<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
@@ -952,6 +960,7 @@
 
       	<e r="LR"><p><l>ccu</l><r>cu<s n="pr"/></r></p></e>
       	<e r="LR"><p><l>con</l><r>cu<s n="pr"/></r></p></e>
+      	<e r="LR"><p><l>cun</l><r>cu<s n="pr"/></r></p></e> <!-- chiangennu sinni eru, cun gran duluri -->
     </pardef>
 
     <pardef n="contpi__pr">
@@ -1039,6 +1048,7 @@
     <pardef n="bedd/u__adj">
       	<e><p><l></l><r>u<s n="adj"/></r></p><par n="A__/u"/></e>
       	<e r="LR"><p><l>î</l><r>u<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+      	<e r="LR"><p><l>a</l><r>u<s n="adj"/><s n="m"/><s n="pl"/></r></p></e> <!-- a diversa campi di studiu -->
     </pardef>
     
     <pardef n="lar/iu__adj">
@@ -1085,7 +1095,6 @@
       <e><p><l>lli</l><r>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>lli</l><r>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>  
       <e><p><l>llu</l><r>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>  
-      
     </pardef>
     
     <pardef n="S__scurdàrisi">
@@ -1279,6 +1288,9 @@
       	<e><p><l>èssiri</l><r>èssiri<s n="vbser"/><s n="inf"/></r></p></e>
       	<e r="LR"><p><l>ssiri</l><r>èssiri<s n="vbser"/><s n="inf"/></r></p></e>
       	<e r="LR"><p><l>essiri</l><r>èssiri<s n="vbser"/><s n="inf"/></r></p></e>
+      	<e r="LR"><p><l>assiri</l><r>èssiri<s n="vbser"/><s n="inf"/></r></p></e>
+      	<e r="LR"><p><l>jèssiri</l><r>èssiri<s n="vbser"/><s n="inf"/></r></p></e>
+      	<e r="LR"><p><l>esseri</l><r>èssiri<s n="vbser"/><s n="inf"/></r></p></e>
 
       	
     	<e><p><l>sugnu</l><r>èssiri<s n="vbser"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -1307,6 +1319,7 @@
     	<e><p><l>era</l><r>èssiri<s n="vbser"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
     	<e><p><l>eri</l><r>èssiri<s n="vbser"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
     	<e><p><l>era</l><r>èssiri<s n="vbser"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
+    	<e r="LR"><p><l>jèra</l><r>èssiri<s n="vbser"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e> <!-- Brucculinu jèra na cittati siparata -->
     	<e><p><l>èramu</l><r>èssiri<s n="vbser"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p></e>
         <e r="LR"><p><l>eramu</l><r>èssiri<s n="vbser"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p></e>
     	<e><p><l>èravu</l><r>èssiri<s n="vbser"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
@@ -1318,6 +1331,8 @@
         <e r="LR"><p><l>eranu</l><r>èssiri<s n="vbser"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
         <e r="LR"><p><l>èranu</l><r>èssiri<s n="vbser"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
         <e r="LR"><p><l>erunu</l><r>èssiri<s n="vbser"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
+        <e r="LR"><p><l>erano</l><r>èssiri<s n="vbser"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e> <!-- ma erano sempri li stissi pirsuni sperti-->
+        <e r="LR"><p><l>jeranu</l><r>èssiri<s n="vbser"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e> 
 
     	<e><p><l>sarò</l><r>èssiri<s n="vbser"/><s n="fti"/><s n="p1"/><s n="sg"/></r></p></e>
     	<e><p><l>sarai</l><r>èssiri<s n="vbser"/><s n="fti"/><s n="p2"/><s n="sg"/></r></p></e>
@@ -1330,6 +1345,7 @@
     	<e><p><l>fui</l><r>èssiri<s n="vbser"/><s n="ifi"/><s n="p1"/><s n="sg"/></r></p></e>
     	<e><p><l>fusti</l><r>èssiri<s n="vbser"/><s n="ifi"/><s n="p2"/><s n="sg"/></r></p></e>
     	<e><p><l>fu</l><r>èssiri<s n="vbser"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
+    	<e r="LR"><p><l>fudi</l><r>èssiri<s n="vbser"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
         <e r="LR"><p><l>fuorru</l><r>èssiri<s n="vbser"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
     	<e r="LR"><p><l>fù</l><r>èssiri<s n="vbser"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
     	<e><p><l>fùstivu</l><r>èssiri<s n="vbser"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
@@ -1639,6 +1655,278 @@
 
 
     
+    <pardef n="introd/uciri__vblex">
+      	<e><p><l>uciri</l><r>uciri<s n="vblex"/><s n="inf"/></r></p></e>
+      	<e><p><l>ucìri</l><r>uciri<s n="vblex"/><s n="inf"/><j/></r></p><par n="S__battiri"/></e>
+    	<e r="LR"><p><l>ucìri</l><r>uciri<s n="vblex"/><s n="inf"/></r></p></e>
+
+    	 <!-- Presento de Indicativo  -->
+    	<e><p><l>ucu</l><r>uciri<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+    	<e><p><l>uci</l><r>uciri<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+    	<e><p><l>uci</l><r>uciri<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+    	<e><p><l>ucemu</l><r>uciri<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+    	<e><p><l>uciti</l><r>uciri<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e r="LR"><p><l>ucunu</l><r>uciri<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+        <e r="LR"><p><l>ucinu</l><r>uciri<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+        <e r="LR"><p><l>uciunu</l><r>uciri<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+        
+    	 <!-- Imperativo -->
+    	<e><p><l>uci</l><r>uciri<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+    	<e><p><l>ucissi</l><r>uciri<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
+    	<e><p><l>ucemu</l><r>uciri<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+    	<e><p><l>uciti</l><r>uciri<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>ucìssiru</l><r>uciri<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
+        <e r="LR"><p><l>ucissiru</l><r>uciri<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
+        
+    	<e><p><l>ucìssi</l><r>uciri<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/><j/></r></p><par n="S__scrivennu"/></e>
+    	<e><p><l>ucèmu</l><r>uciri<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__parràmuni"/></e>
+    	<e><p><l>ucìti</l><r>uciri<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__scrìvivi"/></e>
+        <e><p><l>ucìssiru</l><r>uciri<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/><j/></r></p><par n="S__scrivennu"/></e>
+        
+        <e r="LR"><p><l>ucissi</l><r>uciri<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/><j/></r></p><par n="S__scrivennu"/></e>
+    	<e r="LR"><p><l>ucemu</l><r>uciri<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__parràmuni"/></e>
+    	<e r="LR"><p><l>uciti</l><r>uciri<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__scrìvivi"/></e>
+        <e r="LR"><p><l>ucissiru</l><r>uciri<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/><j/></r></p><par n="S__scrivennu"/></e>
+        <e r="LR"><p><l>uci</l><r>uciri<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__scrìviti"/></e>
+
+
+    	 <!-- Imperfecto de Indicativo -->
+    	<e><p><l>ucìa</l><r>uciri<s n="vblex"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
+    	<e r="LR"><p><l>ucia</l><r>uciri<s n="vblex"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
+    	<e><p><l>ucivi</l><r>uciri<s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
+    	<e><p><l>ucìa</l><r>uciri<s n="vblex"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
+    	<e r="LR"><p><l>ucia</l><r>uciri<s n="vblex"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
+    	<e><p><l>ucìamu</l><r>uciri<s n="vblex"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p></e>
+    	<e r="LR"><p><l>uciamu</l><r>uciri<s n="vblex"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
+    	<e><p><l>ucìavu</l><r>uciri<s n="vblex"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
+    	<e r="LR"><p><l>uciavu</l><r>uciri<s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>ucìanu</l><r>uciri<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
+    	<e r="LR"><p><l>ucianu</l><r>uciri<s n="vblex"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
+    	 <!-- Two alternative forms: with "eva" and with "iva". Forms without accent accepted.  -->
+    	<e r="LR"><p><l>uceva</l><r>uciri<s n="vblex"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
+    	<e r="LR"><p><l>uciva</l><r>uciri<s n="vblex"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
+    	<e r="LR"><p><l>ucevi</l><r>uciri<s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
+    	<e r="LR"><p><l>ucivi</l><r>uciri<s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
+    	<e r="LR"><p><l>uceva</l><r>uciri<s n="vblex"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
+    	<e r="LR"><p><l>uciva</l><r>uciri<s n="vblex"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
+    	<e r="LR"><p><l>ucèvamu</l><r>uciri<s n="vblex"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p></e>
+    	<e r="LR"><p><l>ucìvamu</l><r>uciri<s n="vblex"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p></e>
+    	<e r="LR"><p><l>ucèvavu</l><r>uciri<s n="vblex"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
+    	<e r="LR"><p><l>ucìvavu</l><r>uciri<s n="vblex"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
+    	<e r="LR"><p><l>ucèvanu</l><r>uciri<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
+    	<e r="LR"><p><l>ucìvanu</l><r>uciri<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
+    	<e r="LR"><p><l>ucevamu</l><r>uciri<s n="vblex"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p></e>
+    	<e r="LR"><p><l>ucivamu</l><r>uciri<s n="vblex"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p></e>
+    	<e r="LR"><p><l>ucevavu</l><r>uciri<s n="vblex"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
+    	<e r="LR"><p><l>ucivavu</l><r>uciri<s n="vblex"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
+    	<e r="LR"><p><l>ucevanu</l><r>uciri<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
+    	<e r="LR"><p><l>ucivanu</l><r>uciri<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
+
+    	 <!-- Pretérito de Indicativo -->
+    	<e><p><l>ucivi</l><r>uciri<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="sg"/></r></p></e>
+    	<e><p><l>ucisti</l><r>uciri<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="sg"/></r></p></e>
+    	<e><p><l>ucìu</l><r>uciri<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
+    	<e r="LR"><p><l>uciu</l><r>uciri<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
+    	<e><p><l>ucemmu</l><r>uciri<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="pl"/></r></p></e>
+    	<e r="LR"><p><l>ucemu</l><r>uciri<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="pl"/></r></p></e>
+    	<e><p><l>ucìstivu</l><r>uciri<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
+    	<e r="LR"><p><l>ucistivu</l><r>uciri<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
+    	<e r="LR"><p><l>ucistu</l><r>uciri<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>ucèrunu</l><r>uciri<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
+    	<e r="LR"><p><l>ucenu</l><r>uciri<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
+    	<e r="LR"><p><l>uceru</l><r>uciri<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
+
+    	 <!-- Futuro Simple -->
+    	<e><p><l>ucirò</l><r>uciri<s n="vblex"/><s n="fti"/><s n="p1"/><s n="sg"/></r></p></e>
+    	<e r="LR"><p><l>ucirrò</l><r>uciri<s n="vblex"/><s n="fti"/><s n="p1"/><s n="sg"/></r></p></e>
+    	<e><p><l>ucirai</l><r>uciri<s n="vblex"/><s n="fti"/><s n="p2"/><s n="sg"/></r></p></e>
+    	<e r="LR"><p><l>ucirrai</l><r>uciri<s n="vblex"/><s n="fti"/><s n="p2"/><s n="sg"/></r></p></e>
+    	<e><p><l>ucirà</l><r>uciri<s n="vblex"/><s n="fti"/><s n="p3"/><s n="sg"/></r></p></e>
+    	<e r="LR"><p><l>ucirrà</l><r>uciri<s n="vblex"/><s n="fti"/><s n="p3"/><s n="sg"/></r></p></e>
+    	<e><p><l>uciremu</l><r>uciri<s n="vblex"/><s n="fti"/><s n="p1"/><s n="pl"/></r></p></e>
+    	<e r="LR"><p><l>ucirremu</l><r>uciri<s n="vblex"/><s n="fti"/><s n="p1"/><s n="pl"/></r></p></e>
+    	<e><p><l>uciriti</l><r>uciri<s n="vblex"/><s n="fti"/><s n="p2"/><s n="pl"/></r></p></e>
+    	<e r="LR"><p><l>ucirriti</l><r>uciri<s n="vblex"/><s n="fti"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>ucirannu</l><r>uciri<s n="vblex"/><s n="fti"/><s n="p3"/><s n="pl"/></r></p></e>
+        <e r="LR"><p><l>ucirrannu</l><r>uciri<s n="vblex"/><s n="fti"/><s n="p3"/><s n="pl"/></r></p></e>
+
+    	 <!-- Presente de Subjuntivo falta en Siciliano -->
+
+    	 <!-- Pretérito de Subjuntivo -->
+        <e><p><l>ucissi</l><r>uciri<s n="vblex"/><s n="pis"/><s n="p1"/><s n="sg"/></r></p></e>
+    	<e><p><l>ucissi</l><r>uciri<s n="vblex"/><s n="pis"/><s n="p2"/><s n="sg"/></r></p></e>
+    	<e><p><l>ucissi</l><r>uciri<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
+    	<e><p><l>ucìssimu</l><r>uciri<s n="vblex"/><s n="pis"/><s n="p1"/><s n="pl"/></r></p></e>
+    	<e><p><l>ucìssivu</l><r>uciri<s n="vblex"/><s n="pis"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>ucìssiru</l><r>uciri<s n="vblex"/><s n="pis"/><s n="p3"/><s n="pl"/></r></p></e>
+    	<e r="LR"><p><l>ucissimu</l><r>uciri<s n="vblex"/><s n="pis"/><s n="p1"/><s n="pl"/></r></p></e>
+    	<e r="LR"><p><l>ucissivu</l><r>uciri<s n="vblex"/><s n="pis"/><s n="p2"/><s n="pl"/></r></p></e>
+    	<e r="LR"><p><l>ucissiru</l><r>uciri<s n="vblex"/><s n="pis"/><s n="p3"/><s n="pl"/></r></p></e>
+
+
+    	 <!-- Condicional -->
+    	<e><p><l>ucirìa</l><r>uciri<s n="vblex"/><s n="cni"/><s n="p1"/><s n="sg"/></r></p></e>
+    	<e r="LR"><p><l>uciria</l><r>uciri<s n="vblex"/><s n="cni"/><s n="p1"/><s n="sg"/></r></p></e>
+    	<e><p><l>ucirissi</l><r>uciri<s n="vblex"/><s n="cni"/><s n="p2"/><s n="sg"/></r></p></e>
+    	<e><p><l>ucirìa</l><r>uciri<s n="vblex"/><s n="cni"/><s n="p3"/><s n="sg"/></r></p></e>
+    	<e r="LR"><p><l>uciria</l><r>uciri<s n="vblex"/><s n="cni"/><s n="p3"/><s n="sg"/></r></p></e>
+    	<e><p><l>ucirìamu</l><r>uciri<s n="vblex"/><s n="cni"/><s n="p1"/><s n="pl"/></r></p></e>
+    	<e><p><l>ucirìavu</l><r>uciri<s n="vblex"/><s n="cni"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>ucirìanu</l><r>uciri<s n="vblex"/><s n="cni"/><s n="p3"/><s n="pl"/></r></p></e>
+    	<e r="LR"><p><l>uciriamu</l><r>uciri<s n="vblex"/><s n="cni"/><s n="p1"/><s n="pl"/></r></p></e>
+    	<e r="LR"><p><l>uciriavu</l><r>uciri<s n="vblex"/><s n="cni"/><s n="p2"/><s n="pl"/></r></p></e>
+    	<e r="LR"><p><l>ucirianu</l><r>uciri<s n="vblex"/><s n="cni"/><s n="p3"/><s n="pl"/></r></p></e>
+        
+        
+        <e><p><l>ucut</l><r>uciri<s n="vblex"/><s n="pp"/></r></p><par n="A__/u"/></e>
+        <e r="LR"><p><l>uciut</l><r>uciri<s n="vblex"/><s n="pp"/></r></p><par n="A__/u"/></e>
+        <e r="LR"><p><l>ucit</l><r>uciri<s n="vblex"/><s n="pp"/></r></p><par n="A__/u"/></e>
+        <e r="LR"><p><l>ott</l><r>uciri<s n="vblex"/><s n="pp"/></r></p><par n="A__/u"/></e>
+        <e r="LR"><p><l>utt</l><r>uciri<s n="vblex"/><s n="pp"/></r></p><par n="A__/u"/></e>
+
+        <e><p><l>ucennu</l><r>uciri<s n="vblex"/><s n="ger"/></r></p></e>
+        <e><p><l>ucènnu</l><r>uciri<s n="vblex"/><s n="ger"/><j/></r></p><par n="S__scrivennu"/></e>
+        <e r="LR"><p><l>ucennu</l><r>uciri<s n="vblex"/><s n="ger"/><j/></r></p><par n="S__scrivennu"/></e>
+
+    </pardef>
+ 
+ 
+    <pardef n="prud/iri__vblex">
+      	<e><p><l>iri</l><r>iri<s n="vblex"/><s n="inf"/></r></p></e>
+      	<e><p><l>ìri</l><r>iri<s n="vblex"/><s n="inf"/><j/></r></p><par n="S__battiri"/></e>
+    	<e r="LR"><p><l>ìri</l><r>iri<s n="vblex"/><s n="inf"/></r></p></e>
+
+    	 <!-- Presento de Indicativo  -->
+    	<e><p><l>u</l><r>iri<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+    	<e><p><l>i</l><r>iri<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+    	<e><p><l>i</l><r>iri<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+    	<e><p><l>emu</l><r>iri<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+    	<e><p><l>iti</l><r>iri<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e r="LR"><p><l>unu</l><r>iri<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+        <e r="LR"><p><l>inu</l><r>iri<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+        <e r="LR"><p><l>iunu</l><r>iri<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+        
+    	 <!-- Imperativo -->
+    	<e><p><l>i</l><r>iri<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+    	<e><p><l>issi</l><r>iri<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
+    	<e><p><l>emu</l><r>iri<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+    	<e><p><l>iti</l><r>iri<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>ìssiru</l><r>iri<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
+        <e r="LR"><p><l>issiru</l><r>iri<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
+        
+    	<e><p><l>ìssi</l><r>iri<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/><j/></r></p><par n="S__scrivennu"/></e>
+    	<e><p><l>èmu</l><r>iri<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__parràmuni"/></e>
+    	<e><p><l>ìti</l><r>iri<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__scrìvivi"/></e>
+        <e><p><l>ìssiru</l><r>iri<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/><j/></r></p><par n="S__scrivennu"/></e>
+        
+        <e r="LR"><p><l>issi</l><r>iri<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/><j/></r></p><par n="S__scrivennu"/></e>
+    	<e r="LR"><p><l>emu</l><r>iri<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__parràmuni"/></e>
+    	<e r="LR"><p><l>iti</l><r>iri<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__scrìvivi"/></e>
+        <e r="LR"><p><l>issiru</l><r>iri<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/><j/></r></p><par n="S__scrivennu"/></e>
+        <e r="LR"><p><l>i</l><r>iri<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__scrìviti"/></e>
+
+
+    	 <!-- Imperfecto de Indicativo -->
+    	<e><p><l>ìa</l><r>iri<s n="vblex"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
+    	<e r="LR"><p><l>ia</l><r>iri<s n="vblex"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
+    	<e><p><l>ivi</l><r>iri<s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
+    	<e><p><l>ìa</l><r>iri<s n="vblex"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
+    	<e r="LR"><p><l>ia</l><r>iri<s n="vblex"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
+    	<e><p><l>ìamu</l><r>iri<s n="vblex"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p></e>
+    	<e r="LR"><p><l>iamu</l><r>iri<s n="vblex"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
+    	<e><p><l>ìavu</l><r>iri<s n="vblex"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
+    	<e r="LR"><p><l>iavu</l><r>iri<s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>ìanu</l><r>iri<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
+    	<e r="LR"><p><l>ianu</l><r>iri<s n="vblex"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
+    	 <!-- Two alternative forms: with "eva" and with "iva". Forms without accent accepted.  -->
+    	<e r="LR"><p><l>eva</l><r>iri<s n="vblex"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
+    	<e r="LR"><p><l>iva</l><r>iri<s n="vblex"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
+    	<e r="LR"><p><l>evi</l><r>iri<s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
+    	<e r="LR"><p><l>ivi</l><r>iri<s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
+    	<e r="LR"><p><l>eva</l><r>iri<s n="vblex"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
+    	<e r="LR"><p><l>iva</l><r>iri<s n="vblex"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
+    	<e r="LR"><p><l>èvamu</l><r>iri<s n="vblex"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p></e>
+    	<e r="LR"><p><l>ìvamu</l><r>iri<s n="vblex"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p></e>
+    	<e r="LR"><p><l>èvavu</l><r>iri<s n="vblex"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
+    	<e r="LR"><p><l>ìvavu</l><r>iri<s n="vblex"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
+    	<e r="LR"><p><l>èvanu</l><r>iri<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
+    	<e r="LR"><p><l>ìvanu</l><r>iri<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
+    	<e r="LR"><p><l>evamu</l><r>iri<s n="vblex"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p></e>
+    	<e r="LR"><p><l>ivamu</l><r>iri<s n="vblex"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p></e>
+    	<e r="LR"><p><l>evavu</l><r>iri<s n="vblex"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
+    	<e r="LR"><p><l>ivavu</l><r>iri<s n="vblex"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
+    	<e r="LR"><p><l>evanu</l><r>iri<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
+    	<e r="LR"><p><l>ivanu</l><r>iri<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
+
+    	 <!-- Pretérito de Indicativo -->
+    	<e><p><l>ivi</l><r>iri<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="sg"/></r></p></e>
+    	<e><p><l>isti</l><r>iri<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="sg"/></r></p></e>
+    	<e><p><l>ìu</l><r>iri<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
+    	<e r="LR"><p><l>iu</l><r>iri<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
+    	<e><p><l>emmu</l><r>iri<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="pl"/></r></p></e>
+    	<e r="LR"><p><l>emu</l><r>iri<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="pl"/></r></p></e>
+    	<e><p><l>ìstivu</l><r>iri<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
+    	<e r="LR"><p><l>istivu</l><r>iri<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
+    	<e r="LR"><p><l>istu</l><r>iri<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>èrunu</l><r>iri<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
+    	<e r="LR"><p><l>enu</l><r>iri<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
+    	<e r="LR"><p><l>eru</l><r>iri<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
+
+    	 <!-- Futuro Simple -->
+    	<e><p><l>irò</l><r>iri<s n="vblex"/><s n="fti"/><s n="p1"/><s n="sg"/></r></p></e>
+    	<e r="LR"><p><l>irrò</l><r>iri<s n="vblex"/><s n="fti"/><s n="p1"/><s n="sg"/></r></p></e>
+    	<e><p><l>irai</l><r>iri<s n="vblex"/><s n="fti"/><s n="p2"/><s n="sg"/></r></p></e>
+    	<e r="LR"><p><l>irrai</l><r>iri<s n="vblex"/><s n="fti"/><s n="p2"/><s n="sg"/></r></p></e>
+    	<e><p><l>irà</l><r>iri<s n="vblex"/><s n="fti"/><s n="p3"/><s n="sg"/></r></p></e>
+    	<e r="LR"><p><l>irrà</l><r>iri<s n="vblex"/><s n="fti"/><s n="p3"/><s n="sg"/></r></p></e>
+    	<e><p><l>iremu</l><r>iri<s n="vblex"/><s n="fti"/><s n="p1"/><s n="pl"/></r></p></e>
+    	<e r="LR"><p><l>irremu</l><r>iri<s n="vblex"/><s n="fti"/><s n="p1"/><s n="pl"/></r></p></e>
+    	<e><p><l>iriti</l><r>iri<s n="vblex"/><s n="fti"/><s n="p2"/><s n="pl"/></r></p></e>
+    	<e r="LR"><p><l>irriti</l><r>iri<s n="vblex"/><s n="fti"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>irannu</l><r>iri<s n="vblex"/><s n="fti"/><s n="p3"/><s n="pl"/></r></p></e>
+        <e r="LR"><p><l>irrannu</l><r>iri<s n="vblex"/><s n="fti"/><s n="p3"/><s n="pl"/></r></p></e>
+
+    	 <!-- Presente de Subjuntivo falta en Siciliano -->
+
+    	 <!-- Pretérito de Subjuntivo -->
+        <e><p><l>issi</l><r>iri<s n="vblex"/><s n="pis"/><s n="p1"/><s n="sg"/></r></p></e>
+    	<e><p><l>issi</l><r>iri<s n="vblex"/><s n="pis"/><s n="p2"/><s n="sg"/></r></p></e>
+    	<e><p><l>issi</l><r>iri<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
+    	<e><p><l>ìssimu</l><r>iri<s n="vblex"/><s n="pis"/><s n="p1"/><s n="pl"/></r></p></e>
+    	<e><p><l>ìssivu</l><r>iri<s n="vblex"/><s n="pis"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>ìssiru</l><r>iri<s n="vblex"/><s n="pis"/><s n="p3"/><s n="pl"/></r></p></e>
+    	<e r="LR"><p><l>issimu</l><r>iri<s n="vblex"/><s n="pis"/><s n="p1"/><s n="pl"/></r></p></e>
+    	<e r="LR"><p><l>issivu</l><r>iri<s n="vblex"/><s n="pis"/><s n="p2"/><s n="pl"/></r></p></e>
+    	<e r="LR"><p><l>issiru</l><r>iri<s n="vblex"/><s n="pis"/><s n="p3"/><s n="pl"/></r></p></e>
+
+
+    	 <!-- Condicional -->
+    	<e><p><l>irìa</l><r>iri<s n="vblex"/><s n="cni"/><s n="p1"/><s n="sg"/></r></p></e>
+    	<e r="LR"><p><l>iria</l><r>iri<s n="vblex"/><s n="cni"/><s n="p1"/><s n="sg"/></r></p></e>
+    	<e><p><l>irissi</l><r>iri<s n="vblex"/><s n="cni"/><s n="p2"/><s n="sg"/></r></p></e>
+    	<e><p><l>irìa</l><r>iri<s n="vblex"/><s n="cni"/><s n="p3"/><s n="sg"/></r></p></e>
+    	<e r="LR"><p><l>iria</l><r>iri<s n="vblex"/><s n="cni"/><s n="p3"/><s n="sg"/></r></p></e>
+    	<e><p><l>irìamu</l><r>iri<s n="vblex"/><s n="cni"/><s n="p1"/><s n="pl"/></r></p></e>
+    	<e><p><l>irìavu</l><r>iri<s n="vblex"/><s n="cni"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>irìanu</l><r>iri<s n="vblex"/><s n="cni"/><s n="p3"/><s n="pl"/></r></p></e>
+    	<e r="LR"><p><l>iriamu</l><r>iri<s n="vblex"/><s n="cni"/><s n="p1"/><s n="pl"/></r></p></e>
+    	<e r="LR"><p><l>iriavu</l><r>iri<s n="vblex"/><s n="cni"/><s n="p2"/><s n="pl"/></r></p></e>
+    	<e r="LR"><p><l>irianu</l><r>iri<s n="vblex"/><s n="cni"/><s n="p3"/><s n="pl"/></r></p></e>
+        
+        
+        <e><p><l>ut</l><r>iri<s n="vblex"/><s n="pp"/></r></p><par n="A__/u"/></e>
+        <e r="LR"><p><l>iut</l><r>iri<s n="vblex"/><s n="pp"/></r></p><par n="A__/u"/></e>
+        <e r="LR"><p><l>it</l><r>iri<s n="vblex"/><s n="pp"/></r></p><par n="A__/u"/></e>
+        <!--<e r="LR"><p><l>ott</l><r>iri<s n="vblex"/><s n="pp"/></r></p><par n="A__/u"/></e>-->
+
+        <e><p><l>ennu</l><r>iri<s n="vblex"/><s n="ger"/></r></p></e>
+        <e><p><l>ènnu</l><r>iri<s n="vblex"/><s n="ger"/><j/></r></p><par n="S__scrivennu"/></e>
+        <e r="LR"><p><l>ennu</l><r>iri<s n="vblex"/><s n="ger"/><j/></r></p><par n="S__scrivennu"/></e>
+
+    </pardef>
+    
+
+    
     <pardef n="batt/iri__vblex">
       	<e><p><l>iri</l><r>iri<s n="vblex"/><s n="inf"/></r></p></e>
       	<e><p><l>ìri</l><r>iri<s n="vblex"/><s n="inf"/><j/></r></p><par n="S__battiri"/></e>
@@ -1765,6 +2053,7 @@
         <e><p><l>ut</l><r>iri<s n="vblex"/><s n="pp"/></r></p><par n="A__/u"/></e>
         <e r="LR"><p><l>iut</l><r>iri<s n="vblex"/><s n="pp"/></r></p><par n="A__/u"/></e>
         <e r="LR"><p><l>it</l><r>iri<s n="vblex"/><s n="pp"/></r></p><par n="A__/u"/></e>
+        <e r="LR"><p><l>ott</l><r>iri<s n="vblex"/><s n="pp"/></r></p><par n="A__/u"/></e>
 
         <e><p><l>ennu</l><r>iri<s n="vblex"/><s n="ger"/></r></p></e>
         <e><p><l>ènnu</l><r>iri<s n="vblex"/><s n="ger"/><j/></r></p><par n="S__scrivennu"/></e>
@@ -2654,11 +2943,10 @@
    	 <!-- Verbs of 1 conj with hard "c". -->
 
       	<e><p><l>ari</l><r>ari<s n="vblex"/><s n="inf"/></r></p></e>
+      	<e r="LR"><p><l>àri</l><r>ari<s n="vblex"/><s n="inf"/></r></p></e>
 
       	<e><p><l>àri</l><r>ari<s n="vblex"/><s n="inf"/><j/></r></p><par n="S__battiri"/></e>
       	<e r="LR"><p><l>ari</l><r>ari<s n="vblex"/><s n="inf"/><j/></r></p><par n="S__battiri"/></e>
-
-    	<e r="LR"><p><l>àri</l><r>ari<s n="vblex"/><s n="inf"/><j/></r></p></e>
 
     	 <!-- Presento de Indicativo  -->
     	<e><p><l>u</l><r>ari<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -4083,6 +4371,7 @@
       	<e><p><l>oi</l><r>utiri<s n="vbmod"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
       	<e><p><l>ò</l><r>utiri<s n="vbmod"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
       	<e r="LR"><p><l>pò</l><r>utiri<s n="vbmod"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      	<e r="LR"><p><l>po</l><r>utiri<s n="vbmod"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
       	<e r="LR"><p><l>o</l><r>utiri<s n="vbmod"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
       	<e><p><l>utemu</l><r>utiri<s n="vbmod"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
       	<e><p><l>utiti</l><r>utiri<s n="vbmod"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
@@ -8368,6 +8657,7 @@
     <e lm="oltri"><i>oltri</i><par n="tra__pr"/></e>
 
     <e lm="tra" r="LR"><p><l>tro</l><r>tra<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
+    <e lm="tra" r="LR"><p><l>ntrô</l><r>tra<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
 
     <e lm="a"><i></i><par n="conta__pr"/></e>
     <e lm="di"><i></i><par n="contdi__pr"/></e>
@@ -8406,6 +8696,7 @@
     <e lm="circa"><i>circa</i><par n="tra__pr"/></e>
     <e lm="comu"><i>comu</i><par n="tra__pr"/></e>
     <e lm="comu" r="LR"><p><l>come</l><r>comu</r></p><par n="tra__pr"/></e>
+    <e lm="comu" r="LR"><p><l>commu</l><r>comu</r></p><par n="tra__pr"/></e>
     <e lm="eccettu"><i>eccettu</i><par n="tra__pr"/></e>
     <e lm="ntornu"><i>ntornu</i><par n="tra__pr"/></e>
     <e lm="ntornu" r="LR"><p><l>nturnu</l><r>ntornu</r></p><par n="tra__pr"/></e>
@@ -8627,6 +8918,8 @@
     <e lm="dui"><i>dui</i><par n="unu__num"/></e>
     <e lm="dui" r="LR"><p><l>dù</l><r>dui</r></p><par n="unu__num"/></e>
     <e lm="tri"><i>tri</i><par n="unu__num"/></e>
+    <e lm="tri" r="LR"><p><l>tre</l><r>tri</r></p><par n="unu__num"/></e>
+    <e lm="tri" r="LR"><p><l>ttre</l><r>tri</r></p><par n="unu__num"/></e>
     <e lm="quattru"><i>quattru</i><par n="unu__num"/></e>
     <e lm="cincu"><i>cincu</i><par n="unu__num"/></e>
     <e lm="cincu" r="LR"><p><l>cinqui</l><r>cincu</r></p><par n="unu__num"/></e>
@@ -8653,8 +8946,10 @@
     <e lm="ottanta"><i>ottanta</i><par n="unu__num"/></e>
     <e lm="ottanta" r="LR"><p><l>uttanta</l><r>ottanta</r></p><par n="unu__num"/></e>
     <e lm="novanta"><i>novanta</i><par n="unu__num"/></e>
+    <e lm="novanta" r="LR"><p><l>nuvanta</l><r>novanta</r></p><par n="unu__num"/></e>
     <e lm="centu"><i>centu</i><par n="unu__num"/></e>
     <e lm="ottucentu"><i>ottucentu</i><par n="unu__num"/></e>
+    <e lm="novicentu"><i>novicentu</i><par n="unu__num"/></e>
     <e lm="milli"><i>milli</i><par n="unu__num"/></e>
 
 
@@ -8686,6 +8981,8 @@
     <e lm="secunnu"><i>secunn</i><par n="secunn/u__adj"/></e>
     <e lm="secunnu" r="LR"><p><l>sicunn</l><r>secunn</r></p><par n="secunn/u__adj"/></e>
     <e lm="secunnu" r="LR"><p><l>sècunn</l><r>secunn</r></p><par n="secunn/u__adj"/></e>
+    <e lm="secunnu" r="LR"><p><l>secund</l><r>secunn</r></p><par n="secunn/u__adj"/></e>
+    <e lm="secunnu" r="LR"><p><l>sècund</l><r>secunn</r></p><par n="secunn/u__adj"/></e>
     <e lm="terzu"><i>terz</i><par n="secunn/u__adj"/></e>
     <e lm="quartu"><i>quart</i><par n="secunn/u__adj"/></e>
     <e lm="quintu"><i>quint</i><par n="secunn/u__adj"/></e>
@@ -8777,6 +9074,7 @@
     <e lm="sèculu"><i>sècul</i><par n="ann/u__n"/></e>
     <e lm="annu"><i>ann</i><par n="ann/u__n"/></e>
     <e lm="cuvernu"><par n="c/g"/><i>uvern</i><par n="ann/u__n"/></e>
+    <e lm="cuvèrnu" r="LR"><par n="c/g"/><p><l>uvèrn</l><r>uvern</r></p><par n="ann/u__n"/></e>
     <e lm="armalu"><i>armal</i><par n="ann/u__n"/></e>
     <e lm="occhiu"><i>occh</i><par n="sacchegg/iu__n"/></e>
     <e lm="sonu"><i>son</i><par n="ann/u__n"/></e>
@@ -8813,6 +9111,7 @@
 
     <e lm="russu"><i>russ</i><par n="sicilian/u__n"/></e> 
     <e lm="spagnuolu"><i>spagnuol</i><par n="sicilian/u__n"/></e> 
+    <e lm="spagnuolu" r="LR"><p><l>spagnol</l><r>spagnuol</r></p><par n="sicilian/u__n"/></e>
     <e lm="talianu"><i>talian</i><par n="sicilian/u__n"/></e> 
     <e lm="talianu" r="LR"><p><l>italian</l><r>talian</r></p><par n="sicilian/u__n"/></e> 
     <e lm="tudiscu"><i>tudisc</i><par n="nimic/u__n"/></e>
@@ -8872,6 +9171,7 @@
     <e lm="lingua"><i>lingu</i><par n="cas/a__n"/></e>
     <e lm="mamma"><i>mamm</i><par n="cas/a__n"/></e>
     <e lm="acqua"><i>acqu</i><par n="cas/a__n"/></e>
+    <e lm="acqua" r="LR"><p><l>àcqu</l><r>acqu</r></p><par n="cas/a__n"/></e>
     <e lm="porta"><i>port</i><par n="cas/a__n"/></e>
     <e lm="pinna"><i>pinn</i><par n="cas/a__n"/></e>
     <e lm="luna"><i>lun</i><par n="cas/a__n"/></e>
@@ -9123,12 +9423,19 @@
     <e lm="marzu"><i>marz</i><par n="ann/u__n"/></e>
     <e lm="maiu"><i>ma</i><par n="sacchegg/iu__n"/></e>
     <e lm="maiu" r="LR"><p><l>maggio</l><r>ma</r></p><par n="sacchegg/iu__n"/></e>
-
     <e lm="giugnu"><i>giugn</i><par n="ann/u__n"/></e>
     <e lm="giugnettu"><i>giugnett</i><par n="ann/u__n"/></e>
     <e lm="sittèmmiru"><i>sittèmmir</i><par n="ann/u__n"/></e>
+    <e lm="sittèmmiru" r="LR"><p><l>sittèmmur</l><r>sittèmmir</r></p><par n="ann/u__n"/></e>
+    <e lm="sittèmmuru" r="LR"><p><l>sittèmmar</l><r>sittèmmur</r></p><par n="ann/u__n"/></e>
+    <e lm="sittèmmuru" r="LR"><p><l>sittièmmir</l><r>sittèmmur</r></p><par n="ann/u__n"/></e>
+    <e lm="sittèmmuru" r="LR"><p><l>sittièmmur</l><r>sittèmmur</r></p><par n="ann/u__n"/></e>
+    <e lm="sittèmmuru" r="LR"><p><l>sittembr</l><r>sittèmmur</r></p><par n="ann/u__n"/></e>
+    <e lm="sittèmmuru" r="LR"><p><l>sittiembr</l><r>sittèmmur</r></p><par n="ann/u__n"/></e>
+    <e lm="sittèmmuru" r="LR"><p><l>settemmiri</l><r>sittèmmuri</r></p><par n="patri__n"/></e>
     <e lm="uttùviru" r="LR"><par n="u/o"/><p><l>ttuvìr</l><r>ttùvir</r></p><par n="ann/u__n"/></e>
     <e lm="nuvèmmiru"><i>nuvèmmir</i><par n="ann/u__n"/></e>
+
     <e lm="mutivu" r="LR"><p><l>motiv</l><r>mutiv</r></p><par n="ann/u__n"/></e>
     <e lm="lanciu"><i>lanci</i><par n="ann/u__n"/></e>
     <e lm="disegnu"><i>disegn</i><par n="ann/u__n"/></e>
@@ -9216,6 +9523,7 @@
     <e lm="tiùria"><i>tiùri</i><par n="culoni/a__n"/></e>
     <e lm="fòrmula"><i>fòrmul</i><par n="cas/a__n"/></e>
     <e lm="fòrmula" r="LR"><p><l>formul</l><r>fòrmul</r></p><par n="cas/a__n"/></e>
+    <e lm="barunìa"><i>barun</i><par n="filusuf/ìa__n"/></e>
     <e lm="fratrìa"><i>fratr</i><par n="filusuf/ìa__n"/></e>
     <e lm="fratrìa" r="LR"><p><l>frat</l><r>fratr</r></p><par n="filusuf/ìa__n"/></e>
 
@@ -9236,6 +9544,7 @@
     <e lm="manera"><i>maner</i><par n="cas/a__n"/></e>
     <e lm="carrera"><i>carrer</i><par n="cas/a__n"/></e>
     <e lm="òpira"><i>òpir</i><par n="cas/a__n"/></e>
+    <e lm="òpira" r="LR"><p><l>opir</l><r>òpir</r></p><par n="cas/a__n"/></e>
     <e lm="chitarra"><i>chitarr</i><par n="cas/a__n"/></e>
     <e lm="jucatura"><i>jucatur</i><par n="cas/a__n"/></e>
     <e lm="natura"><i>natur</i><par n="cas/a__n"/></e>
@@ -9305,6 +9614,7 @@
 
    <e lm="pisci"><i>pisci</i><par n="patri__n"/></e>
    <e lm="riggimi"><i>riggimi</i><par n="patri__n"/></e>
+   <e lm="riggimi" r="LR"><p><l>règgimi</l><r>riggimi</r></p><par n="patri__n"/></e>
     <e lm="arma"><i>arm</i><par n="cas/a__n"/></e>
 <!--    <e lm="umani"><i>umani</i><par n="@__n"/></e>-->
 <!--    <e lm="òmini"><i>òmini</i><par n="@__n"/></e>-->
@@ -9818,10 +10128,11 @@
 
     
 
-    <e lm="metri"><i>metri</i><par n="patri__n"/></e>
+    <e lm="mitri"><i>mitri</i><par n="patri__n"/></e>
+    <e lm="metri" r="LR"><p><l>metri</l><r>mitri</r></p><par n="patri__n"/></e>
     <e lm="chilòmitri"><i>chilòmitri</i><par n="patri__n"/></e>
     <e lm="chilòmitri" r="LR"><p><l>kilòmetri</l><r>chilòmitri</r></p><par n="patri__n"/></e>
-    <e lm="km"><i>km</i><par n="USB__n"/></e>
+    <e lm="chilòmitri" r="LR"><p><l>kilomitri</l><r>chilòmitri</r></p><par n="patri__n"/></e>
     <e lm="metru"><i>metr</i><par n="ann/u__n"/></e>
     <e lm="litru"><i>litr</i><par n="ann/u__n"/></e>
     <e lm="dicìmitru"><i>dicìmitr</i><par n="ann/u__n"/></e>
@@ -10620,6 +10931,7 @@
     <e lm="sapuni"><i>sapuni</i><par n="patri__n"/></e>
     <e lm="giappuni"><i>giappuni</i><par n="patri__n"/></e>
     <e lm="elettrùni"><i>elettrùni</i><par n="patri__n"/></e>
+    <e lm="elettrùni" r="LR"><p><l>elettroni</l><r>elettrùni</r></p><par n="patri__n"/></e>
     <e lm="cuttuni"><i>cuttuni</i><par n="patri__n"/></e>
     <e lm="cravuni"><i>cravuni</i><par n="patri__n"/></e>
     <e lm="iroi"><i>iroi</i><par n="patri__n"/></e>
@@ -10717,9 +11029,11 @@
     <e lm="jazz"><i>jazz</i><par n="lunidìa__n"/></e>
     <e lm="cummustìbbili"><i>cummustìbbili</i><par n="patri__n"/></e>
     
+    <e lm="nm"><i>nm</i><par n="cm__n"/></e>
     <e lm="cm"><i>cm</i><par n="cm__n"/></e>
     <e lm="mm"><i>mm</i><par n="cm__n"/></e>
     <e lm="km"><i>km</i><par n="cm__n"/></e>
+    <e lm="chm"><i>chm</i><par n="cm__n"/></e>
     <e lm="m"><i>m</i><par n="cm__n"/></e>
     <e lm="g"><i>g</i><par n="kg__n"/></e>
     <e lm="mg"><i>mg</i><par n="kg__n"/></e>
@@ -11075,7 +11389,6 @@
     <e lm="cumpagnìa"><i>cumpagn</i><par n="filusuf/ìa__n"/></e>
     <e lm="cumpagnìa" r="LR"><p><l>compagn</l><r>cumpagn</r></p><par n="filusuf/ìa__n"/></e>
 
-    <e lm="ortugrafìa"><i>ortugraf</i><par n="filusuf/ìa__n"/></e>
     <e lm="archioluggìa"><i>archiolugg</i><par n="filusuf/ìa__n"/></e>
     <e lm="stratiggìa"><i>stratigg</i><par n="filusuf/ìa__n"/></e>
     <e lm="ideoluggìa"><i>ideolugg</i><par n="filusuf/ìa__n"/></e>
@@ -15354,6 +15667,7 @@
     <e lm="miolu"><i>miol</i><par n="ann/u__n"/></e>
     <e lm="miricanu"><i>mirican</i><par n="ann/u__n"/></e>
     <e lm="miricanu" r="LR"><p><l>amirican</l><r>mirican</r></p><par n="ann/u__n"/></e>
+    <e lm="miricanu" r="LR"><p><l>mèrican</l><r>mirican</r></p><par n="ann/u__n"/></e>
     <e lm="mirruzzu"><i>mirruzz</i><par n="ann/u__n"/></e>
     <e lm="mirìnnulu"><i>mirìnnul</i><par n="ann/u__n"/></e>
     <e lm="mirìnnulu" r="LR"><p><l>mirìngul</l><r>mirìnnul</r></p><par n="ann/u__n"/></e>
@@ -15843,17 +16157,12 @@
     <e lm="addizzu"><i>addizz</i><par n="ann/u__n"/></e>
     <e lm="sinònimu"><i>sinònim</i><par n="ann/u__n"/></e>
     <e lm="siquestru"><i>siquestr</i><par n="ann/u__n"/></e>
-    <e lm="sittèmmuru" r="LR"><p><l>sittèmmar</l><r>sittèmmur</r></p><par n="ann/u__n"/></e>
-    <e lm="sittèmmuru" r="LR"><p><l>sittièmmir</l><r>sittèmmur</r></p><par n="ann/u__n"/></e>
-    <e lm="sittèmmuru" r="LR"><p><l>sittièmmur</l><r>sittèmmur</r></p><par n="ann/u__n"/></e>
-    <e lm="sittèmmuru" r="LR"><p><l>sittembr</l><r>sittèmmur</r></p><par n="ann/u__n"/></e>
-    <e lm="sittèmmuru" r="LR"><p><l>sittiembr</l><r>sittèmmur</r></p><par n="ann/u__n"/></e>
+
     <e lm="sluvenu"><i>sluven</i><par n="sicilian/u__n"/></e>
     <e lm="sluvenu" r="LR"><p><l>sloven</l><r>sluven</r></p><par n="sicilian/u__n"/></e>
     <e lm="acieddu"><i>aciedd</i><par n="ann/u__n"/></e>
     <e lm="sordu"><i>sord</i><par n="ann/u__n"/></e>
     <e lm="sordu" r="LR"><p><l>sodd</l><r>sord</r></p><par n="ann/u__n"/></e>
-    <e lm="spagnolu"><i>spagnol</i><par n="sicilian/u__n"/></e>
 
     <e lm="càrciru"><i>càrcir</i><par n="ann/u__n"/></e>
     <e lm="càrciru" r="LR"><p><l>càrzar</l><r>càrcir</r></p><par n="ann/u__n"/></e>
@@ -17506,7 +17815,7 @@
     <e lm="modulazioni"><i>modula</i><par n="pupulaz/zioni__n"/></e>
     <e lm="spicializzazioni"><i>spicializza</i><par n="pupulaz/zioni__n"/></e>
     <e lm="inquisizzioni"><i>inquisiz</i><par n="pupulaz/zioni__n"/></e>
-    <e lm="l´introduzioni"><i>l´introdu</i><par n="pupulaz/zioni__n"/></e>
+<!--    <e lm="l´introduzioni"><i>l´introdu</i><par n="pupulaz/zioni__n"/></e>-->
     <e lm="legislazioni"><i>legisla</i><par n="pupulaz/zioni__n"/></e>
     <e lm="mpricazzioni"><i>mpricaz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="quotazioni"><i>quota</i><par n="pupulaz/zioni__n"/></e>
@@ -18806,13 +19115,13 @@
     <e lm="cunnotazzioni"><i>cunnotaz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="dimnzzioni"><i>dimnz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="beatificazzioni"><i>beatificaz</i><par n="pupulaz/zioni__n"/></e>
-    <e lm="l´introduzzioni"><i>l´introduz</i><par n="pupulaz/zioni__n"/></e>
+ <!--   <e lm="l´introduzzioni"><i>l´introduz</i><par n="pupulaz/zioni__n"/></e>-->
     <e lm="ntimitazzioni"><i>ntimitaz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="spunzorizzazzioni"><i>spunzorizzaz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="insoddisfazzioni"><i>insoddisfaz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="iccizzioni"><i>icciz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="prefazzioni"><i>prefaz</i><par n="pupulaz/zioni__n"/></e>
-    <e lm="dî esecuzzioni"><i>dî esecuz</i><par n="pupulaz/zioni__n"/></e>
+<!--    <e lm="dî esecuzzioni"><i>dî esecuz</i><par n="pupulaz/zioni__n"/></e>-->
     <e lm="assocoiazzioni"><i>assocoiaz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="purzzioni"><i>purz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="distinzzioni"><i>distinz</i><par n="pupulaz/zioni__n"/></e>
@@ -20158,7 +20467,10 @@
     <e lm="teocrazzìa"><i>teocrazz</i><par n="filusuf/ìa__n"/></e>
     <e lm="crunuluggìa"><i>crunulugg</i><par n="filusuf/ìa__n"/></e>
     <e lm="falcunirìa"><i>falcunir</i><par n="filusuf/ìa__n"/></e>
-    <e lm="ortografìa"><i>ortograf</i><par n="filusuf/ìa__n"/></e>
+    <e lm="ortugrafìa"><i>ortugraf</i><par n="filusuf/ìa__n"/></e>
+    <e lm="ortugrafìa" r="LR"><p><l>ortograf</l><r>ortugraf</r></p><par n="filusuf/ìa__n"/></e>
+    <e lm="ortugrafìa" r="LR"><p><l>urtugraf</l><r>ortugraf</r></p><par n="filusuf/ìa__n"/></e>
+    <e lm="ortugrafìa" r="LR"><p><l>orograf</l><r>ortugraf</r></p><par n="filusuf/ìa__n"/></e>
     <e lm="socioluggìa"><i>sociolugg</i><par n="filusuf/ìa__n"/></e>
     <e lm="agginzìa"><i>agginz</i><par n="filusuf/ìa__n"/></e>
     <e lm="fantasìa"><i>fantas</i><par n="filusuf/ìa__n"/></e>
@@ -21048,7 +21360,6 @@
     <e lm="populazzioni" r="LR"><p><l>pupulaz</l><r>populaz</r></p><par n="pupulaz/zioni__n"/></e>
     <e lm="momentu" r="LR"><p><l>mument</l><r>moment</r></p><par n="ann/u__n"/></e>
     <e lm="urganizzazzioni" r="LR"><p><l>organizzaz</l><r>urganizzaz</r></p><par n="pupulaz/zioni__n"/></e>
-    <e lm="sittèmmiru" r="LR"><p><l>sittèmmur</l><r>sittèmmir</r></p><par n="ann/u__n"/></e>
     <e lm="pirìudu" r="LR"><p><l>periud</l><r>pirìud</r></p><par n="ann/u__n"/></e>
     <e lm="tierra" r="LR"><p><l>terr</l><r>tierr</r></p><par n="cas/a__n"/></e>
     <e lm="priescia" r="LR"><p><l>presc</l><r>priesc</r></p><par n="oricch/ia__n"/></e>
@@ -21321,7 +21632,6 @@
     <e lm="mercuridìa" r="LR"><p><l>meircurid</l><r>mercurid</r></p><par n="filusuf/ìa__n"/></e>
     <e lm="psicoluggìa" r="LR"><p><l>psiculugg</l><r>psicolugg</r></p><par n="filusuf/ìa__n"/></e>
     <e lm="dimografìa" r="LR"><p><l>demograf</l><r>dimograf</r></p><par n="filusuf/ìa__n"/></e>
-    <e lm="ortografìa" r="LR"><p><l>orograf</l><r>ortograf</r></p><par n="filusuf/ìa__n"/></e>
     <e lm="agginzìa" r="LR"><p><l>agginiz</l><r>agginz</r></p><par n="filusuf/ìa__n"/></e>
     <e lm="suciuluggìa" r="LR"><p><l>suciolugg</l><r>suciulugg</r></p><par n="filusuf/ìa__n"/></e>
     <e lm="battarìa" r="LR"><p><l>battir</l><r>battar</r></p><par n="filusuf/ìa__n"/></e>
@@ -21376,7 +21686,6 @@
     <e lm="terminoluggìa" r="LR"><p><l>tirminolugg</l><r>terminolugg</r></p><par n="filusuf/ìa__n"/></e>
     <e lm="munarchìa" r="LR"><p><l>monarch</l><r>munarch</r></p><par n="filusuf/ìa__n"/></e>
     <e lm="venniridìa" r="LR"><p><l>veninirid</l><r>vennirid</r></p><par n="filusuf/ìa__n"/></e>
-    <e lm="ortugrafìa" r="LR"><p><l>urtugraf</l><r>ortugraf</r></p><par n="filusuf/ìa__n"/></e>
     <e lm="uichipidìa" r="LR"><p><l>uichiped</l><r>uichipid</r></p><par n="filusuf/ìa__n"/></e>
     <e lm="bioluggìa" r="LR"><p><l>tiolugg</l><r>biolugg</r></p><par n="filusuf/ìa__n"/></e>
     <e lm="ecoluggìa" r="LR"><p><l>enolugg</l><r>ecolugg</r></p><par n="filusuf/ìa__n"/></e>
@@ -23417,6 +23726,7 @@
     <e lm="istrici"><i>istrici</i><par n="patri__n"/></e>
     <e lm="istrutturi"><i>istrutturi</i><par n="patri__n"/></e>
     <e lm="isula"><i>isul</i><par n="cas/a__n"/></e>
+    <e lm="isula" r="LR"><p><l>isol</l><r>isul</r></p><par n="cas/a__n"/></e>
     <e lm="isulaturi"><i>isulaturi</i><par n="patri__n"/></e>
     <e lm="itinirariu"><i>itinirar</i><par n="sacchegg/iu__n"/></e>
     <e lm="ittata"><i>ittat</i><par n="cas/a__n"/></e>
@@ -24169,6 +24479,7 @@
     <e lm="prighera"><i>prigher</i><par n="cas/a__n"/></e>
     <e lm="primatu"><i>primat</i><par n="ann/u__n"/></e>
     <e lm="principiu"><i>princip</i><par n="sacchegg/iu__n"/></e>
+    <e lm="principiu" r="LR"><p><l>pprincip</l><r>princip</r></p><par n="sacchegg/iu__n"/></e>
     <e lm="priserva"><i>priserv</i><par n="cas/a__n"/></e>
     <e lm="prisuttu"><i>prisutt</i><par n="ann/u__n"/></e>
     <e lm="procella"><i>procell</i><par n="cas/a__n"/></e>
@@ -32343,6 +32654,869 @@
       <e lm="Riggiu"><i>Riggiu</i><par n="Sicilia__np"/></e>
 
 
+<e lm="Acquaviva Cullicruci"><i>Acquaviva<b/>Cullicruci</i><par n="Sicilia__np"/></e>
+<e lm="Acquaviva Plàtani"><i>Acquaviva<b/>Plàtani</i><par n="Sicilia__np"/></e>
+<e lm="Acqui Terme"><i>Acqui<b/>Terme</i><par n="Sicilia__np"/></e>
+<e lm="Acquiduci"><i>Acquiduci</i><par n="Sicilia__np"/></e>
+<e lm="Adrara San Martino"><i>Adrara<b/>San<b/>Martino</i><par n="Sicilia__np"/></e>
+<e lm="Adrara San Rocco"><i>Adrara<b/>San<b/>Rocco</i><par n="Sicilia__np"/></e>
+<e lm="Agliano Terme"><i>Agliano<b/>Terme</i><par n="Sicilia__np"/></e>
+<e lm="Agliè"><i>Agliè</i><par n="Sicilia__np"/></e>
+<e lm="Agrate Conturbia"><i>Agrate<b/>Conturbia</i><par n="Sicilia__np"/></e>
+<e lm="Aiello del Friuli"><i>Aiello<b/>del<b/>Friuli</i><par n="Sicilia__np"/></e>
+<e lm="Alà dei Sardi"><i>Alà<b/>dei<b/>Sardi</i><par n="Sicilia__np"/></e>
+<e lm="Alagna Valsesia"><i>Alagna<b/>Valsesia</i><par n="Sicilia__np"/></e>
+<e lm="Albano Vercellese"><i>Albano<b/>Vercellese</i><par n="Sicilia__np"/></e>
+<e lm="Albaretto della Torre"><i>Albaretto<b/>della<b/>Torre</i><par n="Sicilia__np"/></e>
+<e lm="Albera Ligure"><i>Albera<b/>Ligure</i><par n="Sicilia__np"/></e>
+<e lm="Alberona"><i>Alberona</i><par n="Sicilia__np"/></e>
+<e lm="Alcara Li Fusi"><i>Alcara<b/>Li<b/>Fusi</i><par n="Sicilia__np"/></e>
+<e lm="Alfiano Natta"><i>Alfiano<b/>Natta</i><par n="Sicilia__np"/></e>
+<e lm="Alì"><i>Alì</i><par n="Sicilia__np"/></e>
+<e lm="Alì Marina"><i>Alì<b/>Marina</i><par n="Sicilia__np"/></e>
+<e lm="Alice Bel Colle"><i>Alice<b/>Bel<b/>Colle</i><par n="Sicilia__np"/></e>
+<e lm="Alice Castello"><i>Alice<b/>Castello</i><par n="Sicilia__np"/></e>
+<e lm="Alice Superiore"><i>Alice<b/>Superiore</i><par n="Sicilia__np"/></e>
+<e lm="Alluvioni Cambiò"><i>Alluvioni<b/>Cambiò</i><par n="Sicilia__np"/></e>
+<e lm="Almè"><i>Almè</i><par n="Sicilia__np"/></e>
+<e lm="Almenno San Bartolomeo"><i>Almenno<b/>San<b/>Bartolomeo</i><par n="Sicilia__np"/></e>
+<e lm="Almenno San Salvatore"><i>Almenno<b/>San<b/>Salvatore</i><par n="Sicilia__np"/></e>
+<e lm="Altavilla Monferrato"><i>Altavilla<b/>Monferrato</i><par n="Sicilia__np"/></e>
+<e lm="Alzano Lombardo"><i>Alzano<b/>Lombardo</i><par n="Sicilia__np"/></e>
+<e lm="Alzano Scrivia"><i>Alzano<b/>Scrivia</i><par n="Sicilia__np"/></e>
+<e lm="Ameglia"><i>Ameglia</i><par n="Sicilia__np"/></e>
+<e lm="Andorno Micca"><i>Andorno<b/>Micca</i><par n="Sicilia__np"/></e>
+<e lm="Antiddu"><i>Antiddu</i><par n="Sicilia__np"/></e>
+<e lm="Antrona Schieranco"><i>Antrona<b/>Schieranco</i><par n="Sicilia__np"/></e>
+<e lm="Anzola d'Ossola"><i>Anzola<b/>d'Ossola</i><par n="Sicilia__np"/></e>
+<e lm="Appiano sulla Strada del Vino"><i>Appiano<b/>sulla<b/>Strada<b/>del<b/>Vino</i><par n="Sicilia__np"/></e>
+<e lm="Apricena"><i>Apricena</i><par n="Sicilia__np"/></e>
+<e lm="Arcola"><i>Arcola</i><par n="Sicilia__np"/></e>
+<e lm="Arnisanu"><i>Arnisanu</i><par n="Sicilia__np"/></e>
+<e lm="Arquata Scrivia"><i>Arquata<b/>Scrivia</i><par n="Sicilia__np"/></e>
+<e lm="Arta Terme"><i>Arta<b/>Terme</i><par n="Sicilia__np"/></e>
+<e lm="Arzago d'Adda"><i>Arzago<b/>d'Adda</i><par n="Sicilia__np"/></e>
+<e lm="Àsaru"><i>Àsaru</i><par n="Sicilia__np"/></e>
+<e lm="Àsculi Picenu"><i>Àsculi<b/>Picenu</i><par n="Sicilia__np"/></e>
+<e lm="Asculi Satrianu"><i>Asculi<b/>Satrianu</i><par n="Sicilia__np"/></e>
+<e lm="Asigliano Vercellese"><i>Asigliano<b/>Vercellese</i><par n="Sicilia__np"/></e>
+<e lm="Austa"><i>Austa</i><par n="Sicilia__np"/></e>
+<e lm="Àvula"><i>Àvula</i><par n="Sicilia__np"/></e>
+<e lm="Azzano d'Asti"><i>Azzano<b/>d'Asti</i><par n="Sicilia__np"/></e>
+<e lm="Azzano Decimo"><i>Azzano<b/>Decimo</i><par n="Sicilia__np"/></e>
+<e lm="Azzano San Paolo"><i>Azzano<b/>San<b/>Paolo</i><par n="Sicilia__np"/></e>
+<e lm="Bagnaria Arsa"><i>Bagnaria<b/>Arsa</i><par n="Sicilia__np"/></e>
+<e lm="Bagnolo Piemonte"><i>Bagnolo<b/>Piemonte</i><par n="Sicilia__np"/></e>
+<e lm="Baldichieri d'Asti"><i>Baldichieri<b/>d'Asti</i><par n="Sicilia__np"/></e>
+<e lm="Baldissero Canavese"><i>Baldissero<b/>Canavese</i><par n="Sicilia__np"/></e>
+<e lm="Baldissero d'Alba"><i>Baldissero<b/>d'Alba</i><par n="Sicilia__np"/></e>
+<e lm="Baldissero Torinese"><i>Baldissero<b/>Torinese</i><par n="Sicilia__np"/></e>
+<e lm="Bannio Anzino"><i>Bannio<b/>Anzino</i><par n="Sicilia__np"/></e>
+<e lm="Baranellu"><i>Baranellu</i><par n="Sicilia__np"/></e>
+<e lm="Baratili San Pietro"><i>Baratili<b/>San<b/>Pietro</i><par n="Sicilia__np"/></e>
+<e lm="Bari Sardo"><i>Bari<b/>Sardo</i><par n="Sicilia__np"/></e>
+<e lm="Barone Canavese"><i>Barone<b/>Canavese</i><par n="Sicilia__np"/></e>
+<e lm="Barrafranca"><i>Barrafranca</i><par n="Sicilia__np"/></e>
+<e lm="Baselga di Piné"><i>Baselga<b/>di<b/>Piné</i><par n="Sicilia__np"/></e>
+<e lm="Basicò"><i>Basicò</i><par n="Sicilia__np"/></e>
+<e lm="Bedduvirdi"><i>Bedduvirdi</i><par n="Sicilia__np"/></e>
+<e lm="Bee"><i>Bee</i><par n="Sicilia__np"/></e>
+<e lm="Belforte Monferrato"><i>Belforte<b/>Monferrato</i><par n="Sicilia__np"/></e>
+<e lm="Bellinzago Novarese"><i>Bellinzago<b/>Novarese</i><par n="Sicilia__np"/></e>
+<e lm="Belvedere Langhe"><i>Belvedere<b/>Langhe</i><par n="Sicilia__np"/></e>
+<e lm="Bene Vagienna"><i>Bene<b/>Vagienna</i><par n="Sicilia__np"/></e>
+<e lm="Bernalda"><i>Bernalda</i><par n="Sicilia__np"/></e>
+<e lm="Berzano di San Pietro"><i>Berzano<b/>di<b/>San<b/>Pietro</i><par n="Sicilia__np"/></e>
+<e lm="Berzano di Tortona"><i>Berzano<b/>di<b/>Tortona</i><par n="Sicilia__np"/></e>
+<e lm="Berzo San Fermo"><i>Berzo<b/>San<b/>Fermo</i><par n="Sicilia__np"/></e>
+<e lm="Besançon"><i>Besançon</i><par n="Sicilia__np"/></e>
+<e lm="Beverino"><i>Beverino</i><par n="Sicilia__np"/></e>
+<e lm="Bianzè"><i>Bianzè</i><par n="Sicilia__np"/></e>
+<e lm="Biscegghi"><i>Biscegghi</i><par n="Sicilia__np"/></e>
+<e lm="Bivona"><i>Bivona</i><par n="Sicilia__np"/></e>
+<e lm="Bleggio Superiore"><i>Bleggio<b/>Superiore</i><par n="Sicilia__np"/></e>
+<e lm="Bobbio Pellice"><i>Bobbio<b/>Pellice</i><par n="Sicilia__np"/></e>
+<e lm="Bojanu"><i>Bojanu</i><par n="Sicilia__np"/></e>
+<e lm="Bolzano Novarese"><i>Bolzano<b/>Novarese</i><par n="Sicilia__np"/></e>
+<e lm="Bonate Sopra"><i>Bonate<b/>Sopra</i><par n="Sicilia__np"/></e>
+<e lm="Bonate Sotto"><i>Bonate<b/>Sotto</i><par n="Sicilia__np"/></e>
+<e lm="Bonefru"><i>Bonefru</i><par n="Sicilia__np"/></e>
+<e lm="Borgaro Torinese"><i>Borgaro<b/>Torinese</i><par n="Sicilia__np"/></e>
+<e lm="Borghetto di Borbera"><i>Borghetto<b/>di<b/>Borbera</i><par n="Sicilia__np"/></e>
+<e lm="Borgo d'Ale"><i>Borgo<b/>d'Ale</i><par n="Sicilia__np"/></e>
+<e lm="Borgo di Terzo"><i>Borgo<b/>di<b/>Terzo</i><par n="Sicilia__np"/></e>
+<e lm="Borgo San Dalmazzo"><i>Borgo<b/>San<b/>Dalmazzo</i><par n="Sicilia__np"/></e>
+<e lm="Borgo San Martino"><i>Borgo<b/>San<b/>Martino</i><par n="Sicilia__np"/></e>
+<e lm="Borgo Ticino"><i>Borgo<b/>Ticino</i><par n="Sicilia__np"/></e>
+<e lm="Borgo Valsugana"><i>Borgo<b/>Valsugana</i><par n="Sicilia__np"/></e>
+<e lm="Borgo Vercelli"><i>Borgo<b/>Vercelli</i><par n="Sicilia__np"/></e>
+<e lm="Borgofranco d'Ivrea"><i>Borgofranco<b/>d'Ivrea</i><par n="Sicilia__np"/></e>
+<e lm="Borgone Susa"><i>Borgone<b/>Susa</i><par n="Sicilia__np"/></e>
+<e lm="Borgoratto Alessandrino"><i>Borgoratto<b/>Alessandrino</i><par n="Sicilia__np"/></e>
+<e lm="Bosco Marengo"><i>Bosco<b/>Marengo</i><par n="Sicilia__np"/></e>
+<e lm="Bra"><i>Bra</i><par n="Sicilia__np"/></e>
+<e lm="Brembate di Sopra"><i>Brembate<b/>di<b/>Sopra</i><par n="Sicilia__np"/></e>
+<e lm="Briga Alta"><i>Briga<b/>Alta</i><par n="Sicilia__np"/></e>
+<e lm="Briga Novarese"><i>Briga<b/>Novarese</i><par n="Sicilia__np"/></e>
+<e lm="Brignano Gera d'Adda"><i>Brignano<b/>Gera<b/>d'Adda</i><par n="Sicilia__np"/></e>
+<e lm="Brolu"><i>Brolu</i><par n="Sicilia__np"/></e>
+<e lm="Buccheri"><i>Buccheri</i><par n="Sicilia__np"/></e>
+<e lm="Bussu"><i>Bussu</i><par n="Sicilia__np"/></e>
+<e lm="Buttigliera Alta"><i>Buttigliera<b/>Alta</i><par n="Sicilia__np"/></e>
+<e lm="Buttigliera d'Asti"><i>Buttigliera<b/>d'Asti</i><par n="Sicilia__np"/></e>
+<e lm="Buvinu"><i>Buvinu</i><par n="Sicilia__np"/></e>
+<e lm="Cabella Ligure"><i>Cabella<b/>Ligure</i><par n="Sicilia__np"/></e>
+<e lm="Caḍḍidoru"><i>Caḍḍidoru</i><par n="Sicilia__np"/></e>
+<e lm="Caderzone Terme"><i>Caderzone<b/>Terme</i><par n="Sicilia__np"/></e>
+<e lm="Cagnanu Varanu"><i>Cagnanu<b/>Varanu</i><par n="Sicilia__np"/></e>
+<e lm="Calamigna"><i>Calamigna</i><par n="Sicilia__np"/></e>
+<e lm="Calamònaci"><i>Calamònaci</i><par n="Sicilia__np"/></e>
+<e lm="Calascibbetta"><i>Calascibbetta</i><par n="Sicilia__np"/></e>
+<e lm="Calceranica al Lago"><i>Calceranica<b/>al<b/>Lago</i><par n="Sicilia__np"/></e>
+<e lm="Calcianu"><i>Calcianu</i><par n="Sicilia__np"/></e>
+<e lm="Caldaro sulla Strada del Vino"><i>Caldaro<b/>sulla<b/>Strada<b/>del<b/>Vino</i><par n="Sicilia__np"/></e>
+<e lm="Calimera"><i>Calimera</i><par n="Sicilia__np"/></e>
+<e lm="Calusco d'Adda"><i>Calusco<b/>d'Adda</i><par n="Sicilia__np"/></e>
+<e lm="Camagna Monferrato"><i>Camagna<b/>Monferrato</i><par n="Sicilia__np"/></e>
+<e lm="Camastra"><i>Camastra</i><par n="Sicilia__np"/></e>
+<e lm="Camerano Casasco"><i>Camerano<b/>Casasco</i><par n="Sicilia__np"/></e>
+<e lm="Camerata Cornello"><i>Camerata<b/>Cornello</i><par n="Sicilia__np"/></e>
+<e lm="Camino al Tagliamento"><i>Camino<b/>al<b/>Tagliamento</i><par n="Sicilia__np"/></e>
+<e lm="Campiglia Cervo"><i>Campiglia<b/>Cervo</i><par n="Sicilia__np"/></e>
+<e lm="Campitello di Fassa"><i>Campitello<b/>di<b/>Fassa</i><par n="Sicilia__np"/></e>
+<e lm="Campo di Trens"><i>Campo<b/>di<b/>Trens</i><par n="Sicilia__np"/></e>
+<e lm="Campo Tures"><i>Campo<b/>Tures</i><par n="Sicilia__np"/></e>
+<e lm="Campolongo Tapogliano"><i>Campolongo<b/>Tapogliano</i><par n="Sicilia__np"/></e>
+<e lm="Campubbeddu"><i>Campubbeddu</i><par n="Sicilia__np"/></e>
+<e lm="Campuchiaru"><i>Campuchiaru</i><par n="Sicilia__np"/></e>
+<e lm="Campudipietra"><i>Campudipietra</i><par n="Sicilia__np"/></e>
+<e lm="Campulietu"><i>Campulietu</i><par n="Sicilia__np"/></e>
+<e lm="Campumarinu"><i>Campumarinu</i><par n="Sicilia__np"/></e>
+<e lm="Campurutunnu Etneu"><i>Campurutunnu<b/>Etneu</i><par n="Sicilia__np"/></e>
+<e lm="Candia Canavese"><i>Candia<b/>Canavese</i><par n="Sicilia__np"/></e>
+<e lm="Caniattì"><i>Caniattì</i><par n="Sicilia__np"/></e>
+<e lm="Cannero Riviera"><i>Cannero<b/>Riviera</i><par n="Sicilia__np"/></e>
+<e lm="Canonica d'Adda"><i>Canonica<b/>d'Adda</i><par n="Sicilia__np"/></e>
+<e lm="Cantalupo Ligure"><i>Cantalupo<b/>Ligure</i><par n="Sicilia__np"/></e>
+<e lm="Capriate San Gervasio"><i>Capriate<b/>San<b/>Gervasio</i><par n="Sicilia__np"/></e>
+<e lm="Capriva del Friuli"><i>Capriva<b/>del<b/>Friuli</i><par n="Sicilia__np"/></e>
+<e lm="Capursu"><i>Capursu</i><par n="Sicilia__np"/></e>
+<e lm="Caramagna Piemonte"><i>Caramagna<b/>Piemonte</i><par n="Sicilia__np"/></e>
+<e lm="Carapilli"><i>Carapilli</i><par n="Sicilia__np"/></e>
+<e lm="Carbonara Scrivia"><i>Carbonara<b/>Scrivia</i><par n="Sicilia__np"/></e>
+<e lm="Cardè"><i>Cardè</i><par n="Sicilia__np"/></e>
+<e lm="Carlantinu"><i>Carlantinu</i><par n="Sicilia__np"/></e>
+<e lm="Carpignano Sesia"><i>Carpignano<b/>Sesia</i><par n="Sicilia__np"/></e>
+<e lm="Carpinu"><i>Carpinu</i><par n="Sicilia__np"/></e>
+<e lm="Carrega Ligure"><i>Carrega<b/>Ligure</i><par n="Sicilia__np"/></e>
+<e lm="Carrodano"><i>Carrodano</i><par n="Sicilia__np"/></e>
+<e lm="Carruntini"><i>Carruntini</i><par n="Sicilia__np"/></e>
+<e lm="Cartanissetta"><i>Cartanissetta</i><par n="Sicilia__np"/></e>
+<e lm="Carunìa"><i>Carunìa</i><par n="Sicilia__np"/></e>
+<e lm="Casacalenda"><i>Casacalenda</i><par n="Sicilia__np"/></e>
+<e lm="Casal Cermelli"><i>Casal<b/>Cermelli</i><par n="Sicilia__np"/></e>
+<e lm="Casalcipranu"><i>Casalcipranu</i><par n="Sicilia__np"/></e>
+<e lm="Casale Corte Cerro"><i>Casale<b/>Corte<b/>Cerro</i><par n="Sicilia__np"/></e>
+<e lm="Casale Monferrato"><i>Casale<b/>Monferrato</i><par n="Sicilia__np"/></e>
+<e lm="Casalecchiu di Renu"><i>Casalecchiu<b/>di<b/>Renu</i><par n="Sicilia__np"/></e>
+<e lm="Casaleggio Boiro"><i>Casaleggio<b/>Boiro</i><par n="Sicilia__np"/></e>
+<e lm="Casaleggio Novara"><i>Casaleggio<b/>Novara</i><par n="Sicilia__np"/></e>
+<e lm="Casalnovu Muntirutaru"><i>Casalnovu<b/>Muntirutaru</i><par n="Sicilia__np"/></e>
+<e lm="Casamassima"><i>Casamassima</i><par n="Sicilia__np"/></e>
+<e lm="Casanova Elvo"><i>Casanova<b/>Elvo</i><par n="Sicilia__np"/></e>
+<e lm="Casarsa della Delizia"><i>Casarsa<b/>della<b/>Delizia</i><par n="Sicilia__np"/></e>
+<e lm="Cascinette d'Ivrea"><i>Cascinette<b/>d'Ivrea</i><par n="Sicilia__np"/></e>
+<e lm="Caselle Torinese"><i>Caselle<b/>Torinese</i><par n="Sicilia__np"/></e>
+<e lm="Cassano Spinola"><i>Cassano<b/>Spinola</i><par n="Sicilia__np"/></e>
+<e lm="Castagneto Po"><i>Castagneto<b/>Po</i><par n="Sicilia__np"/></e>
+<e lm="Castagnole delle Lanze"><i>Castagnole<b/>delle<b/>Lanze</i><par n="Sicilia__np"/></e>
+<e lm="Castagnole Monferrato"><i>Castagnole<b/>Monferrato</i><par n="Sicilia__np"/></e>
+<e lm="Casteddu di Iaci"><i>Casteddu<b/>di<b/>Iaci</i><par n="Sicilia__np"/></e>
+<e lm="Castel Boglione"><i>Castel<b/>Boglione</i><par n="Sicilia__np"/></e>
+<e lm="Castel di Jùdica"><i>Castel<b/>di<b/>Jùdica</i><par n="Sicilia__np"/></e>
+<e lm="Castel Rocchero"><i>Castel<b/>Rocchero</i><par n="Sicilia__np"/></e>
+<e lm="Castelbottacciu"><i>Castelbottacciu</i><par n="Sicilia__np"/></e>
+<e lm="Castellar Guidobono"><i>Castellar<b/>Guidobono</i><par n="Sicilia__np"/></e>
+<e lm="Castellazzo Bormida"><i>Castellazzo<b/>Bormida</i><par n="Sicilia__np"/></e>
+<e lm="Castellazzo Novarese"><i>Castellazzo<b/>Novarese</i><par n="Sicilia__np"/></e>
+<e lm="Castelletto Cervo"><i>Castelletto<b/>Cervo</i><par n="Sicilia__np"/></e>
+<e lm="Castelletto d'Erro"><i>Castelletto<b/>d'Erro</i><par n="Sicilia__np"/></e>
+<e lm="Castelletto d'Orba"><i>Castelletto<b/>d'Orba</i><par n="Sicilia__np"/></e>
+<e lm="Castelletto Merli"><i>Castelletto<b/>Merli</i><par n="Sicilia__np"/></e>
+<e lm="Castelletto Molina"><i>Castelletto<b/>Molina</i><par n="Sicilia__np"/></e>
+<e lm="Castelletto Monferrato"><i>Castelletto<b/>Monferrato</i><par n="Sicilia__np"/></e>
+<e lm="Castelletto sopra Ticino"><i>Castelletto<b/>sopra<b/>Ticino</i><par n="Sicilia__np"/></e>
+<e lm="Castelletto Stura"><i>Castelletto<b/>Stura</i><par n="Sicilia__np"/></e>
+<e lm="Castelletto Uzzone"><i>Castelletto<b/>Uzzone</i><par n="Sicilia__np"/></e>
+<e lm="Castellino Tanaro"><i>Castellino<b/>Tanaro</i><par n="Sicilia__np"/></e>
+<e lm="Castello di Annone"><i>Castello<b/>di<b/>Annone</i><par n="Sicilia__np"/></e>
+<e lm="Castello Tesino"><i>Castello<b/>Tesino</i><par n="Sicilia__np"/></e>
+<e lm="Castello-Molina di Fiemme"><i>Castello-Molina<b/>di<b/>Fiemme</i><par n="Sicilia__np"/></e>
+<e lm="Castellucciu Valmaggiuri"><i>Castellucciu<b/>Valmaggiuri</i><par n="Sicilia__np"/></e>
+<e lm="Castelmauru"><i>Castelmauru</i><par n="Sicilia__np"/></e>
+<e lm="Castelnovu dâ Daunia"><i>Castelnovu<b/>dâ<b/>Daunia</i><par n="Sicilia__np"/></e>
+<e lm="Castelnuovo Belbo"><i>Castelnuovo<b/>Belbo</i><par n="Sicilia__np"/></e>
+<e lm="Castelnuovo Bormida"><i>Castelnuovo<b/>Bormida</i><par n="Sicilia__np"/></e>
+<e lm="Castelnuovo Calcea"><i>Castelnuovo<b/>Calcea</i><par n="Sicilia__np"/></e>
+<e lm="Castelnuovo del Friuli"><i>Castelnuovo<b/>del<b/>Friuli</i><par n="Sicilia__np"/></e>
+<e lm="Casteltèrmini"><i>Casteltèrmini</i><par n="Sicilia__np"/></e>
+<e lm="Castermula"><i>Castermula</i><par n="Sicilia__np"/></e>
+<e lm="Castigghiuni di Sicilia"><i>Castigghiuni<b/>di<b/>Sicilia</i><par n="Sicilia__np"/></e>
+<e lm="Castiglione Falletto"><i>Castiglione<b/>Falletto</i><par n="Sicilia__np"/></e>
+<e lm="Castiglione Tinella"><i>Castiglione<b/>Tinella</i><par n="Sicilia__np"/></e>
+<e lm="Castiglione Torinese"><i>Castiglione<b/>Torinese</i><par n="Sicilia__np"/></e>
+<e lm="Castillinu dû Bifernu"><i>Castillinu<b/>dû<b/>Bifernu</i><par n="Sicilia__np"/></e>
+<e lm="Castions di Strada"><i>Castions<b/>di<b/>Strada</i><par n="Sicilia__np"/></e>
+<e lm="Castrì"><i>Castrì</i><par n="Sicilia__np"/></e>
+<e lm="Castropignanu"><i>Castropignanu</i><par n="Sicilia__np"/></e>
+<e lm="Castrufilippu"><i>Castrufilippu</i><par n="Sicilia__np"/></e>
+<e lm="Castruriali"><i>Castruriali</i><par n="Sicilia__np"/></e>
+<e lm="Cataviddotta"><i>Cataviddotta</i><par n="Sicilia__np"/></e>
+<e lm="Catinanova"><i>Catinanova</i><par n="Sicilia__np"/></e>
+<e lm="Cavaglio d'Agogna"><i>Cavaglio<b/>d'Agogna</i><par n="Sicilia__np"/></e>
+<e lm="Cavasso Nuovo"><i>Cavasso<b/>Nuovo</i><par n="Sicilia__np"/></e>
+<e lm="Cavazzo Carnico"><i>Cavazzo<b/>Carnico</i><par n="Sicilia__np"/></e>
+<e lm="Cegghji"><i>Cegghji</i><par n="Sicilia__np"/></e>
+<e lm="Celenza Valfurturi"><i>Celenza<b/>Valfurturi</i><par n="Sicilia__np"/></e>
+<e lm="Celle Enomondo"><i>Celle<b/>Enomondo</i><par n="Sicilia__np"/></e>
+<e lm="Centa San Nicolò"><i>Centa<b/>San<b/>Nicolò</i><par n="Sicilia__np"/></e>
+<e lm="Ceppo Morelli"><i>Ceppo<b/>Morelli</i><par n="Sicilia__np"/></e>
+<e lm="Ceresole d'Alba"><i>Ceresole<b/>d'Alba</i><par n="Sicilia__np"/></e>
+<e lm="Ceresole Reale"><i>Ceresole<b/>Reale</i><par n="Sicilia__np"/></e>
+<e lm="Cerignola"><i>Cerignola</i><par n="Sicilia__np"/></e>
+<e lm="Cernusco Lombardone"><i>Cernusco<b/>Lombardone</i><par n="Sicilia__np"/></e>
+<e lm="Cerreto Castello"><i>Cerreto<b/>Castello</i><par n="Sicilia__np"/></e>
+<e lm="Cerreto d'Asti"><i>Cerreto<b/>d'Asti</i><par n="Sicilia__np"/></e>
+<e lm="Cerreto Grue"><i>Cerreto<b/>Grue</i><par n="Sicilia__np"/></e>
+<e lm="Cerretto Langhe"><i>Cerretto<b/>Langhe</i><par n="Sicilia__np"/></e>
+<e lm="Cerrina Monferrato"><i>Cerrina<b/>Monferrato</i><par n="Sicilia__np"/></e>
+<e lm="Cerro Tanaro"><i>Cerro<b/>Tanaro</i><par n="Sicilia__np"/></e>
+<e lm="Certosa di Pavia"><i>Certosa<b/>di<b/>Pavia</i><par n="Sicilia__np"/></e>
+<e lm="Cervignano del Friuli"><i>Cervignano<b/>del<b/>Friuli</i><par n="Sicilia__np"/></e>
+<e lm="Cesana Torinese"><i>Cesana<b/>Torinese</i><par n="Sicilia__np"/></e>
+<e lm="Chanteau"><i>Chanteau</i><par n="Sicilia__np"/></e>
+<e lm="Chieuti"><i>Chieuti</i><par n="Sicilia__np"/></e>
+<e lm="Chiusa di Pesio"><i>Chiusa<b/>di<b/>Pesio</i><par n="Sicilia__np"/></e>
+<e lm="Chiusano d'Asti"><i>Chiusano<b/>d'Asti</i><par n="Sicilia__np"/></e>
+<e lm="Ciaramunti"><i>Ciaramunti</i><par n="Sicilia__np"/></e>
+<e lm="Cigliè"><i>Cigliè</i><par n="Sicilia__np"/></e>
+<e lm="Cinte Tesino"><i>Cinte<b/>Tesino</i><par n="Sicilia__np"/></e>
+<e lm="Cirami"><i>Cirami</i><par n="Sicilia__np"/></e>
+<e lm="Circimaggiori"><i>Circimaggiori</i><par n="Sicilia__np"/></e>
+<e lm="Circipiccula"><i>Circipiccula</i><par n="Sicilia__np"/></e>
+<e lm="Ciriglianu"><i>Ciriglianu</i><par n="Sicilia__np"/></e>
+<e lm="Cis"><i>Cis</i><par n="Sicilia__np"/></e>
+<e lm="Cisterninu"><i>Cisterninu</i><par n="Sicilia__np"/></e>
+<e lm="Ciuriddia"><i>Ciuriddia</i><par n="Sicilia__np"/></e>
+<e lm="Cividale del Friuli"><i>Cividale<b/>del<b/>Friuli</i><par n="Sicilia__np"/></e>
+<e lm="Civitacampumaranu"><i>Civitacampumaranu</i><par n="Sicilia__np"/></e>
+<e lm="Coassolo Torinese"><i>Coassolo<b/>Torinese</i><par n="Sicilia__np"/></e>
+<e lm="Colleretto Castelnuovo"><i>Colleretto<b/>Castelnuovo</i><par n="Sicilia__np"/></e>
+<e lm="Colleretto Giacosa"><i>Colleretto<b/>Giacosa</i><par n="Sicilia__np"/></e>
+<e lm="Colloredo di Monte Albano"><i>Colloredo<b/>di<b/>Monte<b/>Albano</i><par n="Sicilia__np"/></e>
+<e lm="Comano Terme"><i>Comano<b/>Terme</i><par n="Sicilia__np"/></e>
+<e lm="Comps"><i>Comps</i><par n="Sicilia__np"/></e>
+<e lm="Cornedo all'Isarco"><i>Cornedo<b/>all'Isarco</i><par n="Sicilia__np"/></e>
+<e lm="Corneliano d'Alba"><i>Corneliano<b/>d'Alba</i><par n="Sicilia__np"/></e>
+<e lm="Corno di Rosazzo"><i>Corno<b/>di<b/>Rosazzo</i><par n="Sicilia__np"/></e>
+<e lm="Cortaccia sulla Strada del Vino"><i>Cortaccia<b/>sulla<b/>Strada<b/>del<b/>Vino</i><par n="Sicilia__np"/></e>
+<e lm="Cortina sulla Strada del Vino"><i>Cortina<b/>sulla<b/>Strada<b/>del<b/>Vino</i><par n="Sicilia__np"/></e>
+<e lm="Cossano Belbo"><i>Cossano<b/>Belbo</i><par n="Sicilia__np"/></e>
+<e lm="Cossano Canavese"><i>Cossano<b/>Canavese</i><par n="Sicilia__np"/></e>
+<e lm="Costigliole d'Asti"><i>Costigliole<b/>d'Asti</i><par n="Sicilia__np"/></e>
+<e lm="Costigliole Saluzzo"><i>Costigliole<b/>Saluzzo</i><par n="Sicilia__np"/></e>
+<e lm="Cuccaro Monferrato"><i>Cuccaro<b/>Monferrato</i><par n="Sicilia__np"/></e>
+<e lm="Culli d'Anchisi"><i>Culli<b/>d'Anchisi</i><par n="Sicilia__np"/></e>
+<e lm="Culliturtu"><i>Culliturtu</i><par n="Sicilia__np"/></e>
+<e lm="Culubraru"><i>Culubraru</i><par n="Sicilia__np"/></e>
+<e lm="Cumitini"><i>Cumitini</i><par n="Sicilia__np"/></e>
+<e lm="Cundrò"><i>Cundrò</i><par n="Sicilia__np"/></e>
+<e lm="Cuorgnè"><i>Cuorgnè</i><par n="Sicilia__np"/></e>
+<e lm="Cupirtinu"><i>Cupirtinu</i><par n="Sicilia__np"/></e>
+<e lm="Curon Venosta"><i>Curon<b/>Venosta</i><par n="Sicilia__np"/></e>
+<e lm="Darè"><i>Darè</i><par n="Sicilia__np"/></e>
+<e lm="Delicetu"><i>Delicetu</i><par n="Sicilia__np"/></e>
+<e lm="Doberdò del Lago"><i>Doberdò<b/>del<b/>Lago</i><par n="Sicilia__np"/></e>
+<e lm="Dolegna del Collio"><i>Dolegna<b/>del<b/>Collio</i><par n="Sicilia__np"/></e>
+<e lm="Domus de Maria"><i>Domus<b/>de<b/>Maria</i><par n="Sicilia__np"/></e>
+<e lm="Dro"><i>Dro</i><par n="Sicilia__np"/></e>
+<e lm="Duronia"><i>Duronia</i><par n="Sicilia__np"/></e>
+<e lm="Dusino San Michele"><i>Dusino<b/>San<b/>Michele</i><par n="Sicilia__np"/></e>
+<e lm="Emarèse"><i>Emarèse</i><par n="Sicilia__np"/></e>
+<e lm="Erchie"><i>Erchie</i><par n="Sicilia__np"/></e>
+<e lm="Erkie"><i>Erkie</i><par n="Sicilia__np"/></e>
+<e lm="Ernule"><i>Ernule</i><par n="Sicilia__np"/></e>
+<e lm="Erto e Casso"><i>Erto<b/>e<b/>Casso</i><par n="Sicilia__np"/></e>
+<e lm="Fabbrica Curone"><i>Fabbrica<b/>Curone</i><par n="Sicilia__np"/></e>
+<e lm="Faetu"><i>Faetu</i><par n="Sicilia__np"/></e>
+<e lm="Fai della Paganella"><i>Fai<b/>della<b/>Paganella</i><par n="Sicilia__np"/></e>
+<e lm="Fara Novarese"><i>Fara<b/>Novarese</i><par n="Sicilia__np"/></e>
+<e lm="Farra d'Isonzo"><i>Farra<b/>d'Isonzo</i><par n="Sicilia__np"/></e>
+<e lm="Favignana"><i>Favignana</i><par n="Sicilia__np"/></e>
+<e lm="Ferrandina"><i>Ferrandina</i><par n="Sicilia__np"/></e>
+<e lm="Ferrazzanu"><i>Ferrazzanu</i><par n="Sicilia__np"/></e>
+<e lm="Fiavé"><i>Fiavé</i><par n="Sicilia__np"/></e>
+<e lm="Fiè allo Sciliar"><i>Fiè<b/>allo<b/>Sciliar</i><par n="Sicilia__np"/></e>
+<e lm="Fiera di Primiero"><i>Fiera<b/>di<b/>Primiero</i><par n="Sicilia__np"/></e>
+<e lm="Fiorano Canavese"><i>Fiorano<b/>Canavese</i><par n="Sicilia__np"/></e>
+<e lm="Fiume Veneto"><i>Fiume<b/>Veneto</i><par n="Sicilia__np"/></e>
+<e lm="Fogliano Redipuglia"><i>Fogliano<b/>Redipuglia</i><par n="Sicilia__np"/></e>
+<e lm="Fontaneto d'Agogna"><i>Fontaneto<b/>d'Agogna</i><par n="Sicilia__np"/></e>
+<e lm="Fontanetto Po"><i>Fontanetto<b/>Po</i><par n="Sicilia__np"/></e>
+<e lm="Forgaria nel Friuli"><i>Forgaria<b/>nel<b/>Friuli</i><par n="Sicilia__np"/></e>
+<e lm="Forni Avoltri"><i>Forni<b/>Avoltri</i><par n="Sicilia__np"/></e>
+<e lm="Forni di Sopra"><i>Forni<b/>di<b/>Sopra</i><par n="Sicilia__np"/></e>
+<e lm="Forni di Sotto"><i>Forni<b/>di<b/>Sotto</i><par n="Sicilia__np"/></e>
+<e lm="Forno Canavese"><i>Forno<b/>Canavese</i><par n="Sicilia__np"/></e>
+<e lm="Fossaltu"><i>Fossaltu</i><par n="Sicilia__np"/></e>
+<e lm="Frabosa Soprana"><i>Frabosa<b/>Soprana</i><par n="Sicilia__np"/></e>
+<e lm="Frabosa Sottana"><i>Frabosa<b/>Sottana</i><par n="Sicilia__np"/></e>
+<e lm="Francaidda"><i>Francaidda</i><par n="Sicilia__np"/></e>
+<e lm="Francavilla Bisio"><i>Francavilla<b/>Bisio</i><par n="Sicilia__np"/></e>
+<e lm="Francufonti"><i>Francufonti</i><par n="Sicilia__np"/></e>
+<e lm="Frassinello Monferrato"><i>Frassinello<b/>Monferrato</i><par n="Sicilia__np"/></e>
+<e lm="Frassineto Po"><i>Frassineto<b/>Po</i><par n="Sicilia__np"/></e>
+<e lm="Frazzanò"><i>Frazzanò</i><par n="Sicilia__np"/></e>
+<e lm="Gagghianu"><i>Gagghianu</i><par n="Sicilia__np"/></e>
+<e lm="Gajan"><i>Gajan</i><par n="Sicilia__np"/></e>
+<e lm="Gammatisa"><i>Gammatisa</i><par n="Sicilia__np"/></e>
+<e lm="Garagusu"><i>Garagusu</i><par n="Sicilia__np"/></e>
+<e lm="Garbagna Novarese"><i>Garbagna<b/>Novarese</i><par n="Sicilia__np"/></e>
+<e lm="Garniga Terme"><i>Garniga<b/>Terme</i><par n="Sicilia__np"/></e>
+<e lm="Gassino Torinese"><i>Gassino<b/>Torinese</i><par n="Sicilia__np"/></e>
+<e lm="Gemona del Friuli"><i>Gemona<b/>del<b/>Friuli</i><par n="Sicilia__np"/></e>
+<e lm="Giarratana"><i>Giarratana</i><par n="Sicilia__np"/></e>
+<e lm="Gilduni"><i>Gilduni</i><par n="Sicilia__np"/></e>
+<e lm="Giubiasco"><i>Giubiasco</i><par n="Sicilia__np"/></e>
+<e lm="Golfo Aranci"><i>Golfo<b/>Aranci</i><par n="Sicilia__np"/></e>
+<e lm="Gradisca d'Isonzo"><i>Gradisca<b/>d'Isonzo</i><par n="Sicilia__np"/></e>
+<e lm="Granozzo con Monticello"><i>Granozzo<b/>con<b/>Monticello</i><par n="Sicilia__np"/></e>
+<e lm="Grassanu"><i>Grassanu</i><par n="Sicilia__np"/></e>
+<e lm="Gravellona Toce"><i>Gravellona<b/>Toce</i><par n="Sicilia__np"/></e>
+<e lm="Grazzano Badoglio"><i>Grazzano<b/>Badoglio</i><par n="Sicilia__np"/></e>
+<e lm="Grinzane Cavour"><i>Grinzane<b/>Cavour</i><par n="Sicilia__np"/></e>
+<e lm="Guardialfiera"><i>Guardialfiera</i><par n="Sicilia__np"/></e>
+<e lm="Guardiaregia"><i>Guardiaregia</i><par n="Sicilia__np"/></e>
+<e lm="Guglionisi"><i>Guglionisi</i><par n="Sicilia__np"/></e>
+<e lm="Guijuelo"><i>Guijuelo</i><par n="Sicilia__np"/></e>
+<e lm="Gurgugliuni"><i>Gurgugliuni</i><par n="Sicilia__np"/></e>
+<e lm="Incisa Scapaccino"><i>Incisa<b/>Scapaccino</i><par n="Sicilia__np"/></e>
+<e lm="Inverso Pinasca"><i>Inverso<b/>Pinasca</i><par n="Sicilia__np"/></e>
+<e lm="Irsina"><i>Irsina</i><par n="Sicilia__np"/></e>
+<e lm="Ischitella"><i>Ischitella</i><par n="Sicilia__np"/></e>
+<e lm="Jaci Bonaccossi"><i>Jaci<b/>Bonaccossi</i><par n="Sicilia__np"/></e>
+<e lm="Jaci Catina"><i>Jaci<b/>Catina</i><par n="Sicilia__np"/></e>
+<e lm="Jaci Sant'Antoniu"><i>Jaci<b/>Sant'Antoniu</i><par n="Sicilia__np"/></e>
+<e lm="Janiattini"><i>Janiattini</i><par n="Sicilia__np"/></e>
+<e lm="Jelsi"><i>Jelsi</i><par n="Sicilia__np"/></e>
+<e lm="Jòppulu Giancaxiu"><i>Jòppulu<b/>Giancaxiu</i><par n="Sicilia__np"/></e>
+<e lm="Kalimera"><i>Kalimera</i><par n="Sicilia__np"/></e>
+<e lm="La Magdeleine"><i>La<b/>Magdeleine</i><par n="Sicilia__np"/></e>
+<e lm="La Morra"><i>La<b/>Morra</i><par n="Sicilia__np"/></e>
+<e lm="La Salle"><i>La<b/>Salle</i><par n="Sicilia__np"/></e>
+<e lm="La Thuile"><i>La<b/>Thuile</i><par n="Sicilia__np"/></e>
+<e lm="Lanzo Torinese"><i>Lanzo<b/>Torinese</i><par n="Sicilia__np"/></e>
+<e lm="Larinu"><i>Larinu</i><par n="Sicilia__np"/></e>
+<e lm="Las Plassas"><i>Las<b/>Plassas</i><par n="Sicilia__np"/></e>
+<e lm="Lequio Berria"><i>Lequio<b/>Berria</i><par n="Sicilia__np"/></e>
+<e lm="Lequio Tanaro"><i>Lequio<b/>Tanaro</i><par n="Sicilia__np"/></e>
+<e lm="Levico Terme"><i>Levico<b/>Terme</i><par n="Sicilia__np"/></e>
+<e lm="Lezzanieddhu"><i>Lezzanieddhu</i><par n="Sicilia__np"/></e>
+<e lm="Li Castieddi"><i>Li<b/>Castieddi</i><par n="Sicilia__np"/></e>
+<e lm="Lignano Sabbiadoro"><i>Lignano<b/>Sabbiadoro</i><par n="Sicilia__np"/></e>
+<e lm="Limone Piemonte"><i>Limone<b/>Piemonte</i><par n="Sicilia__np"/></e>
+<e lm="Limosanu"><i>Limosanu</i><par n="Sicilia__np"/></e>
+<e lm="Lìpari"><i>Lìpari</i><par n="Sicilia__np"/></e>
+<e lm="Liranu"><i>Liranu</i><par n="Sicilia__np"/></e>
+<e lm="Lisciànnira di la Rocca"><i>Lisciànnira<b/>di<b/>la<b/>Rocca</i><par n="Sicilia__np"/></e>
+<e lm="Livorno Ferraris"><i>Livorno<b/>Ferraris</i><par n="Sicilia__np"/></e>
+<e lm="Lizzanellu"><i>Lizzanellu</i><par n="Sicilia__np"/></e>
+<e lm="Lizzanieddhru"><i>Lizzanieddhru</i><par n="Sicilia__np"/></e>
+<e lm="Lodè"><i>Lodè</i><par n="Sicilia__np"/></e>
+<e lm="Loiri Porto San Paolo"><i>Loiri<b/>Porto<b/>San<b/>Paolo</i><par n="Sicilia__np"/></e>
+<e lm="Loranzè"><i>Loranzè</i><par n="Sicilia__np"/></e>
+<e lm="Loreggia"><i>Loreggia</i><par n="Sicilia__np"/></e>
+<e lm="Lucera"><i>Lucera</i><par n="Sicilia__np"/></e>
+<e lm="Lusigliè"><i>Lusigliè</i><par n="Sicilia__np"/></e>
+<e lm="macari Marettu"><i>macari<b/>Marettu</i><par n="Sicilia__np"/></e>
+<e lm="Macchia Valfurturi"><i>Macchia<b/>Valfurturi</i><par n="Sicilia__np"/></e>
+<e lm="Madonna del Sasso"><i>Madonna<b/>del<b/>Sasso</i><par n="Sicilia__np"/></e>
+<e lm="Mafalda"><i>Mafalda</i><par n="Sicilia__np"/></e>
+<e lm="Magliano Alfieri"><i>Magliano<b/>Alfieri</i><par n="Sicilia__np"/></e>
+<e lm="Magliano Alpi"><i>Magliano<b/>Alpi</i><par n="Sicilia__np"/></e>
+<e lm="Magnano in Riviera"><i>Magnano<b/>in<b/>Riviera</i><par n="Sicilia__np"/></e>
+<e lm="Magrè sulla Strada del Vino"><i>Magrè<b/>sulla<b/>Strada<b/>del<b/>Vino</i><par n="Sicilia__np"/></e>
+<e lm="Malles Venosta"><i>Malles<b/>Venosta</i><par n="Sicilia__np"/></e>
+<e lm="Mandello Vitta"><i>Mandello<b/>Vitta</i><par n="Sicilia__np"/></e>
+<e lm="Manfredonia"><i>Manfredonia</i><par n="Sicilia__np"/></e>
+<e lm="Maniàci"><i>Maniàci</i><par n="Sicilia__np"/></e>
+<e lm="Mannanici"><i>Mannanici</i><par n="Sicilia__np"/></e>
+<e lm="Marano Lagunare"><i>Marano<b/>Lagunare</i><par n="Sicilia__np"/></e>
+<e lm="Marano Ticino"><i>Marano<b/>Ticino</i><par n="Sicilia__np"/></e>
+<e lm="Mariano del Friuli"><i>Mariano<b/>del<b/>Friuli</i><par n="Sicilia__np"/></e>
+<e lm="Martiniana Po"><i>Martiniana<b/>Po</i><par n="Sicilia__np"/></e>
+<e lm="Marvagna"><i>Marvagna</i><par n="Sicilia__np"/></e>
+<e lm="Màscali"><i>Màscali</i><par n="Sicilia__np"/></e>
+<e lm="Mascalucìa"><i>Mascalucìa</i><par n="Sicilia__np"/></e>
+<e lm="Massino Visconti"><i>Massino<b/>Visconti</i><par n="Sicilia__np"/></e>
+<e lm="Mattinata"><i>Mattinata</i><par n="Sicilia__np"/></e>
+<e lm="Mazzè"><i>Mazzè</i><par n="Sicilia__np"/></e>
+<e lm="Meana Sardo"><i>Meana<b/>Sardo</i><par n="Sicilia__np"/></e>
+<e lm="Melendugnu"><i>Melendugnu</i><par n="Sicilia__np"/></e>
+<e lm="Mereto di Tomba"><i>Mereto<b/>di<b/>Tomba</i><par n="Sicilia__np"/></e>
+<e lm="Mezzana Mortigliengo"><i>Mezzana<b/>Mortigliengo</i><par n="Sicilia__np"/></e>
+<e lm="Migliunicu"><i>Migliunicu</i><par n="Sicilia__np"/></e>
+<e lm="Militeddu"><i>Militeddu</i><par n="Sicilia__np"/></e>
+<e lm="Militeḍḍu"><i>Militeḍḍu</i><par n="Sicilia__np"/></e>
+<e lm="Milu"><i>Milu</i><par n="Sicilia__np"/></e>
+<e lm="Minervino Murge"><i>Minervino<b/>Murge</i><par n="Sicilia__np"/></e>
+<e lm="Minìu"><i>Minìu</i><par n="Sicilia__np"/></e>
+<e lm="Mirabbellu Sanniticu"><i>Mirabbellu<b/>Sanniticu</i><par n="Sicilia__np"/></e>
+<e lm="Mirabello Monferrato"><i>Mirabello<b/>Monferrato</i><par n="Sicilia__np"/></e>
+<e lm="Mirtu"><i>Mirtu</i><par n="Sicilia__np"/></e>
+<e lm="Mistretta"><i>Mistretta</i><par n="Sicilia__np"/></e>
+<e lm="Moggio Udinese"><i>Moggio<b/>Udinese</i><par n="Sicilia__np"/></e>
+<e lm="Molino dei Torti"><i>Molino<b/>dei<b/>Torti</i><par n="Sicilia__np"/></e>
+<e lm="Molisi"><i>Molisi</i><par n="Sicilia__np"/></e>
+<e lm="Mombello di Torino"><i>Mombello<b/>di<b/>Torino</i><par n="Sicilia__np"/></e>
+<e lm="Mombello Monferrato"><i>Mombello<b/>Monferrato</i><par n="Sicilia__np"/></e>
+<e lm="Monacilioni"><i>Monacilioni</i><par n="Sicilia__np"/></e>
+<e lm="Monastero Bormida"><i>Monastero<b/>Bormida</i><par n="Sicilia__np"/></e>
+<e lm="Monastero di Lanzo"><i>Monastero<b/>di<b/>Lanzo</i><par n="Sicilia__np"/></e>
+<e lm="Monastero di Vasco"><i>Monastero<b/>di<b/>Vasco</i><par n="Sicilia__np"/></e>
+<e lm="Monasterolo Casotto"><i>Monasterolo<b/>Casotto</i><par n="Sicilia__np"/></e>
+<e lm="Monasterolo di Savigliano"><i>Monasterolo<b/>di<b/>Savigliano</i><par n="Sicilia__np"/></e>
+<e lm="Moncucco Torinese"><i>Moncucco<b/>Torinese</i><par n="Sicilia__np"/></e>
+<e lm="Monforte d'Alba"><i>Monforte<b/>d'Alba</i><par n="Sicilia__np"/></e>
+<e lm="Mongiardino Ligure"><i>Mongiardino<b/>Ligure</i><par n="Sicilia__np"/></e>
+<e lm="Montalbanu Jonicu"><i>Montalbanu<b/>Jonicu</i><par n="Sicilia__np"/></e>
+<e lm="Montaldo Bormida"><i>Montaldo<b/>Bormida</i><par n="Sicilia__np"/></e>
+<e lm="Montaldo di Mondovì"><i>Montaldo<b/>di<b/>Mondovì</i><par n="Sicilia__np"/></e>
+<e lm="Montaldo Roero"><i>Montaldo<b/>Roero</i><par n="Sicilia__np"/></e>
+<e lm="Montaldo Scarampi"><i>Montaldo<b/>Scarampi</i><par n="Sicilia__np"/></e>
+<e lm="Montaldo Torinese"><i>Montaldo<b/>Torinese</i><par n="Sicilia__np"/></e>
+<e lm="Montalto Dora"><i>Montalto<b/>Dora</i><par n="Sicilia__np"/></e>
+<e lm="Montechiaro d'Acqui"><i>Montechiaro<b/>d'Acqui</i><par n="Sicilia__np"/></e>
+<e lm="Montechiaro d'Asti"><i>Montechiaro<b/>d'Asti</i><par n="Sicilia__np"/></e>
+<e lm="Montegrosso d'Asti"><i>Montegrosso<b/>d'Asti</i><par n="Sicilia__np"/></e>
+<e lm="Montelupo Albese"><i>Montelupo<b/>Albese</i><par n="Sicilia__np"/></e>
+<e lm="Montemale di Cuneo"><i>Montemale<b/>di<b/>Cuneo</i><par n="Sicilia__np"/></e>
+<e lm="Montereale Valcellina"><i>Montereale<b/>Valcellina</i><par n="Sicilia__np"/></e>
+<e lm="Monterosso Grana"><i>Monterosso<b/>Grana</i><par n="Sicilia__np"/></e>
+<e lm="Monteu da Po"><i>Monteu<b/>da<b/>Po</i><par n="Sicilia__np"/></e>
+<e lm="Monteu Roero"><i>Monteu<b/>Roero</i><par n="Sicilia__np"/></e>
+<e lm="Monticello d'Alba"><i>Monticello<b/>d'Alba</i><par n="Sicilia__np"/></e>
+<e lm="Montiglio Monferrato"><i>Montiglio<b/>Monferrato</i><par n="Sicilia__np"/></e>
+<e lm="Morano sul Po"><i>Morano<b/>sul<b/>Po</i><par n="Sicilia__np"/></e>
+<e lm="Moriondo Torinese"><i>Moriondo<b/>Torinese</i><par n="Sicilia__np"/></e>
+<e lm="Morsano al Tagliamento"><i>Morsano<b/>al<b/>Tagliamento</i><par n="Sicilia__np"/></e>
+<e lm="Moso in Passiria"><i>Moso<b/>in<b/>Passiria</i><par n="Sicilia__np"/></e>
+<e lm="Motta Camastra"><i>Motta<b/>Camastra</i><par n="Sicilia__np"/></e>
+<e lm="Motta d'Affermu"><i>Motta<b/>d'Affermu</i><par n="Sicilia__np"/></e>
+<e lm="Motta Munticurvinu"><i>Motta<b/>Munticurvinu</i><par n="Sicilia__np"/></e>
+<e lm="Munfotti"><i>Munfotti</i><par n="Sicilia__np"/></e>
+<e lm="Muntaganu"><i>Muntaganu</i><par n="Sicilia__np"/></e>
+<e lm="Muntallegru"><i>Muntallegru</i><par n="Sicilia__np"/></e>
+<e lm="Muntarbanu"><i>Muntarbanu</i><par n="Sicilia__np"/></e>
+<e lm="Munti Sant'Angilo"><i>Munti<b/>Sant'Angilo</i><par n="Sicilia__np"/></e>
+<e lm="Munticilfuni"><i>Munticilfuni</i><par n="Sicilia__np"/></e>
+<e lm="Muntifalcuni ntô Sanniu"><i>Muntifalcuni<b/>ntô<b/>Sanniu</i><par n="Sicilia__np"/></e>
+<e lm="Muntiliuni di Pugghia"><i>Muntiliuni<b/>di<b/>Pugghia</i><par n="Sicilia__np"/></e>
+<e lm="Muntiloncu"><i>Muntiloncu</i><par n="Sicilia__np"/></e>
+<e lm="Muntimitru"><i>Muntimitru</i><par n="Sicilia__np"/></e>
+<e lm="Muntiniuru di Bisaccia"><i>Muntiniuru<b/>di<b/>Bisaccia</i><par n="Sicilia__np"/></e>
+<e lm="Muntirrussu"><i>Muntirrussu</i><par n="Sicilia__np"/></e>
+<e lm="Muntiscagghiusu"><i>Muntiscagghiusu</i><par n="Sicilia__np"/></e>
+<e lm="Muntivagu"><i>Muntivagu</i><par n="Sicilia__np"/></e>
+<e lm="Muntruni"><i>Muntruni</i><par n="Sicilia__np"/></e>
+<e lm="Munturiu ntê Frentani"><i>Munturiu<b/>ntê<b/>Frentani</i><par n="Sicilia__np"/></e>
+<e lm="Murruni dû Sanniu"><i>Murruni<b/>dû<b/>Sanniu</i><par n="Sicilia__np"/></e>
+<e lm="Mustarjancu"><i>Mustarjancu</i><par n="Sicilia__np"/></e>
+<e lm="Muzzana del Turgnano"><i>Muzzana<b/>del<b/>Turgnano</i><par n="Sicilia__np"/></e>
+<e lm="Naduri"><i>Naduri</i><par n="Sicilia__np"/></e>
+<e lm="Niculùsi"><i>Niculùsi</i><par n="Sicilia__np"/></e>
+<e lm="Niella Belbo"><i>Niella<b/>Belbo</i><par n="Sicilia__np"/></e>
+<e lm="Niella Tanaro"><i>Niella<b/>Tanaro</i><par n="Sicilia__np"/></e>
+<e lm="Nissurìa"><i>Nissurìa</i><par n="Sicilia__np"/></e>
+<e lm="Nizza Monferrato"><i>Nizza<b/>Monferrato</i><par n="Sicilia__np"/></e>
+<e lm="Nova Levante"><i>Nova<b/>Levante</i><par n="Sicilia__np"/></e>
+<e lm="Nova Ponente"><i>Nova<b/>Ponente</i><par n="Sicilia__np"/></e>
+<e lm="Nus"><i>Nus</i><par n="Sicilia__np"/></e>
+<e lm="Occhieppo Inferiore"><i>Occhieppo<b/>Inferiore</i><par n="Sicilia__np"/></e>
+<e lm="Odalengo Grande"><i>Odalengo<b/>Grande</i><par n="Sicilia__np"/></e>
+<e lm="Odalengo Piccolo"><i>Odalengo<b/>Piccolo</i><par n="Sicilia__np"/></e>
+<e lm="Oleggio Castello"><i>Oleggio<b/>Castello</i><par n="Sicilia__np"/></e>
+<e lm="Olmo Gentile"><i>Olmo<b/>Gentile</i><par n="Sicilia__np"/></e>
+<e lm="Oratinu"><i>Oratinu</i><par n="Sicilia__np"/></e>
+<e lm="Ordona"><i>Ordona</i><par n="Sicilia__np"/></e>
+<e lm="Orio Canavese"><i>Orio<b/>Canavese</i><par n="Sicilia__np"/></e>
+<e lm="Orsara Bormida"><i>Orsara<b/>Bormida</i><par n="Sicilia__np"/></e>
+<e lm="Orsara di Pugghia"><i>Orsara<b/>di<b/>Pugghia</i><par n="Sicilia__np"/></e>
+<e lm="Osctuni"><i>Osctuni</i><par n="Sicilia__np"/></e>
+<e lm="Osnago"><i>Osnago</i><par n="Sicilia__np"/></e>
+<e lm="Ozzano Monferrato"><i>Ozzano<b/>Monferrato</i><par n="Sicilia__np"/></e>
+<e lm="Pachinu"><i>Pachinu</i><par n="Sicilia__np"/></e>
+<e lm="Palagunìa"><i>Palagunìa</i><par n="Sicilia__np"/></e>
+<e lm="Palata"><i>Palata</i><par n="Sicilia__np"/></e>
+<e lm="Palazzo Canavese"><i>Palazzo<b/>Canavese</i><par n="Sicilia__np"/></e>
+<e lm="Palazzolo dello Stella"><i>Palazzolo<b/>dello<b/>Stella</i><par n="Sicilia__np"/></e>
+<e lm="Palazzolo Vercellese"><i>Palazzolo<b/>Vercellese</i><par n="Sicilia__np"/></e>
+<e lm="Palazzolu Acrèidi"><i>Palazzolu<b/>Acrèidi</i><par n="Sicilia__np"/></e>
+<e lm="Palmas Arborea"><i>Palmas<b/>Arborea</i><par n="Sicilia__np"/></e>
+<e lm="Palù del Fersina"><i>Palù<b/>del<b/>Fersina</i><par n="Sicilia__np"/></e>
+<e lm="Parabita"><i>Parabita</i><par n="Sicilia__np"/></e>
+<e lm="Parodi Ligure"><i>Parodi<b/>Ligure</i><par n="Sicilia__np"/></e>
+<e lm="Pasian di Prato"><i>Pasian<b/>di<b/>Prato</i><par n="Sicilia__np"/></e>
+<e lm="Pasiano di Pordenone"><i>Pasiano<b/>di<b/>Pordenone</i><par n="Sicilia__np"/></e>
+<e lm="Passerano Marmorito"><i>Passerano<b/>Marmorito</i><par n="Sicilia__np"/></e>
+<e lm="Paternò"><i>Paternò</i><par n="Sicilia__np"/></e>
+<e lm="Patù"><i>Patù</i><par n="Sicilia__np"/></e>
+<e lm="Pauli Arbarei"><i>Pauli<b/>Arbarei</i><par n="Sicilia__np"/></e>
+<e lm="Pavia di Udine"><i>Pavia<b/>di<b/>Udine</i><par n="Sicilia__np"/></e>
+<e lm="Pavone Canavese"><i>Pavone<b/>Canavese</i><par n="Sicilia__np"/></e>
+<e lm="Pecetto di Valenza"><i>Pecetto<b/>di<b/>Valenza</i><par n="Sicilia__np"/></e>
+<e lm="Pecetto Torinese"><i>Pecetto<b/>Torinese</i><par n="Sicilia__np"/></e>
+<e lm="Pergine Valsugana"><i>Pergine<b/>Valsugana</i><par n="Sicilia__np"/></e>
+<e lm="Perosa Argentina"><i>Perosa<b/>Argentina</i><par n="Sicilia__np"/></e>
+<e lm="Perosa Canavese"><i>Perosa<b/>Canavese</i><par n="Sicilia__np"/></e>
+<e lm="Peschici"><i>Peschici</i><par n="Sicilia__np"/></e>
+<e lm="Petacciatu"><i>Petacciatu</i><par n="Sicilia__np"/></e>
+<e lm="Petramunticurvinu"><i>Petramunticurvinu</i><par n="Sicilia__np"/></e>
+<e lm="Petrapirzia"><i>Petrapirzia</i><par n="Sicilia__np"/></e>
+<e lm="Petrella Tifernina"><i>Petrella<b/>Tifernina</i><par n="Sicilia__np"/></e>
+<e lm="Pezzolo Valle Uzzone"><i>Pezzolo<b/>Valle<b/>Uzzone</i><par n="Sicilia__np"/></e>
+<e lm="Piadimunti"><i>Piadimunti</i><par n="Sicilia__np"/></e>
+<e lm="Pietra Marazzi"><i>Pietra<b/>Marazzi</i><par n="Sicilia__np"/></e>
+<e lm="Pietracatella"><i>Pietracatella</i><par n="Sicilia__np"/></e>
+<e lm="Pietracupa"><i>Pietracupa</i><par n="Sicilia__np"/></e>
+<e lm="Pieve Tesino"><i>Pieve<b/>Tesino</i><par n="Sicilia__np"/></e>
+<e lm="Pieve Vergonte"><i>Pieve<b/>Vergonte</i><par n="Sicilia__np"/></e>
+<e lm="Pino Torinese"><i>Pino<b/>Torinese</i><par n="Sicilia__np"/></e>
+<e lm="Pinzano al Tagliamento"><i>Pinzano<b/>al<b/>Tagliamento</i><par n="Sicilia__np"/></e>
+<e lm="Piobesi d'Alba"><i>Piobesi<b/>d'Alba</i><par n="Sicilia__np"/></e>
+<e lm="Piobesi Torinese"><i>Piobesi<b/>Torinese</i><par n="Sicilia__np"/></e>
+<e lm="Piovà Massaia"><i>Piovà<b/>Massaia</i><par n="Sicilia__np"/></e>
+<e lm="Pisticci"><i>Pisticci</i><par n="Sicilia__np"/></e>
+<e lm="Poggiu Mpiriali"><i>Poggiu<b/>Mpiriali</i><par n="Sicilia__np"/></e>
+<e lm="Policoru"><i>Policoru</i><par n="Sicilia__np"/></e>
+<e lm="Pomaricu"><i>Pomaricu</i><par n="Sicilia__np"/></e>
+<e lm="Pomaro Monferrato"><i>Pomaro<b/>Monferrato</i><par n="Sicilia__np"/></e>
+<e lm="Pompèi"><i>Pompèi</i><par n="Sicilia__np"/></e>
+<e lm="Ponte Buggianese"><i>Ponte<b/>Buggianese</i><par n="Sicilia__np"/></e>
+<e lm="Ponte Gardena"><i>Ponte<b/>Gardena</i><par n="Sicilia__np"/></e>
+<e lm="Ponzano Monferrato"><i>Ponzano<b/>Monferrato</i><par n="Sicilia__np"/></e>
+<e lm="Portucannuni"><i>Portucannuni</i><par n="Sicilia__np"/></e>
+<e lm="Pozzol Groppo"><i>Pozzol<b/>Groppo</i><par n="Sicilia__np"/></e>
+<e lm="Pozzolo Formigaro"><i>Pozzolo<b/>Formigaro</i><par n="Sicilia__np"/></e>
+<e lm="Pozzuolo del Friuli"><i>Pozzuolo<b/>del<b/>Friuli</i><par n="Sicilia__np"/></e>
+<e lm="Prata di Pordenone"><i>Prata<b/>di<b/>Pordenone</i><par n="Sicilia__np"/></e>
+<e lm="Prato allo Stelvio"><i>Prato<b/>allo<b/>Stelvio</i><par n="Sicilia__np"/></e>
+<e lm="Prato Carnico"><i>Prato<b/>Carnico</i><par n="Sicilia__np"/></e>
+<e lm="Prato Sesia"><i>Prato<b/>Sesia</i><par n="Sicilia__np"/></e>
+<e lm="Provvidenti"><i>Provvidenti</i><par n="Sicilia__np"/></e>
+<e lm="Puortupalu"><i>Puortupalu</i><par n="Sicilia__np"/></e>
+<e lm="Puru siddu Carpignano nun"><i>Puru<b/>siddu<b/>Carpignano<b/>nun</i><par n="Sicilia__np"/></e>
+<e lm="Quarna Sopra"><i>Quarna<b/>Sopra</i><par n="Sicilia__np"/></e>
+<e lm="Quarna Sotto"><i>Quarna<b/>Sotto</i><par n="Sicilia__np"/></e>
+<e lm="Quinto Vercellese"><i>Quinto<b/>Vercellese</i><par n="Sicilia__np"/></e>
+<e lm="Racalmutu"><i>Racalmutu</i><par n="Sicilia__np"/></e>
+<e lm="Raganna nta àutri parrati siciliani"><i>Raganna<b/>nta<b/>àutri<b/>parrati<b/>siciliani</i><par n="Sicilia__np"/></e>
+<e lm="Rastanu"><i>Rastanu</i><par n="Sicilia__np"/></e>
+<e lm="Rasun Anterselva"><i>Rasun<b/>Anterselva</i><par n="Sicilia__np"/></e>
+<e lm="Reana del Rojale"><i>Reana<b/>del<b/>Rojale</i><par n="Sicilia__np"/></e>
+<e lm="Regarbutu"><i>Regarbutu</i><par n="Sicilia__np"/></e>
+<e lm="Resuttanu"><i>Resuttanu</i><par n="Sicilia__np"/></e>
+<e lm="Revigliasco d'Asti"><i>Revigliasco<b/>d'Asti</i><par n="Sicilia__np"/></e>
+<e lm="Ribbera"><i>Ribbera</i><par n="Sicilia__np"/></e>
+<e lm="Riccia"><i>Riccia</i><par n="Sicilia__np"/></e>
+<e lm="Rignanu Garganicu"><i>Rignanu<b/>Garganicu</i><par n="Sicilia__np"/></e>
+<e lm="Rio di Pusteria"><i>Rio<b/>di<b/>Pusteria</i><par n="Sicilia__np"/></e>
+<e lm="Riola Sardo"><i>Riola<b/>Sardo</i><par n="Sicilia__np"/></e>
+<e lm="Ripabbuttuni"><i>Ripabbuttuni</i><par n="Sicilia__np"/></e>
+<e lm="Ripalimusani"><i>Ripalimusani</i><par n="Sicilia__np"/></e>
+<e lm="Ripoll"><i>Ripoll</i><par n="Sicilia__np"/></e>
+<e lm="Riva del Garda"><i>Riva<b/>del<b/>Garda</i><par n="Sicilia__np"/></e>
+<e lm="Riva presso Chieri"><i>Riva<b/>presso<b/>Chieri</i><par n="Sicilia__np"/></e>
+<e lm="Riva Valdobbia"><i>Riva<b/>Valdobbia</i><par n="Sicilia__np"/></e>
+<e lm="Rivalta Bormida"><i>Rivalta<b/>Bormida</i><par n="Sicilia__np"/></e>
+<e lm="Rivalta di Torino"><i>Rivalta<b/>di<b/>Torino</i><par n="Sicilia__np"/></e>
+<e lm="Rivarolo Canavese"><i>Rivarolo<b/>Canavese</i><par n="Sicilia__np"/></e>
+<e lm="Rive d'Arcano"><i>Rive<b/>d'Arcano</i><par n="Sicilia__np"/></e>
+<e lm="Rocca Canavese"><i>Rocca<b/>Canavese</i><par n="Sicilia__np"/></e>
+<e lm="Rocca Cigliè"><i>Rocca<b/>Cigliè</i><par n="Sicilia__np"/></e>
+<e lm="Rocca d'Arazzo"><i>Rocca<b/>d'Arazzo</i><par n="Sicilia__np"/></e>
+<e lm="Rocca de' Baldi"><i>Rocca<b/>de'<b/>Baldi</i><par n="Sicilia__np"/></e>
+<e lm="Rocca Grimalda"><i>Rocca<b/>Grimalda</i><par n="Sicilia__np"/></e>
+<e lm="Roccaforte Ligure"><i>Roccaforte<b/>Ligure</i><par n="Sicilia__np"/></e>
+<e lm="Roccaforte Mondovì"><i>Roccaforte<b/>Mondovì</i><par n="Sicilia__np"/></e>
+<e lm="Roccamena"><i>Roccamena</i><par n="Sicilia__np"/></e>
+<e lm="Roccavivara"><i>Roccavivara</i><par n="Sicilia__np"/></e>
+<e lm="Rocchetta Belbo"><i>Rocchetta<b/>Belbo</i><par n="Sicilia__np"/></e>
+<e lm="Rocchetta Ligure"><i>Rocchetta<b/>Ligure</i><par n="Sicilia__np"/></e>
+<e lm="Rocchetta Palafea"><i>Rocchetta<b/>Palafea</i><par n="Sicilia__np"/></e>
+<e lm="Rocchetta Tanaro"><i>Rocchetta<b/>Tanaro</i><par n="Sicilia__np"/></e>
+<e lm="Rodi Garganicu"><i>Rodi<b/>Garganicu</i><par n="Sicilia__np"/></e>
+<e lm="Romagnano Sesia"><i>Romagnano<b/>Sesia</i><par n="Sicilia__np"/></e>
+<e lm="Romano Canavese"><i>Romano<b/>Canavese</i><par n="Sicilia__np"/></e>
+<e lm="Romans d'Isonzo"><i>Romans<b/>d'Isonzo</i><par n="Sicilia__np"/></e>
+<e lm="Roncegno Terme"><i>Roncegno<b/>Terme</i><par n="Sicilia__np"/></e>
+<e lm="Ronchi dei Legionari"><i>Ronchi<b/>dei<b/>Legionari</i><par n="Sicilia__np"/></e>
+<e lm="Ronchi Valsugana"><i>Ronchi<b/>Valsugana</i><par n="Sicilia__np"/></e>
+<e lm="Ronco Biellese"><i>Ronco<b/>Biellese</i><par n="Sicilia__np"/></e>
+<e lm="Ronco Canavese"><i>Ronco<b/>Canavese</i><par n="Sicilia__np"/></e>
+<e lm="Rosetu Valfurturi"><i>Rosetu<b/>Valfurturi</i><par n="Sicilia__np"/></e>
+<e lm="Rosignano Monferrato"><i>Rosignano<b/>Monferrato</i><par n="Sicilia__np"/></e>
+<e lm="Rotellu"><i>Rotellu</i><par n="Sicilia__np"/></e>
+<e lm="Rotondella"><i>Rotondella</i><par n="Sicilia__np"/></e>
+<e lm="Roveré della Luna"><i>Roveré<b/>della<b/>Luna</i><par n="Sicilia__np"/></e>
+<e lm="Roveredo in Piano"><i>Roveredo<b/>in<b/>Piano</i><par n="Sicilia__np"/></e>
+<e lm="Ruffré-Mendola"><i>Ruffré-Mendola</i><par n="Sicilia__np"/></e>
+<e lm="Sagliano Micca"><i>Sagliano<b/>Micca</i><par n="Sicilia__np"/></e>
+<e lm="Sagron Mis"><i>Sagron<b/>Mis</i><par n="Sicilia__np"/></e>
+<e lm="Sala Biellese"><i>Sala<b/>Biellese</i><par n="Sicilia__np"/></e>
+<e lm="Sala Monferrato"><i>Sala<b/>Monferrato</i><par n="Sicilia__np"/></e>
+<e lm="Salandra"><i>Salandra</i><par n="Sicilia__np"/></e>
+<e lm="Salcitu"><i>Salcitu</i><par n="Sicilia__np"/></e>
+<e lm="Sale delle Langhe"><i>Sale<b/>delle<b/>Langhe</i><par n="Sicilia__np"/></e>
+<e lm="Salerano Canavese"><i>Salerano<b/>Canavese</i><par n="Sicilia__np"/></e>
+<e lm="Sali Vercellese"><i>Sali<b/>Vercellese</i><par n="Sicilia__np"/></e>
+<e lm="Salza di Pinerolo"><i>Salza<b/>di<b/>Pinerolo</i><par n="Sicilia__np"/></e>
+<e lm="Sambuca Pistoiese"><i>Sambuca<b/>Pistoiese</i><par n="Sicilia__np"/></e>
+<e lm="Sammichel"><i>Sammichel</i><par n="Sicilia__np"/></e>
+<e lm="Sammuca"><i>Sammuca</i><par n="Sicilia__np"/></e>
+<e lm="San Basilio"><i>San<b/>Basilio</i><par n="Sicilia__np"/></e>
+<e lm="San Benedetto Belbo"><i>San<b/>Benedetto<b/>Belbo</i><par n="Sicilia__np"/></e>
+<e lm="San Benigno Canavese"><i>San<b/>Benigno<b/>Canavese</i><par n="Sicilia__np"/></e>
+<e lm="San Bernardino Verbano"><i>San<b/>Bernardino<b/>Verbano</i><par n="Sicilia__np"/></e>
+<e lm="San Biasi"><i>San<b/>Biasi</i><par n="Sicilia__np"/></e>
+<e lm="San Bonifacio"><i>San<b/>Bonifacio</i><par n="Sicilia__np"/></e>
+<e lm="San Brasi"><i>San<b/>Brasi</i><par n="Sicilia__np"/></e>
+<e lm="San Candido"><i>San<b/>Candido</i><par n="Sicilia__np"/></e>
+<e lm="San Canzian d'Isonzo"><i>San<b/>Canzian<b/>d'Isonzo</i><par n="Sicilia__np"/></e>
+<e lm="San Carlo Canavese"><i>San<b/>Carlo<b/>Canavese</i><par n="Sicilia__np"/></e>
+<e lm="San Colombano Belmonte"><i>San<b/>Colombano<b/>Belmonte</i><par n="Sicilia__np"/></e>
+<e lm="San Cristoforo"><i>San<b/>Cristoforo</i><par n="Sicilia__np"/></e>
+<e lm="San Daniele del Friuli"><i>San<b/>Daniele<b/>del<b/>Friuli</i><par n="Sicilia__np"/></e>
+<e lm="San Didero"><i>San<b/>Didero</i><par n="Sicilia__np"/></e>
+<e lm="San Donàci"><i>San<b/>Donàci</i><par n="Sicilia__np"/></e>
+<e lm="San Dorligo della Valle"><i>San<b/>Dorligo<b/>della<b/>Valle</i><par n="Sicilia__np"/></e>
+<e lm="San Filici dû Molisi"><i>San<b/>Filici<b/>dû<b/>Molisi</i><par n="Sicilia__np"/></e>
+<e lm="San Floriano del Collio"><i>San<b/>Floriano<b/>del<b/>Collio</i><par n="Sicilia__np"/></e>
+<e lm="San Francesco al Campo"><i>San<b/>Francesco<b/>al<b/>Campo</i><par n="Sicilia__np"/></e>
+<e lm="San Gavino Monreale"><i>San<b/>Gavino<b/>Monreale</i><par n="Sicilia__np"/></e>
+<e lm="San Genesio Atesino"><i>San<b/>Genesio<b/>Atesino</i><par n="Sicilia__np"/></e>
+<e lm="San Germano Chisone"><i>San<b/>Germano<b/>Chisone</i><par n="Sicilia__np"/></e>
+<e lm="San Germano Vercellese"><i>San<b/>Germano<b/>Vercellese</i><par n="Sicilia__np"/></e>
+<e lm="San Giacomo Vercellese"><i>San<b/>Giacomo<b/>Vercellese</i><par n="Sicilia__np"/></e>
+<e lm="San Giacumu dî Schiavuni"><i>San<b/>Giacumu<b/>dî<b/>Schiavuni</i><par n="Sicilia__np"/></e>
+<e lm="San Gillio"><i>San<b/>Gillio</i><par n="Sicilia__np"/></e>
+<e lm="San Giorgio Canavese"><i>San<b/>Giorgio<b/>Canavese</i><par n="Sicilia__np"/></e>
+<e lm="San Giorgio della Richinvelda"><i>San<b/>Giorgio<b/>della<b/>Richinvelda</i><par n="Sicilia__np"/></e>
+<e lm="San Giorgio di Nogaro"><i>San<b/>Giorgio<b/>di<b/>Nogaro</i><par n="Sicilia__np"/></e>
+<e lm="San Giorgio Monferrato"><i>San<b/>Giorgio<b/>Monferrato</i><par n="Sicilia__np"/></e>
+<e lm="San Giorgio Scarampi"><i>San<b/>Giorgio<b/>Scarampi</i><par n="Sicilia__np"/></e>
+<e lm="San Giorio di Susa"><i>San<b/>Giorio<b/>di<b/>Susa</i><par n="Sicilia__np"/></e>
+<e lm="San Giovanni al Natisone"><i>San<b/>Giovanni<b/>al<b/>Natisone</i><par n="Sicilia__np"/></e>
+<e lm="San Giovanni Suergiu"><i>San<b/>Giovanni<b/>Suergiu</i><par n="Sicilia__np"/></e>
+<e lm="San Giulianu dû Sanniu"><i>San<b/>Giulianu<b/>dû<b/>Sanniu</i><par n="Sicilia__np"/></e>
+<e lm="San Giusto Canavese"><i>San<b/>Giusto<b/>Canavese</i><par n="Sicilia__np"/></e>
+<e lm="San Giuvanni n Galdu"><i>San<b/>Giuvanni<b/>n<b/>Galdu</i><par n="Sicilia__np"/></e>
+<e lm="San Lorenzo di Sebato"><i>San<b/>Lorenzo<b/>di<b/>Sebato</i><par n="Sicilia__np"/></e>
+<e lm="San Lorenzo in Banale"><i>San<b/>Lorenzo<b/>in<b/>Banale</i><par n="Sicilia__np"/></e>
+<e lm="San Lorenzo Isontino"><i>San<b/>Lorenzo<b/>Isontino</i><par n="Sicilia__np"/></e>
+<e lm="San Marcu la Catola"><i>San<b/>Marcu<b/>la<b/>Catola</i><par n="Sicilia__np"/></e>
+<e lm="San Martino al Tagliamento"><i>San<b/>Martino<b/>al<b/>Tagliamento</i><par n="Sicilia__np"/></e>
+<e lm="San Martino Canavese"><i>San<b/>Martino<b/>Canavese</i><par n="Sicilia__np"/></e>
+<e lm="San Martinu n Pensilis"><i>San<b/>Martinu<b/>n<b/>Pensilis</i><par n="Sicilia__np"/></e>
+<e lm="San Marzano Oliveto"><i>San<b/>Marzano<b/>Oliveto</i><par n="Sicilia__np"/></e>
+<e lm="San Maurizio Canavese"><i>San<b/>Maurizio<b/>Canavese</i><par n="Sicilia__np"/></e>
+<e lm="San Maurizio d'Opaglio"><i>San<b/>Maurizio<b/>d'Opaglio</i><par n="Sicilia__np"/></e>
+<e lm="San Mauro Torinese"><i>San<b/>Mauro<b/>Torinese</i><par n="Sicilia__np"/></e>
+<e lm="San Mrasi nta àutri parrati siciliani"><i>San<b/>Mrasi<b/>nta<b/>àutri<b/>parrati<b/>siciliani</i><par n="Sicilia__np"/></e>
+<e lm="San Nazario"><i>San<b/>Nazario</i><par n="Sicilia__np"/></e>
+<e lm="San Nazzaro Sesia"><i>San<b/>Nazzaro<b/>Sesia</i><par n="Sicilia__np"/></e>
+<e lm="San Nicandru Garganicu"><i>San<b/>Nicandru<b/>Garganicu</i><par n="Sicilia__np"/></e>
+<e lm="San Nicolò d'Arcidano"><i>San<b/>Nicolò<b/>d'Arcidano</i><par n="Sicilia__np"/></e>
+<e lm="San Nicolò Gerrei"><i>San<b/>Nicolò<b/>Gerrei</i><par n="Sicilia__np"/></e>
+<e lm="San Pancrazio"><i>San<b/>Pancrazio</i><par n="Sicilia__np"/></e>
+<e lm="San Paolo Solbrito"><i>San<b/>Paolo<b/>Solbrito</i><par n="Sicilia__np"/></e>
+<e lm="San Paolu di Civitati"><i>San<b/>Paolu<b/>di<b/>Civitati</i><par n="Sicilia__np"/></e>
+<e lm="San Pier d'Isonzo"><i>San<b/>Pier<b/>d'Isonzo</i><par n="Sicilia__np"/></e>
+<e lm="San Pietro al Natisone"><i>San<b/>Pietro<b/>al<b/>Natisone</i><par n="Sicilia__np"/></e>
+<e lm="San Pietro Mosezzo"><i>San<b/>Pietro<b/>Mosezzo</i><par n="Sicilia__np"/></e>
+<e lm="San Pietro Val Lemina"><i>San<b/>Pietro<b/>Val<b/>Lemina</i><par n="Sicilia__np"/></e>
+<e lm="San Polu Matisi"><i>San<b/>Polu<b/>Matisi</i><par n="Sicilia__np"/></e>
+<e lm="San Ponso"><i>San<b/>Ponso</i><par n="Sicilia__np"/></e>
+<e lm="San Quirino"><i>San<b/>Quirino</i><par n="Sicilia__np"/></e>
+<e lm="San Raffaele Cimena"><i>San<b/>Raffaele<b/>Cimena</i><par n="Sicilia__np"/></e>
+<e lm="San Salvatore Monferrato"><i>San<b/>Salvatore<b/>Monferrato</i><par n="Sicilia__np"/></e>
+<e lm="San Sebastiano Curone"><i>San<b/>Sebastiano<b/>Curone</i><par n="Sicilia__np"/></e>
+<e lm="San Siro"><i>San<b/>Siro</i><par n="Sicilia__np"/></e>
+<e lm="San Sperate"><i>San<b/>Sperate</i><par n="Sicilia__np"/></e>
+<e lm="San Teodoro"><i>San<b/>Teodoro</i><par n="Sicilia__np"/></e>
+<e lm="San Vero Milis"><i>San<b/>Vero<b/>Milis</i><par n="Sicilia__np"/></e>
+<e lm="San Vito al Tagliamento"><i>San<b/>Vito<b/>al<b/>Tagliamento</i><par n="Sicilia__np"/></e>
+<e lm="Sanfrè"><i>Sanfrè</i><par n="Sicilia__np"/></e>
+<e lm="Santa Cristina Valgardena"><i>Santa<b/>Cristina<b/>Valgardena</i><par n="Sicilia__np"/></e>
+<e lm="Santa Cruci Camarina"><i>Santa<b/>Cruci<b/>Camarina</i><par n="Sicilia__np"/></e>
+<e lm="Santa Cruci di Maglianu"><i>Santa<b/>Cruci<b/>di<b/>Maglianu</i><par n="Sicilia__np"/></e>
+<e lm="Santa Giuletta"><i>Santa<b/>Giuletta</i><par n="Sicilia__np"/></e>
+<e lm="Santa Giustina"><i>Santa<b/>Giustina</i><par n="Sicilia__np"/></e>
+<e lm="Santa Maria Coghinas"><i>Santa<b/>Maria<b/>Coghinas</i><par n="Sicilia__np"/></e>
+<e lm="Santa Maria Maggiore"><i>Santa<b/>Maria<b/>Maggiore</i><par n="Sicilia__np"/></e>
+<e lm="Santa Vinirina"><i>Santa<b/>Vinirina</i><par n="Sicilia__np"/></e>
+<e lm="Sant'Agata Fossili"><i>Sant'Agata<b/>Fossili</i><par n="Sicilia__np"/></e>
+<e lm="Sant'Àita di Militieddu"><i>Sant'Àita<b/>di<b/>Militieddu</i><par n="Sicilia__np"/></e>
+<e lm="Sant'Àita li Vattiati"><i>Sant'Àita<b/>li<b/>Vattiati</i><par n="Sicilia__np"/></e>
+<e lm="Sant'Àncilu di Brolu"><i>Sant'Àncilu<b/>di<b/>Brolu</i><par n="Sicilia__np"/></e>
+<e lm="Sant'Àncilu Limusanu"><i>Sant'Àncilu<b/>Limusanu</i><par n="Sicilia__np"/></e>
+<e lm="Sant'Andrea Frius"><i>Sant'Andrea<b/>Frius</i><par n="Sicilia__np"/></e>
+<e lm="Sant'Anna Arresi"><i>Sant'Anna<b/>Arresi</i><par n="Sicilia__np"/></e>
+<e lm="Sant'Arfiu"><i>Sant'Arfiu</i><par n="Sicilia__np"/></e>
+<e lm="Sant'Elia a Pianisi"><i>Sant'Elia<b/>a<b/>Pianisi</i><par n="Sicilia__np"/></e>
+<e lm="Santo Stefano Belbo"><i>Santo<b/>Stefano<b/>Belbo</i><par n="Sicilia__np"/></e>
+<e lm="Santo Stefano Roero"><i>Santo<b/>Stefano<b/>Roero</i><par n="Sicilia__np"/></e>
+<e lm="Sant'Orsola Terme"><i>Sant'Orsola<b/>Terme</i><par n="Sicilia__np"/></e>
+<e lm="Santu Cataddu"><i>Santu<b/>Cataddu</i><par n="Sicilia__np"/></e>
+<e lm="Santu Conu"><i>Santu<b/>Conu</i><par n="Sicilia__np"/></e>
+<e lm="Santu Lussurgiu"><i>Santu<b/>Lussurgiu</i><par n="Sicilia__np"/></e>
+<e lm="Santu Pietru Vernoticu"><i>Santu<b/>Pietru<b/>Vernoticu</i><par n="Sicilia__np"/></e>
+<e lm="Santu Stèfanu Quisquina"><i>Santu<b/>Stèfanu<b/>Quisquina</i><par n="Sicilia__np"/></e>
+<e lm="Sapunara"><i>Sapunara</i><par n="Sicilia__np"/></e>
+<e lm="Sauze di Cesana"><i>Sauze<b/>di<b/>Cesana</i><par n="Sicilia__np"/></e>
+<e lm="Sauze d'Oulx"><i>Sauze<b/>d'Oulx</i><par n="Sicilia__np"/></e>
+<e lm="Savogna d'Isonzo"><i>Savogna<b/>d'Isonzo</i><par n="Sicilia__np"/></e>
+<e lm="Sàvuca"><i>Sàvuca</i><par n="Sicilia__np"/></e>
+<e lm="Scano di Montiferro"><i>Scano<b/>di<b/>Montiferro</i><par n="Sicilia__np"/></e>
+<e lm="Scicli"><i>Scicli</i><par n="Sicilia__np"/></e>
+<e lm="Sciurtinu"><i>Sciurtinu</i><par n="Sicilia__np"/></e>
+<e lm="Scurdìa"><i>Scurdìa</i><par n="Sicilia__np"/></e>
+<e lm="Selva dei Molini"><i>Selva<b/>dei<b/>Molini</i><par n="Sicilia__np"/></e>
+<e lm="Selva di Val Gardena"><i>Selva<b/>di<b/>Val<b/>Gardena</i><par n="Sicilia__np"/></e>
+<e lm="Selve Marcone"><i>Selve<b/>Marcone</i><par n="Sicilia__np"/></e>
+<e lm="Senale-San Felice"><i>Senale-San<b/>Felice</i><par n="Sicilia__np"/></e>
+<e lm="Sepinu"><i>Sepinu</i><par n="Sicilia__np"/></e>
+<e lm="Serracapriola"><i>Serracapriola</i><par n="Sicilia__np"/></e>
+<e lm="Serradifalcu"><i>Serradifalcu</i><par n="Sicilia__np"/></e>
+<e lm="Serralunga d'Alba"><i>Serralunga<b/>d'Alba</i><par n="Sicilia__np"/></e>
+<e lm="Serralunga di Crea"><i>Serralunga<b/>di<b/>Crea</i><par n="Sicilia__np"/></e>
+<e lm="Serravalle Langhe"><i>Serravalle<b/>Langhe</i><par n="Sicilia__np"/></e>
+<e lm="Serravalle Scrivia"><i>Serravalle<b/>Scrivia</i><par n="Sicilia__np"/></e>
+<e lm="Serravalle Sesia"><i>Serravalle<b/>Sesia</i><par n="Sicilia__np"/></e>
+<e lm="Sesto al Reghena"><i>Sesto<b/>al<b/>Reghena</i><par n="Sicilia__np"/></e>
+<e lm="Settimo Rottaro"><i>Settimo<b/>Rottaro</i><par n="Sicilia__np"/></e>
+<e lm="Settimo Torinese"><i>Settimo<b/>Torinese</i><par n="Sicilia__np"/></e>
+<e lm="Settimo Vittone"><i>Settimo<b/>Vittone</i><par n="Sicilia__np"/></e>
+<e lm="Shtuni"><i>Shtuni</i><par n="Sicilia__np"/></e>
+<e lm="Siculiana"><i>Siculiana</i><par n="Sicilia__np"/></e>
+<e lm="Silvano d'Orba"><i>Silvano<b/>d'Orba</i><par n="Sicilia__np"/></e>
+<e lm="Sinàgra"><i>Sinàgra</i><par n="Sicilia__np"/></e>
+<e lm="Siurgus Donigala"><i>Siurgus<b/>Donigala</i><par n="Sicilia__np"/></e>
+<e lm="Sommariva del Bosco"><i>Sommariva<b/>del<b/>Bosco</i><par n="Sicilia__np"/></e>
+<e lm="Sommariva Perno"><i>Sommariva<b/>Perno</i><par n="Sicilia__np"/></e>
+<e lm="Spigno Monferrato"><i>Spigno<b/>Monferrato</i><par n="Sicilia__np"/></e>
+<e lm="Spillinga"><i>Spillinga</i><par n="Sicilia__np"/></e>
+<e lm="Spinazzola"><i>Spinazzola</i><par n="Sicilia__np"/></e>
+<e lm="Spineti"><i>Spineti</i><par n="Sicilia__np"/></e>
+<e lm="Spineto Scrivia"><i>Spineto<b/>Scrivia</i><par n="Sicilia__np"/></e>
+<e lm="Stornara"><i>Stornara</i><par n="Sicilia__np"/></e>
+<e lm="Stornarella"><i>Stornarella</i><par n="Sicilia__np"/></e>
+<e lm="Stuni"><i>Stuni</i><par n="Sicilia__np"/></e>
+<e lm="Tagliolo Monferrato"><i>Tagliolo<b/>Monferrato</i><par n="Sicilia__np"/></e>
+<e lm="Tavenna"><i>Tavenna</i><par n="Sicilia__np"/></e>
+<e lm="Telve di Sopra"><i>Telve<b/>di<b/>Sopra</i><par n="Sicilia__np"/></e>
+<e lm="Termeno sulla Strada del Vino"><i>Termeno<b/>sulla<b/>Strada<b/>del<b/>Vino</i><par n="Sicilia__np"/></e>
+<e lm="Tèrmuli"><i>Tèrmuli</i><par n="Sicilia__np"/></e>
+<e lm="Tione di Trento"><i>Tione<b/>di<b/>Trento</i><par n="Sicilia__np"/></e>
+<e lm="Ton"><i>Ton</i><par n="Sicilia__np"/></e>
+<e lm="Torella dû Sanniu"><i>Torella<b/>dû<b/>Sanniu</i><par n="Sicilia__np"/></e>
+<e lm="Torpè"><i>Torpè</i><par n="Sicilia__np"/></e>
+<e lm="Torrazza Piemonte"><i>Torrazza<b/>Piemonte</i><par n="Sicilia__np"/></e>
+<e lm="Torre Bormida"><i>Torre<b/>Bormida</i><par n="Sicilia__np"/></e>
+<e lm="Torre Canavese"><i>Torre<b/>Canavese</i><par n="Sicilia__np"/></e>
+<e lm="Torre Pellice"><i>Torre<b/>Pellice</i><par n="Sicilia__np"/></e>
+<e lm="Torri"><i>Torri</i><par n="Sicilia__np"/></e>
+<e lm="Tramonti di Sopra"><i>Tramonti<b/>di<b/>Sopra</i><par n="Sicilia__np"/></e>
+<e lm="Tramonti di Sotto"><i>Tramonti<b/>di<b/>Sotto</i><par n="Sicilia__np"/></e>
+<e lm="Trarego Viggiona"><i>Trarego<b/>Viggiona</i><par n="Sicilia__np"/></e>
+<e lm="Treppo Carnico"><i>Treppo<b/>Carnico</i><par n="Sicilia__np"/></e>
+<e lm="Treppo Grande"><i>Treppo<b/>Grande</i><par n="Sicilia__np"/></e>
+<e lm="Trezzo Tinella"><i>Trezzo<b/>Tinella</i><par n="Sicilia__np"/></e>
+<e lm="Triccastagni"><i>Triccastagni</i><par n="Sicilia__np"/></e>
+<e lm="Trinità d'Agultu e Vignola"><i>Trinità<b/>d'Agultu<b/>e<b/>Vignola</i><par n="Sicilia__np"/></e>
+<e lm="Trinitapoli"><i>Trinitapoli</i><par n="Sicilia__np"/></e>
+<e lm="Triventu"><i>Triventu</i><par n="Sicilia__np"/></e>
+<e lm="Trivignano Udinese"><i>Trivignano<b/>Udinese</i><par n="Sicilia__np"/></e>
+<e lm="Trodena nel parco naturale"><i>Trodena<b/>nel<b/>parco<b/>naturale</i><par n="Sicilia__np"/></e>
+<e lm="Troìa"><i>Troìa</i><par n="Sicilia__np"/></e>
+<e lm="Tronzano Vercellese"><i>Tronzano<b/>Vercellese</i><par n="Sicilia__np"/></e>
+<e lm="Truina"><i>Truina</i><par n="Sicilia__np"/></e>
+<e lm="Tufara"><i>Tufara</i><par n="Sicilia__np"/></e>
+<e lm="Turchiarulu"><i>Turchiarulu</i><par n="Sicilia__np"/></e>
+<e lm="Turrimaggiuri"><i>Turrimaggiuri</i><par n="Sicilia__np"/></e>
+<e lm="Turrinova"><i>Turrinova</i><par n="Sicilia__np"/></e>
+<e lm="Ula Tirso"><i>Ula<b/>Tirso</i><par n="Sicilia__np"/></e>
+<e lm="Ulivetu Lucanu"><i>Ulivetu<b/>Lucanu</i><par n="Sicilia__np"/></e>
+<e lm="Ururi"><i>Ururi</i><par n="Sicilia__np"/></e>
+<e lm="Vaglio Serra"><i>Vaglio<b/>Serra</i><par n="Sicilia__np"/></e>
+<e lm="Val Masino"><i>Val<b/>Masino</i><par n="Sicilia__np"/></e>
+<e lm="Valle Aurina"><i>Valle<b/>Aurina</i><par n="Sicilia__np"/></e>
+<e lm="Valle di Casies"><i>Valle<b/>di<b/>Casies</i><par n="Sicilia__np"/></e>
+<e lm="Valle San Nicolao"><i>Valle<b/>San<b/>Nicolao</i><par n="Sicilia__np"/></e>
+<e lm="Vallo Torinese"><i>Vallo<b/>Torinese</i><par n="Sicilia__np"/></e>
+<e lm="Valprato Soana"><i>Valprato<b/>Soana</i><par n="Sicilia__np"/></e>
+<e lm="Vanzone con San Carlo"><i>Vanzone<b/>con<b/>San<b/>Carlo</i><par n="Sicilia__np"/></e>
+<e lm="Vaprio d'Agogna"><i>Vaprio<b/>d'Agogna</i><par n="Sicilia__np"/></e>
+<e lm="Varanni"><i>Varanni</i><par n="Sicilia__np"/></e>
+<e lm="Vas"><i>Vas</i><par n="Sicilia__np"/></e>
+<e lm="Vauda Canavese"><i>Vauda<b/>Canavese</i><par n="Sicilia__np"/></e>
+<e lm="Venaria Reale"><i>Venaria<b/>Reale</i><par n="Sicilia__np"/></e>
+<e lm="Verrès"><i>Verrès</i><par n="Sicilia__np"/></e>
+<e lm="Verrua Savoia"><i>Verrua<b/>Savoia</i><par n="Sicilia__np"/></e>
+<e lm="Vestignè"><i>Vestignè</i><par n="Sicilia__np"/></e>
+<e lm="Vezza d'Alba"><i>Vezza<b/>d'Alba</i><par n="Sicilia__np"/></e>
+<e lm="Vialfrè"><i>Vialfrè</i><par n="Sicilia__np"/></e>
+<e lm="Vico Canavese"><i>Vico<b/>Canavese</i><par n="Sicilia__np"/></e>
+<e lm="Vicu dû Garganu"><i>Vicu<b/>dû<b/>Garganu</i><par n="Sicilia__np"/></e>
+<e lm="Viesti"><i>Viesti</i><par n="Sicilia__np"/></e>
+<e lm="Vigliano Biellese"><i>Vigliano<b/>Biellese</i><par n="Sicilia__np"/></e>
+<e lm="Vigliano d'Asti"><i>Vigliano<b/>d'Asti</i><par n="Sicilia__np"/></e>
+<e lm="Vignale Monferrato"><i>Vignale<b/>Monferrato</i><par n="Sicilia__np"/></e>
+<e lm="Vignole Borbera"><i>Vignole<b/>Borbera</i><par n="Sicilia__np"/></e>
+<e lm="Vigo Rendena"><i>Vigo<b/>Rendena</i><par n="Sicilia__np"/></e>
+<e lm="Vigolo Vattaro"><i>Vigolo<b/>Vattaro</i><par n="Sicilia__np"/></e>
+<e lm="Villa Agnedo"><i>Villa<b/>Agnedo</i><par n="Sicilia__np"/></e>
+<e lm="Villa del Bosco"><i>Villa<b/>del<b/>Bosco</i><par n="Sicilia__np"/></e>
+<e lm="Villa Lagarina"><i>Villa<b/>Lagarina</i><par n="Sicilia__np"/></e>
+<e lm="Villa Rendena"><i>Villa<b/>Rendena</i><par n="Sicilia__np"/></e>
+<e lm="Villa Santina"><i>Villa<b/>Santina</i><par n="Sicilia__np"/></e>
+<e lm="Villa Vicentina"><i>Villa<b/>Vicentina</i><par n="Sicilia__np"/></e>
+<e lm="Villagrande Strisaili"><i>Villagrande<b/>Strisaili</i><par n="Sicilia__np"/></e>
+<e lm="Villanova Biellese"><i>Villanova<b/>Biellese</i><par n="Sicilia__np"/></e>
+<e lm="Villanova Canavese"><i>Villanova<b/>Canavese</i><par n="Sicilia__np"/></e>
+<e lm="Villanova Monferrato"><i>Villanova<b/>Monferrato</i><par n="Sicilia__np"/></e>
+<e lm="Villanova Truschedu"><i>Villanova<b/>Truschedu</i><par n="Sicilia__np"/></e>
+<e lm="Villanova Tulo"><i>Villanova<b/>Tulo</i><par n="Sicilia__np"/></e>
+<e lm="Villar Focchiardo"><i>Villar<b/>Focchiardo</i><par n="Sicilia__np"/></e>
+<e lm="Villar Pellice"><i>Villar<b/>Pellice</i><par n="Sicilia__np"/></e>
+<e lm="Villar Perosa"><i>Villar<b/>Perosa</i><par n="Sicilia__np"/></e>
+<e lm="Villar San Costanzo"><i>Villar<b/>San<b/>Costanzo</i><par n="Sicilia__np"/></e>
+<e lm="Villarosa"><i>Villarosa</i><par n="Sicilia__np"/></e>
+<e lm="Vimercate"><i>Vimercate</i><par n="Sicilia__np"/></e>
+<e lm="Vinchiaturu"><i>Vinchiaturu</i><par n="Sicilia__np"/></e>
+<e lm="Virle Piemonte"><i>Virle<b/>Piemonte</i><par n="Sicilia__np"/></e>
+<e lm="Vithrugna"><i>Vithrugna</i><par n="Sicilia__np"/></e>
+<e lm="Vito d'Asio"><i>Vito<b/>d'Asio</i><par n="Sicilia__np"/></e>
+<e lm="Vitrugna"><i>Vitrugna</i><par n="Sicilia__np"/></e>
+<e lm="Viù"><i>Viù</i><par n="Sicilia__np"/></e>
+<e lm="Vizzìni"><i>Vizzìni</i><par n="Sicilia__np"/></e>
+<e lm="Volturara Appula"><i>Volturara<b/>Appula</i><par n="Sicilia__np"/></e>
+<e lm="Volturinu"><i>Volturinu</i><par n="Sicilia__np"/></e>
+<e lm="Vutera"><i>Vutera</i><par n="Sicilia__np"/></e>
+<e lm="Wiesbaden"><i>Wiesbaden</i><par n="Sicilia__np"/></e>
+<e lm="Zappunita"><i>Zappunita</i><par n="Sicilia__np"/></e>
+<e lm="Ziano di Fiemme"><i>Ziano<b/>di<b/>Fiemme</i><par n="Sicilia__np"/></e>
+
     <!-- SECTION: Adjectives -->
     
 
@@ -32557,6 +33731,7 @@
     <e lm="antisuvièticu" r="LR"><p><l>antisoviètic</l><r>antisuviètic</r></p><par n="ètic/u__adj"/></e>
     <e lm="mezzu"><i>mezz</i><par n="bedd/u__adj"/></e>
     <e lm="spagnolu"><i>spagnol</i><par n="bedd/u__adj"/></e>
+    <e lm="spagnolu" r="LR"><p><l>spagnul</l><r>spagnol</r></p><par n="bedd/u__adj"/></e>
     <e lm="mudernu"><i>mudern</i><par n="bedd/u__adj"/></e>
     <e lm="mudernu" r="LR"><p><l>modern</l><r>mudern</r></p><par n="bedd/u__adj"/></e>
     <e lm="arraggiatu"><i>arraggiat</i><par n="bedd/u__adj"/></e>
@@ -34293,6 +35468,7 @@
     <e lm="aràrdicu" r="LR"><p><l>aràldic</l><r>aràrdic</r></p><par n="ètic/u__adj"/></e>
     <e lm="astronòmicu"><i>astronòmic</i><par n="ètic/u__adj"/></e>
     <e lm="astronòmicu" r="LR"><p><l>astrunòmic</l><r>astronòmic</r></p><par n="ètic/u__adj"/></e>
+    <e lm="astronòmicu" r="LR"><p><l>astrunomic</l><r>astronòmic</r></p><par n="ètic/u__adj"/></e>
     <e lm="gastrunòmicu"><i>gastrunòmic</i><par n="ètic/u__adj"/></e>
     <e lm="atlanticu"><i>atlantic</i><par n="ètic/u__adj"/></e>
     <e lm="atlanticu" r="LR"><p><l>atlàntic</l><r>atlantic</r></p><par n="ètic/u__adj"/></e>
@@ -35217,13 +36393,17 @@
     <e lm="quannu" r="LR"><p><l>cuannu</l><r>quannu</r></p><par n="picchì__adv"/></e>
 
     <e lm="unni"><i>unni</i><par n="quannu__adv"/></e>
+    <e lm="dove"><i>dove</i><par n="quannu__adv"/></e> <!-- ita?, "...unni scrivi, di dove scrive..." -->
     <e lm="comu"><i>comu</i><par n="quannu__adv"/></e>
     <e lm="comu" r="LR"><p><l>cumu</l><r>comu</r></p><par n="quannu__adv"/></e>
+    <e lm="comu" r="LR"><p><l>commu</l><r>comu</r></p><par n="quannu__adv"/></e>
     
     <e lm="comu"><i>comu</i><par n="picchì__adv"/></e>
     <e lm="comu" r="LR"><p><l>cumu</l><r>comu</r></p><par n="picchì__adv"/></e>
+    <e lm="comu" r="LR"><p><l>commu</l><r>comu</r></p><par n="picchì__adv"/></e>
     
     <e lm="unni"><i>unni</i><par n="picchì__adv"/></e>
+    <e lm="dove"><i>dove</i><par n="picchì__adv"/></e> <!-- ita? -->
 
     <e lm="picchì"><i>picchì</i><par n="picchì__adv"/></e>
     <e lm="pirchì" r="LR"><p><l>pirchì</l><r>picchì</r></p><par n="picchì__adv"/></e>
@@ -35925,6 +37105,7 @@
     <e lm="importanti"><i>importanti</i><par n="duci__adj"/></e>
     <e lm="importanti" r="LR"><p><l>'mportanti</l><r>importanti</r></p><par n="duci__adj"/></e>
     <e lm="importanti" r="LR"><p><l>mpurtanti</l><r>importanti</r></p><par n="duci__adj"/></e>
+    <e lm="importanti" r="LR"><p><l>impurtanti</l><r>importanti</r></p><par n="duci__adj"/></e>
     <e lm="importantissimu"><i>importantissim</i><par n="bedd/u__adj"/></e>
     <e lm="imposibili"><i>imposibili</i><par n="duci__adj"/></e>
     <e lm="impotenti"><i>impotenti</i><par n="duci__adj"/></e>
@@ -38185,6 +39366,7 @@
     <e lm="addivintari"><p><l>addivent</l><r>addivint</r></p><par n="abbent/u__vblex"/></e>
     <e lm="addivintari"><p><l>addivènt</l><r>addivint</r></p><par n="abbènt/anu__vblex"/></e>
     <e lm="addivèniri"><i>addiv</i><par n="v/èniri__vblex"/></e>
+    <e lm="addivèniri" r="LR"><p><l>div</l><r>addiv</r></p><par n="v/èniri__vblex"/></e>
     <e lm="addivèrtiri"><i>addivèrt</i><par n="pricèd/iri__vblex"/></e>
     <e lm="addivèrtiri"><p><l>addivert</l><r>addivèrt</r></p><par n="priced/u__vblex"/></e>
     <e lm="addivèrtiri"><p><l>addivirt</l><r>addivèrt</r></p><par n="pricid/emu__vblex"/></e>
@@ -42267,8 +43449,8 @@
     <e lm="suffrijiri"><i>suffrij</i><par n="batt/iri__vblex"/></e>
     <e lm="susiri"><i>sus</i><par n="batt/iri__vblex"/></e>
     <e lm="sviniri"><i>svin</i><par n="batt/iri__vblex"/></e>
-    <e lm="tradiri"><i>trad</i><par n="batt/iri__vblex"/></e>
-    <e lm="tradiri" r="LR"><p><l>trar</l><r>trad</r></p><par n="batt/iri__vblex"/></e>
+    <e lm="tradiri"><i>trad</i><par n="prud/iri__vblex"/></e>
+    <e lm="tradiri" r="LR"><p><l>trar</l><r>trad</r></p><par n="prud/iri__vblex"/></e>
     <e lm="tunniri"><i>tunn</i><par n="batt/iri__vblex"/></e>
     <e lm="ubbidiri" r="LR"><p><l>obbid</l><r>ubbid</r></p><par n="batt/iri__vblex"/></e>
     <e lm="affenniri"><i>affenn</i><par n="batt/iri__vblex"/></e>
@@ -45267,7 +46449,7 @@
     <e lm="intirissari"><i>intiriss</i><par n="parr/ari__vblex"/></e>
     <e lm="intraprenniri"><i>intraprenn</i><par n="batt/iri__vblex"/></e>
     <e lm="intratteniri"><i>intratten</i><par n="batt/iri__vblex"/></e>
-    <e lm="introduciri"><i>introduc</i><par n="batt/iri__vblex"/></e>
+    <e lm="introduciri"><i>introd</i><par n="introd/uciri__vblex"/></e>
     <e lm="inumidiri"><i>inumid</i><par n="batt/iri__vblex"/></e>
     <e lm="inundari"><i>inund</i><par n="parr/ari__vblex"/></e>
     <e lm="inviari"><i>inv</i><par n="piggh/iari__vblex"/></e>
@@ -45530,7 +46712,7 @@
     <e lm="proteggiri"><i>protegg</i><par n="batt/iri__vblex"/></e>
     <e lm="protestari"><i>protest</i><par n="parr/ari__vblex"/></e>
     <e lm="proveniri"><i>proven</i><par n="batt/iri__vblex"/></e>
-    <e lm="prudiri"><i>prud</i><par n="batt/iri__vblex"/></e>
+    <e lm="prudiri"><i>prud</i><par n="prud/iri__vblex"/></e>
     <e lm="pruvidiri"><i>pruvid</i><par n="batt/iri__vblex"/></e>
     <e lm="pracari"><p><l>pràc</l>                         <r>prac</r></p><par n="pàrr/anu__vblex"/></e>
     <e lm="pranzari"><p><l>prànz</l>                       <r>pranz</r></p><par n="pàrr/anu__vblex"/></e>
@@ -45665,7 +46847,7 @@
     <e lm="ricupriri"><i>ricupr</i><par n="batt/iri__vblex"/></e>
     <e lm="ricurriri"><i>ricurr</i><par n="batt/iri__vblex"/></e>
     <e lm="ricusari"><i>ricus</i><par n="parr/ari__vblex"/></e>
-    <e lm="ridiri"><i>rid</i><par n="batt/iri__vblex"/></e>
+    <e lm="ridiri"><i>rid</i><par n="prud/iri__vblex"/></e>
     <e lm="ridacchiari"><i>ridacch</i><par n="piggh/iari__vblex"/></e>
     <e lm="riddiculizzari"><i>riddiculizz</i><par n="parr/ari__vblex"/></e>
     <e lm="ridiggiri"><i>ridigg</i><par n="batt/iri__vblex"/></e>
@@ -47331,6 +48513,10 @@
     <e r="LR" lm="'n"><p><l>'n</l><r>un<s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></r></p></e>
 
     <e r="LR" lm="nn'"><p><l>nn'</l><r>nta<s n="pr"/></r></p></e>
+
+    <e r="LR" lm="contr'"><p><l>contr'</l><r>contra<s n="pr"/></r></p></e>
+
+    <e r="LR" lm="contr'"><p><l>cuntr'</l><r>contra<s n="pr"/></r></p></e>
 
     <e r="LR" lm="nn'"><p><l>nn'</l><r>un<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
 
