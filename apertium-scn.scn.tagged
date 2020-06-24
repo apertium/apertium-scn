@@ -1,6 +1,3 @@
-# sent_id = wikipedia-1k:1
-# text = Lu balinisi è la lingua parrata nta l'ìsula indunisiana di Bali.
-# labels = complete
 ^Lu/lu<det><def><m><sg>$
 ^balinisi/balinisi<n><m><sp>$
 ^è/èssiri<vbser><pri><p3><sg>$
@@ -15,9 +12,6 @@
 ^Bali/Bali<np><top>$
 ^./.<sent>$
 
-# sent_id = wikipedia-1k:2
-# text = Ntô 1824 fu funnata a Catania l'Accademia Gioenia di Scienzi Naturali, n'istituzzioni chi esisti ancora òi.
-# labels = complete
 ^Ntô/nta<pr>+lu<det><def><m><sg>$
 ^1824/1824<num>$
 ^fu/èssiri<vbser><ifi><p3><sg>$
@@ -39,9 +33,6 @@
 ^òi/oggi<adv>$
 ^./.<sent>$
 
-# sent_id = wikipedia-1k:10
-# text = Abu al-Hasan 'Alī al-Mas'ūdī (Bagdad, 897 - Fostat 957) fu nu giògrafu e viaggiaturi àrabbu.
-# labels = complete
 ^Abu/Abu<np><ant>$
 ^al-Hasan/al-Hasan<np><cog>$
 ^'Alī/'Alī<np><ant>$
@@ -62,9 +53,6 @@
 ^àrabbu/àrabbu<adj><m><sg>$
 ^./.<sent>$
 
-# sent_id = wikipedia-1k:11
-# text = E' cunzidiratu lu cchiù granni enciclupidista àrabbu dû X sèculu.
-# labels = complete
 ^E'/èssiri<vbser><pri><p3><sg>$
 ^cunzidiratu/cunziddirari<vblex><pp><m><sg>$
 ^lu/lu<det><def><m><sg>$
@@ -77,9 +65,6 @@
 ^sèculu/sèculu<n><m><sg>$
 ^./.<sent>$
 
-# sent_id = wikipedia-1k:13
-# text = Li pneumatici hannu sizzioni cumprisa di sòlitu tra 1,8 e 2,5 puseri, ma nta casi spiciali ("fat bike") si ponnu rruvari li 4,8 puseri (circa 122 mm).
-# labels = complete
 ^Li/lu<det><def><mf><pl>$
 ^pneumatici/pneumaticu<n><m><pl>$
 ^hannu/aviri<vblex><pri><p3><pl>$
@@ -116,9 +101,6 @@
 ^)/)<rpar>$
 ^./.<sent>$
 
-# sent_id = wikipedia-1k:14
-# text = La carcassa havi rubbustizza e pisu variàbbili a’ secunna dâ distinazzioni d’utilizzu.
-# labels = complete
 ^La/lu<det><def><f><sg>$
 ^carcassa/carcassa<n><f><sg>$
 ^havi/aviri<vblex><pri><p3><sg>$
@@ -134,9 +116,6 @@
 ^utilizzu/utilizzari<vblex><pri><p1><sg>$
 ^./.<sent>$
 
-# sent_id = wikipedia-1k:18
-# text = Munti Casteddu di Vibiu è nu cumuni dâ pruvincia di Pirùggia.
-# labels = complete
 ^Munti/Munti<np><top>$
 ^Casteddu/Casteddu<np><top>$
 ^di/di<pr>$
@@ -150,9 +129,6 @@
 ^Pirùggia/Pirùggia<np><top>$
 ^./.<sent>$
 
-# sent_id = wikipedia-1k:19
-# text = Havi na pupulazzioni di 1'627 abbitanti.
-# labels = complete
 ^Havi/aviri<vblex><pri><p3><sg>$
 ^na/un<det><ind><f><sg>$
 ^pupulazzioni/populazzioni<n><f><sp>$
@@ -161,9 +137,6 @@
 ^abbitanti/abbitanti<n><m><sp>$
 ^./.<sent>$
 
-# sent_id = wikipedia-1k:21
-# text = La missioni fu lanciata dâ basi da NASA di Cape Canaveral ntê Stati Uniti ntô 1997 e agghicau ntê pressi dû sistema di Saturnu â fini dû 2004.
-# labels = complete
 ^La/lu<det><def><f><sg>$
 ^missioni/missioni<n><f><sp>$
 ^fu/èssiri<vbser><ifi><p3><sg>$
@@ -181,7 +154,6 @@
 ^e/e<cnjcoo>$
 ^agghicau/agghicari<vblex><ifi><p3><sg>$
 ^ntê/nta<pr>+lu<det><def><mf><pl>$
-^pressi/*pressi<n><mf><pl>$
 ^dû/di<pr>+lu<det><def><m><sg>$
 ^sistema/sistema<n><m><sg>$
 ^di/di<pr>$
@@ -192,9 +164,6 @@
 ^2004/2004<num>$
 ^./.<sent>$
 
-# sent_id = wikipedia-1k:23
-# text = Settimo San Pietro è un cumuni talianu dâ pruvincia di Càgliari ntâ Sardigna.
-# labels = complete
 ^Settimo/Settimo<np><top>$
 ^San/San<np><top>$
 ^Pietro/Pietro<np><top>$
@@ -210,9 +179,6 @@
 ^Sardigna/Sardigna<np><top>$
 ^./.<sent>$
 
-# sent_id = wikipedia-1k:24
-# text = Cullabburau cu sò frati ô sviluppu dû calculu nfinitesimali.
-# labels = complete
 ^Cullabburau/cullabburari<vblex><ifi><p3><sg>$
 ^cu/cu<pr>+lu<det><def><m><sg>$
 ^sò/so<adj><pos><mf><sg>$
@@ -224,9 +190,6 @@
 ^nfinitesimali/nfinitesimali<adj><mf><sp>$
 ^./.<sent>$
 
-# sent_id = wikipedia-1k:26
-# text = Fazziu Gaggini (1520 - 27 di maiu 1567) fu nu sculturi sicilianu figghiu di Antonellu Gaggini e niputi di Dumìnicu Gaggini.
-# labels = complete
 ^Fazziu/Fazziu<np><ant>$
 ^Gaggini/Gaggini<np><cog>$
 ^(/(<lpar>$
@@ -252,9 +215,6 @@
 ^Gaggini/Gaggini<np><cog>$
 ^./.<sent>$
 
-# sent_id = wikipedia-1k:27
-# text = La palora siciliana papalea è aduprata pi nummarusi specii di pùddiri nutturni o cripusculari di l’òrdini di li Lepidòttiri.
-# labels = complete
 ^La/lu<det><def><f><sg>$
 ^palora/palora<n><f><sg>$
 ^siciliana/sicilianu<adj><f><sg>$
@@ -268,18 +228,13 @@
 ^pùddiri/pùddira<n><f><pl>$
 ^nutturni/nutturna<n><m><pl>$
 ^o/o<cnjcoo>$
-^cripusculari/*cripusculari<n><mf><pl>$
 ^di/di<pr>$
 ^l’/lu<det><def><mf><sp>$
 ^òrdini/òrdini<n><m><sp>$
 ^di/di<pr>$
 ^li/lu<det><def><mf><pl>$
-^Lepidòttiri/*Lepidòttiri<n><mf><pl>$
 ^./.<sent>$
 
-# sent_id = wikipedia-1k:31
-# text = Ma è ntô cuntinutu musicali ca The Game rapprisenta nu elementu di svolta ntâ carrera dû gruppu.
-# labels = complete
 ^Ma/ma<cnjcoo>$
 ^è/èssiri<vbser><pri><p3><sg>$
 ^ntô/nta<pr>+lu<det><def><m><sg>$
@@ -299,9 +254,6 @@
 ^gruppu/gruppu<n><m><sg>$
 ^./.<sent>$
 
-# sent_id = wikipedia-1k:33
-# text = Sta proposizioni fu usata ndâ prima vota ndô 1972 dô prufissuri William J. Rapaport, dâ Università di Buffalo.
-# labels = complete
 ^Sta/chistu<det><dem><f><sg>$
 ^proposizioni/proposizioni<n><f><sp>$
 ^fu/èssiri<vbser><ifi><p3><sg>$
@@ -323,9 +275,6 @@
 ^Buffalo/Buffalo<np><top>$
 ^./.<sent>$
 
-# sent_id = wikipedia-1k:34
-# text = Pearl S. Buck (Hillsboro, 26 di giugnu 1892 - Danby, 6 di marzu 1973) fu na scrittrici miricana.
-# labels = complete
 ^Pearl/Pearl<np><ant>$
 ^S./S.<np><abbr>$
 ^Buck/Buck<np><cog>$
@@ -350,9 +299,6 @@
 ^miricana/miricanu<adj><f><sg>$
 ^./.<sent>$
 
-# sent_id = wikipedia-1k:35
-# text = Ntô 1938 vinciu lu premiu Nobel pâ littiratura.
-# labels = complete
 ^Ntô/nta<pr>+lu<det><def><m><sg>$
 ^1938/1938<num>$
 ^vinciu/vinciri<vblex><ifi><p3><sg>$
@@ -363,9 +309,6 @@
 ^littiratura/littiratura<n><f><sg>$
 ^./.<sent>$
 
-# sent_id = wikipedia-1k:38
-# text = L'aramàicu è a lingua di nu munzieddu di parti di li dui libbri di la Bibbia attribbuiti a Danieli e Ezra.
-# labels = complete
 ^L'/lu<det><def><mf><sp>$
 ^aramàicu/aramàicu<n><m><sg>$
 ^è/èssiri<vbser><pri><p3><sg>$
@@ -390,9 +333,6 @@
 ^Ezra/Ezra<np><ant>$
 ^./.<sent>$
 
-# sent_id = wikipedia-1k:39
-# text = Lu cchiù granni diu di l'Etruria.
-# labels = complete
 ^Lu/lu<det><def><m><sg>$
 ^cchiù/cchiù<adv>$
 ^granni/granni<adj><mf><sp>$
@@ -402,9 +342,6 @@
 ^Etruria/Etruria<np><top>$
 ^./.<sent>$
 
-# sent_id = wikipedia-1k:41
-# text = Era aduratu nta lu santuariu di Volsinii ("Velzna" 'n Etruscu), dunni si cilibbràvanu ogni annu li festi dî 12 pòpuli etruschi.
-# labels = complete
 ^Era/èssiri<vbser><pii><p3><sg>$
 ^aduratu/adurari<vblex><pp><m><sg>$
 ^nta/nta<pr>$
@@ -433,9 +370,6 @@
 ^etruschi/etruscu<adj><mf><pl>$
 ^./.<sent>$
 
-# sent_id = wikipedia-1k:42
-# text = Muriu a trentacincu anni a Vienna.
-# labels = complete
 ^Muriu/muriri<vblex><ifi><p3><sg>$
 ^a/a<pr>$
 ^trentacincu/trentacincu<num><mf><sp>$
@@ -444,9 +378,6 @@
 ^Vienna/Vienna<np><top>$
 ^./.<sent>$
 
-# sent_id = wikipedia-1k:44
-# text = La Ducea di Curlannia era la cchiù nica nazzioni d'Amèrica duranti l'èbbica di culunizzazzioni europea ntô sèculu XVI.
-# labels = complete
 ^La/lu<det><def><f><sg>$
 ^Ducea/Ducea<np><top>$
 ^di/di<pr>$
@@ -469,9 +400,6 @@
 ^XVI/XVI<num><mf><sp>$
 ^./.<sent>$
 
-# sent_id = wikipedia-1k:46
-# text = Dô "“tablinum”" si putìa jiri direttamenti nta tri càmiri privati, pavimintati cu mosàichi janchi e nìuri.
-# labels = complete
 ^Dô/di<pr>+lu<det><def><m><sg>$
 ^“/“<lquot>$
 ^tablinum/tablinum<n><barb>$
@@ -493,9 +421,6 @@
 ^nìuri/nìuru<adj><mf><pl>$
 ^./.<sent>$
 
-# sent_id = wikipedia-1k:47
-# text = L'arsènicu è n'elimentu chimicu.
-# labels = complete
 ^L'/lu<det><def><mf><sp>$
 ^arsènicu/arsènicu<adj><m><sg>$
 ^è/èssiri<vbser><pri><p3><sg>$
@@ -504,9 +429,6 @@
 ^chimicu/chimicu<adj><m><sg>$
 ^./.<sent>$
 
-# sent_id = wikipedia-1k:48
-# text = L`atomu di arsènicu si cumponi di 33 protoni e 42 neutroni.
-# labels = complete
 ^L`/lu<det><def><mf><sp>$
 ^atomu/atomu<n><m><sg>$
 ^di/di<pr>$
@@ -521,9 +443,6 @@
 ^neutroni/niutrùni<n><m><sp>$
 ^./.<sent>$
 
-# sent_id = wikipedia-1k:49
-# text = Lu sìmmulu chìmicu è As.
-# labels = complete
 ^Lu/lu<det><def><m><sg>$
 ^sìmmulu/sìmmulu<n><m><sg>$
 ^chìmicu/chìmicu<adj><m><sg>$
@@ -531,16 +450,10 @@
 ^As/As<np><al>$
 ^./.<sent>$
 
-# sent_id = wikipedia-1k:52
-# text = Lu splinnuri.
-# labels = complete
 ^Lu/lu<det><def><m><sg>$
 ^splinnuri/splinnuri<n><m><sp>$
 ^./.<sent>$
 
-# sent_id = wikipedia-1k:59
-# text = St'abbinimentu è puru ricurdatu nti na puisia dû pueta àrabbu-sicilianu Ibn Hamdis chi all'èbbica era esiliatu â curti zirita di Mahdia.
-# labels = complete
 ^St'/chistu<det><dem><mf><sp>$
 ^abbinimentu/abbinimentu<n><m><sg>$
 ^è/èssiri<vbser><pri><p3><sg>$
@@ -566,9 +479,6 @@
 ^Mahdia/Mahdia<np><top>$
 ^./.<sent>$
 
-# sent_id = wikipedia-1k:194
-# text = La prima Dumìnica di Maiu c'è la festa di Santa Lucìa dê quagghi, pi ricurdari nu miràculu dâ Santa.
-# labels = complete
 ^La/lu<det><def><f><sg>$
 ^prima/primu<adj><f><sg>$
 ^Dumìnica/dumìnica<n><f><sg>$
@@ -591,9 +501,6 @@
 ^Santa/santa<n><f><sg>$
 ^./.<sent>$
 
-# sent_id = wikipedia-1k:197
-# text = Havi na pupulazzioni di 519 abbitanti.
-# labels = complete
 ^Havi/aviri<vblex><pri><p3><sg>$
 ^na/un<det><ind><f><sg>$
 ^pupulazzioni/pupulàzzioni<n><f><sp>$
@@ -602,9 +509,6 @@
 ^abbitanti/abbitanti<n><m><sp>$
 ^./.<sent>$
 
-# sent_id = wikipedia-1k:198
-# text = Jean-Paul Sartre (Pariggi 21 di giugnu 1905 - 15 di aprili 1980) fu nu filòsufu, littiratu e ntillittuali francisi dû XX sèculu.
-# labels = complete
 ^Jean-Paul/Jean-Paul<np><ant>$
 ^Sartre/Sartre<np><ant>$
 ^(/(<lpar>$
@@ -632,9 +536,6 @@
 ^sèculu/sèculu<n><m><sg>$
 ^./.<sent>$
 
-# sent_id = wikipedia-1k:199
-# text = Ntô 1965 vincìu lu premiu Nobel pâ littiratura.
-# labels = complete
 ^Ntô/nta<pr>+lu<det><def><m><sg>$
 ^1965/1965<num>$
 ^vincìu/vìnciri<vblex><ifi><p3><sg>$
@@ -645,9 +546,6 @@
 ^littiratura/littiratura<n><f><sg>$
 ^./.<sent>$
 
-# sent_id = wikipedia-1k:200
-# text = Lu cuntrastu è na contrappusizzioni, na forti divirsitati.
-# labels = complete
 ^Lu/lu<det><def><m><sg>$
 ^cuntrastu/cuntrastu<n><m><sg>$
 ^è/èssiri<vbser><pri><p3><sg>$
@@ -659,16 +557,10 @@
 ^divirsitati/divirsitati<n><f><sp>$
 ^./.<sent>$
 
-# sent_id = wikipedia-1k:201
-# text = Azzardi Putinzziali.
-# labels = complete
 ^Azzardi/azzardu<n><m><pl>$
 ^Putinzziali/putinzziali<adj><mf><sp>$
 ^./.<sent>$
 
-# sent_id = wikipedia-1k:202
-# text = La nuvena è na pràttica di divuzzioni cattòlica n cui si dèdicanu novi jorna cunzicutivi â ripitizzioni di prijeri o riti n priparazzioni di na festa, pi mplurari la grazzia o p'anurari un santu.
-# labels = complete
 ^La/lu<det><def><f><sg>$
 ^nuvena/nuvena<n><f><sg>$
 ^è/èssiri<vbser><pri><p3><sg>$
@@ -707,12 +599,8 @@
 ^santu/santu<n><m><sg>$
 ^./.<sent>$
 
-# sent_id = wikipedia-1k:203
-# text = Amuri e Psichi è na cèlibbri scurtura di Antoniu Canova, espunuta ô Louvre.
-# labels = complete
 ^Amuri/amuri<n><m><sp>$
 ^e/e<cnjcoo>$
-^Psichi/*Psichi<n><mf><sp>$
 ^è/èssiri<vbser><pri><p3><sg>$
 ^na/un<det><ind><f><sg>$
 ^cèlibbri/cèlibbri<adj><mf><sp>$
@@ -721,14 +609,10 @@
 ^Antoniu/Antoniu<np><ant>$
 ^Canova/Canova<np><cog>$
 ^,/,<cm>$
-^espunuta/*espunuta$
 ^ô/a<pr>+lu<det><def><m><sg>$
 ^Louvre/Louvre<np><al>$
 ^./.<sent>$
 
-# sent_id = wikipedia-1k:204
-# text = Lu suggettu, ispiratu â mituluggìa greca, fu scurputu tra lu 1788 e lu 1793.
-# labels = complete
 ^Lu/lu<det><def><m><sg>$
 ^suggettu/suggettu<n><m><sg>$
 ^,/,<cm>$
@@ -747,9 +631,6 @@
 ^1793/1793<num>$
 ^./.<sent>$
 
-# sent_id = wikipedia-1k:205
-# text = L' astrufìsica è la parti dâ fisica chi si ntiressa â fìsica di l'oggetti cilesti.
-# labels = complete
 ^L'/lu<det><def><mf><sp>$
 ^astrufìsica/astrufìsica<n><f><sg>$
 ^è/èssiri<vbser><pri><p3><sg>$
@@ -768,9 +649,6 @@
 ^cilesti/cilesti<adj><mf><sp>$
 ^./.<sent>$
 
-# sent_id = wikipedia-1k:207
-# text = Lu canguru è nu marsupiali dâ famigghia Macropodidae (chi signìfica ddi marsupiali chi nn'hannu li pedi granni).
-# labels = complete
 ^Lu/lu<det><def><m><sg>$
 ^canguru/canguru<n><m><sg>$
 ^è/èssiri<vbser><pri><p3><sg>$
@@ -778,7 +656,6 @@
 ^marsupiali/marsupiali<n><m><sp>$
 ^dâ/di<pr>+lu<det><def><f><sg>$
 ^famigghia/famigghia<n><f><sg>$
-^Macropodidae/*macropodidae<n><barb>$
 ^(/(<lpar>$
 ^chi/chi<rel><an><mf><sp>$
 ^signìfica/significari<vblex><pri><p3><sg>$
@@ -793,9 +670,6 @@
 ^)/)<rpar>$
 ^./.<sent>$
 
-# sent_id = wikipedia-1k:208
-# text = Particularmenti, stu tèrmini veni usatu pi discrìviri lu gèniri cchiù granni di sta famigghia e chi havi nu mossu nutèvuli di sautàrisi pi jìrisinni unni voli.
-# labels = complete
 ^Particularmenti/particularmenti<adv>$
 ^,/,<cm>$
 ^stu/chistu<det><dem><m><sg>$
@@ -825,9 +699,6 @@
 ^voli/vuliri<vblex><pri><p3><sg>$
 ^./.<sent>$
 
-# sent_id = wikipedia-1k:210
-# text = Vicenzu Bellini è raffiguratu supr'ê bancunoti di 5.000 (cincumila) Liri.
-# labels = complete
 ^Vicenzu/Vicenzu<np><ant>$
 ^Bellini/Bellini<np><cog>$
 ^è/èssiri<vbser><pri><p3><sg>$
@@ -842,9 +713,6 @@
 ^Liri/lira<n><f><pl>$
 ^./.<sent>$
 
-# sent_id = wikipedia-1k:211
-# text = Dû stissu annu è lu "San Girolamu ntô studiu", sarbatu â National Gallery di Londra.
-# labels = complete
 ^Dû/di<pr>+lu<det><def><m><sg>$
 ^stissu/stissu<adj><m><sg>$
 ^annu/annu<n><m><sg>$
@@ -865,9 +733,6 @@
 ^Londra/Londra<np><top>$
 ^./.<sent>$
 
-# sent_id = wikipedia-1k:213
-# text = Giba è un cumuni talianu dâ pruvincia di Carbonia-Iglesias ntâ Sardigna.
-# labels = complete
 ^Giba/Giba<np><top>$
 ^è/èssiri<vbser><pri><p3><sg>$
 ^un/un<det><ind><m><sg>$
@@ -881,9 +746,6 @@
 ^Sardigna/Sardigna<np><top>$
 ^./.<sent>$
 
-# sent_id = wikipedia-1k:214
-# text = Na fava o faviana è nu ligumi tipicu dâ cucina siciliana tradizziunali campagnola.
-# labels = complete
 ^Na/un<det><ind><f><sg>$
 ^fava/fava<n><f><sg>$
 ^o/o<cnjcoo>$
@@ -899,9 +761,6 @@
 ^campagnola/campagnolu<n><f><sg>$
 ^./.<sent>$
 
-# sent_id = wikipedia-1k:215
-# text = E' lu ngridienti principali dû maccu.
-# labels = complete
 ^E'/èssiri<vbser><pri><p3><sg>$
 ^lu/lu<det><def><m><sg>$
 ^ngridienti/ngridienti<n><m><sp>$
@@ -910,18 +769,12 @@
 ^maccu/maccu<n><m><sg>$
 ^./.<sent>$
 
-# sent_id = wikipedia-1k:217
-# text = Havi circa 120'000 abbitanti.
-# labels = complete
 ^Havi/aviri<vblex><pri><p3><sg>$
 ^circa/circa<pr>$
 ^120'000/120'000<num>$
 ^abbitanti/abbitanti<n><m><sp>$
 ^./.<sent>$
 
-# sent_id = wikipedia-1k:218
-# text = Fu funnata ntô XIX sèculu di n'ufficiali britannicu di cui pigghiau lu prifissu dû nomu Abbot.
-# labels = complete
 ^Fu/èssiri<vbser><ifi><p3><sg>$
 ^funnata/funnari<vblex><pp><f><sg>$
 ^ntô/nta<pr>+lu<det><def><m><sg>$
@@ -941,9 +794,6 @@
 ^Abbot/Abbot<np><cog>$
 ^./.<sent>$
 
-# sent_id = wikipedia-1k:219
-# text = S'attrova a na cinquantina di chilòmitri a nord di Islamabad, la capitali, eggh'è na cità sedi di n'accademia militari.
-# labels = complete
 ^S'/si<prn><pro><ref><p3><mf><sp>$
 ^attrova/attruvari<vblex><pri><p3><sg>$
 ^a/a<pr>$
@@ -970,16 +820,10 @@
 ^militari/militari<adj><mf><sp>$
 ^./.<sent>$
 
-# sent_id = wikipedia-1k:221
-# text = L'elezioni.
-# labels = complete
 ^L'/lu<det><def><mf><sp>$
 ^elezioni/elezioni<n><f><sp>$
 ^./.<sent>$
 
-# sent_id = wikipedia-1k:222
-# text = La siquenza sìsmica ca cumprenni stu tirrimotu, accuminciau lu jornu 9 di jinnaru 1693 e cuntinuau pri quarchi dui anni, cu nu nùmmiru assai àutu di rèbbrichi (cchiù di 1500).
-# labels = complete
 ^La/lu<det><def><f><sg>$
 ^siquenza/siquenza<n><f><sg>$
 ^sìsmica/sìsmicu<adj><f><sg>$
@@ -1016,9 +860,6 @@
 ^)/)<rpar>$
 ^./.<sent>$
 
-# sent_id = wikipedia-1k:226
-# text = La prufunnità ipucintrali cunziddirata pi l'eventu principali è di quarchi 20 chilòmitri.
-# labels = complete
 ^La/lu<det><def><f><sg>$
 ^prufunnità/prufunnità<n><f><sp>$
 ^ipucintrali/ipucintrali<adj><mf><sp>$
@@ -1034,9 +875,6 @@
 ^chilòmitri/chilòmitru<n><m><pl>$
 ^./.<sent>$
 
-# sent_id = wikipedia-1k:227
-# text = Cantarana è un cumuni talianu dâ pruvincia di Asti ntô Piemunti.
-# labels = complete
 ^Cantarana/Cantarana<np><top>$
 ^è/èssiri<vbser><pri><p3><sg>$
 ^un/un<det><ind><m><sg>$
@@ -1050,9 +888,6 @@
 ^Piemunti/Piemunti<np><top>$
 ^./.<sent>$
 
-# sent_id = wikipedia-1k:228
-# text = Abu-l-Laith As-Siqilli (attivu â fini dû XII sèculu), fu n'architettu prubbabbirmenti sicilianu d'urìggini, attivu a Siviglia, unni ntô 1198 accapau la costruzzioni dâ "Giralda", nu minaretu ancora òi visìbbili.
-# labels = complete
 ^Abu-l-Laith/Abu-l-Laith<np><ant>$
 ^As-Siqilli/As-Siqilli<np><cog>$
 ^(/(<lpar>$
@@ -1094,9 +929,6 @@
 ^visìbbili/visìbbili<adj><mf><sp>$
 ^./.<sent>$
 
-# sent_id = wikipedia-1k:229
-# text = Lu African National Congress (abbriviatu puru cu la sigla ANC) è nu partitu puliticu dû Sudafrica.
-# labels = complete
 ^Lu/lu<det><def><m><sg>$
 ^African/African<np><al>$
 ^National/National<np><al>$
@@ -1117,10 +949,6 @@
 ^Sudafrica/Sudàfrica<np><top>$
 ^./.<sent>$
 
-# sent_id = wikipedia-1k:230
-# text = Funnatu di Nelson Mandela, ê tempa di l'apartheid, lu partitu luttava clannistinamenti pi li diritti di li nìuri.
-# text[spa] = Fundado por Nelson Mandela, en los tiempos del apartheid, el partido luchaba clandestinamente para los derectos de los negros.
-# labels = complete
 ^Funnatu/funnari<vblex><pp><m><sg>$
 ^di/di<pr>$
 ^Nelson/Nelson<np><ant>$
@@ -1144,9 +972,6 @@
 ^nìuri/nìuru<adj><mf><pl>$
 ^./.<sent>$
 
-# sent_id = wikipedia-1k:240
-# text = John Deacon rissi ca lu gruppu apprizzò i cuncerti ri Newcastle, Glasgow e Bournemouth.
-# labels = complete
 ^John/John<np><ant>$
 ^Deacon/Deacon<np><cog>$
 ^rissi/diri<vblex><ifi><p3><sg>$
@@ -1164,9 +989,6 @@
 ^Bournemouth/Bournemouth<np><top>$
 ^./.<sent>$
 
-# sent_id = wikipedia-1k:243
-# text = Secunnu Nestoriu e li sô siguaci, la natura di Gesù cristu era prima di tuttu umana e non divina, comu era nveci la ntirpritazzioni currenti.
-# labels = complete
 ^Secunnu/sècunnu<pr>$
 ^Nestoriu/Nestoriu<np><ant>$
 ^e/e<cnjcoo>$
@@ -1195,9 +1017,6 @@
 ^currenti/currenti<n><f><sp>$
 ^./.<sent>$
 
-# sent_id = wikipedia-1k:246
-# text = Cécile Kyenge, (Kambove, 28 di austu 1964) è na fimmina pulitìca taliu-congulisa.
-# labels = complete
 ^Cécile/Cécile<np><ant>$
 ^Kyenge/Kyenge<np><cog>$
 ^,/,<cm>$
@@ -1216,9 +1035,6 @@
 ^taliu-congulisa/talianu-congulisi<adj><f><sg>$
 ^./.<sent>$
 
-# sent_id = wikipedia-1k:247
-# text = Li Chiaramunti furu na nòbbili e antica famigghia siciliana assai putenti nnû XIV sèculu.
-# labels = complete
 ^Li/lu<det><def><mf><pl>$
 ^Chiaramunti/Chiaramunti<np><cog>$
 ^furu/èssiri<vbser><ifi><p3><pl>$
@@ -1235,9 +1051,6 @@
 ^sèculu/sèculu<n><m><sg>$
 ^./.<sent>$
 
-# sent_id = wikipedia-1k:248
-# text = Li sò cumpunenti furu ntra li cchiù mpurtanti rapprisintanti dâ nubbiltati "latina" di Sicilia e furu assai attivi nni la vita pulìtica di l'ìsula.
-# labels = complete
 ^Li/lu<det><def><mf><pl>$
 ^sò/so<adj><pos><mf><sg>$
 ^cumpunenti/cumpunenti<n><mf><sp>$
@@ -1267,9 +1080,6 @@
 ^ìsula/ìsula<n><f><sg>$
 ^./.<sent>$
 
-# sent_id = wikipedia-1k:249
-# text = Sta famigghia è macari arricunnucìbbili ê De Clermont di Francia.
-# labels = complete
 ^Sta/chistu<det><dem><f><sg>$
 ^famigghia/famigghia<n><f><sg>$
 ^è/èssiri<vbser><pri><p3><sg>$
@@ -1282,9 +1092,6 @@
 ^Francia/Francia<np><top>$
 ^./.<sent>$
 
-# sent_id = wikipedia-1k:252
-# text = Pi scrìviri 'n sicilianu, racumannamu d'usari la "zz" mmeci dâ "cci" ma nun cunzidiramu l'àutri usi comu erruri.
-# labels = complete
 ^Pi/pi<pr>$
 ^scrìviri/scrìviri<vblex><inf>$
 ^'n/nta<pr>$
@@ -1311,9 +1118,6 @@
 ^erruri/erruri<n><m><sp>$
 ^./.<sent>$
 
-# sent_id = wikipedia-1k:254
-# text = Weimar è na citati di 63.236 abbitanti, sècunnu lu cenzimentu di 2012, dâ Turingia, 'n Girmania.
-# labels = complete
 ^Weimar/Weimar<np><top>$
 ^è/èssiri<vbser><pri><p3><sg>$
 ^na/un<det><ind><f><sg>$
@@ -1335,9 +1139,6 @@
 ^Girmania/Girmania<np><top>$
 ^./.<sent>$
 
-# sent_id = wikipedia-1k:977
-# text = Cu tuttu chissu, lu muvimentu cuntatinu nun s'avìa piecatu e allura ci fu quarchidunu ca pinzò ca avìa vinutu lu mumentu di dàricci nu corpu dicisivu.
-# labels = complete
 ^Cu/cu<pr>$
 ^tuttu/tuttu<predet><m><sg>$
 ^chissu/chissu<prn><tn><m><sg>$
@@ -1368,9 +1169,6 @@
 ^dicisivu/dicisivu<adj><m><sg>$
 ^./.<sent>$
 
-# sent_id = wikipedia-1k:981
-# text = Pì evitari chistu prubblema, u chilugrammu vinni ridefinitu comu a massa "prìcisa" di na particulari massa standard, crìata pi approssimari a definizzioni originali e rializzata nto 1875.
-# labels = complete
 ^Pì/pi<pr>$
 ^evitari/evitari<vblex><inf>$
 ^chistu/chistu<det><dem><m><sg>$
@@ -1404,16 +1202,10 @@
 ^1875/1875<num>$
 ^./.<sent>$
 
-# sent_id = wikipedia-1k:983
-# text = L'Europa.
-# labels = complete
 ^L'/lu<det><def><mf><sp>$
 ^Europa/Europa<np><top>$
 ^./.<sent>$
 
-# sent_id = wikipedia-1k:984
-# text = Sutta la sò binidizzioni la Sicilia fu prugrissivamenti cristianizzata.
-# labels = complete
 ^Sutta/sutta<pr>$
 ^la/lu<det><def><f><sg>$
 ^sò/so<adj><pos><mf><sg>$
@@ -1425,9 +1217,6 @@
 ^cristianizzata/cristianizzari<vblex><pp><f><sg>$
 ^./.<sent>$
 
-# sent_id = wikipedia-1k:988
-# text = Rudolfu Valintinu (o Rudolph Valentino pi ngrisi) (nomu d'arti di Rodolfo Alfonso Raffaele Pierre Filibert Guglielmi) - (Castellaneta, Tarantu, 6 di maiu 1895 - Nova Jorca, 23 di austu 1926) era un atturi italu-miricanu dâ pillìcula muta: natu in Italia emigrau giuvanissimu ntê Stati Uniti unni rinisciu aviri na carrera curta ma di granni successu.
-# labels = complete
 ^Rudolfu/Rudolfu<np><ant>$
 ^Valintinu/Valintinu<np><cog>$
 ^(/(<lpar>$
@@ -1495,9 +1284,6 @@
 ^successu/successu<n><m><sg>$
 ^./.<sent>$
 
-# sent_id = wikipedia-1k:989
-# text = Fu canusciutu pâ sò biddizza e fu forsi unu dî primi "sex symbol" maschili dâ pillìcula.
-# labels = complete
 ^Fu/èssiri<vbser><ifi><p3><sg>$
 ^canusciutu/canùsciri<vblex><pp><m><sg>$
 ^pâ/pi<pr>+lu<det><def><f><sg>$
@@ -1510,17 +1296,12 @@
 ^dî/di<pr>+lu<det><def><mf><pl>$
 ^primi/primu<adj><mf><pl>$
 ^"/"<guio>$
-^sex/*sex<n><barb>$
-^symbol/*symbol<n><barb>$
 ^"/"<guio>$
 ^maschili/maschili<adj><mf><sp>$
 ^dâ/di<pr>+lu<det><def><f><sg>$
 ^pillìcula/pillìcula<n><f><sg>$
 ^./.<sent>$
 
-# sent_id = wikipedia-1k:993
-# text = Aviglianu Umbru è nu cumuni dâ pruvincia di Terni.
-# labels = complete
 ^Aviglianu/Aviglianu<np><top>$
 ^Umbru/Umbru<np><top>$
 ^è/èssiri<vbser><pri><p3><sg>$
@@ -1532,9 +1313,6 @@
 ^Terni/Terni<np><top>$
 ^./.<sent>$
 
-# sent_id = wikipedia-1k:994
-# text = Havi na pupulazzioni di 2'378 abbitanti.
-# labels = complete
 ^Havi/aviri<vblex><pri><p3><sg><SELECT:321>$
 ^na/un<det><ind><f><sg>$
 ^pupulazzioni/pupulàzzioni<n><f><sp>$
@@ -1543,9 +1321,6 @@
 ^abbitanti/abbitanti<n><m><sp>$
 ^./.<sent>$
 
-# sent_id = wikipedia-1k:995
-# text = Ntô sèculu XIX l'oidiu e la fillussera, malattìi dâ viti pruvinenti dâ Mèrica, distruinu enormi quantitati di vigneti.
-# labels = complete
 ^Ntô/nta<pr>+lu<det><def><m><sg>$
 ^sèculu/sèculu<n><m><sg>$
 ^XIX/XIX<num><mf><sp>$
@@ -1566,12 +1341,8 @@
 ^enormi/enormi<adj><mf><sp>$
 ^quantitati/quantitati<n><f><sp>$
 ^di/di<pr>$
-^vigneti/*vigneti<n><m><pl>$
 ^./.<sent>$
 
-# sent_id = wikipedia-1k:1000
-# text = United Internet Team Germani è nu team vèlicu tedescu participanti â 32-èsima edizzioni dâ America's Cup chi si tinìu a Valencia ntô 2007.
-# labels = complete
 ^United/United<np><al>$
 ^Internet/Internet<np><al>$
 ^Team/Team<np><al>$
