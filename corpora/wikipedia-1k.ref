@@ -1180,6 +1180,177 @@
 ^Bournemouth/Bournemouth<np><top>$
 ^./.<sent>$
 
+# sent_id = wikipedia-1k:243
+# text = Secunnu Nestoriu e li sô siguaci, la natura di Gesù cristu era prima di tuttu umana e non divina, comu era nveci la ntirpritazzioni currenti.
+# labels = complete
+^Secunnu/sècunnu<pr>$
+^Nestoriu/Nestoriu<np><ant>$
+^e/e<cnjcoo>$
+^li/lu<det><def><mf><pl>$
+^sô/so<adj><pos><mf><sg>$
+^siguaci/siguacu<n><m><pl>$
+^,/,<cm>$
+^la/lu<det><def><f><sg>$
+^natura/natura<n><f><sg>$
+^di/di<pr>$;		"lu" det def mf pl
+^Gesù/Gesù<np><ant>$
+^cristu/Cristu<np><ant>$
+^era/èssiri<vbser><pii><p3><sg>$
+^prima di/prima di<pr>$
+^tuttu/tuttu<predet><m><sg>$
+^umana/umanu<adj><f><sg>$
+^e/e<cnjcoo>$
+^non/nun<adv>$
+^divina/divinu<adj><f><sg>$
+^,/,<cm>$
+^comu/comu<cnjadv>$
+^era/èssiri<vbser><pii><p3><sg>$
+^nveci/nveci<adv>$
+^la/lu<det><def><f><sg>$
+^ntirpritazzioni/ntirpritazzioni<n><f><sp>$
+^currenti/currenti<n><f><sp>$
+^./.<sent>$
+
+# sent_id = wikipedia-1k:246
+# text = Cécile Kyenge, (Kambove, 28 di austu 1964) è na fimmina pulitìca taliu-congulisa.
+# labels = complete
+^Cécile/Cécile<np><ant>$
+^Kyenge/Kyenge<np><cog>$
+^,/,<cm>$
+^(/(<lpar>$
+^Kambove/Kambove<np><top>$
+^,/,<cm>$
+^28/28<num>$
+^di/di<pr>$
+^austu/austu<n><m><sg>$
+^1964/1964<num>$
+^)/)<rpar>$
+^è/èssiri<vbser><pri><p3><sg>$
+^na/un<det><ind><f><sg>$
+^fimmina/fìmmina<n><f><sg>$
+^pulitìca/pulìticu<adj><f><sg>$
+^taliu-congulisa/talianu-congulisi<adj><f><sg>$
+^./.<sent>$
+
+# sent_id = wikipedia-1k:247
+# text = Li Chiaramunti furu na nòbbili e antica famigghia siciliana assai putenti nnû XIV sèculu.
+# labels = complete
+^Li/lu<det><def><mf><pl>$
+^Chiaramunti/Chiaramunti<np><cog>$
+^furu/èssiri<vbser><ifi><p3><pl>$
+^na/un<det><ind><f><sg>$
+^nòbbili/nòbbili<adj><mf><sp>$
+^e/e<cnjcoo>$
+^antica/anticu<adj><f><sg>$
+^famigghia/famigghia<n><f><sg>$
+^siciliana/sicilianu<adj><f><sg>$
+^assai/assai<preadv>$
+^putenti/putenti<adj><mf><sp>$
+^nnû/nta<pr>+lu<det><def><m><sg>$
+^XIV/XIV<num><mf><sp>$
+^sèculu/sèculu<n><m><sg>$
+^./.<sent>$
+
+# sent_id = wikipedia-1k:248
+# text = Li sò cumpunenti furu ntra li cchiù mpurtanti rapprisintanti dâ nubbiltati "latina" di Sicilia e furu assai attivi nni la vita pulìtica di l'ìsula.
+# labels = complete
+^Li/lu<det><def><mf><pl>$
+^sò/so<adj><pos><mf><sg>$
+^cumpunenti/cumpunenti<n><mf><sp>$
+^furu/èssiri<vbser><ifi><p3><pl>$
+^ntra/ntrâ<pr>$
+^li/lu<det><def><mf><pl>$
+^cchiù/cchiù<adv>$
+^mpurtanti/mpurtanti<adj><mf><sp>$
+^rapprisintanti/rapprisintanti<n><mf><sp>$
+^dâ/di<pr>+lu<det><def><f><sg>$
+^nubbiltati/nubbiltati<n><f><sp>$
+^"/"<quot>$
+^latina/latinu<adj><f><sg>$
+^"/"<quot>$
+^di/di<pr>$
+^Sicilia/Sicilia<np><top>$
+^e/e<cnjcoo>$
+^furu/èssiri<vbser><ifi><p3><pl>$
+^assai/assai<preadv>$
+^attivi/àttivu<adj><mf><pl>$
+^nni/nta<pr>+lu<det><def><mf><pl>$
+^la/lu<det><def><f><sg>$
+^vita/vita<n><f><sg>$
+^pulìtica/pulìticu<adj><f><sg>$
+^di/di<pr>$
+^l'/lu<det><def><mf><sp>$
+^ìsula/ìsula<n><f><sg>$
+^./.<sent>$
+
+# sent_id = wikipedia-1k:249
+# text = Sta famigghia è macari arricunnucìbbili ê De Clermont di Francia.
+# labels = complete
+^Sta/chistu<det><dem><f><sg>$
+^famigghia/famigghia<n><f><sg>$
+^è/èssiri<vbser><pri><p3><sg>$
+^macari/macàri<adv>$
+^arricunnucìbbili/arricunnucìbbili<adj><mf><sp>$
+^ê/a<pr>+lu<det><def><mf><pl>$
+^De/De<np><cog>$
+^Clermont/Clermont<np><cog>$
+^di/di<pr>$
+^Francia/Francia<np><top>$
+^./.<sent>$
+
+# sent_id = wikipedia-1k:252
+# text = Pi scrìviri 'n sicilianu, racumannamu d'usari la "zz" mmeci dâ "cci" ma nun cunzidiramu l'àutri usi comu erruri.
+# labels = complete
+^Pi/pi<pr>$
+^scrìviri/scrìviri<vblex><inf>$
+^'n/nta<pr>$
+^sicilianu/sicilianu<n><m><sg>$
+^,/,<cm>$
+^racumannamu/racumannari<vblex><pri><p1><pl>$
+^d'/di<pr>$
+^usari/usari<vblex><inf>$
+^la/lu<det><def><f><sg>$
+^"/"<quot>$
+^zz/zz<n><f><sg>$
+^"/"<quot>$
+^mmeci dâ/mmeci di<pr>+lu<det><def><f><sg>$
+^"/"<quot>$
+^cci/cci<n><f><sg>$
+^"/"<quot>$
+^ma/ma<cnjcoo>$
+^nun/nun<adv>$
+^cunzidiramu/cunziddirari<vblex><pri><p1><pl>$
+^l'/lu<det><def><mf><sp>$
+^àutri/àutru<adj><ind><mf><pl>$
+^usi/usu<n><m><pl>$
+^comu/comu<pr>$
+^erruri/erruri<n><m><sp>$
+^./.<sent>$
+
+# sent_id = wikipedia-1k:254
+# text = Weimar è na citati di 63.236 abbitanti, sècunnu lu cenzimentu di 2012, dâ Turingia, 'n Girmania.
+# labels = complete
+^Weimar/Weimar<np><top>$
+^è/èssiri<vbser><pri><p3><sg>$
+^na/un<det><ind><f><sg>$
+^citati/citati<n><f><sp>$
+^di/di<pr>$
+^63.236/63.236<num>$
+^abbitanti/abbitanti<n><m><sp>$
+^,/,<cm>$
+^sècunnu/sècunnu<pr>$
+^lu/lu<det><def><m><sg>$
+^cenzimentu/cinzimentu<n><m><sg>$
+^di/di<pr>$
+^2012/2012<num>$
+^,/,<cm>$
+^dâ/di<pr>+lu<det><def><f><sg>$
+^Turingia/Turingia<np><top>$
+^,/,<cm>$
+^'n/nta<pr>$
+^Girmania/Girmania<np><top>$
+^./.<sent>$
+
 # sent_id = wikipedia-1k:1000
 # text = United Internet Team Germani è nu team vèlicu tedescu participanti â 32-èsima edizzioni dâ America's Cup chi si tinìu a Valencia ntô 2007.
 # labels = complete

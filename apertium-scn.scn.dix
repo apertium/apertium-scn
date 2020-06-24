@@ -9,6 +9,7 @@
     <sdef n="detnt" /> 
     <sdef n="ord" /> 
     <sdef n="top" /> 
+    <sdef n="quot" /> 
     <sdef n="ant" /> 
     <sdef n="cog" /> 
     <sdef n="al" /> 
@@ -87,6 +88,10 @@
         <e r="LR"><re>[0-9]+</re><p><l>-èsima</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="sg"/></r></p></e>
         <e r="LR"><re>[0-9]+</re><p><l>-èsimi</l><r><s n="num"/><s n="ord"/><s n="mf"/><s n="pl"/></r></p></e>
         <e><re>[0-9]+</re><p><l>ini</l><r><s n="num"/></r></p></e>
+    </pardef>
+
+    <pardef n="quotes">
+        <e><p><l>"</l><r>"<s n="quot"/></r></p></e>
     </pardef>
 
     <pardef n="separa">
@@ -36959,6 +36964,7 @@
     <e lm="assai"><i>assai</i><par n="oggi__adv"/></e>
     <e lm="assai" r="LR"><p><l>assà</l><r>assai</r></p><par n="oggi__adv"/></e>
     
+    <e lm="nveci"><i>nveci</i><par n="oggi__adv"/></e>
 
     <e lm="quasi"><i>quasi</i><par n="assai__preadv"/></e>
 
@@ -49158,6 +49164,7 @@
     <e><par n="coma"/></e>
     <e><par n="paresq"/></e>
     <e><par n="pardret"/></e>
+    <e><par n="quotes"/></e>
   </section>
 
 
