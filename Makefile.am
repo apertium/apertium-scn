@@ -2,8 +2,6 @@
 ## Makefile for apertium-scn
 ###############################################################################
 
-RELEASE=0.1
-VERSION=0.1.0
 LANG1=scn
 BASENAME=apertium-$(LANG1)
 
@@ -70,7 +68,7 @@ EXTRA_DIST=$(BASENAME).$(LANG1).dix		\
 apertium_scndir=$(prefix)/share/apertium/$(BASENAME)/
 apertium_scn_srcdir=$(prefix)/share/apertium/$(BASENAME)/
 
-apertium_scn_DATA=$(TARGETS_COMMON) $(LANG1).prob
+apertium_scn_DATA=$(TARGETS_COMMON)
 
 pkgconfigdir = $(prefix)/share/pkgconfig
 pkgconfig_DATA = $(BASENAME).pc
@@ -84,7 +82,6 @@ modes/$(LANG1)-morph.mode: modes.xml
 noinst_DATA=modes/$(LANG1)-morph.mode
 
 install-data-local: install-modes
-	test -d $(DESTDIR)$(apertium_scn_srcdir) || mkdir -p $(DESTDIR)$(apertium_scn_srcdir)
 	$(INSTALL_DATA) $(BASENAME).$(LANG1).dix $(DESTDIR)$(apertium_scn_srcdir)
 	$(INSTALL_DATA) $(BASENAME).$(LANG1).rlx $(DESTDIR)$(apertium_scn_srcdir)
 	$(INSTALL_DATA) $(BASENAME).post-$(LANG1).dix $(DESTDIR)$(apertium_scn_srcdir)
@@ -102,4 +99,3 @@ test: all
 	@echo "TODO test analysis results" > .test-ref
 	@diff .test-ref .test-mt
 	@rm .test-ref .test-mt
-
