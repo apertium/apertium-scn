@@ -105,6 +105,7 @@ LIST Chi = "<chi>" ;
 LIST Cristianu = "cristianu" ;
 
 LIST Nun = "nun" ; 
+LIST Ti = "<ti>"i ;
 
 LIST È = "<è>"i ; 
 
@@ -399,6 +400,8 @@ REMOVE Sg2 IF (0 Assai) (NOT -1* Sg2) ;
 
 REMOVE N IF (-1 Nun) (0C Voi) ; 
     ## Senti, figghia mia, mentri ca tu nun voi nudda allianazzioni.
+
+SELECT Pron IF (0C Ti) (1C V) ;
 
 # SELECT Pron/itg IF (0 Rel) (0 Pron/itg) (1* Intrg);
 
