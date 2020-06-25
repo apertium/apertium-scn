@@ -1554,6 +1554,39 @@
 ^britànnichi/britànnicu<adj><mf><pl>$
 ^./.<sent>$
 
+# sent_id = wikipedia-1k:632
+# text = Santu Pietru (puru scrittu Santupietru) o Santu Pietru Vernoticu (virsione lucale lunga) eta un cumune salentinu ca se trova ntra la pruvincia te Brindisi.
+# labels = complete
+^Santu/santu<adj><m><sg>$
+^Pietru/Pietru<np><ant>$
+^(/(<lpar>$
+^puru/puru<adv>$
+^scrittu/scrìviri<vblex><pp><m><sg>$
+^Santupietru/Santupietru<np><top>$
+^)/)<rpar>$
+^o/o<cnjcoo>$
+^Santu/santu<adj><m><sg>$
+^Pietru/Pietru<np><ant>$
+^Vernoticu/Vernoticu<np><ant>$
+^(/(<lpar>$
+^virsione/virsioni<n><f><sp>$
+^lucale/lucali<adj><mf><sp>$
+^lunga/longu<adj><f><sg>$
+^)/)<rpar>$
+^eta/èssiri<vblex><pri><p3><sg>$
+^un/un<det><ind><m><sg>$
+^cumune/cumuni<n><m><sg>$
+^salentinu/salentinu<adj><m><sg>$
+^ca/ca<cnjsub>$
+^se/si<prn><pro><ref><p3><mf><sp>$
+^trova/truvari<vblex><pri><p3><sg>$
+^ntra/ntrâ<pr>$
+^la/lu<det><def><f><sg>$
+^pruvincia/pruvincia<n><f><sg>$
+^te/di<pr>$
+^Brindisi/Brìndisi<np><top>$
+^./.<sent>$
+
 # sent_id = wikipedia-1k:977
 # text = Cu tuttu chissu, lu muvimentu cuntatinu nun s'avìa piecatu e allura ci fu quarchidunu ca pinzò ca avìa vinutu lu mumentu di dàricci nu corpu dicisivu.
 # labels = complete

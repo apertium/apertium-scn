@@ -311,7 +311,7 @@ SELECT P2 IF (-1C Pron + $$P2) (0 Pis/p1 OR Pis/p2 OR Pis/p3 ) ;
 
 SELECT P1 IF (-1C Pron + $$P1) (0 Pis/p1 OR Pis/p2 OR Pis/p3 ) ;
 
-SELECT N IF (-1 Det OR Pr LINK 0/* Det OR Pr) (0 N + $$Msc OR Verb + $$P1) ;
+SELECT N IF (-1 Det OR Pr LINK 0/* Det OR Pr) (0 N + $$Msc OR Verb + $$P1) (NOT 0C N OR Prop) ;
     ## Munnu/munnari
 
 SELECT N IF (-1 Det OR Pr LINK 0/* Det OR Pr) (0C N + $$Fem OR Verb + $$P3) ;

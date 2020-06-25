@@ -70,5 +70,26 @@
     <equiv-char value="u"/>
   </char>
 
+
+<!--
+  <char value="i">
+    <equiv-char value="ì"/>
+  </char>
+  <char value="e">
+    <equiv-char value="è"/>
+  </char>
+  <char value="o">
+    <equiv-char value="ò"/>
+  </char>
+
+  <char value="o">
+    <equiv-char value="u"/>
+  </char>
+  <char value="u">
+    <equiv-char value="o"/>
+  </char>
+-->
+
+
 </analysis-chars>
 
