@@ -3417,19 +3417,22 @@
     	<e><p><l>iu</l><r>iari<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
     	<e><p><l>i</l><r>iari<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
     	<e><p><l>ia</l><r>iari<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+    	<e><p><l>iamu</l><r>iari<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+    	<e><p><l>iati</l><r>iari<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+    	<e><p><l>ìanu</l><r>iari<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
 
     	<e><p><l>iava</l><r>iari<s n="vblex"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
     	<e r="LR"><p><l>iavu</l><r>iari<s n="vblex"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
     	<e><p><l>iavi</l><r>iari<s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
     	<e><p><l>iava</l><r>iari<s n="vblex"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
     	<e><p><l>iàvamu</l><r>iari<s n="vblex"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p></e>
-    	<e r="LR"><p><l>iavamu</l><r>iari<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+    	<e r="LR"><p><l>iavamu</l><r>iari<s n="vblex"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p></e>
+    	<e r="LR"><p><l>iavavu</l><r>iari<s n="vblex"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
     	<e><p><l>iàvavu</l><r>iari<s n="vblex"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
-    	<e r="LR"><p><l>iavavu</l><r>iari<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
         <e><p><l>iàvanu</l><r>iari<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
-    	<e r="LR"><p><l>iavunu</l><r>iari<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
-    	<e r="LR"><p><l>iavanu</l><r>iari<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
-    	<e r="LR"><p><l>iàvunu</l><r>iari<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+    	<e r="LR"><p><l>iavunu</l><r>iari<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
+    	<e r="LR"><p><l>iavanu</l><r>iari<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
+    	<e r="LR"><p><l>iàvunu</l><r>iari<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
 
     	 <!-- Preterito de Indicativo -->
     	<e><p><l>iai</l><r>iari<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -9364,6 +9367,7 @@
     <e lm="data"><i>dat</i><par n="cas/a__n"/></e>
     
     <e lm="ficu"><i>fic</i><par n="parc/u__n"/></e>
+    <e lm="discu"><i>disc</i><par n="parc/u__n"/></e>
 
     
     
