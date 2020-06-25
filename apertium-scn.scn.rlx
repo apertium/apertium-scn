@@ -98,9 +98,13 @@ LIST Putiri = "putiri" ;
 
 LIST Assai = "<assai>"i ; 
 
+LIST Voi = "<voi>"i ;
+
 
 LIST Chi = "<chi>" ;
 LIST Cristianu = "cristianu" ;
+
+LIST Nun = "nun" ; 
 
 LIST È = "<è>"i ; 
 
@@ -392,6 +396,9 @@ SELECT Det IF (-1 BOS) (0 Lu + $$Genero) (1C N + $$Genero) ;
 
 REMOVE Sg2 IF (0 Assai) (NOT -1* Sg2) ;
     ## Lu portu addivintau assai friquintatu di parti di mmarcazzioni di tuttu lu Miditirràniu , n modu spiciali dî menzi mircantili ca vinìanu a rifurnìrisi di granu . 
+
+REMOVE N IF (-1 Nun) (0C Voi) ; 
+    ## Senti, figghia mia, mentri ca tu nun voi nudda allianazzioni.
 
 # SELECT Pron/itg IF (0 Rel) (0 Pron/itg) (1* Intrg);
 
