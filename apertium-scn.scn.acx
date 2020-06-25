@@ -13,6 +13,27 @@
     <equiv-char value="‘"/> <!-- U+2018 LEFT SINGLE QUOTATION MARK -->
   </char>
 
+  <char value="u">
+    <equiv-char value="ù"/>
+  </char>
+
+  <char value="o">
+    <equiv-char value="ò"/>
+  </char>
+
+  <char value="e">
+    <equiv-char value="è"/>
+  </char>
+
+  <char value="i">
+    <equiv-char value="ì"/>
+  </char>
+
+  <char value="a">
+    <equiv-char value="à"/>
+  </char>
+
+
   <!-- Se suele no escribir los símbolos diacríticos -->
 
   <char value="À">

@@ -102,6 +102,8 @@ LIST Assai = "<assai>"i ;
 LIST Chi = "<chi>" ;
 LIST Cristianu = "cristianu" ;
 
+LIST È = "<è>"i ; 
+
 LIST Sg1 = (p1 sg) ;
 LIST Sg2 = (p2 sg) ;
 LIST Sg3 = (p3 sg) ;
@@ -170,13 +172,13 @@ LIST P1 = p1;
 LIST P2 = p2;
 LIST P3 = p3; 
 
-LIST P1/pl = (p1 pl); 
-LIST P2/pl = (p2 pl);
-LIST P3/pl = (p3 pl); 
+LIST Pl1 = (p1 pl); 
+LIST Pl2 = (p2 pl);
+LIST Pl3 = (p3 pl); 
 
-LIST P1/sg = (p1 sg); 
-LIST P2/sg = (p2 sg);
-LIST P3/sg = (p3 sg); 
+LIST Sg1 = (p1 sg); 
+LIST Sg2 = (p2 sg);
+LIST Sg3 = (p3 sg); 
 
 LIST Msc = m ;
 LIST Fem = f ; 
@@ -208,6 +210,9 @@ SET FiniteForm = Inf OR PrfPrc or Gerund;
 
 SECTION
 
+REMOVE CC IF (0 È) ;
+
+REMOVE Pri IF (0C Pri + Sg1 OR Ifi + Sg3) ;
 
 SELECT AdjPos IF (-1 N) (0 AdjPos OR DetPos);
 
@@ -318,7 +323,7 @@ SELECT N IF (-1 Det OR Pr LINK 0/* Det OR Pr) (0C N + $$Fem OR Verb + $$P3) ;
     ## Acqua/acquari, porta/purtari
     ## Stu finòminu asisti nta vari zoni di la Sicilia . 
 
-SELECT N IF (-1 Det OR Pr LINK 0/* Det OR Pr) (0 Verb + $$PrfPrc OR N) ;
+SELECT N IF (-1 Det OR Pr LINK 0/* Det OR Pr) (0 Verb + $$PrfPrc OR N) (NOT 0C N OR Prop) ;
     ## significatu/significari
 
 SELECT V IF (0 Vbhaver or V) (1 Det) (2 N) ;
@@ -335,7 +340,7 @@ SELECT Fem IF (0 Adj/pl + $$Msc OR Adj/pl + $$Fem) (1 N/pl + $$Fem) ;
 
 SELECT N IF (0 Adj/pl + $$Msc OR Adj/pl + $$Fem) (1 N/pl + $$Fem) ;
 
-SELECT Prn/ni IF (0 Prn/ni OR Pr LINK 0/* Det) (1 Verb + $$P1/pl) ;
+SELECT Prn/ni IF (0 Prn/ni OR Pr LINK 0/* Det) (1 Verb + $$Pl1) ;
 # n' accupamu cu ...(= "nos ocupamos con ...")
 
 SELECT PrfPrc IF (-1 Vèniri) (0 PrfPrc/m OR PrfPrc/f OR NonFiniteForm) ;
@@ -401,12 +406,12 @@ REMOVE Sg2 IF (0 Assai) (NOT -1* Sg2) ;
 
 # ==================================
 # SELECT Rel/aa IF (0 Rel/aa OR Pr) (1 Verb);
-# SELECT Rel/aa IF (0 Rel/aa OR Pr) (1 Pron/p1/sg) (2 Verb + $$P1/sg);
-# SELECT Rel/aa IF (0 Rel/aa OR Pr) (1 Pron/p2/sg) (2 Verb + $$P2/sg);
-# SELECT Rel/aa IF (0 Rel/aa OR Pr) (1 Pron/p3/sg) (2 Verb + $$P3/sg);
-# SELECT Rel/aa IF (0 Rel/aa OR Pr) (1 Pron/p1/pl) (2 Verb + $$P1/pl);
-# SELECT Rel/aa IF (0 Rel/aa OR Pr) (1 Pron/p2/pl) (2 Verb + $$P2/pl);
-# SELECT Rel/aa IF (0 Rel/aa OR Pr) (1 Pron/p3/pl) (2 Verb + $$P3/pl);
+# SELECT Rel/aa IF (0 Rel/aa OR Pr) (1 Pron/p1/sg) (2 Verb + $$Sg1);
+# SELECT Rel/aa IF (0 Rel/aa OR Pr) (1 Pron/p2/sg) (2 Verb + $$Sg2);
+# SELECT Rel/aa IF (0 Rel/aa OR Pr) (1 Pron/p3/sg) (2 Verb + $$Sg3);
+# SELECT Rel/aa IF (0 Rel/aa OR Pr) (1 Pron/p1/pl) (2 Verb + $$Pl1);
+# SELECT Rel/aa IF (0 Rel/aa OR Pr) (1 Pron/p2/pl) (2 Verb + $$Pl2);
+# SELECT Rel/aa IF (0 Rel/aa OR Pr) (1 Pron/p3/pl) (2 Verb + $$Pl3);
 # 
 # SELECT Pr IF (0 Rel/aa OR Pr) (1 Pron/nt OR A OR N OR Det);
 # # cu disìa troppu finisci cu nenti
