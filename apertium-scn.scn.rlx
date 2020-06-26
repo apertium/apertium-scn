@@ -231,11 +231,6 @@ SELECT V IF (0C Pariri) (0 V OR N) (1 CS/ca OR Pr LINK 0/* Det) ;
 
 SELECT DetDef IF (0 DetDef OR Verb + $$Pri) (1 N + $$Pl) ;
 
-REMOVE SUB:1 Det IF (0 Prep/di OR Prep/a OR Prep/pi OR Prep/cu OR Prep/nta) ;
- # "di" y "a" etc. deberían quedar como preposiciones simples por defecto.
- # necesitamos esta regla porque a veces se escribe siciliano sin tildes, 
- # y allí "a" y "â" son ambiguos
-
 SELECT CC IF (0 CC OR Vbser OR Pr LINK 0/* Det) ;
 
 SELECT A + $$Genero IF (-1C N + $$Genero) ;
@@ -449,5 +444,11 @@ SELECT Det IF (-1C Vbser) (0C Det OR Pron) (1C N) ;
 
 
 AFTER-SECTIONS
+
+REMOVE SUB:1 Det IF (0 Prep/di OR Prep/a OR Prep/pi OR Prep/cu OR Prep/nta) ;
+ # "di" y "a" etc. deberían quedar como preposiciones simples por defecto.
+ # necesitamos esta regla porque a veces se escribe siciliano sin tildes, 
+ # y allí "a" y "â" son ambiguos
+
 
 REMOVE SUB:1 Det (NOT 0 Imper) ;

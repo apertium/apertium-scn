@@ -428,6 +428,9 @@
   
     <pardef n="XIV__num">
     	<e><p><l></l><r><s n="num"/><s n="mf"/><s n="sp"/></r></p></e> 
+        <e><p><l>èsimu</l><r><s n="num"/><s n="ord"/><s n="m"/><s n="sg"/></r></p></e>
+        <e><p><l>èsima</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="sg"/></r></p></e>
+        <e><p><l>èsimi</l><r><s n="num"/><s n="ord"/><s n="mf"/><s n="pl"/></r></p></e>
     </pardef>
    
     
@@ -1144,7 +1147,14 @@
       	<e r="LR"><p><l>î</l><r>iu<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
       	<e r="LR"><p><l>ii</l><r>iu<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
     </pardef>
-     
+      
+    <pardef n="stàb/bili__adj">
+      	<e><p><l>bili</l><r>bili<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+      	<e r="LR"><p><l>bile</l><r>bili<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+      	<e r="LR"><p><l>ili</l><r>bili<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+      	<e r="LR"><p><l>ile</l><r>bili<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+    </pardef>
+
     <pardef n="cintral/i__adj">
       	<e><p><l>i</l><r>i<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
       	<e r="LR"><p><l>e</l><r>i<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
@@ -9287,6 +9297,14 @@
     <e lm="acrònimu"><i>acrònim</i><par n="ann/u__n"/></e>  
     <e lm="acrònimu" r="LR"><p><l>acronim</l><r>acrònim</r></p><par n="ann/u__n"/></e>  
     <e lm="acrònimu" r="LR"><p><l>acrunim</l><r>acrònim</r></p><par n="ann/u__n"/></e>  
+
+    <e lm="omonimu"><i>omonim</i><par n="ann/u__n"/></e>  
+    <e lm="omonimu" r="LR"><p><l>omunim</l><r>omonim</r></p><par n="ann/u__n"/></e>  
+    <e lm="omonimu" r="LR"><p><l>umonim</l><r>omonim</r></p><par n="ann/u__n"/></e>  
+
+    <e lm="pseudonimu"><i>pseudonim</i><par n="ann/u__n"/></e>  
+
+
     <e lm="riforma"><i>riform</i><par n="cas/a__n"/></e>
 
     <e lm="russu"><i>russ</i><par n="sicilian/u__n"/></e> 
@@ -9703,6 +9721,7 @@
     <e lm="vuluntati"><i>vulunt</i><par n="cit/ati__n"/></e>
 
     <e lm="pianeta"><i>pianet</i><par n="pianet/a__n"/></e>
+    <e lm="turista"><i>turist</i><par n="pianet/a__n"/></e>
     <e lm="mussulmanu"><i>mussulman</i><par n="citadin/u__n"/></e>
     <e lm="mussulmanu" r="LR"><p><l>mussurman</l><r>mussulman</r></p><par n="citadin/u__n"/></e>
     <e lm="mussulmanu" r="LR"><p><l>musulman</l><r>mussulman</r></p><par n="citadin/u__n"/></e>
@@ -35011,7 +35030,7 @@
     <e lm="dicurativu"><i>dicurativ</i><par n="bedd/u__adj"/></e>
     <e lm="rilivanti"><i>rilivanti</i><par n="duci__adj"/></e>
     <e lm="scuzzisi"><i>scuzzisi</i><par n="duci__adj"/></e>
-    <e lm="viulàbbili"><i>viulàbbili</i><par n="duci__adj"/></e>
+    <e lm="viulàbbili"><i>viulab</i><par n="stàb/bili__adj"/></e>
 
     <e lm="prutistanti"><i>prutistanti</i><par n="duci__adj"/></e>
     <e lm="urtiriuri"><i>urtiriuri</i><par n="duci__adj"/></e>
@@ -35393,7 +35412,7 @@
     <e lm="vicinu"><i>vicin</i><par n="bedd/u__adj"/></e>
     <e lm="amaru"><i>amar</i><par n="bedd/u__adj"/></e>
     <e lm="scuru"><i>scur</i><par n="bedd/u__adj"/></e>
-    <e lm="amàbbili"><i>amàbbili</i><par n="duci__adj"/></e>
+    <e lm="amàbbili"><i>amab</i><par n="stàb/bili__adj"/></e>
     <e lm="amàbbili" r="LR"><p><l>amabbili</l><r>amàbbili</r></p><par n="duci__adj"/></e>
 
 
@@ -35754,7 +35773,7 @@
     <e lm="uvali"><i>uval</i><par n="cintral/i__adj"/></e>
     <e lm="vasci"><i>vasci</i><par n="duci__adj"/></e>
     <e lm="vìrgini"><i>vìrgini</i><par n="duci__adj"/></e>
-    <e lm="àbbili"><i>àbbili</i><par n="duci__adj"/></e>
+    <e lm="àbbili"><i>ab</i><par n="stàb/bili__adj"/></e>
     <e lm="bàrbaricu"><i>bàrbaric</i><par n="ètic/u__adj"/></e>
     <e lm="succissivu"><i>succissiv</i><par n="bedd/u__adj"/></e>
     <e lm="piculiari"><i>piculiari</i><par n="duci__adj"/></e>
@@ -35895,7 +35914,7 @@
     <e lm="ntilligenti"><i>ntilligenti</i><par n="duci__adj"/></e>
     <e lm="nuiusu"><i>nuius</i><par n="bedd/u__adj"/></e>
     <e lm="nzufficienti"><i>nzufficienti</i><par n="duci__adj"/></e>
-    <e lm="nzuppurtàbbili"><i>nzuppurtàbbili</i><par n="duci__adj"/></e>
+    <e lm="nzuppurtàbbili"><i>nzuppurtab</i><par n="stàb/bili__adj"/></e>
     <e lm="nìguru"><i>nìgur</i><par n="bedd/u__adj"/></e>
     <e lm="ominiscu"><i>ominisc</i><par n="ètic/u__adj"/></e>
     <e lm="onnìvuru"><i>onnìvur</i><par n="bedd/u__adj"/></e>
@@ -36741,7 +36760,7 @@
     <e lm="ngnuranti"><i>ngnuranti</i><par n="duci__adj"/></e>
     <e lm="ngnuranti" r="LR"><p><l>ingnuranti</l><r>ngnuranti</r></p><par n="duci__adj"/></e>
     <e lm="ngnuranti" r="LR"><p><l>ignuranti</l><r>ngnuranti</r></p><par n="duci__adj"/></e>
-    <e lm="nsuppurtàbbili"><i>nsuppurtàbbili</i><par n="duci__adj"/></e>
+    <e lm="nsuppurtàbbili"><i>nsuppurtab</i><par n="stàb/bili__adj"/></e>
     <e lm="nsuppurtàbbili" r="LR"><p><l>nzuppurtàbili</l><r>nsuppurtàbbili</r></p><par n="duci__adj"/></e>
     <e lm="nsuppurtàbbili" r="LR"><p><l>nsuppurtàbili</l><r>nsuppurtàbbili</r></p><par n="duci__adj"/></e>
     <e lm="nternaziunali"><i>nternaziunal</i><par n="cintral/i__adj"/></e>
@@ -37411,14 +37430,14 @@
     <e lm="miti"><i>miti</i><par n="duci__adj"/></e>
     <e lm="pupulani"><i>pupulani</i><par n="duci__adj"/></e>
     <e lm="maggistrali"><i>maggistral</i><par n="cintral/i__adj"/></e>
-    <e lm="cuntabbili"><i>cuntabbili</i><par n="duci__adj"/></e>
+    <e lm="cuntabbili"><i>cuntab</i><par n="stàb/bili__adj"/></e>
     <e lm="ricurrenti"><i>ricurrenti</i><par n="duci__adj"/></e>
     <e lm="lunari"><i>lunari</i><par n="duci__adj"/></e>
     <e lm="pirfettu"><i>pirfett</i><par n="bedd/u__adj"/></e>
     <e lm="efficienti"><i>efficienti</i><par n="duci__adj"/></e>
     <e lm="favurèvuli"><i>favurèvuli</i><par n="duci__adj"/></e>
     <e lm="purtatili"><i>purtatili</i><par n="duci__adj"/></e>
-    <e lm="nzeparàbbili"><i>nzeparàbbili</i><par n="duci__adj"/></e>
+    <e lm="nzeparàbbili"><i>nzeparab</i><par n="stàb/bili__adj"/></e>
     <e lm="nzeparàbbili" r="LR"><p><l>nzeparabbili</l><r>nzeparàbbili</r></p><par n="duci__adj"/></e>
     <e lm="furtunatu"><i>furtunat</i><par n="bedd/u__adj"/></e>
     <e lm="nubbiliari"><i>nubbiliari</i><par n="duci__adj"/></e>
@@ -37825,6 +37844,207 @@
     <e lm="edituriali" r="LR"><p><l>adituriali</l><r>edituriali</r></p><par n="duci__adj"/></e>
     <e lm="cirimuniali" r="LR"><p><l>cerimuniali</l><r>cirimuniali</r></p><par n="duci__adj"/></e>
 
+<e lm="abitàbbili"><i>abitàb</i><par n="stàb/bili__adj"/></e>
+<e lm="accettàbbili"><i>accettàb</i><par n="stàb/bili__adj"/></e>
+<e lm="accittàbbili"><i>accittàb</i><par n="stàb/bili__adj"/></e>
+<e lm="accriditàbbili"><i>accriditàb</i><par n="stàb/bili__adj"/></e>
+<e lm="accumulàbbili"><i>accumulàb</i><par n="stàb/bili__adj"/></e>
+<e lm="adattàbbili"><i>adattàb</i><par n="stàb/bili__adj"/></e>
+<e lm="addimustràbbili"><i>addimustràb</i><par n="stàb/bili__adj"/></e>
+<e lm="addisiàbbili"><i>addisiàb</i><par n="stàb/bili__adj"/></e>
+<e lm="addupiràbbili"><i>addupiràb</i><par n="stàb/bili__adj"/></e>
+<e lm="affidàbbili"><i>affidàb</i><par n="stàb/bili__adj"/></e>
+<e lm="affiddàbbili"><i>affiddàb</i><par n="stàb/bili__adj"/></e>
+<e lm="aguagghiàbbili"><i>aguagghiàb</i><par n="stàb/bili__adj"/></e>
+<e lm="alienàbbili"><i>alienàb</i><par n="stàb/bili__adj"/></e>
+<e lm="allianàbbili"><i>allianàb</i><par n="stàb/bili__adj"/></e>
+<e lm="applicàbbili"><i>applicàb</i><par n="stàb/bili__adj"/></e>
+<e lm="apprezzàbbili"><i>apprezzàb</i><par n="stàb/bili__adj"/></e>
+<e lm="apprizzàbbili"><i>apprizzàb</i><par n="stàb/bili__adj"/></e>
+<e lm="assimilàbbili"><i>assimilàb</i><par n="stàb/bili__adj"/></e>
+<e lm="auspicàbbili"><i>auspicàb</i><par n="stàb/bili__adj"/></e>
+<e lm="azziunàbbili"><i>azziunàb</i><par n="stàb/bili__adj"/></e>
+<e lm="ballàbbili"><i>ballàb</i><par n="stàb/bili__adj"/></e>
+<e lm="canciàbbili"><i>canciàb</i><par n="stàb/bili__adj"/></e>
+<e lm="cancillàbbili"><i>cancillàb</i><par n="stàb/bili__adj"/></e>
+<e lm="cantàbbili"><i>cantàb</i><par n="stàb/bili__adj"/></e>
+<e lm="carruzzàbbili"><i>carruzzàb</i><par n="stàb/bili__adj"/></e>
+<e lm="caruzzàbbili"><i>caruzzàb</i><par n="stàb/bili__adj"/></e>
+<e lm="ccittàbbili"><i>ccittàb</i><par n="stàb/bili__adj"/></e>
+<e lm="ciclàbbili"><i>ciclàb</i><par n="stàb/bili__adj"/></e>
+<e lm="cucinàbbili"><i>cucinàb</i><par n="stàb/bili__adj"/></e>
+<e lm="cullucàbbili"><i>cullucàb</i><par n="stàb/bili__adj"/></e>
+<e lm="cultivàbbili"><i>cultivàb</i><par n="stàb/bili__adj"/></e>
+<e lm="cummircializzàbbili"><i>cummircializzàb</i><par n="stàb/bili__adj"/></e>
+<e lm="cumparàbbili"><i>cumparàb</i><par n="stàb/bili__adj"/></e>
+<e lm="cunciliàbbili"><i>cunciliàb</i><par n="stàb/bili__adj"/></e>
+<e lm="cunfiguràbbili"><i>cunfiguràb</i><par n="stàb/bili__adj"/></e>
+<e lm="cunfruntàbbili"><i>cunfruntàb</i><par n="stàb/bili__adj"/></e>
+<e lm="cunsidiràbbili"><i>cunsidiràb</i><par n="stàb/bili__adj"/></e>
+<e lm="cunsultàbbili"><i>cunsultàb</i><par n="stàb/bili__adj"/></e>
+<e lm="cuntimplàbbili"><i>cuntimplàb</i><par n="stàb/bili__adj"/></e>
+<e lm="cuntrullàbbili"><i>cuntrullàb</i><par n="stàb/bili__adj"/></e>
+<e lm="cunzidiràbbili"><i>cunzidiràb</i><par n="stàb/bili__adj"/></e>
+<e lm="cunzigghiàbbili"><i>cunzigghiàb</i><par n="stàb/bili__adj"/></e>
+<e lm="curàbbili"><i>curàb</i><par n="stàb/bili__adj"/></e>
+<e lm="curmàbbili"><i>curmàb</i><par n="stàb/bili__adj"/></e>
+<e lm="curpàbbili"><i>curpàb</i><par n="stàb/bili__adj"/></e>
+<e lm="datàbbili"><i>datàb</i><par n="stàb/bili__adj"/></e>
+<e lm="diagnusticàbbili"><i>diagnusticàb</i><par n="stàb/bili__adj"/></e>
+<e lm="diffirinziàbbili"><i>diffirinziàb</i><par n="stàb/bili__adj"/></e>
+<e lm="dilatàbbili"><i>dilatàb</i><par n="stàb/bili__adj"/></e>
+<e lm="dirivàbbili"><i>dirivàb</i><par n="stàb/bili__adj"/></e>
+<e lm="dirugàbbili"><i>dirugàb</i><par n="stàb/bili__adj"/></e>
+<e lm="disàbbili"><i>disàb</i><par n="stàb/bili__adj"/></e>
+<e lm="disiddiràbbili"><i>disiddiràb</i><par n="stàb/bili__adj"/></e>
+<e lm="disidiràbbili"><i>disidiràb</i><par n="stàb/bili__adj"/></e>
+<e lm="dispinzàbbili"><i>dispinzàb</i><par n="stàb/bili__adj"/></e>
+<e lm="ducumintàbbili"><i>ducumintàb</i><par n="stàb/bili__adj"/></e>
+<e lm="duràbbili"><i>duràb</i><par n="stàb/bili__adj"/></e>
+<e lm="eccitàbbili"><i>eccitàb</i><par n="stàb/bili__adj"/></e>
+<e lm="edificàbbili"><i>edificàb</i><par n="stàb/bili__adj"/></e>
+<e lm="eliminàbbili"><i>eliminàb</i><par n="stàb/bili__adj"/></e>
+<e lm="encumiàbbili"><i>encumiàb</i><par n="stàb/bili__adj"/></e>
+<e lm="evitàbbili"><i>evitàb</i><par n="stàb/bili__adj"/></e>
+<e lm="falsificàbbili"><i>falsificàb</i><par n="stàb/bili__adj"/></e>
+<e lm="fiammàbbili"><i>fiammàb</i><par n="stàb/bili__adj"/></e>
+<e lm="filtràbbili"><i>filtràb</i><par n="stàb/bili__adj"/></e>
+<e lm="firmintàbbili"><i>firmintàb</i><par n="stàb/bili__adj"/></e>
+<e lm="friàbbili"><i>friàb</i><par n="stàb/bili__adj"/></e>
+<e lm="fruinzàbbili"><i>fruinzàb</i><par n="stàb/bili__adj"/></e>
+<e lm="furmidàbbili"><i>furmidàb</i><par n="stàb/bili__adj"/></e>
+<e lm="hàbbili"><i>hàb</i><par n="stàb/bili__adj"/></e>
+<e lm="idintificàbbili"><i>idintificàb</i><par n="stàb/bili__adj"/></e>
+<e lm="iditàbbili"><i>iditàb</i><par n="stàb/bili__adj"/></e>
+<e lm="immutàbbili"><i>immutàb</i><par n="stàb/bili__adj"/></e>
+<e lm="impirmiàbbili"><i>impirmiàb</i><par n="stàb/bili__adj"/></e>
+<e lm="inaffidàbbili"><i>inaffidàb</i><par n="stàb/bili__adj"/></e>
+<e lm="incancellàbbili"><i>incancellàb</i><par n="stàb/bili__adj"/></e>
+<e lm="ineluttàbbili"><i>ineluttàb</i><par n="stàb/bili__adj"/></e>
+<e lm="inimmagginàbbili"><i>inimmagginàb</i><par n="stàb/bili__adj"/></e>
+<e lm="inneffàbbili"><i>inneffàb</i><par n="stàb/bili__adj"/></e>
+<e lm="inossidàbbili"><i>inossidàb</i><par n="stàb/bili__adj"/></e>
+<e lm="invalicàbbili"><i>invalicàb</i><par n="stàb/bili__adj"/></e>
+<e lm="invariàbbili"><i>invariàb</i><par n="stàb/bili__adj"/></e>
+<e lm="irrinuncciàbbili"><i>irrinuncciàb</i><par n="stàb/bili__adj"/></e>
+<e lm="irriparàbbili"><i>irriparàb</i><par n="stàb/bili__adj"/></e>
+<e lm="jucàbbili"><i>jucàb</i><par n="stàb/bili__adj"/></e>
+<e lm="malliàbbili"><i>malliàb</i><par n="stàb/bili__adj"/></e>
+<e lm="maniggiàbbili"><i>maniggiàb</i><par n="stàb/bili__adj"/></e>
+<e lm="merciàbbili"><i>merciàb</i><par n="stàb/bili__adj"/></e>
+<e lm="mimurizzàbbili"><i>mimurizzàb</i><par n="stàb/bili__adj"/></e>
+<e lm="miràbbili"><i>miràb</i><par n="stàb/bili__adj"/></e>
+<e lm="misaràbbili"><i>misaràb</i><par n="stàb/bili__adj"/></e>
+<e lm="misiràbbili"><i>misiràb</i><par n="stàb/bili__adj"/></e>
+<e lm="misuràbbili"><i>misuràb</i><par n="stàb/bili__adj"/></e>
+<e lm="mmagginàbbili"><i>mmagginàb</i><par n="stàb/bili__adj"/></e>
+<e lm="mmariàbbili"><i>mmariàb</i><par n="stàb/bili__adj"/></e>
+<e lm="mmimuràbbili"><i>mmimuràb</i><par n="stàb/bili__adj"/></e>
+<e lm="mparpàbbili"><par n="m/im"/><i>parpàb</i><par n="stàb/bili__adj"/></e>
+<e lm="mpirmiàbbili"><par n="m/im"/><i>pirmiàb</i><par n="stàb/bili__adj"/></e>
+<e lm="mpresintàbbili"><par n="m/im"/><i>presintàb</i><par n="stàb/bili__adj"/></e>
+<e lm="mprisintàbbili"><par n="m/im"/><i>prisintàb</i><par n="stàb/bili__adj"/></e>
+<e lm="mprubbàbbili"><par n="m/im"/><i>prubbàb</i><par n="stàb/bili__adj"/></e>
+<e lm="mprurugàbbili"><par n="m/im"/><i>prurugàb</i><par n="stàb/bili__adj"/></e>
+<e lm="mpugnàbbili"><par n="m/im"/><i>pugnàb</i><par n="stàb/bili__adj"/></e>
+<e lm="mputàbbili"><par n="m/im"/><i>putàb</i><par n="stàb/bili__adj"/></e>
+<e lm="mudificàbbili"><i>mudificàb</i><par n="stàb/bili__adj"/></e>
+<e lm="naffirràbbili"><i>naffirràb</i><par n="stàb/bili__adj"/></e>
+<e lm="navicàbbili"><i>navicàb</i><par n="stàb/bili__adj"/></e>
+<e lm="ncancillàbbili"><i>ncancillàb</i><par n="stàb/bili__adj"/></e>
+<e lm="nciammàbbili"><i>nciammàb</i><par n="stàb/bili__adj"/></e>
+<e lm="ncumparàbbili"><i>ncumparàb</i><par n="stàb/bili__adj"/></e>
+<e lm="ncuntrullàbbili"><i>ncuntrullàb</i><par n="stàb/bili__adj"/></e>
+<e lm="ndiclinàbbili"><i>ndiclinàb</i><par n="stàb/bili__adj"/></e>
+<e lm="ndimenticàbbili"><i>ndimenticàb</i><par n="stàb/bili__adj"/></e>
+<e lm="ndirugàbbili"><i>ndirugàb</i><par n="stàb/bili__adj"/></e>
+<e lm="ndispinsàbbili"><i>ndispinsàb</i><par n="stàb/bili__adj"/></e>
+<e lm="ndispinzàbbili"><i>ndispinzàb</i><par n="stàb/bili__adj"/></e>
+<e lm="ndissuciàbbili"><i>ndissuciàb</i><par n="stàb/bili__adj"/></e>
+<e lm="nfaticàbbili"><i>nfaticàb</i><par n="stàb/bili__adj"/></e>
+<e lm="nigàbbili"><i>nigàb</i><par n="stàb/bili__adj"/></e>
+<e lm="nivitàbbili"><i>nivitàb</i><par n="stàb/bili__adj"/></e>
+<e lm="nnigàbbili"><i>nnigàb</i><par n="stàb/bili__adj"/></e>
+<e lm="nnispinsàbbili"><i>nnispinsàb</i><par n="stàb/bili__adj"/></e>
+<e lm="nnispinzàbbili"><i>nnispinzàb</i><par n="stàb/bili__adj"/></e>
+<e lm="nottàbbili"><i>nottàb</i><par n="stàb/bili__adj"/></e>
+<e lm="nsiparàbbili"><i>nsiparàb</i><par n="stàb/bili__adj"/></e>
+<e lm="nsupìràbbili"><i>nsupìràb</i><par n="stàb/bili__adj"/></e>
+<e lm="ntigràbbili"><i>ntigràb</i><par n="stàb/bili__adj"/></e>
+<e lm="numiràbbili"><i>numiràb</i><par n="stàb/bili__adj"/></e>
+<e lm="nutàbbili"><i>nutàb</i><par n="stàb/bili__adj"/></e>
+<e lm="nvalicàbbili"><i>nvalicàb</i><par n="stàb/bili__adj"/></e>
+<e lm="nvidiàbbili"><i>nvidiàb</i><par n="stàb/bili__adj"/></e>
+<e lm="nzanàbbili"><i>nzanàb</i><par n="stàb/bili__adj"/></e>
+<e lm="nziparàbbili"><i>nziparàb</i><par n="stàb/bili__adj"/></e>
+<e lm="nzipiràbbili"><i>nzipiràb</i><par n="stàb/bili__adj"/></e>
+<e lm="nzupiràbbili"><i>nzupiràb</i><par n="stàb/bili__adj"/></e>
+<e lm="orecchiàbbili"><i>orecchiàb</i><par n="stàb/bili__adj"/></e>
+<e lm="osservàbbili"><i>osservàb</i><par n="stàb/bili__adj"/></e>
+<e lm="ossirvàbbili"><i>ossirvàb</i><par n="stàb/bili__adj"/></e>
+<e lm="paragonàbbili"><i>paragonàb</i><par n="stàb/bili__adj"/></e>
+<e lm="paragunàbbili"><i>paragunàb</i><par n="stàb/bili__adj"/></e>
+<e lm="permeàbbili"><i>permeàb</i><par n="stàb/bili__adj"/></e>
+<e lm="permiàbbili"><i>permiàb</i><par n="stàb/bili__adj"/></e>
+<e lm="pirmiàbbili"><i>pirmiàb</i><par n="stàb/bili__adj"/></e>
+<e lm="prasmàbbili"><i>prasmàb</i><par n="stàb/bili__adj"/></e>
+<e lm="praticàbbili"><i>praticàb</i><par n="stàb/bili__adj"/></e>
+<e lm="pristàbbili"><i>pristàb</i><par n="stàb/bili__adj"/></e>
+<e lm="probàbbili"><i>probàb</i><par n="stàb/bili__adj"/></e>
+<e lm="probbàbbili"><i>probbàb</i><par n="stàb/bili__adj"/></e>
+<e lm="prubàbbili"><i>prubàb</i><par n="stàb/bili__adj"/></e>
+<e lm="prubbàbbili"><i>prubbàb</i><par n="stàb/bili__adj"/></e>
+<e lm="purtàbbili"><i>purtàb</i><par n="stàb/bili__adj"/></e>
+<e lm="putàbbili"><i>putàb</i><par n="stàb/bili__adj"/></e>
+<e lm="puttàbbili"><i>puttàb</i><par n="stàb/bili__adj"/></e>
+<e lm="qualificàbbili"><i>qualificàb</i><par n="stàb/bili__adj"/></e>
+<e lm="raccumannàbbili"><i>raccumannàb</i><par n="stàb/bili__adj"/></e>
+<e lm="rapprisintàbbili"><i>rapprisintàb</i><par n="stàb/bili__adj"/></e>
+<e lm="responsàbbili"><i>responsàb</i><par n="stàb/bili__adj"/></e>
+<e lm="rettificàbbili"><i>rettificàb</i><par n="stàb/bili__adj"/></e>
+<e lm="rializzàbbili"><i>rializzàb</i><par n="stàb/bili__adj"/></e>
+<e lm="riapplicàbbili"><i>riapplicàb</i><par n="stàb/bili__adj"/></e>
+<e lm="ricavàbbili"><i>ricavàb</i><par n="stàb/bili__adj"/></e>
+<e lm="riggulàbbili"><i>riggulàb</i><par n="stàb/bili__adj"/></e>
+<e lm="rigistàbbili"><i>rigistàb</i><par n="stàb/bili__adj"/></e>
+<e lm="rilivàbbili"><i>rilivàb</i><par n="stàb/bili__adj"/></e>
+<e lm="rintracciàbbili"><i>rintracciàb</i><par n="stàb/bili__adj"/></e>
+<e lm="rintrazzàbbili"><i>rintrazzàb</i><par n="stàb/bili__adj"/></e>
+<e lm="rinunciàbbili"><i>rinunciàb</i><par n="stàb/bili__adj"/></e>
+<e lm="riscuntràbbili"><i>riscuntràb</i><par n="stàb/bili__adj"/></e>
+<e lm="rispittàbbili"><i>rispittàb</i><par n="stàb/bili__adj"/></e>
+<e lm="rispunzàbbili"><i>rispunzàb</i><par n="stàb/bili__adj"/></e>
+<e lm="rispunzàbbili" r="LR"><p><l>rispunsàb</l><r>rispunzàb</r></p><par n="stàb/bili__adj"/></e>
+<e lm="rispunzàbbili" r="LR"><p><l>risponsàb</l><r>rispunzàb</r></p><par n="stàb/bili__adj"/></e>
+<e lm="rivucàbbili"><i>rivucàb</i><par n="stàb/bili__adj"/></e>
+<e lm="rutàbbili"><i>rutàb</i><par n="stàb/bili__adj"/></e>
+<e lm="scarricàbbili"><i>scarricàb</i><par n="stàb/bili__adj"/></e>
+<e lm="scunzigghiàbbili"><i>scunzigghiàb</i><par n="stàb/bili__adj"/></e>
+<e lm="silizzionàbbili"><i>silizzionàb</i><par n="stàb/bili__adj"/></e>
+<e lm="sinnacàbbili"><i>sinnacàb</i><par n="stàb/bili__adj"/></e>
+<e lm="siparàbbili"><i>siparàb</i><par n="stàb/bili__adj"/></e>
+<e lm="smuntàbbili"><i>smuntàb</i><par n="stàb/bili__adj"/></e>
+<e lm="spigàbbili"><i>spigàb</i><par n="stàb/bili__adj"/></e>
+<e lm="stancàbbili"><i>stancàb</i><par n="stàb/bili__adj"/></e>
+<e lm="stimàbbili"><i>stimàb</i><par n="stàb/bili__adj"/></e>
+<e lm="sumpurtàbbili"><i>sumpurtàb</i><par n="stàb/bili__adj"/></e>
+<e lm="tascàbbili"><i>tascàb</i><par n="stàb/bili__adj"/></e>
+<e lm="tispinzzàbbili"><i>tispinzzàb</i><par n="stàb/bili__adj"/></e>
+<e lm="tistàbbili"><i>tistàb</i><par n="stàb/bili__adj"/></e>
+<e lm="transitàbbili"><i>transitàb</i><par n="stàb/bili__adj"/></e>
+<e lm="traslittiràbbili"><i>traslittiràb</i><par n="stàb/bili__adj"/></e>
+<e lm="traspurtàbbili"><i>traspurtàb</i><par n="stàb/bili__adj"/></e>
+<e lm="ussirvàbbili"><i>ussirvàb</i><par n="stàb/bili__adj"/></e>
+<e lm="varàbbili"><i>varàb</i><par n="stàb/bili__adj"/></e>
+<e lm="variàbbili"><i>variàb</i><par n="stàb/bili__adj"/></e>
+<e lm="verificàbbili"><i>verificàb</i><par n="stàb/bili__adj"/></e>
+<e lm="viggitàbbili"><i>viggitàb</i><par n="stàb/bili__adj"/></e>
+<e lm="viniràbbili"><i>viniràb</i><par n="stàb/bili__adj"/></e>
+<e lm="virificàbbili"><i>virificàb</i><par n="stàb/bili__adj"/></e>
+<e lm="visitàbbili"><i>visitàb</i><par n="stàb/bili__adj"/></e>
+<e lm="vulniràbbili"><i>vulniràb</i><par n="stàb/bili__adj"/></e>
+
+
     <!-- SECTION: Adverbs -->
 
     <e lm="quannu"><i>quannu</i><par n="quannu__adv"/></e>
@@ -38030,10 +38250,10 @@
     <e lm="abbastanza"><i>abbastanz</i><par n="fascist/a__adj"/></e>
     <e lm="abbattutu"><i>abbattut</i><par n="bedd/u__adj"/></e>
     <e lm="abbintatu"><i>abbintat</i><par n="bedd/u__adj"/></e>
-    <e lm="abbitabbili"><i>abbitabbili</i><par n="duci__adj"/></e>
+    <e lm="abbitabbili"><i>abbitab</i><par n="stàb/bili__adj"/></e>
     <e lm="abbusivu"><i>abbusiv</i><par n="bedd/u__adj"/></e>
     <e lm="abbuttatu"><i>abbuttat</i><par n="bedd/u__adj"/></e>
-    <e lm="accitabbili"><i>accitabbili</i><par n="duci__adj"/></e>
+    <e lm="accitabbili"><i>accitab</i><par n="stàb/bili__adj"/></e>
     <e lm="accuratu"><i>accurat</i><par n="bedd/u__adj"/></e>
     <e lm="acerbu"><i>acerb</i><par n="bedd/u__adj"/></e>
     <e lm="acquistatu"><i>acquistat</i><par n="bedd/u__adj"/></e>
@@ -38043,7 +38263,7 @@
     <e lm="adduluratu"><i>addulurat</i><par n="bedd/u__adj"/></e>
     <e lm="addurmisciutu"><i>addurmisciut</i><par n="bedd/u__adj"/></e>
     <e lm="adequatu"><i>adequat</i><par n="bedd/u__adj"/></e>
-    <e lm="affabbili"><i>affabbili</i><par n="duci__adj"/></e>
+    <e lm="affabbili"><i>affab</i><par n="stàb/bili__adj"/></e>
     <e lm="affacinnatu"><i>affacinnat</i><par n="bedd/u__adj"/></e>
     <e lm="affamatu"><i>affamat</i><par n="bedd/u__adj"/></e>
     <e lm="affascinanti"><i>affascinanti</i><par n="duci__adj"/></e>
@@ -38063,7 +38283,7 @@
     <e lm="all’esternu"><i>all’estern</i><par n="bedd/u__adj"/></e>
     <e lm="alteru"><i>alter</i><par n="bedd/u__adj"/></e>
     <e lm="altruista"><i>altruist</i><par n="fascist/a__adj"/></e>
-    <e lm="amabbili"><i>amabbili</i><par n="duci__adj"/></e>
+    <e lm="amabbili"><i>amab</i><par n="stàb/bili__adj"/></e>
     <e lm="amatu"><i>amat</i><par n="bedd/u__adj"/></e>
     <e lm="amata"><i>amat</i><par n="fascist/a__adj"/></e>
     <e lm="ambidui"><i>ambidui</i><par n="duci__adj"/></e>
@@ -38309,7 +38529,7 @@
     <e lm="densu"><i>dens</i><par n="bedd/u__adj"/></e>
     <e lm="depaeribbili"><i>depaeribbili</i><par n="duci__adj"/></e>
     <e lm="desertu"><i>desert</i><par n="bedd/u__adj"/></e>
-    <e lm="desiderabbili"><i>desiderabbili</i><par n="duci__adj"/></e>
+    <e lm="desiderabbili"><i>desiderab</i><par n="stàb/bili__adj"/></e>
     <e lm="desiderusu"><i>desiderus</i><par n="bedd/u__adj"/></e>
     <e lm="desolatu"><i>desolat</i><par n="bedd/u__adj"/></e>
     <e lm="destru"><i>destr</i><par n="bedd/u__adj"/></e>
@@ -38554,7 +38774,7 @@
     <e lm="imbriacu"><i>imbriac</i><par n="ètic/u__adj"/></e>
     <e lm="immaculatu"><i>immaculat</i><par n="bedd/u__adj"/></e>
     <e lm="immagginariu"><i>immagginari</i><par n="bedd/u__adj"/></e>
-    <e lm="immanciabbili"><i>immanciabbili</i><par n="duci__adj"/></e>
+    <e lm="immanciabbili"><i>immanciab</i><par n="stàb/bili__adj"/></e>
     <e lm="immediatu"><i>immediat</i><par n="bedd/u__adj"/></e>
     <e lm="immensu"><i>immens</i><par n="bedd/u__adj"/></e>
     <e lm="immeritatu"><i>immeritat</i><par n="bedd/u__adj"/></e>
@@ -38566,10 +38786,10 @@
     <e lm="impasienti"><par n="im/m"/><i>pasienti</i><par n="duci__adj"/></e>
     <e lm="impassibbili"><par n="im/m"/><i>passibbili</i><par n="duci__adj"/></e>
     <e lm="impazienti"><par n="im/m"/><i>pazienti</i><par n="duci__adj"/></e>
-    <e lm="impeccabbili"><par n="im/m"/><i>peccabbili</i><par n="duci__adj"/></e>
+    <e lm="impeccabbili"><par n="im/m"/><i>peccab</i><par n="stàb/bili__adj"/></e>
     <e lm="imperfettu"><par n="im/m"/><i>perfett</i><par n="bedd/u__adj"/></e>
     <e lm="imperiali"><par n="im/m"/><i>perial</i><par n="cintral/i__adj"/></e>
-    <e lm="impermeabbili"><par n="im/m"/><i>permeabbili</i><par n="duci__adj"/></e>
+    <e lm="impermeabbili"><par n="im/m"/><i>permeab</i><par n="stàb/bili__adj"/></e>
     <e lm="impersonali"><par n="im/m"/><i>personal</i><par n="cintral/i__adj"/></e>
     <e lm="impertinenti"><par n="im/m"/><i>pertinenti</i><par n="duci__adj"/></e>
     <e lm="impetuusu"><par n="im/m"/><i>petuus</i><par n="bedd/u__adj"/></e>
@@ -38587,7 +38807,7 @@
     <e lm="impotenti"><par n="im/m"/><i>potenti</i><par n="duci__adj"/></e>
     <e lm="imprecisu"><par n="im/m"/><i>precis</i><par n="bedd/u__adj"/></e>
     <e lm="impressionanti"><par n="im/m"/><i>pressionanti</i><par n="duci__adj"/></e>
-    <e lm="improbbabbili"><par n="im/m"/><i>probbabbili</i><par n="duci__adj"/></e>
+    <e lm="improbbabbili"><par n="im/m"/><i>probbab</i><par n="stàb/bili__adj"/></e>
     <e lm="impropiu"><par n="im/m"/><i>propi</i><par n="bedd/u__adj"/></e>
     <e lm="improvisu"><par n="im/m"/><i>provis</i><par n="bedd/u__adj"/></e>
     <e lm="improvisamenti"><par n="im/m"/><i>provisamenti</i><par n="duci__adj"/></e>
@@ -38595,10 +38815,10 @@
     <e lm="impudenti"><par n="im/m"/><i>pudenti</i><par n="duci__adj"/></e>
     <e lm="impulsivu"><par n="im/m"/><i>pulsiv</i><par n="bedd/u__adj"/></e>
     <e lm="impupulari"><par n="im/m"/><i>pupulari</i><par n="duci__adj"/></e>
-    <e lm="inabbili"><par n="in/n"/><i>abbili</i><par n="duci__adj"/></e>
-    <e lm="inabbitabbili"><par n="in/n"/><i>abbitabbili</i><par n="duci__adj"/></e>
+    <e lm="inabbili"><par n="in/n"/><i>ab</i><par n="stàb/bili__adj"/></e>
+    <e lm="inabbitabbili"><par n="in/n"/><i>abbitab</i><par n="stàb/bili__adj"/></e>
     <e lm="inaccessibili"><par n="in/n"/><i>accessibili</i><par n="duci__adj"/></e>
-    <e lm="inaccittabbili"><par n="in/n"/><i>accittabbili</i><par n="duci__adj"/></e>
+    <e lm="inaccittabbili"><par n="in/n"/><i>accittab</i><par n="stàb/bili__adj"/></e>
     <e lm="inadattu"><par n="in/n"/><i>adatt</i><par n="bedd/u__adj"/></e>
     <e lm="inaddatu"><par n="in/n"/><i>addat</i><par n="bedd/u__adj"/></e>
     <e lm="inadequatu"><par n="in/n"/><i>adequat</i><par n="bedd/u__adj"/></e>
@@ -38633,7 +38853,7 @@
     <e lm="indifisu"><par n="in/n"/><i>difis</i><par n="bedd/u__adj"/></e>
     <e lm="indipendenti"><par n="in/n"/><i>dipendenti</i><par n="duci__adj"/></e>
     <e lm="indirettu"><par n="in/n"/><i>dirett</i><par n="bedd/u__adj"/></e>
-    <e lm="indispensabbili"><par n="in/n"/><i>dispensabbili</i><par n="duci__adj"/></e>
+    <e lm="indispensabbili"><par n="in/n"/><i>dispensab</i><par n="stàb/bili__adj"/></e>
     <e lm="individuu"><par n="in/n"/><i>dividu</i><par n="bedd/u__adj"/></e>
     <e lm="individuali"><par n="in/n"/><i>dividual</i><par n="cintral/i__adj"/></e>
     <e lm="indomitu"><par n="in/n"/><i>domit</i><par n="bedd/u__adj"/></e>
@@ -38643,16 +38863,16 @@
     <e lm="industriusu"><par n="in/n"/><i>dustrius</i><par n="bedd/u__adj"/></e>
     <e lm="inefficienti"><par n="in/n"/><i>efficienti</i><par n="duci__adj"/></e>
     <e lm="ineguali"><par n="in/n"/><i>egual</i><par n="cintral/i__adj"/></e>
-    <e lm="inequivocabbili"><par n="in/n"/><i>equivocabbili</i><par n="duci__adj"/></e>
+    <e lm="inequivocabbili"><par n="in/n"/><i>equivocab</i><par n="stàb/bili__adj"/></e>
     <e lm="inesattu"><par n="in/n"/><i>esatt</i><par n="bedd/u__adj"/></e>
     <e lm="inespertu"><par n="in/n"/><i>espert</i><par n="bedd/u__adj"/></e>
-    <e lm="inesplicabbili"><par n="in/n"/><i>esplicabbili</i><par n="duci__adj"/></e>
+    <e lm="inesplicabbili"><par n="in/n"/><i>esplicab</i><par n="stàb/bili__adj"/></e>
     <e lm="inettu"><par n="in/n"/><i>ett</i><par n="bedd/u__adj"/></e>
-    <e lm="inevitabbili"><par n="in/n"/><i>evitabbili</i><par n="duci__adj"/></e>
+    <e lm="inevitabbili"><par n="in/n"/><i>evitab</i><par n="stàb/bili__adj"/></e>
     <e lm="infelici"><par n="in/n"/><i>felici</i><par n="duci__adj"/></e>
     <e lm="inferiuri"><par n="in/n"/><i>feriuri</i><par n="duci__adj"/></e>
     <e lm="infermu"><par n="in/n"/><i>ferm</i><par n="bedd/u__adj"/></e>
-    <e lm="infiammabbili"><par n="in/n"/><i>fiammabbili</i><par n="duci__adj"/></e>
+    <e lm="infiammabbili"><par n="in/n"/><i>fiammab</i><par n="stàb/bili__adj"/></e>
     <e lm="infidu"><par n="in/n"/><i>fid</i><par n="bedd/u__adj"/></e>
     <e lm="infideli"><par n="in/n"/><i>fideli</i><par n="duci__adj"/></e>
     <e lm="infinitu"><par n="in/n"/><i>finit</i><par n="bedd/u__adj"/></e>
@@ -38683,12 +38903,12 @@
     <e lm="insignificanti" r="LR"><p><l>nsignificanti</l><r>insignificanti</r></p><par n="duci__adj"/></e>
     <e lm="insodisfattu"><par n="in/n"/><i>sodisfatt</i><par n="bedd/u__adj"/></e>
     <e lm="insolitu"><par n="in/n"/><i>solit</i><par n="bedd/u__adj"/></e>
-    <e lm="instabbili"><par n="in/n"/><i>stabbili</i><par n="duci__adj"/></e>
+    <e lm="instabbili"><par n="in/n"/><i>stab</i><par n="stàb/bili__adj"/></e>
     <e lm="insufficenti"><par n="in/n"/><i>sufficenti</i><par n="duci__adj"/></e>
     <e lm="insulenti"><par n="in/n"/><i>sulenti</i><par n="duci__adj"/></e>
     <e lm="insultanti"><par n="in/n"/><i>sultanti</i><par n="duci__adj"/></e>
     <e lm="insuperatu"><par n="in/n"/><i>superat</i><par n="bedd/u__adj"/></e>
-    <e lm="insuppurtabbili"><par n="in/n"/><i>suppurtabbili</i><par n="duci__adj"/></e>
+    <e lm="insuppurtabbili"><par n="in/n"/><i>suppurtab</i><par n="stàb/bili__adj"/></e>
     <e lm="intattu"><par n="in/n"/><i>tatt</i><par n="bedd/u__adj"/></e>
     <e lm="integru"><par n="in/n"/><i>tegr</i><par n="bedd/u__adj"/></e>
     <e lm="intellettuali"><par n="in/n"/><i>tellettual</i><par n="cintral/i__adj"/></e>
@@ -38707,9 +38927,9 @@
     <e lm="intinziunali"><par n="in/n"/><i>tinziunal</i><par n="cintral/i__adj"/></e>
     <e lm="intirissanti"><par n="in/n"/><i>tirissanti</i><par n="duci__adj"/></e>
     <e lm="intirizzitu"><par n="in/n"/><i>tirizzit</i><par n="bedd/u__adj"/></e>
-    <e lm="intollerabbili"><par n="in/n"/><i>tollerabbili</i><par n="duci__adj"/></e>
+    <e lm="intollerabbili"><par n="in/n"/><i>tollerab</i><par n="stàb/bili__adj"/></e>
     <e lm="intorpiditu"><par n="in/n"/><i>torpidit</i><par n="bedd/u__adj"/></e>
-    <e lm="intransitabbili"><par n="in/n"/><i>transitabbili</i><par n="duci__adj"/></e>
+    <e lm="intransitabbili"><par n="in/n"/><i>transitab</i><par n="stàb/bili__adj"/></e>
     <e lm="intricanti"><par n="in/n"/><i>tricanti</i><par n="duci__adj"/></e>
     <e lm="intricatu"><par n="in/n"/><i>tricat</i><par n="bedd/u__adj"/></e>
     <e lm="intròpitu"><par n="in/n"/><i>tròpit</i><par n="bedd/u__adj"/></e>
@@ -38728,11 +38948,11 @@
     <e lm="irreali"><i>irreal</i><par n="cintral/i__adj"/></e>
     <e lm="irrecuetu"><i>irrecuet</i><par n="bedd/u__adj"/></e>
     <e lm="irregulari"><i>irregulari</i><par n="duci__adj"/></e>
-    <e lm="irreparabbili"><i>irreparabbili</i><par n="duci__adj"/></e>
+    <e lm="irreparabbili"><i>irreparab</i><par n="stàb/bili__adj"/></e>
     <e lm="irrequieti"><i>irrequieti</i><par n="duci__adj"/></e>
-    <e lm="irrevucabbili"><i>irrevucabbili</i><par n="duci__adj"/></e>
+    <e lm="irrevucabbili"><i>irrevucab</i><par n="stàb/bili__adj"/></e>
     <e lm="irrilevanti"><i>irrilevanti</i><par n="duci__adj"/></e>
-    <e lm="irritabbili"><i>irritabbili</i><par n="duci__adj"/></e>
+    <e lm="irritabbili"><i>irritab</i><par n="stàb/bili__adj"/></e>
     <e lm="irsutu"><i>irsut</i><par n="bedd/u__adj"/></e>
     <e lm="istericu"><i>isteric</i><par n="ètic/u__adj"/></e>
     <e lm="iugoslavu"><i>iugoslav</i><par n="bedd/u__adj"/></e>
@@ -38742,7 +38962,7 @@
     <e lm="languidu"><i>languid</i><par n="bedd/u__adj"/></e>
     <e lm="largu"><i>larg</i><par n="bedd/u__adj"/></e>
     <e lm="latteu"><i>latte</i><par n="bedd/u__adj"/></e>
-    <e lm="lavabbili"><i>lavabbili</i><par n="duci__adj"/></e>
+    <e lm="lavabbili"><i>lavab</i><par n="stàb/bili__adj"/></e>
     <e lm="letali"><i>letal</i><par n="cintral/i__adj"/></e>
     <e lm="levigatu"><i>levigat</i><par n="bedd/u__adj"/></e>
     <e lm="libbiru"><i>libbir</i><par n="bedd/u__adj"/></e>
@@ -38775,8 +38995,8 @@
     <e lm="malsanu"><i>malsan</i><par n="bedd/u__adj"/></e>
     <e lm="malva"><i>malv</i><par n="fascist/a__adj"/></e>
     <e lm="malvaggiu"><i>malvaggi</i><par n="bedd/u__adj"/></e>
-    <e lm="manciabbili"><i>manciabbili</i><par n="duci__adj"/></e>
-    <e lm="manciàbbili"><i>manciàbbili</i><par n="duci__adj"/></e>
+    <e lm="manciabbili"><i>manciab</i><par n="stàb/bili__adj"/></e>
+    <e lm="manciàbbili"><i>manciab</i><par n="stàb/bili__adj"/></e>
     <e lm="mansu"><i>mans</i><par n="bedd/u__adj"/></e>
     <e lm="mansuetu"><i>mansuet</i><par n="bedd/u__adj"/></e>
     <e lm="maravigghiusu"><i>maravigghius</i><par n="bedd/u__adj"/></e>
@@ -38789,7 +39009,7 @@
     <e lm="mbarazzanti"><i>mbarazzanti</i><par n="duci__adj"/></e>
     <e lm="meccanicu"><i>meccanic</i><par n="ètic/u__adj"/></e>
     <e lm="mediocri"><i>mediocri</i><par n="duci__adj"/></e>
-    <e lm="memorabbili"><i>memorabbili</i><par n="duci__adj"/></e>
+    <e lm="memorabbili"><i>memorab</i><par n="stàb/bili__adj"/></e>
     <e lm="mensili"><i>mensili</i><par n="duci__adj"/></e>
     <e lm="mentali"><i>mental</i><par n="cintral/i__adj"/></e>
     <e lm="meravigghiusu"><i>meravigghius</i><par n="bedd/u__adj"/></e>
@@ -38802,7 +39022,7 @@
     <e lm="miatu"><i>miat</i><par n="bedd/u__adj"/></e>
     <e lm="migghiuri"><i>migghiuri</i><par n="duci__adj"/></e>
     <e lm="millinariu"><i>millinari</i><par n="bedd/u__adj"/></e>
-    <e lm="mimuràbbili"><i>mimuràbbili</i><par n="duci__adj"/></e>
+    <e lm="mimuràbbili"><i>mimurab</i><par n="stàb/bili__adj"/></e>
     <e lm="minchiuni"><i>minchiuni</i><par n="duci__adj"/></e>
     <e lm="minnittusu"><i>minnittus</i><par n="bedd/u__adj"/></e>
     <e lm="minusculu"><i>minuscul</i><par n="bedd/u__adj"/></e>
@@ -38812,7 +39032,7 @@
     <e lm="miscellaneu"><i>miscellane</i><par n="bedd/u__adj"/></e>
     <e lm="miscridenti"><i>miscridenti</i><par n="duci__adj"/></e>
     <e lm="miseru"><i>miser</i><par n="bedd/u__adj"/></e>
-    <e lm="miserabbili"><i>miserabbili</i><par n="duci__adj"/></e>
+    <e lm="miserabbili"><i>miserab</i><par n="stàb/bili__adj"/></e>
     <e lm="misiru"><i>misir</i><par n="bedd/u__adj"/></e>
     <e lm="misiricurdiusu"><i>misiricurdius</i><par n="bedd/u__adj"/></e>
     <e lm="mistu"><i>mist</i><par n="bedd/u__adj"/></e>
@@ -38851,7 +39071,7 @@
     <e lm="nascostu"><i>nascost</i><par n="bedd/u__adj"/></e>
     <e lm="natu"><i>nat</i><par n="bedd/u__adj"/></e>
     <e lm="naticutu"><i>naticut</i><par n="bedd/u__adj"/></e>
-    <e lm="navigabbili"><i>navigabbili</i><par n="duci__adj"/></e>
+    <e lm="navigabbili"><i>navigab</i><par n="stàb/bili__adj"/></e>
     <e lm="nazzionali"><i>nazzional</i><par n="cintral/i__adj"/></e>
     <e lm="ncarnatu"><i>ncarnat</i><par n="bedd/u__adj"/></e>
     <e lm="ncavatu"><i>ncavat</i><par n="bedd/u__adj"/></e>
@@ -38885,7 +39105,7 @@
     <e lm="nominali"><i>nominal</i><par n="cintral/i__adj"/></e>
     <e lm="nordicu"><i>nordic</i><par n="ètic/u__adj"/></e>
     <e lm="notu"><i>not</i><par n="bedd/u__adj"/></e>
-    <e lm="notabbili"><i>notabbili</i><par n="duci__adj"/></e>
+    <e lm="notabbili"><i>notab</i><par n="stàb/bili__adj"/></e>
     <e lm="notevuli"><i>notevuli</i><par n="duci__adj"/></e>
     <e lm="notoriu"><i>notori</i><par n="bedd/u__adj"/></e>
     <e lm="notturnu"><i>notturn</i><par n="bedd/u__adj"/></e>
@@ -38926,7 +39146,7 @@
     <e lm="onestu"><i>onest</i><par n="bedd/u__adj"/></e>
     <e lm="onnipotenti"><i>onnipotenti</i><par n="duci__adj"/></e>
     <e lm="onomasticu"><i>onomastic</i><par n="ètic/u__adj"/></e>
-    <e lm="onurabbili"><i>onurabbili</i><par n="duci__adj"/></e>
+    <e lm="onurabbili"><i>onurab</i><par n="stàb/bili__adj"/></e>
     <e lm="onuratu"><i>onurat</i><par n="bedd/u__adj"/></e>
     <e lm="onurevuli"><i>onurevuli</i><par n="duci__adj"/></e>
     <e lm="opacu"><i>opac</i><par n="ètic/u__adj"/></e>
@@ -38959,7 +39179,7 @@
     <e lm="pagu"><i>pag</i><par n="bedd/u__adj"/></e>
     <e lm="pagghiri"><i>pagghiri</i><par n="duci__adj"/></e>
     <e lm="pallidu"><i>pallid</i><par n="bedd/u__adj"/></e>
-    <e lm="palpabbili"><i>palpabbili</i><par n="duci__adj"/></e>
+    <e lm="palpabbili"><i>palpab</i><par n="stàb/bili__adj"/></e>
     <e lm="panzutu"><i>panzut</i><par n="bedd/u__adj"/></e>
     <e lm="pappuni"><i>pappuni</i><par n="duci__adj"/></e>
     <e lm="paradossicu"><i>paradossic</i><par n="ètic/u__adj"/></e>
@@ -39084,7 +39304,7 @@
     <e lm="raucu"><i>rauc</i><par n="ètic/u__adj"/></e>
     <e lm="reu"><i>re</i><par n="bedd/u__adj"/></e>
     <e lm="reali"><i>real</i><par n="cintral/i__adj"/></e>
-    <e lm="realizzabbili"><i>realizzabbili</i><par n="duci__adj"/></e>
+    <e lm="realizzabbili"><i>realizzab</i><par n="stàb/bili__adj"/></e>
     <e lm="recenti"><i>recenti</i><par n="duci__adj"/></e>
     <e lm="recessivu"><i>recessiv</i><par n="bedd/u__adj"/></e>
     <e lm="reciprocu"><i>reciproc</i><par n="ètic/u__adj"/></e>
@@ -39267,7 +39487,7 @@
     <e lm="sleali"><i>sleal</i><par n="cintral/i__adj"/></e>
     <e lm="smaltu"><i>smalt</i><par n="bedd/u__adj"/></e>
     <e lm="smemuratu"><i>smemurat</i><par n="bedd/u__adj"/></e>
-    <e lm="smirciabbili"><i>smirciabbili</i><par n="duci__adj"/></e>
+    <e lm="smirciabbili"><i>smirciab</i><par n="stàb/bili__adj"/></e>
     <e lm="smisuratu"><i>smisurat</i><par n="bedd/u__adj"/></e>
     <e lm="smudatu"><i>smudat</i><par n="bedd/u__adj"/></e>
     <e lm="smusatu"><i>smusat</i><par n="bedd/u__adj"/></e>
@@ -39318,7 +39538,7 @@
     <e lm="squatratu"><i>squatrat</i><par n="bedd/u__adj"/></e>
     <e lm="squatrata"><i>squatrat</i><par n="fascist/a__adj"/></e>
     <e lm="squisitu"><i>squisit</i><par n="bedd/u__adj"/></e>
-    <e lm="stabbili"><i>stabbili</i><par n="duci__adj"/></e>
+    <e lm="stabbili"><i>stab</i><par n="stàb/bili__adj"/></e>
     <e lm="staneru"><i>staner</i><par n="bedd/u__adj"/></e>
     <e lm="stantiu"><i>stanti</i><par n="bedd/u__adj"/></e>
     <e lm="statia"><i>stati</i><par n="fascist/a__adj"/></e>
@@ -39372,8 +39592,8 @@
     <e lm="tacitu"><i>tacit</i><par n="bedd/u__adj"/></e>
     <e lm="tagghienti"><i>tagghienti</i><par n="duci__adj"/></e>
     <e lm="tardiu"><i>tardi</i><par n="bedd/u__adj"/></e>
-    <e lm="tascurabbili"><i>tascurabbili</i><par n="duci__adj"/></e>
-    <e lm="tassabbili"><i>tassabbili</i><par n="duci__adj"/></e>
+    <e lm="tascurabbili"><i>tascurab</i><par n="stàb/bili__adj"/></e>
+    <e lm="tassabbili"><i>tassab</i><par n="stàb/bili__adj"/></e>
     <e lm="tastutu"><i>tastut</i><par n="bedd/u__adj"/></e>
     <e lm="temerariu"><i>temerari</i><par n="bedd/u__adj"/></e>
     <e lm="terosessuali"><i>terosessual</i><par n="cintral/i__adj"/></e>
@@ -39393,7 +39613,7 @@
     <e lm="totali"><i>total</i><par n="cintral/i__adj"/></e>
     <e lm="trabballanti"><i>trabballanti</i><par n="duci__adj"/></e>
     <e lm="trasannatu"><i>trasannat</i><par n="bedd/u__adj"/></e>
-    <e lm="trascurabbili"><i>trascurabbili</i><par n="duci__adj"/></e>
+    <e lm="trascurabbili"><i>trascurab</i><par n="stàb/bili__adj"/></e>
     <e lm="trascuratu"><i>trascurat</i><par n="bedd/u__adj"/></e>
     <e lm="travagghiati"><i>travagghiati</i><par n="duci__adj"/></e>
     <e lm="trimanti"><i>trimanti</i><par n="duci__adj"/></e>
@@ -39416,7 +39636,7 @@
     <e lm="umurusu"><i>umurus</i><par n="bedd/u__adj"/></e>
     <e lm="una"><i>un</i><par n="fascist/a__adj"/></e>
     <e lm="unanimi"><i>unanimi</i><par n="duci__adj"/></e>
-    <e lm="unciabbili"><i>unciabbili</i><par n="duci__adj"/></e>
+    <e lm="unciabbili"><i>unciab</i><par n="stàb/bili__adj"/></e>
     <e lm="uniformi"><i>uniformi</i><par n="duci__adj"/></e>
     <e lm="unilaterali"><i>unilateral</i><par n="cintral/i__adj"/></e>
     <e lm="unitta"><i>unitt</i><par n="fascist/a__adj"/></e>
@@ -39430,10 +39650,10 @@
     <e lm="urgenti"><i>urgenti</i><par n="duci__adj"/></e>
     <e lm="urtanti"><i>urtanti</i><par n="duci__adj"/></e>
     <e lm="urtimu"><i>urtim</i><par n="bedd/u__adj"/></e>
-    <e lm="usabbili"><i>usabbili</i><par n="duci__adj"/></e>
+    <e lm="usabbili"><i>usab</i><par n="stàb/bili__adj"/></e>
     <e lm="usatu"><i>usat</i><par n="bedd/u__adj"/></e>
     <e lm="utili"><i>utili</i><par n="duci__adj"/></e>
-    <e lm="utilizzàbbili"><i>utilizzàbbili</i><par n="duci__adj"/></e>
+    <e lm="utilizzàbbili"><i>utilizzab</i><par n="stàb/bili__adj"/></e>
     <e lm="uzziusu"><i>uzzius</i><par n="bedd/u__adj"/></e>
     <e lm="vacillanti"><i>vacillanti</i><par n="duci__adj"/></e>
     <e lm="vagu"><i>vag</i><par n="bedd/u__adj"/></e>
@@ -39447,7 +39667,7 @@
     <e lm="vastu"><i>vast</i><par n="bedd/u__adj"/></e>
     <e lm="vastasu"><i>vastas</i><par n="bedd/u__adj"/></e>
     <e lm="veementi"><i>veementi</i><par n="duci__adj"/></e>
-    <e lm="venerabbili"><i>venerabbili</i><par n="duci__adj"/></e>
+    <e lm="venerabbili"><i>venerab</i><par n="stàb/bili__adj"/></e>
     <e lm="verbali"><i>verbal</i><par n="cintral/i__adj"/></e>
     <e lm="verticali"><i>vertical</i><par n="cintral/i__adj"/></e>
     <e lm="vicchiaja"><i>vicchiaj</i><par n="fascist/a__adj"/></e>
@@ -39478,7 +39698,7 @@
     <e lm="volontariu"><i>volontari</i><par n="bedd/u__adj"/></e>
     <e lm="voluminusu"><i>voluminus</i><par n="bedd/u__adj"/></e>
     <e lm="vrigugnatu"><i>vrigugnat</i><par n="bedd/u__adj"/></e>
-    <e lm="vulnerabbili"><i>vulnerabbili</i><par n="duci__adj"/></e>
+    <e lm="vulnerabbili"><i>vulnerab</i><par n="stàb/bili__adj"/></e>
     <e lm="vunciu"><i>vunci</i><par n="bedd/u__adj"/></e>
     <e lm="vuscusu"><i>vuscus</i><par n="bedd/u__adj"/></e>
     <e lm="vutata"><i>vutat</i><par n="fascist/a__adj"/></e>
