@@ -60,6 +60,8 @@ LIST Prep/cu = "<cu>"i ;
 LIST Prep/nta = "<nta>"i "<nti>"i ;
 LIST Prep/tra = "<tra>"i ;
 
+LIST Aviri = "aviri" ;
+
 LIST Ind = ind ; 
 LIST Def = def ;
 
@@ -299,7 +301,7 @@ SELECT DetDefFemPl IF (0 DetDefMscPl OR DetDefFemPl) (1 A OR DetPos) (2 N/f + $$
 
 SELECT DetDefMscPl IF (0 DetDefMscPl OR DetDefFemPl) (1 A OR DetPos) (2 N/m + $$Pl OR N/m/sp) ;
 
-SELECT N IF (-1 DetDef) (0 N or V);
+SELECT N IF (-1C DetDef) (0 N or V);
 
 SELECT Pron IF (0 nuddu) (1 Verb) ;
 
@@ -316,19 +318,21 @@ SELECT P2 IF (-1C Pron + $$P2) (0 Pis/p1 OR Pis/p2 OR Pis/p3 ) ;
 
 SELECT P1 IF (-1C Pron + $$P1) (0 Pis/p1 OR Pis/p2 OR Pis/p3 ) ;
 
-SELECT N IF (-1 Det OR Pr LINK 0/* Det OR Pr) (0 N + $$Msc OR Verb + $$P1) (NOT 0C N OR Prop) ;
+SELECT N IF (-1 Det OR Pr LINK 0/* Det OR Pr) (0 N + $$Msc OR Verb + $$P1) (NOT 0C N OR Prop) (NOT 0 Aviri LINK 1 PrfPrc) ;
     ## Munnu/munnari
+    ## Lu libbru a statu unu di cchiù pubblicatu dâ storia.
 
 SELECT N IF (-1 Det OR Pr LINK 0/* Det OR Pr) (0C N + $$Fem OR Verb + $$P3) ;
     ## Acqua/acquari, porta/purtari
     ## Stu finòminu asisti nta vari zoni di la Sicilia . 
 
-SELECT N IF (-1 Det OR Pr LINK 0/* Det OR Pr) (0 Verb + $$PrfPrc OR N) (NOT 0C N OR Prop) ;
+SELECT N IF (-1 Det OR Pr LINK 0/* Det OR Pr) (0 Verb + $$PrfPrc OR N) (NOT 0C N OR Prop) (NOT 0 Aviri LINK 1 PrfPrc) ;
     ## significatu/significari
+    ## Lu libbru a statu unu di cchiù pubblicatu dâ storia.
 
-SELECT V IF (0 Vbhaver or V) (1 Det) (2 N) ;
+SELECT V IF (0 Vbhaver or V) (1 Det) (2C N) ;
 
-SELECT V IF (0 Vbhaver or V) (1 N) ;
+SELECT V IF (0 Vbhaver or V) (1C N) ;
 
 SELECT Pr IF (0 Pr or Det + $$Ind) (1 Prop) ;
 
