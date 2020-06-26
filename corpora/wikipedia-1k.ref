@@ -1,3 +1,176 @@
+# sent_id = wikipedia-1k:316
+# text = Zamenhof campava a Białystok, na città chi mo è nta Polonia, ma prima era ufficialmenti nt'o territoriu i l'Imperu Russu.
+# labels = complete unknown-word
+^Zamenhof/Zamenhof<np><cog>$
+^campava/campari<vblex><pii><p3><sg>$
+^a/a<pr>$
+^Białystok/Białystok<np><top>$
+^,/,<cm>$
+^na/un<det><ind><f><sg>$
+^città/citati<n><f><sp>$
+^chi/chi<rel><an><mf><sp>$
+^mo/*mo<adv>$
+^è/èssiri<vbser><pri><p3><sg>$
+^nta/nta<pr>$
+^Polonia/Pulonia<np><top>$
+^,/,<cm>$
+^ma/ma<cnjcoo>$
+^prima/prima<adv>$
+^era/èssiri<vbser><pii><p3><sg>$
+^ufficialmenti/ufficiarmenti<adv>$
+^nt'o/nta<pr>+lu<det><def><m><sg>$
+^territoriu/tirritoriu<n><m><sg>$
+^i/di<pr>$
+^l'/lu<det><def><mf><sp>$
+^Imperu/imperu<n><m><sg>$
+^Russu/russu<adj><m><sg>$
+^./.<sent>$
+
+# sent_id = wikipedia-1k:318
+# text = Comu scrissi nt'a na lìttara, Zamenhof suffrìa nta Białystok, anduvi si potìa capisciri megghju ca nta atri posti u problema linguisticu e i differenzi chi cria.
+# labels = complete
+^Comu/comu<cnjadv>$
+^scrissi/scrìviri<vblex><ifi><p3><sg>$
+^nt'a/nta<pr>$
+^na/un<det><ind><f><sg>$
+^lìttara/lìttara<n><f><sg>$
+^,/,<cm>$
+^Zamenhof/Zamenhof<np><cog>$
+^suffrìa/suffriri<vblex><pii><p3><sg>$
+^nta/nta<pr>$
+^Białystok/Białystok<np><top>$
+^,/,<cm>$
+^anduvi/anduvi<adv><rel>$
+^si/si<prn><pro><ref><p3><mf><sp>$
+^potìa/putiri<vblex><pii><p3><sg>$
+^capisciri/capisciri<vblex><inf>$
+^megghju/megghju<adv>$
+^ca/ca<cnjsub>$
+^nta/nta<pr>$
+^atri/àutru<adj><ind><mf><pl>$
+^posti/postu<n><m><pl>$
+^u/lu<det><def><m><sg>$
+^problema/prubblema<n><m><sg>$
+^linguisticu/linguìsticu<adj><m><sg>$
+^e/e<cnjcoo>$
+^i/lu<det><def><mf><pl>$
+^differenzi/differenza<n><f><pl>$
+^chi/chi<rel><an><mf><sp>$
+^cria/crari<vblex><pri><p3><sg>$
+^./.<sent>$
+
+# sent_id = wikipedia-1k:319
+# text = La Gistioni cummissariali cuvirnativa è nu tipu di gistioni di ferruvìa, ca non apparteni ê riti statali, ca avissi a èssiri accezziunali e pruvvisòria.
+# labels = complete
+^La/lu<det><def><f><sg>$
+^Gistioni/gistioni<n><f><sp>$
+^cummissariali/cummissariali<adj><mf><sp>$
+^cuvirnativa/cuvirnativu<adj><m><sg>$
+^è/èssiri<vbser><pri><p3><sg>$
+^nu/un<det><ind><m><sg>$
+^tipu/tipu<n><m><sg>$
+^di/di<pr>$
+^gistioni/gistioni<n><f><sp>$
+^di/di<pr>+lu<det><def><mf><pl>$
+^ferruvìa/ferruvìa<n><f><pl>$
+^,/,<cm>$
+^ca/ca<cnjsub>$
+^non/non<adv>$
+^apparteni/appartèniri<vblex><pri><p3><sg>$
+^ê/a<pr>+lu<det><def><mf><pl>$
+^riti/riti<n><m><sp>$
+^statali/statali<adj><mf><sp>$
+^,/,<cm>$
+^ca/ca<cnjsub>$
+^avissi/aviri<vbhaver><pis><p3><sg>$
+^a/a<pr>$
+^èssiri/èssiri<vbser><inf>$
+^accezziunali/accezziunali<adj><mf><sp>$
+^e/e<cnjcoo>$
+^pruvvisòria/pruvvisòriu<adj><f><sg>$
+^./.<sent>$
+
+# sent_id = wikipedia-1k:320
+# text = Ntâ stissa èbbica foru custruiuti li suttirranî e doppu, duranti l'anni 1480, vìnniru dicurati chî murali chi, a sò vota, si ristauraru nta l'ùrtimu sèculu.
+# labels = complete
+^Ntâ/nta<pr>+lu<det><def><f><sg>$
+^stissa/stissu<adj><f><sg>$
+^èbbica/èbbica<n><f><sg>$
+^foru/èssiri<vbser><ifi><p3><pl>$
+^custruiuti/custruiri<vblex><pp><mf><pl>$
+^li/lu<det><def><mf><pl>$
+^suttirranî/suttirrani<n><m><pl>$
+^e/e<cnjcoo>$
+^doppu/doppu<adv>$
+^,/,<cm>$
+^duranti/duranti<pr>$
+^l'/lu<det><def><mf><sp>$
+^anni/annu<n><m><pl>$
+^1480/1480<num><mf><sp>$
+^,/,<cm>$
+^vìnniru/vèniri<vblex><ifi><p3><pl>$
+^dicurati/dicurari<vblex><pp><mf><pl>$
+^chî/cu<pr>+lu<det><def><mf><pl>$
+^murali/murali<n><mf><sp>$
+^chi/chi<rel><an><mf><sp>$
+^,/,<cm>$
+^a/a<pr>+lu<det><def><f><sg>$
+^sò/so<det><pos><mf><sp>$
+^vota/vota<n><f><sg>$
+^,/,<cm>$
+^si/si<prn><pro><ref><p3><mf><sp>$
+^ristauraru/ristaurari<vblex><ifi><p3><pl>$
+^nta/nta<pr>$
+^l'/lu<det><def><mf><sp>$
+^ùrtimu/ùrtimu<adj><m><sg>$
+^sèculu/sèculu<n><m><sg>$
+^./.<sent>$
+
+# sent_id = wikipedia-1k:321
+# text = N'ammùstranu la storia dâ Gènisi.
+# labels = complete check-pronoun
+^N'/ni<prn><pro><p1><mf><pl>$
+^ammùstranu/ammustrari<vblex><ifi><p3><pl>$
+^la/lu<det><def><f><sg>$
+^storia/storia<n><f><sg>$
+^dâ/di<pr>+lu<det><def><f><sg>$
+^Gènisi/gènisi<n><m><sp>$
+^./.<sent>$
+
+# sent_id = wikipedia-1k:322
+# text = Nta sta cappedda di Sant'Anna s'attròvanu li sìmmuli dî vanceli e ssi quattru santi fìmmini: Santa Bàrbara, Santa Ùrsula, Santa Ghittrudi e Santa Catarina.
+# labels = complete
+^Nta/nta<pr>$
+^sta/chistu<det><dem><f><sg>$
+^cappedda/ciappedda<n><f><sg>$
+^di/di<pr>$
+^Sant'/santu<adj><mf><sg>$
+^Anna/Anna<np><ant>$
+^s'/si<prn><pro><ref><p3><mf><sp>$
+^attròvanu/attruvari<vblex><pri><p3><pl>$
+^li/lu<det><def><mf><pl>$
+^sìmmuli/sìmmulu<n><m><pl>$
+^dî/di<pr>+lu<det><def><mf><pl>$
+^vanceli/vanceliu<n><m><pl>$
+^e/e<cnjcoo>$
+^ssi/chissu<det><dem><mf><pl>$
+^quattru/quattru<num><mf><sp>$
+^santi/santu<n><f><pl>$
+^fìmmini/fìmmina<n><f><pl>$
+^:/:<sent>$
+^Santa/santu<n><f><sg>$
+^Bàrbara/Barbara<np><ant>$
+^,/,<cm>$
+^Santa/santu<n><f><sg>$
+^Ùrsula/Ùrsula<np><ant>$
+^,/,<cm>$
+^Santa/santu<n><f><sg>$
+^Ghittrudi/Ghittrudi<np><ant>$
+^e/e<cnjcoo>$
+^Santa/santu<n><f><sg>$
+^Catarina/Catarina<np><ant>$
+^./.<sent>$
+
 # sent_id = wikipedia-1k:8
 # text = Kim Jong Il, n curianu 金正日 (1941-2011 ) fu capu di statu dâ Corea dû Nord.
 # labels = complete
