@@ -403,6 +403,9 @@ REMOVE N IF (-1 Nun) (0C Voi) ;
 
 SELECT Pron IF (0C Ti) (1C V) ;
 
+SELECT A IF (-1 Det) (0C A OR Adv) (1C N) ;
+    ## La prima Dumìnica di Maiu c'è la festa di Santa Lucìa dê quagghi, pi ricurdari nu miràculu dâ Santa.
+
 # SELECT Pron/itg IF (0 Rel) (0 Pron/itg) (1* Intrg);
 
 # SELECT Rel IF (0 Rel) (0 Pr) (1 Fin);
