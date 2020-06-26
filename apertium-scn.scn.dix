@@ -1665,9 +1665,11 @@
 
     <pardef n="parr/ari__vblex">
       	<e><p><l>ari</l><r>ari<s n="vblex"/><s n="inf"/></r></p></e>
-      	<e r="LR"><p><l>àri</l><r>ari<s n="vblex"/><s n="inf"/></r></p></e>
     	<e><p><l>àri</l><r>ari<s n="vblex"/><s n="inf"/><j/></r></p><par n="S__battiri"/></e>
+      	<e r="LR"><p><l>àri</l><r>ari<s n="vblex"/><s n="inf"/></r></p></e>
       	<e r="LR"><p><l>ari</l><r>ari<s n="vblex"/><s n="inf"/><j/></r></p><par n="S__battiri"/></e>
+      	<e r="LR"><p><l>are</l><r>ari<s n="vblex"/><s n="inf"/></r></p></e>
+      	<e r="LR"><p><l>are</l><r>ari<s n="vblex"/><s n="inf"/><j/></r></p><par n="S__battiri"/></e>
 
     	 <!-- Presento de Indicativo  -->
     	<e><p><l>u</l><r>ari<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -1778,6 +1780,7 @@
     	<e r="LR"><p><l>unu</l><r>ari<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
     	<e><p><l>a</l><r>ari<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__scrìviti"/></e>
       	<e r="LR"><p><l>ari</l><r>ari<s n="vblex"/><s n="inf"/></r></p></e>
+      	<e r="LR"><p><l>are</l><r>ari<s n="vblex"/><s n="inf"/></r></p></e>
 
 <!-- 
     	<e><p><l>a</l><r>ari<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__battiri"/></e>
@@ -2350,6 +2353,8 @@
       	<e r="LR"><p><l>ari</l><r>ari<s n="vblex"/><s n="inf"/></r></p></e>
       	<e r="LR"><p><l>ari</l><r>ari<s n="vblex"/><s n="inf"/><j/></r></p><par n="S__battiri"/></e>
     	<e r="LR"><p><l>àri</l><r>ari<s n="vblex"/><s n="inf"/><j/></r></p></e>
+      	<e r="LR"><p><l>are</l><r>ari<s n="vblex"/><s n="inf"/></r></p></e>
+      	<e r="LR"><p><l>ari</l><r>ari<s n="vblex"/><s n="inf"/><j/></r></p><par n="S__battiri"/></e>
 
     	 <!-- Presento de Indicativo  -->
     	<e><p><l>u</l><r>ari<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -2457,6 +2462,7 @@
     
     <pardef n="innìc/ari__vblex">
       	<e><p><l>ari</l><r>ari<s n="vblex"/><s n="inf"/></r></p></e>
+      	<e r="LR"><p><l>are</l><r>ari<s n="vblex"/><s n="inf"/></r></p></e>
       	<e><p><l>ari</l><r>ari<s n="vblex"/><s n="inf"/><j/></r></p><par n="S__battiri"/></e>
         <e><p><l>annu</l><r>ari<s n="vblex"/><s n="ger"/></r></p></e>
         
@@ -2503,6 +2509,7 @@
     
     <pardef n="annarb/ari__vblex">
       	<e><p><l>ari</l><r>ari<s n="vblex"/><s n="inf"/></r></p></e>
+      	<e r="LR"><p><l>are</l><r>ari<s n="vblex"/><s n="inf"/></r></p></e>
     	<e r="LR"><p><l>àri</l><r>ari<s n="vblex"/><s n="inf"/><j/></r></p></e>
     	<e><p><l>a</l><r>ari<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
     	<e><p><l>assi</l><r>ari<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -2957,6 +2964,7 @@
     <pardef n="manci/ari__vblex">
     	 <!-- Verbs of 1 conj with soft "s" and soft "g" (like "danniggiari"). -->
       	<e><p><l>ari</l><r>ari<s n="vblex"/><s n="inf"/></r></p></e>
+      	<e r="LR"><p><l>are</l><r>ari<s n="vblex"/><s n="inf"/></r></p></e>
       	<e><p><l>àri</l><r>ari<s n="vblex"/><s n="inf"/><j/></r></p><par n="S__battiri"/></e>
       	<e r="LR"><p><l>ari</l><r>ari<s n="vblex"/><s n="inf"/><j/></r></p><par n="S__battiri"/></e>
       	<e r="LR"><p><l>àri</l><r>ari<s n="vblex"/><s n="inf"/></r></p></e>
@@ -3079,6 +3087,7 @@
    	 <!-- Verbs of 1 conj with hard "c". -->
 
       	<e><p><l>ari</l><r>ari<s n="vblex"/><s n="inf"/></r></p></e>
+      	<e r="LR"><p><l>are</l><r>ari<s n="vblex"/><s n="inf"/></r></p></e>
       	<e r="LR"><p><l>àri</l><r>ari<s n="vblex"/><s n="inf"/></r></p></e>
 
       	<e><p><l>àri</l><r>ari<s n="vblex"/><s n="inf"/><j/></r></p><par n="S__battiri"/></e>
@@ -3576,6 +3585,7 @@
 
     <pardef n="abbint/ari__vblex">
       	<e><p><l>ari</l><r>ari<s n="vblex"/><s n="inf"/></r></p></e>
+      	<e r="LR"><p><l>are</l><r>ari<s n="vblex"/><s n="inf"/></r></p></e>
       	<e><p><l>àri</l><r>ari<s n="vblex"/><s n="inf"/><j/></r></p><par n="S__battiri"/></e>
       	<e r="LR"><p><l>ari</l><r>ari<s n="vblex"/><s n="inf"/><j/></r></p><par n="S__battiri"/></e>
     	<e r="LR"><p><l>àri</l><r>ari<s n="vblex"/><s n="inf"/><j/></r></p></e>
@@ -3700,6 +3710,7 @@
     <pardef n="cuminci/ari__vblex">
 
       	<e><p><l>ari</l><r>ari<s n="vblex"/><s n="inf"/></r></p></e>
+      	<e r="LR"><p><l>are</l><r>ari<s n="vblex"/><s n="inf"/></r></p></e>
       	<e><p><l>àri</l><r>ari<s n="vblex"/><s n="inf"/><j/></r></p><par n="S__battiri"/></e>
       	<e r="LR"><p><l>ari</l><r>ari<s n="vblex"/><s n="inf"/><j/></r></p><par n="S__battiri"/></e>
     	<e r="LR"><p><l>àri</l><r>ari<s n="vblex"/><s n="inf"/><j/></r></p></e>
@@ -3823,6 +3834,7 @@
     
     <pardef n="circ/ari__vblex">
       	<e><p><l>ari</l><r>ari<s n="vblex"/><s n="inf"/></r></p></e>
+      	<e r="LR"><p><l>are</l><r>ari<s n="vblex"/><s n="inf"/></r></p></e>
       	<e><p><l>àri</l><r>ari<s n="vblex"/><s n="inf"/><j/></r></p><par n="S__battiri"/></e>
     	<e r="LR"><p><l>àri</l><r>ari<s n="vblex"/><s n="inf"/><j/></r></p></e>
       	<e r="LR"><p><l>ari</l><r>ari<s n="vblex"/><s n="inf"/><j/></r></p><par n="S__battiri"/></e>
@@ -4405,6 +4417,7 @@
     <pardef n="danniggi/ari__vblex">
     	 <!-- Stem-changing verbs of 1 conj with soft "c"/"g" (like "danniggiari") and root accent . -->
       	<e><p><l>ari</l><r>ari<s n="vblex"/><s n="inf"/></r></p></e>
+      	<e r="LR"><p><l>are</l><r>ari<s n="vblex"/><s n="inf"/></r></p></e>
       	<e><p><l>ari</l><r>ari<s n="vblex"/><s n="inf"/><j/></r></p><par n="S__battiri"/></e>
     	<e r="LR"><p><l>àri</l><r>ari<s n="vblex"/><s n="inf"/><j/></r></p></e>
     
@@ -6527,6 +6540,7 @@
 
     <pardef n="d/ari__vblex">
       	<e><p><l>ari</l><r>ari<s n="vblex"/><s n="inf"/></r></p></e>
+      	<e r="LR"><p><l>are</l><r>ari<s n="vblex"/><s n="inf"/></r></p></e>
       	<e r="LR"><p><l>àri</l><r>ari<s n="vblex"/><s n="inf"/></r></p></e>
       	<e><p><l>ari</l><r>ari<s n="vblex"/><s n="inf"/><j/></r></p><par n="S__battiri"/></e>
       	<e r="LR"><p><l>àri</l><r>ari<s n="vblex"/><s n="inf"/><j/></r></p><par n="S__battiri"/></e>
@@ -6646,6 +6660,7 @@
     
     <pardef n="f/ari__vblex">
       	<e><p><l>ari</l><r>ari<s n="vblex"/><s n="inf"/></r></p></e>
+      	<e r="LR"><p><l>are</l><r>ari<s n="vblex"/><s n="inf"/></r></p></e>
       	<e><p><l>ari</l><r>ari<s n="vblex"/><s n="inf"/><j/></r></p><par n="S__battiri"/></e>
       	<e r="LR"><p><l>àri</l><r>ari<s n="vblex"/><s n="inf"/></r></p></e>
       	<e r="LR"><p><l>àri</l><r>ari<s n="vblex"/><s n="inf"/><j/></r></p><par n="S__battiri"/></e>
@@ -6889,6 +6904,7 @@
     
     <pardef n="st/ari__vblex">
       	<e><p><l>ari</l><r>ari<s n="vblex"/><s n="inf"/></r></p></e>
+      	<e r="LR"><p><l>are</l><r>ari<s n="vblex"/><s n="inf"/></r></p></e>
       	<e><p><l>àri</l><r>ari<s n="vblex"/><s n="inf"/><j/></r></p><par n="S__battiri"/></e>
       	<e r="LR"><p><l>ari</l><r>ari<s n="vblex"/><s n="inf"/><j/></r></p><par n="S__battiri"/></e>
         
@@ -32399,7 +32415,6 @@
 <e lm="Down"><i>Down</i><par n="Wikipedia__np"/></e>
 <e lm="Boys"><i>Boys</i><par n="Wikipedia__np"/></e>
 <e lm="Smile"><i>Smile</i><par n="Wikipedia__np"/></e>
-<e lm="Sir"><i>Sir</i><par n="Wikipedia__np"/></e>
 <e lm="Language"><i>Language</i><par n="Wikipedia__np"/></e>
 <e lm="Special"><i>Special</i><par n="Wikipedia__np"/></e>
 <e lm="Concert"><i>Concert</i><par n="Wikipedia__np"/></e>
@@ -32413,7 +32428,6 @@
 <e lm="Must"><i>Must</i><par n="Wikipedia__np"/></e>
 <e lm="Bonus"><i>Bonus</i><par n="Wikipedia__np"/></e>
 <e lm="Art"><i>Art</i><par n="Wikipedia__np"/></e>
-<e lm="Miss"><i>Miss</i><par n="Wikipedia__np"/></e>
 <e lm="Mother"><i>Mother</i><par n="Wikipedia__np"/></e>
 <e lm="These"><i>These</i><par n="Wikipedia__np"/></e>
 <e lm="Yourself"><i>Yourself</i><par n="Wikipedia__np"/></e>
@@ -32425,9 +32439,7 @@
 <e lm="Back"><i>Back</i><par n="Wikipedia__np"/></e>
 <e lm="Top"><i>Top</i><par n="Wikipedia__np"/></e>
 <e lm="Style"><i>Style</i><par n="Wikipedia__np"/></e>
-<e lm="Mr"><i>Mr</i><par n="Wikipedia__np"/></e>
 <e lm="Elektra"><i>Elektra</i><par n="Wikipedia__np"/></e>
-<e lm="Dr"><i>Dr</i><par n="Wikipedia__np"/></e>
 <e lm="Valley"><i>Valley</i><par n="Wikipedia__np"/></e>
 <e lm="Team"><i>Team</i><par n="Wikipedia__np"/></e>
 <e lm="PCI"><i>PCI</i><par n="Wikipedia__np"/></e>
@@ -32445,7 +32457,6 @@
 <e lm="Yes"><i>Yes</i><par n="Wikipedia__np"/></e>
 <e lm="Museum"><i>Museum</i><par n="Wikipedia__np"/></e>
 <e lm="Living"><i>Living</i><par n="Wikipedia__np"/></e>
-<e lm="Lady"><i>Lady</i><par n="Wikipedia__np"/></e>
 <e lm="IBM"><i>IBM</i><par n="Wikipedia__np"/></e>
 <e lm="Boy"><i>Boy</i><par n="Wikipedia__np"/></e>
 <e lm="Animation"><i>Animation</i><par n="Wikipedia__np"/></e>
@@ -33138,6 +33149,12 @@
 <e lm="Varvaru"><i>Varvaru</i><par n="Rosenburg__np"/></e>
 <e lm="von"><i>von</i><par n="Rosenburg__np"/></e>
 
+<e lm="Dr"><i>Dr</i><par n="Wikipedia__np"/></e>
+<e lm="Lady"><i>Lady</i><par n="Wikipedia__np"/></e>
+<e lm="Miss"><i>Miss</i><par n="Wikipedia__np"/></e>
+<e lm="Mr"><i>Mr</i><par n="Wikipedia__np"/></e>
+<e lm="Mrs"><i>Mrs</i><par n="Wikipedia__np"/></e>
+<e lm="Sir"><i>Sir</i><par n="Wikipedia__np"/></e>
 
     <e lm="Love"><i>Love</i><par n="Rosenburg__np"/></e>
     <e lm="You"><i>You</i><par n="Rosenburg__np"/></e>
