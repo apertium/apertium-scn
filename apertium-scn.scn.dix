@@ -104,6 +104,7 @@
 
     <pardef n="initialisms">
         <e w="2.0"><re>[BCDFGHJKLMNPQRSTVWXYZ][BCDFGHJKLMNPQRSTVWXYZ]+</re><p><l></l><r><s n="n"/><s n="acr"/><s n="mf"/><s n="sp"/></r></p></e>
+        <e w="2.0"><re>[AEIOUBCDFGHJKLMNPQRSTVWXYZ][0-9]+</re><p><l></l><r><s n="n"/><s n="acr"/><s n="mf"/><s n="sp"/></r></p></e>
     </pardef>
 
     <pardef n="separa">
@@ -228,6 +229,7 @@
     <pardef n="ri/re">
       	<e><p><l>ri</l><r>ri</r></p></e>
       	<e r="LR"><p><l>re</l><r>ri</r></p></e>
+      	<e r="LR"><p><l>arri</l><r>ri</r></p></e>
     </pardef>
 
     <pardef n="in/n">
@@ -251,6 +253,7 @@
     
     <pardef n="/o__cnjcoo">
         <e><p><l>o</l><r>o<s n="cnjcoo"/></r></p></e>
+        <e><p><l>oppuri</l><r>o<s n="cnjcoo"/></r></p></e> <!-- o puri/u? -->
     </pardef>
     
     <pardef n="/ma__cnjcoo">
@@ -628,6 +631,7 @@
       	<e><p><l>i</l><r>iu<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
       	<e r="LR"><p><l>î</l><r>iu<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
       	<e r="LR"><p><l>ii</l><r>iu<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+      	<e r="LR"><p><l>j</l><r>iu<s n="n"/><s n="m"/><s n="pl"/></r></p></e> <!--Raccolta di proverbj siciliani-->
     </pardef>
 
     <pardef n="ngrisi__n">
@@ -780,12 +784,12 @@
     </pardef>
 
     <pardef n="pupulaz/zioni__n">
-      	<e><p><l>zioni</l><r>zioni<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
-      	<e r="LR"><p><l>zioni</l><r>zioni<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
+      	<e>       <p><l>zioni</l><r>zioni<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
       	<e r="LR"><p><l>ioni</l><r>zioni<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
       	<e r="LR"><p><l>ione</l><r>zioni<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
-      	<e r="LR"><p><l>ziuni</l><r>zioni<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
       	<e r="LR"><p><l>iuni</l><r>zioni<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
+      	<e r="LR"><p><l>zione</l><r>zioni<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
+      	<e r="LR"><p><l>ziuni</l><r>zioni<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
     </pardef>
     
     <pardef n="vi/sioni__n">
@@ -1074,6 +1078,7 @@
 
       	<e r="LR"><p><l>pir</l><r>pi<s n="pr"/></r></p></e>
       	<e r="LR"><p><l>pi'</l><r>pi<s n="pr"/></r></p></e>
+      	<e r="LR"><p><l>pe'</l><r>pi<s n="pr"/></r></p></e>
       	<e r="LR"><p><l>pì</l><r>pi<s n="pr"/></r></p></e>
       	<e r="LR"><p><l>pe</l><r>pi<s n="pr"/></r></p></e>
     </pardef>
@@ -1164,6 +1169,8 @@
     <pardef n="stàb/bili__adj">
       	<e><p><l>bili</l><r>bili<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
       	<e r="LR"><p><l>bile</l><r>bili<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+      	<e r="LR"><p><l>buli</l><r>bili<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+      	<e r="LR"><p><l>uli</l><r>bili<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
       	<e r="LR"><p><l>ili</l><r>bili<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
       	<e r="LR"><p><l>ile</l><r>bili<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
     </pardef>
@@ -4687,7 +4694,7 @@
       	
         <e r="LR"><p><l>inniri</l><r>ènniri<s n="vblex"/><s n="inf"/></r></p></e>
       	<e r="LR"><p><l>inniri</l><r>ènniri<s n="vblex"/><s n="inf"/><j/></r></p><par n="S__battiri"/></e>
-      	        
+
     	 <!-- Presento de Indicativo  -->
         <e><p><l>ennu</l><r>ènniri<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
         <e><p><l>enni</l><r>ènniri<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
@@ -4732,11 +4739,13 @@
     	<e r="LR"><p><l>isiru</l><r>ènniri<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
 
     	 <!-- Imperfecto de Indicativo -->
+
     	<e><p><l>inìa</l><r>ènniri<s n="vblex"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
     	<e r="LR"><p><l>inia</l><r>ènniri<s n="vblex"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
     	<e><p><l>inivi</l><r>ènniri<s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
     	<e><p><l>inìa</l><r>ènniri<s n="vblex"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
     	<e r="LR"><p><l>inia</l><r>ènniri<s n="vblex"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
+    	<e r="LR"><p><l>innìa</l><r>ènniri<s n="vblex"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
     	<e><p><l>inìamu</l><r>ènniri<s n="vblex"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p></e>
     	<e r="LR"><p><l>iniamu</l><r>ènniri<s n="vblex"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
     	<e><p><l>inìavu</l><r>ènniri<s n="vblex"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
@@ -9260,7 +9269,11 @@
     <e lm="putiaru"><i>putiar</i><par n="citadin/u__n"/></e>
     <e lm="putiaru" r="LR"><p><l>putigar</l><r>putiar</r></p><par n="citadin/u__n"/></e>
 
+    <e lm="èstiru"><i>èstir</i><par n="ann/u__n"/></e>
+    <e lm="stòmacu"><i>stòmac</i><par n="ann/u__n"/></e>
+    <e lm="apòstulu"><i>apòstul</i><par n="ann/u__n"/></e>
     <e lm="califfu"><i>califf</i><par n="ann/u__n"/></e>
+    <e lm="califfu" r="LR"><p><l>califff</l><r>califf</r></p><par n="ann/u__n"/></e>
     <e lm="puteru"><i>puter</i><par n="ann/u__n"/></e>
 
     <e lm="miliardu"><i>miliard</i><par n="ann/u__n"/></e>
@@ -9339,6 +9352,7 @@
 
     
     <e lm="mulècula"><i>mulècul</i><par n="cas/a__n"/></e>
+    <e lm="arina"><i>arin</i><par n="cas/a__n"/></e>
 
     <e lm="parola"><i>parol</i><par n="cas/a__n"/></e>
     <e lm="parola" r="LR"><p><l>palor</l><r>parol</r></p><par n="cas/a__n"/></e>
@@ -9384,8 +9398,12 @@
     <e lm="ngrisi" r="LR"><p><l>nghisi</l><r>ngrisi</r></p><par n="ngrisi__n"/></e>
     <e lm="ngrisi" r="LR"><p><l>nglisi</l><r>ngrisi</r></p><par n="ngrisi__n"/></e>
     
+    <e lm="cumbattenti"><i>cumbattenti</i><par n="studenti__n"/></e>
     <e lm="prisidenti"><i>prisidenti</i><par n="studenti__n"/></e>
     <e lm="prisidenti" r="LR"><p><l>prisirenti</l><r>prisidenti</r></p><par n="studenti__n"/></e>
+    <e lm="tririmi"><i>tririmi</i><par n="patri__n"/></e>
+    <e lm="astiroidi"><i>astiroidi</i><par n="patri__n"/></e>
+    <e lm="astiroidi" r="LR"><p><l>astiroiddi</l><r>astiroidi</r></p><par n="patri__n"/></e>
     <e lm="standard"><i>standard</i><par n="patri__n"/></e>
     <e lm="voblasci"><i>voblasci</i><par n="patri__n"/></e>
     <e lm="prisidenti" r="LR"><p><l>pricidenti</l><r>prisidenti</r></p><par n="studenti__n"/></e>
@@ -9421,6 +9439,7 @@
     <e lm="ipotesi"><i>ipotesi</i><par n="matri__n"/></e>
     <e lm="ipotesi" r="LR"><p><l>iputesi</l><r>ipotesi</r></p><par n="matri__n"/></e>
     <e lm="ipotesi" r="LR"><p><l>ipòtisi</l><r>ipotesi</r></p><par n="matri__n"/></e>
+    <e lm="ipotesi" r="LR"><p><l>ipotisi</l><r>ipotesi</r></p><par n="matri__n"/></e>
     <e lm="sìntesi"><i>sìntesi</i><par n="matri__n"/></e>
     <e lm="sìntesi" r="LR"><p><l>sìntisi</l><r>sìntesi</r></p><par n="matri__n"/></e>
     <e lm="nuvena"><i>nuven</i><par n="cas/a__n"/></e>
@@ -9639,6 +9658,7 @@
     <e lm="dialettu" r="LR"><p><l>tialett</l><r>dialett</r></p><par n="ann/u__n"/></e>
     <e lm="discu"><i>disc</i><par n="ann/u__n"/></e>
     <e lm="diu"><i>di</i><par n="ann/u__n"/></e>
+    <e lm="mircinariu"><i>mircinar</i><par n="sacchegg/iu__n"/></e>
     <e lm="duminiu"><i>dumin</i><par n="sacchegg/iu__n"/></e>
     <e lm="esempiu"><i>esemp</i><par n="sacchegg/iu__n"/></e>
     <e lm="asempiu"><i>asemp</i><par n="sacchegg/iu__n"/></e>
@@ -9661,6 +9681,7 @@
     <e lm="palazzu"><i>palazz</i><par n="ann/u__n"/></e>
     <e lm="partitu"><i>partit</i><par n="ann/u__n"/></e>
     <e lm="passaggiu"><i>passagg</i><par n="sacchegg/iu__n"/></e>
+    <e lm="sunnaggiu"><i>sunnagg</i><par n="sacchegg/iu__n"/></e>
     <e lm="pezzu"><i>pezz</i><par n="ann/u__n"/></e>
     <e lm="pianu"><i>pian</i><par n="ann/u__n"/></e>
     <e lm="pirìudu"><i>pirìud</i><par n="ann/u__n"/></e>
@@ -9671,9 +9692,10 @@
     <e lm="pirsuna" r="LR"><p><l>pirzun</l><r>pirsun</r></p><par n="cas/a__n"/></e>
 
     <e lm="pòpulu"><i>pòpul</i><par n="ann/u__n"/></e>
+    <e lm="pòpulu" r="LR"><p><l>popul</l><r>pòpul</r></p><par n="ann/u__n"/></e>
+    <e lm="pòpulu" r="LR"><p><l>pupul</l><r>pòpul</r></p><par n="ann/u__n"/></e>
     <e lm="postu"><i>post</i><par n="ann/u__n"/></e>
     <e lm="premiu"><i>prem</i><par n="sacchegg/iu__n"/></e>
-    <e lm="pruverbiu"><i>pruverb</i><par n="sacchegg/iu__n"/></e>
     <e lm="puntu"><i>punt</i><par n="ann/u__n"/></e>
     <e lm="restu"><i>rest</i><par n="ann/u__n"/></e>
     <e lm="santu"><i>sant</i><par n="citadin/u__n"/></e>
@@ -9850,7 +9872,9 @@
     <e lm="cunquista"><i>cunquist</i><par n="cas/a__n"/></e>
     <e lm="costa"><i>cost</i><par n="cas/a__n"/></e>
     <e lm="mpurtanza"><i>mpurtanz</i><par n="cas/a__n"/></e>
+    <e lm="mpurtanza" r="LR"><par n="m/im"/><i>portanz</i><par n="cas/a__n"/></e>
     <e lm="allianza"><i>allianz</i><par n="cas/a__n"/></e>
+    <e lm="tistimunianza"><i>tistimunianz</i><par n="cas/a__n"/></e>
     <e lm="distanza"><i>distanz</i><par n="cas/a__n"/></e>
     <e lm="canuscenza"><i>canuscenz</i><par n="cas/a__n"/></e>
     <e lm="scienza"><i>scienz</i><par n="cas/a__n"/></e>
@@ -9914,6 +9938,7 @@
     <e lm="prufissuri"><i>prufissuri</i><par n="prufissuri__n"/></e>
     <e lm="scritturi"><i>scritt</i><par n="att/uri__n"/></e>
     <e lm="auturi"><i>auturi</i><par n="visitatur/i__n"/></e>
+    <e lm="mili"><i>mil</i><par n="visitatur/i__n"/></e>
     <e lm="cantauturi"><i>cantautur</i><par n="visitatur/i__n"/></e>
     <e lm="pinzaturi"><i>pinzatur</i><par n="visitatur/i__n"/></e>
     <e lm="pitturi"><i>pittur</i><par n="visitatur/i__n"/></e>
@@ -10200,6 +10225,7 @@
 
     <e lm="addobbu"><i>addobb</i><par n="ann/u__n"/></e>
     <e lm="cubbu"><i>cubb</i><par n="ann/u__n"/></e>
+    <e lm="ipircubbu"><i>ipircubb</i><par n="ann/u__n"/></e>
     <e lm="fàrmacu"><i>fàrmac</i><par n="ann/u__n"/></e>
     <e lm="sìnnacu"><i>sìnnac</i><par n="nimic/u__n"/></e>
     <e lm="piloccu"><i>pilocc</i><par n="ann/u__n"/></e>
@@ -10367,6 +10393,7 @@
     <e lm="ussìgginu"><i>ussìggin</i><par n="ann/u__n"/></e>
     <e lm="clarinu"><i>clarin</i><par n="ann/u__n"/></e>
     <e lm="parrinu"><i>parrin</i><par n="citadin/u__n"/></e>
+    <e lm="sacirdoti"><i>sacirdoti</i><par n="patri__n"/></e>
     <e lm="tirrinu"><i>tirrin</i><par n="ann/u__n"/></e>
     <e lm="casinu"><i>casin</i><par n="ann/u__n"/></e>
     <e lm="plàtinu"><i>plàtin</i><par n="ann/u__n"/></e>
@@ -10868,7 +10895,20 @@
     <e lm="lebbra"><i>lebbr</i><par n="cas/a__n"/></e>
     <e lm="àlgibbra"><i>àlgibbr</i><par n="cas/a__n"/></e>
     <e lm="sfera"><i>sfer</i><par n="cas/a__n"/></e>
+    <e lm="biosfera"><i>biosfer</i><par n="cas/a__n"/></e>
+    <e lm="stratosfera"><i>stratosfer</i><par n="cas/a__n"/></e>
+    <e lm="magnetosfera"><i>magnetosfer</i><par n="cas/a__n"/></e>
+    <e lm="idrosfera"><i>idrosfera</i><par n="cas/a__n"/></e>
+    <e lm="litosfera"><i>litosfer</i><par n="cas/a__n"/></e>
+    <e lm="trupusfera"><i>trupusfer</i><par n="cas/a__n"/></e>
+    <e lm="trupusfera" r="LR"><p><l>troposfer</l><r>trupusfer</r></p><par n="cas/a__n"/></e>
+    <e lm="astenosfera"><i>astenosfer</i><par n="cas/a__n"/></e>
+    <e lm="fotusfera"><i>fotusfer</i><par n="cas/a__n"/></e>
     <e lm="attimusfera"><i>attimusfer</i><par n="cas/a__n"/></e>
+    <e lm="attimusfera" r="LR"><p><l>atmusfer</l><r>attimusfer</r></p><par n="cas/a__n"/></e>
+    <e lm="attimusfera" r="LR"><p><l>atmosfer</l><r>attimusfer</r></p><par n="cas/a__n"/></e>
+    <e lm="attimusfera" r="LR"><p><l>attmosfer</l><r>attimusfer</r></p><par n="cas/a__n"/></e>
+    <e lm="attimusfera" r="LR"><p><l>attmusfer</l><r>attimusfer</r></p><par n="cas/a__n"/></e>
     <e lm="culera"><i>culer</i><par n="cas/a__n"/></e>
     <e lm="bannera"><i>banner</i><par n="cas/a__n"/></e>
     <e lm="cammarera"><i>cammarer</i><par n="cas/a__n"/></e>
@@ -11361,10 +11401,12 @@
     <e lm="m"><i>m</i><par n="cm__n"/></e>
     <e lm="g"><i>g</i><par n="kg__n"/></e>
     <e lm="mg"><i>mg</i><par n="kg__n"/></e>
+    <e lm="pc"><i>pc</i><par n="kg__n"/></e>
     <e lm="kg"><i>kg</i><par n="kg__n"/></e>
     <e lm="µs"><i>µs</i><par n="kg__n"/></e>
     <e lm="ms"><i>ms</i><par n="kg__n"/></e>
     <e lm="h"><i>h</i><par n="h__n"/></e>
+    <e lm="°C"><i>°C</i><par n="kg__n"/></e>
     
     <e lm="FARC"><i>FARC</i><par n="FARC__n"/></e>
     <e lm="DNA"><i>DNA</i><par n="AIDS__n"/></e>
@@ -20501,6 +20543,8 @@
     <e lm="segretu" r="LR"><p><l>secret</l><r>segret</r></p><par n="ann/u__n"/></e>
     <e lm="risvoltu"><par n="ri/re"/><i>svolt</i><par n="ann/u__n"/></e>
 
+    <e lm="dicretu"><par n="di/de"/><i>cret</i><par n="ann/u__n"/></e>
+
     <e lm="stòricu"><i>stòric</i><par n="nimic/u__n"/></e>
     <e lm="alastra"><i>alastr</i><par n="cas/a__n"/></e>
     <e lm="alba" r="LR"><p><l>erb</l><r>alb</r></p><par n="cas/a__n"/></e>
@@ -21193,6 +21237,7 @@
     <e lm="atleta"><i>atlet</i><par n="pianet/a__n"/></e>
     <e lm="atleta" r="LR"><p><l>attlet</l><r>atlet</r></p><par n="pianet/a__n"/></e>
     <e lm="beta"><i>bet</i><par n="cas/a__n"/></e>
+    <e lm="onda"><i>ond</i><par n="cas/a__n"/></e>
     <e lm="castellaneta"><i>castellanet</i><par n="pianet/a__n"/></e>
     <e lm="dieta"><i>diet</i><par n="pianet/a__n"/></e>
     <e lm="divieta"><i>diviet</i><par n="pianet/a__n"/></e>
@@ -21436,6 +21481,7 @@
     <e lm="alienazzioni"><i>alienaz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="cantuni"><i>cantuni</i><par n="patri__n"/></e>
     <e lm="cìnima"><i>cìnim</i><par n="cas/a__n"/></e>
+    <e lm="cìnima" r="LR"><p><l>cinem</l><r>cìnim</r></p><par n="cas/a__n"/></e>
     <e lm="vampiru"><i>vampir</i><par n="ann/u__n"/></e>
     <e lm="satèlliti"><i>satèlliti</i><par n="patri__n"/></e>
     <e lm="rinascita"><par n="ri/re"/><i>nascit</i><par n="cas/a__n"/></e>
@@ -21546,6 +21592,7 @@
     <e lm="vadduni" r="LR"><p><l>vaddi</l><r>vadduni</r></p><par n="patri__n"/></e>
     <e lm="bòira" r="LR"><p><l>bòri</l><r>bòir</r></p><par n="cas/a__n"/></e>
     <e lm="libbirtati" r="LR"><p><l>libirt</l><r>libbirt</r></p><par n="cit/ati__n"/></e>
+    <e lm="libbirtati" r="LR"><p><l>libert</l><r>libbirt</r></p><par n="cit/ati__n"/></e>
     <e lm="triànculu" r="LR"><p><l>triàngul</l><r>triàncul</r></p><par n="ann/u__n"/></e>
     <e lm="catachìsimu" r="LR"><p><l>catachism</l><r>catachìsim</r></p><par n="ann/u__n"/></e>
     <e lm="buàtta" r="LR"><p><l>buatt</l><r>buàtt</r></p><par n="cas/a__n"/></e>
@@ -22108,7 +22155,6 @@
     <e lm="plutoniu" r="LR"><p><l>plutòn</l><r>pluton</r></p><par n="sacchegg/iu__n"/></e>
     <e lm="scrosciu" r="LR"><p><l>scrùsc</l><r>scrosc</r></p><par n="sacchegg/iu__n"/></e>
     <e lm="cummerciu" r="LR"><p><l>cumerc</l><r>cummerc</r></p><par n="sacchegg/iu__n"/></e>
-    <e lm="pruverbiu" r="LR"><p><l>proverb</l><r>pruverb</r></p><par n="sacchegg/iu__n"/></e>
     <e lm="spiunaggiu" r="LR"><p><l>spionagg</l><r>spiunagg</r></p><par n="sacchegg/iu__n"/></e>
     <e lm="rinisciu" r="LR"><p><l>finisc</l><r>rinisc</r></p><par n="sacchegg/iu__n"/></e>
     <e lm="iquilibbriu" r="LR"><p><l>iqulibbr</l><r>iquilibbr</r></p><par n="sacchegg/iu__n"/></e>
@@ -22421,7 +22467,7 @@
     <e lm="tummata"><i>tummat</i><par n="cas/a__n"/></e>
     <e lm="valanza"><i>valanz</i><par n="cas/a__n"/></e>
     <e lm="zafarana"><i>zafaran</i><par n="cas/a__n"/></e>
-    <e lm="iu"><i></i><par n="sacchegg/iu__n"/></e>
+    <!--<e lm="iu"><i></i><par n="sacchegg/iu__n"/></e>-->
     <e lm="Bulgaria"><i>Bulgar</i><par n="oricch/ia__n"/></e>
     <e lm="Cartagiruni"><i>Cartagiruni</i><par n="matri__n"/></e>
     <e lm="Castedduvitranu"><i>Castedduvitran</i><par n="ann/u__n"/></e>
@@ -22631,7 +22677,6 @@
     <e lm="astuzia"><i>astuz</i><par n="oricch/ia__n"/></e>
     <e lm="atlanti"><i>atlanti</i><par n="patri__n"/></e>
     <e lm="atleticu"><i>atletic</i><par n="man/u__n"/></e>
-    <e lm="atmusfera"><i>atmusfer</i><par n="cas/a__n"/></e>
     <e lm="atomu"><i>atom</i><par n="ann/u__n"/></e>
     <e lm="attu"><i>att</i><par n="ann/u__n"/></e>
     <e lm="attaccu"><i>attacc</i><par n="parc/u__n"/></e>
@@ -23073,6 +23118,7 @@
     <e lm="collezionista"><i>collezionist</i><par n="pianet/a__n"/></e>
     <e lm="collisioni"><i>colli</i><par n="vi/sioni__n"/></e>
     <e lm="collina"><i>collin</i><par n="cas/a__n"/></e>
+    <e lm="collina" r="LR"><p><l>cullin</l><r>collin</r></p><par n="cas/a__n"/></e>
     <e lm="collinetta"><i>collinett</i><par n="cas/a__n"/></e>
     <e lm="collinieddu"><i>colliniedd</i><par n="ann/u__n"/></e>
     <e lm="collocazioni"><i>colloca</i><par n="pupulaz/zioni__n"/></e>
@@ -23413,6 +23459,7 @@
     <e lm="distribbuzioni"><i>distribbu</i><par n="pupulaz/zioni__n"/></e>
     <e lm="distribbuturi"><i>distribbuturi</i><par n="patri__n"/></e>
     <e lm="distrittu"><i>distritt</i><par n="ann/u__n"/></e>
+    <e lm="distrittu" r="LR"><p><l>distrett</l><r>distritt</r></p><par n="ann/u__n"/></e>
     <e lm="disturbu"><i>disturb</i><par n="ann/u__n"/></e>
     <e lm="dittu"><i>ditt</i><par n="ann/u__n"/></e>
     <e lm="ditta"><i>ditt</i><par n="cas/a__n"/></e>
@@ -24861,7 +24908,8 @@
     <e lm="protesta"><i>protest</i><par n="cas/a__n"/></e>
     <e lm="protesta" r="LR"><p><l>prutest</l><r>protest</r></p><par n="cas/a__n"/></e>
     <e lm="prova"><i>prov</i><par n="cas/a__n"/></e>
-    <e lm="proverbiu"><i>proverb</i><par n="sacchegg/iu__n"/></e>
+    <e lm="pruverbiu"><i>pruverb</i><par n="sacchegg/iu__n"/></e>
+    <e lm="pruverbiu" r="LR"><p><l>proverb</l><r>pruverb</r></p><par n="sacchegg/iu__n"/></e>
     <e lm="prubbicu"><i>prubbic</i><par n="parc/u__n"/></e>
     <e lm="prudenza"><i>prudenz</i><par n="cas/a__n"/></e>
     <e lm="prudenzia"><i>prudenz</i><par n="oricch/ia__n"/></e>
@@ -26427,8 +26475,6 @@
 <e lm="dipurtati"><i>dipurt</i><par n="cit/ati__n"/></e>
 <e lm="cullittivitati"><i>cullittivit</i><par n="cit/ati__n"/></e>
 <e lm="autinticitati"><i>autinticit</i><par n="cit/ati__n"/></e>
-<e lm="accriditati"><i>accridit</i><par n="cit/ati__n"/></e>
-<e lm="accreditati"><i>accredit</i><par n="cit/ati__n"/></e>
 <e lm="accìttati"><i>accìtt</i><par n="cit/ati__n"/></e>
 <e lm="visibilitati"><i>visibilit</i><par n="cit/ati__n"/></e>
 <e lm="unicitati"><i>unicit</i><par n="cit/ati__n"/></e>
@@ -26706,6 +26752,7 @@
 <e lm="A-side"><i>A-side</i><par n="rock__n"/></e>
 <e lm="B-side"><i>B-side</i><par n="rock__n"/></e>
 <e lm="rock"><i>rock</i><par n="rock__n"/></e>
+<e lm="R&amp;B"><i>R&amp;B</i><par n="rock__n"/></e>
 <e lm="wave"><i>wave</i><par n="rock__n"/></e>
 <e lm="raën"><i>raën</i><par n="rock__n"/></e>
 <e lm="hardcore"><i>hardcore</i><par n="rock__n"/></e>
@@ -26713,6 +26760,8 @@
 <e lm="roll"><i>roll</i><par n="rock__n"/></e>
 <e lm="pop"><i>pop</i><par n="rock__n"/></e>
 <e lm="hip-hop"><i>hip-hop</i><par n="rock__n"/></e>
+<e lm="hip"><i>hip</i><par n="rock__n"/></e>
+<e lm="hop"><i>hop</i><par n="rock__n"/></e>
 <e lm="tour"><i>tour</i><par n="rock__n"/></e>
 <e lm="punk"><i>punk</i><par n="rock__n"/></e>
 <e lm="post-punk"><i>post-punk</i><par n="rock__n"/></e>
@@ -26727,6 +26776,8 @@
 <e lm="kernel"><i>kernel</i><par n="rock__n"/></e>
 <e lm="browser"><i>browser</i><par n="rock__n"/></e>
 <e lm="track"><i>track</i><par n="rock__n"/></e>
+<e lm="arbëreshë"><i>arbëreshë</i><par n="rock__n"/></e>
+<e lm="cricket"><i>cricket</i><par n="rock__n"/></e>
 <e lm="fan"><i>fan</i><par n="rock__n"/></e>
 <e lm="marker"><i>marker</i><par n="rock__n"/></e>
 <e lm="spin"><i>spin</i><par n="rock__n"/></e>
@@ -26737,6 +26788,8 @@
 <e lm="lider"><i>lider</i><par n="rock__n"/></e>
 <e lm="gol"><i>gol</i><par n="rock__n"/></e>
 <e lm="record"><i>record</i><par n="rock__n"/></e>
+
+<e lm="B"><i>B</i><par n="rock__n"/></e>
 
 <e lm="patronu"><i>patron</i><par n="ann/u__n"/></e>
 
@@ -26840,6 +26893,7 @@
     <e lm="Grecia"><i>Grecia</i><par n="María__np"/></e>
     <e lm="Valencia"><i>Valencia</i><par n="María__np"/></e>
     <e lm="Lucia"><i>Lucia</i><par n="María__np"/></e>
+    <e lm="Rusidda"><i>Rusidda</i><par n="María__np"/></e>
     <e lm="Sofia"><i>Sofia</i><par n="María__np"/></e>
     <e lm="Giorgia"><i>Giorgia</i><par n="María__np"/></e>
     <e lm="Italia"><i>Italia</i><par n="María__np"/></e>
@@ -27047,6 +27101,10 @@
     <e lm="Giosuè"><i>Giosuè</i><par n="Jaime__np"/></e>
     <e lm="Fibonacci"><i>Fibonacci</i><par n="Rosenburg__np"/></e>
     <e lm="Corsica"><i>Corsica</i><par n="Sicilia__np"/></e>
+    <e lm="Cadore"><i>Cadore</i><par n="Sicilia__np"/></e>
+    <e lm="Ejido"><i>Ejido</i><par n="Sicilia__np"/></e>
+    <e lm="Acquaviva"><i>Acquaviva</i><par n="Sicilia__np"/></e>
+    <e lm="Alikovo"><i>Alikovo</i><par n="Sicilia__np"/></e>
     <e lm="Trinacria"><i>Trinacria</i><par n="Sicilia__np"/></e>
     <e lm="Kamarina"><i>Kamarina</i><par n="Sicilia__np"/></e>
     <e lm="Gerais"><i>Gerais</i><par n="Sicilia__np"/></e>
@@ -27692,6 +27750,7 @@
     <e lm="India"><i>India</i><par n="Sicilia__np"/></e>
     <e lm="Altavilla"><i>Altavilla</i><par n="Sicilia__np"/></e>
     <e lm="Novosibirsk"><i>Novosibirsk</i><par n="Sicilia__np"/></e>
+    <e lm="Rivinusa"><i>Rivinusa</i><par n="Sicilia__np"/></e>
 
     <e lm="Abbruzzu"><i>Abbruzzu</i><par n="Sicilia__np"/></e>
     <e lm="Abidjan"><i>Abidjan</i><par n="Sicilia__np"/></e>
@@ -27748,6 +27807,31 @@
     <e lm="Mèrica"><i>Mèrica</i><par n="Sicilia__np"/></e>
     <e lm="Lausana"><i>Lausana</i><par n="Sicilia__np"/></e>
     <e lm="Fontana"><i>Fontana</i><par n="Sicilia__np"/></e>
+
+<e lm="Arbertu"><i>Arbertu</i><par n="Sicilia__np"/></e>
+<e lm="Baikal"><i>Baikal</i><par n="Sicilia__np"/></e>
+<e lm="Balaton"><i>Balaton</i><par n="Sicilia__np"/></e>
+<e lm="Burley"><i>Burley</i><par n="Sicilia__np"/></e>
+<e lm="Dirillu"><i>Dirillu</i><par n="Sicilia__np"/></e>
+<e lm="Eire"><i>Eire</i><par n="Sicilia__np"/></e>
+<e lm="Kyoga"><i>Kyoga</i><par n="Sicilia__np"/></e>
+<e lm="Ladoga"><i>Ladoga</i><par n="Sicilia__np"/></e>
+<e lm="Lemanu"><i>Lemanu</i><par n="Sicilia__np"/></e>
+<e lm="Maggiuri"><i>Maggiuri</i><par n="Sicilia__np"/></e>
+<e lm="Maiuri"><i>Maiuri</i><par n="Sicilia__np"/></e>
+<e lm="Maltisi"><i>Maltisi</i><par n="Sicilia__np"/></e>
+<e lm="Nasser"><i>Nasser</i><par n="Sicilia__np"/></e>
+<e lm="Ontariu"><i>Ontariu</i><par n="Sicilia__np"/></e>
+<e lm="Ontario" r="LR"><p><l>Ontario</l><r>Ontariu</r></p><par n="Sicilia__np"/></e>
+<e lm="Studnica"><i>Studnica</i><par n="Sicilia__np"/></e>
+<e lm="Sun"><i>Sun</i><par n="Sicilia__np"/></e>
+<e lm="Tana"><i>Tana</i><par n="Sicilia__np"/></e>
+<e lm="Tangànica"><i>Tangànica</i><par n="Sicilia__np"/></e>
+<e lm="Tanganika"><i>Tanganika</i><par n="Sicilia__np"/></e>
+<e lm="Texcoco"><i>Texcoco</i><par n="Sicilia__np"/></e>
+<e lm="Titicaca"><i>Titicaca</i><par n="Sicilia__np"/></e>
+<e lm="Trinitati"><i>Trinitati</i><par n="Sicilia__np"/></e>
+<e lm="Tuscanu"><i>Tuscanu</i><par n="Sicilia__np"/></e>
 
 
 
@@ -27963,6 +28047,7 @@
     <e lm="Filippini"><i>Filippini</i><par n="Sicilia__np"/></e>
     <e lm="Finlandia"><i>Finlandia</i><par n="Sicilia__np"/></e>
     <e lm="Finlandia" r="LR"><p><l>Finlannisa</l><r>Finlandia</r></p><par n="Sicilia__np"/></e>
+    <e lm="Finlandia" r="LR"><p><l>Finlannia</l><r>Finlandia</r></p><par n="Sicilia__np"/></e>
 
     <e lm="Campidogliu"><i>Campidogliu</i><par n="Sicilia__np"/></e>
     <e lm="Guyana francisi"><i>Guyana<b/>francisi</i><par n="Sicilia__np"/></e>
@@ -28191,6 +28276,7 @@
     <e lm="Nairobi"><i>Nairobi</i><par n="Sicilia__np"/></e>
     <e lm="Namibbia"><i>Namibbia</i><par n="Sicilia__np"/></e>
     <e lm="Nàpuli"><i>Nàpuli</i><par n="Sicilia__np"/></e>
+    <e lm="Nàpuli" r="LR"><p><l>Nàbbuli</l><r>Nàpuli</r></p><par n="Sicilia__np"/></e>
     <e lm="Nauru"><i>Nauru</i><par n="Sicilia__np"/></e>
     <e lm="Navarra"><i>Navarra</i><par n="Sicilia__np"/></e>
     <e lm="Naves"><i>Naves</i><par n="Sicilia__np"/></e>
@@ -28220,6 +28306,7 @@
     <e lm="New Jersey"><i>New<b/>Jersey</i><par n="Sicilia__np"/></e>
     <e lm="Nova Zilanna"><i>Nova<b/>Zilanna</i><par n="Sicilia__np"/></e>
     <e lm="Oceania"><i>Oceania</i><par n="Sicilia__np"/></e>
+    <e lm="Oceania" r="LR"><p><l>Ociania</l><r>Oceania</r></p><par n="Sicilia__np"/></e>
     <e lm="Ocèanu Atlànticu"><i>Ocèanu<b/>Atlànticu</i><par n="Sicilia__np"/></e>
     <e lm="Ohio"><i>Ohio</i><par n="Sicilia__np"/></e>
     <e lm="Oklahoma"><i>Oklahoma</i><par n="Sicilia__np"/></e>
@@ -28337,6 +28424,7 @@
     <e lm="Skopje"><i>Skopje</i><par n="Sicilia__np"/></e>
     <e lm="Slovacchia"><i>Slovacchia</i><par n="Sicilia__np"/></e>
     <e lm="Slovenia"><i>Slovenia</i><par n="Sicilia__np"/></e>
+    <e lm="Slovenia" r="LR"><p><l>Sluvenia</l><r>Slovenia</r></p><par n="Sicilia__np"/></e>
     <e lm="Sofia"><i>Sofia</i><par n="Sicilia__np"/></e>
     <e lm="Somalia"><i>Somalia</i><par n="Sicilia__np"/></e>
     <e lm="Spagna"><i>Spagna</i><par n="Sicilia__np"/></e>
@@ -32375,6 +32463,7 @@
 
     <e lm="Apollo"><i>Apollo</i><par n="Jaime__np"/></e>
     <e lm="Apollu"><i>Apollu</i><par n="Jaime__np"/></e>
+    <e lm="Jimi"><i>Jimi</i><par n="Jaime__np"/></e>
 
     <e lm="Licata"><i>Licata</i><par n="Sicilia__np"/></e>
     <e lm="Campubbassu"><i>Campubbassu</i><par n="Sicilia__np"/></e>
@@ -32382,14 +32471,28 @@
     <e lm="Loira"><i>Loira</i><par n="Sicilia__np"/></e>
     <e lm="Akragas"><i>Akragas</i><par n="Sicilia__np"/></e>
     <e lm="Aragona"><i>Aragona</i><par n="Sicilia__np"/></e>
+    <e lm="Auschwitz"><i>Auschwitz</i><par n="Sicilia__np"/></e>
     <e lm="Àuta Savoia"><i>Àuta<b/>Savoia</i><par n="Sicilia__np"/></e>
+
+    <e lm="Fiat"><i>Fiat</i><par n="Wikipedia__np"/></e>
 
     <e lm="Hipparcos"><i>Hipparcos</i><par n="Wikipedia__np"/></e>
     <e lm="Nintendo"><i>Nintendo</i><par n="Wikipedia__np"/></e>
     <e lm="HD"><i>HD</i><par n="Wikipedia__np"/></e>
     <e lm="Friends"><i>Friends</i><par n="Wikipedia__np"/></e>
+    <e lm="Five"><i>Five</i><par n="Wikipedia__np"/></e>
+    <e lm="Gallery"><i>Gallery</i><par n="Wikipedia__np"/></e>
+    <e lm="Fashioned"><i>Fashioned</i><par n="Wikipedia__np"/></e>
+    <e lm="Killers"><i>Killers</i><par n="Wikipedia__np"/></e>
     <e lm="Rhye"><i>Rhye</i><par n="Wikipedia__np"/></e>
     <e lm="Seas"><i>Seas</i><par n="Wikipedia__np"/></e>
+    <e lm="Hubble"><i>Hubble</i><par n="Wikipedia__np"/></e>
+    <e lm="Innuendo"><i>Innuendo</i><par n="Wikipedia__np"/></e>
+    <e lm="PSI"><i>PSI</i><par n="Wikipedia__np"/></e>
+    <e lm="Like"><i>Like</i><par n="Wikipedia__np"/></e>
+    <e lm="Blue"><i>Blue</i><par n="Wikipedia__np"/></e>
+    <e lm="Baby"><i>Baby</i><par n="Wikipedia__np"/></e>
+    <e lm="Iron"><i>Iron</i><par n="Wikipedia__np"/></e>
     <e lm="Fat"><i>Fat</i><par n="Wikipedia__np"/></e>
     <e lm="Pink"><i>Pink</i><par n="Wikipedia__np"/></e>
     <e lm="Days"><i>Days</i><par n="Wikipedia__np"/></e>
@@ -32410,6 +32513,7 @@
     <e lm="Attack"><i>Attack</i><par n="Wikipedia__np"/></e>
     <e lm="Highlander"><i>Highlander</i><par n="Wikipedia__np"/></e>
     <e lm="Dust"><i>Dust</i><par n="Wikipedia__np"/></e>
+    <e lm="Academy"><i>Academy</i><par n="Wikipedia__np"/></e>
     <e lm="Go"><i>Go</i><par n="Wikipedia__np"/></e>
     <e lm="Ga"><i>Ga</i><par n="Wikipedia__np"/></e>
 
@@ -32423,7 +32527,11 @@
     <e lm="Janeiru"><i>Janeiru</i><par n="Sicilia__np"/></e>
     <e lm="Yakub"><i>Yakub</i><par n="Jaime__np"/></e>
 
+    <e lm="Ibex"><i>Ibex</i><par n="Wikipedia__np"/></e>
+    <e lm="AC"><i>AC</i><par n="Wikipedia__np"/></e>
+    <e lm="DC"><i>DC</i><par n="Wikipedia__np"/></e>
     <e lm="the"><i>the</i><par n="Wikipedia__np"/></e>
+    <e lm="del"><i>del</i><par n="Wikipedia__np"/></e>
     <e lm="new"><i>new</i><par n="Wikipedia__np"/></e>
     <e lm="under"><i>under</i><par n="Wikipedia__np"/></e>
     <e lm="at"><i>at</i><par n="Wikipedia__np"/></e>
@@ -32499,6 +32607,8 @@
 <e lm="Valley"><i>Valley</i><par n="Wikipedia__np"/></e>
 <e lm="Team"><i>Team</i><par n="Wikipedia__np"/></e>
 <e lm="PCI"><i>PCI</i><par n="Wikipedia__np"/></e>
+<e lm="P.C.I."><i>P.C.I.</i><par n="Wikipedia__np"/></e>
+<e lm="P.S.I."><i>P.S.I.</i><par n="Wikipedia__np"/></e>
 <e lm="Guns"><i>Guns</i><par n="Wikipedia__np"/></e>
 <e lm="Fairy"><i>Fairy</i><par n="Wikipedia__np"/></e>
 <e lm="DOS"><i>DOS</i><par n="Wikipedia__np"/></e>
@@ -33188,22 +33298,24 @@
     <e lm="Othman"><i>Othman</i><par n="Jaime__np"/></e>
 
 <e lm="Autavilla"><i>Autavilla</i><par n="Rosenburg__np"/></e>
-<e lm="bin"><i>bin</i><par n="Rosenburg__np"/></e>
 <e lm="Bonaparti"><i>Bonaparti</i><par n="Rosenburg__np"/></e>
 <e lm="Camilleri"><i>Camilleri</i><par n="Rosenburg__np"/></e>
 <e lm="Cassini"><i>Cassini</i><par n="Rosenburg__np"/></e>
 <e lm="Geldof"><i>Geldof</i><par n="Rosenburg__np"/></e>
 <e lm="Gentileschi"><i>Gentileschi</i><par n="Rosenburg__np"/></e>
 <e lm="Gheddafi"><i>Gheddafi</i><par n="Rosenburg__np"/></e>
-<e lm="ibn"><i>ibn</i><par n="Rosenburg__np"/></e>
 <e lm="Iommi"><i>Iommi</i><par n="Rosenburg__np"/></e>
 <e lm="Kalbi"><i>Kalbi</i><par n="Rosenburg__np"/></e>
 <e lm="Luxemburg"><i>Luxemburg</i><par n="Rosenburg__np"/></e>
 <e lm="Melfi"><i>Melfi</i><par n="Rosenburg__np"/></e>
 <e lm="Tesla"><i>Tesla</i><par n="Rosenburg__np"/></e>
-<e lm="van"><i>van</i><par n="Rosenburg__np"/></e>
 <e lm="Varvaru"><i>Varvaru</i><par n="Rosenburg__np"/></e>
+
 <e lm="von"><i>von</i><par n="Rosenburg__np"/></e>
+<e lm="van"><i>van</i><par n="Rosenburg__np"/></e>
+<e lm="del"><i>del</i><par n="Rosenburg__np"/></e>
+<e lm="ibn"><i>ibn</i><par n="Rosenburg__np"/></e>
+<e lm="bin"><i>bin</i><par n="Rosenburg__np"/></e>
 
 <e lm="Dr"><i>Dr</i><par n="Wikipedia__np"/></e>
 <e lm="Lady"><i>Lady</i><par n="Wikipedia__np"/></e>
@@ -35107,6 +35219,554 @@
 <e lm="Y."><i>Y.</i><par n="A.__np"/></e>
 <e lm="Z."><i>Z.</i><par n="A.__np"/></e>
 
+<e lm="S.p.A."><i>S.p.A.</i><par n="A.__np"/></e>
+<e lm="S.r.l."><i>S.r.l.</i><par n="A.__np"/></e>
+
+
+<e lm="Abbado"><i>Abbado</i><par n="Rosenburg__np"/></e>
+<e lm="Abela"><i>Abela</i><par n="Rosenburg__np"/></e>
+<e lm="Adelizzi"><i>Adelizzi</i><par n="Rosenburg__np"/></e>
+<e lm="Ai"><i>Ai</i><par n="Rosenburg__np"/></e>
+<e lm="Alagna"><i>Alagna</i><par n="Rosenburg__np"/></e>
+<e lm="Alastair"><i>Alastair</i><par n="Rosenburg__np"/></e>
+<e lm="Aldisio"><i>Aldisio</i><par n="Rosenburg__np"/></e>
+<e lm="Aleksievic"><i>Aleksievic</i><par n="Rosenburg__np"/></e>
+<e lm="Amari"><i>Amari</i><par n="Rosenburg__np"/></e>
+<e lm="Amurri"><i>Amurri</i><par n="Rosenburg__np"/></e>
+<e lm="Anđelković"><i>Anđelković</i><par n="Rosenburg__np"/></e>
+<e lm="Angela"><i>Angela</i><par n="María__np"/></e>
+<e lm="Anselmi"><i>Anselmi</i><par n="Rosenburg__np"/></e>
+<e lm="Anthony"><i>Anthony</i><par n="Rosenburg__np"/></e>
+<e lm="Antico"><i>Antico</i><par n="Rosenburg__np"/></e>
+<e lm="Anticu"><i>Anticu</i><par n="Rosenburg__np"/></e>
+<e lm="Antoniazzi"><i>Antoniazzi</i><par n="Rosenburg__np"/></e>
+<e lm="Antonietta"><i>Antonietta</i><par n="Rosenburg__np"/></e>
+<e lm="Anzalone"><i>Anzalone</i><par n="Rosenburg__np"/></e>
+<e lm="Arapoglou"><i>Arapoglou</i><par n="Rosenburg__np"/></e>
+<e lm="Argentu"><i>Argentu</i><par n="Rosenburg__np"/></e>
+<e lm="Arouet"><i>Arouet</i><par n="Rosenburg__np"/></e>
+<e lm="Artali"><i>Artali</i><par n="Rosenburg__np"/></e>
+<e lm="Asmundu"><i>Asmundu</i><par n="Rosenburg__np"/></e>
+<e lm="Ataturk"><i>Ataturk</i><par n="Rosenburg__np"/></e>
+<e lm="Avellinu"><i>Avellinu</i><par n="Rosenburg__np"/></e>
+<e lm="Aversa"><i>Aversa</i><par n="Rosenburg__np"/></e>
+<e lm="Baghdatis"><i>Baghdatis</i><par n="Rosenburg__np"/></e>
+<e lm="Bai"><i>Bai</i><par n="Rosenburg__np"/></e>
+<e lm="Balabanian"><i>Balabanian</i><par n="Rosenburg__np"/></e>
+<e lm="Balistreri"><i>Balistreri</i><par n="Rosenburg__np"/></e>
+<e lm="Bardot"><i>Bardot</i><par n="Rosenburg__np"/></e>
+<e lm="Barriu"><i>Barriu</i><par n="Rosenburg__np"/></e>
+<e lm="Basili"><i>Basili</i><par n="Rosenburg__np"/></e>
+<e lm="Basilio"><i>Basilio</i><par n="Rosenburg__np"/></e>
+<e lm="Bateman"><i>Bateman</i><par n="Rosenburg__np"/></e>
+<e lm="Batson"><i>Batson</i><par n="Rosenburg__np"/></e>
+<e lm="Battaglia"><i>Battaglia</i><par n="Rosenburg__np"/></e>
+<e lm="Bearzot"><i>Bearzot</i><par n="Rosenburg__np"/></e>
+<e lm="Beasley"><i>Beasley</i><par n="Rosenburg__np"/></e>
+<e lm="Beccaria"><i>Beccaria</i><par n="Rosenburg__np"/></e>
+<e lm="Beckenstein"><i>Beckenstein</i><par n="Rosenburg__np"/></e>
+<e lm="Bellino"><i>Bellino</i><par n="Rosenburg__np"/></e>
+<e lm="Bellow"><i>Bellow</i><par n="Rosenburg__np"/></e>
+<e lm="Benanti"><i>Benanti</i><par n="Rosenburg__np"/></e>
+<e lm="Beni"><i>Beni</i><par n="Rosenburg__np"/></e>
+<e lm="Benincasa"><i>Benincasa</i><par n="Rosenburg__np"/></e>
+<e lm="Berio"><i>Berio</i><par n="Rosenburg__np"/></e>
+<e lm="Bertini"><i>Bertini</i><par n="Rosenburg__np"/></e>
+<e lm="Bertinotti"><i>Bertinotti</i><par n="Rosenburg__np"/></e>
+<e lm="Bertolo"><i>Bertolo</i><par n="Rosenburg__np"/></e>
+<e lm="Biunnu"><i>Biunnu</i><par n="Rosenburg__np"/></e>
+<e lm="Blanchard"><i>Blanchard</i><par n="Rosenburg__np"/></e>
+<e lm="Blanvillain"><i>Blanvillain</i><par n="Rosenburg__np"/></e>
+<e lm="Blaxill"><i>Blaxill</i><par n="Rosenburg__np"/></e>
+<e lm="Boccoli"><i>Boccoli</i><par n="Rosenburg__np"/></e>
+<e lm="Bonaccossi"><i>Bonaccossi</i><par n="Rosenburg__np"/></e>
+<e lm="Bonfiglio"><i>Bonfiglio</i><par n="Rosenburg__np"/></e>
+<e lm="Bonifacio"><i>Bonifacio</i><par n="Rosenburg__np"/></e>
+<e lm="Borromeu"><i>Borromeu</i><par n="Rosenburg__np"/></e>
+<e lm="Borromini"><i>Borromini</i><par n="Rosenburg__np"/></e>
+<e lm="Boschetto"><i>Boschetto</i><par n="Rosenburg__np"/></e>
+<e lm="Botta"><i>Botta</i><par n="Rosenburg__np"/></e>
+<e lm="Botticelli"><i>Botticelli</i><par n="Rosenburg__np"/></e>
+<e lm="Braga"><i>Braga</i><par n="Rosenburg__np"/></e>
+<e lm="Brando"><i>Brando</i><par n="Rosenburg__np"/></e>
+<e lm="Brasi"><i>Brasi</i><par n="Rosenburg__np"/></e>
+<e lm="Bray"><i>Bray</i><par n="Rosenburg__np"/></e>
+<e lm="Bresciano"><i>Bresciano</i><par n="Rosenburg__np"/></e>
+<e lm="Brooks"><i>Brooks</i><par n="Rosenburg__np"/></e>
+<e lm="Bruegel"><i>Bruegel</i><par n="Rosenburg__np"/></e>
+<e lm="Brunu"><i>Brunu</i><par n="Rosenburg__np"/></e>
+<e lm="Budan"><i>Budan</i><par n="Rosenburg__np"/></e>
+<e lm="Bufalinu"><i>Bufalinu</i><par n="Rosenburg__np"/></e>
+<e lm="Bukle"><i>Bukle</i><par n="Rosenburg__np"/></e>
+<e lm="Burgiu"><i>Burgiu</i><par n="Rosenburg__np"/></e>
+<e lm="Buscemi"><i>Buscemi</i><par n="Rosenburg__np"/></e>
+<e lm="Busuttil"><i>Busuttil</i><par n="Rosenburg__np"/></e>
+<e lm="Caccioppoli"><i>Caccioppoli</i><par n="Rosenburg__np"/></e>
+<e lm="Cafisu"><i>Cafisu</i><par n="Rosenburg__np"/></e>
+<e lm="Calamandrei"><i>Calamandrei</i><par n="Rosenburg__np"/></e>
+<e lm="Callas"><i>Callas</i><par n="Rosenburg__np"/></e>
+<e lm="Calòjaru"><i>Calòjaru</i><par n="Rosenburg__np"/></e>
+<e lm="Calvinu"><i>Calvinu</i><par n="Rosenburg__np"/></e>
+<e lm="Cammalleri"><i>Cammalleri</i><par n="Rosenburg__np"/></e>
+<e lm="Campailla"><i>Campailla</i><par n="Rosenburg__np"/></e>
+<e lm="Campione"><i>Campione</i><par n="Rosenburg__np"/></e>
+<e lm="Cannatella"><i>Cannatella</i><par n="Rosenburg__np"/></e>
+<e lm="Cannavò"><i>Cannavò</i><par n="Rosenburg__np"/></e>
+<e lm="Cannizzaru"><i>Cannizzaru</i><par n="Rosenburg__np"/></e>
+<e lm="Capodicasa"><i>Capodicasa</i><par n="Rosenburg__np"/></e>
+<e lm="Capuano"><i>Capuano</i><par n="Rosenburg__np"/></e>
+<e lm="Cardella"><i>Cardella</i><par n="Rosenburg__np"/></e>
+<e lm="Caressa"><i>Caressa</i><par n="Rosenburg__np"/></e>
+<e lm="Carlotta"><i>Carlotta</i><par n="Rosenburg__np"/></e>
+<e lm="Carnico"><i>Carnico</i><par n="Rosenburg__np"/></e>
+<e lm="Carnivali"><i>Carnivali</i><par n="Rosenburg__np"/></e>
+<e lm="Carollo"><i>Carollo</i><par n="Rosenburg__np"/></e>
+<e lm="Caropepe"><i>Caropepe</i><par n="Rosenburg__np"/></e>
+<e lm="Carrozzieri"><i>Carrozzieri</i><par n="Rosenburg__np"/></e>
+<e lm="Casali"><i>Casali</i><par n="Rosenburg__np"/></e>
+<e lm="Cassani"><i>Cassani</i><par n="Rosenburg__np"/></e>
+<e lm="Cassianu"><i>Cassianu</i><par n="Rosenburg__np"/></e>
+<e lm="Catallu"><i>Catallu</i><par n="Rosenburg__np"/></e>
+<e lm="Catarina"><i>Catarina</i><par n="Rosenburg__np"/></e>
+<e lm="Catina"><i>Catina</i><par n="Rosenburg__np"/></e>
+<e lm="Cavani"><i>Cavani</i><par n="Rosenburg__np"/></e>
+<e lm="Chinnici"><i>Chinnici</i><par n="Rosenburg__np"/></e>
+<e lm="Cimarosa"><i>Cimarosa</i><par n="Rosenburg__np"/></e>
+<e lm="Cioran"><i>Cioran</i><par n="Rosenburg__np"/></e>
+<e lm="Cirinnà"><i>Cirinnà</i><par n="Rosenburg__np"/></e>
+<e lm="City"><i>City</i><par n="Rosenburg__np"/></e>
+<e lm="Čočev"><i>Čočev</i><par n="Rosenburg__np"/></e>
+<e lm="Coffari"><i>Coffari</i><par n="Rosenburg__np"/></e>
+<e lm="Coniglio"><i>Coniglio</i><par n="Rosenburg__np"/></e>
+<e lm="Consolo"><i>Consolo</i><par n="Rosenburg__np"/></e>
+<e lm="Cooke"><i>Cooke</i><par n="Rosenburg__np"/></e>
+<e lm="Corallo"><i>Corallo</i><par n="Rosenburg__np"/></e>
+<e lm="Correnti"><i>Correnti</i><par n="Rosenburg__np"/></e>
+<e lm="Cossiga"><i>Cossiga</i><par n="Rosenburg__np"/></e>
+<e lm="Costa"><i>Costa</i><par n="Rosenburg__np"/></e>
+<e lm="Coulby"><i>Coulby</i><par n="Rosenburg__np"/></e>
+<e lm="Crialesi"><i>Crialesi</i><par n="Rosenburg__np"/></e>
+<e lm="Crispi"><i>Crispi</i><par n="Rosenburg__np"/></e>
+<e lm="Cristoforetti"><i>Cristoforetti</i><par n="Rosenburg__np"/></e>
+<e lm="Cristu"><i>Cristu</i><par n="Rosenburg__np"/></e>
+<e lm="Crucetta"><i>Crucetta</i><par n="Rosenburg__np"/></e>
+<e lm="Cunzilina"><i>Cunzilina</i><par n="Rosenburg__np"/></e>
+<e lm="Cuthbert"><i>Cuthbert</i><par n="Rosenburg__np"/></e>
+<e lm="D'Acquisto"><i>D'Acquisto</i><par n="Rosenburg__np"/></e>
+<e lm="D'Aiellu"><i>D'Aiellu</i><par n="Rosenburg__np"/></e>
+<e lm="D'Alesi"><i>D'Alesi</i><par n="Rosenburg__np"/></e>
+<e lm="D'Alessio"><i>D'Alessio</i><par n="Rosenburg__np"/></e>
+<e lm="Danese"><i>Danese</i><par n="Rosenburg__np"/></e>
+<e lm="D'Angelo"><i>D'Angelo</i><par n="Rosenburg__np"/></e>
+<e lm="Danielsson"><i>Danielsson</i><par n="Rosenburg__np"/></e>
+<e lm="D'Anna"><i>D'Anna</i><par n="Rosenburg__np"/></e>
+<e lm="D'Annunzio"><i>D'Annunzio</i><par n="Rosenburg__np"/></e>
+<e lm="Danti"><i>Danti</i><par n="Rosenburg__np"/></e>
+<e lm="D'Antoni"><i>D'Antoni</i><par n="Rosenburg__np"/></e>
+<e lm="D'Aquinu"><i>D'Aquinu</i><par n="Rosenburg__np"/></e>
+<e lm="D'Arrigu"><i>D'Arrigu</i><par n="Rosenburg__np"/></e>
+<e lm="D'Avena"><i>D'Avena</i><par n="Rosenburg__np"/></e>
+<e lm="Deaton"><i>Deaton</i><par n="Rosenburg__np"/></e>
+<e lm="Degas"><i>Degas</i><par n="Rosenburg__np"/></e>
+<e lm="Diana"><i>Diana</i><par n="Rosenburg__np"/></e>
+<e lm="Dică"><i>Dică</i><par n="Rosenburg__np"/></e>
+<e lm="Dion"><i>Dion</i><par n="Rosenburg__np"/></e>
+<e lm="Dipasquali"><i>Dipasquali</i><par n="Rosenburg__np"/></e>
+<e lm="Divotu"><i>Divotu</i><par n="Rosenburg__np"/></e>
+<e lm="Djokovic"><i>Djokovic</i><par n="Rosenburg__np"/></e>
+<e lm="Donaci"><i>Donaci</i><par n="Rosenburg__np"/></e>
+<e lm="Donizzetti"><i>Donizzetti</i><par n="Rosenburg__np"/></e>
+<e lm="Drago"><i>Drago</i><par n="Rosenburg__np"/></e>
+<e lm="Dulbeccu"><i>Dulbeccu</i><par n="Rosenburg__np"/></e>
+<e lm="Dumìnica"><i>Dumìnica</i><par n="Rosenburg__np"/></e>
+<e lm="Dunatu"><i>Dunatu</i><par n="Rosenburg__np"/></e>
+<e lm="Ebner"><i>Ebner</i><par n="Rosenburg__np"/></e>
+<e lm="Eelam"><i>Eelam</i><par n="Rosenburg__np"/></e>
+<e lm="Einaudi"><i>Einaudi</i><par n="Rosenburg__np"/></e>
+<e lm="Ekberg"><i>Ekberg</i><par n="Rosenburg__np"/></e>
+<e lm="Eli"><i>Eli</i><par n="Rosenburg__np"/></e>
+<e lm="Elisabbetta"><i>Elisabbetta</i><par n="María__np"/></e>
+<e lm="Emerik"><i>Emerik</i><par n="Rosenburg__np"/></e>
+<e lm="Engberg"><i>Engberg</i><par n="Rosenburg__np"/></e>
+<e lm="Enricu"><i>Enricu</i><par n="Rosenburg__np"/></e>
+<e lm="Epifani"><i>Epifani</i><par n="Rosenburg__np"/></e>
+<e lm="Errico"><i>Errico</i><par n="Rosenburg__np"/></e>
+<e lm="Estevez"><i>Estevez</i><par n="Rosenburg__np"/></e>
+<e lm="Etanolu"><i>Etanolu</i><par n="Rosenburg__np"/></e>
+<e lm="Fallaci"><i>Fallaci</i><par n="Rosenburg__np"/></e>
+<e lm="Fardella"><i>Fardella</i><par n="Rosenburg__np"/></e>
+<e lm="Fasino"><i>Fasino</i><par n="Rosenburg__np"/></e>
+<e lm="Fazellu"><i>Fazellu</i><par n="Rosenburg__np"/></e>
+<e lm="Feddal"><i>Feddal</i><par n="Rosenburg__np"/></e>
+<e lm="Feldman"><i>Feldman</i><par n="Rosenburg__np"/></e>
+<e lm="Femia"><i>Femia</i><par n="Rosenburg__np"/></e>
+<e lm="Ferdinando"><i>Ferdinando</i><par n="Rosenburg__np"/></e>
+<e lm="Fernsehen"><i>Fernsehen</i><par n="Rosenburg__np"/></e>
+<e lm="Ferru"><i>Ferru</i><par n="Rosenburg__np"/></e>
+<e lm="Fiamingo"><i>Fiamingo</i><par n="Rosenburg__np"/></e>
+<e lm="Ficarra"><i>Ficarra</i><par n="Rosenburg__np"/></e>
+<e lm="Fili"><i>Fili</i><par n="Rosenburg__np"/></e>
+<e lm="Finlandia"><i>Finlandia</i><par n="Sicilia__np"/></e>
+<e lm="Fiorellu"><i>Fiorellu</i><par n="Rosenburg__np"/></e>
+<e lm="FitzGerald"><i>FitzGerald</i><par n="Rosenburg__np"/></e>
+<e lm="Fiumi"><i>Fiumi</i><par n="Rosenburg__np"/></e>
+<e lm="Fo"><i>Fo</i><par n="Rosenburg__np"/></e>
+<e lm="Fòsculu"><i>Fòsculu</i><par n="Rosenburg__np"/></e>
+<e lm="Frassica"><i>Frassica</i><par n="Rosenburg__np"/></e>
+<e lm="Fudduni"><i>Fudduni</i><par n="Rosenburg__np"/></e>
+<e lm="Funari"><i>Funari</i><par n="Rosenburg__np"/></e>
+<e lm="Furtado"><i>Furtado</i><par n="Rosenburg__np"/></e>
+<e lm="Galletta"><i>Galletta</i><par n="Rosenburg__np"/></e>
+<e lm="Gallu"><i>Gallu</i><par n="Rosenburg__np"/></e>
+<e lm="Game"><i>Game</i><par n="Rosenburg__np"/></e>
+<e lm="Gang"><i>Gang</i><par n="Rosenburg__np"/></e>
+<e lm="Gangemi"><i>Gangemi</i><par n="Rosenburg__np"/></e>
+<e lm="Garajo"><i>Garajo</i><par n="Rosenburg__np"/></e>
+<e lm="Garibbaldi"><i>Garibbaldi</i><par n="Rosenburg__np"/></e>
+<e lm="Garziano"><i>Garziano</i><par n="Rosenburg__np"/></e>
+<e lm="Gattusu"><i>Gattusu</i><par n="Rosenburg__np"/></e>
+<e lm="Gelmini"><i>Gelmini</i><par n="Rosenburg__np"/></e>
+<e lm="Gini"><i>Gini</i><par n="Rosenburg__np"/></e>
+<e lm="Giorgi"><i>Giorgi</i><par n="Rosenburg__np"/></e>
+<e lm="Giorgiu"><i>Giorgiu</i><par n="Rosenburg__np"/></e>
+<e lm="Giuliano"><i>Giuliano</i><par n="Rosenburg__np"/></e>
+<e lm="Giulianu"><i>Giulianu</i><par n="Rosenburg__np"/></e>
+<e lm="Giummarra"><i>Giummarra</i><par n="Rosenburg__np"/></e>
+<e lm="Giusta"><i>Giusta</i><par n="Rosenburg__np"/></e>
+<e lm="Giustina"><i>Giustina</i><par n="Rosenburg__np"/></e>
+<e lm="Giuvanni"><i>Giuvanni</i><par n="Rosenburg__np"/></e>
+<e lm="Godard"><i>Godard</i><par n="Rosenburg__np"/></e>
+<e lm="Goian"><i>Goian</i><par n="Rosenburg__np"/></e>
+<e lm="Gottfried"><i>Gottfried</i><par n="Rosenburg__np"/></e>
+<e lm="Grabar-Kitarović"><i>Grabar-Kitarović</i><par n="Rosenburg__np"/></e>
+<e lm="Graziano"><i>Graziano</i><par n="Rosenburg__np"/></e>
+<e lm="Grigoriu"><i>Grigoriu</i><par n="Rosenburg__np"/></e>
+<e lm="Griguori"><i>Griguori</i><par n="Rosenburg__np"/></e>
+<e lm="Grünen"><i>Grünen</i><par n="Rosenburg__np"/></e>
+<e lm="Guerrieri"><i>Guerrieri</i><par n="Rosenburg__np"/></e>
+<e lm="Guerrisi"><i>Guerrisi</i><par n="Rosenburg__np"/></e>
+<e lm="Gugino"><i>Gugino</i><par n="Rosenburg__np"/></e>
+<e lm="Guglielminu"><i>Guglielminu</i><par n="Rosenburg__np"/></e>
+<e lm="Guidotti"><i>Guidotti</i><par n="Rosenburg__np"/></e>
+<e lm="Gunzaga"><i>Gunzaga</i><par n="Rosenburg__np"/></e>
+<e lm="Guttuso"><i>Guttuso</i><par n="Rosenburg__np"/></e>
+<e lm="Häggkvist"><i>Häggkvist</i><par n="Rosenburg__np"/></e>
+<e lm="Haines"><i>Haines</i><par n="Rosenburg__np"/></e>
+<e lm="Halley"><i>Halley</i><par n="Rosenburg__np"/></e>
+<e lm="Hamdis"><i>Hamdis</i><par n="Rosenburg__np"/></e>
+<e lm="Hanson"><i>Hanson</i><par n="Rosenburg__np"/></e>
+<e lm="Haroche"><i>Haroche</i><par n="Rosenburg__np"/></e>
+<e lm="Havel"><i>Havel</i><par n="Rosenburg__np"/></e>
+<e lm="Hawn"><i>Hawn</i><par n="Rosenburg__np"/></e>
+<e lm="Hemingway"><i>Hemingway</i><par n="Rosenburg__np"/></e>
+<e lm="Henstridge"><i>Henstridge</i><par n="Rosenburg__np"/></e>
+<e lm="Heß"><i>Heß</i><par n="Rosenburg__np"/></e>
+<e lm="Hits"><i>Hits</i><par n="Rosenburg__np"/></e>
+<e lm="Huckstep"><i>Huckstep</i><par n="Rosenburg__np"/></e>
+<e lm="Iličič"><i>Iličič</i><par n="Rosenburg__np"/></e>
+<e lm="Ingrassia"><i>Ingrassia</i><par n="Rosenburg__np"/></e>
+<e lm="International"><i>International</i><par n="Rosenburg__np"/></e>
+<e lm="Inturcetta"><i>Inturcetta</i><par n="Rosenburg__np"/></e>
+<e lm="Islamicu"><i>Islamicu</i><par n="Rosenburg__np"/></e>
+<e lm="Isuli"><i>Isuli</i><par n="Rosenburg__np"/></e>
+<e lm="Ìsuli"><i>Ìsuli</i><par n="Rosenburg__np"/></e>
+<e lm="It"><i>It</i><par n="Rosenburg__np"/></e>
+<e lm="Iuratu"><i>Iuratu</i><par n="Rosenburg__np"/></e>
+<e lm="Jackson"><i>Jackson</i><par n="Rosenburg__np"/></e>
+<e lm="Janković"><i>Janković</i><par n="Rosenburg__np"/></e>
+<e lm="Jansson"><i>Jansson</i><par n="Rosenburg__np"/></e>
+<e lm="Jarmer"><i>Jarmer</i><par n="Rosenburg__np"/></e>
+<e lm="Jerace"><i>Jerace</i><par n="Rosenburg__np"/></e>
+<e lm="Johansson"><i>Johansson</i><par n="Rosenburg__np"/></e>
+<e lm="José"><i>José</i><par n="Rosenburg__np"/></e>
+<e lm="Kajita"><i>Kajita</i><par n="Rosenburg__np"/></e>
+<e lm="Karkinti"><i>Karkinti</i><par n="Rosenburg__np"/></e>
+<e lm="Katic"><i>Katic</i><par n="Rosenburg__np"/></e>
+<e lm="Kaufman"><i>Kaufman</i><par n="Rosenburg__np"/></e>
+<e lm="Kawabata"><i>Kawabata</i><par n="Rosenburg__np"/></e>
+<e lm="Keaton"><i>Keaton</i><par n="Rosenburg__np"/></e>
+<e lm="Kills"><i>Kills</i><par n="Rosenburg__np"/></e>
+<e lm="Kósa"><i>Kósa</i><par n="Rosenburg__np"/></e>
+<e lm="Košický"><i>Košický</i><par n="Rosenburg__np"/></e>
+<e lm="Kotsojev"><i>Kotsojev</i><par n="Rosenburg__np"/></e>
+<e lm="Kotsur"><i>Kotsur</i><par n="Rosenburg__np"/></e>
+<e lm="Kyenge"><i>Kyenge</i><par n="Rosenburg__np"/></e>
+<e lm="Lakhal"><i>Lakhal</i><par n="Rosenburg__np"/></e>
+<e lm="Lakin"><i>Lakin</i><par n="Rosenburg__np"/></e>
+<e lm="Lama"><i>Lama</i><par n="Rosenburg__np"/></e>
+<e lm="Landis"><i>Landis</i><par n="Rosenburg__np"/></e>
+<e lm="Language"><i>Language</i><par n="Rosenburg__np"/></e>
+<e lm="Lariu"><i>Lariu</i><par n="Rosenburg__np"/></e>
+<e lm="Lawrenz"><i>Lawrenz</i><par n="Rosenburg__np"/></e>
+<e lm="Lazaar"><i>Lazaar</i><par n="Rosenburg__np"/></e>
+<e lm="Leanza"><i>Leanza</i><par n="Rosenburg__np"/></e>
+<e lm="Leclerc"><i>Leclerc</i><par n="Rosenburg__np"/></e>
+<e lm="Leigh"><i>Leigh</i><par n="Rosenburg__np"/></e>
+<e lm="Lentini"><i>Lentini</i><par n="Rosenburg__np"/></e>
+<e lm="Leone"><i>Leone</i><par n="Rosenburg__np"/></e>
+<e lm="Lesothu"><i>Lesothu</i><par n="Rosenburg__np"/></e>
+<e lm="Lima"><i>Lima</i><par n="Rosenburg__np"/></e>
+<e lm="Linu"><i>Linu</i><par n="Rosenburg__np"/></e>
+<e lm="Liupardi"><i>Liupardi</i><par n="Rosenburg__np"/></e>
+<e lm="Livatinu"><i>Livatinu</i><par n="Rosenburg__np"/></e>
+<e lm="Lombardu"><i>Lombardu</i><par n="Rosenburg__np"/></e>
+<e lm="Longoria"><i>Longoria</i><par n="Rosenburg__np"/></e>
+<e lm="Lorefici"><i>Lorefici</i><par n="Rosenburg__np"/></e>
+<e lm="Lorenzo"><i>Lorenzo</i><par n="Rosenburg__np"/></e>
+<e lm="Luca"><i>Luca</i><par n="Rosenburg__np"/></e>
+<e lm="Lucìa"><i>Lucìa</i><par n="Rosenburg__np"/></e>
+<e lm="Lucianu"><i>Lucianu</i><par n="Rosenburg__np"/></e>
+<e lm="Lùcidu"><i>Lùcidu</i><par n="Rosenburg__np"/></e>
+<e lm="Maalouf"><i>Maalouf</i><par n="Rosenburg__np"/></e>
+<e lm="Madè"><i>Madè</i><par n="Rosenburg__np"/></e>
+<e lm="Magdeleine"><i>Magdeleine</i><par n="Rosenburg__np"/></e>
+<e lm="Magrì"><i>Magrì</i><par n="Rosenburg__np"/></e>
+<e lm="Maiorca"><i>Maiorca</i><par n="Rosenburg__np"/></e>
+<e lm="Majurana"><i>Majurana</i><par n="Rosenburg__np"/></e>
+<e lm="Mamilianu"><i>Mamilianu</i><par n="Rosenburg__np"/></e>
+<e lm="Mancinu"><i>Mancinu</i><par n="Rosenburg__np"/></e>
+<e lm="Mandelbrot"><i>Mandelbrot</i><par n="Rosenburg__np"/></e>
+<e lm="Manet"><i>Manet</i><par n="Rosenburg__np"/></e>
+<e lm="Manganu"><i>Manganu</i><par n="Rosenburg__np"/></e>
+<e lm="Mangu"><i>Mangu</i><par n="Rosenburg__np"/></e>
+<e lm="Marchisi"><i>Marchisi</i><par n="Rosenburg__np"/></e>
+<e lm="Marcu"><i>Marcu</i><par n="Rosenburg__np"/></e>
+<e lm="Marcuzzi"><i>Marcuzzi</i><par n="Rosenburg__np"/></e>
+<e lm="Margarita"><i>Margarita</i><par n="Rosenburg__np"/></e>
+<e lm="Marina"><i>Marina</i><par n="Rosenburg__np"/></e>
+<e lm="Martino"><i>Martino</i><par n="Rosenburg__np"/></e>
+<e lm="Martinu"><i>Martinu</i><par n="Rosenburg__np"/></e>
+<e lm="Marzanu"><i>Marzanu</i><par n="Rosenburg__np"/></e>
+<e lm="Massa"><i>Massa</i><par n="Rosenburg__np"/></e>
+<e lm="Massiminu"><i>Massiminu</i><par n="Rosenburg__np"/></e>
+<e lm="Mastroianni"><i>Mastroianni</i><par n="Rosenburg__np"/></e>
+<e lm="Mastronardi"><i>Mastronardi</i><par n="Rosenburg__np"/></e>
+<e lm="Matri"><i>Matri</i><par n="Rosenburg__np"/></e>
+<e lm="Maucere"><i>Maucere</i><par n="Rosenburg__np"/></e>
+<e lm="Maurolicu"><i>Maurolicu</i><par n="Rosenburg__np"/></e>
+<e lm="Mauroy"><i>Mauroy</i><par n="Rosenburg__np"/></e>
+<e lm="Màuru"><i>Màuru</i><par n="Rosenburg__np"/></e>
+<e lm="Mazzola"><i>Mazzola</i><par n="Rosenburg__np"/></e>
+<e lm="McAdams"><i>McAdams</i><par n="Rosenburg__np"/></e>
+<e lm="Mch'edlidze"><i>Mch'edlidze</i><par n="Rosenburg__np"/></e>
+<e lm="Meloni"><i>Meloni</i><par n="Rosenburg__np"/></e>
+<e lm="Mendelev"><i>Mendelev</i><par n="Rosenburg__np"/></e>
+<e lm="Meretenmut"><i>Meretenmut</i><par n="Rosenburg__np"/></e>
+<e lm="Mezzadri"><i>Mezzadri</i><par n="Rosenburg__np"/></e>
+<e lm="Michalsky"><i>Michalsky</i><par n="Rosenburg__np"/></e>
+<e lm="Miconi"><i>Miconi</i><par n="Rosenburg__np"/></e>
+<e lm="Middleton"><i>Middleton</i><par n="Rosenburg__np"/></e>
+<e lm="Miguel"><i>Miguel</i><par n="Rosenburg__np"/></e>
+<e lm="Mikhalkov"><i>Mikhalkov</i><par n="Rosenburg__np"/></e>
+<e lm="Milanović"><i>Milanović</i><par n="Rosenburg__np"/></e>
+<e lm="Milazzo"><i>Milazzo</i><par n="Rosenburg__np"/></e>
+<e lm="Mineu"><i>Mineu</i><par n="Rosenburg__np"/></e>
+<e lm="Minzagnu"><i>Minzagnu</i><par n="Rosenburg__np"/></e>
+<e lm="Mirabella"><i>Mirabella</i><par n="Rosenburg__np"/></e>
+<e lm="Mission"><i>Mission</i><par n="Rosenburg__np"/></e>
+<e lm="Misuraca"><i>Misuraca</i><par n="Rosenburg__np"/></e>
+<e lm="Moines"><i>Moines</i><par n="Rosenburg__np"/></e>
+<e lm="Mòllica"><i>Mòllica</i><par n="Rosenburg__np"/></e>
+<e lm="Mònica"><i>Mònica</i><par n="Rosenburg__np"/></e>
+<e lm="Monti"><i>Monti</i><par n="Rosenburg__np"/></e>
+<e lm="Mostacci"><i>Mostacci</i><par n="Rosenburg__np"/></e>
+<e lm="Mourrut"><i>Mourrut</i><par n="Rosenburg__np"/></e>
+<e lm="Muntarbanu"><i>Muntarbanu</i><par n="Rosenburg__np"/></e>
+<e lm="Muñoz"><i>Muñoz</i><par n="Rosenburg__np"/></e>
+<e lm="Muriel"><i>Muriel</i><par n="Rosenburg__np"/></e>
+<e lm="Musotto"><i>Musotto</i><par n="Rosenburg__np"/></e>
+<e lm="Natoli"><i>Natoli</i><par n="Rosenburg__np"/></e>
+<e lm="Nazario"><i>Nazario</i><par n="Rosenburg__np"/></e>
+<e lm="Nestorovski"><i>Nestorovski</i><par n="Rosenburg__np"/></e>
+<e lm="N'Goyi"><i>N'Goyi</i><par n="Rosenburg__np"/></e>
+<e lm="Nicita"><i>Nicita</i><par n="Rosenburg__np"/></e>
+<e lm="Nicola"><i>Nicola</i><par n="Rosenburg__np"/></e>
+<e lm="Ninfa"><i>Ninfa</i><par n="Rosenburg__np"/></e>
+<e lm="Nunes"><i>Nunes</i><par n="Rosenburg__np"/></e>
+<e lm="Nureyev"><i>Nureyev</i><par n="Rosenburg__np"/></e>
+<e lm="Odifreddi"><i>Odifreddi</i><par n="Rosenburg__np"/></e>
+<e lm="Onoriu"><i>Onoriu</i><par n="Rosenburg__np"/></e>
+<e lm="Ortisi"><i>Ortisi</i><par n="Rosenburg__np"/></e>
+<e lm="Ory"><i>Ory</i><par n="Rosenburg__np"/></e>
+<e lm="Osbourne"><i>Osbourne</i><par n="Rosenburg__np"/></e>
+<e lm="Pahor"><i>Pahor</i><par n="Rosenburg__np"/></e>
+<e lm="Paladinu"><i>Paladinu</i><par n="Rosenburg__np"/></e>
+<e lm="Palizzolo"><i>Palizzolo</i><par n="Rosenburg__np"/></e>
+<e lm="Panarello"><i>Panarello</i><par n="Rosenburg__np"/></e>
+<e lm="Pancrazio"><i>Pancrazio</i><par n="Rosenburg__np"/></e>
+<e lm="Pancraziu"><i>Pancraziu</i><par n="Rosenburg__np"/></e>
+<e lm="Papi"><i>Papi</i><par n="Rosenburg__np"/></e>
+<e lm="Paradiso"><i>Paradiso</i><par n="Rosenburg__np"/></e>
+<e lm="Paris-Saclay"><i>Paris-Saclay</i><par n="Rosenburg__np"/></e>
+<e lm="Pascal"><i>Pascal</i><par n="Rosenburg__np"/></e>
+<e lm="Pasculi"><i>Pasculi</i><par n="Rosenburg__np"/></e>
+<e lm="Pastore"><i>Pastore</i><par n="Rosenburg__np"/></e>
+<e lm="Paul"><i>Paul</i><par n="Rosenburg__np"/></e>
+<e lm="Pàulu"><i>Pàulu</i><par n="Rosenburg__np"/></e>
+<e lm="Perrusi"><i>Perrusi</i><par n="Rosenburg__np"/></e>
+<e lm="Pertini"><i>Pertini</i><par n="Rosenburg__np"/></e>
+<e lm="Pèsaru"><i>Pèsaru</i><par n="Rosenburg__np"/></e>
+<e lm="Petipa"><i>Petipa</i><par n="Rosenburg__np"/></e>
+<e lm="Philipsson"><i>Philipsson</i><par n="Rosenburg__np"/></e>
+<e lm="Piaggiu"><i>Piaggiu</i><par n="Rosenburg__np"/></e>
+<e lm="Piddirinu"><i>Piddirinu</i><par n="Rosenburg__np"/></e>
+<e lm="Pietro"><i>Pietro</i><par n="Rosenburg__np"/></e>
+<e lm="Pietru"><i>Pietru</i><par n="Rosenburg__np"/></e>
+<e lm="Pirata"><i>Pirata</i><par n="Rosenburg__np"/></e>
+<e lm="Pisano"><i>Pisano</i><par n="Rosenburg__np"/></e>
+<e lm="Pisciotta"><i>Pisciotta</i><par n="Rosenburg__np"/></e>
+<e lm="Pitcairn"><i>Pitcairn</i><par n="Rosenburg__np"/></e>
+<e lm="Piu"><i>Piu</i><par n="Rosenburg__np"/></e>
+<e lm="Pizzaottu"><i>Pizzaottu</i><par n="Rosenburg__np"/></e>
+<e lm="Politeama"><i>Politeama</i><par n="Rosenburg__np"/></e>
+<e lm="Pollina"><i>Pollina</i><par n="Rosenburg__np"/></e>
+<e lm="Pòpulari"><i>Pòpulari</i><par n="Rosenburg__np"/></e>
+<e lm="Pot"><i>Pot</i><par n="Rosenburg__np"/></e>
+<e lm="Prešeren"><i>Prešeren</i><par n="Rosenburg__np"/></e>
+<e lm="Preti"><i>Preti</i><par n="Rosenburg__np"/></e>
+<e lm="Procopiu"><i>Procopiu</i><par n="Rosenburg__np"/></e>
+<e lm="Prospiru"><i>Prospiru</i><par n="Rosenburg__np"/></e>
+<e lm="Provenzano"><i>Provenzano</i><par n="Rosenburg__np"/></e>
+<e lm="Provenzanu"><i>Provenzanu</i><par n="Rosenburg__np"/></e>
+<e lm="Provinzanu"><i>Provinzanu</i><par n="Rosenburg__np"/></e>
+<e lm="Prufazziu"><i>Prufazziu</i><par n="Rosenburg__np"/></e>
+<e lm="Pruvinzani"><i>Pruvinzani</i><par n="Rosenburg__np"/></e>
+<e lm="Pteridofiti"><i>Pteridofiti</i><par n="Rosenburg__np"/></e>
+<e lm="Queen"><i>Queen</i><par n="Rosenburg__np"/></e>
+<e lm="Radicali"><i>Radicali</i><par n="Rosenburg__np"/></e>
+<e lm="Ragusa"><i>Ragusa</i><par n="Rosenburg__np"/></e>
+<e lm="Rapisardi"><i>Rapisardi</i><par n="Rosenburg__np"/></e>
+<e lm="Redmond"><i>Redmond</i><par n="Rosenburg__np"/></e>
+<e lm="Reitanu"><i>Reitanu</i><par n="Rosenburg__np"/></e>
+<e lm="Renner"><i>Renner</i><par n="Rosenburg__np"/></e>
+<e lm="Repettu"><i>Repettu</i><par n="Rosenburg__np"/></e>
+<e lm="Restivo"><i>Restivo</i><par n="Rosenburg__np"/></e>
+<e lm="Ricci"><i>Ricci</i><par n="Rosenburg__np"/></e>
+<e lm="Ricciardi"><i>Ricciardi</i><par n="Rosenburg__np"/></e>
+<e lm="Riggina"><i>Riggina</i><par n="Rosenburg__np"/></e>
+<e lm="Riina"><i>Riina</i><par n="Rosenburg__np"/></e>
+<e lm="Rimos"><i>Rimos</i><par n="Rosenburg__np"/></e>
+<e lm="Rinaudo"><i>Rinaudo</i><par n="Rosenburg__np"/></e>
+<e lm="Rinaudu"><i>Rinaudu</i><par n="Rosenburg__np"/></e>
+<e lm="Rispoli"><i>Rispoli</i><par n="Rosenburg__np"/></e>
+<e lm="Rocca"><i>Rocca</i><par n="Rosenburg__np"/></e>
+<e lm="Romeo"><i>Romeo</i><par n="Rosenburg__np"/></e>
+<e lm="Romijn"><i>Romijn</i><par n="Rosenburg__np"/></e>
+<e lm="Rorschach"><i>Rorschach</i><par n="Rosenburg__np"/></e>
+<e lm="Rossi"><i>Rossi</i><par n="Rosenburg__np"/></e>
+<e lm="Rostagnu"><i>Rostagnu</i><par n="Rosenburg__np"/></e>
+<e lm="Rostropovich"><i>Rostropovich</i><par n="Rosenburg__np"/></e>
+<e lm="Rubertu"><i>Rubertu</i><par n="Rosenburg__np"/></e>
+<e lm="Rubik"><i>Rubik</i><par n="Rosenburg__np"/></e>
+<e lm="Rubino"><i>Rubino</i><par n="Rosenburg__np"/></e>
+<e lm="Rutelli"><i>Rutelli</i><par n="Rosenburg__np"/></e>
+<e lm="Sabatella"><i>Sabatella</i><par n="Rosenburg__np"/></e>
+<e lm="Salle"><i>Salle</i><par n="Rosenburg__np"/></e>
+<e lm="Salvati"><i>Salvati</i><par n="Rosenburg__np"/></e>
+<e lm="Sampdoria"><i>Sampdoria</i><par n="Rosenburg__np"/></e>
+<e lm="Sancar"><i>Sancar</i><par n="Rosenburg__np"/></e>
+<e lm="Sant'Antoniu"><i>Sant'Antoniu</i><par n="Rosenburg__np"/></e>
+<e lm="Sapienza"><i>Sapienza</i><par n="Rosenburg__np"/></e>
+<e lm="Sarandon"><i>Sarandon</i><par n="Rosenburg__np"/></e>
+<e lm="Sardo"><i>Sardo</i><par n="Rosenburg__np"/></e>
+<e lm="Sarrionandia"><i>Sarrionandia</i><par n="Rosenburg__np"/></e>
+<e lm="Sartre"><i>Sartre</i><par n="Rosenburg__np"/></e>
+<e lm="Savarese"><i>Savarese</i><par n="Rosenburg__np"/></e>
+<e lm="Savianu"><i>Savianu</i><par n="Rosenburg__np"/></e>
+<e lm="Scarsu"><i>Scarsu</i><par n="Rosenburg__np"/></e>
+<e lm="Scelba"><i>Scelba</i><par n="Rosenburg__np"/></e>
+<e lm="Schekman"><i>Schekman</i><par n="Rosenburg__np"/></e>
+<e lm="Schillaci"><i>Schillaci</i><par n="Rosenburg__np"/></e>
+<e lm="Sciavarrello"><i>Sciavarrello</i><par n="Rosenburg__np"/></e>
+<e lm="Scilla"><i>Scilla</i><par n="Rosenburg__np"/></e>
+<e lm="Scirea"><i>Scirea</i><par n="Rosenburg__np"/></e>
+<e lm="Scuncia"><i>Scuncia</i><par n="Rosenburg__np"/></e>
+<e lm="Segantini"><i>Segantini</i><par n="Rosenburg__np"/></e>
+<e lm="Selberg"><i>Selberg</i><par n="Rosenburg__np"/></e>
+<e lm="Selleriu"><i>Selleriu</i><par n="Rosenburg__np"/></e>
+<e lm="Selvaggi"><i>Selvaggi</i><par n="Rosenburg__np"/></e>
+<e lm="Semineriu"><i>Semineriu</i><par n="Rosenburg__np"/></e>
+<e lm="Servetu"><i>Servetu</i><par n="Rosenburg__np"/></e>
+<e lm="Sèttimu"><i>Sèttimu</i><par n="Rosenburg__np"/></e>
+<e lm="Severu"><i>Severu</i><par n="Rosenburg__np"/></e>
+<e lm="Sgalambro"><i>Sgalambro</i><par n="Rosenburg__np"/></e>
+<e lm="Sharon"><i>Sharon</i><par n="Rosenburg__np"/></e>
+<e lm="Shikibu"><i>Shikibu</i><par n="Rosenburg__np"/></e>
+<e lm="Shue"><i>Shue</i><par n="Rosenburg__np"/></e>
+<e lm="Siculo"><i>Siculo</i><par n="Rosenburg__np"/></e>
+<e lm="Siddons"><i>Siddons</i><par n="Rosenburg__np"/></e>
+<e lm="Sidoti"><i>Sidoti</i><par n="Rosenburg__np"/></e>
+<e lm="Signorini"><i>Signorini</i><par n="Rosenburg__np"/></e>
+<e lm="Siniora"><i>Siniora</i><par n="Rosenburg__np"/></e>
+<e lm="Siverina"><i>Siverina</i><par n="Rosenburg__np"/></e>
+<e lm="Skylitzes"><i>Skylitzes</i><par n="Rosenburg__np"/></e>
+<e lm="Smiriglio"><i>Smiriglio</i><par n="Rosenburg__np"/></e>
+<e lm="Solovyanenko"><i>Solovyanenko</i><par n="Rosenburg__np"/></e>
+<e lm="Sosti"><i>Sosti</i><par n="Rosenburg__np"/></e>
+<e lm="Sozzi"><i>Sozzi</i><par n="Rosenburg__np"/></e>
+<e lm="Spartanu"><i>Spartanu</i><par n="Rosenburg__np"/></e>
+<e lm="Spiciali"><i>Spiciali</i><par n="Rosenburg__np"/></e>
+<e lm="Spinesi"><i>Spinesi</i><par n="Rosenburg__np"/></e>
+<e lm="Stein"><i>Stein</i><par n="Rosenburg__np"/></e>
+<e lm="Stoessel"><i>Stoessel</i><par n="Rosenburg__np"/></e>
+<e lm="Strazzulla"><i>Strazzulla</i><par n="Rosenburg__np"/></e>
+<e lm="Struna"><i>Struna</i><par n="Rosenburg__np"/></e>
+<e lm="Sufìa"><i>Sufìa</i><par n="Rosenburg__np"/></e>
+<e lm="Suprana"><i>Suprana</i><par n="Rosenburg__np"/></e>
+<e lm="Suttana"><i>Suttana</i><par n="Rosenburg__np"/></e>
+<e lm="Swank"><i>Swank</i><par n="Rosenburg__np"/></e>
+<e lm="Tambellini"><i>Tambellini</i><par n="Rosenburg__np"/></e>
+<e lm="Tasso"><i>Tasso</i><par n="Rosenburg__np"/></e>
+<e lm="Teasdale"><i>Teasdale</i><par n="Rosenburg__np"/></e>
+<e lm="Teodoro"><i>Teodoro</i><par n="Rosenburg__np"/></e>
+<e lm="Testa"><i>Testa</i><par n="Rosenburg__np"/></e>
+<e lm="Thiene"><i>Thiene</i><par n="Rosenburg__np"/></e>
+<e lm="Thonig"><i>Thonig</i><par n="Rosenburg__np"/></e>
+<e lm="Thuile"><i>Thuile</i><par n="Rosenburg__np"/></e>
+<e lm="Tolomei"><i>Tolomei</i><par n="Rosenburg__np"/></e>
+<e lm="Tony"><i>Tony</i><par n="Rosenburg__np"/></e>
+<e lm="Torriate"><i>Torriate</i><par n="Rosenburg__np"/></e>
+<e lm="Torriatte"><i>Torriatte</i><par n="Rosenburg__np"/></e>
+<e lm="Trappoli"><i>Trappoli</i><par n="Rosenburg__np"/></e>
+<e lm="Trisceli"><i>Trisceli</i><par n="Rosenburg__np"/></e>
+<e lm="Troisi"><i>Troisi</i><par n="Rosenburg__np"/></e>
+<e lm="Truvatu"><i>Truvatu</i><par n="Rosenburg__np"/></e>
+<e lm="Tsai"><i>Tsai</i><par n="Rosenburg__np"/></e>
+<e lm="Ujkani"><i>Ujkani</i><par n="Rosenburg__np"/></e>
+<e lm="Ulissi"><i>Ulissi</i><par n="Rosenburg__np"/></e>
+<e lm="Unita"><i>Unita</i><par n="Rosenburg__np"/></e>
+<e lm="Vallotton"><i>Vallotton</i><par n="Rosenburg__np"/></e>
+<e lm="Vecchioni"><i>Vecchioni</i><par n="Rosenburg__np"/></e>
+<e lm="Venera"><i>Venera</i><par n="Rosenburg__np"/></e>
+<e lm="Venezzuela"><i>Venezzuela</i><par n="Rosenburg__np"/></e>
+<e lm="Ventura"><i>Ventura</i><par n="Rosenburg__np"/></e>
+<e lm="Venuti"><i>Venuti</i><par n="Rosenburg__np"/></e>
+<e lm="Vergara"><i>Vergara</i><par n="Rosenburg__np"/></e>
+<e lm="Vesàliu"><i>Vesàliu</i><par n="Rosenburg__np"/></e>
+<e lm="Viglianesi"><i>Viglianesi</i><par n="Rosenburg__np"/></e>
+<e lm="Villaggio"><i>Villaggio</i><par n="Rosenburg__np"/></e>
+<e lm="Vincenzu"><i>Vincenzu</i><par n="Rosenburg__np"/></e>
+<e lm="Vinci"><i>Vinci</i><par n="Rosenburg__np"/></e>
+<e lm="Vinirina"><i>Vinirina</i><par n="Rosenburg__np"/></e>
+<e lm="Virdi"><i>Virdi</i><par n="Rosenburg__np"/></e>
+<e lm="Vito"><i>Vito</i><par n="Rosenburg__np"/></e>
+<e lm="Vittorini"><i>Vittorini</i><par n="Rosenburg__np"/></e>
+<e lm="Vitu"><i>Vitu</i><par n="Rosenburg__np"/></e>
+<e lm="Viva"><i>Viva</i><par n="Rosenburg__np"/></e>
+<e lm="Viviano"><i>Viviano</i><par n="Rosenburg__np"/></e>
+<e lm="Vulpi"><i>Vulpi</i><par n="Rosenburg__np"/></e>
+<e lm="Waite"><i>Waite</i><par n="Rosenburg__np"/></e>
+<e lm="Wawrinka"><i>Wawrinka</i><par n="Rosenburg__np"/></e>
+<e lm="Wiig"><i>Wiig</i><par n="Rosenburg__np"/></e>
+<e lm="Works"><i>Works</i><par n="Rosenburg__np"/></e>
+<e lm="Yourcenar"><i>Yourcenar</i><par n="Rosenburg__np"/></e>
+<e lm="Yousafzai"><i>Yousafzai</i><par n="Rosenburg__np"/></e>
+<e lm="Zahavi"><i>Zahavi</i><par n="Rosenburg__np"/></e>
+<e lm="Zanicchi"><i>Zanicchi</i><par n="Rosenburg__np"/></e>
+<e lm="Zichichi"><i>Zichichi</i><par n="Rosenburg__np"/></e>
+<e lm="Zisa"><i>Zisa</i><par n="Rosenburg__np"/></e>
+<e lm="Zupan"><i>Zupan</i><par n="Rosenburg__np"/></e>
+<e lm="Zürich"><i>Zürich</i><par n="Rosenburg__np"/></e>
 
     <!-- SECTION: Adjectives -->
     
@@ -35140,6 +35800,7 @@
     <e lm="pustiriuri"><i>pustiriuri</i><par n="duci__adj"/></e> 
     <e lm="antiriuri"><i>antiriuri</i><par n="duci__adj"/></e> 
     <e lm="ammienti"><i>ammienti</i><par n="duci__adj"/></e> 
+    <e lm="militanti"><i>militanti</i><par n="duci__adj"/></e> 
 
     <e lm="viloci"><i>viloci</i><par n="duci__adj"/></e> 
     <e lm="viloci" r="LR"><p><l>veloci</l><r>viloci</r></p><par n="duci__adj"/></e> 
@@ -35286,6 +35947,7 @@
     <e lm="viulàbbili"><i>viulab</i><par n="stàb/bili__adj"/></e>
 
     <e lm="prutistanti"><i>prutistanti</i><par n="duci__adj"/></e>
+    <e lm="attaccanti"><i>attaccanti</i><par n="duci__adj"/></e>
     <e lm="urtiriuri"><i>urtiriuri</i><par n="duci__adj"/></e>
 
     <e lm="siguenti"><i>siguenti</i><par n="duci__adj"/></e>
@@ -35317,6 +35979,7 @@
     <e lm="granni" r="LR"><p><l>grandi</l><r>granni</r></p><par n="duci__adj"/></e>
     <e lm="granni" r="LR"><p><l>ranni</l><r>granni</r></p><par n="duci__adj"/></e>
     <e lm="granni" r="LR"><p><l>gran</l><r>granni</r></p><par n="duci__adj"/></e>
+    <e lm="granni" r="LR"><p><l>grande</l><r>granni</r></p><par n="duci__adj"/></e>
     <e lm="granni"><i>granni</i><par n="duci__adj"/></e>
     <e lm="filici"><i>filici</i><par n="duci__adj"/></e>
     <e lm="dèbbuli"><i>dèbbuli</i><par n="duci__adj"/></e>
@@ -35379,7 +36042,7 @@
 <e lm="mitrupulitanu" r="LR"><p><l>metropolitan</l><r>mitrupulitan</r></p><par n="bedd/u__adj"/></e>
 <e lm="mitrupulitanu" r="LR"><p><l>metrupolitan</l><r>mitrupulitan</r></p><par n="bedd/u__adj"/></e>
 <e lm="mitrupulitanu" r="LR"><p><l>metrupulitan</l><r>mitrupulitan</r></p><par n="bedd/u__adj"/></e>
-<e lm="nfinita"><i>nfinita</i><par n="bedd/u__adj"/></e>
+<e lm="nfinitu"><i>nfinit</i><par n="bedd/u__adj"/></e>
 <e lm="ntenzu"><i>ntenz</i><par n="bedd/u__adj"/></e>
 <e lm="òttimu"><par n="ò/o"/><i>ttim</i><par n="bedd/u__adj"/></e>
 <e lm="pùnicu"><i>pùnic</i><par n="bedd/u__adj"/></e>
@@ -35395,7 +36058,10 @@
 <e lm="capitalista"><i>capitalista</i><par n="duci__adj"/></e>
 <e lm="circulari"><i>circulari</i><par n="duci__adj"/></e>
 <e lm="comunista"><i>comunista</i><par n="duci__adj"/></e>
+<e lm="cumpatìbbili"><i>cumpatìbbili</i><par n="duci__adj"/></e>
+<e lm="flissìbbili"><i>flissìbbili</i><par n="duci__adj"/></e>
 <e lm="cummistìbbili"><i>cummistìbbili</i><par n="duci__adj"/></e>
+<e lm="cummistìbbili" r="LR"><p><l>cummistìbbuli</l><r>cummistìbbili</r></p><par n="duci__adj"/></e>
 <e lm="currìspunnenti"><i>currìspunnenti</i><par n="duci__adj"/></e>
 <e lm="custituenti"><i>custituenti</i><par n="duci__adj"/></e>
 <e lm="divirsu"><i>divirs</i><par n="duci__adj"/></e>
@@ -35640,7 +36306,6 @@
 
     <e lm="siquenti"><i>siquenti</i><par n="duci__adj"/></e>
     <e lm="criminali"><i>criminal</i><par n="cintral/i__adj"/></e>
-    <e lm="nòbbili"><i>nòbbili</i><par n="duci__adj"/></e>
     <e lm="capaci"><i>capaci</i><par n="duci__adj"/></e>
     <e lm="diffirenti"><i>diffirenti</i><par n="duci__adj"/></e>
 
@@ -35667,6 +36332,8 @@
     <e lm="vicinu"><i>vicin</i><par n="bedd/u__adj"/></e>
     <e lm="amaru"><i>amar</i><par n="bedd/u__adj"/></e>
     <e lm="scuru"><i>scur</i><par n="bedd/u__adj"/></e>
+    <e lm="nòbbili"><i>nòb</i><par n="stàb/bili__adj"/></e>
+    <e lm="nòbbili" r="LR"><p><l>nob</l><r>nòb</r></p><par n="stàb/bili__adj"/></e>
     <e lm="amàbbili"><i>amab</i><par n="stàb/bili__adj"/></e>
     <e lm="amàbbili" r="LR"><p><l>amabbili</l><r>amàbbili</r></p><par n="duci__adj"/></e>
 
@@ -36006,6 +36673,8 @@
     <e lm="maschili"><i>maschili</i><par n="duci__adj"/></e>
     <e lm="morali"><i>moral</i><par n="cintral/i__adj"/></e>
     <e lm="nfiriuri"><i>nfiriuri</i><par n="duci__adj"/></e>
+    <e lm="nfiriuri" r="LR"><p><l>'nfiriuri</l><r>nfiriuri</r></p><par n="duci__adj"/></e>
+    <e lm="nfiriuri" r="LR"><p><l>infiriuri</l><r>nfiriuri</r></p><par n="duci__adj"/></e>
     <e lm="normali"><i>normal</i><par n="cintral/i__adj"/></e>
     <e lm="ntirnaziunali"><i>ntirnaziunal</i><par n="cintral/i__adj"/></e>
     <e lm="nùtili"><i>nùtili</i><par n="duci__adj"/></e>
@@ -38359,6 +39028,7 @@
     <e lm="ancora" r="LR"><p><l>ancùora</l><r>ancora</r></p><par n="oggi__adv"/></e>
     <e lm="arretu"><i>arretu</i><par n="oggi__adv"/></e>
     <e lm="accussì"><i>accussì</i><par n="oggi__adv"/></e>
+    <e lm="aundi"><i>aundi</i><par n="oggi__adv"/></e>
     <e lm="appressu"><i>appressu</i><par n="oggi__adv"/></e>
     <e lm="accussì" r="LR"><p><l>cussì</l><r>accussì</r></p><par n="oggi__adv"/></e>
     <e lm="accussì" r="LR"><p><l>ccussì</l><r>accussì</r></p><par n="oggi__adv"/></e>
@@ -38425,6 +39095,7 @@
     <e lm="d'arretu"><i>d'arretu</i><par n="oggi__adv"/></e>
     <e lm="araciu"><i>araciu</i><par n="oggi__adv"/></e>
     <e lm="fori"><i>fori</i><par n="oggi__adv"/></e>
+    <e lm="nfini"><i>nfini</i><par n="oggi__adv"/></e>
     <e lm="fora"><i>fora</i><par n="oggi__adv"/></e>
     <e lm="già"><i>già</i><par n="oggi__adv"/></e>
     <e lm="già" r="LR"><p><l>ja</l><r>già</r></p><par n="oggi__adv"/></e>
@@ -39063,6 +39734,7 @@
     <e lm="mpurtanti" r="LR"><p><l>mportante</l><r>mpurtanti</r></p><par n="duci__adj"/></e>
     <e lm="mpurtanti" r="LR"><p><l>mputtanti</l><r>mpurtanti</r></p><par n="duci__adj"/></e>
     <e lm="mpurtanti" r="LR"><p><l>importanti</l><r>mpurtanti</r></p><par n="duci__adj"/></e>
+    <e lm="mpurtanti" r="LR"><p><l>importante</l><r>mpurtanti</r></p><par n="duci__adj"/></e>
     <e lm="mpurtantissimu"><i>mpurtantissim</i><par n="bedd/u__adj"/></e>
     <e lm="mpurtantissimu" r="LR"><p><l>importantissim</l><r>mpurtantissim</r></p><par n="bedd/u__adj"/></e>
     <e lm="imposibili"><par n="im/m"/><i>posibili</i><par n="duci__adj"/></e>
@@ -39137,6 +39809,7 @@
     <e lm="infiammabbili"><par n="in/n"/><i>fiammab</i><par n="stàb/bili__adj"/></e>
     <e lm="infidu"><par n="in/n"/><i>fid</i><par n="bedd/u__adj"/></e>
     <e lm="infideli"><par n="in/n"/><i>fideli</i><par n="duci__adj"/></e>
+    <e lm="fideli"><i>fideli</i><par n="duci__adj"/></e>
     <e lm="infinitu"><par n="in/n"/><i>finit</i><par n="bedd/u__adj"/></e>
     <e lm="influenti"><par n="in/n"/><i>fluenti</i><par n="duci__adj"/></e>
     <e lm="infrangibbili"><par n="in/n"/><i>frangibbili</i><par n="duci__adj"/></e>
@@ -39204,6 +39877,7 @@
     <e lm="involuntariu"><par n="in/n"/><i>voluntari</i><par n="bedd/u__adj"/></e>
     <e lm="inùtili"><par n="in/n"/><i>ùtili</i><par n="duci__adj"/></e>
     <e lm="ippocrita"><i>ippocrit</i><par n="fascist/a__adj"/></e>
+    <e lm="fatimita"><i>fatimit</i><par n="fascist/a__adj"/></e>
     <e lm="irascibbili"><i>irascibbili</i><par n="duci__adj"/></e>
     <e lm="ironicu"><i>ironic</i><par n="ètic/u__adj"/></e>
     <e lm="irraggiunevuli"><i>irraggiunevuli</i><par n="duci__adj"/></e>
@@ -39739,7 +40413,11 @@
     <e lm="sinteticu"><i>sintetic</i><par n="ètic/u__adj"/></e>
     <e lm="sintimintali"><i>sintimintal</i><par n="cintral/i__adj"/></e>
     <e lm="sinzazziunali"><i>sinzazziunal</i><par n="cintral/i__adj"/></e>
+    <e lm="ncridìbbili"><i>ncridìbbili</i><par n="duci__adj"/></e>
+    <e lm="accissìbbili"><i>accissìbbili</i><par n="duci__adj"/></e>
+    <e lm="sustinìbbili"><i>sustinìbbili</i><par n="duci__adj"/></e>
     <e lm="sinzibbili"><i>sinzibbili</i><par n="duci__adj"/></e>
+    <e lm="sinzibbili" r="LR"><p><l>sinsibbili</l><r>sinzibbili</r></p><par n="duci__adj"/></e>
     <e lm="sirpianti"><i>sirpianti</i><par n="duci__adj"/></e>
     <e lm="sirratu"><i>sirrat</i><par n="bedd/u__adj"/></e>
     <e lm="sirvizzevuli"><i>sirvizzevuli</i><par n="duci__adj"/></e>
@@ -40095,6 +40773,7 @@
     
     <e lm="a l'improvissu"><i>a<b/>l'improvissu</i><par n="oggi__adv"/></e>
     <e lm="beni"><i>beni</i><par n="oggi__adv"/></e>
+    <e lm="beni" r="LR"><p><l>ben</l><r>beni</r></p><par n="oggi__adv"/></e>
     <e lm="di prupositu"><i>di<b/>prupositu</i><par n="oggi__adv"/></e>
     <e lm="di prupositu" r="LR"><p><l>di<b/>propositu</l><r>di<b/>prupositu</r></p><par n="oggi__adv"/></e>
     <e lm="lestu"><i>lestu</i><par n="oggi__adv"/></e>
@@ -40947,6 +41626,7 @@
     <e lm="aviri"><i></i><par n="/aviri__vblex"/></e>
     <e lm="putiri"><i>p</i><par n="p/utiri__vbmod"/></e>
     <e lm="fari" a="BonnerDict"><i>f</i><par n="f/ari__vblex"/></e>
+    <e lm="fari" r="LR"><p><l>eff</l><r>f</r></p><par n="f/ari__vblex"/></e>
     <e lm="disfari" a="BonnerDict"><i>disf</i><par n="f/ari__vblex"/></e>
 
     <e lm="c'è"><i></i><par n="/c'è__vblex"/></e>
@@ -40971,11 +41651,18 @@
     <e lm="abbàttiri"><i>abbàtt</i><par n="scùrr/iri__vblex"/></e>
     <e lm="abbàttiri"><p><l>abbatt</l><r>abbàtt</r></p><par n="scurr/u__vblex"/></e>
 
+    <e lm="addupirari"><i>addupir</i><par n="parr/ari__vblex"/></e>
+    <e lm="addupirari" r="LR"><p><l>addòpir</l><r>addupir</r></p><par n="parr/ari__vblex"/></e>
+    <e lm="addupirari" r="LR"><p><l>addopir</l><r>addupir</r></p><par n="parr/ari__vblex"/></e>
+    <e lm="addupirari" r="LR"><p><l>dupir</l><r>addupir</r></p><par n="parr/ari__vblex"/></e>
 	
     <e lm="intitulatu"><par n="in/n"/><i>titul</i><par n="parr/ari__vblex"/></e>
     <e lm="abbintari"><i>abbint</i><par n="parr/ari__vblex"/></e>
 	<e lm="abbintari"><p><l>abbent</l><r>abbint</r></p><par n="abbent/u__vblex"/></e>
     <e lm="abbintari"><p><l>abbènt</l><r>abbint</r></p><par n="abbènt/anu__vblex"/></e>
+
+	<e lm="accreditari"><i>accredit</i><par n="parr/ari__vblex"/></e>
+	<e lm="accreditari" r="LR"><p><l>accridit</l><r>accredit</r></p><par n="parr/ari__vblex"/></e>
 
 	<e lm="accusari"><i>accus</i><par n="parr/ari__vblex"/></e>
     <e lm="accusari"><p><l>accùs</l><r>accus</r></p><par n="pàrr/anu__vblex"/></e>
@@ -41021,6 +41708,8 @@
     <e lm="abbagnari" r="LR"><p><l>bagn</l><r>abbagn</r></p><par n="parr/ari__vblex"/></e>
     <e lm="abbagnari" r="LR"><p><l>vagn</l><r>abbagn</r></p><par n="parr/ari__vblex"/></e>
     <e lm="abbagnari"><i>abbagn</i><par n="parr/ari__vblex"/></e>
+    <e lm="cundannari"><i>cundann</i><par n="parr/ari__vblex"/></e>
+    <e lm="cundannari" r="LR"><p><l>condann</l><r>cundann</r></p><par n="parr/ari__vblex"/></e>
     <e lm="abbagnari"><p><l>abbàgn</l><r>abbagn</r></p><par n="pàrr/anu__vblex"/></e>
     <e lm="abbaiari"><i>abba</i><par n="piggh/iari__vblex"/></e>
     <e lm="abbaiari"><p><l>abbà</l><r>abba</r></p><par n="pìggh/ianu__vblex"/></e>
@@ -42310,6 +42999,7 @@
 
     <e lm="mpizzari"><i>mpizz</i><par n="parr/ari__vblex"/></e>
     <e lm="didicari"><i>didic</i><par n="manc/ari__vblex"/></e>
+    <e lm="didicari" r="LR"><p><l>addidic</l><r>didic</r></p><par n="manc/ari__vblex"/></e>
     <e lm="parrari"><i>parr</i><par n="parr/ari__vblex"/></e>
     <e lm="parrari" r="LR"><p><l>parl</l><r>parr</r></p><par n="parr/ari__vblex"/></e>
     <e lm="moralizzari"><i>moralizz</i><par n="parr/ari__vblex"/></e>
@@ -42403,6 +43093,7 @@
 
 
     <e lm="chiamari"><i>chiam</i><par n="parr/ari__vblex"/></e>
+    <e lm="chiamari" r="LR"><p><l>ciam</l><r>chiam</r></p><par n="parr/ari__vblex"/></e>
     <e lm="cumannari"><i>cumann</i><par n="parr/ari__vblex"/></e>
     <e lm="pirfizzionari"><i>pirfizzion</i><par n="parr/ari__vblex"/></e>
     <e lm="ginirari"><i>ginir</i><par n="parr/ari__vblex"/></e>
@@ -43641,6 +44332,8 @@
     <e lm="spugghiari"><i>spuggh</i><par n="piggh/iari__vblex"/></e>
     <e lm="custari"><i>cust</i><par n="parr/ari__vblex"/></e>
     <e lm="penzari"><i>penz</i><par n="parr/ari__vblex"/></e>
+    <e lm="disciplinari"><i>disciplin</i><par n="parr/ari__vblex"/></e>
+    <e lm="disciplinari" r="LR"><p><l>ddisciplin</l><r>disciplin</r></p><par n="parr/ari__vblex"/></e>
     <e lm="scrìviri"><i>scr</i><par n="scr/ìviri__vblex"/></e>
     <e lm="trascrìviri"><i>trascr</i><par n="scr/ìviri__vblex"/></e>
     <e lm="discrìviri"><i>discr</i><par n="scr/ìviri__vblex"/></e>
@@ -48098,6 +48791,7 @@
     <e lm="deridiri"><i>derid</i><par n="batt/iri__vblex"/></e>
     <e lm="desiderari"><i>desider</i><par n="parr/ari__vblex"/></e>
     <e lm="destari"><i>dest</i><par n="parr/ari__vblex"/></e>
+    <e lm="attestari"><i>attest</i><par n="parr/ari__vblex"/></e>
     <e lm="destinari"><i>destin</i><par n="parr/ari__vblex"/></e>
     <e lm="determinari"><i>determin</i><par n="parr/ari__vblex"/></e>
     <e lm="detestari"><i>detest</i><par n="parr/ari__vblex"/></e>
@@ -50523,6 +51217,7 @@
 
     <e r="LR" lm="pp'"><p><l>pp'</l><r>pi<s n="pr"/></r></p></e>
 
+    <e r="LR" lm="com'"><p><l>com'</l><r>comu<s n="cnjadv"/></r></p></e>
     <e r="LR" lm="contr'"><p><l>contr'</l><r>contra<s n="pr"/></r></p></e>
 
     <e r="LR" lm="contr'"><p><l>cuntr'</l><r>contra<s n="pr"/></r></p></e>
