@@ -114,6 +114,8 @@ LIST Ti = "<ti>"i ;
 
 LIST È = "<è>"i ; 
 
+LIST PostNum = "a.C." "d.C." ;
+
 LIST Sg1 = (p1 sg) ;
 LIST Sg2 = (p2 sg) ;
 LIST Sg3 = (p3 sg) ;
@@ -219,6 +221,8 @@ SET FiniteForm = Inf OR PrfPrc OR Gerund;
 
 
 SECTION
+
+REMOVE PostNum (NOT -1 Num) ;
 
 REMOVE CC IF (0 È) ;
 
