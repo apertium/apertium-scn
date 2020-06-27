@@ -801,9 +801,9 @@
       	<e><p><l>sioni</l><r>sioni<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
       	<e r="LR"><p><l>sione</l><r>sioni<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
       	<e r="LR"><p><l>siuni</l><r>sioni<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
-      	<e r="LR"><p><l>ioni</l><r>zioni<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
-      	<e r="LR"><p><l>ione</l><r>zioni<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
-      	<e r="LR"><p><l>iuni</l><r>zioni<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
+      	<e r="LR"><p><l>sioni</l><r>sioni<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
+      	<e r="LR"><p><l>sione</l><r>sioni<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
+      	<e r="LR"><p><l>siuni</l><r>sioni<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
     </pardef>
     
     <pardef n="barun/i__n">
@@ -9302,6 +9302,7 @@
     <e lm="èstiru"><i>èstir</i><par n="ann/u__n"/></e>
     <e lm="stòmacu"><i>stòmac</i><par n="ann/u__n"/></e>
     <e lm="apòstulu"><i>apòstul</i><par n="ann/u__n"/></e>
+    <e lm="apòstulu" r="LR"><p><l>apostul</l><r>apòstul</r></p><par n="ann/u__n"/></e>
     <e lm="califfu"><i>califf</i><par n="ann/u__n"/></e>
     <e lm="califfu" r="LR"><p><l>califff</l><r>califf</r></p><par n="ann/u__n"/></e>
     <e lm="puteru"><i>puter</i><par n="ann/u__n"/></e>
@@ -18135,7 +18136,7 @@
     <e lm="descrizioni"><i>descri</i><par n="pupulaz/zioni__n"/></e>
     <e lm="aspirazzioni"><i>aspiraz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="cunstatazzioni"><i>cunstataz</i><par n="pupulaz/zioni__n"/></e>
-    <e lm="«alimintazzioni"><i>«alimintaz</i><par n="pupulaz/zioni__n"/></e>
+    <e lm="alimintazzioni"><i>alimintaz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="scolarizzazzioni"><i>scolarizzaz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="riedificazzioni"><par n="ri/re"/><i>edificaz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="trazzioni"><i>traz</i><par n="pupulaz/zioni__n"/></e>
@@ -18277,7 +18278,7 @@
     <e lm="rilivazzioni"><par n="ri/re"/><i>livaz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="cummemurazioni"><i>cummemura</i><par n="pupulaz/zioni__n"/></e>
     <e lm="arumatizzazzioni"><i>arumatizzaz</i><par n="pupulaz/zioni__n"/></e>
-    <e lm="«dichiarazzioni"><i>«dichiaraz</i><par n="pupulaz/zioni__n"/></e>
+    <e lm="dichiarazzioni"><i>dichiaraz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="mbarcazzioni"><i>mbarcaz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="rilevazzioni"><par n="ri/re"/><i>levaz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="divozioni"><i>divo</i><par n="pupulaz/zioni__n"/></e>
@@ -18945,7 +18946,6 @@
     <e lm="eruzioni"><i>eru</i><par n="pupulaz/zioni__n"/></e>
     <e lm="virtualizzazzioni"><i>virtualizzaz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="radiazioni"><i>radia</i><par n="pupulaz/zioni__n"/></e>
-    <e lm="dimenzioni"><i>dimen</i><par n="pupulaz/zioni__n"/></e>
     <e lm="suspinzioni"><i>suspin</i><par n="pupulaz/zioni__n"/></e>
     <e lm="convenzzioni"><i>convenz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="chianificazzioni"><i>chianificaz</i><par n="pupulaz/zioni__n"/></e>
@@ -19654,7 +19654,6 @@
     <e lm="menzzioni"><i>menz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="documentazzioni"><i>documentaz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="carattirizzazzioni"><i>carattirizzaz</i><par n="pupulaz/zioni__n"/></e>
-    <e lm="diminzzioni"><i>diminz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="cumpensazzioni"><i>cumpensaz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="allitterazzioni"><i>allitteraz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="epossìdazzioni"><i>epossìdaz</i><par n="pupulaz/zioni__n"/></e>
@@ -19698,7 +19697,12 @@
     <e lm="specificazzioni"><i>specificaz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="manzzioni"><i>manz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="prisentazzioni"><i>prisentaz</i><par n="pupulaz/zioni__n"/></e>
-    <e lm="dimenzzioni"><i>dimenz</i><par n="pupulaz/zioni__n"/></e>
+
+    <e lm="diminzioni"><i>dimin</i><par n="pupulaz/zioni__n"/></e>
+    <e lm="diminzioni" r="LR"><p><l>dimen</l><r>dimin</r></p><par n="pupulaz/zioni__n"/></e>
+    <e lm="diminsioni"><i>dimin</i><par n="vi/sioni__n"/></e>
+    <e lm="diminsioni" r="LR"><p><l>dimen</l><r>dimin</r></p><par n="vi/sioni__n"/></e>
+
     <e lm="tribbolazzioni"><i>tribbolaz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="ivuluzzioni"><i>ivuluz</i><par n="pupulaz/zioni__n"/></e>
 
@@ -20231,7 +20235,7 @@
     <e lm="pirturbamentu"><i>pirturbament</i><par n="ann/u__n"/></e>
     <e lm="ammustamentu"><i>ammustament</i><par n="ann/u__n"/></e>
     <e lm="raggiungimentu"><i>raggiungiment</i><par n="ann/u__n"/></e>
-    <e lm="«scurrimentu"><i>«scurriment</i><par n="ann/u__n"/></e>
+    <e lm="scurrimentu"><i>scurriment</i><par n="ann/u__n"/></e>
     <e lm="smarrimentu"><i>smarriment</i><par n="ann/u__n"/></e>
     <e lm="cundizziunamentu"><i>cundizziunament</i><par n="ann/u__n"/></e>
     <e lm="ngranamentu"><i>ngranament</i><par n="ann/u__n"/></e>
@@ -20557,7 +20561,7 @@
     <e lm="mazzamaureddu" r="LR"><p><l>mazzamaredd</l><r>mazzamauredd</r></p><par n="ann/u__n"/></e>
     <e lm="mazzamaureddu" r="LR"><p><l>mazzamauriedd</l><r>mazzamauredd</r></p><par n="ann/u__n"/></e>
 
-        <e lm="primu"><i>prim</i><par n="bedd/u__adj"/></e>
+    <!--<e lm="primu"><i>prim</i><par n="bedd/u__adj"/></e>-->
 
     <e lm="acieddu" r="LR"><p><l>acedd</l><r>aciedd</r></p><par n="ann/u__n"/></e>
     <e lm="acieddu" r="LR"><p><l>anciedd</l><r>aciedd</r></p><par n="ann/u__n"/></e>
@@ -20769,7 +20773,6 @@
     <e lm="accurzatura"><i>accurzatur</i><par n="cas/a__n"/></e>
     <e lm="aura"><i>aur</i><par n="cas/a__n"/></e>
     <e lm="fijura"><i>fijur</i><par n="cas/a__n"/></e>
-    <e lm="mpiraturi"><i>mpiratur</i><par n="visitatur/i__n"/></e>
     <e lm="rivurtura"><par n="ri/re"/><i>vurtur</i><par n="cas/a__n"/></e>
     <e lm="gallura"><i>gallur</i><par n="cas/a__n"/></e>
     <e lm="difinsura"><par n="di/de"/><i>finsur</i><par n="cas/a__n"/></e>
@@ -21572,7 +21575,6 @@
     <e lm="dòllaru" r="LR"><p><l>dollar</l><r>dòllar</r></p><par n="ann/u__n"/></e>
     <e lm="ansia" r="LR"><p><l>anz</l><r>ans</r></p><par n="oricch/ia__n"/></e>
     <e lm="fijura" r="LR"><p><l>figur</l><r>fijur</r></p><par n="cas/a__n"/></e>
-    <e lm="diminzioni" r="LR"><p><l>dimin</l><r>dimin</r></p><par n="pupulaz/zioni__n"/></e>
     <e lm="giugrafìa" r="LR"><p><l>giograf</l><r>giugraf</r></p><par n="filusuf/ìa__n"/></e>
     <e lm="giugrafìa" r="LR"><p><l>aggiograf</l><r>giugraf</r></p><par n="filusuf/ìa__n"/></e>
     <e lm="livellu" r="LR"><p><l>nivedd</l><r>livell</r></p><par n="ann/u__n"/></e>
@@ -22126,12 +22128,10 @@
     <e lm="addizzioni" r="LR"><p><l>addi</l><r>addiz</r></p><par n="pupulaz/zioni__n"/></e>
     <e lm="sustituzzioni" r="LR"><p><l>sustitu</l><r>sustituz</r></p><par n="pupulaz/zioni__n"/></e>
     <e lm="situzzioni" r="LR"><p><l>situ</l><r>situz</r></p><par n="pupulaz/zioni__n"/></e>
-    <e lm="diminzioni" r="LR"><p><l>diminu</l><r>dimin</r></p><par n="pupulaz/zioni__n"/></e>
     <e lm="dirizzioni" r="LR"><p><l>diri</l><r>diriz</r></p><par n="pupulaz/zioni__n"/></e>
     <e lm="orazioni" r="LR"><p><l>fra</l><r>ora</r></p><par n="pupulaz/zioni__n"/></e>
     <e lm="applicazzioni" r="LR"><p><l>applica</l><r>applicaz</r></p><par n="pupulaz/zioni__n"/></e>
     <e lm="cullizioni" r="LR"><p><l>colli</l><r>culli</r></p><par n="pupulaz/zioni__n"/></e>
-    <e lm="diminzzioni" r="LR"><p><l>diminu</l><r>diminz</r></p><par n="pupulaz/zioni__n"/></e>
     <e lm="frazzioni" r="LR"><p><l>fra</l><r>fraz</r></p><par n="pupulaz/zioni__n"/></e>
     <e lm="sizzioni" r="LR"><p><l>si</l><r>siz</r></p><par n="pupulaz/zioni__n"/></e>
     <e lm="registrazzioni" r="LR"><p><l>registra</l><r>registraz</r></p><par n="pupulaz/zioni__n"/></e>
@@ -23426,7 +23426,6 @@
     <e lm="dilizzia"><i>dilizz</i><par n="oricch/ia__n"/></e>
     <e lm="dilluviu"><i>dilluv</i><par n="sacchegg/iu__n"/></e>
     <e lm="dimanna"><i>dimann</i><par n="cas/a__n"/></e>
-    <e lm="dimensioni"><i>dimen</i><par n="vi/sioni__n"/></e>
     <e lm="diminuzioni"><i>diminu</i><par n="pupulaz/zioni__n"/></e>
     <e lm="dimura"><i>dimur</i><par n="pianet/a__n"/></e>
     <e lm="dimustrazioni"><i>dimustra</i><par n="pupulaz/zioni__n"/></e>
@@ -23970,7 +23969,11 @@
     <e lm="impegnu"><par n="im/m"/><i>pegn</i><par n="man/u__n"/></e>
     <e lm="imperu"><par n="im/m"/><i>per</i><par n="ann/u__n"/></e>
     <e lm="imperatrici"><par n="im/m"/><i>peratrici</i><par n="matri__n"/></e>
+    <e lm="imperaturi"><p><l>mperatrici</l><r>imperatrici</r></p><par n="matri__n"/></e>
+    <e lm="imperaturi"><p><l>mpiratrici</l><r>imperatrici</r></p><par n="matri__n"/></e>
     <e lm="imperaturi"><par n="im/m"/><i>peraturi</i><par n="patri__n"/></e>
+    <e lm="imperaturi"><p><l>mperaturi</l><r>imperaturi</r></p><par n="patri__n"/></e>
+    <e lm="imperaturi"><p><l>mpiraturi</l><r>imperaturi</r></p><par n="patri__n"/></e>
     <e lm="imperfezioni"><par n="im/m"/><i>perfe</i><par n="pupulaz/zioni__n"/></e>
     <e lm="impertinenza"><par n="im/m"/><i>pertinenz</i><par n="cas/a__n"/></e>
     <e lm="impiantu"><par n="im/m"/><i>piant</i><par n="ann/u__n"/></e>
@@ -25637,6 +25640,7 @@
     <e lm="subburgu"><i>subburg</i><par n="ann/u__n"/></e>
     <e lm="succannu"><i>succann</i><par n="ann/u__n"/></e>
     <e lm="successioni"><i>succes</i><par n="vi/sioni__n"/></e>
+    <e lm="successioni" r="LR"><p><l>succe</l><r>succes</r></p><par n="vi/sioni__n"/></e>
     <e lm="succursu"><i>succurs</i><par n="ann/u__n"/></e>
     <e lm="sucialìsimu"><i>sucialìsim</i><par n="ann/u__n"/></e>
     <e lm="sudditu"><i>suddit</i><par n="ann/u__n"/></e>
@@ -25851,7 +25855,6 @@
     <e lm="tunnina"><i>tunnin</i><par n="cas/a__n"/></e>
     <e lm="tunnàra"><i>tunnàr</i><par n="cas/a__n"/></e>
     <e lm="turacciulu"><i>turacciul</i><par n="ann/u__n"/></e>
-    <e lm="turchia"><i>turch</i><par n="oricch/ia__n"/></e>
     <e lm="turmentu"><i>turment</i><par n="ann/u__n"/></e>
     <e lm="turnata"><i>turnat</i><par n="pianet/a__n"/></e>
     <e lm="tuta"><i>tut</i><par n="cas/a__n"/></e>
@@ -38168,10 +38171,10 @@
 
     <e lm="multinazziunali"><i>multinazziunal</i><par n="cintral/i__adj"/></e>
     <e lm="munnìali"><i>munnìal</i><par n="cintral/i__adj"/></e>
-    <e lm="munnìali" r="LR"><p><l>mondiali</l><r>munnìali</r></p><par n="duci__adj"/></e>
-    <e lm="munnìali" r="LR"><p><l>mundiali</l><r>munnìali</r></p><par n="duci__adj"/></e>
-    <e lm="munnìali" r="LR"><p><l>munniali</l><r>munnìali</r></p><par n="duci__adj"/></e>
-    <e lm="munnìali" r="LR"><p><l>monniali</l><r>munnìali</r></p><par n="duci__adj"/></e>
+    <e lm="munnìali" r="LR"><p><l>mondial</l><r>munnìal</r></p><par n="cintral/i__adj"/></e>
+    <e lm="munnìali" r="LR"><p><l>mundial</l><r>munnìal</r></p><par n="cintral/i__adj"/></e>
+    <e lm="munnìali" r="LR"><p><l>munnial</l><r>munnìal</r></p><par n="cintral/i__adj"/></e>
+    <e lm="munnìali" r="LR"><p><l>monnial</l><r>munnìal</r></p><par n="cintral/i__adj"/></e>
 
     <e lm="murriali"><i>murrial</i><par n="cintral/i__adj"/></e>
     <e lm="murriali" r="LR"><p><l>munriali</l><r>murriali</r></p><par n="duci__adj"/></e>
@@ -39190,9 +39193,11 @@
     <e lm="a.C."><i>a.C.</i><par n="a.C.__adv"/></e>
     <e lm="a.C." r="LR"><p><l>a.c.</l><r>a.C.</r></p><par n="a.C.__adv"/></e>
     <e lm="a.C." r="LR"><p><l>aC.</l><r>a.C.</r></p><par n="a.C.__adv"/></e>
+    <e lm="a.C." r="LR"><p><l>aC</l><r>a.C.</r></p><par n="a.C.__adv"/></e>
     <e lm="d.C."><i>d.C.</i><par n="a.C.__adv"/></e>
     <e lm="d.C." r="LR"><p><l>dC.</l><r>d.C.</r></p><par n="a.C.__adv"/></e>
     <e lm="d.C." r="LR"><p><l>d.c.</l><r>d.C.</r></p><par n="a.C.__adv"/></e>
+    <e lm="d.C." r="LR"><p><l>dC</l><r>d.C.</r></p><par n="a.C.__adv"/></e>
 
     <e lm="ecc."><i>ecc.</i><par n="a.C.__adv"/></e>
     <e lm="ecc." r="LR"><p><l>etc.</l><r>ecc.</r></p><par n="a.C.__adv"/></e>
@@ -39497,7 +39502,7 @@
     <e lm="cuvatizzu"><i>cuvatizz</i><par n="bedd/u__adj"/></e>
     <e lm="càvuru"><i>càvur</i><par n="bedd/u__adj"/></e>
     <e lm="côtu"><i>côt</i><par n="bedd/u__adj"/></e>
-    <e lm="du"><i>d</i><par n="bedd/u__adj"/></e>
+    <!--<e lm="du"><i>d</i><par n="bedd/u__adj"/></e>-->
     <e lm="danesi"><i>danesi</i><par n="duci__adj"/></e>
     <e lm="debbitu"><i>debbit</i><par n="bedd/u__adj"/></e>
     <e lm="debbuli"><i>debbuli</i><par n="duci__adj"/></e>
@@ -40048,7 +40053,6 @@
     <e lm="mpurtunu"><i>mpurtun</i><par n="bedd/u__adj"/></e>
     <e lm="multu"><i>mult</i><par n="bedd/u__adj"/></e>
     <e lm="mundiali"><i>mundial</i><par n="cintral/i__adj"/></e>
-    <e lm="munniali"><i>munnial</i><par n="cintral/i__adj"/></e>
     <e lm="murienti"><i>murienti</i><par n="duci__adj"/></e>
     <e lm="muscareddu"><i>muscaredd</i><par n="bedd/u__adj"/></e>
     <e lm="muscullari"><i>muscullari</i><par n="duci__adj"/></e>
@@ -40157,7 +40161,6 @@
     <e lm="oscuru"><par n="o/u"/><i>scur</i><par n="bedd/u__adj"/></e>
     <e lm="ostili"><par n="o/u"/><i>stili</i><par n="duci__adj"/></e>
     <e lm="ostinatu"><par n="o/u"/><i>stinat</i><par n="bedd/u__adj"/></e>
-    <e lm="ottavu"><par n="o/u"/><i>ttav</i><par n="bedd/u__adj"/></e>
     <e lm="ottenibbili"><par n="o/u"/><i>ttenibbili</i><par n="duci__adj"/></e>
     <e lm="ottimu"><par n="o/u"/><i>ttim</i><par n="bedd/u__adj"/></e>
     <e lm="ottimisticu"><par n="o/u"/><i>ttimistic</i><par n="ètic/u__adj"/></e>
