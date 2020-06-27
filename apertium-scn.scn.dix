@@ -942,6 +942,7 @@
       	<e r="LR"><p><l>di</l><r>di<s n="pr"/></r></p></e>
       	<e r="RL"><p><l><a/>di</l><r>di<s n="pr"/></r></p></e>
       	<e r="LR"><p><l>dô</l><r>di<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
+      	<e r="LR"><p><l>do'</l><r>di<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
       	<e r="LR"><p><l>dû</l><r>di<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
       	<e r="LR"><p><l>dâ</l><r>di<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="f"/><s n="sg"/></r></p></e>
       	<e r="LR"><p><l>dî</l><r>di<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="mf"/><s n="pl"/></r></p></e>
@@ -1498,6 +1499,9 @@
         <e><p><l>fussi</l><r>èssiri<s n="vbser"/><s n="pis"/><s n="p1"/><s n="sg"/></r></p></e>
     	<e><p><l>fussi</l><r>èssiri<s n="vbser"/><s n="pis"/><s n="p2"/><s n="sg"/></r></p></e>
     	<e><p><l>fussi</l><r>èssiri<s n="vbser"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e r="LR"><p><l>fossi</l><r>èssiri<s n="vbser"/><s n="pis"/><s n="p1"/><s n="sg"/></r></p></e>
+    	<e r="LR"><p><l>fossi</l><r>èssiri<s n="vbser"/><s n="pis"/><s n="p2"/><s n="sg"/></r></p></e>
+    	<e r="LR"><p><l>fossi</l><r>èssiri<s n="vbser"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
     	<e><p><l>fùssimu</l><r>èssiri<s n="vbser"/><s n="pis"/><s n="p1"/><s n="pl"/></r></p></e>
     	<e><p><l>fùssivu</l><r>èssiri<s n="vbser"/><s n="pis"/><s n="p2"/><s n="pl"/></r></p></e>
         <e><p><l>fùssinu</l><r>èssiri<s n="vbser"/><s n="pis"/><s n="p3"/><s n="pl"/></r></p></e>
@@ -36664,6 +36668,10 @@
     <e lm="foddi"><i>foddi</i><par n="duci__adj"/></e>
     <e lm="gintili"><i>gintili</i><par n="duci__adj"/></e>
     <e lm="giùvini"><i>giùvini</i><par n="duci__adj"/></e>
+    <e lm="giùvini" r="LR"><p><l>giuvini</l><r>giùvini</r></p><par n="duci__adj"/></e>
+    <e lm="giùvini" r="LR"><p><l>giovani</l><r>giùvini</r></p><par n="duci__adj"/></e>
+    <e lm="giùvini" r="LR"><p><l>giovane</l><r>giùvini</r></p><par n="duci__adj"/></e>
+    <e lm="giùvini" r="LR"><p><l>giovini</l><r>giùvini</r></p><par n="duci__adj"/></e>
     <e lm="grechi"><i>grechi</i><par n="duci__adj"/></e>
     <e lm="irrigulari"><i>irrigulari</i><par n="duci__adj"/></e>
     <e lm="longhi"><i>longhi</i><par n="duci__adj"/></e>
@@ -38211,6 +38219,7 @@
     <e lm="alternativu" r="LR"><p><l>lternativ</l><r>alternativ</r></p><par n="bedd/u__adj"/></e>
     <e lm="amministrativu"><i>amministrativ</i><par n="bedd/u__adj"/></e>
     <e lm="amministrativu" r="LR"><p><l>amminstrativ</l><r>amministrativ</r></p><par n="bedd/u__adj"/></e>
+    <e lm="amministrativu" r="LR"><p><l>mministrativ</l><r>amministrativ</r></p><par n="bedd/u__adj"/></e>
     <e lm="appillativu"><i>appillativ</i><par n="bedd/u__adj"/></e>
     <e lm="appillativu" r="LR"><p><l>appellativ</l><r>appillativ</r></p><par n="bedd/u__adj"/></e>
     <e lm="apprussimativu"><i>apprussimativ</i><par n="bedd/u__adj"/></e>
@@ -38555,7 +38564,6 @@
     <e lm="dispunìbbili" r="LR"><p><l>dispunìbili</l><r>dispunìbbili</r></p><par n="duci__adj"/></e>
     <e lm="siguru" r="LR"><p><l>sicur</l><r>sigur</r></p><par n="bedd/u__adj"/></e>
     <e lm="giogràficu" r="LR"><p><l>geogràfic</l><r>giogràfic</r></p><par n="ètic/u__adj"/></e>
-    <e lm="giùvini" r="LR"><p><l>giuvini</l><r>giùvini</r></p><par n="duci__adj"/></e>
     <e lm="pirmanenti" r="LR"><p><l>permanenti</l><r>pirmanenti</r></p><par n="duci__adj"/></e>
     <e lm="crìticu" r="LR"><p><l>critic</l><r>crìtic</r></p><par n="ètic/u__adj"/></e>
     <e lm="cunsigghiatu" r="LR"><p><l>cunzigghiat</l><r>cunsigghiat</r></p><par n="bedd/u__adj"/></e>
@@ -40671,6 +40679,7 @@
     <e lm="galatticu"><i>galattic</i><par n="ètic/u__adj"/></e>
     <e lm="ginèticu"><i>ginètic</i><par n="ètic/u__adj"/></e>
     <e lm="giopulìticu"><i>giopulìtic</i><par n="ètic/u__adj"/></e>
+    <e lm="giopulìticu" r="LR"><p><l>gio-pulìtic</l><r>giopulìtic</r></p><par n="ètic/u__adj"/></e>
     <e lm="nauticu"><i>nautic</i><par n="ètic/u__adj"/></e>
     <e lm="numericu"><i>numeric</i><par n="ètic/u__adj"/></e>
     <e lm="nùtricu"><i>nùtric</i><par n="ètic/u__adj"/></e>
