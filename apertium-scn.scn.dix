@@ -8778,8 +8778,11 @@
     <e lm="zoè" r="LR"><p><l>ossìa</l><r>zoè</r></p><par n="nè__cnjcoo"/></e>
 
     <e lm="siddu"><i>siddu</i><par n="picchì__cnjadv"/></e>
-    <e lm="suddu" r="LR"><p><l>suddu</l><r>siddu</r></p><par n="picchì__cnjadv"/></e>
-    <e lm="suddu" r="LR"><p><l>s'iddu</l><r>siddu</r></p><par n="picchì__cnjadv"/></e>
+    <e lm="siddu" r="LR"><p><l>suddu</l><r>siddu</r></p><par n="picchì__cnjadv"/></e>
+    <e lm="siddu" r="LR"><p><l>s'iddu</l><r>siddu</r></p><par n="picchì__cnjadv"/></e>
+    <e lm="siddu" r="LR"><p><l>si</l><r>siddu</r></p><par n="picchì__cnjadv"/></e>
+    <e lm="siddu" r="LR"><p><l>su</l><r>siddu</r></p><par n="picchì__cnjadv"/></e>
+
     <e lm="pircchì"><i>pircchì</i><par n="picchì__cnjadv"/></e>
     <e lm="pircchì" r="LR"><p><l>picchì</l><r>pircchì</r></p><par n="picchì__cnjadv"/></e>
     <e lm="pircchì" r="LR"><p><l>pirchì</l><r>pircchì</r></p><par n="picchì__cnjadv"/></e>
@@ -24479,6 +24482,11 @@
     <e lm="nigru"><i>nigr</i><par n="ann/u__n"/></e>
     <e lm="ninfa"><i>ninf</i><par n="cas/a__n"/></e>
     <e lm="nipoti"><i>nipoti</i><par n="matri__n"/></e>
+    <e lm="nuvelli"><i>nuvell</i><par n="cas/a__n"/></e>
+    <e lm="nuvelli" r="LR"><p><l>novell</l><r>nuvell</r></p><par n="cas/a__n"/></e>
+    <e lm="telinuvelli"><i>telinuvell</i><par n="cas/a__n"/></e>
+    <e lm="telinuvelli" r="LR"><p><l>telinovell</l><r>telinuvell</r></p><par n="cas/a__n"/></e>
+    <e lm="telinuvelli" r="LR"><p><l>telenovell</l><r>telinuvell</r></p><par n="cas/a__n"/></e>
     <e lm="nnamurata"><i>nnamurat</i><par n="cas/a__n"/></e>
     <e lm="nniminagghia"><i>nniminagghi</i><par n="pianet/a__n"/></e>
     <e lm="nnivinagghia"><i>nnivinagghi</i><par n="pianet/a__n"/></e>
@@ -39033,6 +39041,7 @@
     <e lm="non" r="LR"><p><l>non</l><r>nun</r></p><par n="oggi__adv"/></e>
     <e lm="non" r="LR"><p><l>'un</l><r>nun</r></p><par n="oggi__adv"/></e>
     <e lm="ancora"><i>ancora</i><par n="oggi__adv"/></e>
+    <e lm="talvota"><i>talvota</i><par n="oggi__adv"/></e>
     <e lm="ancora" r="LR"><p><l>ancùora</l><r>ancora</r></p><par n="oggi__adv"/></e>
     <e lm="arretu"><i>arretu</i><par n="oggi__adv"/></e>
     <e lm="accussì"><i>accussì</i><par n="oggi__adv"/></e>

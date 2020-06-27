@@ -17,11 +17,12 @@ LIST Adv = adv ;
 LIST CC = cnjcoo ;
 LIST Rel = rel ; 
 LIST CS = cnjsub ;
+LIST CA = cnjadv ;
 LIST Prop = np ;
 LIST V = (vblex) ;
 LIST Vbmod = (vbmod) ;
 LIST Vbhaver = (vbhaver) ;
-LIST Vbser = (vbser);
+LIST Èssiri = (vbser);
 LIST Num = num ;
 LIST Pr = pr ; 
 
@@ -61,6 +62,7 @@ LIST Prep/nta = "<nta>"i "<nti>"i ;
 LIST Prep/tra = "<tra>"i ;
 
 LIST Aviri = "aviri" ;
+LIST Si = "<si>"i ;
 
 LIST Ind = ind ; 
 LIST Def = def ;
@@ -208,7 +210,7 @@ SET Numero = NotSg | NotPl ;
 
 SET Fin = Ifi | Pri ; 
 
-SET Verb = V OR Vbmod OR Vbhaver OR Vbser ;
+SET Verb = V OR Vbmod OR Vbhaver OR Èssiri ;
 
 SET NonFiniteForm = Ifi OR Pis OR Pri OR Fti OR Fts OR Prs OR Imper OR Pii;
 
@@ -233,7 +235,7 @@ SELECT V IF (0C Pariri) (0 V OR N) (1 CS/ca OR Pr LINK 0/* Det) ;
 
 SELECT DetDef IF (0 DetDef OR Verb + $$Pri) (1 N + $$Pl) ;
 
-SELECT CC IF (0 CC OR Vbser OR Pr LINK 0/* Det) ;
+SELECT CC IF (0 CC OR Èssiri OR Pr LINK 0/* Det) ;
 
 SELECT A + $$Genero IF (-1C N + $$Genero) ;
 
@@ -262,7 +264,7 @@ SELECT Pr IF (0 Pr OR Pr LINK 0/* Det) (1 Det) ;
     ## Nta lu Òrdini prufissiunali
  
 
-SELECT Det IF (-1C Vbser) (0 Det) (0 Pr LINK 0/* Det) ;
+SELECT Det IF (-1C Èssiri) (0 Det) (0 Pr LINK 0/* Det) ;
     ## UBS è na banca
  
 
@@ -336,7 +338,7 @@ SELECT V IF (0 Vbhaver or V) (1C N) ;
 
 SELECT Pr IF (0 Pr or Det + $$Ind) (1 Prop) ;
 
-SELECT Pron IF (0 Prn/si or Vbser + $$P2) (1 V + $$NonFiniteForm) ;
+SELECT Pron IF (0 Prn/si or Èssiri + $$P2) (1 V + $$NonFiniteForm) ;
 
 SELECT Msc IF (0 Adj/pl + $$Msc OR Adj/pl + $$Fem) (1 N/pl + $$Msc) ;
 
@@ -443,9 +445,11 @@ SELECT A IF (-1 Det) (0C A OR Adv) (1C N) ;
 SELECT Pr IF (0 Circa) (-1 Di) (1 Num) ;
 
 
-SELECT Det IF (-1C Vbser) (0C Det OR Pron) (1C N) ;
+SELECT Det IF (-1C Èssiri) (0C Det OR Pron) (1C N) ;
     ## E' lu capulòcu dâ pruvincia omònima . 
 
+SELECT CA IF (-1 Adv) (0C Si) (1 Det OR Èssiri) ;
+    ##  Lu tiatru fu inaugurato u 7 giugnu 1874, puru si fosse incompleto.
 
 AFTER-SECTIONS
 
