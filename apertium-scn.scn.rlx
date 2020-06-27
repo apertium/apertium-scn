@@ -103,6 +103,7 @@ LIST Putiri = "putiri" ;
 LIST Assai = "<assai>"i ; 
 
 LIST Voi = "<voi>"i ;
+LIST Du = "<du>"i ;
 
 
 LIST Chi = "<chi>" ;
@@ -460,3 +461,5 @@ REMOVE SUB:1 Det IF (0 Prep/di OR Prep/a OR Prep/pi OR Prep/cu OR Prep/nta) ;
 
 
 REMOVE SUB:1 Det (NOT 0 Imper) ;
+
+REMOVE Du + A ;

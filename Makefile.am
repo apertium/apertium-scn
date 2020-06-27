@@ -46,7 +46,7 @@ $(LANG1).rlx.bin: $(BASENAME).$(LANG1).rlx $(CGCOMP)
 	$(CGCOMP) $< $@
 
 $(LANG1).prob: $(BASENAME).$(LANG1).tagged
-	apertium-tagger -s 0 -u 1 $@ $<
+	apertium-tagger -s 0 -u 2 $@ $<
 
 ###############################################################################
 ## Distribution
