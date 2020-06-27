@@ -214,7 +214,7 @@ SET Verb = V OR Vbmod OR Vbhaver OR Èssiri ;
 
 SET NonFiniteForm = Ifi OR Pis OR Pri OR Fti OR Fts OR Prs OR Imper OR Pii;
 
-SET FiniteForm = Inf OR PrfPrc or Gerund;
+SET FiniteForm = Inf OR PrfPrc OR Gerund;
 
 
 SECTION
@@ -303,7 +303,7 @@ SELECT DetDefFemPl IF (0 DetDefMscPl OR DetDefFemPl) (1 A OR DetPos) (2 N/f + $$
 
 SELECT DetDefMscPl IF (0 DetDefMscPl OR DetDefFemPl) (1 A OR DetPos) (2 N/m + $$Pl OR N/m/sp) ;
 
-SELECT N IF (-1C DetDef) (0 N or V);
+SELECT N IF (-1C DetDef) (0 N OR V);
 
 SELECT Pron IF (0 nuddu) (1 Verb) ;
 
@@ -332,13 +332,13 @@ SELECT N IF (-1 Det OR Pr LINK 0/* Det OR Pr) (0 Verb + $$PrfPrc OR N) (NOT 0C N
     ## significatu/significari
     ## Lu libbru a statu unu di cchiù pubblicatu dâ storia.
 
-SELECT V IF (0 Vbhaver or V) (1 Det) (2C N) ;
+SELECT V IF (0C Vbhaver OR V) (1 Det) (2C N) ;
 
-SELECT V IF (0 Vbhaver or V) (1C N) ;
+SELECT V IF (0C Vbhaver OR V) (1C N) ;
 
-SELECT Pr IF (0 Pr or Det + $$Ind) (1 Prop) ;
+SELECT Pr IF (0 Pr OR Det + $$Ind) (1 Prop) ;
 
-SELECT Pron IF (0 Prn/si or Èssiri + $$P2) (1 V + $$NonFiniteForm) ;
+SELECT Pron IF (0 Prn/si OR Èssiri + $$P2) (1 V + $$NonFiniteForm) ;
 
 SELECT Msc IF (0 Adj/pl + $$Msc OR Adj/pl + $$Fem) (1 N/pl + $$Msc) ;
 
