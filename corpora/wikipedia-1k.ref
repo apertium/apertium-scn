@@ -1,3 +1,25 @@
+# sent_id = wikipedia-1k:66
+# text = Rapperswil è na cità dâ Svìzzira di circa 7'800 abbitanti chi s'affaccia ntô lacu di Zurigu.
+# labels = complete
+^Rapperswil/Rapperswil<np><top>$
+^è/èssiri<vbser><pri><p3><sg>$
+^na/un<det><ind><f><sg>$
+^cità/citati<n><f><sp>$
+^dâ/di<pr>+lu<det><def><f><sg>$
+^Svìzzira/Svìzzira<np><top>$
+^di/di<pr>$
+^circa/circa<pr>$
+^7'800/7'800<num><mf><pl>$
+^abbitanti/abbitanti<n><m><sp>$
+^chi/chi<rel><an><mf><sp>$;		"lu" det def mf pl
+^s'/si<prn><pro><ref><p3><mf><sp>$
+^affaccia/affacciari<vblex><pri><p3><sg>$
+^ntô/nta<pr>+lu<det><def><m><sg>$
+^lacu/lacu<n><m><sg>$
+^di/di<pr>$
+^Zurigu/Zurigu<np><top>$
+^./.<sent>$
+
 # sent_id = wikipedia-1k:316
 # text = Zamenhof campava a Białystok, na città chi mo è nta Polonia, ma prima era ufficialmenti nt'o territoriu i l'Imperu Russu.
 # labels = complete unknown-word

@@ -456,6 +456,8 @@ SELECT Det IF (-1C Èssiri) (0C Det OR Pron) (1C N) ;
 SELECT CA IF (-1 Adv) (0C Si) (1 Det OR Èssiri) ;
     ##  Lu tiatru fu inaugurato u 7 giugnu 1874, puru si fosse incompleto.
 
+SELECT Pl IF (0 Pl OR Sp) (0C Num) (1C N + Sp) ;
+
 AFTER-SECTIONS
 
 REMOVE SUB:1 Det IF (0 Prep/di OR Prep/a OR Prep/pi OR Prep/cu OR Prep/nta) ;
