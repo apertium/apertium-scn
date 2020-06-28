@@ -54,6 +54,9 @@ SET PronPers = Pron/p1/sg OR Pron/p2/sg OR Pron/p3/sg OR Pron/p1/pl OR Pron/p2/p
 LIST Rel/aa = (rel aa);
 LIST Rel/an = (rel an);
 
+LIST Mov = "jiri" ;
+
+LIST Ca = "<ca>"i ;
 
 LIST Prep/di = "<di>"i "<de>"i ;
 LIST Prep/a = "<a>"i "<davanti a>"i ;
@@ -498,9 +501,16 @@ SELECT Roman IF (-1C Ant) ;
 REMOVE Preadv IF (NOT 1 A OR V OR Adv) ;
     ## Ntâ sò vita Custantinu viaggiau assai.
 
+SELECT Pri IF (0C Pri OR PrfPrc) (-1 BOS) (1C Inf) ;
+
+SELECT Pri IF (-1 Ca) (0C V OR N) (1 Ca) ;
+
+SELECT SUB:1 Det IF (-1 Mov) (0 Prep/a) (1C N + Fem) ;
+
 AFTER-SECTIONS
 
 REMOVE SUB:1 Det IF (0 Prep/di OR Prep/a OR Prep/pi OR Prep/cu OR Prep/nta) ;
+
  # "di" y "a" etc. deberían quedar como preposiciones simples por defecto.
  # necesitamos esta regla porque a veces se escribe siciliano sin tildes, 
  # y allí "a" y "â" son ambiguos
