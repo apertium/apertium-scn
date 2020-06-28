@@ -15,6 +15,7 @@ LIST A = adj ;
 LIST Pron = prn ;
 LIST Adv = adv ; 
 LIST CC = cnjcoo ;
+LIST Preadv = preadv ;
 LIST Rel = rel ; 
 LIST CS = cnjsub ;
 LIST CA = cnjadv ;
@@ -433,6 +434,8 @@ SELECT A IF (-1 Det) (0C A OR Adv) (1C N) ;
 SELECT Èssiri IF (0C Verb) (1 PrfPrc) ;
     ## Tutti li pissichiatri sunu priparati a sapìri diagnusticari li maladii mintali.
 
+SELECT A IF (0 Assai) (-1C Pr) (1 N) ;
+
 # SELECT Pron/itg IF (0 Rel) (0 Pron/itg) (1* Intrg);
 
 # SELECT Rel IF (0 Rel) (0 Pr) (1 Fin);
@@ -491,6 +494,9 @@ SELECT N + $$Genero IF (-1C Det + $$Genero) (0C N) ;
 
 SELECT Roman IF (-1C Ant) ;
     ## Childebertu I (v. 497 – 13 di dicèmmiru 558) fu Re di Pariggi tra lu 511 e lu 558. 
+
+REMOVE Preadv IF (NOT 1 A OR V OR Adv) ;
+    ## Ntâ sò vita Custantinu viaggiau assai.
 
 AFTER-SECTIONS
 

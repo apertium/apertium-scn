@@ -655,14 +655,23 @@
       	<e><p><l>i</l><r>i<s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
       	<e><p><l>a</l><r>i<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
     </pardef>
-    
-    <pardef n="sacchegg/iu__n">
+     
+    <pardef n="vizz/iu__n">
       	<e><p><l>iu</l><r>iu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       	<e r="LR"><p><l>io</l><r>iu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       	<e><p><l>i</l><r>iu<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
       	<e r="LR"><p><l>î</l><r>iu<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
       	<e r="LR"><p><l>ii</l><r>iu<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
       	<e r="LR"><p><l>ia</l><r>iu<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+      	<e r="LR"><p><l>j</l><r>iu<s n="n"/><s n="m"/><s n="pl"/></r></p></e> <!--Raccolta di proverbj siciliani-->
+    </pardef>
+
+    <pardef n="sacchegg/iu__n">
+      	<e><p><l>iu</l><r>iu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+      	<e r="LR"><p><l>io</l><r>iu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+      	<e><p><l>i</l><r>iu<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+      	<e r="LR"><p><l>î</l><r>iu<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+      	<e r="LR"><p><l>ii</l><r>iu<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
       	<e r="LR"><p><l>j</l><r>iu<s n="n"/><s n="m"/><s n="pl"/></r></p></e> <!--Raccolta di proverbj siciliani-->
     </pardef>
 
@@ -1622,6 +1631,7 @@
         
     	<e><p><l>aia</l><r><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
     	<e r="LR"><p><l>haju</l><r><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
+    	<e r="LR"><p><l>aju</l><r><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
     	<e><p><l>ai</l><r><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
     	<e><p><l>aia</l><r><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
     	<e><p><l>aiamu</l><r><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
@@ -14931,8 +14941,8 @@
     <e lm="virticchiu" r="LR"><p><l>sdillinch</l><r>virticch</r></p><par n="sacchegg/iu__n"/></e>
     <e lm="vituperiu"><i>vituper</i><par n="sacchegg/iu__n"/></e>
     <e lm="vituperiu" r="LR"><p><l>mutuper</l><r>vituper</r></p><par n="sacchegg/iu__n"/></e>
-    <e lm="vizziu"><i>vizz</i><par n="sacchegg/iu__n"/></e>
-    <e lm="vizziu" r="LR"><p><l>viz</l><r>vizz</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="vizziu"><i>vizz</i><par n="vizz/iu__n"/></e>
+    <e lm="vizziu" r="LR"><p><l>viz</l><r>vizz</r></p><par n="vizz/iu__n"/></e>
     <e lm="ziu"><i>z</i><par n="sacchegg/iu__n"/></e>
     
     
@@ -21183,6 +21193,8 @@
     <e lm="seminariu" r="LR"><p><l>siminar</l><r>seminar</r></p><par n="sacchegg/iu__n"/></e>
     <e lm="senziu"><i>senz</i><par n="sacchegg/iu__n"/></e>
     <e lm="serviziu"><i>serviz</i><par n="sacchegg/iu__n"/></e>
+    <e lm="serviziu" r="LR"><p><l>sevviz</l><r>serviz</r></p><par n="sacchegg/iu__n"/></e>
+    <e lm="serviziu" r="LR"><p><l>servizz</l><r>serviz</r></p><par n="sacchegg/iu__n"/></e>
     <e lm="siggritariu"><i>siggritar</i><par n="sacchegg/iu__n"/></e>
     <e lm="sigritariu"><i>sigritar</i><par n="sacchegg/iu__n"/></e>
     <e lm="silviu"><i>silv</i><par n="sacchegg/iu__n"/></e>
@@ -22300,7 +22312,6 @@
     <e lm="rifuggiu" r="LR"><p><l>rifug</l><r>rifugg</r></p><par n="sacchegg/iu__n"/></e>
     <e lm="dizziunariu" r="LR"><p><l>dizzionar</l><r>dizziunar</r></p><par n="sacchegg/iu__n"/></e>
     <e lm="spusalizziu" r="LR"><p><l>spusalìzz</l><r>spusalizz</r></p><par n="sacchegg/iu__n"/></e>
-    <e lm="serviziu" r="LR"><p><l>sevviz</l><r>serviz</r></p><par n="sacchegg/iu__n"/></e>
     <e lm="pilligrinaggiu" r="LR"><p><l>pillirinagg</l><r>pilligrinagg</r></p><par n="sacchegg/iu__n"/></e>
     <e lm="patrimoniu" r="LR"><p><l>patrimòn</l><r>patrimon</r></p><par n="sacchegg/iu__n"/></e>
     <e lm="dicenniu" r="LR"><p><l>dicènn</l><r>dicenn</r></p><par n="sacchegg/iu__n"/></e>
@@ -36323,6 +36334,7 @@
     <e lm="famusu"><i>famus</i><par n="bedd/u__adj"/></e>
     <e lm="famusu" r="LR"><p><l>famos</l><r>famus</r></p><par n="bedd/u__adj"/></e>
     <e lm="propriu"><i>propr</i><par n="lar/iu__adj"/></e>
+    <e lm="propriu" r="LR"><p><l>prupr</l><r>propr</r></p><par n="lar/iu__adj"/></e>
     <e lm="europeu"><i>europe</i><par n="bedd/u__adj"/></e>
     <e lm="riliggiusu"><par n="ri/re"/><i>liggius</i><par n="bedd/u__adj"/></e>
     <e lm="europeu" r="LR"><p><l>eurupe</l><r>europe</r></p><par n="bedd/u__adj"/></e>
@@ -39123,6 +39135,8 @@
     <e lm="assai" r="LR"><p><l>assà</l><r>assai</r></p><par n="assai__preadv"/></e>
     <e lm="assai"><i>assai</i><par n="oji__adv"/></e>
     <e lm="assai" r="LR"><p><l>assà</l><r>assai</r></p><par n="oji__adv"/></e>
+    <e lm="assai"><i>assai</i><par n="duci__adj"/></e>
+    <e lm="assai" r="LR"><p><l>assà</l><r>assai</r></p><par n="duci__adj"/></e>
     
     <e lm="nveci"><i>nveci</i><par n="oji__adv"/></e>
     <e lm="nveci" r="LR"><p><l>invece</l><r>nveci</r></p><par n="oji__adv"/></e>
