@@ -221,7 +221,7 @@ SET NotPl = Sg | Sp ;
 SET Genero = NotMsc | NotFem ;
 SET Numero = NotSg | NotPl ;
 
-SET Fin = Ifi | Pri ; 
+SET Fin = Ifi | Pri | Pii | Pis | Prs ; 
 
 SET Verb = V OR Vbmod OR Vbhaver OR Èssiri ;
 
@@ -278,9 +278,14 @@ SELECT Pr IF (0 Pr OR Pr LINK 0/* Det) (1 Inf) (NOT 0 Putiri) ;
 REMOVE SUB:1 Det IF (1 Det LINK 1C N) ;
     ## Nti li quattordici edizzioni lu nùmmiru di li ìsuli participanti hà canciatu di vota in vota, datu ca li diligazzioni nun sunnu ubbligati a participari a l' eventu.
 
-SELECT Pr IF (0 Pr OR Pr LINK 0/* Det) (1 Det) ;
+SELECT Pr IF (0 Pr OR Pr LINK 0/* Det) (1 Det LINK 1 N) ;
     ## Nta lu Òrdini prufissiunali
  
+REMOVE SUB:1 Det IF (1 Det) ;
+    ## Li cèlluli ca la cumpòninu sunnu cilìntrichi, suttili, cu nuclii particularmenti evidenti.
+
+REMOVE Det IF (0C Det OR Pron) (1 Fin) ;
+    ## Li cèlluli ca la cumpòninu sunnu cilìntrichi, suttili, cu nuclii particularmenti evidenti.
 
 SELECT Det IF (-1C Èssiri) (0 Det) (0 Pr LINK 0/* Det) ;
     ## UBS è na banca
