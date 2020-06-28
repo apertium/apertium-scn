@@ -84,17 +84,43 @@
   <e>       <!--      <re>(www.|http://|https://|ftp://)[áéíóúàèìòùäëïöüñça-z0-9\-./]+[áéíóúàèìòùäëïöüñça-z0-9/]</re> --><re>(http://|https://|ftp://)?[áéíóúàèìòùäëïöüñça-z0-9](([\-_])?[áéíóúàèìòùäëïöüñça-z0-9])*(.[áéíóúàèìòùäëïöüñça-z0-9](([\-_])?[áéíóúàèìòùäëïöüñça-z0-9])*)*(.[a-z][a-z]|.aero|.asia|.biz|.cat|.com|.coop|.edu|.gov|.info|.int|.jobs|.mil|.mobi|.museum|.name|.net|.org|.pro|.tel|.travel)(/([áéíóúàèìòùäëïöüñça-z0-9\-_\?=&amp;\*,]+(.[áéíóúàèìòùäëïöüñça-z0-9\-_\?=&amp;\*,]+)*/)*([áéíóúàèìòùäëïöüñça-z0-9\-_\?=&amp;\*,]+(.[áéíóúàèìòùäëïöüñça-z0-9\-_\?=&amp;\*,]+)*)?)?</re><p><l></l><r><s n="web"/></r></p></e>
 </pardef>
 
-    <pardef n="numeros">
-        <e><re>[0-9]+([.',][0-9]+)?</re><p><l></l><r><s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
-        <e><re>[0-9]+([.',][0-9]+)+</re><p><l></l><r><s n="num"/><s n="mf"/><s n="pl"/></r></p></e>
+<pardef n="symbols">
+
+  <e>       <p><l>%</l>     <r>%<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
+  <e r="LR"><p><l><b/>%</l> <r>%<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
+
+  <e>       <p><l>°</l><r>°<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
+  <e r="LR"><p><l>º</l><r>°<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
+  <e r="LR"><p><l><b/>º</l><r>°<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
+
+  <e>       <p><l><b/>°C</l><r><b/>°C<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
+  <e r="LR"><p><l>°C</l>    <r><b/>°C<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
+  <e r="LR"><p><l><b/>ºC</l><r><b/>°C<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
+  <e r="LR"><p><l>ºC</l>    <r><b/>°C<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
+  <e r="LR"><p><l>°<b/>C</l><r><b/>°C<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
+  <e r="LR"><p><l><b/>º<b/>C</l><r><b/>°C<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
+  <e r="LR"><p><l>º<b/>C</l><r><b/>°C<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
+
+</pardef>
+
+
+    <pardef n="ordinales">
         <e><re>[0-9]+</re><p><l>èsimu</l><r><s n="num"/><s n="ord"/><s n="m"/><s n="sg"/></r></p></e>
         <e><re>[0-9]+</re><p><l>èsima</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="sg"/></r></p></e>
         <e><re>[0-9]+</re><p><l>èsimi</l><r><s n="num"/><s n="ord"/><s n="mf"/><s n="pl"/></r></p></e>
         <e r="LR"><re>[0-9]+</re><p><l>-èsimu</l><r><s n="num"/><s n="ord"/><s n="m"/><s n="sg"/></r></p></e>
         <e r="LR"><re>[0-9]+</re><p><l>-èsima</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="sg"/></r></p></e>
         <e r="LR"><re>[0-9]+</re><p><l>-èsimi</l><r><s n="num"/><s n="ord"/><s n="mf"/><s n="pl"/></r></p></e>
-        <e><re>[0-9]+</re><p><l>ini</l><r><s n="num"/></r></p></e>
     </pardef>
+
+
+<pardef n="numeros">
+ <e>       <re>[0-9]+</re><p><l></l><r><s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
+ <e>       <re>[0-9]+([.,][0-9]+)?</re><par n="symbols"/></e>
+<!--        <e><re>[0-9]+([.',][0-9]+)?</re><p><l></l><r><s n="num"/><s n="mf"/><s n="sp"/></r></p></e>-->
+        <e><re>[0-9]+([.',][0-9]+)+</re><p><l></l><r><s n="num"/><s n="mf"/><s n="pl"/></r></p></e>
+        <e><re>[0-9]+</re><p><l>ini</l><r><s n="num"/></r></p></e>
+</pardef>
 
     <pardef n="quotes">
         <e><p><l>"</l><r>"<s n="quot"/></r></p></e>
@@ -249,6 +275,7 @@
         <e r="LR"><p><l>ed</l><r>e<s n="cnjcoo"/></r></p></e>
         <e r="LR"><p><l>et</l><r>e<s n="cnjcoo"/></r></p></e>
         <e r="LR"><p><l>ie</l><r>e<s n="cnjcoo"/></r></p></e>
+        <e r="LR"><p><l>'e</l><r>e<s n="cnjcoo"/></r></p></e>
     </pardef>
     
     <pardef n="/o__cnjcoo">
@@ -533,10 +560,9 @@
     <!-- SECTION: Nouns -->
     <pardef n="citadin/u__n">
       	<e><p><l>a</l><r>u<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-      	<e><p><l>i</l><r>u<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+      	<e><p><l>i</l><r>u<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
       	<e><p><l>u</l><r>u<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       	<e r="LR"><p><l>o</l><r>u<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      	<e><p><l>i</l><r>u<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
     
     
@@ -795,6 +821,7 @@
       	<e r="LR"><p><l>iuni</l><r>zioni<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
       	<e r="LR"><p><l>zione</l><r>zioni<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
       	<e r="LR"><p><l>ziuni</l><r>zioni<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
+      	<e r="LR"><p><l>ziuna</l><r>zioni<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
     </pardef>
     
     <pardef n="vi/sioni__n">
@@ -926,6 +953,7 @@
     <pardef n="conta__pr">
       	<e r="LR"><p><l>à</l><r>a<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="f"/><s n="sg"/></r></p></e>
       	<e r="LR"><p><l>a</l><r>a<s n="pr"/></r></p></e>
+      	<e r="LR"><p><l>'a</l><r>a<s n="pr"/></r></p></e>
       	<e r="RL"><p><l><a/>a</l><r>a<s n="pr"/></r></p></e>
 
 
@@ -1101,7 +1129,7 @@
     </pardef>
 
     <!-- SECTION: Adverbs -->
-    <pardef n="oggi__adv">
+    <pardef n="oji__adv">
       	<e><p><l></l><r><s n="adv"/></r></p></e>
     </pardef>
 
@@ -1428,6 +1456,7 @@
       	<e r="LR"><p><l>esseri</l><r>èssiri<s n="vbser"/><s n="inf"/></r></p></e>
       	<e r="LR"><p><l>ièssiri</l><r>èssiri<s n="vbser"/><s n="inf"/></r></p></e>
       	<e r="LR"><p><l>essere</l><r>èssiri<s n="vbser"/><s n="inf"/></r></p></e>
+      	<e r="LR"><p><l>essara</l><r>èssiri<s n="vbser"/><s n="inf"/></r></p></e>
       	<e><p><l>èssiri</l><r>èssiri<s n="vbser"/><s n="inf"/><j/></r></p><par n="S__battiri"/></e>
       	<e r="LR"><p><l>ssiri</l><r>èssiri<s n="vbser"/><s n="inf"/><j/></r></p><par n="S__battiri"/></e>
       	<e r="LR"><p><l>essiri</l><r>èssiri<s n="vbser"/><s n="inf"/><j/></r></p><par n="S__battiri"/></e>
@@ -1459,6 +1488,7 @@
         <e><p><l>sunnu</l><r>èssiri<s n="vbser"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
         <e r="LR"><p><l>sunu</l><r>èssiri<s n="vbser"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
         <e r="LR" c="Dial/V"><p><l>sù</l><r>èssiri<s n="vbser"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+        <e r="LR"><p><l>su'</l><r>èssiri<s n="vbser"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
         
     	<e><p><l>sìa</l><r>èssiri<s n="vbser"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
     	<e><p><l>fussi</l><r>èssiri<s n="vbser"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -1499,6 +1529,7 @@
     	<e><p><l>fu</l><r>èssiri<s n="vbser"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
     	<e r="LR"><p><l>fudi</l><r>èssiri<s n="vbser"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
     	<e r="LR"><p><l>fuè</l><r>èssiri<s n="vbser"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
+    	<e r="LR"><p><l>fi</l><r>èssiri<s n="vbser"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
 
         <e r="LR"><p><l>fuorru</l><r>èssiri<s n="vbser"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
     	<e r="LR"><p><l>fù</l><r>èssiri<s n="vbser"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
@@ -1546,6 +1577,7 @@
         <e r="LR"><p><l>sidu</l><r>èssiri<s n="vbser"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
         <e><p><l>stat</l><r>èssiri<s n="vbser"/><s n="pp"/></r></p><par n="A__/u"/></e>
  -->
+        <e r="LR"><p><l>sennu</l><r>èssiri<s n="vbser"/><s n="ger"/></r></p></e>
         <e><p><l>essennu</l><r>èssiri<s n="vbser"/><s n="ger"/></r></p></e>
         <e><p><l>essennu</l><r>èssiri<s n="vbser"/><s n="ger"/><j/></r></p><par n="S__battiri"/></e> <!-- probs wrong-->
         <e r="LR"><p><l>essenu</l><r>èssiri<s n="vbser"/><s n="ger"/></r></p></e>
@@ -1566,6 +1598,7 @@
     	<e r="LR"><p><l>hà</l><r><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
     	<e r="LR"><p><l>a</l><r><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e> <!--Lu libbru a statu-->
     	<e r="LR"><p><l>ava</l><r><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+    	<e r="LR"><p><l>ave</l><r><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
     	<e r="LR"><p><l>avi</l><r><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
     	<e r="LR"><p><l>javi</l><r><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
     	<e r="LR"><p><l>hava</l><r><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -1601,6 +1634,7 @@
     	<e><p><l>avìa</l><r><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
         <e r="LR"><p><l>avia</l><r><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
         <e r="LR"><p><l>iaveva</l><r><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e r="LR"><p><l>aveva</l><r><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
     	<e><p><l>avìamu</l><r><s n="pii"/><s n="p1"/><s n="pl"/></r></p></e>
         <e r="LR"><p><l>aviamu</l><r><s n="pii"/><s n="p1"/><s n="pl"/></r></p></e>
     	<e><p><l>avìavu</l><r><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
@@ -8529,25 +8563,6 @@
 </pardef>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     
     <pardef n="/jiri__vblex">
       	<e><p><l>jiri</l><r>jiri<s n="vblex"/><s n="inf"/></r></p></e>
@@ -8566,6 +8581,7 @@
       	<e><p><l>iti</l><r>jiri<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
       	<e r="LR"><p><l>jiti</l><r>jiri<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
       	<e><p><l>vannu</l><r>jiri<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+      	<e r="LR"><p><l>vani</l><r>jiri<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
       	
     	<e><p><l>va</l><r>jiri<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
         <e r="LR"><p><l>vaia</l><r>jiri<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
@@ -8577,7 +8593,7 @@
         <e><p><l>ìssiru</l><r>jiri<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
         <e r="LR"><p><l>ìssiru</l><r>jiri<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
 
-    	<e><p><l>và</l><r>jiri<s n="vblex"/><s n="imp"/><s n="p2"/><j/></r></p><par n="S__scrìviti"/></e>
+    	<e><p><l>và</l><r>jiri<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__scrìviti"/></e>
         <e r="LR"><p><l>vàia</l><r>jiri<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__scrìviti"/></e>
     	<e><p><l>ìssi</l><r>jiri<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/><j/></r></p><par n="S__scrivennu"/></e>
     	<e><p><l>iàmu</l><r>jiri<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__parràmuni"/></e>
@@ -8586,7 +8602,7 @@
     	<e><p><l>ìti</l><r>jiri<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__scrìvivi"/></e>
         <e><p><l>ìssiru</l><r>jiri<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/><j/></r></p><par n="S__scrivennu"/></e>
         
-    	<e r="LR"><p><l>va</l><r>jiri<s n="vblex"/><s n="imp"/><s n="p2"/><j/></r></p><par n="S__scrìviti"/></e>
+    	<e r="LR"><p><l>va</l><r>jiri<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__scrìviti"/></e>
         <e r="LR"><p><l>vaia</l><r>jiri<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__scrìviti"/></e>
     	<e r="LR"><p><l>issi</l><r>jiri<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/><j/></r></p><par n="S__scrivennu"/></e>
     	<e r="LR"><p><l>iamu</l><r>jiri<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__parràmuni"/></e>
@@ -8839,8 +8855,8 @@
     <e lm="nnô modu chi" r="LR"><p><l>n<b/>modu<b/>chi</l><r>nnô<b/>modu<b/>chi</r></p><par n="picchì__cnjadv"/></e>
     <e lm="ntantu"><i>ntantu</i><par n="picchì__cnjadv"/></e>
     <e lm="mentri"><i>mentri</i><par n="picchì__cnjadv"/></e>
-    <e lm="nustanti"><i>nustanti</i><par n="oggi__adv"/></e>
-    <e lm="infatti"><par n="in/n"/><i>fatti</i><par n="oggi__adv"/></e>
+    <e lm="nustanti"><i>nustanti</i><par n="oji__adv"/></e>
+    <e lm="infatti"><par n="in/n"/><i>fatti</i><par n="oji__adv"/></e>
     <e lm="nustanti" r="LR"><p><l>nonostanti</l><r>nustanti</r></p><par n="picchì__cnjadv"/></e>
     <e lm="nustanti" r="LR"><p><l>nunustanti</l><r>nustanti</r></p><par n="picchì__cnjadv"/></e>
     <e lm="mentri chi"><i>mentri<b/>chi</i><par n="picchì__cnjadv"/></e>
@@ -8856,6 +8872,7 @@
     <e lm="puru chi"><i>puru<b/>chi</i><par n="picchì__cnjadv"/></e>
     <e lm="sarvu chi non"><i>sarvu<b/>chi<b/>non</i><par n="picchì__cnjadv"/></e>
     <e lm="pirò"><i>pirò</i><par n="picchì__cnjadv"/></e>
+    <e lm="pero" r="LR"><p><l>pero</l><r>pirò</r></p><par n="picchì__cnjadv"/></e>
     <e lm="giacchì chi"><i>giacchì<b/>chi</i><par n="picchì__cnjadv"/></e>
     <e lm="pirciò"><i>pirciò</i><par n="picchì__cnjadv"/></e>
     <e lm="overu"><par n="o/u"/><i>veru</i><par n="nè__cnjcoo"/></e>
@@ -9283,6 +9300,7 @@
     <e lm="nannàvulu" r="LR"><p><l>nànnav</l><r>nannàvul</r></p><par n="citadin/u__n"/></e>
     <e lm="nannàvulu" r="LR"><p><l>nannav</l><r>nannàvul</r></p><par n="citadin/u__n"/></e>
 
+    <e lm="longobbardu"><i>longobbard</i><par n="citadin/u__n"/></e>
     <e lm="cartagginu"><i>cartaggin</i><par n="citadin/u__n"/></e>
     <e lm="mudellu"><i>mudell</i><par n="citadin/u__n"/></e>
     <e lm="ostrogotu"><i>ostrogot</i><par n="citadin/u__n"/></e>
@@ -9367,6 +9385,7 @@
     <e lm="pruggettu" r="LR"><p><l>progett</l><r>pruggett</r></p><par n="ann/u__n"/></e>
     <e lm="àtumu"><i>àtum</i><par n="ann/u__n"/></e>
     <e lm="idrògginu"><i>idròggin</i><par n="ann/u__n"/></e>
+    <e lm="idrògginu" r="LR"><p><l>idroggin</l><r>idròggin</r></p><par n="ann/u__n"/></e>
     <e lm="gradu"><i>grad</i><par n="ann/u__n"/></e>
     <e lm="pisu"><i>pis</i><par n="ann/u__n"/></e>
     <e lm="effettu"><i>effett</i><par n="ann/u__n"/></e>
@@ -9435,6 +9454,7 @@
     <e lm="tririmi"><i>tririmi</i><par n="patri__n"/></e>
     <e lm="astiroidi"><i>astiroidi</i><par n="patri__n"/></e>
     <e lm="astiroidi" r="LR"><p><l>astiroiddi</l><r>astiroidi</r></p><par n="patri__n"/></e>
+    <e lm="astiroidi" r="LR"><p><l>asteroidi</l><r>astiroidi</r></p><par n="patri__n"/></e>
     <e lm="standard"><i>standard</i><par n="patri__n"/></e>
     <e lm="voblasci"><i>voblasci</i><par n="patri__n"/></e>
     <e lm="prisidenti" r="LR"><p><l>pricidenti</l><r>prisidenti</r></p><par n="studenti__n"/></e>
@@ -9462,6 +9482,7 @@
     <e lm="obbiettivu"><par n="o/u"/><i>bbiettiv</i><par n="ann/u__n"/></e>
     <e lm="finòminu"><i>finòmin</i><par n="foc/u__n"/></e>
     <e lm="finòminu" r="LR"><p><l>finòmon</l><r>finòmin</r></p><par n="foc/u__n"/></e>
+    <e lm="finòminu" r="LR"><p><l>fenomen</l><r>finòmin</r></p><par n="foc/u__n"/></e>
     <e lm="discursu"><i>discurs</i><par n="ann/u__n"/></e>
     <e lm="risurtatu"><par n="ri/re"/><i>surtat</i><par n="ann/u__n"/></e>
     <e lm="radici"><i>radici</i><par n="matri__n"/></e>
@@ -9482,6 +9503,7 @@
     <e lm="ìsula"><i>ìsul</i><par n="cas/a__n"/></e>
     <e lm="ìsula" r="LR"><p><l>îsul</l><r>ìsul</r></p><par n="cas/a__n"/></e>
 
+    <e lm="selva"><i>selv</i><par n="cas/a__n"/></e>
     <e lm="strada"><i>strad</i><par n="cas/a__n"/></e>
     <e lm="guerra"><par n="gu/v/u"/><i>err</i><par n="cas/a__n"/></e>
     <e lm="doppuguerra"><i>doppuguerr</i><par n="cas/a__n"/></e>
@@ -10945,6 +10967,7 @@
     <e lm="attimusfera" r="LR"><p><l>atmosfer</l><r>attimusfer</r></p><par n="cas/a__n"/></e>
     <e lm="attimusfera" r="LR"><p><l>attmosfer</l><r>attimusfer</r></p><par n="cas/a__n"/></e>
     <e lm="attimusfera" r="LR"><p><l>attmusfer</l><r>attimusfer</r></p><par n="cas/a__n"/></e>
+
     <e lm="culera"><i>culer</i><par n="cas/a__n"/></e>
     <e lm="bannera"><i>banner</i><par n="cas/a__n"/></e>
     <e lm="cammarera"><i>cammarer</i><par n="cas/a__n"/></e>
@@ -11370,6 +11393,8 @@
     <e lm="càusi"><i>càusi</i><par n="patri__n"/></e>
     <e lm="abbati"><i>abbati</i><par n="studenti__n"/></e>
     <e lm="astati"><i>astati</i><par n="patri__n"/></e>
+    <e lm="astati" r="LR"><p><l>stati</l><r>astati</r></p><par n="patri__n"/></e>
+    <e lm="astati" r="LR"><p><l>istati</l><r>astati</r></p><par n="patri__n"/></e>
     <e lm="òspiti"><par n="ò/o"/><i>spiti</i><par n="patri__n"/></e>
     <e lm="riti"><par n="ri/re"/><i>ti</i><par n="patri__n"/></e>
     <e lm="mitiuriti"><i>mitiuriti</i><par n="patri__n"/></e>
@@ -11475,6 +11500,7 @@
     <e lm="ussirvazzioni" r="LR"><p><l>ossirvaz</l><r>ussirvaz</r></p><par n="pupulaz/zioni__n"/></e>
     <e lm="ussirvazzioni" r="LR"><p><l>asservaz</l><r>ussirvaz</r></p><par n="pupulaz/zioni__n"/></e>
     <e lm="ussirvazzioni" r="LR"><p><l>osservaz</l><r>ussirvaz</r></p><par n="pupulaz/zioni__n"/></e>
+    <e lm="ussirvazzioni" r="LR"><p><l>asservaz</l><r>ussirvaz</r></p><par n="pupulaz/zioni__n"/></e>
     <e lm="uccupazzioni" r="LR"><p><l>accupaz</l><r>uccupaz</r></p><par n="pupulaz/zioni__n"/></e>
     <e lm="uccupazzioni" r="LR"><p><l>occupaz</l><r>uccupaz</r></p><par n="pupulaz/zioni__n"/></e>
 
@@ -11514,7 +11540,7 @@
     <e lm="portu"><i>port</i><par n="ann/u__n"/></e>
     <e lm="lucru"><i>lucr</i><par n="ann/u__n"/></e>
     <e lm="cuntribbutu"><i>cuntribbut</i><par n="ann/u__n"/></e>
-    <e lm="màssimu"><i>màssim</i><par n="ann/u__n"/></e>
+    <!--<e lm="màssimu"><i>màssim</i><par n="ann/u__n"/></e>-->
     <e lm="mètudu"><i>mètud</i><par n="ann/u__n"/></e>
     <e lm="vucabbulariu"><i>vucabbular</i><par n="sacchegg/iu__n"/></e>
     <e lm="punta"><i>punt</i><par n="cas/a__n"/></e>
@@ -11724,6 +11750,7 @@
     <e lm="istituzzioni"><i>istituz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="istituzzioni" r="LR"><p><l>stituz</l><r>istituz</r></p><par n="pupulaz/zioni__n"/></e>
     <e lm="ntigrazzioni"><i>ntigraz</i><par n="pupulaz/zioni__n"/></e>
+    <e lm="ntigrazzioni" r="LR"><p><l>ntagraz</l><r>ntigraz</r></p><par n="pupulaz/zioni__n"/></e>
     <e lm="cunfidirazzioni"><i>cunfidiraz</i><par n="pupulaz/zioni__n"/></e>
     <e lm="distinzioni"><i>distin</i><par n="pupulaz/zioni__n"/></e>
     <e lm="riparazzioni"><par n="ri/re"/><i>paraz</i><par n="pupulaz/zioni__n"/></e>
@@ -12659,6 +12686,7 @@
     <e lm="ardìcula"><i>ardìcul</i><par n="cas/a__n"/></e>
     <e lm="ardìcula" r="LR"><p><l>furdìcul</l><r>ardìcul</r></p><par n="cas/a__n"/></e>
     <e lm="furesta"><i>furest</i><par n="cas/a__n"/></e>
+    <e lm="furesta" r="LR"><p><l>forest</l><r>furest</r></p><par n="cas/a__n"/></e>
     <e lm="furràina"><i>furràin</i><par n="cas/a__n"/></e>
     <e lm="furràina" r="LR"><p><l>farragn</l><r>furràin</r></p><par n="cas/a__n"/></e>
     <e lm="furtilizza"><i>furtilizz</i><par n="cas/a__n"/></e>
@@ -13693,6 +13721,7 @@
     <e lm="austrìacu"><i>austrìac</i><par n="nimic/u__n"/></e>
     <e lm="avèsticu"><i>avèstic</i><par n="parc/u__n"/></e>
     <e lm="bancu"><i>banc</i><par n="parc/u__n"/></e>
+    <e lm="bancu"><i>banc</i><par n="ann/u__n"/></e> <!-- dê banci cintrali -->
     <e lm="bancu" r="LR"><p><l>vanc</l><r>banc</r></p><par n="parc/u__n"/></e>
     <e lm="bariloccu"><i>barilocc</i><par n="parc/u__n"/></e>
     <e lm="bariloccu" r="LR"><p><l>batalocc</l><r>barilocc</r></p><par n="parc/u__n"/></e>
@@ -16138,7 +16167,6 @@
     <e lm="màrdinu" r="LR"><p><l>màrdan</l><r>màrdin</r></p><par n="ann/u__n"/></e>
     <e lm="màrmaru" r="LR"><p><l>màrmir</l><r>màrmar</r></p><par n="ann/u__n"/></e>
     <e lm="màsciaru"><i>màsciar</i><par n="ann/u__n"/></e>
-    <e lm="màssumu"><i>màssum</i><par n="ann/u__n"/></e>
     <e lm="membru"><i>membr</i><par n="citadin/u__n"/></e>
     <e lm="membru" r="LR"><p><l>mèmmir</l><r>membr</r></p><par n="citadin/u__n"/></e>
     <e lm="membru" r="LR"><p><l>mèmmur</l><r>membr</r></p><par n="citadin/u__n"/></e>
@@ -16184,7 +16212,10 @@
     <e lm="jugnettu" r="LR"><p><l>njugnett</l><r>jugnett</r></p><par n="ann/u__n"/></e>
     <e lm="jugnettu" r="LR"><p><l>gnugnett</l><r>jugnett</r></p><par n="ann/u__n"/></e>
     <e lm="jugnettu" r="LR"><p><l>iugnett</l><r>jugnett</r></p><par n="ann/u__n"/></e>
-    <e lm="nommu"><i>nomm</i><par n="ann/u__n"/></e>
+    <e lm="nomu"><i>nom</i><par n="ann/u__n"/></e>
+    <e lm="nomu" r="LR"><p><l>num</l><r>nom</r></p><par n="ann/u__n"/></e>
+    <e lm="nomu" r="LR"><p><l>nomm</l><r>nom</r></p><par n="ann/u__n"/></e>
+    <e lm="nomu" r="LR"><p><l>numm</l><r>nom</r></p><par n="ann/u__n"/></e>
     <e lm="nquinquìu"><i>nquinquì</i><par n="ann/u__n"/></e>
     <e lm="nsiru"><i>nsir</i><par n="ann/u__n"/></e>
     <e lm="nsiru" r="LR"><p><l>nzir</l><r>nsir</r></p><par n="ann/u__n"/></e>
@@ -16560,6 +16591,11 @@
     <e lm="simàfuru"><i>simàfur</i><par n="ann/u__n"/></e>
     <e lm="addizzu"><i>addizz</i><par n="ann/u__n"/></e>
     <e lm="sinònimu"><i>sinònim</i><par n="ann/u__n"/></e>
+    <e lm="topònimu"><i>topònim</i><par n="ann/u__n"/></e>
+    <e lm="topònimu" r="LR"><p><l>toponim</l><r>topònim</r></p><par n="ann/u__n"/></e>
+    <e lm="topònimu" r="LR"><p><l>tuponim</l><r>topònim</r></p><par n="ann/u__n"/></e>
+    <e lm="topònimu" r="LR"><p><l>topunim</l><r>topònim</r></p><par n="ann/u__n"/></e>
+    <e lm="topònimu" r="LR"><p><l>tupunim</l><r>topònim</r></p><par n="ann/u__n"/></e>
     <e lm="siquestru"><i>siquestr</i><par n="ann/u__n"/></e>
 
     <e lm="sluvenu"><i>sluven</i><par n="sicilian/u__n"/></e>
@@ -21494,7 +21530,6 @@
     <e lm="nizziativa"><i>nizziativ</i><par n="cas/a__n"/></e>
     <e lm="apòstrufu"><i>apòstruf</i><par n="ann/u__n"/></e>
     <e lm="apòstrufu" r="LR"><p><l>appòstruf</l><r>apòstruf</r></p><par n="ann/u__n"/></e>
-    <e lm="pirdutu"><i>pirdut</i><par n="ann/u__n"/></e>
     <e lm="bruttizza"><i>bruttizz</i><par n="cas/a__n"/></e>
     <e lm="avverbu"><i>avverb</i><par n="ann/u__n"/></e>
     <e lm="suggettu"><i>suggett</i><par n="ann/u__n"/></e>
@@ -21567,7 +21602,6 @@
 
     <e lm="mercuridìa" r="LR"><p><l>merculidìa</l><r>mercuridìa</r></p><par n="lunidìa__n"/></e>
     <e lm="navigazzioni" r="LR"><p><l>navicaz</l><r>navigaz</r></p><par n="pupulaz/zioni__n"/></e>
-    <e lm="nommu" r="LR"><p><l>nom</l><r>nomm</r></p><par n="ann/u__n"/></e>
     <e lm="ndicazzioni" r="LR"><p><l>nnicaz</l><r>ndicaz</r></p><par n="pupulaz/zioni__n"/></e>
     <e lm="bozza" r="LR"><p><l>bott</l><r>bozz</r></p><par n="cas/a__n"/></e>
     <e lm="sensu" r="LR"><p><l>senz</l><r>sens</r></p><par n="ann/u__n"/></e>
@@ -21867,7 +21901,6 @@
     <e lm="pitroliu" r="LR"><p><l>pitròl</l><r>pitrol</r></p><par n="sacchegg/iu__n"/></e>
     <e lm="èriva" r="LR"><p><l>erv</l><r>èriv</r></p><par n="cas/a__n"/></e>
     <e lm="fràula" r="LR"><p><l>fràgul</l><r>fràul</r></p><par n="cas/a__n"/></e>
-    <e lm="astati" r="LR"><p><l>stati</l><r>astati</r></p><par n="patri__n"/></e>
     <e lm="omu" r="LR"><p><l>omm</l><r>om</r></p><par n="om/u__n"/></e>
     <e lm="dificiu" r="LR"><p><l>edific</l><r>dific</r></p><par n="sacchegg/iu__n"/></e>
     <e lm="calinnariu" r="LR"><p><l>calannar</l><r>calinnar</r></p><par n="sacchegg/iu__n"/></e>
@@ -22697,6 +22730,7 @@
     <e lm="autista"><i>autist</i><par n="chitarrist/a__n"/></e>
     <e lm="autista"><i>autist</i><par n="pianet/a__n"/></e>
     <e lm="autobbussu"><i>autobbuss</i><par n="ann/u__n"/></e>
+    <e lm="autobbussu" r="LR"><p><l>autubuss</l><r>autobbuss</r></p><par n="ann/u__n"/></e>
     <e lm="autodidatta"><i>autodidatt</i><par n="cas/a__n"/></e>
     <e lm="automazioni"><i>automa</i><par n="pupulaz/zioni__n"/></e>
     <e lm="automobbili"><i>automobbili</i><par n="matri__n"/></e>
@@ -23621,6 +23655,7 @@
     <e lm="fata"><i>fat</i><par n="cas/a__n"/></e>
     <e lm="fata"><i>fat</i><par n="pianet/a__n"/></e>
     <e lm="fatu"><i>fat</i><par n="ann/u__n"/></e>
+    <e lm="fatu" r="LR"><p><l>fatt</l><r>fat</r></p><par n="ann/u__n"/></e>
     <e lm="fattura"><i>fattur</i><par n="cas/a__n"/></e>
     <e lm="fauci"><i>fauci</i><par n="matri__n"/></e>
     <e lm="faudetta"><i>faudett</i><par n="cas/a__n"/></e>
@@ -23974,8 +24009,11 @@
     <e lm="imperaturi"><par n="im/m"/><i>peraturi</i><par n="patri__n"/></e>
     <e lm="imperaturi"><p><l>mperaturi</l><r>imperaturi</r></p><par n="patri__n"/></e>
     <e lm="imperaturi"><p><l>mpiraturi</l><r>imperaturi</r></p><par n="patri__n"/></e>
+    <e lm="dittaturi"><i>dittaturi</i><par n="patri__n"/></e>
+
     <e lm="imperfezioni"><par n="im/m"/><i>perfe</i><par n="pupulaz/zioni__n"/></e>
     <e lm="impertinenza"><par n="im/m"/><i>pertinenz</i><par n="cas/a__n"/></e>
+
     <e lm="impiantu"><par n="im/m"/><i>piant</i><par n="ann/u__n"/></e>
     <e lm="impiegu"><par n="im/m"/><i>pieg</i><par n="ann/u__n"/></e>
     <e lm="impiegatu"><par n="im/m"/><i>piegat</i><par n="ann/u__n"/></e>
@@ -24501,7 +24539,6 @@
 
     <e lm="nnàcchiu"><i>nnàcch</i><par n="sacchegg/iu__n"/></e>
     <e lm="nolu"><i>nol</i><par n="ann/u__n"/></e>
-    <e lm="nomu"><i>nom</i><par n="ann/u__n"/></e>
     <e lm="nomina"><i>nomin</i><par n="cas/a__n"/></e>
     <e lm="nonchia"><i>nonchi</i><par n="pianet/a__n"/></e>
     <e lm="nonnu"><i>nonn</i><par n="ann/u__n"/></e>
@@ -26617,10 +26654,8 @@
  <e lm="titulu" r="LR"><p><l>titol</l><r>titul</r></p><par n="ann/u__n"/></e>
  <e lm="tìtulu" r="LR"><p><l>tìtol</l><r>tìtul</r></p><par n="ann/u__n"/></e>
  <e lm="giucàttulu" r="LR"><p><l>jocàttul</l><r>giucàttul</r></p><par n="ann/u__n"/></e>
- <e lm="nommu" r="LR"><p><l>numm</l><r>nomm</r></p><par n="ann/u__n"/></e>
  <e lm="cugnomu" r="LR"><p><l>cognom</l><r>cugnom</r></p><par n="ann/u__n"/></e>
  <e lm="gastronomu" r="LR"><p><l>gastronum</l><r>gastronom</r></p><par n="ann/u__n"/></e>
- <e lm="nomu" r="LR"><p><l>num</l><r>nom</r></p><par n="ann/u__n"/></e>
  <e lm="curmu" r="LR"><p><l>colm</l><r>curm</r></p><par n="ann/u__n"/></e>
  <e lm="alguritmu" r="LR"><p><l>algoritm</l><r>alguritm</r></p><par n="ann/u__n"/></e>
  <e lm="òrganu" r="LR"><p><l>urgan</l><r>òrgan</r></p><par n="ann/u__n"/></e>
@@ -26872,7 +26907,6 @@
 
     <e lm="Buonarroti"><i>Buonarroti</i><par n="Jaime__np"/></e>
     <e lm="Longobbardi"><i>Longobbardi</i><par n="Jaime__np"/></e>
-    <e lm="longobbardi"><i>longobbardi</i><par n="Jaime__np"/></e>
     <e lm="Aristòtili"><i>Aristòtili</i><par n="Jaime__np"/></e>
     <e lm="Sòcrati"><i>Sòcrati</i><par n="Jaime__np"/></e>
     <e lm="Platuni"><i>Platuni</i><par n="Jaime__np"/></e>
@@ -27755,6 +27789,8 @@
     <e lm="Persia"><i>Persia</i><par n="Sicilia__np"/></e>
     <e lm="Ulanna"><i>Ulanna</i><par n="Sicilia__np"/></e>
     <e lm="Ulanna" r="LR"><p><l>Ulanda</l><r>Ulanna</r></p><par n="Sicilia__np"/></e>
+    <e lm="Ulanna" r="LR"><p><l>Olanda</l><r>Ulanna</r></p><par n="Sicilia__np"/></e>
+    <e lm="Ulanna" r="LR"><p><l>Olanna</l><r>Ulanna</r></p><par n="Sicilia__np"/></e>
     <e lm="India"><i>India</i><par n="Sicilia__np"/></e>
     <e lm="Altavilla"><i>Altavilla</i><par n="Sicilia__np"/></e>
     <e lm="Novosibirsk"><i>Novosibirsk</i><par n="Sicilia__np"/></e>
@@ -27795,6 +27831,7 @@
         
 
     <e lm="Albanìa"><i>Albanìa</i><par n="Sicilia__np"/></e>
+    <e lm="Albanìa" r="LR"><p><l>Arbanìa</l><r>Albanìa</r></p><par n="Sicilia__np"/></e>
     <e lm="Aleppu"><i>Aleppu</i><par n="Sicilia__np"/></e>
     <e lm="Alessandria d'Eggittu"><i>Alessandria<b/>d'Eggittu</i><par n="Sicilia__np"/></e>
     <e lm="Algeciras"><i>Algeciras</i><par n="Sicilia__np"/></e>
@@ -35798,7 +35835,6 @@
     <e lm="Islanda"><i>Islanda</i><par n="Sicilia__np"/></e>
     <e lm="Iugoslavia"><i>Iugoslavia</i><par n="Sicilia__np"/></e>
     <e lm="Mèssicu"><i>Mèssicu</i><par n="Sicilia__np"/></e>
-    <e lm="Olanda"><i>Olanda</i><par n="Sicilia__np"/></e>
     <e lm="Omèru"><i>Omèru</i><par n="Jaime__np"/></e>
     <e lm="Patti"><i>Patti</i><par n="Sicilia__np"/></e>
     <e lm="Persia"><i>Persia</i><par n="Sicilia__np"/></e>
@@ -35842,6 +35878,7 @@
     <e lm="atinisu"><i>atinis</i><par n="bedd/u__adj"/></e>
     <e lm="cussiddittu"><i>cussidditt</i><par n="bedd/u__adj"/></e>
     <e lm="neòfitu"><i>neòfit</i><par n="bedd/u__adj"/></e>
+    <e lm="longobbardu"><i>longobbard</i><par n="bedd/u__adj"/></e>
     <e lm="sulitu"><i>sulit</i><par n="bedd/u__adj"/></e>
     <e lm="sulitu" r="LR"><p><l>solit</l><r>sulit</r></p><par n="bedd/u__adj"/></e>
 
@@ -36033,6 +36070,7 @@
     <e lm="granni" r="LR"><p><l>ranni</l><r>granni</r></p><par n="duci__adj"/></e>
     <e lm="granni" r="LR"><p><l>gran</l><r>granni</r></p><par n="duci__adj"/></e>
     <e lm="granni" r="LR"><p><l>grande</l><r>granni</r></p><par n="duci__adj"/></e>
+    <e lm="granni" r="LR"><p><l>grannni</l><r>granni</r></p><par n="duci__adj"/></e>
     <e lm="granni"><i>granni</i><par n="duci__adj"/></e>
     <e lm="filici"><i>filici</i><par n="duci__adj"/></e>
     <e lm="dèbbuli"><i>dèbbuli</i><par n="duci__adj"/></e>
@@ -36098,7 +36136,6 @@
 <e lm="nfinitu"><i>nfinit</i><par n="bedd/u__adj"/></e>
 <e lm="ntenzu"><i>ntenz</i><par n="bedd/u__adj"/></e>
 <e lm="òttimu"><par n="ò/o"/><i>ttim</i><par n="bedd/u__adj"/></e>
-<e lm="pùnicu"><i>pùnic</i><par n="bedd/u__adj"/></e>
 <e lm="santissimu"><i>santissim</i><par n="bedd/u__adj"/></e>
 <e lm="sunoru"><i>sunor</i><par n="bedd/u__adj"/></e>
 <e lm="ucrainu"><i>ucrain</i><par n="bedd/u__adj"/></e>
@@ -36885,6 +36922,8 @@
     <e lm="màssumu"><i>màssum</i><par n="bedd/u__adj"/></e>
     <e lm="màssumu" r="LR"><p><l>màssim</l><r>màssum</r></p><par n="bedd/u__adj"/></e>
     <e lm="màssumu" r="LR"><p><l>massim</l><r>màssum</r></p><par n="bedd/u__adj"/></e>
+    <!--<e lm="màssumu"><i>màssum</i><par n="ann/u__n"/></e>-->
+    <!--<e lm="màssumu" r="LR"><p><l>màssim</l><r>màssum</r></p><par n="ann/u__n"/></e>-->
 
     <e lm="n'àvutru"><i>n'àvutr</i><par n="bedd/u__adj"/></e>
     <e lm="ncrispatu"><i>ncrispat</i><par n="bedd/u__adj"/></e>
@@ -37918,6 +37957,14 @@
     <e lm="caractirìsticu"><i>caractirìstic</i><par n="ètic/u__adj"/></e>
     <e lm="chilpericu"><i>chilperic</i><par n="ètic/u__adj"/></e>
     <e lm="attimusfericu"><i>attimusferic</i><par n="ètic/u__adj"/></e>
+
+    <e lm="attimusfericu"><i>attimusferic</i><par n="ètic/u__adj"/></e>
+    <e lm="attimusfericu" r="LR"><p><l>atmusferic</l><r>attimusferic</r></p><par n="ètic/u__adj"/></e>
+    <e lm="attimusfericu" r="LR"><p><l>atmosferic</l><r>attimusferic</r></p><par n="ètic/u__adj"/></e>
+    <e lm="attimusfericu" r="LR"><p><l>attmosferic</l><r>attimusferic</r></p><par n="ètic/u__adj"/></e>
+    <e lm="attimusfericu" r="LR"><p><l>attmusferic</l><r>attimusferic</r></p><par n="ètic/u__adj"/></e>
+
+
     <e lm="transuranicu"><i>transuranic</i><par n="ètic/u__adj"/></e>
     <e lm="ntervucàlicu"><i>ntervucàlic</i><par n="ètic/u__adj"/></e>
     <e lm="statìsticu"><i>statìstic</i><par n="ètic/u__adj"/></e>
@@ -38062,8 +38109,14 @@
     <e lm="tòssicu"><i>tòssic</i><par n="ètic/u__adj"/></e>
     <e lm="umurìsticu"><i>umurìstic</i><par n="ètic/u__adj"/></e>
     <e lm="ungàricu"><i>ungàric</i><par n="ètic/u__adj"/></e>
+
     <e lm="unicu"><i>unic</i><par n="ètic/u__adj"/></e>
-    <e lm="unicu" r="LR"><p><l>punic</l><r>unic</r></p><par n="ètic/u__adj"/></e>
+    <e lm="unicu" r="LR"><p><l>ùnic</l><r>unic</r></p><par n="ètic/u__adj"/></e>
+    <e lm="unicu" r="LR"><p><l>ùnuc</l><r>unic</r></p><par n="ètic/u__adj"/></e>
+
+    <e lm="pùnicu"><i>pùnic</i><par n="bedd/u__adj"/></e>
+    <e lm="punicu" r="LR"><p><l>punic</l><r>pùnic</r></p><par n="ètic/u__adj"/></e>
+
     <e lm="urbanìsticu"><i>urbanìstic</i><par n="ètic/u__adj"/></e>
     <e lm="urganulètticu"><i>urganulèttic</i><par n="ètic/u__adj"/></e>
     <e lm="urgànicu"><i>urgànic</i><par n="ètic/u__adj"/></e>
@@ -38647,8 +38700,6 @@
     
     <e lm="furfurinu" r="LR"><p><l>libbirtin</l><r>furfurin</r></p><par n="bedd/u__adj"/></e>
     <e lm="furfurinu" r="LR"><p><l>libirtin</l><r>furfurin</r></p><par n="bedd/u__adj"/></e>
-    <e lm="unicu" r="LR"><p><l>ùnic</l><r>unic</r></p><par n="ètic/u__adj"/></e>
-    <e lm="unicu" r="LR"><p><l>ùnuc</l><r>unic</r></p><par n="ètic/u__adj"/></e>
     <e lm="cutturiusu" r="LR"><p><l>nantist</l><r>cutturius</r></p><par n="bedd/u__adj"/></e>
     <e lm="cutturiusu" r="LR"><p><l>catanius</l><r>cutturius</r></p><par n="bedd/u__adj"/></e>
     <e lm="pusitivu" r="LR"><p><l>positiv</l><r>pusitiv</r></p><par n="bedd/u__adj"/></e>
@@ -39069,129 +39120,133 @@
 
     <e lm="assai"><i>assai</i><par n="assai__preadv"/></e>
     <e lm="assai" r="LR"><p><l>assà</l><r>assai</r></p><par n="assai__preadv"/></e>
-    <e lm="assai"><i>assai</i><par n="oggi__adv"/></e>
-    <e lm="assai" r="LR"><p><l>assà</l><r>assai</r></p><par n="oggi__adv"/></e>
+    <e lm="assai"><i>assai</i><par n="oji__adv"/></e>
+    <e lm="assai" r="LR"><p><l>assà</l><r>assai</r></p><par n="oji__adv"/></e>
     
-    <e lm="nveci"><i>nveci</i><par n="oggi__adv"/></e>
-    <e lm="nveci" r="LR"><p><l>invece</l><r>nveci</r></p><par n="oggi__adv"/></e>
-    <e lm="nveci" r="LR"><p><l>inveci</l><r>nveci</r></p><par n="oggi__adv"/></e>
-    <e lm="nveci" r="LR"><p><l>anveci</l><r>nveci</r></p><par n="oggi__adv"/></e>
+    <e lm="nveci"><i>nveci</i><par n="oji__adv"/></e>
+    <e lm="nveci" r="LR"><p><l>invece</l><r>nveci</r></p><par n="oji__adv"/></e>
+    <e lm="nveci" r="LR"><p><l>inveci</l><r>nveci</r></p><par n="oji__adv"/></e>
+    <e lm="nveci" r="LR"><p><l>anveci</l><r>nveci</r></p><par n="oji__adv"/></e>
 
     <e lm="quasi"><i>quasi</i><par n="assai__preadv"/></e>
 
-    <e lm="nun"><i>nun</i><par n="oggi__adv"/></e>
-    <e lm="non" r="LR"><p><l>non</l><r>nun</r></p><par n="oggi__adv"/></e>
-    <e lm="non" r="LR"><p><l>'un</l><r>nun</r></p><par n="oggi__adv"/></e>
-    <e lm="ancora"><i>ancora</i><par n="oggi__adv"/></e>
-    <e lm="talvota"><i>talvota</i><par n="oggi__adv"/></e>
-    <e lm="ancora" r="LR"><p><l>ancùora</l><r>ancora</r></p><par n="oggi__adv"/></e>
-    <e lm="arretu"><i>arretu</i><par n="oggi__adv"/></e>
-    <e lm="accussì"><i>accussì</i><par n="oggi__adv"/></e>
-    <e lm="aundi"><i>aundi</i><par n="oggi__adv"/></e>
-    <e lm="appressu"><i>appressu</i><par n="oggi__adv"/></e>
-    <e lm="accussì" r="LR"><p><l>cussì</l><r>accussì</r></p><par n="oggi__adv"/></e>
-    <e lm="accussì" r="LR"><p><l>ccussì</l><r>accussì</r></p><par n="oggi__adv"/></e>
-    <e lm="accussì" r="LR"><p><l>accussini</l><r>accussì</r></p><par n="oggi__adv"/></e>
-    <e lm="cussini" r="LR"><p><l>cussini</l><r>accussì</r></p><par n="oggi__adv"/></e>
-    <e lm="accussì" r="LR"><p><l>cussini</l><r>accussì</r></p><par n="oggi__adv"/></e>
-    <e lm="accussì" r="LR"><p><l>a<b/>ccussì</l><r>accussì</r></p><par n="oggi__adv"/></e>
-    <e lm="accussì" r="LR"><p><l>a<b/>cussì</l><r>accussì</r></p><par n="oggi__adv"/></e>
+    <e lm="nun"><i>nun</i><par n="oji__adv"/></e>
+    <e lm="non" r="LR"><p><l>non</l><r>nun</r></p><par n="oji__adv"/></e>
+    <e lm="non" r="LR"><p><l>'un</l><r>nun</r></p><par n="oji__adv"/></e>
+    <e lm="ancora"><i>ancora</i><par n="oji__adv"/></e>
+    <e lm="talvota"><i>talvota</i><par n="oji__adv"/></e>
+    <e lm="ancora" r="LR"><p><l>ancùora</l><r>ancora</r></p><par n="oji__adv"/></e>
+    <e lm="arretu"><i>arretu</i><par n="oji__adv"/></e>
+    <e lm="accussì"><i>accussì</i><par n="oji__adv"/></e>
+    <e lm="aundi"><i>aundi</i><par n="oji__adv"/></e>
+    <e lm="appressu"><i>appressu</i><par n="oji__adv"/></e>
+    <e lm="accussì" r="LR"><p><l>cussì</l><r>accussì</r></p><par n="oji__adv"/></e>
+    <e lm="accussì" r="LR"><p><l>ccussì</l><r>accussì</r></p><par n="oji__adv"/></e>
+    <e lm="accussì" r="LR"><p><l>accussini</l><r>accussì</r></p><par n="oji__adv"/></e>
+    <e lm="cussini" r="LR"><p><l>cussini</l><r>accussì</r></p><par n="oji__adv"/></e>
+    <e lm="accussì" r="LR"><p><l>cussini</l><r>accussì</r></p><par n="oji__adv"/></e>
+    <e lm="accussì" r="LR"><p><l>a<b/>ccussì</l><r>accussì</r></p><par n="oji__adv"/></e>
+    <e lm="accussì" r="LR"><p><l>a<b/>cussì</l><r>accussì</r></p><par n="oji__adv"/></e>
     
-    <e lm="mmeci"><i>mmeci</i><par n="oggi__adv"/></e>
+    <e lm="mmeci"><i>mmeci</i><par n="oji__adv"/></e>
 
-    <e lm="nzèmmula"><i>nzèmmula</i><par n="oggi__adv"/></e>
-    <e lm="nzèmmula" r="LR"><p><l>nzemmula</l><r>nzèmmula</r></p><par n="oggi__adv"/></e>
-    <e lm="nzèmmula" r="LR"><p><l>nsèmmula</l><r>nzèmmula</r></p><par n="oggi__adv"/></e>
-    <e lm="nzèmmula" r="LR"><p><l>nzièmula</l><r>nzèmmula</r></p><par n="oggi__adv"/></e>
-    <e lm="nzèmmula" r="LR"><p><l>'nsemmula</l><r>nzèmmula</r></p><par n="oggi__adv"/></e>
+    <e lm="nzèmmula"><i>nzèmmula</i><par n="oji__adv"/></e>
+    <e lm="nzèmmula" r="LR"><p><l>nzemmula</l><r>nzèmmula</r></p><par n="oji__adv"/></e>
+    <e lm="nzèmmula" r="LR"><p><l>nsèmmula</l><r>nzèmmula</r></p><par n="oji__adv"/></e>
+    <e lm="nzèmmula" r="LR"><p><l>nzièmula</l><r>nzèmmula</r></p><par n="oji__adv"/></e>
+    <e lm="nzèmmula" r="LR"><p><l>'nsemmula</l><r>nzèmmula</r></p><par n="oji__adv"/></e>
     
     <e lm="tali"><i>tali</i><par n="assai__preadv"/></e>
 
-	<e lm="oggi"><par n="o/u"/><i>ggi</i><par n="oggi__adv"/></e>
-    <e lm="oggi" r="LR"><p><l>ùoggi</l><r>oggi</r></p><par n="oggi__adv"/></e>
-    <e lm="oggi" r="LR"><p><l>òi</l><r>oggi</r></p><par n="oggi__adv"/></e>
-    <e lm="ammèci"><i>ammèci</i><par n="oggi__adv"/></e>
-    <e lm="siccomu"><i>siccomu</i><par n="oggi__adv"/></e>
+    <e lm="oji"><i>ji</i><par n="oji__adv"/></e>
+    <e lm="oji" r="LR"><p><l>ùoggi</l><r>oji</r></p><par n="oji__adv"/></e>
+    <e lm="oji" r="LR"><par n="o/u"/><p><l>ggi</l><r>ji</r></p><par n="oji__adv"/></e>
+    <e lm="oji" r="LR"><p><l>òi</l><r>oji</r></p><par n="oji__adv"/></e>
+    <e lm="oji" r="LR"><par n="o/u"/><p><l>i</l><r>ji</r></p><par n="oji__adv"/></e>
+    <e lm="oji" r="LR"><par n="o/u"/><p><l>j</l><r>ji</r></p><par n="oji__adv"/></e>
+
+    <e lm="ammèci"><i>ammèci</i><par n="oji__adv"/></e>
+    <e lm="siccomu"><i>siccomu</i><par n="oji__adv"/></e>
     
-    <e lm="tuttavìa"><i>tuttavìa</i><par n="oggi__adv"/></e>
-    <e lm="chiuttostu"><i>chiuttostu</i><par n="oggi__adv"/></e>
-    <e lm="nni sta òttica"><i>nni<b/>sta<b/>òttica</i><par n="oggi__adv"/></e>
-    <e lm="nni sta òttica" r="LR"><p><l>nni<b/>st'òttica</l><r>nni<b/>sta<b/>òttica</r></p><par n="oggi__adv"/></e>
+    <e lm="tuttavìa"><i>tuttavìa</i><par n="oji__adv"/></e>
+    <e lm="chiuttostu"><i>chiuttostu</i><par n="oji__adv"/></e>
+    <e lm="nni sta òttica"><i>nni<b/>sta<b/>òttica</i><par n="oji__adv"/></e>
+    <e lm="nni sta òttica" r="LR"><p><l>nni<b/>st'òttica</l><r>nni<b/>sta<b/>òttica</r></p><par n="oji__adv"/></e>
 
-    <e lm="di norma"><i>di<b/>norma</i><par n="oggi__adv"/></e>
+    <e lm="di norma"><i>di<b/>norma</i><par n="oji__adv"/></e>
 
-    <e lm="discutibbirmenti"><i>discutibbirmenti</i><par n="oggi__adv"/></e>
-
-    
-
-    <e lm="mai"><i>mai</i><par n="oggi__adv"/></e>
-    <e lm="poi"><i>poi</i><par n="oggi__adv"/></e>
-    <e lm="appoi"><i>appoi</i><par n="oggi__adv"/></e>
-    <e lm="circa"><i>circa</i><par n="oggi__adv"/></e>
-    <e lm="troppu"><i>troppu</i><par n="oggi__adv"/></e>
-    <e lm="macàri"><i>macàri</i><par n="oggi__adv"/></e>
-    <e lm="macàri" r="LR"><p><l>macari</l><r>macàri</r></p><par n="oggi__adv"/></e>
-    <e lm="arreri"><i>arreri</i><par n="oggi__adv"/></e>
-    <e lm="arreri" r="LR"><p><l>arredi</l><r>arreri</r></p><par n="oggi__adv"/></e>
-    <e lm="arreri" r="LR"><p><l>arreti</l><r>arreri</r></p><par n="oggi__adv"/></e>
-    <e lm="arreri" r="LR"><p><l>arredu</l><r>arreri</r></p><par n="oggi__adv"/></e>
-    <e lm="arreri" r="LR"><p><l>arretu</l><r>arreri</r></p><par n="oggi__adv"/></e>
-    <e lm="arreri" r="LR"><p><l>arreru</l><r>arreri</r></p><par n="oggi__adv"/></e>
-    <e lm="arreri" r="LR"><p><l>arrè</l><r>arreri</r></p><par n="oggi__adv"/></e>
-    <e lm="allura"><i>allura</i><par n="oggi__adv"/></e>
-    <e lm="allura" r="LR"><p><l>allora</l><r>allura</r></p><par n="oggi__adv"/></e>
-    <e lm="videmma"><i>videmma</i><par n="oggi__adv"/></e>
-    <e lm="videmma" r="LR"><p><l>videmmi</l><r>videmma</r></p><par n="oggi__adv"/></e>
-    <e lm="videmma" r="LR"><p><l>viremma</l><r>videmma</r></p><par n="oggi__adv"/></e>
-    <e lm="videmma" r="LR"><p><l>virè</l><r>videmma</r></p><par n="oggi__adv"/></e>
-    <e lm="midemma"><i>midemma</i><par n="oggi__adv"/></e>
-    <e lm="midemma" r="LR"><p><l>miremma</l><r>midemma</r></p><par n="oggi__adv"/></e>
-    <e lm="midemma" r="LR"><p><l>midemmi</l><r>midemma</r></p><par n="oggi__adv"/></e>
-    <e lm="midemma" r="LR"><p><l>midè</l><r>midemma</r></p><par n="oggi__adv"/></e>
-    <e lm="midemma" r="LR"><p><l>uremma</l><r>midemma</r></p><par n="oggi__adv"/></e>
+    <e lm="discutibbirmenti"><i>discutibbirmenti</i><par n="oji__adv"/></e>
 
     
-    <e lm="d'arretu"><i>d'arretu</i><par n="oggi__adv"/></e>
-    <e lm="araciu"><i>araciu</i><par n="oggi__adv"/></e>
-    <e lm="fori"><i>fori</i><par n="oggi__adv"/></e>
-    <e lm="nfini"><i>nfini</i><par n="oggi__adv"/></e>
-    <e lm="fora"><i>fora</i><par n="oggi__adv"/></e>
-    <e lm="già"><i>già</i><par n="oggi__adv"/></e>
-    <e lm="già" r="LR"><p><l>ja</l><r>già</r></p><par n="oggi__adv"/></e>
-    <e lm="già" r="LR"><p><l>ia</l><r>già</r></p><par n="oggi__adv"/></e>
-    <e lm="ora"><par n="o/u"/><i>ra</i><par n="oggi__adv"/></e>
-    <e lm="aieri"><i>aieri</i><par n="oggi__adv"/></e>
-    <e lm="puru"><i>puru</i><par n="oggi__adv"/></e>
-    <e lm="oppuru"><par n="o/u"/><i>ppuru</i><par n="oggi__adv"/></e>
-    <e lm="sempri"><i>sempri</i><par n="oggi__adv"/></e>
-    <e lm="sempri" r="LR" c="Dial/X"><p><l>sempi</l><r>sempri</r></p><par n="oggi__adv"/></e>
-    <e lm="sempri" r="LR"><p><l>sempre</l><r>sempri</r></p><par n="oggi__adv"/></e>
-    <e lm="no"><i>no</i><par n="oggi__adv"/></e>
-    <e lm="granni"><i>granni</i><par n="oggi__adv"/></e>
-    <e lm="fuori"><i>fuori</i><par n="oggi__adv"/></e>
-    <e lm="cchiù"><i>cchiù</i><par n="oggi__adv"/></e>
-    <e lm="cchiù" r="LR"><p><l>chiù</l><r>cchiù</r></p><par n="oggi__adv"/></e>
-    <e lm="cchiù" r="LR"><p><l>ciù</l><r>cchiù</r></p><par n="oggi__adv"/></e>
-    <e lm="cchiù" r="LR"><p><l>cchiossai</l><r>cchiù</r></p><par n="oggi__adv"/></e>
-    <e lm="cchiù" r="LR"><p><l>chiossai</l><r>cchiù</r></p><par n="oggi__adv"/></e>
-    <e lm="cchiù" r="LR"><p><l>cchiu'</l><r>cchiù</r></p><par n="oggi__adv"/></e>
-    <e lm="cchiù" r="LR"><p><l>cchìu</l><r>cchiù</r></p><par n="oggi__adv"/></e>
-    <e lm="cchiù" r="LR"><p><l>cchù</l><r>cchiù</r></p><par n="oggi__adv"/></e>
-    <e lm="cchiù" r="LR"><p><l>cchiui</l><r>cchiù</r></p><par n="oggi__adv"/></e>
-    <e lm="càudu"><i>càudu</i><par n="oggi__adv"/></e>
-    <e lm="friddu"><i>friddu</i><par n="oggi__adv"/></e>
-    <e lm="nzemi"><i>nzemi</i><par n="oggi__adv"/></e>
-    <e lm="nzemi" r="LR"><p><l>nsemi</l><r>nzemi</r></p><par n="oggi__adv"/></e>
-    <e lm="nzemi" r="LR"><p><l>insemi</l><r>nzemi</r></p><par n="oggi__adv"/></e>
-    <e lm="nzemi" r="LR"><p><l>'nsemi</l><r>nzemi</r></p><par n="oggi__adv"/></e>
-    <e lm="bonu"><i>bonu</i><par n="oggi__adv"/></e>
-    <e lm="megghiu"><i>megghiu</i><par n="oggi__adv"/></e>
-    <e lm="pocu"><i>pocu</i><par n="oggi__adv"/></e>
-    <e lm="sulu"><i>sulu</i><par n="oggi__adv"/></e>
-    <e lm="accamora"><i>accamora</i><par n="oggi__adv"/></e>
-    <e lm="menu"><i>menu</i><par n="oggi__adv"/></e>
-    <e lm="sùbbitu"><i>sùbbitu</i><par n="oggi__adv"/></e>
-    <e lm="sùbbitu" r="LR"><p><l>sùbbutu</l><r>sùbbitu</r></p><par n="oggi__adv"/></e>
+
+    <e lm="mai"><i>mai</i><par n="oji__adv"/></e>
+    <e lm="poi"><i>poi</i><par n="oji__adv"/></e>
+    <e lm="appoi"><i>appoi</i><par n="oji__adv"/></e>
+    <e lm="circa"><i>circa</i><par n="oji__adv"/></e>
+    <e lm="troppu"><i>troppu</i><par n="oji__adv"/></e>
+    <e lm="macàri"><i>macàri</i><par n="oji__adv"/></e>
+    <e lm="macàri" r="LR"><p><l>macari</l><r>macàri</r></p><par n="oji__adv"/></e>
+    <e lm="arreri"><i>arreri</i><par n="oji__adv"/></e>
+    <e lm="arreri" r="LR"><p><l>arredi</l><r>arreri</r></p><par n="oji__adv"/></e>
+    <e lm="arreri" r="LR"><p><l>arreti</l><r>arreri</r></p><par n="oji__adv"/></e>
+    <e lm="arreri" r="LR"><p><l>arredu</l><r>arreri</r></p><par n="oji__adv"/></e>
+    <e lm="arreri" r="LR"><p><l>arretu</l><r>arreri</r></p><par n="oji__adv"/></e>
+    <e lm="arreri" r="LR"><p><l>arreru</l><r>arreri</r></p><par n="oji__adv"/></e>
+    <e lm="arreri" r="LR"><p><l>arrè</l><r>arreri</r></p><par n="oji__adv"/></e>
+    <e lm="allura"><i>allura</i><par n="oji__adv"/></e>
+    <e lm="allura" r="LR"><p><l>allora</l><r>allura</r></p><par n="oji__adv"/></e>
+    <e lm="videmma"><i>videmma</i><par n="oji__adv"/></e>
+    <e lm="videmma" r="LR"><p><l>videmmi</l><r>videmma</r></p><par n="oji__adv"/></e>
+    <e lm="videmma" r="LR"><p><l>viremma</l><r>videmma</r></p><par n="oji__adv"/></e>
+    <e lm="videmma" r="LR"><p><l>virè</l><r>videmma</r></p><par n="oji__adv"/></e>
+    <e lm="midemma"><i>midemma</i><par n="oji__adv"/></e>
+    <e lm="midemma" r="LR"><p><l>miremma</l><r>midemma</r></p><par n="oji__adv"/></e>
+    <e lm="midemma" r="LR"><p><l>midemmi</l><r>midemma</r></p><par n="oji__adv"/></e>
+    <e lm="midemma" r="LR"><p><l>midè</l><r>midemma</r></p><par n="oji__adv"/></e>
+    <e lm="midemma" r="LR"><p><l>uremma</l><r>midemma</r></p><par n="oji__adv"/></e>
+
+    
+    <e lm="d'arretu"><i>d'arretu</i><par n="oji__adv"/></e>
+    <e lm="araciu"><i>araciu</i><par n="oji__adv"/></e>
+    <e lm="fori"><i>fori</i><par n="oji__adv"/></e>
+    <e lm="nfini"><i>nfini</i><par n="oji__adv"/></e>
+    <e lm="fora"><i>fora</i><par n="oji__adv"/></e>
+    <e lm="già"><i>già</i><par n="oji__adv"/></e>
+    <e lm="già" r="LR"><p><l>ja</l><r>già</r></p><par n="oji__adv"/></e>
+    <e lm="già" r="LR"><p><l>ia</l><r>già</r></p><par n="oji__adv"/></e>
+    <e lm="ora"><par n="o/u"/><i>ra</i><par n="oji__adv"/></e>
+    <e lm="aieri"><i>aieri</i><par n="oji__adv"/></e>
+    <e lm="puru"><i>puru</i><par n="oji__adv"/></e>
+    <e lm="oppuru"><par n="o/u"/><i>ppuru</i><par n="oji__adv"/></e>
+    <e lm="sempri"><i>sempri</i><par n="oji__adv"/></e>
+    <e lm="sempri" r="LR" c="Dial/X"><p><l>sempi</l><r>sempri</r></p><par n="oji__adv"/></e>
+    <e lm="sempri" r="LR"><p><l>sempre</l><r>sempri</r></p><par n="oji__adv"/></e>
+    <e lm="no"><i>no</i><par n="oji__adv"/></e>
+    <e lm="granni"><i>granni</i><par n="oji__adv"/></e>
+    <e lm="fuori"><i>fuori</i><par n="oji__adv"/></e>
+    <e lm="cchiù"><i>cchiù</i><par n="oji__adv"/></e>
+    <e lm="cchiù" r="LR"><p><l>chiù</l><r>cchiù</r></p><par n="oji__adv"/></e>
+    <e lm="cchiù" r="LR"><p><l>ciù</l><r>cchiù</r></p><par n="oji__adv"/></e>
+    <e lm="cchiù" r="LR"><p><l>cchiossai</l><r>cchiù</r></p><par n="oji__adv"/></e>
+    <e lm="cchiù" r="LR"><p><l>chiossai</l><r>cchiù</r></p><par n="oji__adv"/></e>
+    <e lm="cchiù" r="LR"><p><l>cchiu'</l><r>cchiù</r></p><par n="oji__adv"/></e>
+    <e lm="cchiù" r="LR"><p><l>cchìu</l><r>cchiù</r></p><par n="oji__adv"/></e>
+    <e lm="cchiù" r="LR"><p><l>cchù</l><r>cchiù</r></p><par n="oji__adv"/></e>
+    <e lm="cchiù" r="LR"><p><l>cchiui</l><r>cchiù</r></p><par n="oji__adv"/></e>
+    <e lm="càudu"><i>càudu</i><par n="oji__adv"/></e>
+    <e lm="friddu"><i>friddu</i><par n="oji__adv"/></e>
+    <e lm="nzemi"><i>nzemi</i><par n="oji__adv"/></e>
+    <e lm="nzemi" r="LR"><p><l>nsemi</l><r>nzemi</r></p><par n="oji__adv"/></e>
+    <e lm="nzemi" r="LR"><p><l>insemi</l><r>nzemi</r></p><par n="oji__adv"/></e>
+    <e lm="nzemi" r="LR"><p><l>'nsemi</l><r>nzemi</r></p><par n="oji__adv"/></e>
+    <e lm="bonu"><i>bonu</i><par n="oji__adv"/></e>
+    <e lm="megghiu"><i>megghiu</i><par n="oji__adv"/></e>
+    <e lm="pocu"><i>pocu</i><par n="oji__adv"/></e>
+    <e lm="sulu"><i>sulu</i><par n="oji__adv"/></e>
+    <e lm="accamora"><i>accamora</i><par n="oji__adv"/></e>
+    <e lm="menu"><i>menu</i><par n="oji__adv"/></e>
+    <e lm="sùbbitu"><i>sùbbitu</i><par n="oji__adv"/></e>
+    <e lm="sùbbitu" r="LR"><p><l>sùbbutu</l><r>sùbbitu</r></p><par n="oji__adv"/></e>
     
     <e lm="a.C."><i>a.C.</i><par n="a.C.__adv"/></e>
     <e lm="a.C." r="LR"><p><l>a.c.</l><r>a.C.</r></p><par n="a.C.__adv"/></e>
@@ -39204,23 +39259,23 @@
 
     <e lm="ecc."><i>ecc.</i><par n="a.C.__adv"/></e>
     <e lm="ecc." r="LR"><p><l>etc.</l><r>ecc.</r></p><par n="a.C.__adv"/></e>
-    <e lm="eccetra"><i>eccetra</i><par n="oggi__adv"/></e>
+    <e lm="eccetra"><i>eccetra</i><par n="oji__adv"/></e>
     <e lm="sec."><i>sec.</i><par n="a.C.__adv"/></e>
     <e lm="s.l.m."><i>s.l.m.</i><par n="a.C.__adv"/></e>
     <e lm="s.m."><i>s.m.</i><par n="a.C.__adv"/></e>
     <e lm="m.s.m"><i>m.s.m.</i><par n="a.C.__adv"/></e>
     <e lm="p.e.v."><i>p.e.v.</i><par n="a.C.__adv"/></e>
     
-	<e lm="a nuddabbanna"><i>a<b/>nuddabbanna</i><par n="oggi__adv"/></e>
-    <e lm="abbasciu"><i>abbasciu</i><par n="oggi__adv"/></e>
-    <e lm="pressu"><i>pressu</i><par n="oggi__adv"/></e>
-    <e lm="pressu" r="LR"><p><l>apressu</l><r>pressu</r></p><par n="oggi__adv"/></e>
-    <e lm="dappirtuttu"><i>dappirtuttu</i><par n="oggi__adv"/></e>
-    <e lm="a tutti banni"><i>a<b/>tutti<b/>banni</i><par n="oggi__adv"/></e>
-    <e lm="arrassu"><i>arrassu</i><par n="oggi__adv"/></e>
-    <e lm="avanti"><i>avanti</i><par n="oggi__adv"/></e>
-    <e lm="ccà"><i>ccà</i><par n="oggi__adv"/></e>
-    <e lm="cci"><i>cci</i><par n="oggi__adv"/></e>
+	<e lm="a nuddabbanna"><i>a<b/>nuddabbanna</i><par n="oji__adv"/></e>
+    <e lm="abbasciu"><i>abbasciu</i><par n="oji__adv"/></e>
+    <e lm="pressu"><i>pressu</i><par n="oji__adv"/></e>
+    <e lm="pressu" r="LR"><p><l>apressu</l><r>pressu</r></p><par n="oji__adv"/></e>
+    <e lm="dappirtuttu"><i>dappirtuttu</i><par n="oji__adv"/></e>
+    <e lm="a tutti banni"><i>a<b/>tutti<b/>banni</i><par n="oji__adv"/></e>
+    <e lm="arrassu"><i>arrassu</i><par n="oji__adv"/></e>
+    <e lm="avanti"><i>avanti</i><par n="oji__adv"/></e>
+    <e lm="ccà"><i>ccà</i><par n="oji__adv"/></e>
+    <e lm="cci"><i>cci</i><par n="oji__adv"/></e>
     <e lm="troppa"><i>troppa</i><par n="duci__adj"/></e>
     <e lm="britannicu"><i>britannic</i><par n="ètic/u__adj"/></e>
     <e lm="cilenu"><i>cilen</i><par n="bedd/u__adj"/></e>
@@ -39798,6 +39853,11 @@
     <e lm="mpurtanti" r="LR"><p><l>importanti</l><r>mpurtanti</r></p><par n="duci__adj"/></e>
     <e lm="mpurtanti" r="LR"><p><l>importante</l><r>mpurtanti</r></p><par n="duci__adj"/></e>
     <e lm="mpurtanti" r="LR"><p><l>mpurtani</l><r>mpurtanti</r></p><par n="duci__adj"/></e>
+    <e lm="mpurtanti" r="LR"><p><l>mpuirtanti</l><r>mpurtanti</r></p><par n="duci__adj"/></e>
+    <e lm="mpurtanti" r="LR"><p><l>mpuortanti</l><r>mpurtanti</r></p><par n="duci__adj"/></e>
+    <e lm="mpurtanti" r="LR"><p><l>mpurtante</l><r>mpurtanti</r></p><par n="duci__adj"/></e>
+    <e lm="mpurtanti" r="LR"><p><l>impuirtanti</l><r>mpurtanti</r></p><par n="duci__adj"/></e>
+    <e lm="mpurtanti" r="LR"><p><l>importanta</l><r>mpurtanti</r></p><par n="duci__adj"/></e>
     <e lm="mpurtantissimu"><i>mpurtantissim</i><par n="bedd/u__adj"/></e>
     <e lm="mpurtantissimu" r="LR"><p><l>importantissim</l><r>mpurtantissim</r></p><par n="bedd/u__adj"/></e>
     <e lm="imposibili"><par n="im/m"/><i>posibili</i><par n="duci__adj"/></e>
@@ -40524,6 +40584,7 @@
     <e lm="spinsiratu"><i>spinsirat</i><par n="bedd/u__adj"/></e>
     <e lm="spiranzusu"><i>spiranzus</i><par n="bedd/u__adj"/></e>
     <e lm="spirdutu"><i>spirdut</i><par n="bedd/u__adj"/></e>
+    <e lm="pirdutu"><i>pirdut</i><par n="bedd/u__adj"/></e>
     <e lm="spirigiuru"><i>spirigiur</i><par n="bedd/u__adj"/></e>
     <e lm="spiritusu"><i>spiritus</i><par n="bedd/u__adj"/></e>
     <e lm="spizzatu"><i>spizzat</i><par n="bedd/u__adj"/></e>
@@ -40742,941 +40803,940 @@
     <e lm="rilativìsticu"><par n="ri/re"/><i>lativìstic</i><par n="ètic/u__adj"/></e>
 
 
-    <e lm="darreri"><i>darreri</i><par n="oggi__adv"/></e>
-    <e lm="darreri" r="LR"><p><l>darredi</l><r>darreri</r></p><par n="oggi__adv"/></e>
-    <e lm="darreri" r="LR"><p><l>darreti</l><r>darreri</r></p><par n="oggi__adv"/></e>
-    <e lm="darreri" r="LR"><p><l>darredu</l><r>darreri</r></p><par n="oggi__adv"/></e>
-    <e lm="darreri" r="LR"><p><l>darretu</l><r>darreri</r></p><par n="oggi__adv"/></e>
-    <e lm="darreri" r="LR"><p><l>darreru</l><r>darreri</r></p><par n="oggi__adv"/></e>
-    <e lm="darreri" r="LR"><p><l>d'arreri</l><r>darreri</r></p><par n="oggi__adv"/></e>
-    <e lm="darreri" r="LR"><p><l>d'arredi</l><r>darreri</r></p><par n="oggi__adv"/></e>
-    <e lm="darreri" r="LR"><p><l>d'arreti</l><r>darreri</r></p><par n="oggi__adv"/></e>
-    <e lm="darreri" r="LR"><p><l>d'arredu</l><r>darreri</r></p><par n="oggi__adv"/></e>
-    <e lm="darreri" r="LR"><p><l>d'arretu</l><r>darreri</r></p><par n="oggi__adv"/></e>
-    <e lm="darreri" r="LR"><p><l>d'arrer</l><r>darreri</r></p><par n="oggi__adv"/></e>
-    <e lm="darreri" r="LR"><p><l>d'arretè</l><r>darreri</r></p><par n="oggi__adv"/></e>
-    <e lm="darreri" r="LR"><p><l>darrè</l><r>darreri</r></p><par n="oggi__adv"/></e>
-    <e lm="davanti"><i>davanti</i><par n="oggi__adv"/></e>
-    <e lm="dintra"><i>dintra</i><par n="oggi__adv"/></e>
-    <e lm="ddocu"><i>ddocu</i><par n="oggi__adv"/></e>
-    <e lm="ddocu" r="LR"><p><l>ddà</l><r>ddocu</r></p><par n="oggi__adv"/></e>
-    <e lm="ddocu" r="LR"><p><l>ddani</l><r>ddocu</r></p><par n="oggi__adv"/></e>
-    <e lm="iusu"><i>iusu</i><par n="oggi__adv"/></e>
-    <e lm="iusu" r="LR"><p><l>gnusu</l><r>iusu</r></p><par n="oggi__adv"/></e>
-    <e lm="iusu" r="LR"><p><l>jusu</l><r>iusu</r></p><par n="oggi__adv"/></e>
-    <e lm="iusu" r="LR"><p><l>njusu</l><r>iusu</r></p><par n="oggi__adv"/></e>
-    <e lm="orammai"><par n="o/u"/><i>rammai</i><par n="oggi__adv"/></e>
+    <e lm="darreri"><i>darreri</i><par n="oji__adv"/></e>
+    <e lm="darreri" r="LR"><p><l>darredi</l><r>darreri</r></p><par n="oji__adv"/></e>
+    <e lm="darreri" r="LR"><p><l>darreti</l><r>darreri</r></p><par n="oji__adv"/></e>
+    <e lm="darreri" r="LR"><p><l>darredu</l><r>darreri</r></p><par n="oji__adv"/></e>
+    <e lm="darreri" r="LR"><p><l>darretu</l><r>darreri</r></p><par n="oji__adv"/></e>
+    <e lm="darreri" r="LR"><p><l>darreru</l><r>darreri</r></p><par n="oji__adv"/></e>
+    <e lm="darreri" r="LR"><p><l>d'arreri</l><r>darreri</r></p><par n="oji__adv"/></e>
+    <e lm="darreri" r="LR"><p><l>d'arredi</l><r>darreri</r></p><par n="oji__adv"/></e>
+    <e lm="darreri" r="LR"><p><l>d'arreti</l><r>darreri</r></p><par n="oji__adv"/></e>
+    <e lm="darreri" r="LR"><p><l>d'arredu</l><r>darreri</r></p><par n="oji__adv"/></e>
+    <e lm="darreri" r="LR"><p><l>d'arretu</l><r>darreri</r></p><par n="oji__adv"/></e>
+    <e lm="darreri" r="LR"><p><l>d'arrer</l><r>darreri</r></p><par n="oji__adv"/></e>
+    <e lm="darreri" r="LR"><p><l>d'arretè</l><r>darreri</r></p><par n="oji__adv"/></e>
+    <e lm="darreri" r="LR"><p><l>darrè</l><r>darreri</r></p><par n="oji__adv"/></e>
+    <e lm="davanti"><i>davanti</i><par n="oji__adv"/></e>
+    <e lm="dintra"><i>dintra</i><par n="oji__adv"/></e>
+    <e lm="ddocu"><i>ddocu</i><par n="oji__adv"/></e>
+    <e lm="ddocu" r="LR"><p><l>ddà</l><r>ddocu</r></p><par n="oji__adv"/></e>
+    <e lm="ddocu" r="LR"><p><l>ddani</l><r>ddocu</r></p><par n="oji__adv"/></e>
+    <e lm="iusu"><i>iusu</i><par n="oji__adv"/></e>
+    <e lm="iusu" r="LR"><p><l>gnusu</l><r>iusu</r></p><par n="oji__adv"/></e>
+    <e lm="iusu" r="LR"><p><l>jusu</l><r>iusu</r></p><par n="oji__adv"/></e>
+    <e lm="iusu" r="LR"><p><l>njusu</l><r>iusu</r></p><par n="oji__adv"/></e>
+    <e lm="orammai"><par n="o/u"/><i>rammai</i><par n="oji__adv"/></e>
     
-    <e lm="luntanu"><i>luntanu</i><par n="oggi__adv"/></e>
-    <e lm="nni"><i>nni</i><par n="oggi__adv"/></e>
-    <e lm="susu"><i>susu</i><par n="oggi__adv"/></e>
-    <e lm="viciversa"><i>viciversa</i><par n="oggi__adv"/></e>
-    <e lm="supra"><i>supra</i><par n="oggi__adv"/></e>
-    <e lm="soprattuttu"><i>soprattuttu</i><par n="oggi__adv"/></e>
-    <e lm="soprattuttu" r="LR"><p><l>sopratuttu</l><r>soprattuttu</r></p><par n="oggi__adv"/></e>
-    <e lm="sutta"><i>sutta</i><par n="oggi__adv"/></e>
-    <e lm="vicinu"><i>vicinu</i><par n="oggi__adv"/></e>
-    <e lm="camora" r="LR"><p><l>camora</l><r>accamora</r></p><par n="oggi__adv"/></e>
-    <e lm="camora" r="LR"><p><l>accamadora</l><r>accamora</r></p><par n="oggi__adv"/></e>
-    <e lm="camora" r="LR"><p><l>accamarora</l><r>accamora</r></p><par n="oggi__adv"/></e>
-    <e lm="camora" r="LR"><p><l>camadora</l><r>accamora</r></p><par n="oggi__adv"/></e>
-    <e lm="camora" r="LR"><p><l>camaruora</l><r>accamora</r></p><par n="oggi__adv"/></e>
-    <e lm="camora" r="LR"><p><l>a<b/>camadora</l><r>accamora</r></p><par n="oggi__adv"/></e>
-    <e lm="camora" r="LR"><p><l>a<b/>ccamora</l><r>accamora</r></p><par n="oggi__adv"/></e>
-    <e lm="camora" r="LR"><p><l>a<b/>camòra</l><r>accamora</r></p><par n="oggi__adv"/></e>
+    <e lm="luntanu"><i>luntanu</i><par n="oji__adv"/></e>
+    <e lm="nni"><i>nni</i><par n="oji__adv"/></e>
+    <e lm="susu"><i>susu</i><par n="oji__adv"/></e>
+    <e lm="viciversa"><i>viciversa</i><par n="oji__adv"/></e>
+    <e lm="supra"><i>supra</i><par n="oji__adv"/></e>
+    <e lm="soprattuttu"><i>soprattuttu</i><par n="oji__adv"/></e>
+    <e lm="soprattuttu" r="LR"><p><l>sopratuttu</l><r>soprattuttu</r></p><par n="oji__adv"/></e>
+    <e lm="sutta"><i>sutta</i><par n="oji__adv"/></e>
+    <e lm="vicinu"><i>vicinu</i><par n="oji__adv"/></e>
+    <e lm="camora" r="LR"><p><l>camora</l><r>accamora</r></p><par n="oji__adv"/></e>
+    <e lm="camora" r="LR"><p><l>accamadora</l><r>accamora</r></p><par n="oji__adv"/></e>
+    <e lm="camora" r="LR"><p><l>accamarora</l><r>accamora</r></p><par n="oji__adv"/></e>
+    <e lm="camora" r="LR"><p><l>camadora</l><r>accamora</r></p><par n="oji__adv"/></e>
+    <e lm="camora" r="LR"><p><l>camaruora</l><r>accamora</r></p><par n="oji__adv"/></e>
+    <e lm="camora" r="LR"><p><l>a<b/>camadora</l><r>accamora</r></p><par n="oji__adv"/></e>
+    <e lm="camora" r="LR"><p><l>a<b/>ccamora</l><r>accamora</r></p><par n="oji__adv"/></e>
+    <e lm="camora" r="LR"><p><l>a<b/>camòra</l><r>accamora</r></p><par n="oji__adv"/></e>
 
-    <e lm="en larga parti"><i>en<b/>larga<b/>parti</i><par n="oggi__adv"/></e>
-    <e lm="en larga parti" r="LR"><p><l>'n<b/>larga<b/>parti</l><r>en<b/>larga<b/>parti</r></p><par n="oggi__adv"/></e>
+    <e lm="en larga parti"><i>en<b/>larga<b/>parti</i><par n="oji__adv"/></e>
+    <e lm="en larga parti" r="LR"><p><l>'n<b/>larga<b/>parti</l><r>en<b/>larga<b/>parti</r></p><par n="oji__adv"/></e>
 
-    <e lm="a manu a manu"><i>a<b/>manu<b/>a<b/>manu</i><par n="oggi__adv"/></e>
-    <e lm="aieri avanti"><i>aieri<b/>avanti</i><par n="oggi__adv"/></e>
-    <e lm="a picca a picca"><i>a<b/>picca<b/>a<b/>picca</i><par n="oggi__adv"/></e>
-    <e lm="aieri l'autru"><i>aieri<b/>l'autru</i><par n="oggi__adv"/></e>
-    <e lm="aieri sira"><i>aieri<b/>sira</i><par n="oggi__adv"/></e>
-    <e lm="aieri sira" r="LR"><p><l>assira</l><r>aieri<b/>sira</r></p><par n="oggi__adv"/></e>
-    <e lm="aieri sira" r="LR"><p><l>arsira</l><r>aieri<b/>sira</r></p><par n="oggi__adv"/></e>
-    <e lm="ancora" r="LR"><p><l>ancura</l><r>ancora</r></p><par n="oggi__adv"/></e>
-    <e lm="di iornu"><i>di<b/>iornu</i><par n="oggi__adv"/></e>
-    <e lm="di notti"><i>di<b/>notti</i><par n="oggi__adv"/></e>
-    <e lm="dumani"><i>dumani</i><par n="oggi__adv"/></e>
-    <e lm="doppu"><i>doppu</i><par n="oggi__adv"/></e>
-    <e lm="doppu" r="LR"><p><l>addoppu</l><r>doppu</r></p><par n="oggi__adv"/></e>
-    <e lm="doppu" r="LR"><p><l>dopo</l><r>doppu</r></p><par n="oggi__adv"/></e>
-    <e lm="doppu dumani"><i>doppu<b/>dumani</i><par n="oggi__adv"/></e>
-    <e lm="la sira avanti"><i>la<b/>sira<b/>avanti</i><par n="oggi__adv"/></e>
-    <e lm="manu manu"><i>manu<b/>manu</i><par n="oggi__adv"/></e>
-    <e lm="ntantu"><i>ntantu</i><par n="oggi__adv"/></e>
-    <e lm="oramai"><par n="o/u"/><i>ramai</i><par n="oggi__adv"/></e>
-    <e lm="ora ora"><par n="o/u"/><i>ra<b/>ora</i><par n="oggi__adv"/></e>
-    <e lm="ora stissu"><par n="o/u"/><i>ra<b/>stissu</i><par n="oggi__adv"/></e>
-    <e lm="ottu iorna oi"><par n="o/u"/><i>ttu<b/>iorna<b/>oi</i><par n="oggi__adv"/></e>
-    <e lm="pirtempu"><i>pirtempu</i><par n="oggi__adv"/></e>
-    <e lm="prestu"><i>prestu</i><par n="oggi__adv"/></e>
-    <e lm="propiu ora"><i>propiu<b/>ora</i><par n="oggi__adv"/></e>
-    <e lm="propriu ora"><i>propriu<b/>ora</i><par n="oggi__adv"/></e>
-    <e lm="quinnici iorna oi"><i>quinnici<b/>iorna<b/>oi</i><par n="oggi__adv"/></e>
-    <e lm="pi sempri"><i>pi<b/>sempri</i><par n="oggi__adv"/></e>
-    <e lm="spissu"><i>spissu</i><par n="oggi__adv"/></e>
-    <e lm="stamatina"><i>stamatina</i><par n="oggi__adv"/></e>
-    <e lm="stasira"><i>stasira</i><par n="oggi__adv"/></e>
-    <e lm="stanotti"><i>stanotti</i><par n="oggi__adv"/></e>
-    <e lm="stu iornu"><i>stu<b/>iornu</i><par n="oggi__adv"/></e>
-    <e lm="subbitu"><i>subbitu</i><par n="oggi__adv"/></e>
-    <e lm="tannu"><i>tannu</i><par n="oggi__adv"/></e>
-    <e lm="tardu"><i>tardu</i><par n="oggi__adv"/></e>
-    <e lm="tra pocu"><i>tra<b/>pocu</i><par n="oggi__adv"/></e>
-    <e lm="quannu tempu"><i>quannu<b/>tempu</i><par n="oggi__adv"/></e>
+    <e lm="a manu a manu"><i>a<b/>manu<b/>a<b/>manu</i><par n="oji__adv"/></e>
+    <e lm="aieri avanti"><i>aieri<b/>avanti</i><par n="oji__adv"/></e>
+    <e lm="a picca a picca"><i>a<b/>picca<b/>a<b/>picca</i><par n="oji__adv"/></e>
+    <e lm="aieri l'autru"><i>aieri<b/>l'autru</i><par n="oji__adv"/></e>
+    <e lm="aieri sira"><i>aieri<b/>sira</i><par n="oji__adv"/></e>
+    <e lm="aieri sira" r="LR"><p><l>assira</l><r>aieri<b/>sira</r></p><par n="oji__adv"/></e>
+    <e lm="aieri sira" r="LR"><p><l>arsira</l><r>aieri<b/>sira</r></p><par n="oji__adv"/></e>
+    <e lm="ancora" r="LR"><p><l>ancura</l><r>ancora</r></p><par n="oji__adv"/></e>
+    <e lm="di iornu"><i>di<b/>iornu</i><par n="oji__adv"/></e>
+    <e lm="di notti"><i>di<b/>notti</i><par n="oji__adv"/></e>
+    <e lm="dumani"><i>dumani</i><par n="oji__adv"/></e>
+    <e lm="doppu"><i>doppu</i><par n="oji__adv"/></e>
+    <e lm="doppu" r="LR"><p><l>addoppu</l><r>doppu</r></p><par n="oji__adv"/></e>
+    <e lm="doppu" r="LR"><p><l>dopo</l><r>doppu</r></p><par n="oji__adv"/></e>
+    <e lm="doppu dumani"><i>doppu<b/>dumani</i><par n="oji__adv"/></e>
+    <e lm="la sira avanti"><i>la<b/>sira<b/>avanti</i><par n="oji__adv"/></e>
+    <e lm="manu manu"><i>manu<b/>manu</i><par n="oji__adv"/></e>
+    <e lm="ntantu"><i>ntantu</i><par n="oji__adv"/></e>
+    <e lm="oramai"><par n="o/u"/><i>ramai</i><par n="oji__adv"/></e>
+    <e lm="ora ora"><par n="o/u"/><i>ra<b/>ora</i><par n="oji__adv"/></e>
+    <e lm="ora stissu"><par n="o/u"/><i>ra<b/>stissu</i><par n="oji__adv"/></e>
+    <e lm="ottu iorna oi"><par n="o/u"/><i>ttu<b/>iorna<b/>oi</i><par n="oji__adv"/></e>
+    <e lm="pirtempu"><i>pirtempu</i><par n="oji__adv"/></e>
+    <e lm="prestu"><i>prestu</i><par n="oji__adv"/></e>
+    <e lm="propiu ora"><i>propiu<b/>ora</i><par n="oji__adv"/></e>
+    <e lm="propriu ora"><i>propriu<b/>ora</i><par n="oji__adv"/></e>
+    <e lm="quinnici iorna oi"><i>quinnici<b/>iorna<b/>oi</i><par n="oji__adv"/></e>
+    <e lm="pi sempri"><i>pi<b/>sempri</i><par n="oji__adv"/></e>
+    <e lm="spissu"><i>spissu</i><par n="oji__adv"/></e>
+    <e lm="stamatina"><i>stamatina</i><par n="oji__adv"/></e>
+    <e lm="stasira"><i>stasira</i><par n="oji__adv"/></e>
+    <e lm="stanotti"><i>stanotti</i><par n="oji__adv"/></e>
+    <e lm="stu iornu"><i>stu<b/>iornu</i><par n="oji__adv"/></e>
+    <e lm="subbitu"><i>subbitu</i><par n="oji__adv"/></e>
+    <e lm="tannu"><i>tannu</i><par n="oji__adv"/></e>
+    <e lm="tardu"><i>tardu</i><par n="oji__adv"/></e>
+    <e lm="tra pocu"><i>tra<b/>pocu</i><par n="oji__adv"/></e>
+    <e lm="quannu tempu"><i>quannu<b/>tempu</i><par n="oji__adv"/></e>
     
-    <e lm="accuddì"><i>accuddì</i><par n="oggi__adv"/></e>
-    <e lm="accuddì" r="LR"><p><l>cuddì</l><r>accuddì</r></p><par n="oggi__adv"/></e>
-    <e lm="araciu" r="LR"><p><l>adaciu</l><r>araciu</r></p><par n="oggi__adv"/></e>
-    <e lm="araciu" r="LR"><p><l>adaggiu</l><r>araciu</r></p><par n="oggi__adv"/></e>
-    <e lm="araciu" r="LR"><p><l>adagiu</l><r>araciu</r></p><par n="oggi__adv"/></e>
+    <e lm="accuddì"><i>accuddì</i><par n="oji__adv"/></e>
+    <e lm="accuddì" r="LR"><p><l>cuddì</l><r>accuddì</r></p><par n="oji__adv"/></e>
+    <e lm="araciu" r="LR"><p><l>adaciu</l><r>araciu</r></p><par n="oji__adv"/></e>
+    <e lm="araciu" r="LR"><p><l>adaggiu</l><r>araciu</r></p><par n="oji__adv"/></e>
+    <e lm="araciu" r="LR"><p><l>adagiu</l><r>araciu</r></p><par n="oji__adv"/></e>
     
-    <e lm="a l'improvissu"><i>a<b/>l'improvissu</i><par n="oggi__adv"/></e>
-    <e lm="beni"><i>beni</i><par n="oggi__adv"/></e>
-    <e lm="beni" r="LR"><p><l>ben</l><r>beni</r></p><par n="oggi__adv"/></e>
-    <e lm="di prupositu"><i>di<b/>prupositu</i><par n="oggi__adv"/></e>
-    <e lm="di prupositu" r="LR"><p><l>di<b/>propositu</l><r>di<b/>prupositu</r></p><par n="oggi__adv"/></e>
-    <e lm="lestu"><i>lestu</i><par n="oggi__adv"/></e>
-    <e lm="vasinnò"><i>vasinnò</i><par n="oggi__adv"/></e>
-    <e lm="vasinnò" r="LR"><p><l>masinnò</l><r>vasinnò</r></p><par n="oggi__adv"/></e>
-    <e lm="mancu"><i>mancu</i><par n="oggi__adv"/></e>
-    <e lm="nippuru"><i>nippuru</i><par n="oggi__adv"/></e>
-    <e lm="nzemmula"><i>nzemmula</i><par n="oggi__adv"/></e>
-    <e lm="nzemmi"><i>nzemmi</i><par n="oggi__adv"/></e>
-    <e lm="macari"><i>macari</i><par n="oggi__adv"/></e>
-    <e lm="mali"><i>mali</i><par n="oggi__adv"/></e>
-    <e lm="ne già"><i>ne<b/>già</i><par n="oggi__adv"/></e>
-    <e lm="difatti"><i>difatti</i><par n="oggi__adv"/></e>
-    <e lm="più"><i>più</i><par n="oggi__adv"/></e>
+    <e lm="a l'improvissu"><i>a<b/>l'improvissu</i><par n="oji__adv"/></e>
+    <e lm="beni"><i>beni</i><par n="oji__adv"/></e>
+    <e lm="beni" r="LR"><p><l>ben</l><r>beni</r></p><par n="oji__adv"/></e>
+    <e lm="di prupositu"><i>di<b/>prupositu</i><par n="oji__adv"/></e>
+    <e lm="di prupositu" r="LR"><p><l>di<b/>propositu</l><r>di<b/>prupositu</r></p><par n="oji__adv"/></e>
+    <e lm="lestu"><i>lestu</i><par n="oji__adv"/></e>
+    <e lm="vasinnò"><i>vasinnò</i><par n="oji__adv"/></e>
+    <e lm="vasinnò" r="LR"><p><l>masinnò</l><r>vasinnò</r></p><par n="oji__adv"/></e>
+    <e lm="mancu"><i>mancu</i><par n="oji__adv"/></e>
+    <e lm="nippuru"><i>nippuru</i><par n="oji__adv"/></e>
+    <e lm="nzemmula"><i>nzemmula</i><par n="oji__adv"/></e>
+    <e lm="nzemmi"><i>nzemmi</i><par n="oji__adv"/></e>
+    <e lm="macari"><i>macari</i><par n="oji__adv"/></e>
+    <e lm="mali"><i>mali</i><par n="oji__adv"/></e>
+    <e lm="ne già"><i>ne<b/>già</i><par n="oji__adv"/></e>
+    <e lm="difatti"><i>difatti</i><par n="oji__adv"/></e>
+    <e lm="più"><i>più</i><par n="oji__adv"/></e>
     
-    <e lm="di vota en vota"><i>di<b/>vota<b/>en<b/>vota</i><par n="oggi__adv"/></e>
-    <e lm="di vota en vota" r="LR"><p><l>di<b/>vota<b/>en<b/>vota</l><r>di<b/>vota<b/>'n<b/>vota</r></p><par n="oggi__adv"/></e>
+    <e lm="di vota en vota"><i>di<b/>vota<b/>en<b/>vota</i><par n="oji__adv"/></e>
+    <e lm="di vota en vota" r="LR"><p><l>di<b/>vota<b/>en<b/>vota</l><r>di<b/>vota<b/>'n<b/>vota</r></p><par n="oji__adv"/></e>
     
-    <e lm="propiu"><i>propiu</i><par n="oggi__adv"/></e>
-    <e lm="propiu" r="LR"><p><l>propriu</l><r>propiu</r></p><par n="oggi__adv"/></e>
-    <e lm="veru"><i>veru</i><par n="oggi__adv"/></e>  
-    <e lm="appena"><i>appena</i><par n="oggi__adv"/></e>
-    <e lm="sparti"><i>sparti</i><par n="oggi__adv"/></e>  
-    <e lm="na vota"><i>na<b/>vota</i><par n="oggi__adv"/></e>
-    <e lm="du voti"><i>du<b/>voti</i><par n="oggi__adv"/></e>
-    <e lm="cchiuttostu"><i>cchiuttostu</i><par n="oggi__adv"/></e>
-    <e lm="picca"><i>picca</i><par n="oggi__adv"/></e>
-    <e lm="na pocu"><i>na<b/>pocu</i><par n="oggi__adv"/></e>
-    <e lm="na pocu" r="LR"><p><l>un<b/>pocu</l><r>na<b/>pocu</r></p><par n="oggi__adv"/></e>
-        <e lm="pi asempiu"><i>p<b/>asempiu</i><par n="oggi__adv"/></e> 
+    <e lm="propiu"><i>propiu</i><par n="oji__adv"/></e>
+    <e lm="propiu" r="LR"><p><l>propriu</l><r>propiu</r></p><par n="oji__adv"/></e>
+    <e lm="veru"><i>veru</i><par n="oji__adv"/></e>  
+    <e lm="appena"><i>appena</i><par n="oji__adv"/></e>
+    <e lm="sparti"><i>sparti</i><par n="oji__adv"/></e>  
+    <e lm="na vota"><i>na<b/>vota</i><par n="oji__adv"/></e>
+    <e lm="du voti"><i>du<b/>voti</i><par n="oji__adv"/></e>
+    <e lm="cchiuttostu"><i>cchiuttostu</i><par n="oji__adv"/></e>
+    <e lm="picca"><i>picca</i><par n="oji__adv"/></e>
+    <e lm="na pocu"><i>na<b/>pocu</i><par n="oji__adv"/></e>
+    <e lm="na pocu" r="LR"><p><l>un<b/>pocu</l><r>na<b/>pocu</r></p><par n="oji__adv"/></e>
+        <e lm="pi asempiu"><i>p<b/>asempiu</i><par n="oji__adv"/></e> 
 
-      <e lm="cumunimenti"><i>cumunimenti</i><par n="oggi__adv"/></e>
-      <e lm="nizziarmenti"><i>nizziarmenti</i><par n="oggi__adv"/></e>
-      <e lm="furtimenti"><i>furtimenti</i><par n="oggi__adv"/></e>
-      <e lm="privalentimenti"><i>privalentimenti</i><par n="oggi__adv"/></e>
-      <e lm="solitamenti"><i>solitamenti</i><par n="oggi__adv"/></e>
-      <e lm="privalintimenti"><i>privalintimenti</i><par n="oggi__adv"/></e>
-      <e lm="essinziarmenti"><i>essinziarmenti</i><par n="oggi__adv"/></e>
-      <e lm="pisantimenti"><i>pisantimenti</i><par n="oggi__adv"/></e>
-      <e lm="vilucimenti"><i>vilucimenti</i><par n="oggi__adv"/></e>
-      <e lm="vilucimenti" r="LR"><p><l>vilocimenti</l><r>vilucimenti</r></p><par n="oggi__adv"/></e>
-      <e lm="militarmenti"><i>militarmenti</i><par n="oggi__adv"/></e>
-      <e lm="liggirmenti"><i>liggirmenti</i><par n="oggi__adv"/></e>
-      <e lm="tarmenti"><i>tarmenti</i><par n="oggi__adv"/></e>
-      <e lm="pricidintimenti"><i>pricidintimenti</i><par n="oggi__adv"/></e>
-      <e lm="majurmenti"><i>majurmenti</i><par n="oggi__adv"/></e>
-      <e lm="maiurmenti"><i>maiurmenti</i><par n="oggi__adv"/></e>
-      <e lm="ammenti"><i>ammenti</i><par n="oggi__adv"/></e>
-      <e lm="univirsarmenti"><i>univirsarmenti</i><par n="oggi__adv"/></e>
-      <e lm="stabbirmenti"><i>stabbirmenti</i><par n="oggi__adv"/></e>
-      <e lm="ultiriurmenti"><i>ultiriurmenti</i><par n="oggi__adv"/></e>
-      <e lm="tristimenti"><i>tristimenti</i><par n="oggi__adv"/></e>
-      <e lm="tradizzionarmenti"><i>tradizzionarmenti</i><par n="oggi__adv"/></e>
+      <e lm="cumunimenti"><i>cumunimenti</i><par n="oji__adv"/></e>
+      <e lm="nizziarmenti"><i>nizziarmenti</i><par n="oji__adv"/></e>
+      <e lm="furtimenti"><i>furtimenti</i><par n="oji__adv"/></e>
+      <e lm="privalentimenti"><i>privalentimenti</i><par n="oji__adv"/></e>
+      <e lm="solitamenti"><i>solitamenti</i><par n="oji__adv"/></e>
+      <e lm="privalintimenti"><i>privalintimenti</i><par n="oji__adv"/></e>
+      <e lm="essinziarmenti"><i>essinziarmenti</i><par n="oji__adv"/></e>
+      <e lm="pisantimenti"><i>pisantimenti</i><par n="oji__adv"/></e>
+      <e lm="vilucimenti"><i>vilucimenti</i><par n="oji__adv"/></e>
+      <e lm="vilucimenti" r="LR"><p><l>vilocimenti</l><r>vilucimenti</r></p><par n="oji__adv"/></e>
+      <e lm="militarmenti"><i>militarmenti</i><par n="oji__adv"/></e>
+      <e lm="liggirmenti"><i>liggirmenti</i><par n="oji__adv"/></e>
+      <e lm="tarmenti"><i>tarmenti</i><par n="oji__adv"/></e>
+      <e lm="pricidintimenti"><i>pricidintimenti</i><par n="oji__adv"/></e>
+      <e lm="majurmenti"><i>majurmenti</i><par n="oji__adv"/></e>
+      <e lm="maiurmenti"><i>maiurmenti</i><par n="oji__adv"/></e>
+      <e lm="ammenti"><i>ammenti</i><par n="oji__adv"/></e>
+      <e lm="univirsarmenti"><i>univirsarmenti</i><par n="oji__adv"/></e>
+      <e lm="stabbirmenti"><i>stabbirmenti</i><par n="oji__adv"/></e>
+      <e lm="ultiriurmenti"><i>ultiriurmenti</i><par n="oji__adv"/></e>
+      <e lm="tristimenti"><i>tristimenti</i><par n="oji__adv"/></e>
+      <e lm="tradizzionarmenti"><i>tradizzionarmenti</i><par n="oji__adv"/></e>
 
 
-    <e lm="attuarmenti"><i>attuarmenti</i><par n="oggi__adv"/></e>
-    <e lm="veramenti"><i>veramenti</i><par n="oggi__adv"/></e>
-    <e lm="chiaramenti"><i>chiaramenti</i><par n="oggi__adv"/></e>
-    <e lm="popularmenti"><i>popularmenti</i><par n="oggi__adv"/></e>
-    <e lm="finarmenti"><i>finarmenti</i><par n="oggi__adv"/></e>
-    <e lm="cumpletamenti"><i>cumpletamenti</i><par n="oggi__adv"/></e>
-    <e lm="gintilmenti"><i>gintilmenti</i><par n="oggi__adv"/></e>
-    <e lm="ntirnazzionarmenti"><i>ntirnazzionarmenti</i><par n="oggi__adv"/></e>
-    <e lm="litteramenti"><i>litteramenti</i><par n="oggi__adv"/></e>
-    <e lm="particularmenti"><i>particularmenti</i><par n="oggi__adv"/></e>
-    <e lm="pirsunalmenti"><i>pirsunalmenti</i><par n="oggi__adv"/></e>
-    <e lm="ricintimenti"><par n="ri/re"/><i>cintimenti</i><par n="oggi__adv"/></e>
-    <e lm="gineticamenti"><i>gineticamenti</i><par n="oggi__adv"/></e>
-    <e lm="nigativamenti"><i>nigativamenti</i><par n="oggi__adv"/></e>
-    <e lm="istrimamenti"><i>istrimamenti</i><par n="oggi__adv"/></e>
-    <e lm="prufunnamenti"><i>prufunnamenti</i><par n="oggi__adv"/></e>
-    <e lm="pirfizziunamenti"><i>pirfizziunamenti</i><par n="oggi__adv"/></e>
-    <e lm="strateggicamenti"><i>strateggicamenti</i><par n="oggi__adv"/></e>
-    <e lm="facirmenti"><i>facirmenti</i><par n="oggi__adv"/></e>
-    <e lm="narreri"><i>narreri</i><par n="oggi__adv"/></e>
+    <e lm="attuarmenti"><i>attuarmenti</i><par n="oji__adv"/></e>
+    <e lm="veramenti"><i>veramenti</i><par n="oji__adv"/></e>
+    <e lm="chiaramenti"><i>chiaramenti</i><par n="oji__adv"/></e>
+    <e lm="popularmenti"><i>popularmenti</i><par n="oji__adv"/></e>
+    <e lm="finarmenti"><i>finarmenti</i><par n="oji__adv"/></e>
+    <e lm="cumpletamenti"><i>cumpletamenti</i><par n="oji__adv"/></e>
+    <e lm="gintilmenti"><i>gintilmenti</i><par n="oji__adv"/></e>
+    <e lm="ntirnazzionarmenti"><i>ntirnazzionarmenti</i><par n="oji__adv"/></e>
+    <e lm="litteramenti"><i>litteramenti</i><par n="oji__adv"/></e>
+    <e lm="particularmenti"><i>particularmenti</i><par n="oji__adv"/></e>
+    <e lm="pirsunalmenti"><i>pirsunalmenti</i><par n="oji__adv"/></e>
+    <e lm="ricintimenti"><par n="ri/re"/><i>cintimenti</i><par n="oji__adv"/></e>
+    <e lm="gineticamenti"><i>gineticamenti</i><par n="oji__adv"/></e>
+    <e lm="nigativamenti"><i>nigativamenti</i><par n="oji__adv"/></e>
+    <e lm="istrimamenti"><i>istrimamenti</i><par n="oji__adv"/></e>
+    <e lm="prufunnamenti"><i>prufunnamenti</i><par n="oji__adv"/></e>
+    <e lm="pirfizziunamenti"><i>pirfizziunamenti</i><par n="oji__adv"/></e>
+    <e lm="strateggicamenti"><i>strateggicamenti</i><par n="oji__adv"/></e>
+    <e lm="facirmenti"><i>facirmenti</i><par n="oji__adv"/></e>
+    <e lm="narreri"><i>narreri</i><par n="oji__adv"/></e>
     
-    <e lm="cumpletamenti" r="LR"><p><l>cumpretamenti</l><r>cumpletamenti</r></p><par n="oggi__adv"/></e>
+    <e lm="cumpletamenti" r="LR"><p><l>cumpretamenti</l><r>cumpletamenti</r></p><par n="oji__adv"/></e>
 
-    <e lm="facirmenti" r="LR"><p><l>facilmenti</l><r>facirmenti</r></p><par n="oggi__adv"/></e>
-    <e lm="successivamenti"><i>successivamenti</i><par n="oggi__adv"/></e>
-        <e lm="miegghiu"><i>miegghiu</i><par n="oggi__adv"/></e>
-
-    
-    <e lm="successivamenti" r="LR"><p><l>succissivamenti</l><r>successivamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="ufficiarmenti"><i>ufficiarmenti</i><par n="oggi__adv"/></e>
-    <e lm="ufficiarmenti" r="LR"><p><l>ufficialmenti</l><r>ufficiarmenti</r></p><par n="oggi__adv"/></e>
-    <e lm="spiciarmenti"><i>spiciarmenti</i><par n="oggi__adv"/></e>
-    <e lm="prubabirmenti"><i>prubabirmenti</i><par n="oggi__adv"/></e>
-    <e lm="prubabirmenti" r="LR"><p><l>prubabbirmenti</l><r>prubabirmenti</r></p><par n="oggi__adv"/></e>
-    <e lm="prubabirmenti" r="LR"><p><l>prubbabbilmenti</l><r>prubabirmenti</r></p><par n="oggi__adv"/></e>
-    <e lm="urigginariamenti"><i>urigginariamenti</i><par n="oggi__adv"/></e>
-    <e lm="urigginariamenti" r="LR"><p><l>origginariamenti</l><r>urigginariamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="urigginariamenti" r="LR"><p><l>origginarmenti</l><r>urigginariamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="urigginariamenti" r="LR"><p><l>originariamenti</l><r>urigginariamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="urigginariamenti" r="LR"><p><l>urigginarmenti</l><r>urigginariamenti</r></p><par n="oggi__adv"/></e>
-
-    <e lm="amministrativamenti"><i>amministrativamenti</i><par n="oggi__adv"/></e>
-    <e lm="definitivamenti"><i>definitivamenti</i><par n="oggi__adv"/></e>
-    <e lm="musicarmenti"><i>musicarmenti</i><par n="oggi__adv"/></e>
-    <e lm="etimologgicamenti"><i>etimologgicamenti</i><par n="oggi__adv"/></e>
-    <e lm="etimologgicamenti" r="LR"><p><l>etimologicamenti</l><r>etimologgicamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="tipicamenti"><i>tipicamenti</i><par n="oggi__adv"/></e>
-    <e lm="assolutamenti"><i>assolutamenti</i><par n="oggi__adv"/></e>
-    <e lm="assolutamenti" r="LR"><p><l>assulutamenti</l><r>assolutamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="storicamenti"><i>storicamenti</i><par n="oggi__adv"/></e>
-    <e lm="semplicementi"><i>semplicementi</i><par n="oggi__adv"/></e>
-    <e lm="inizialmenti"><par n="in/n"/><i>izialmenti</i><par n="oggi__adv"/></e>
-    <e lm="nizzialmenti" r="LR"><p><l>nizzialmenti</l><r>inizialmenti</r></p><par n="oggi__adv"/></e>
-    <e lm="localmenti"><i>localmenti</i><par n="oggi__adv"/></e>
-    <e lm="storicamenti" r="LR"><p><l>sturicamenti</l><r>storicamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="prevalentementi"><i>prevalentementi</i><par n="oggi__adv"/></e>
-    <e lm="cuntempuraneamenti"><i>cuntempuraneamenti</i><par n="oggi__adv"/></e>
-    <e lm="cuntempuraneamenti" r="LR"><p><l>contemporaneamenti</l><r>cuntempuraneamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="anticamenti"><i>anticamenti</i><par n="oggi__adv"/></e>
-    <e lm="ampiamenti"><i>ampiamenti</i><par n="oggi__adv"/></e>
-    <e lm="pirmanintimenti"><i>pirmanintimenti</i><par n="oggi__adv"/></e>
-    <e lm="timpuraniamenti"><i>timpuraniamenti</i><par n="oggi__adv"/></e>
-    <e lm="spuraticamenti"><i>spuraticamenti</i><par n="oggi__adv"/></e>
-    <e lm="cuntinuamenti"><i>cuntinuamenti</i><par n="oggi__adv"/></e>
-        <e lm="ndipinnintimenti"><i>ndipinnintimenti</i><par n="oggi__adv"/></e>
+    <e lm="facirmenti" r="LR"><p><l>facilmenti</l><r>facirmenti</r></p><par n="oji__adv"/></e>
+    <e lm="successivamenti"><i>successivamenti</i><par n="oji__adv"/></e>
+        <e lm="miegghiu"><i>miegghiu</i><par n="oji__adv"/></e>
 
     
+    <e lm="successivamenti" r="LR"><p><l>succissivamenti</l><r>successivamenti</r></p><par n="oji__adv"/></e>
+    <e lm="ufficiarmenti"><i>ufficiarmenti</i><par n="oji__adv"/></e>
+    <e lm="ufficiarmenti" r="LR"><p><l>ufficialmenti</l><r>ufficiarmenti</r></p><par n="oji__adv"/></e>
+    <e lm="spiciarmenti"><i>spiciarmenti</i><par n="oji__adv"/></e>
+    <e lm="prubabirmenti"><i>prubabirmenti</i><par n="oji__adv"/></e>
+    <e lm="prubabirmenti" r="LR"><p><l>prubabbirmenti</l><r>prubabirmenti</r></p><par n="oji__adv"/></e>
+    <e lm="prubabirmenti" r="LR"><p><l>prubbabbilmenti</l><r>prubabirmenti</r></p><par n="oji__adv"/></e>
+    <e lm="urigginariamenti"><i>urigginariamenti</i><par n="oji__adv"/></e>
+    <e lm="urigginariamenti" r="LR"><p><l>origginariamenti</l><r>urigginariamenti</r></p><par n="oji__adv"/></e>
+    <e lm="urigginariamenti" r="LR"><p><l>origginarmenti</l><r>urigginariamenti</r></p><par n="oji__adv"/></e>
+    <e lm="urigginariamenti" r="LR"><p><l>originariamenti</l><r>urigginariamenti</r></p><par n="oji__adv"/></e>
+    <e lm="urigginariamenti" r="LR"><p><l>urigginarmenti</l><r>urigginariamenti</r></p><par n="oji__adv"/></e>
 
-    <e lm="legalmenti"><i>legalmenti</i><par n="oggi__adv"/></e>
-    <e lm="altirnativamenti"><i>altirnativamenti</i><par n="oggi__adv"/></e>
-    <e lm="altirnativamenti" r="LR"><p><l>alternativamenti</l><r>altirnativamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="giuridicamenti"><i>giuridicamenti</i><par n="oggi__adv"/></e>
-    <e lm="giuridicamenti" r="LR"><p><l>juridicamenti</l><r>giuridicamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="parallelamenti"><i>parallelamenti</i><par n="oggi__adv"/></e>
-    <e lm="entusiasticamenti"><i>entusiasticamenti</i><par n="oggi__adv"/></e>
-    <e lm="propriamenti"><i>propriamenti</i><par n="oggi__adv"/></e>
-    <e lm="maggiurmenti"><i>maggiurmenti</i><par n="oggi__adv"/></e>
-    <e lm="attentamenti"><i>attentamenti</i><par n="oggi__adv"/></e>
-    <e lm="spontaneamenti"><i>spontaneamenti</i><par n="oggi__adv"/></e>
-    <e lm="apparentementi"><i>apparentementi</i><par n="oggi__adv"/></e>
-    <e lm="sustanzialmenti"><i>sustanzialmenti</i><par n="oggi__adv"/></e>
-    <e lm="strettamenti"><i>strettamenti</i><par n="oggi__adv"/></e>
-    <e lm="puramenti"><i>puramenti</i><par n="oggi__adv"/></e>
-    <e lm="idealmenti"><i>idealmenti</i><par n="oggi__adv"/></e>
-    <e lm="privatamenti"><i>privatamenti</i><par n="oggi__adv"/></e>
-    <e lm="cullittivamenti"><i>cullittivamenti</i><par n="oggi__adv"/></e>
-    
-    <e lm="libbiramenti"><i>libbiramenti</i><par n="oggi__adv"/></e>
-    <e lm="rispittivamenti"><par n="ri/re"/><i>spittivamenti</i><par n="oggi__adv"/></e>
-    <e lm="rispittivamenti" r="LR"><p><l>rispettivamenti</l><r>rispittivamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="certamenti"><i>certamenti</i><par n="oggi__adv"/></e>
-    <e lm="miraculusamenti"><i>miraculusamenti</i><par n="oggi__adv"/></e>
-    <e lm="correntementi"><i>correntementi</i><par n="oggi__adv"/></e>
-    <e lm="tutarmenti"><i>tutarmenti</i><par n="oggi__adv"/></e>
-    <e lm="univirsalmenti"><i>univirsalmenti</i><par n="oggi__adv"/></e>
-    <e lm="dimucraticamenti"><i>dimucraticamenti</i><par n="oggi__adv"/></e>
-    <e lm="drasticamenti"><i>drasticamenti</i><par n="oggi__adv"/></e>
-    <e lm="straurdinariamenti"><i>straurdinariamenti</i><par n="oggi__adv"/></e>
-    <e lm="rigurusamenti"><par n="ri/re"/><i>gurusamenti</i><par n="oggi__adv"/></e>
-    <e lm="naturalmenti"><i>naturalmenti</i><par n="oggi__adv"/></e>
-    <e lm="termudinamicamenti"><i>termudinamicamenti</i><par n="oggi__adv"/></e>
-    <e lm="etnicamenti"><i>etnicamenti</i><par n="oggi__adv"/></e>
-    <e lm="prematuramenti"><i>prematuramenti</i><par n="oggi__adv"/></e>
-    <e lm="ulteriormenti"><i>ulteriormenti</i><par n="oggi__adv"/></e>
-    <e lm="ulteriormenti" r="LR"><p><l>ultiriormenti</l><r>ulteriormenti</r></p><par n="oggi__adv"/></e>
-    <e lm="espressamenti"><i>espressamenti</i><par n="oggi__adv"/></e>
-    <e lm="mutuarmenti"><i>mutuarmenti</i><par n="oggi__adv"/></e>
-    
-    <e lm="murarmenti"><i>murarmenti</i><par n="oggi__adv"/></e>
-    <e lm="piriodicamenti"><i>piriodicamenti</i><par n="oggi__adv"/></e>
-    <e lm="funnamentalmenti"><i>funnamentalmenti</i><par n="oggi__adv"/></e>
-    <e lm="riggidamenti"><par n="ri/re"/><i>ggidamenti</i><par n="oggi__adv"/></e>
-    <e lm="radicalmenti"><i>radicalmenti</i><par n="oggi__adv"/></e>
-    <e lm="tradizionalmenti"><i>tradizionalmenti</i><par n="oggi__adv"/></e>
-    <e lm="arbitrariamenti"><i>arbitrariamenti</i><par n="oggi__adv"/></e>
-    <e lm="isplicitamenti"><i>isplicitamenti</i><par n="oggi__adv"/></e>
-    <e lm="custituzzionarmenti"><i>custituzzionarmenti</i><par n="oggi__adv"/></e>
-    <e lm="obbligatoriamenti"><par n="o/u"/><i>bbligatoriamenti</i><par n="oggi__adv"/></e>
+    <e lm="amministrativamenti"><i>amministrativamenti</i><par n="oji__adv"/></e>
+    <e lm="definitivamenti"><i>definitivamenti</i><par n="oji__adv"/></e>
+    <e lm="musicarmenti"><i>musicarmenti</i><par n="oji__adv"/></e>
+    <e lm="etimologgicamenti"><i>etimologgicamenti</i><par n="oji__adv"/></e>
+    <e lm="etimologgicamenti" r="LR"><p><l>etimologicamenti</l><r>etimologgicamenti</r></p><par n="oji__adv"/></e>
+    <e lm="tipicamenti"><i>tipicamenti</i><par n="oji__adv"/></e>
+    <e lm="assolutamenti"><i>assolutamenti</i><par n="oji__adv"/></e>
+    <e lm="assolutamenti" r="LR"><p><l>assulutamenti</l><r>assolutamenti</r></p><par n="oji__adv"/></e>
+    <e lm="storicamenti"><i>storicamenti</i><par n="oji__adv"/></e>
+    <e lm="semplicementi"><i>semplicementi</i><par n="oji__adv"/></e>
+    <e lm="inizialmenti"><par n="in/n"/><i>izialmenti</i><par n="oji__adv"/></e>
+    <e lm="nizzialmenti" r="LR"><p><l>nizzialmenti</l><r>inizialmenti</r></p><par n="oji__adv"/></e>
+    <e lm="localmenti"><i>localmenti</i><par n="oji__adv"/></e>
+    <e lm="storicamenti" r="LR"><p><l>sturicamenti</l><r>storicamenti</r></p><par n="oji__adv"/></e>
+    <e lm="prevalentementi"><i>prevalentementi</i><par n="oji__adv"/></e>
+    <e lm="cuntempuraneamenti"><i>cuntempuraneamenti</i><par n="oji__adv"/></e>
+    <e lm="cuntempuraneamenti" r="LR"><p><l>contemporaneamenti</l><r>cuntempuraneamenti</r></p><par n="oji__adv"/></e>
+    <e lm="anticamenti"><i>anticamenti</i><par n="oji__adv"/></e>
+    <e lm="ampiamenti"><i>ampiamenti</i><par n="oji__adv"/></e>
+    <e lm="pirmanintimenti"><i>pirmanintimenti</i><par n="oji__adv"/></e>
+    <e lm="timpuraniamenti"><i>timpuraniamenti</i><par n="oji__adv"/></e>
+    <e lm="spuraticamenti"><i>spuraticamenti</i><par n="oji__adv"/></e>
+    <e lm="cuntinuamenti"><i>cuntinuamenti</i><par n="oji__adv"/></e>
+        <e lm="ndipinnintimenti"><i>ndipinnintimenti</i><par n="oji__adv"/></e>
 
     
-    <e lm="ovviamenti"><par n="o/u"/><i>vviamenti</i><par n="oggi__adv"/></e>
-    <e lm="rapidamenti"><i>rapidamenti</i><par n="oggi__adv"/></e>
-    <e lm="principarmenti"><i>principarmenti</i><par n="oggi__adv"/></e>
-    <e lm="sulamenti"><i>sulamenti</i><par n="oggi__adv"/></e>
-    <e lm="simpricimenti"><i>simpricimenti</i><par n="oggi__adv"/></e>
-    <e lm="ginirarmenti"><i>ginirarmenti</i><par n="oggi__adv"/></e>
-    <e lm="sicuramenti"><i>sicuramenti</i><par n="oggi__adv"/></e>
-    <e lm="mentri"><i>mentri</i><par n="oggi__adv"/></e>
-    <e lm="friquintimenti"><i>friquintimenti</i><par n="oggi__adv"/></e>
-    <e lm="friquintimenti" r="LR"><p><l>friquentimenti</l><r>friquintimenti</r></p><par n="oggi__adv"/></e>
 
-    <e lm="probabilmenti"><i>probabilmenti</i><par n="oggi__adv"/></e>
-    <e lm="prubbabbirmenti"><i>prubbabbirmenti</i><par n="oggi__adv"/></e>
-    <e lm="custantimenti"><i>custantimenti</i><par n="oggi__adv"/></e>
-
-    <e lm="direttamenti"><i>direttamenti</i><par n="oggi__adv"/></e>
-    <e lm="direttamenti" r="LR"><p><l>drittamenti</l><r>direttamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="nurmalmenti"><i>nurmalmenti</i><par n="oggi__adv"/></e>
-    <e lm="littiralmenti"><i>littiralmenti</i><par n="oggi__adv"/></e>
-    <e lm="littirarmenti" r="LR"><p><l>littirarmenti</l><r>littiralmenti</r></p><par n="oggi__adv"/></e>
-    <e lm="puliticamenti"><i>puliticamenti</i><par n="oggi__adv"/></e>
-    <e lm="attualmenti"><i>attualmenti</i><par n="oggi__adv"/></e>
-    <e lm="novamenti"><i>novamenti</i><par n="oggi__adv"/></e>
-    <e lm="ricintimenti" r="LR"><p><l>ricentimenti</l><r>ricintimenti</r></p><par n="oggi__adv"/></e>
-    <e lm="nclusi"><i>nclusi</i><par n="oggi__adv"/></e>
-    <e lm="addirrittura"><i>addirrittura</i><par n="oggi__adv"/></e>
+    <e lm="legalmenti"><i>legalmenti</i><par n="oji__adv"/></e>
+    <e lm="altirnativamenti"><i>altirnativamenti</i><par n="oji__adv"/></e>
+    <e lm="altirnativamenti" r="LR"><p><l>alternativamenti</l><r>altirnativamenti</r></p><par n="oji__adv"/></e>
+    <e lm="giuridicamenti"><i>giuridicamenti</i><par n="oji__adv"/></e>
+    <e lm="giuridicamenti" r="LR"><p><l>juridicamenti</l><r>giuridicamenti</r></p><par n="oji__adv"/></e>
+    <e lm="parallelamenti"><i>parallelamenti</i><par n="oji__adv"/></e>
+    <e lm="entusiasticamenti"><i>entusiasticamenti</i><par n="oji__adv"/></e>
+    <e lm="propriamenti"><i>propriamenti</i><par n="oji__adv"/></e>
+    <e lm="maggiurmenti"><i>maggiurmenti</i><par n="oji__adv"/></e>
+    <e lm="attentamenti"><i>attentamenti</i><par n="oji__adv"/></e>
+    <e lm="spontaneamenti"><i>spontaneamenti</i><par n="oji__adv"/></e>
+    <e lm="apparentementi"><i>apparentementi</i><par n="oji__adv"/></e>
+    <e lm="sustanzialmenti"><i>sustanzialmenti</i><par n="oji__adv"/></e>
+    <e lm="strettamenti"><i>strettamenti</i><par n="oji__adv"/></e>
+    <e lm="puramenti"><i>puramenti</i><par n="oji__adv"/></e>
+    <e lm="idealmenti"><i>idealmenti</i><par n="oji__adv"/></e>
+    <e lm="privatamenti"><i>privatamenti</i><par n="oji__adv"/></e>
+    <e lm="cullittivamenti"><i>cullittivamenti</i><par n="oji__adv"/></e>
+    
+    <e lm="libbiramenti"><i>libbiramenti</i><par n="oji__adv"/></e>
+    <e lm="rispittivamenti"><par n="ri/re"/><i>spittivamenti</i><par n="oji__adv"/></e>
+    <e lm="rispittivamenti" r="LR"><p><l>rispettivamenti</l><r>rispittivamenti</r></p><par n="oji__adv"/></e>
+    <e lm="certamenti"><i>certamenti</i><par n="oji__adv"/></e>
+    <e lm="miraculusamenti"><i>miraculusamenti</i><par n="oji__adv"/></e>
+    <e lm="correntementi"><i>correntementi</i><par n="oji__adv"/></e>
+    <e lm="tutarmenti"><i>tutarmenti</i><par n="oji__adv"/></e>
+    <e lm="univirsalmenti"><i>univirsalmenti</i><par n="oji__adv"/></e>
+    <e lm="dimucraticamenti"><i>dimucraticamenti</i><par n="oji__adv"/></e>
+    <e lm="drasticamenti"><i>drasticamenti</i><par n="oji__adv"/></e>
+    <e lm="straurdinariamenti"><i>straurdinariamenti</i><par n="oji__adv"/></e>
+    <e lm="rigurusamenti"><par n="ri/re"/><i>gurusamenti</i><par n="oji__adv"/></e>
+    <e lm="naturalmenti"><i>naturalmenti</i><par n="oji__adv"/></e>
+    <e lm="termudinamicamenti"><i>termudinamicamenti</i><par n="oji__adv"/></e>
+    <e lm="etnicamenti"><i>etnicamenti</i><par n="oji__adv"/></e>
+    <e lm="prematuramenti"><i>prematuramenti</i><par n="oji__adv"/></e>
+    <e lm="ulteriormenti"><i>ulteriormenti</i><par n="oji__adv"/></e>
+    <e lm="ulteriormenti" r="LR"><p><l>ultiriormenti</l><r>ulteriormenti</r></p><par n="oji__adv"/></e>
+    <e lm="espressamenti"><i>espressamenti</i><par n="oji__adv"/></e>
+    <e lm="mutuarmenti"><i>mutuarmenti</i><par n="oji__adv"/></e>
+    
+    <e lm="murarmenti"><i>murarmenti</i><par n="oji__adv"/></e>
+    <e lm="piriodicamenti"><i>piriodicamenti</i><par n="oji__adv"/></e>
+    <e lm="funnamentalmenti"><i>funnamentalmenti</i><par n="oji__adv"/></e>
+    <e lm="riggidamenti"><par n="ri/re"/><i>ggidamenti</i><par n="oji__adv"/></e>
+    <e lm="radicalmenti"><i>radicalmenti</i><par n="oji__adv"/></e>
+    <e lm="tradizionalmenti"><i>tradizionalmenti</i><par n="oji__adv"/></e>
+    <e lm="arbitrariamenti"><i>arbitrariamenti</i><par n="oji__adv"/></e>
+    <e lm="isplicitamenti"><i>isplicitamenti</i><par n="oji__adv"/></e>
+    <e lm="custituzzionarmenti"><i>custituzzionarmenti</i><par n="oji__adv"/></e>
+    <e lm="obbligatoriamenti"><par n="o/u"/><i>bbligatoriamenti</i><par n="oji__adv"/></e>
 
     
-    <e lm="moralmenti"><i>moralmenti</i><par n="oggi__adv"/></e>
-    <e lm="moralmenti" r="LR"><p><l>muralmenti</l><r>moralmenti</r></p><par n="oggi__adv"/></e>
-    <e lm="moralmenti" r="LR"><p><l>murarmenti</l><r>moralmenti</r></p><par n="oggi__adv"/></e>
-    <e lm="moralmenti" r="LR"><p><l>morarmenti</l><r>moralmenti</r></p><par n="oggi__adv"/></e>
+    <e lm="ovviamenti"><par n="o/u"/><i>vviamenti</i><par n="oji__adv"/></e>
+    <e lm="rapidamenti"><i>rapidamenti</i><par n="oji__adv"/></e>
+    <e lm="principarmenti"><i>principarmenti</i><par n="oji__adv"/></e>
+    <e lm="sulamenti"><i>sulamenti</i><par n="oji__adv"/></e>
+    <e lm="simpricimenti"><i>simpricimenti</i><par n="oji__adv"/></e>
+    <e lm="ginirarmenti"><i>ginirarmenti</i><par n="oji__adv"/></e>
+    <e lm="sicuramenti"><i>sicuramenti</i><par n="oji__adv"/></e>
+    <e lm="mentri"><i>mentri</i><par n="oji__adv"/></e>
+    <e lm="friquintimenti"><i>friquintimenti</i><par n="oji__adv"/></e>
+    <e lm="friquintimenti" r="LR"><p><l>friquentimenti</l><r>friquintimenti</r></p><par n="oji__adv"/></e>
 
-    <e lm="non"><i>non</i><par n="oggi__adv"/></e>
+    <e lm="probabilmenti"><i>probabilmenti</i><par n="oji__adv"/></e>
+    <e lm="prubbabbirmenti"><i>prubbabbirmenti</i><par n="oji__adv"/></e>
+    <e lm="custantimenti"><i>custantimenti</i><par n="oji__adv"/></e>
 
-    <e lm="sclusivamenti"><i>sclusivamenti</i><par n="oggi__adv"/></e>
-    <e lm="fortimenti"><i>fortimenti</i><par n="oggi__adv"/></e>
-    <e lm="giniralmenti"><i>giniralmenti</i><par n="oggi__adv"/></e>
-    <e lm="pubbricamenti"><i>pubbricamenti</i><par n="oggi__adv"/></e>
-    <e lm="praticamenti"><i>praticamenti</i><par n="oggi__adv"/></e>
-    <e lm="furmalmenti"><i>furmalmenti</i><par n="oggi__adv"/></e>
-    <e lm="prubabbirmenti"><i>prubabbirmenti</i><par n="oggi__adv"/></e>
-    <e lm="prubabbirmenti" r="LR"><p><l>prubabirmenti</l><r>prubabbirmenti</r></p><par n="oggi__adv"/></e>
-    <e lm="essenziarmenti"><i>essenziarmenti</i><par n="oggi__adv"/></e>
-    <e lm="naturarmenti"><i>naturarmenti</i><par n="oggi__adv"/></e>
-    <e lm="tradizziunarmenti"><i>tradizziunarmenti</i><par n="oggi__adv"/></e>
-    <e lm="principalmenti"><i>principalmenti</i><par n="oggi__adv"/></e>
-    <e lm="effittivamenti"><i>effittivamenti</i><par n="oggi__adv"/></e>
-    <e lm="effittivamenti" r="LR"><p><l>effettivamenti</l><r>effittivamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="specialmenti"><i>specialmenti</i><par n="oggi__adv"/></e>
-    <e lm="specialmenti" r="LR"><p><l>spicialmenti</l><r>specialmenti</r></p><par n="oggi__adv"/></e>
-    <e lm="difinitivamenti"><par n="di/de"/><i>finitivamenti</i><par n="oggi__adv"/></e>
-    <e lm="strittamenti"><i>strittamenti</i><par n="oggi__adv"/></e>
-    <e lm="pricisamenti"><i>pricisamenti</i><par n="oggi__adv"/></e>
-    <e lm="giograficamenti"><i>giograficamenti</i><par n="oggi__adv"/></e>
-    <e lm="autumaticamenti"><i>autumaticamenti</i><par n="oggi__adv"/></e>
-    <e lm="raramenti"><i>raramenti</i><par n="oggi__adv"/></e>
-        <e lm="a manu nudi"><i>a<b/>manu<b/>nudi</i><par n="oggi__adv"/></e>
+    <e lm="direttamenti"><i>direttamenti</i><par n="oji__adv"/></e>
+    <e lm="direttamenti" r="LR"><p><l>drittamenti</l><r>direttamenti</r></p><par n="oji__adv"/></e>
+    <e lm="nurmalmenti"><i>nurmalmenti</i><par n="oji__adv"/></e>
+    <e lm="littiralmenti"><i>littiralmenti</i><par n="oji__adv"/></e>
+    <e lm="littirarmenti" r="LR"><p><l>littirarmenti</l><r>littiralmenti</r></p><par n="oji__adv"/></e>
+    <e lm="puliticamenti"><i>puliticamenti</i><par n="oji__adv"/></e>
+    <e lm="attualmenti"><i>attualmenti</i><par n="oji__adv"/></e>
+    <e lm="novamenti"><i>novamenti</i><par n="oji__adv"/></e>
+    <e lm="ricintimenti" r="LR"><p><l>ricentimenti</l><r>ricintimenti</r></p><par n="oji__adv"/></e>
+    <e lm="nclusi"><i>nclusi</i><par n="oji__adv"/></e>
+    <e lm="addirrittura"><i>addirrittura</i><par n="oji__adv"/></e>
+
+    
+    <e lm="moralmenti"><i>moralmenti</i><par n="oji__adv"/></e>
+    <e lm="moralmenti" r="LR"><p><l>muralmenti</l><r>moralmenti</r></p><par n="oji__adv"/></e>
+    <e lm="moralmenti" r="LR"><p><l>murarmenti</l><r>moralmenti</r></p><par n="oji__adv"/></e>
+    <e lm="moralmenti" r="LR"><p><l>morarmenti</l><r>moralmenti</r></p><par n="oji__adv"/></e>
+
+    <e lm="non"><i>non</i><par n="oji__adv"/></e>
+
+    <e lm="sclusivamenti"><i>sclusivamenti</i><par n="oji__adv"/></e>
+    <e lm="fortimenti"><i>fortimenti</i><par n="oji__adv"/></e>
+    <e lm="giniralmenti"><i>giniralmenti</i><par n="oji__adv"/></e>
+    <e lm="pubbricamenti"><i>pubbricamenti</i><par n="oji__adv"/></e>
+    <e lm="praticamenti"><i>praticamenti</i><par n="oji__adv"/></e>
+    <e lm="furmalmenti"><i>furmalmenti</i><par n="oji__adv"/></e>
+    <e lm="prubabbirmenti"><i>prubabbirmenti</i><par n="oji__adv"/></e>
+    <e lm="prubabbirmenti" r="LR"><p><l>prubabirmenti</l><r>prubabbirmenti</r></p><par n="oji__adv"/></e>
+    <e lm="essenziarmenti"><i>essenziarmenti</i><par n="oji__adv"/></e>
+    <e lm="naturarmenti"><i>naturarmenti</i><par n="oji__adv"/></e>
+    <e lm="tradizziunarmenti"><i>tradizziunarmenti</i><par n="oji__adv"/></e>
+    <e lm="principalmenti"><i>principalmenti</i><par n="oji__adv"/></e>
+    <e lm="effittivamenti"><i>effittivamenti</i><par n="oji__adv"/></e>
+    <e lm="effittivamenti" r="LR"><p><l>effettivamenti</l><r>effittivamenti</r></p><par n="oji__adv"/></e>
+    <e lm="specialmenti"><i>specialmenti</i><par n="oji__adv"/></e>
+    <e lm="specialmenti" r="LR"><p><l>spicialmenti</l><r>specialmenti</r></p><par n="oji__adv"/></e>
+    <e lm="difinitivamenti"><par n="di/de"/><i>finitivamenti</i><par n="oji__adv"/></e>
+    <e lm="strittamenti"><i>strittamenti</i><par n="oji__adv"/></e>
+    <e lm="pricisamenti"><i>pricisamenti</i><par n="oji__adv"/></e>
+    <e lm="giograficamenti"><i>giograficamenti</i><par n="oji__adv"/></e>
+    <e lm="autumaticamenti"><i>autumaticamenti</i><par n="oji__adv"/></e>
+    <e lm="raramenti"><i>raramenti</i><par n="oji__adv"/></e>
+        <e lm="a manu nudi"><i>a<b/>manu<b/>nudi</i><par n="oji__adv"/></e>
         
-    <e lm="bruscamenti"><i>bruscamenti</i><par n="oggi__adv"/></e>
-    <e lm="umanamenti"><i>umanamenti</i><par n="oggi__adv"/></e>
-    <e lm="unitariamenti"><i>unitariamenti</i><par n="oggi__adv"/></e>
-    <e lm="mutuamenti"><i>mutuamenti</i><par n="oggi__adv"/></e>
-    <e lm="primariamenti"><i>primariamenti</i><par n="oggi__adv"/></e>
-    <e lm="prima"><i>prima</i><par n="oggi__adv"/></e>
-    <e lm="necessariamenti"><i>necessariamenti</i><par n="oggi__adv"/></e>
-    <e lm="ampliamenti"><i>ampliamenti</i><par n="oggi__adv"/></e>
-    <e lm="pruggrissivamenti"><i>pruggrissivamenti</i><par n="oggi__adv"/></e>
-    <e lm="riligiosamenti"><par n="ri/re"/><i>ligiosamenti</i><par n="oggi__adv"/></e>
-    <e lm="malamenti"><i>malamenti</i><par n="oggi__adv"/></e>
-    <e lm="iffitivamenti"><i>iffitivamenti</i><par n="oggi__adv"/></e>
-    <e lm="impropriamenti"><par n="im/m"/><i>propriamenti</i><par n="oggi__adv"/></e>
-    <e lm="ngiustamenti"><i>ngiustamenti</i><par n="oggi__adv"/></e>
-    <e lm="invirsamenti"><par n="in/n"/><i>virsamenti</i><par n="oggi__adv"/></e>
-    <e lm="simanticamenti"><i>simanticamenti</i><par n="oggi__adv"/></e>
-    <e lm="intimamenti"><par n="in/n"/><i>timamenti</i><par n="oggi__adv"/></e>
-    <e lm="schimaticamenti"><i>schimaticamenti</i><par n="oggi__adv"/></e>
-    <e lm="progressivamenti"><i>progressivamenti</i><par n="oggi__adv"/></e>
-    <e lm="progressivamenti" r="LR"><p><l>prugressivamenti</l><r>progressivamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="realisticamenti"><i>realisticamenti</i><par n="oggi__adv"/></e>
-    <e lm="cullettivamenti"><i>cullettivamenti</i><par n="oggi__adv"/></e>
-    <e lm="curiosamenti"><i>curiosamenti</i><par n="oggi__adv"/></e>
-    <e lm="disgraziatamenti"><i>disgraziatamenti</i><par n="oggi__adv"/></e>
-    <e lm="elettricamenti"><i>elettricamenti</i><par n="oggi__adv"/></e>
-    <e lm="statisticamenti"><i>statisticamenti</i><par n="oggi__adv"/></e>
-    <e lm="ticnoluggicamenti"><i>ticnoluggicamenti</i><par n="oggi__adv"/></e>
-    <e lm="diplumaticamenti"><i>diplumaticamenti</i><par n="oggi__adv"/></e>
-    <e lm="puliticamenti" r="LR"><p><l>politicamenti</l><r>puliticamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="littirariamenti"><i>littirariamenti</i><par n="oggi__adv"/></e>
-    <e lm="sistematicamenti"><i>sistematicamenti</i><par n="oggi__adv"/></e>
-    <e lm="cullettivamenti" r="LR"><p><l>collettivamenti</l><r>cullettivamenti</r></p><par n="oggi__adv"/></e>
+    <e lm="bruscamenti"><i>bruscamenti</i><par n="oji__adv"/></e>
+    <e lm="umanamenti"><i>umanamenti</i><par n="oji__adv"/></e>
+    <e lm="unitariamenti"><i>unitariamenti</i><par n="oji__adv"/></e>
+    <e lm="mutuamenti"><i>mutuamenti</i><par n="oji__adv"/></e>
+    <e lm="primariamenti"><i>primariamenti</i><par n="oji__adv"/></e>
+    <e lm="prima"><i>prima</i><par n="oji__adv"/></e>
+    <e lm="necessariamenti"><i>necessariamenti</i><par n="oji__adv"/></e>
+    <e lm="ampliamenti"><i>ampliamenti</i><par n="oji__adv"/></e>
+    <e lm="pruggrissivamenti"><i>pruggrissivamenti</i><par n="oji__adv"/></e>
+    <e lm="riligiosamenti"><par n="ri/re"/><i>ligiosamenti</i><par n="oji__adv"/></e>
+    <e lm="malamenti"><i>malamenti</i><par n="oji__adv"/></e>
+    <e lm="iffitivamenti"><i>iffitivamenti</i><par n="oji__adv"/></e>
+    <e lm="impropriamenti"><par n="im/m"/><i>propriamenti</i><par n="oji__adv"/></e>
+    <e lm="ngiustamenti"><i>ngiustamenti</i><par n="oji__adv"/></e>
+    <e lm="invirsamenti"><par n="in/n"/><i>virsamenti</i><par n="oji__adv"/></e>
+    <e lm="simanticamenti"><i>simanticamenti</i><par n="oji__adv"/></e>
+    <e lm="intimamenti"><par n="in/n"/><i>timamenti</i><par n="oji__adv"/></e>
+    <e lm="schimaticamenti"><i>schimaticamenti</i><par n="oji__adv"/></e>
+    <e lm="progressivamenti"><i>progressivamenti</i><par n="oji__adv"/></e>
+    <e lm="progressivamenti" r="LR"><p><l>prugressivamenti</l><r>progressivamenti</r></p><par n="oji__adv"/></e>
+    <e lm="realisticamenti"><i>realisticamenti</i><par n="oji__adv"/></e>
+    <e lm="cullettivamenti"><i>cullettivamenti</i><par n="oji__adv"/></e>
+    <e lm="curiosamenti"><i>curiosamenti</i><par n="oji__adv"/></e>
+    <e lm="disgraziatamenti"><i>disgraziatamenti</i><par n="oji__adv"/></e>
+    <e lm="elettricamenti"><i>elettricamenti</i><par n="oji__adv"/></e>
+    <e lm="statisticamenti"><i>statisticamenti</i><par n="oji__adv"/></e>
+    <e lm="ticnoluggicamenti"><i>ticnoluggicamenti</i><par n="oji__adv"/></e>
+    <e lm="diplumaticamenti"><i>diplumaticamenti</i><par n="oji__adv"/></e>
+    <e lm="puliticamenti" r="LR"><p><l>politicamenti</l><r>puliticamenti</r></p><par n="oji__adv"/></e>
+    <e lm="littirariamenti"><i>littirariamenti</i><par n="oji__adv"/></e>
+    <e lm="sistematicamenti"><i>sistematicamenti</i><par n="oji__adv"/></e>
+    <e lm="cullettivamenti" r="LR"><p><l>collettivamenti</l><r>cullettivamenti</r></p><par n="oji__adv"/></e>
 
-    <e lm="tanticchia"><i>tanticchia</i><par n="oggi__adv"/></e>
-    <e lm="anticchia" r="LR"><p><l>anticchia</l><r>tanticchia</r></p><par n="oggi__adv"/></e>
-    <e lm="nanticchia" r="LR"><p><l>nanticchia</l><r>tanticchia</r></p><par n="oggi__adv"/></e>
-    <e lm="appuntu"><i>appuntu</i><par n="oggi__adv"/></e>
-    <e lm="nfatti"><i>nfatti</i><par n="oggi__adv"/></e>
-    <e lm="dunca"><i>dunca</i><par n="oggi__adv"/></e>
-    <e lm="addunca" r="LR"><p><l>addunca</l><r>dunca</r></p><par n="oggi__adv"/></e>
-    <e lm="dunchi" r="LR"><p><l>dunchi</l><r>dunca</r></p><par n="oggi__adv"/></e>
-    <e lm="dunchi" r="LR"><p><l>dunqui</l><r>dunca</r></p><par n="oggi__adv"/></e>
-    <e lm="suprattuttu"><i>suprattuttu</i><par n="oggi__adv"/></e>
-    <e lm="suprattuttu" r="LR"><p><l>supratuttu</l><r>suprattuttu</r></p><par n="oggi__adv"/></e>
+    <e lm="tanticchia"><i>tanticchia</i><par n="oji__adv"/></e>
+    <e lm="anticchia" r="LR"><p><l>anticchia</l><r>tanticchia</r></p><par n="oji__adv"/></e>
+    <e lm="nanticchia" r="LR"><p><l>nanticchia</l><r>tanticchia</r></p><par n="oji__adv"/></e>
+    <e lm="appuntu"><i>appuntu</i><par n="oji__adv"/></e>
+    <e lm="nfatti"><i>nfatti</i><par n="oji__adv"/></e>
+    <e lm="dunca"><i>dunca</i><par n="oji__adv"/></e>
+    <e lm="addunca" r="LR"><p><l>addunca</l><r>dunca</r></p><par n="oji__adv"/></e>
+    <e lm="dunchi" r="LR"><p><l>dunchi</l><r>dunca</r></p><par n="oji__adv"/></e>
+    <e lm="dunchi" r="LR"><p><l>dunqui</l><r>dunca</r></p><par n="oji__adv"/></e>
+    <e lm="suprattuttu"><i>suprattuttu</i><par n="oji__adv"/></e>
+    <e lm="suprattuttu" r="LR"><p><l>supratuttu</l><r>suprattuttu</r></p><par n="oji__adv"/></e>
 
-    <e lm="ntiramenti"><i>ntiramenti</i><par n="oggi__adv"/></e>
-    <e lm="lentamenti"><i>lentamenti</i><par n="oggi__adv"/></e>
-    <e lm="unicamenti"><i>unicamenti</i><par n="oggi__adv"/></e>
-    <e lm="cirtamenti"><i>cirtamenti</i><par n="oggi__adv"/></e>
-    <e lm="spicificamenti"><i>spicificamenti</i><par n="oggi__adv"/></e>
-    <e lm="spicificamenti" r="LR"><p><l>spicificatamenti</l><r>spicificamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="prubbabirmenti"><i>prubbabirmenti</i><par n="oggi__adv"/></e>
-    <e lm="esattamenti"><i>esattamenti</i><par n="oggi__adv"/></e>
-    <e lm="esattamenti" r="LR"><p><l>isattamenti</l><r>esattamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="mmidiatamenti"><i>mmidiatamenti</i><par n="oggi__adv"/></e>
-    <e lm="nurmarmenti"><i>nurmarmenti</i><par n="oggi__adv"/></e>
-    <e lm="precisamenti"><i>precisamenti</i><par n="oggi__adv"/></e>
-    <e lm="pupularmenti"><i>pupularmenti</i><par n="oggi__adv"/></e>
-    <e lm="cuntrariamenti"><i>cuntrariamenti</i><par n="oggi__adv"/></e>
-    <e lm="unanimamenti"><i>unanimamenti</i><par n="oggi__adv"/></e>
-    <e lm="prugrissivamenti"><i>prugrissivamenti</i><par n="oggi__adv"/></e>
-    <e lm="speciarmenti"><i>speciarmenti</i><par n="oggi__adv"/></e>
-    <e lm="attivamenti"><i>attivamenti</i><par n="oggi__adv"/></e>
-    <e lm="ticnicamenti"><i>ticnicamenti</i><par n="oggi__adv"/></e>
-    <e lm="rialmenti"><par n="ri/re"/><i>almenti</i><par n="oggi__adv"/></e>
-    <e lm="oggijornu"><par n="o/u"/><i>ggijornu</i><par n="oggi__adv"/></e>
-    <e lm="forsi"><i>forsi</i><par n="oggi__adv"/></e>
-    <e lm="all'incirca"><i>all'incirca</i><par n="oggi__adv"/></e>
+    <e lm="ntiramenti"><i>ntiramenti</i><par n="oji__adv"/></e>
+    <e lm="lentamenti"><i>lentamenti</i><par n="oji__adv"/></e>
+    <e lm="unicamenti"><i>unicamenti</i><par n="oji__adv"/></e>
+    <e lm="cirtamenti"><i>cirtamenti</i><par n="oji__adv"/></e>
+    <e lm="spicificamenti"><i>spicificamenti</i><par n="oji__adv"/></e>
+    <e lm="spicificamenti" r="LR"><p><l>spicificatamenti</l><r>spicificamenti</r></p><par n="oji__adv"/></e>
+    <e lm="prubbabirmenti"><i>prubbabirmenti</i><par n="oji__adv"/></e>
+    <e lm="esattamenti"><i>esattamenti</i><par n="oji__adv"/></e>
+    <e lm="esattamenti" r="LR"><p><l>isattamenti</l><r>esattamenti</r></p><par n="oji__adv"/></e>
+    <e lm="mmidiatamenti"><i>mmidiatamenti</i><par n="oji__adv"/></e>
+    <e lm="nurmarmenti"><i>nurmarmenti</i><par n="oji__adv"/></e>
+    <e lm="precisamenti"><i>precisamenti</i><par n="oji__adv"/></e>
+    <e lm="pupularmenti"><i>pupularmenti</i><par n="oji__adv"/></e>
+    <e lm="cuntrariamenti"><i>cuntrariamenti</i><par n="oji__adv"/></e>
+    <e lm="unanimamenti"><i>unanimamenti</i><par n="oji__adv"/></e>
+    <e lm="prugrissivamenti"><i>prugrissivamenti</i><par n="oji__adv"/></e>
+    <e lm="speciarmenti"><i>speciarmenti</i><par n="oji__adv"/></e>
+    <e lm="attivamenti"><i>attivamenti</i><par n="oji__adv"/></e>
+    <e lm="ticnicamenti"><i>ticnicamenti</i><par n="oji__adv"/></e>
+    <e lm="rialmenti"><par n="ri/re"/><i>almenti</i><par n="oji__adv"/></e>
+    <e lm="oggijornu"><par n="o/u"/><i>ggijornu</i><par n="oji__adv"/></e>
+    <e lm="forsi"><i>forsi</i><par n="oji__adv"/></e>
+    <e lm="all'incirca"><i>all'incirca</i><par n="oji__adv"/></e>
 
-    <e lm="difficirmenti"><i>difficirmenti</i><par n="oggi__adv"/></e>
-
-    
-    <e lm="currittamenti"><i>currittamenti</i><par n="oggi__adv"/></e>
-    <e lm="dispiratamenti"><i>dispiratamenti</i><par n="oggi__adv"/></e>
-    <e lm="autamenti"><i>autamenti</i><par n="oggi__adv"/></e>
-    <e lm="appurtunamenti"><i>appurtunamenti</i><par n="oggi__adv"/></e>
-    <e lm="currettamenti"><i>currettamenti</i><par n="oggi__adv"/></e>
-    <e lm="pirfittamenti"><i>pirfittamenti</i><par n="oggi__adv"/></e>
-    <e lm="ecunumicamenti"><i>ecunumicamenti</i><par n="oggi__adv"/></e>
-    <e lm="sulitamenti"><i>sulitamenti</i><par n="oggi__adv"/></e>
-    <e lm="viramenti"><i>viramenti</i><par n="oggi__adv"/></e>
-    <e lm="spiciramenti"><i>spiciramenti</i><par n="oggi__adv"/></e>
-    <e lm="saldamenti"><i>saldamenti</i><par n="oggi__adv"/></e>
-    <e lm="trattamenti"><i>trattamenti</i><par n="oggi__adv"/></e>
-    <e lm="ultimamenti"><i>ultimamenti</i><par n="oggi__adv"/></e>
-    <e lm="rilativamenti"><par n="ri/re"/><i>lativamenti</i><par n="oggi__adv"/></e>
-    <e lm="rilativamenti" r="LR"><p><l>rilitivamenti</l><r>rilativamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="rilativamenti" r="LR"><p><l>relativamenti</l><r>rilativamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="largamenti"><i>largamenti</i><par n="oggi__adv"/></e>
-    <e lm="riccamenti"><par n="ri/re"/><i>ccamenti</i><par n="oggi__adv"/></e>
-        <e lm="oltrimodu"><par n="o/u"/><i>ltrimodu</i><par n="oggi__adv"/></e>
-
-    <e lm="largamenti" r="LR"><p><l>larucamenti</l><r>largamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="largamenti" r="LR"><p><l>laricamenti</l><r>largamenti</r></p><par n="oggi__adv"/></e>
-
-    <e lm="nternamenti"><i>nternamenti</i><par n="oggi__adv"/></e>
-    <e lm="mudiratamenti"><i>mudiratamenti</i><par n="oggi__adv"/></e>
-    <e lm="urdinatamenti"><i>urdinatamenti</i><par n="oggi__adv"/></e>
-    <e lm="ntiramenti" r="LR"><p><l>intiramenti</l><r>ntiramenti</r></p><par n="oggi__adv"/></e>
-    <e lm="ntiramenti" r="LR"><p><l>nteramenti</l><r>ntiramenti</r></p><par n="oggi__adv"/></e>
-    <e lm="seriamenti"><i>seriamenti</i><par n="oggi__adv"/></e>
-    <e lm="siriamenti"><i>siriamenti</i><par n="oggi__adv"/></e>
-    <e lm="chinamenti"><i>chinamenti</i><par n="oggi__adv"/></e>
-    <e lm="unitamenti"><i>unitamenti</i><par n="oggi__adv"/></e>
-    <e lm="mpruvvisamenti"><i>mpruvvisamenti</i><par n="oggi__adv"/></e>
-    <e lm="dirittamenti"><i>dirittamenti</i><par n="oggi__adv"/></e>
-    <e lm="lentamenti" r="LR"><p><l>lintamenti</l><r>lentamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="succisivamenti"><i>succisivamenti</i><par n="oggi__adv"/></e>
-    <e lm="giugraficamenti"><i>giugraficamenti</i><par n="oggi__adv"/></e>
-    <e lm="ruinusamenti"><i>ruinusamenti</i><par n="oggi__adv"/></e>
-    <e lm="ginirusamenti"><i>ginirusamenti</i><par n="oggi__adv"/></e>
-    <e lm="mutamenti"><i>mutamenti</i><par n="oggi__adv"/></e>
-    <e lm="scintificamenti"><i>scintificamenti</i><par n="oggi__adv"/></e>
-    <e lm="pratticamenti"><i>pratticamenti</i><par n="oggi__adv"/></e>
-    <e lm="estrimamenti"><i>estrimamenti</i><par n="oggi__adv"/></e>
-    <e lm="lestamenti"><i>lestamenti</i><par n="oggi__adv"/></e>
-    <e lm="variamenti"><i>variamenti</i><par n="oggi__adv"/></e>
-    <e lm="giniticamenti"><i>giniticamenti</i><par n="oggi__adv"/></e>
-    <e lm="spuntaniamenti"><i>spuntaniamenti</i><par n="oggi__adv"/></e>
-    <e lm="pubblicamenti"><i>pubblicamenti</i><par n="oggi__adv"/></e>
-    <e lm="mediamenti" r="LR"><p><l>midiamenti</l><r>mediamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="summariamenti"><i>summariamenti</i><par n="oggi__adv"/></e>
-    <e lm="algebbricamenti"><i>algebbricamenti</i><par n="oggi__adv"/></e>
-    <e lm="ininterrottamenti"><par n="in/n"/><i>interrottamenti</i><par n="oggi__adv"/></e>
-    <e lm="vagamenti"><i>vagamenti</i><par n="oggi__adv"/></e>
-    <e lm="riculamenti"><par n="ri/re"/><i>culamenti</i><par n="oggi__adv"/></e>
-    <e lm="è cunsuitùdini"><i>è<b/>cunsuitùdini</i><par n="oggi__adv"/></e>
+    <e lm="difficirmenti"><i>difficirmenti</i><par n="oji__adv"/></e>
 
     
-    <e lm="sistematicamenti" r="LR"><p><l>sistimaticamenti</l><r>sistematicamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="geograficamenti"><i>geograficamenti</i><par n="oggi__adv"/></e>
-    <e lm="geograficamenti" r="LR"><p><l>giugraficamenti</l><r>geograficamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="giniricamenti" r="LR"><p><l>ginericamenti</l><r>giniricamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="miseramenti"><i>miseramenti</i><par n="oggi__adv"/></e>
-    <e lm="diversamenti"><i>diversamenti</i><par n="oggi__adv"/></e>
-    <e lm="diversamenti" r="LR"><p><l>divirsamenti</l><r>diversamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="equamenti"><i>equamenti</i><par n="oggi__adv"/></e>
-    <e lm="discretamenti"><i>discretamenti</i><par n="oggi__adv"/></e>
-    <e lm="atturamenti"><i>atturamenti</i><par n="oggi__adv"/></e>
-    <e lm="sulamenti" r="LR"><p><l>solamenti</l><r>sulamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="attentamenti" r="LR"><p><l>attintamenti</l><r>attentamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="nicissariamenti"><i>nicissariamenti</i><par n="oggi__adv"/></e>
-    <e lm="significativamenti"><i>significativamenti</i><par n="oggi__adv"/></e>
-    <e lm="limitatamenti"><i>limitatamenti</i><par n="oggi__adv"/></e>
-    <e lm="commudamenti"><i>commudamenti</i><par n="oggi__adv"/></e>
-    <e lm="simmetricamenti"><i>simmetricamenti</i><par n="oggi__adv"/></e>
-    <e lm="curiusamenti"><i>curiusamenti</i><par n="oggi__adv"/></e>
-    <e lm="ndirettamenti"><i>ndirettamenti</i><par n="oggi__adv"/></e>
-    <e lm="chimicamenti"><i>chimicamenti</i><par n="oggi__adv"/></e>
-    <e lm="assulutamenti"><i>assulutamenti</i><par n="oggi__adv"/></e>
-    <e lm="cutiddianamenti"><i>cutiddianamenti</i><par n="oggi__adv"/></e>
-    <e lm="apprussimativamenti"><i>apprussimativamenti</i><par n="oggi__adv"/></e>
-    <e lm="dimucraticamenti" r="LR"><p><l>dimocraticamenti</l><r>dimucraticamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="finanziaramenti"><i>finanziaramenti</i><par n="oggi__adv"/></e>
-    <e lm="immidiatamenti"><i>immidiatamenti</i><par n="oggi__adv"/></e>
-    <e lm="immidiatamenti" r="LR"><p><l>immediatamenti</l><r>immidiatamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="estirnamenti"><i>estirnamenti</i><par n="oggi__adv"/></e>
-    <e lm="estirnamenti" r="LR"><p><l>istirnamenti</l><r>estirnamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="tranquillamenti"><i>tranquillamenti</i><par n="oggi__adv"/></e>
-    <e lm="quantitativamenti"><i>quantitativamenti</i><par n="oggi__adv"/></e>
-    <e lm="linguisticamenti"><i>linguisticamenti</i><par n="oggi__adv"/></e>
-    <e lm="prupiamenti"><i>prupiamenti</i><par n="oggi__adv"/></e>
-    <e lm="decisamenti"><i>dicisamenti</i><par n="oggi__adv"/></e>
-    <e lm="decisamenti" r="LR"><p><l>decisamenti</l><r>decisamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="girarchicamenti"><i>girarchicamenti</i><par n="oggi__adv"/></e>
-    <e lm="novamenti" r="LR"><p><l>nuvamenti</l><r>novamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="stremamenti"><i>stremamenti</i><par n="oggi__adv"/></e>
-    <e lm="analiticamenti"><i>analiticamenti</i><par n="oggi__adv"/></e>
-    <e lm="clannistinamenti"><i>clannistinamenti</i><par n="oggi__adv"/></e>
-    <e lm="libbiramenti" r="LR"><p><l>libberamenti</l><r>libbiramenti</r></p><par n="oggi__adv"/></e>
-    <e lm="ecunomicamenti"><i>ecunomicamenti</i><par n="oggi__adv"/></e>
-    <e lm="luntanamenti"><i>luntanamenti</i><par n="oggi__adv"/></e>
-    <e lm="prupriamenti"><i>prupriamenti</i><par n="oggi__adv"/></e>
-    <e lm="esclusivamenti"><i>esclusivamenti</i><par n="oggi__adv"/></e>
-    <e lm="automaticamenti"><i>automaticamenti</i><par n="oggi__adv"/></e>
-    <e lm="cuntimpuraniamenti"><i>cuntimpuraniamenti</i><par n="oggi__adv"/></e>
-    <e lm="tiuricamenti"><i>tiuricamenti</i><par n="oggi__adv"/></e>
-    <e lm="sfurtunatamenti"><i>sfurtunatamenti</i><par n="oggi__adv"/></e>
-    <e lm="parallilamenti"><i>parallilamenti</i><par n="oggi__adv"/></e>
-    <e lm="parallilamenti" r="LR"><p><l>parallelamenti</l><r>parallilamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="autramenti"><i>autramenti</i><par n="oggi__adv"/></e>
-    <e lm="pirfittamenti" r="LR"><p><l>pirfettamenti</l><r>pirfittamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="pirfittamenti" r="LR"><p><l>perfettamenti</l><r>pirfittamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="giniricamenti"><i>giniricamenti</i><par n="oggi__adv"/></e>
-    <e lm="giniricamenti" r="LR"><p><l>genericamenti</l><r>giniricamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="canciamenti"><i>canciamenti</i><par n="oggi__adv"/></e>
-    <e lm="piazzamenti"><i>piazzamenti</i><par n="oggi__adv"/></e>
-    <e lm="pacificamenti"><i>pacificamenti</i><par n="oggi__adv"/></e>
-    <e lm="classicamenti"><i>classicamenti</i><par n="oggi__adv"/></e>
-    <e lm="cumprissivamenti"><i>cumprissivamenti</i><par n="oggi__adv"/></e>
-    <e lm="ticnologgicamenti"><i>ticnologgicamenti</i><par n="oggi__adv"/></e>
-    <e lm="ticnologgicamenti" r="LR"><p><l>ticnuluggicamenti</l><r>ticnologgicamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="graputamenti"><i>graputamenti</i><par n="oggi__adv"/></e>
-    <e lm="visivamenti"><i>visivamenti</i><par n="oggi__adv"/></e>
-    <e lm="difinitvamenti"><par n="di/de"/><i>finitvamenti</i><par n="oggi__adv"/></e>
-    <e lm="cumpritamenti"><i>cumpritamenti</i><par n="oggi__adv"/></e>
-    <e lm="cumpritamenti" r="LR"><p><l>cumplitamenti</l><r>cumpritamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="cumpritamenti" r="LR"><p><l>cumpletamenti</l><r>cumpritamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="cumpritamenti" r="LR"><p><l>completamenti</l><r>cumpritamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="maravigghiusamenti"><i>maravigghiusamenti</i><par n="oggi__adv"/></e>
-    <e lm="filusuficamenti"><i>filusuficamenti</i><par n="oggi__adv"/></e>
-    <e lm="pruvvisoriamenti"><i>pruvvisoriamenti</i><par n="oggi__adv"/></e>
-    <e lm="vuluntariamenti"><i>vuluntariamenti</i><par n="oggi__adv"/></e>
-    <e lm="siparatamenti"><i>siparatamenti</i><par n="oggi__adv"/></e>
-    <e lm="siparatamenti" r="LR"><p><l>separatamenti</l><r>siparatamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="matimaticamenti"><i>matimaticamenti</i><par n="oggi__adv"/></e>
-    <e lm="ironicamenti"><i>ironicamenti</i><par n="oggi__adv"/></e>
-    <e lm="distintamenti"><i>distintamenti</i><par n="oggi__adv"/></e>
-    <e lm="diffusamenti"><i>diffusamenti</i><par n="oggi__adv"/></e>
-    <e lm="ecunumicamenti" r="LR"><p><l>economicamenti</l><r>ecunumicamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="mprupiamenti"><i>mprupiamenti</i><par n="oggi__adv"/></e>
-    <e lm="prittamenti"><i>prittamenti</i><par n="oggi__adv"/></e>
-    <e lm="esclusivamenti" r="LR"><p><l>isclusivamenti</l><r>esclusivamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="stilisticamenti"><i>stilisticamenti</i><par n="oggi__adv"/></e>
-    <e lm="mediamenti"><i>mediamenti</i><par n="oggi__adv"/></e>
-    <e lm="tecnicamenti"><i>tecnicamenti</i><par n="oggi__adv"/></e>
-    <e lm="demucraticamenti"><i>demucraticamenti</i><par n="oggi__adv"/></e>
-    <e lm="artisticamenti"><i>artisticamenti</i><par n="oggi__adv"/></e>
-    <e lm="pienamenti"><i>pienamenti</i><par n="oggi__adv"/></e>
-    <e lm="contrariamenti"><i>contrariamenti</i><par n="oggi__adv"/></e>
-    <e lm="urdinamenti"><i>urdinamenti</i><par n="oggi__adv"/></e>
-    <e lm="licamenti"><i>licamenti</i><par n="oggi__adv"/></e>
-    <e lm="dilicatamenti"><i>dilicatamenti</i><par n="oggi__adv"/></e>
-    <e lm="icunugraficamenti"><i>icunugraficamenti</i><par n="oggi__adv"/></e>
-    <e lm="anchiamenti"><i>anchiamenti</i><par n="oggi__adv"/></e>
-    <e lm="prettamenti"><i>prettamenti</i><par n="oggi__adv"/></e>
-    <e lm="architittonicamenti"><i>architittonicamenti</i><par n="oggi__adv"/></e>
-    <e lm="chirurgicamenti"><i>chirurgicamenti</i><par n="oggi__adv"/></e>
-    <e lm="figurativamenti"><i>figurativamenti</i><par n="oggi__adv"/></e>
-    <e lm="aggiustamenti"><i>aggiustamenti</i><par n="oggi__adv"/></e>
-    <e lm="ndirettamenti" r="LR"><p><l>indirittamenti</l><r>ndirettamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="fisicamenti"><i>fisicamenti</i><par n="oggi__adv"/></e>
-    <e lm="denzamenti"><i>denzamenti</i><par n="oggi__adv"/></e>
-    <e lm="densamenti" r="LR"><p><l>densamenti</l><r>denzamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="dinzamenti" r="LR"><p><l>dinzamenti</l><r>denzamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="traggicamenti"><i>traggicamenti</i><par n="oggi__adv"/></e>
-    <e lm="cumpretamenti"><i>cumpretamenti</i><par n="oggi__adv"/></e>
-    <e lm="effettivamenti"><i>effettivamenti</i><par n="oggi__adv"/></e>
-    <e lm="scarsamenti"><i>scarsamenti</i><par n="oggi__adv"/></e>
-    <e lm="pusitivamenti"><i>pusitivamenti</i><par n="oggi__adv"/></e>
-    <e lm="pusitivamenti" r="LR"><p><l>positivamenti</l><r>pusitivamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="prontamenti"><i>prontamenti</i><par n="oggi__adv"/></e>
-    <e lm="prontamenti" r="LR"><p><l>pruntamenti</l><r>prontamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="basamenti"><i>basamenti</i><par n="oggi__adv"/></e>
-    <e lm="gratuitamenti"><i>gratuitamenti</i><par n="oggi__adv"/></e>
-    <e lm="pruvvisuriamenti"><i>pruvvisuriamenti</i><par n="oggi__adv"/></e>
-    <e lm="suggittivamenti"><i>suggittivamenti</i><par n="oggi__adv"/></e>
-    <e lm="furtunatamenti"><i>furtunatamenti</i><par n="oggi__adv"/></e>
-    <e lm="urtimamenti"><i>urtimamenti</i><par n="oggi__adv"/></e>
-    <e lm="urtimamenti" r="LR"><p><l>ultimamenti</l><r>urtimamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="justamenti"><i>justamenti</i><par n="oggi__adv"/></e>
-    <e lm="justamenti" r="LR"><p><l>giustamenti</l><r>justamenti</r></p><par n="oggi__adv"/></e>
-    
-    <e lm="ecunumicamenti" r="LR"><p><l>icunomicamenti</l><r>ecunumicamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="ecunumicamenti" r="LR"><p><l>ecunomicamenti</l><r>ecunumicamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="cumplissivamenti"><i>cumplissivamenti</i><par n="oggi__adv"/></e>
-    <e lm="piriodicamenti" r="LR"><p><l>piriudicamenti</l><r>piriodicamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="piriodicamenti" r="LR"><p><l>periodicamenti</l><r>piriodicamenti</r></p><par n="oggi__adv"/></e>
-    
-    <e lm="a babbalà"><i>a<b/>babbalà</i><par n="oggi__adv"/></e>
-    <e lm="a babbalà" r="LR"><p><l>a<b/>gangalà</l><r>a<b/>babbalà</r></p><par n="oggi__adv"/></e>
-    
-    <e lm="a bizzeffa"><i>a<b/>bbizzeffa</i><par n="oggi__adv"/></e>
-    <e lm="a bizzeffa" r="LR"><p><l>abizzeffi</l><r>a<b/>bbizzeffa</r></p><par n="oggi__adv"/></e>
-    <e lm="a bizzeffa" r="LR"><p><l>abbizzeffi</l><r>a<b/>bbizzeffa</r></p><par n="oggi__adv"/></e>
-    <e lm="a bizzeffa" r="LR"><p><l>a<b/>bizzeffi</l><r>a<b/>bbizzeffa</r></p><par n="oggi__adv"/></e>
-    <e lm="a bizzeffa" r="LR"><p><l>a<b/>bbizzeffa</l><r>a<b/>bbizzeffa</r></p><par n="oggi__adv"/></e>
-    <e lm="a bizzeffa" r="LR"><p><l>a<b/>buzzeffa</l><r>a<b/>bbizzeffa</r></p><par n="oggi__adv"/></e>
-    <e lm="a bizzeffa" r="LR"><p><l>a<b/>bbuzzeffa</l><r>a<b/>bbizzeffa</r></p><par n="oggi__adv"/></e>
-    <e lm="a bizzeffa" r="LR"><p><l>abbizzeffa</l><r>a<b/>bbizzeffa</r></p><par n="oggi__adv"/></e>
-    <e lm="a bizzeffa" r="LR"><p><l>abbuzzeffa</l><r>a<b/>bbizzeffa</r></p><par n="oggi__adv"/></e>
-    
-    <e lm="a cca banna"><i>a<b/>cca<b/>banna</i><par n="oggi__adv"/></e>
-    <e lm="a cca banna" r="LR"><p><l>accabbanna</l><r>a<b/>cca<b/>banna</r></p><par n="oggi__adv"/></e>
-    <e lm="a cca banna" r="LR"><p><l>a<b/>cca<b/>bbanna</l><r>a<b/>cca<b/>banna</r></p><par n="oggi__adv"/></e>
-    <e lm="a cca banna" r="LR"><p><l>accabanna</l><r>a<b/>cca<b/>banna</r></p><par n="oggi__adv"/></e>
-    <e lm="a cca banna" r="LR"><p><l>ccabanna</l><r>a<b/>cca<b/>banna</r></p><par n="oggi__adv"/></e>
-    
-    <e lm="a dda banna"><i>a<b/>dda<b/>banna</i><par n="oggi__adv"/></e>
-    <e lm="a dda banna" r="LR"><p><l>addabbanna</l><r>a<b/>dda<b/>banna</r></p><par n="oggi__adv"/></e>
-    <e lm="a dda banna" r="LR"><p><l>a<b/>dda<b/>bbanna</l><r>a<b/>dda<b/>banna</r></p><par n="oggi__adv"/></e>
-    <e lm="a dda banna" r="LR"><p><l>addabanna</l><r>a<b/>dda<b/>banna</r></p><par n="oggi__adv"/></e>
-    <e lm="dda dda bannaabanna" r="LR"><p><l>ddabanna</l><r>a<b/>dda<b/>banna</r></p><par n="oggi__adv"/></e>
-    
-    <e lm="addritta"><i>addritta</i><par n="oggi__adv"/></e>
-    <e lm="addritta" r="LR"><p><l>a<b/>ddritta</l><r>addritta</r></p><par n="oggi__adv"/></e>
-    <e lm="addritta" r="LR"><p><l>a<b/>la<b/>dritta</l><r>addritta</r></p><par n="oggi__adv"/></e>
-    <e lm="addritta" r="LR"><p><l>aggritta</l><r>addritta</r></p><par n="oggi__adv"/></e>
-    
-    <e lm="allatu"><i>allatu</i><par n="oggi__adv"/></e>
-    <e lm="allatu" r="LR"><p><l>a<b/>latu</l><r>allatu</r></p><par n="oggi__adv"/></e>
-    
-    <e lm="a li tanti"><i>a<b/>li<b/>tanti</i><par n="oggi__adv"/></e>
-    <e lm="a nenti"><i>a<b/>nenti</i><par n="oggi__adv"/></e>
-    <e lm="a nenti" r="LR"><p><l>annenti</l><r>a<b/>nenti</r></p><par n="oggi__adv"/></e>
-    <e lm="abbastanti"><i>abbastanti</i><par n="oggi__adv"/></e>
-    <e lm="abbastanti" r="LR"><p><l>bastanti</l><r>abbastanti</r></p><par n="oggi__adv"/></e>
-    <e lm="affacciu"><i>affacciu</i><par n="oggi__adv"/></e>
-    <e lm="addirittura"><i>addirittura</i><par n="oggi__adv"/></e>
-    <e lm="addirittura" r="LR"><p><l>addirrittura</l><r>addirittura</r></p><par n="oggi__adv"/></e>
-    
-    <e lm="pi camadora"><i>pi<b/>camadora</i><par n="oggi__adv"/></e>
-    <e lm="pi camadora" r="LR"><p><l>pi<b/>camarora</l><r>pi<b/>camadora</r></p><par n="oggi__adv"/></e>
-    <e lm="pi camadora" r="LR"><p><l>piccamadora</l><r>pi<b/>camadora</r></p><par n="oggi__adv"/></e>
-    <e lm="pi camadora" r="LR"><p><l>piccamora</l><r>pi<b/>camadora</r></p><par n="oggi__adv"/></e>
-    <e lm="pi camadora" r="LR"><p><l>ppi<b/>camarora</l><r>pi<b/>camadora</r></p><par n="oggi__adv"/></e>
-    <e lm="abbersu"><i>abbersu</i><par n="oggi__adv"/></e>
-    <e lm="alleggiu"><i>alleggiu</i><par n="oggi__adv"/></e>
-    <e lm="almenu"><i>almenu</i><par n="oggi__adv"/></e>
-    <e lm="annintra"><i>annintra</i><par n="oggi__adv"/></e>
-    <e lm="annintra" r="LR"><p><l>nnintra</l><r>annintra</r></p><par n="oggi__adv"/></e>
-    <e lm="attorna"><i>attorna</i><par n="oggi__adv"/></e>
-    <e lm="chiassai"><i>chiassai</i><par n="oggi__adv"/></e>
-    <e lm="chiassai" r="LR"><p><l>chiossai</l><r>chiassai</r></p><par n="oggi__adv"/></e>
-    <e lm="chiassai" r="LR"><p><l>chiossà</l><r>chiassai</r></p><par n="oggi__adv"/></e>
-    <e lm="daveru"><i>daveru</i><par n="oggi__adv"/></e>
-    <e lm="daveru" r="LR"><p><l>davveru</l><r>daveru</r></p><par n="oggi__adv"/></e>
-    <e lm="fraci"><i>fraci</i><par n="oggi__adv"/></e>    
-    <e lm="intra"><par n="in/n"/><i>tra</i><par n="oggi__adv"/></e> 
-    <e lm="ammàtula"><i>ammàtula</i><par n="oggi__adv"/></e>
-    <e lm="ammàtula" r="LR"><p><l>màtula</l><r>ammàtula</r></p><par n="oggi__adv"/></e> 
-    <e lm="ammàtula" r="LR"><p><l>mmàtula</l><r>ammàtula</r></p><par n="oggi__adv"/></e> 
-    <e lm="ammàtula" r="LR"><p><l>a<b/>màtula</l><r>ammàtula</r></p><par n="oggi__adv"/></e> 
-    <e lm="passannaieri"><i>passannaieri</i><par n="oggi__adv"/></e> 
-    <e lm="ncostu"><i>ncostu</i><par n="oggi__adv"/></e> 
-    <e lm="ncostu" r="LR"><p><l>accostu</l><r>ncostu</r></p><par n="oggi__adv"/></e>
-    <e lm="nsanu"><i>nsanu</i><par n="oggi__adv"/></e> 
-    <e lm="nto frattempu"><i>nto<b/>frattempu</i><par n="oggi__adv"/></e>     
-    <e lm="ntonzi"><i>ntonzi</i><par n="oggi__adv"/></e> 
-    <e lm="ntonsi" r="LR"><p><l>ntonsi</l><r>ntonzi</r></p><par n="oggi__adv"/></e>
-    <e lm="nzumma"><i>nzumma</i><par n="oggi__adv"/></e> 
-    <e lm="nzumma" r="LR"><p><l>nsumma</l><r>nzumma</r></p><par n="oggi__adv"/></e>
-	<e lm="ovannu"><par n="o/u"/><i>vannu</i><par n="oggi__adv"/></e> 
-	<e lm="peggiu"><i>peggiu</i><par n="oggi__adv"/></e> 
-	<e lm="nfinu"><i>nfinu</i><par n="oggi__adv"/></e>
-	<e lm="ccàsutta"><i>ccàsutta</i><par n="oggi__adv"/></e>
-    
-    
-    <e lm="chiaramenti" r="LR"><p><l>ciaramenti</l><r>chiaramenti</r></p><par n="oggi__adv"/></e>
-    <e lm="chimicamenti" r="LR"><p><l>cjhimicamenti</l><r>chimicamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="mprupiamenti" r="LR"><p><l>mprupriamenti</l><r>mprupiamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="apparentementi" r="LR"><p><l>apparentimenti</l><r>apparentementi</r></p><par n="oggi__adv"/></e>
-    <e lm="drasticamenti" r="LR"><p><l>trasticamenti</l><r>drasticamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="diversamenti" r="LR"><p><l>divìersamenti</l><r>diversamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="localmenti" r="LR"><p><l>lucalmenti</l><r>localmenti</r></p><par n="oggi__adv"/></e>
-    <e lm="spiciarmenti" r="LR"><p><l>aspiciarmenti</l><r>spiciarmenti</r></p><par n="oggi__adv"/></e>
-    <e lm="cuntimpuraniamenti" r="LR"><p><l>cuntipuraniamenti</l><r>cuntimpuraniamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="pirmanintimenti" r="LR"><p><l>pirmanentimenti</l><r>pirmanintimenti</r></p><par n="oggi__adv"/></e>
-    <e lm="ginirusamenti" r="LR"><p><l>ginirosamenti</l><r>ginirusamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="prubabirmenti" r="LR"><p><l>prubabilmenti</l><r>prubabirmenti</r></p><par n="oggi__adv"/></e>
-    <e lm="cuntinuamenti" r="LR"><p><l>continuamenti</l><r>cuntinuamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="cumplissivamenti" r="LR"><p><l>cumplessivamenti</l><r>cumplissivamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="giniralmenti" r="LR"><p><l>ginriralmenti</l><r>giniralmenti</r></p><par n="oggi__adv"/></e>
-    <e lm="istrimamenti" r="LR"><p><l>strimamenti</l><r>istrimamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="cuntempuraneamenti" r="LR"><p><l>cuntempuranamenti</l><r>cuntempuraneamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="clannistinamenti" r="LR"><p><l>clandistinamenti</l><r>clannistinamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="essenziarmenti" r="LR"><p><l>essnziarmenti</l><r>essenziarmenti</r></p><par n="oggi__adv"/></e>
-    <e lm="sustanzialmenti" r="LR"><p><l>sustanziarmenti</l><r>sustanzialmenti</r></p><par n="oggi__adv"/></e>
-    <e lm="univirsalmenti" r="LR"><p><l>universalmenti</l><r>univirsalmenti</r></p><par n="oggi__adv"/></e>
-    <e lm="currittamenti" r="LR"><p><l>scurrittamenti</l><r>currittamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="ginirarmenti" r="LR"><p><l>ginararmenti</l><r>ginirarmenti</r></p><par n="oggi__adv"/></e>
-    <e lm="viramenti" r="LR"><p><l>vèramenti</l><r>viramenti</r></p><par n="oggi__adv"/></e>
-    <e lm="siriamenti" r="LR"><p><l>sidiamenti</l><r>siriamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="licamenti" r="LR"><p><l>ligamenti</l><r>licamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="rialmenti" r="LR"><p><l>riarmenti</l><r>rialmenti</r></p><par n="oggi__adv"/></e>
-    <e lm="isplicitamenti" r="LR"><p><l>asplicitamenti</l><r>isplicitamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="custituzzionarmenti" r="LR"><p><l>custituzziunarmenti</l><r>custituzzionarmenti</r></p><par n="oggi__adv"/></e>
-    <e lm="legalmenti" r="LR"><p><l>legamenti</l><r>legalmenti</r></p><par n="oggi__adv"/></e>
-    <e lm="autramenti" r="LR"><p><l>autrimenti</l><r>autramenti</r></p><par n="oggi__adv"/></e>
-    <e lm="etnicamenti" r="LR"><p><l>eticamenti</l><r>etnicamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="ampiamenti" r="LR"><p><l>ampiementi</l><r>ampiamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="tradizionalmenti" r="LR"><p><l>tradizzionalmenti</l><r>tradizionalmenti</r></p><par n="oggi__adv"/></e>
-    <e lm="principalmenti" r="LR"><p><l>principalimenti</l><r>principalmenti</r></p><par n="oggi__adv"/></e>
-    <e lm="nternamenti" r="LR"><p><l>sternamenti</l><r>nternamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="musicarmenti" r="LR"><p><l>musicalmenti</l><r>musicarmenti</r></p><par n="oggi__adv"/></e>
-    <e lm="tutarmenti" r="LR"><p><l>totarmenti</l><r>tutarmenti</r></p><par n="oggi__adv"/></e>
-    <e lm="radicalmenti" r="LR"><p><l>radicarmenti</l><r>radicalmenti</r></p><par n="oggi__adv"/></e>
-    <e lm="prufunnamenti" r="LR"><p><l>profunnamenti</l><r>prufunnamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="nurmalmenti" r="LR"><p><l>normalmenti</l><r>nurmalmenti</r></p><par n="oggi__adv"/></e>
-    <e lm="maravigghiusamenti" r="LR"><p><l>miravigghiusamenti</l><r>maravigghiusamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="invirsamenti" r="LR"><p><l>nvirsamenti</l><r>invirsamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="ulteriormenti" r="LR"><p><l>ulteriurmenti</l><r>ulteriormenti</r></p><par n="oggi__adv"/></e>
-    <e lm="friquintimenti" r="LR"><p><l>friquintamenti</l><r>friquintimenti</r></p><par n="oggi__adv"/></e>
-    <e lm="ricintimenti" r="LR"><p><l>ricintementi</l><r>ricintimenti</r></p><par n="oggi__adv"/></e>
-    <e lm="prubabbirmenti" r="LR"><p><l>probabbirmenti</l><r>prubabbirmenti</r></p><par n="oggi__adv"/></e>
-    <e lm="spicificamenti" r="LR"><p><l>specificamenti</l><r>spicificamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="fortimenti" r="LR"><p><l>fortementi</l><r>fortimenti</r></p><par n="oggi__adv"/></e>
-    <e lm="ngiustamenti" r="LR"><p><l>ingiustamenti</l><r>ngiustamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="ecunumicamenti" r="LR"><p><l>econumicamenti</l><r>ecunumicamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="direttamenti" r="LR"><p><l>dirattamenti</l><r>direttamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="straurdinariamenti" r="LR"><p><l>straordinariamenti</l><r>straurdinariamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="esattamenti" r="LR"><p><l>asattamenti</l><r>esattamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="dirittamenti" r="LR"><p><l>dirattamenti</l><r>dirittamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="appurtunamenti" r="LR"><p><l>uppurtunamenti</l><r>appurtunamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="stremamenti" r="LR"><p><l>strimamenti</l><r>stremamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="urigginariamenti" r="LR"><p><l>uriginariamenti</l><r>urigginariamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="sulitamenti" r="LR"><p><l>sulidamenti</l><r>sulitamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="pirsunalmenti" r="LR"><p><l>pirsunarmenti</l><r>pirsunalmenti</r></p><par n="oggi__adv"/></e>
-    <e lm="mmidiatamenti" r="LR"><p><l>mmèdiatamenti</l><r>mmidiatamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="sulamenti" r="LR"><p><l>isulamenti</l><r>sulamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="iffitivamenti" r="LR"><p><l>iffittivamenti</l><r>iffitivamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="prubbabbirmenti" r="LR"><p><l>probbabbirmenti</l><r>prubbabbirmenti</r></p><par n="oggi__adv"/></e>
-    <e lm="prevalentementi" r="LR"><p><l>prevalentamenti</l><r>prevalentementi</r></p><par n="oggi__adv"/></e>
-    <e lm="ndirettamenti" r="LR"><p><l>indirettamenti</l><r>ndirettamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="probabilmenti" r="LR"><p><l>prubabilmenti</l><r>probabilmenti</r></p><par n="oggi__adv"/></e>
-    <e lm="nurmarmenti" r="LR"><p><l>furmarmenti</l><r>nurmarmenti</r></p><par n="oggi__adv"/></e>
-    <e lm="rilativamenti" r="LR"><p><l>riativamenti</l><r>rilativamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="nizzialmenti" r="LR"><p><l>inizzialmenti</l><r>nizzialmenti</r></p><par n="oggi__adv"/></e>
-    <e lm="urtimamenti" r="LR"><p><l>uttimamenti</l><r>urtimamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="certamenti" r="LR"><p><l>cetamenti</l><r>certamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="raramenti" r="LR"><p><l>paramenti</l><r>raramenti</r></p><par n="oggi__adv"/></e>
-    <e lm="espressamenti" r="LR"><p><l>esprissamenti</l><r>espressamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="furmalmenti" r="LR"><p><l>furmarmenti</l><r>furmalmenti</r></p><par n="oggi__adv"/></e>
-    <e lm="decisamenti" r="LR"><p><l>dicisamenti</l><r>decisamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="funnamentalmenti" r="LR"><p><l>funnamintalmenti</l><r>funnamentalmenti</r></p><par n="oggi__adv"/></e>
-    <e lm="novamenti" r="LR"><p><l>notamenti</l><r>novamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="ultimamenti" r="LR"><p><l>uttimamenti</l><r>ultimamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="pratticamenti" r="LR"><p><l>pràtticamenti</l><r>pratticamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="prupiamenti" r="LR"><p><l>propiamenti</l><r>prupiamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="finanziaramenti" r="LR"><p><l>finanziariamenti</l><r>finanziaramenti</r></p><par n="oggi__adv"/></e>
-    <e lm="saldamenti" r="LR"><p><l>sardamenti</l><r>saldamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="prittamenti" r="LR"><p><l>rittamenti</l><r>prittamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="finarmenti" r="LR"><p><l>finalmenti</l><r>finarmenti</r></p><par n="oggi__adv"/></e>
-    <e lm="murarmenti" r="LR"><p><l>muralmenti</l><r>murarmenti</r></p><par n="oggi__adv"/></e>
-    <e lm="prubbabirmenti" r="LR"><p><l>prubbabilmenti</l><r>prubbabirmenti</r></p><par n="oggi__adv"/></e>
-    <e lm="prematuramenti" r="LR"><p><l>primaturamenti</l><r>prematuramenti</r></p><par n="oggi__adv"/></e>
-    <e lm="autamenti" r="LR"><p><l>atamenti</l><r>autamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="canciamenti" r="LR"><p><l>canciumenti</l><r>canciamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="prupriamenti" r="LR"><p><l>mprupriamenti</l><r>prupriamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="mpruvvisamenti" r="LR"><p><l>mprovvisamenti</l><r>mpruvvisamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="anticamenti" r="LR"><p><l>nticamenti</l><r>anticamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="puliticamenti" r="LR"><p><l>pulimicamenti</l><r>puliticamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="dinzamenti" r="LR"><p><l>pinzamenti</l><r>dinzamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="veramenti" r="LR"><p><l>vèramenti</l><r>veramenti</r></p><par n="oggi__adv"/></e>
-    <e lm="semplicementi" r="LR"><p><l>semplicimenti</l><r>semplicementi</r></p><par n="oggi__adv"/></e>
-    <e lm="particularmenti" r="LR"><p><l>particolarmenti</l><r>particularmenti</r></p><par n="oggi__adv"/></e>
-    <e lm="speciarmenti" r="LR"><p><l>speciamrmenti</l><r>speciarmenti</r></p><par n="oggi__adv"/></e>
-    <e lm="estrimamenti" r="LR"><p><l>strimamenti</l><r>estrimamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="ntiramenti" r="LR"><p><l>nticamenti</l><r>ntiramenti</r></p><par n="oggi__adv"/></e>
-    <e lm="rigurusamenti" r="LR"><p><l>vigurusamenti</l><r>rigurusamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="inizialmenti" r="LR"><p><l>inizalmenti</l><r>inizialmenti</r></p><par n="oggi__adv"/></e>
-    <e lm="midiamenti" r="LR"><p><l>sidiamenti</l><r>midiamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="simpricimenti" r="LR"><p><l>simplricimenti</l><r>simpricimenti</r></p><par n="oggi__adv"/></e>
-    <e lm="riggidamenti" r="LR"><p><l>riggitamenti</l><r>riggidamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="umanamenti" r="LR"><p><l>cumanamenti</l><r>umanamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="puramenti" r="LR"><p><l>duramenti</l><r>puramenti</r></p><par n="oggi__adv"/></e>
-    <e lm="difinitivamenti" r="LR"><p><l>difintivamenti</l><r>difinitivamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="urdinamenti" r="LR"><p><l>ordinamenti</l><r>urdinamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="nigativamenti" r="LR"><p><l>nicativamenti</l><r>nigativamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="giniticamenti" r="LR"><p><l>geniticamenti</l><r>giniticamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="lestamenti" r="LR"><p><l>listamenti</l><r>lestamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="tradizziunarmenti" r="LR"><p><l>tradizziunalmenti</l><r>tradizziunarmenti</r></p><par n="oggi__adv"/></e>
-    <e lm="riculamenti" r="LR"><p><l>riulamenti</l><r>riculamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="etimologgicamenti" r="LR"><p><l>etimològgicamenti</l><r>etimologgicamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="idealmenti" r="LR"><p><l>idearmenti</l><r>idealmenti</r></p><par n="oggi__adv"/></e>
-    <e lm="propriamenti" r="LR"><p><l>propiamenti</l><r>propriamenti</r></p><par n="oggi__adv"/></e>
-    <e lm="litteramenti" r="LR"><p><l>litteratmenti</l><r>litteramenti</r></p><par n="oggi__adv"/></e>
+    <e lm="currittamenti"><i>currittamenti</i><par n="oji__adv"/></e>
+    <e lm="dispiratamenti"><i>dispiratamenti</i><par n="oji__adv"/></e>
+    <e lm="autamenti"><i>autamenti</i><par n="oji__adv"/></e>
+    <e lm="appurtunamenti"><i>appurtunamenti</i><par n="oji__adv"/></e>
+    <e lm="currettamenti"><i>currettamenti</i><par n="oji__adv"/></e>
+    <e lm="pirfittamenti"><i>pirfittamenti</i><par n="oji__adv"/></e>
+    <e lm="ecunumicamenti"><i>ecunumicamenti</i><par n="oji__adv"/></e>
+    <e lm="sulitamenti"><i>sulitamenti</i><par n="oji__adv"/></e>
+    <e lm="viramenti"><i>viramenti</i><par n="oji__adv"/></e>
+    <e lm="spiciramenti"><i>spiciramenti</i><par n="oji__adv"/></e>
+    <e lm="saldamenti"><i>saldamenti</i><par n="oji__adv"/></e>
+    <e lm="trattamenti"><i>trattamenti</i><par n="oji__adv"/></e>
+    <e lm="ultimamenti"><i>ultimamenti</i><par n="oji__adv"/></e>
+    <e lm="rilativamenti"><par n="ri/re"/><i>lativamenti</i><par n="oji__adv"/></e>
+    <e lm="rilativamenti" r="LR"><p><l>rilitivamenti</l><r>rilativamenti</r></p><par n="oji__adv"/></e>
+    <e lm="rilativamenti" r="LR"><p><l>relativamenti</l><r>rilativamenti</r></p><par n="oji__adv"/></e>
+    <e lm="largamenti"><i>largamenti</i><par n="oji__adv"/></e>
+    <e lm="riccamenti"><par n="ri/re"/><i>ccamenti</i><par n="oji__adv"/></e>
+        <e lm="oltrimodu"><par n="o/u"/><i>ltrimodu</i><par n="oji__adv"/></e>
 
-    <e lm="abbasciatu"><i>abbasciatu</i><par n="oggi__adv"/></e>
-    <e lm="abbassu"><i>abbassu</i><par n="oggi__adv"/></e>
-    <e lm="abbastanza"><i>abbastanza</i><par n="oggi__adv"/></e>
-    <e lm="accantu"><i>accantu</i><par n="oggi__adv"/></e>
-    <e lm="accusì"><i>accusì</i><par n="oggi__adv"/></e>
-    <e lm="addossu"><i>addossu</i><par n="oggi__adv"/></e>
-    <e lm="agghiriddà"><i>agghiriddà</i><par n="oggi__adv"/></e>
-    <e lm="ajeri"><i>ajeri</i><par n="oggi__adv"/></e>
-    <e lm="allegramenti"><i>allegramenti</i><par n="oggi__adv"/></e>
-    <e lm="all’apertu"><i>all’apertu</i><par n="oggi__adv"/></e>
-    <e lm="alquantu"><i>alquantu</i><par n="oggi__adv"/></e>
-    <e lm="altrimenti"><i>altrimenti</i><par n="oggi__adv"/></e>
-    <e lm="ammucciuni"><i>ammucciuni</i><par n="oggi__adv"/></e>
-    <e lm="anchi"><i>anchi</i><par n="oggi__adv"/></e>
-    <e lm="anchi" r="LR"><p><l>anche</l><r>anchi</r></p><par n="oggi__adv"/></e>
-    <e lm="anzichì"><i>anzichì</i><par n="oggi__adv"/></e>
-    <e lm="appedi"><i>appedi</i><par n="oggi__adv"/></e>
-    <e lm="apposta"><i>apposta</i><par n="oggi__adv"/></e>
-    <e lm="assemi"><i>assemi</i><par n="oggi__adv"/></e>
-    <e lm="autrimenti"><i>autrimenti</i><par n="oggi__adv"/></e>
-    <e lm="autru"><i>autru</i><par n="oggi__adv"/></e>
-    <e lm="brevamenti"><i>brevamenti</i><par n="oggi__adv"/></e>
-    <e lm="cascatu"><i>cascatu</i><par n="oggi__adv"/></e>
-    <e lm="casciu"><i>casciu</i><par n="oggi__adv"/></e>
-    <e lm="cchiutostu"><i>cchiutostu</i><par n="oggi__adv"/></e>
-    <e lm="cioè"><i>cioè</i><par n="oggi__adv"/></e>
-    <e lm="communqui"><i>communqui</i><par n="oggi__adv"/></e>
-    <e lm="completamenti"><i>completamenti</i><par n="oggi__adv"/></e>
-    <e lm="conseguentementi"><i>conseguentementi</i><par n="oggi__adv"/></e>
-    <e lm="contracurrenti"><i>contracurrenti</i><par n="oggi__adv"/></e>
-    <e lm="cupertu"><i>cupertu</i><par n="oggi__adv"/></e>
-    <e lm="cussì"><i>cussì</i><par n="oggi__adv"/></e>
-    <e lm="cutulinu"><i>cutulinu</i><par n="oggi__adv"/></e>
-    <e lm="cà"><i>cà</i><par n="oggi__adv"/></e>
-    <e lm="da"><i>da</i><par n="oggi__adv"/></e>
-    <e lm="dapirtuttu"><i>dapirtuttu</i><par n="oggi__adv"/></e>
-    <e lm="darrè"><i>darrè</i><par n="oggi__adv"/></e>
-    <e lm="daura"><i>daura</i><par n="oggi__adv"/></e>
-    <e lm="ddà"><i>ddà</i><par n="oggi__adv"/></e>
-    <e lm="dipoi"><i>dipoi</i><par n="oggi__adv"/></e>
-    <e lm="discostu"><i>discostu</i><par n="oggi__adv"/></e>
-    <e lm="disparti"><i>disparti</i><par n="oggi__adv"/></e>
-    <e lm="dovunqui"><i>dovunqui</i><par n="oggi__adv"/></e>
-    <e lm="dunni"><i>dunni</i><par n="oggi__adv"/></e>
-    <e lm="dà"><i>dà</i><par n="oggi__adv"/></e>
-    <e lm="dòcu"><i>dòcu</i><par n="oggi__adv"/></e>
-    <e lm="eminentementi"><i>eminentementi</i><par n="oggi__adv"/></e>
-    <e lm="eppuru"><i>eppuru</i><par n="oggi__adv"/></e>
-    <e lm="essezialmenti"><i>essezialmenti</i><par n="oggi__adv"/></e>
-    <e lm="facilmenti"><i>facilmenti</i><par n="oggi__adv"/></e>
-    <e lm="fidatamenti"><i>fidatamenti</i><par n="oggi__adv"/></e>
-    <e lm="fluentementi"><i>fluentementi</i><par n="oggi__adv"/></e>
-    <e lm="fraziunalmenti"><i>fraziunalmenti</i><par n="oggi__adv"/></e>
-    <e lm="frequentementi"><i>frequentementi</i><par n="oggi__adv"/></e>
-    <e lm="furbamenti"><i>furbamenti</i><par n="oggi__adv"/></e>
-    <e lm="gentilmenti"><i>gentilmenti</i><par n="oggi__adv"/></e>
-    <e lm="ggià"><i>ggià</i><par n="oggi__adv"/></e>
-    <e lm="gia"><i>gia</i><par n="oggi__adv"/></e>
-    <e lm="giustamenti"><i>giustamenti</i><par n="oggi__adv"/></e>
-    <e lm="gradualmenti"><i>gradualmenti</i><par n="oggi__adv"/></e>
-    <e lm="gratis"><i>gratis</i><par n="oggi__adv"/></e>
-    <e lm="immediatamenti"><i>immediatamenti</i><par n="oggi__adv"/></e>
-    <e lm="impertinentimenti"><par n="im/m"/><i>pertinentimenti</i><par n="oggi__adv"/></e>
-    <e lm="imprescia"><par n="im/m"/><i>prescia</i><par n="oggi__adv"/></e>
-    <e lm="improvisamenti"><par n="im/m"/><i>provisamenti</i><par n="oggi__adv"/></e>
-    <e lm="infinitamenti"><par n="in/n"/><i>finitamenti</i><par n="oggi__adv"/></e>
-    <e lm="inoltri"><par n="in/n"/><par n="o/u"/><i>ltri</i><par n="oggi__adv"/></e>
-    <e lm="insenzibbilmenti"><par n="in/n"/><i>senzibbilmenti</i><par n="oggi__adv"/></e>
-    <e lm="intantu"><par n="in/n"/><i>tantu</i><par n="oggi__adv"/></e>
-    <e lm="intensivu"><par n="in/n"/><i>tensivu</i><par n="oggi__adv"/></e>
-    <e lm="intensu"><par n="in/n"/><i>tensu</i><par n="oggi__adv"/></e>
-    <e lm="interamenti"><par n="in/n"/><i>teramenti</i><par n="oggi__adv"/></e>
-    <e lm="internamenti"><par n="in/n"/><i>ternamenti</i><par n="oggi__adv"/></e>
-    <e lm="intieramenti"><par n="in/n"/><i>tieramenti</i><par n="oggi__adv"/></e>
-    <e lm="intornu"><par n="in/n"/><i>tornu</i><par n="oggi__adv"/></e>
-    <e lm="inzemi"><par n="in/n"/><i>zemi</i><par n="oggi__adv"/></e>
-    <e lm="inzemmula"><par n="in/n"/><i>zemmula</i><par n="oggi__adv"/></e>
-    <e lm="istantaniamenti"><i>istantaniamenti</i><par n="oggi__adv"/></e>
-    <e lm="iùsu"><i>iùsu</i><par n="oggi__adv"/></e>
-    <e lm="lateralmenti"><i>lateralmenti</i><par n="oggi__adv"/></e>
-    <e lm="masinnò"><i>masinnò</i><par n="oggi__adv"/></e>
-    <e lm="mirè"><i>mirè</i><par n="oggi__adv"/></e>
-    <e lm="mmiremma"><i>mmiremma</i><par n="oggi__adv"/></e>
-    <e lm="mprescia"><i>mprescia</i><par n="oggi__adv"/></e>
-    <e lm="muccia"><i>muccia</i><par n="oggi__adv"/></e>
-    <e lm="multu"><i>multu</i><par n="oggi__adv"/></e>
-    <e lm="ncoddu"><i>ncoddu</i><par n="oggi__adv"/></e>
-    <e lm="neanchi"><i>neanchi</i><par n="oggi__adv"/></e>
-    <e lm="nemmenu"><i>nemmenu</i><par n="oggi__adv"/></e>
-    <e lm="neppuru"><i>neppuru</i><par n="oggi__adv"/></e>
-    <e lm="nningatu"><i>nningatu</i><par n="oggi__adv"/></e>
-    <e lm="nn’"><i>nn’</i><par n="oggi__adv"/></e>
-    <e lm="notrannu"><i>notrannu</i><par n="oggi__adv"/></e>
-    <e lm="nspissu"><i>nspissu</i><par n="oggi__adv"/></e>
-    <e lm="nundimenu"><i>nundimenu</i><par n="oggi__adv"/></e>
-    <e lm="oggigiornu"><par n="o/u"/><i>ggigiornu</i><par n="oggi__adv"/></e>
-    <e lm="oi"><par n="o/u"/><i>i</i><par n="oggi__adv"/></e>
-    <e lm="oj"><par n="o/u"/><i>j</i><par n="oggi__adv"/></e>
-    <e lm="opuru"><par n="o/u"/><i>puru</i><par n="oggi__adv"/></e>
-    <e lm="originariamenti"><par n="o/u"/><par n="ri/re"/><i>ginariamenti</i><par n="oggi__adv"/></e>
-    <e lm="ottenibili"><par n="o/u"/><i>ttenibili</i><par n="oggi__adv"/></e>
-    <e lm="pagghiri"><i>pagghiri</i><par n="oggi__adv"/></e>
-    <e lm="parimenti"><i>parimenti</i><par n="oggi__adv"/></e>
-    <e lm="parzialmenti"><i>parzialmenti</i><par n="oggi__adv"/></e>
-    <e lm="paurusamenti"><i>paurusamenti</i><par n="oggi__adv"/></e>
-    <e lm="peiu"><i>peiu</i><par n="oggi__adv"/></e>
-    <e lm="perpetuamenti"><i>perpetuamenti</i><par n="oggi__adv"/></e>
-    <e lm="persunalmenti"><i>persunalmenti</i><par n="oggi__adv"/></e>
-    <e lm="pinatu"><i>pinatu</i><par n="oggi__adv"/></e>
-    <e lm="pirberu"><i>pirberu</i><par n="oggi__adv"/></e>
-    <e lm="pisantementi"><i>pisantementi</i><par n="oggi__adv"/></e>
-    <e lm="precedentementi"><i>precedentementi</i><par n="oggi__adv"/></e>
-    <e lm="puranchi"><i>puranchi</i><par n="oggi__adv"/></e>
-    <e lm="purtroppo"><i>purtroppo</i><par n="oggi__adv"/></e>
-    <e lm="pèggiu"><i>pèggiu</i><par n="oggi__adv"/></e>
-    <e lm="quinni"><i>quinni</i><par n="oggi__adv"/></e>
-    <e lm="realmenti"><i>realmenti</i><par n="oggi__adv"/></e>
-    <e lm="recentimenti"><i>recentimenti</i><par n="oggi__adv"/></e>
-    <e lm="remotu"><i>remotu</i><par n="oggi__adv"/></e>
-    <e lm="ri"><i>ri</i><par n="oggi__adv"/></e>
-    <e lm="rittu"><par n="ri/re"/><i>ttu</i><par n="oggi__adv"/></e>
-    <e lm="rumani"><i>rumani</i><par n="oggi__adv"/></e>
-    <e lm="separatamenti"><i>separatamenti</i><par n="oggi__adv"/></e>
-    <e lm="silunziusamenti"><i>silunziusamenti</i><par n="oggi__adv"/></e>
-    <e lm="simplicimenti"><i>simplicimenti</i><par n="oggi__adv"/></e>
-    <e lm="sodisfacentimenti"><i>sodisfacentimenti</i><par n="oggi__adv"/></e>
-    <e lm="stentu"><i>stentu</i><par n="oggi__adv"/></e>
-    <e lm="su"><i>su</i><par n="oggi__adv"/></e>
-    <e lm="subitu"><i>subitu</i><par n="oggi__adv"/></e>
-    <e lm="sultantu"><i>sultantu</i><par n="oggi__adv"/></e>
-    <e lm="supratuttu"><i>supratuttu</i><par n="oggi__adv"/></e>
-    <e lm="suttasupra"><i>suttasupra</i><par n="oggi__adv"/></e>
-    <e lm="suttavuci"><i>suttavuci</i><par n="oggi__adv"/></e>
-    <e lm="sì"><i>sì</i><par n="oggi__adv"/></e>
-    <e lm="talmenti"><i>talmenti</i><par n="oggi__adv"/></e>
-    <e lm="tintu"><i>tintu</i><par n="oggi__adv"/></e>
-    <e lm="totalmenti"><i>totalmenti</i><par n="oggi__adv"/></e>
-    <e lm="tramuntatu"><i>tramuntatu</i><par n="oggi__adv"/></e>
-    <e lm="tuttavia"><i>tuttavia</i><par n="oggi__adv"/></e>
-    <e lm="tuttora"><i>tuttora</i><par n="oggi__adv"/></e>
-    <e lm="ugualmenti"><i>ugualmenti</i><par n="oggi__adv"/></e>
-    <e lm="usualmenti"><i>usualmenti</i><par n="oggi__adv"/></e>
-    <e lm="volentieri"><i>volentieri</i><par n="oggi__adv"/></e>
-    <e lm="volontariamenti"><i>volontariamenti</i><par n="oggi__adv"/></e>
-    <e lm="vulinteri"><i>vulinteri</i><par n="oggi__adv"/></e>
-    <e lm="'mmucca"><i>'mmucca</i><par n="oggi__adv"/></e>
-    <e lm="'mpressu"><i>'mpressu</i><par n="oggi__adv"/></e>
-    <e lm="'nnavanti"><i>'nnavanti</i><par n="oggi__adv"/></e>
-    <e lm="'nnumani"><i>'nnumani</i><par n="oggi__adv"/></e>
+    <e lm="largamenti" r="LR"><p><l>larucamenti</l><r>largamenti</r></p><par n="oji__adv"/></e>
+    <e lm="largamenti" r="LR"><p><l>laricamenti</l><r>largamenti</r></p><par n="oji__adv"/></e>
+
+    <e lm="nternamenti"><i>nternamenti</i><par n="oji__adv"/></e>
+    <e lm="mudiratamenti"><i>mudiratamenti</i><par n="oji__adv"/></e>
+    <e lm="urdinatamenti"><i>urdinatamenti</i><par n="oji__adv"/></e>
+    <e lm="ntiramenti" r="LR"><p><l>intiramenti</l><r>ntiramenti</r></p><par n="oji__adv"/></e>
+    <e lm="ntiramenti" r="LR"><p><l>nteramenti</l><r>ntiramenti</r></p><par n="oji__adv"/></e>
+    <e lm="seriamenti"><i>seriamenti</i><par n="oji__adv"/></e>
+    <e lm="siriamenti"><i>siriamenti</i><par n="oji__adv"/></e>
+    <e lm="chinamenti"><i>chinamenti</i><par n="oji__adv"/></e>
+    <e lm="unitamenti"><i>unitamenti</i><par n="oji__adv"/></e>
+    <e lm="mpruvvisamenti"><i>mpruvvisamenti</i><par n="oji__adv"/></e>
+    <e lm="dirittamenti"><i>dirittamenti</i><par n="oji__adv"/></e>
+    <e lm="lentamenti" r="LR"><p><l>lintamenti</l><r>lentamenti</r></p><par n="oji__adv"/></e>
+    <e lm="succisivamenti"><i>succisivamenti</i><par n="oji__adv"/></e>
+    <e lm="giugraficamenti"><i>giugraficamenti</i><par n="oji__adv"/></e>
+    <e lm="ruinusamenti"><i>ruinusamenti</i><par n="oji__adv"/></e>
+    <e lm="ginirusamenti"><i>ginirusamenti</i><par n="oji__adv"/></e>
+    <e lm="mutamenti"><i>mutamenti</i><par n="oji__adv"/></e>
+    <e lm="scintificamenti"><i>scintificamenti</i><par n="oji__adv"/></e>
+    <e lm="pratticamenti"><i>pratticamenti</i><par n="oji__adv"/></e>
+    <e lm="estrimamenti"><i>estrimamenti</i><par n="oji__adv"/></e>
+    <e lm="lestamenti"><i>lestamenti</i><par n="oji__adv"/></e>
+    <e lm="variamenti"><i>variamenti</i><par n="oji__adv"/></e>
+    <e lm="giniticamenti"><i>giniticamenti</i><par n="oji__adv"/></e>
+    <e lm="spuntaniamenti"><i>spuntaniamenti</i><par n="oji__adv"/></e>
+    <e lm="pubblicamenti"><i>pubblicamenti</i><par n="oji__adv"/></e>
+    <e lm="mediamenti" r="LR"><p><l>midiamenti</l><r>mediamenti</r></p><par n="oji__adv"/></e>
+    <e lm="summariamenti"><i>summariamenti</i><par n="oji__adv"/></e>
+    <e lm="algebbricamenti"><i>algebbricamenti</i><par n="oji__adv"/></e>
+    <e lm="ininterrottamenti"><par n="in/n"/><i>interrottamenti</i><par n="oji__adv"/></e>
+    <e lm="vagamenti"><i>vagamenti</i><par n="oji__adv"/></e>
+    <e lm="riculamenti"><par n="ri/re"/><i>culamenti</i><par n="oji__adv"/></e>
+    <e lm="è cunsuitùdini"><i>è<b/>cunsuitùdini</i><par n="oji__adv"/></e>
+
+    
+    <e lm="sistematicamenti" r="LR"><p><l>sistimaticamenti</l><r>sistematicamenti</r></p><par n="oji__adv"/></e>
+    <e lm="geograficamenti"><i>geograficamenti</i><par n="oji__adv"/></e>
+    <e lm="geograficamenti" r="LR"><p><l>giugraficamenti</l><r>geograficamenti</r></p><par n="oji__adv"/></e>
+    <e lm="giniricamenti" r="LR"><p><l>ginericamenti</l><r>giniricamenti</r></p><par n="oji__adv"/></e>
+    <e lm="miseramenti"><i>miseramenti</i><par n="oji__adv"/></e>
+    <e lm="diversamenti"><i>diversamenti</i><par n="oji__adv"/></e>
+    <e lm="diversamenti" r="LR"><p><l>divirsamenti</l><r>diversamenti</r></p><par n="oji__adv"/></e>
+    <e lm="equamenti"><i>equamenti</i><par n="oji__adv"/></e>
+    <e lm="discretamenti"><i>discretamenti</i><par n="oji__adv"/></e>
+    <e lm="atturamenti"><i>atturamenti</i><par n="oji__adv"/></e>
+    <e lm="sulamenti" r="LR"><p><l>solamenti</l><r>sulamenti</r></p><par n="oji__adv"/></e>
+    <e lm="attentamenti" r="LR"><p><l>attintamenti</l><r>attentamenti</r></p><par n="oji__adv"/></e>
+    <e lm="nicissariamenti"><i>nicissariamenti</i><par n="oji__adv"/></e>
+    <e lm="significativamenti"><i>significativamenti</i><par n="oji__adv"/></e>
+    <e lm="limitatamenti"><i>limitatamenti</i><par n="oji__adv"/></e>
+    <e lm="commudamenti"><i>commudamenti</i><par n="oji__adv"/></e>
+    <e lm="simmetricamenti"><i>simmetricamenti</i><par n="oji__adv"/></e>
+    <e lm="curiusamenti"><i>curiusamenti</i><par n="oji__adv"/></e>
+    <e lm="ndirettamenti"><i>ndirettamenti</i><par n="oji__adv"/></e>
+    <e lm="chimicamenti"><i>chimicamenti</i><par n="oji__adv"/></e>
+    <e lm="assulutamenti"><i>assulutamenti</i><par n="oji__adv"/></e>
+    <e lm="cutiddianamenti"><i>cutiddianamenti</i><par n="oji__adv"/></e>
+    <e lm="apprussimativamenti"><i>apprussimativamenti</i><par n="oji__adv"/></e>
+    <e lm="dimucraticamenti" r="LR"><p><l>dimocraticamenti</l><r>dimucraticamenti</r></p><par n="oji__adv"/></e>
+    <e lm="finanziaramenti"><i>finanziaramenti</i><par n="oji__adv"/></e>
+    <e lm="immidiatamenti"><i>immidiatamenti</i><par n="oji__adv"/></e>
+    <e lm="immidiatamenti" r="LR"><p><l>immediatamenti</l><r>immidiatamenti</r></p><par n="oji__adv"/></e>
+    <e lm="estirnamenti"><i>estirnamenti</i><par n="oji__adv"/></e>
+    <e lm="estirnamenti" r="LR"><p><l>istirnamenti</l><r>estirnamenti</r></p><par n="oji__adv"/></e>
+    <e lm="tranquillamenti"><i>tranquillamenti</i><par n="oji__adv"/></e>
+    <e lm="quantitativamenti"><i>quantitativamenti</i><par n="oji__adv"/></e>
+    <e lm="linguisticamenti"><i>linguisticamenti</i><par n="oji__adv"/></e>
+    <e lm="prupiamenti"><i>prupiamenti</i><par n="oji__adv"/></e>
+    <e lm="decisamenti"><i>dicisamenti</i><par n="oji__adv"/></e>
+    <e lm="decisamenti" r="LR"><p><l>decisamenti</l><r>decisamenti</r></p><par n="oji__adv"/></e>
+    <e lm="girarchicamenti"><i>girarchicamenti</i><par n="oji__adv"/></e>
+    <e lm="novamenti" r="LR"><p><l>nuvamenti</l><r>novamenti</r></p><par n="oji__adv"/></e>
+    <e lm="stremamenti"><i>stremamenti</i><par n="oji__adv"/></e>
+    <e lm="analiticamenti"><i>analiticamenti</i><par n="oji__adv"/></e>
+    <e lm="clannistinamenti"><i>clannistinamenti</i><par n="oji__adv"/></e>
+    <e lm="libbiramenti" r="LR"><p><l>libberamenti</l><r>libbiramenti</r></p><par n="oji__adv"/></e>
+    <e lm="ecunomicamenti"><i>ecunomicamenti</i><par n="oji__adv"/></e>
+    <e lm="luntanamenti"><i>luntanamenti</i><par n="oji__adv"/></e>
+    <e lm="prupriamenti"><i>prupriamenti</i><par n="oji__adv"/></e>
+    <e lm="esclusivamenti"><i>esclusivamenti</i><par n="oji__adv"/></e>
+    <e lm="automaticamenti"><i>automaticamenti</i><par n="oji__adv"/></e>
+    <e lm="cuntimpuraniamenti"><i>cuntimpuraniamenti</i><par n="oji__adv"/></e>
+    <e lm="tiuricamenti"><i>tiuricamenti</i><par n="oji__adv"/></e>
+    <e lm="sfurtunatamenti"><i>sfurtunatamenti</i><par n="oji__adv"/></e>
+    <e lm="parallilamenti"><i>parallilamenti</i><par n="oji__adv"/></e>
+    <e lm="parallilamenti" r="LR"><p><l>parallelamenti</l><r>parallilamenti</r></p><par n="oji__adv"/></e>
+    <e lm="autramenti"><i>autramenti</i><par n="oji__adv"/></e>
+    <e lm="pirfittamenti" r="LR"><p><l>pirfettamenti</l><r>pirfittamenti</r></p><par n="oji__adv"/></e>
+    <e lm="pirfittamenti" r="LR"><p><l>perfettamenti</l><r>pirfittamenti</r></p><par n="oji__adv"/></e>
+    <e lm="giniricamenti"><i>giniricamenti</i><par n="oji__adv"/></e>
+    <e lm="giniricamenti" r="LR"><p><l>genericamenti</l><r>giniricamenti</r></p><par n="oji__adv"/></e>
+    <e lm="canciamenti"><i>canciamenti</i><par n="oji__adv"/></e>
+    <e lm="piazzamenti"><i>piazzamenti</i><par n="oji__adv"/></e>
+    <e lm="pacificamenti"><i>pacificamenti</i><par n="oji__adv"/></e>
+    <e lm="classicamenti"><i>classicamenti</i><par n="oji__adv"/></e>
+    <e lm="cumprissivamenti"><i>cumprissivamenti</i><par n="oji__adv"/></e>
+    <e lm="ticnologgicamenti"><i>ticnologgicamenti</i><par n="oji__adv"/></e>
+    <e lm="ticnologgicamenti" r="LR"><p><l>ticnuluggicamenti</l><r>ticnologgicamenti</r></p><par n="oji__adv"/></e>
+    <e lm="graputamenti"><i>graputamenti</i><par n="oji__adv"/></e>
+    <e lm="visivamenti"><i>visivamenti</i><par n="oji__adv"/></e>
+    <e lm="difinitvamenti"><par n="di/de"/><i>finitvamenti</i><par n="oji__adv"/></e>
+    <e lm="cumpritamenti"><i>cumpritamenti</i><par n="oji__adv"/></e>
+    <e lm="cumpritamenti" r="LR"><p><l>cumplitamenti</l><r>cumpritamenti</r></p><par n="oji__adv"/></e>
+    <e lm="cumpritamenti" r="LR"><p><l>cumpletamenti</l><r>cumpritamenti</r></p><par n="oji__adv"/></e>
+    <e lm="cumpritamenti" r="LR"><p><l>completamenti</l><r>cumpritamenti</r></p><par n="oji__adv"/></e>
+    <e lm="maravigghiusamenti"><i>maravigghiusamenti</i><par n="oji__adv"/></e>
+    <e lm="filusuficamenti"><i>filusuficamenti</i><par n="oji__adv"/></e>
+    <e lm="pruvvisoriamenti"><i>pruvvisoriamenti</i><par n="oji__adv"/></e>
+    <e lm="vuluntariamenti"><i>vuluntariamenti</i><par n="oji__adv"/></e>
+    <e lm="siparatamenti"><i>siparatamenti</i><par n="oji__adv"/></e>
+    <e lm="siparatamenti" r="LR"><p><l>separatamenti</l><r>siparatamenti</r></p><par n="oji__adv"/></e>
+    <e lm="matimaticamenti"><i>matimaticamenti</i><par n="oji__adv"/></e>
+    <e lm="ironicamenti"><i>ironicamenti</i><par n="oji__adv"/></e>
+    <e lm="distintamenti"><i>distintamenti</i><par n="oji__adv"/></e>
+    <e lm="diffusamenti"><i>diffusamenti</i><par n="oji__adv"/></e>
+    <e lm="ecunumicamenti" r="LR"><p><l>economicamenti</l><r>ecunumicamenti</r></p><par n="oji__adv"/></e>
+    <e lm="mprupiamenti"><i>mprupiamenti</i><par n="oji__adv"/></e>
+    <e lm="prittamenti"><i>prittamenti</i><par n="oji__adv"/></e>
+    <e lm="esclusivamenti" r="LR"><p><l>isclusivamenti</l><r>esclusivamenti</r></p><par n="oji__adv"/></e>
+    <e lm="stilisticamenti"><i>stilisticamenti</i><par n="oji__adv"/></e>
+    <e lm="mediamenti"><i>mediamenti</i><par n="oji__adv"/></e>
+    <e lm="tecnicamenti"><i>tecnicamenti</i><par n="oji__adv"/></e>
+    <e lm="demucraticamenti"><i>demucraticamenti</i><par n="oji__adv"/></e>
+    <e lm="artisticamenti"><i>artisticamenti</i><par n="oji__adv"/></e>
+    <e lm="pienamenti"><i>pienamenti</i><par n="oji__adv"/></e>
+    <e lm="contrariamenti"><i>contrariamenti</i><par n="oji__adv"/></e>
+    <e lm="urdinamenti"><i>urdinamenti</i><par n="oji__adv"/></e>
+    <e lm="licamenti"><i>licamenti</i><par n="oji__adv"/></e>
+    <e lm="dilicatamenti"><i>dilicatamenti</i><par n="oji__adv"/></e>
+    <e lm="icunugraficamenti"><i>icunugraficamenti</i><par n="oji__adv"/></e>
+    <e lm="anchiamenti"><i>anchiamenti</i><par n="oji__adv"/></e>
+    <e lm="prettamenti"><i>prettamenti</i><par n="oji__adv"/></e>
+    <e lm="architittonicamenti"><i>architittonicamenti</i><par n="oji__adv"/></e>
+    <e lm="chirurgicamenti"><i>chirurgicamenti</i><par n="oji__adv"/></e>
+    <e lm="figurativamenti"><i>figurativamenti</i><par n="oji__adv"/></e>
+    <e lm="aggiustamenti"><i>aggiustamenti</i><par n="oji__adv"/></e>
+    <e lm="ndirettamenti" r="LR"><p><l>indirittamenti</l><r>ndirettamenti</r></p><par n="oji__adv"/></e>
+    <e lm="fisicamenti"><i>fisicamenti</i><par n="oji__adv"/></e>
+    <e lm="denzamenti"><i>denzamenti</i><par n="oji__adv"/></e>
+    <e lm="densamenti" r="LR"><p><l>densamenti</l><r>denzamenti</r></p><par n="oji__adv"/></e>
+    <e lm="dinzamenti" r="LR"><p><l>dinzamenti</l><r>denzamenti</r></p><par n="oji__adv"/></e>
+    <e lm="traggicamenti"><i>traggicamenti</i><par n="oji__adv"/></e>
+    <e lm="cumpretamenti"><i>cumpretamenti</i><par n="oji__adv"/></e>
+    <e lm="effettivamenti"><i>effettivamenti</i><par n="oji__adv"/></e>
+    <e lm="scarsamenti"><i>scarsamenti</i><par n="oji__adv"/></e>
+    <e lm="pusitivamenti"><i>pusitivamenti</i><par n="oji__adv"/></e>
+    <e lm="pusitivamenti" r="LR"><p><l>positivamenti</l><r>pusitivamenti</r></p><par n="oji__adv"/></e>
+    <e lm="prontamenti"><i>prontamenti</i><par n="oji__adv"/></e>
+    <e lm="prontamenti" r="LR"><p><l>pruntamenti</l><r>prontamenti</r></p><par n="oji__adv"/></e>
+    <e lm="basamenti"><i>basamenti</i><par n="oji__adv"/></e>
+    <e lm="gratuitamenti"><i>gratuitamenti</i><par n="oji__adv"/></e>
+    <e lm="pruvvisuriamenti"><i>pruvvisuriamenti</i><par n="oji__adv"/></e>
+    <e lm="suggittivamenti"><i>suggittivamenti</i><par n="oji__adv"/></e>
+    <e lm="furtunatamenti"><i>furtunatamenti</i><par n="oji__adv"/></e>
+    <e lm="urtimamenti"><i>urtimamenti</i><par n="oji__adv"/></e>
+    <e lm="urtimamenti" r="LR"><p><l>ultimamenti</l><r>urtimamenti</r></p><par n="oji__adv"/></e>
+    <e lm="justamenti"><i>justamenti</i><par n="oji__adv"/></e>
+    <e lm="justamenti" r="LR"><p><l>giustamenti</l><r>justamenti</r></p><par n="oji__adv"/></e>
+    
+    <e lm="ecunumicamenti" r="LR"><p><l>icunomicamenti</l><r>ecunumicamenti</r></p><par n="oji__adv"/></e>
+    <e lm="ecunumicamenti" r="LR"><p><l>ecunomicamenti</l><r>ecunumicamenti</r></p><par n="oji__adv"/></e>
+    <e lm="cumplissivamenti"><i>cumplissivamenti</i><par n="oji__adv"/></e>
+    <e lm="piriodicamenti" r="LR"><p><l>piriudicamenti</l><r>piriodicamenti</r></p><par n="oji__adv"/></e>
+    <e lm="piriodicamenti" r="LR"><p><l>periodicamenti</l><r>piriodicamenti</r></p><par n="oji__adv"/></e>
+    
+    <e lm="a babbalà"><i>a<b/>babbalà</i><par n="oji__adv"/></e>
+    <e lm="a babbalà" r="LR"><p><l>a<b/>gangalà</l><r>a<b/>babbalà</r></p><par n="oji__adv"/></e>
+    
+    <e lm="a bizzeffa"><i>a<b/>bbizzeffa</i><par n="oji__adv"/></e>
+    <e lm="a bizzeffa" r="LR"><p><l>abizzeffi</l><r>a<b/>bbizzeffa</r></p><par n="oji__adv"/></e>
+    <e lm="a bizzeffa" r="LR"><p><l>abbizzeffi</l><r>a<b/>bbizzeffa</r></p><par n="oji__adv"/></e>
+    <e lm="a bizzeffa" r="LR"><p><l>a<b/>bizzeffi</l><r>a<b/>bbizzeffa</r></p><par n="oji__adv"/></e>
+    <e lm="a bizzeffa" r="LR"><p><l>a<b/>bbizzeffa</l><r>a<b/>bbizzeffa</r></p><par n="oji__adv"/></e>
+    <e lm="a bizzeffa" r="LR"><p><l>a<b/>buzzeffa</l><r>a<b/>bbizzeffa</r></p><par n="oji__adv"/></e>
+    <e lm="a bizzeffa" r="LR"><p><l>a<b/>bbuzzeffa</l><r>a<b/>bbizzeffa</r></p><par n="oji__adv"/></e>
+    <e lm="a bizzeffa" r="LR"><p><l>abbizzeffa</l><r>a<b/>bbizzeffa</r></p><par n="oji__adv"/></e>
+    <e lm="a bizzeffa" r="LR"><p><l>abbuzzeffa</l><r>a<b/>bbizzeffa</r></p><par n="oji__adv"/></e>
+    
+    <e lm="a cca banna"><i>a<b/>cca<b/>banna</i><par n="oji__adv"/></e>
+    <e lm="a cca banna" r="LR"><p><l>accabbanna</l><r>a<b/>cca<b/>banna</r></p><par n="oji__adv"/></e>
+    <e lm="a cca banna" r="LR"><p><l>a<b/>cca<b/>bbanna</l><r>a<b/>cca<b/>banna</r></p><par n="oji__adv"/></e>
+    <e lm="a cca banna" r="LR"><p><l>accabanna</l><r>a<b/>cca<b/>banna</r></p><par n="oji__adv"/></e>
+    <e lm="a cca banna" r="LR"><p><l>ccabanna</l><r>a<b/>cca<b/>banna</r></p><par n="oji__adv"/></e>
+    
+    <e lm="a dda banna"><i>a<b/>dda<b/>banna</i><par n="oji__adv"/></e>
+    <e lm="a dda banna" r="LR"><p><l>addabbanna</l><r>a<b/>dda<b/>banna</r></p><par n="oji__adv"/></e>
+    <e lm="a dda banna" r="LR"><p><l>a<b/>dda<b/>bbanna</l><r>a<b/>dda<b/>banna</r></p><par n="oji__adv"/></e>
+    <e lm="a dda banna" r="LR"><p><l>addabanna</l><r>a<b/>dda<b/>banna</r></p><par n="oji__adv"/></e>
+    <e lm="dda dda bannaabanna" r="LR"><p><l>ddabanna</l><r>a<b/>dda<b/>banna</r></p><par n="oji__adv"/></e>
+    
+    <e lm="addritta"><i>addritta</i><par n="oji__adv"/></e>
+    <e lm="addritta" r="LR"><p><l>a<b/>ddritta</l><r>addritta</r></p><par n="oji__adv"/></e>
+    <e lm="addritta" r="LR"><p><l>a<b/>la<b/>dritta</l><r>addritta</r></p><par n="oji__adv"/></e>
+    <e lm="addritta" r="LR"><p><l>aggritta</l><r>addritta</r></p><par n="oji__adv"/></e>
+    
+    <e lm="allatu"><i>allatu</i><par n="oji__adv"/></e>
+    <e lm="allatu" r="LR"><p><l>a<b/>latu</l><r>allatu</r></p><par n="oji__adv"/></e>
+    
+    <e lm="a li tanti"><i>a<b/>li<b/>tanti</i><par n="oji__adv"/></e>
+    <e lm="a nenti"><i>a<b/>nenti</i><par n="oji__adv"/></e>
+    <e lm="a nenti" r="LR"><p><l>annenti</l><r>a<b/>nenti</r></p><par n="oji__adv"/></e>
+    <e lm="abbastanti"><i>abbastanti</i><par n="oji__adv"/></e>
+    <e lm="abbastanti" r="LR"><p><l>bastanti</l><r>abbastanti</r></p><par n="oji__adv"/></e>
+    <e lm="affacciu"><i>affacciu</i><par n="oji__adv"/></e>
+    <e lm="addirittura"><i>addirittura</i><par n="oji__adv"/></e>
+    <e lm="addirittura" r="LR"><p><l>addirrittura</l><r>addirittura</r></p><par n="oji__adv"/></e>
+    
+    <e lm="pi camadora"><i>pi<b/>camadora</i><par n="oji__adv"/></e>
+    <e lm="pi camadora" r="LR"><p><l>pi<b/>camarora</l><r>pi<b/>camadora</r></p><par n="oji__adv"/></e>
+    <e lm="pi camadora" r="LR"><p><l>piccamadora</l><r>pi<b/>camadora</r></p><par n="oji__adv"/></e>
+    <e lm="pi camadora" r="LR"><p><l>piccamora</l><r>pi<b/>camadora</r></p><par n="oji__adv"/></e>
+    <e lm="pi camadora" r="LR"><p><l>ppi<b/>camarora</l><r>pi<b/>camadora</r></p><par n="oji__adv"/></e>
+    <e lm="abbersu"><i>abbersu</i><par n="oji__adv"/></e>
+    <e lm="alleggiu"><i>alleggiu</i><par n="oji__adv"/></e>
+    <e lm="almenu"><i>almenu</i><par n="oji__adv"/></e>
+    <e lm="almenu" r="LR"><p><l>armenu</l><r>almenu</r></p><par n="oji__adv"/></e>
+    <e lm="annintra"><i>annintra</i><par n="oji__adv"/></e>
+    <e lm="annintra" r="LR"><p><l>nnintra</l><r>annintra</r></p><par n="oji__adv"/></e>
+    <e lm="attorna"><i>attorna</i><par n="oji__adv"/></e>
+    <e lm="chiassai"><i>chiassai</i><par n="oji__adv"/></e>
+    <e lm="chiassai" r="LR"><p><l>chiossai</l><r>chiassai</r></p><par n="oji__adv"/></e>
+    <e lm="chiassai" r="LR"><p><l>chiossà</l><r>chiassai</r></p><par n="oji__adv"/></e>
+    <e lm="daveru"><i>daveru</i><par n="oji__adv"/></e>
+    <e lm="daveru" r="LR"><p><l>davveru</l><r>daveru</r></p><par n="oji__adv"/></e>
+    <e lm="fraci"><i>fraci</i><par n="oji__adv"/></e>    
+    <e lm="intra"><par n="in/n"/><i>tra</i><par n="oji__adv"/></e> 
+    <e lm="ammàtula"><i>ammàtula</i><par n="oji__adv"/></e>
+    <e lm="ammàtula" r="LR"><p><l>màtula</l><r>ammàtula</r></p><par n="oji__adv"/></e> 
+    <e lm="ammàtula" r="LR"><p><l>mmàtula</l><r>ammàtula</r></p><par n="oji__adv"/></e> 
+    <e lm="ammàtula" r="LR"><p><l>a<b/>màtula</l><r>ammàtula</r></p><par n="oji__adv"/></e> 
+    <e lm="passannaieri"><i>passannaieri</i><par n="oji__adv"/></e> 
+    <e lm="ncostu"><i>ncostu</i><par n="oji__adv"/></e> 
+    <e lm="ncostu" r="LR"><p><l>accostu</l><r>ncostu</r></p><par n="oji__adv"/></e>
+    <e lm="nsanu"><i>nsanu</i><par n="oji__adv"/></e> 
+    <e lm="nto frattempu"><i>nto<b/>frattempu</i><par n="oji__adv"/></e>     
+    <e lm="ntonzi"><i>ntonzi</i><par n="oji__adv"/></e> 
+    <e lm="ntonsi" r="LR"><p><l>ntonsi</l><r>ntonzi</r></p><par n="oji__adv"/></e>
+    <e lm="nzumma"><i>nzumma</i><par n="oji__adv"/></e> 
+    <e lm="nzumma" r="LR"><p><l>nsumma</l><r>nzumma</r></p><par n="oji__adv"/></e>
+	<e lm="ovannu"><par n="o/u"/><i>vannu</i><par n="oji__adv"/></e> 
+	<e lm="peggiu"><i>peggiu</i><par n="oji__adv"/></e> 
+	<e lm="nfinu"><i>nfinu</i><par n="oji__adv"/></e>
+	<e lm="ccàsutta"><i>ccàsutta</i><par n="oji__adv"/></e>
+    
+    
+    <e lm="chiaramenti" r="LR"><p><l>ciaramenti</l><r>chiaramenti</r></p><par n="oji__adv"/></e>
+    <e lm="chimicamenti" r="LR"><p><l>cjhimicamenti</l><r>chimicamenti</r></p><par n="oji__adv"/></e>
+    <e lm="mprupiamenti" r="LR"><p><l>mprupriamenti</l><r>mprupiamenti</r></p><par n="oji__adv"/></e>
+    <e lm="apparentementi" r="LR"><p><l>apparentimenti</l><r>apparentementi</r></p><par n="oji__adv"/></e>
+    <e lm="drasticamenti" r="LR"><p><l>trasticamenti</l><r>drasticamenti</r></p><par n="oji__adv"/></e>
+    <e lm="diversamenti" r="LR"><p><l>divìersamenti</l><r>diversamenti</r></p><par n="oji__adv"/></e>
+    <e lm="localmenti" r="LR"><p><l>lucalmenti</l><r>localmenti</r></p><par n="oji__adv"/></e>
+    <e lm="spiciarmenti" r="LR"><p><l>aspiciarmenti</l><r>spiciarmenti</r></p><par n="oji__adv"/></e>
+    <e lm="cuntimpuraniamenti" r="LR"><p><l>cuntipuraniamenti</l><r>cuntimpuraniamenti</r></p><par n="oji__adv"/></e>
+    <e lm="pirmanintimenti" r="LR"><p><l>pirmanentimenti</l><r>pirmanintimenti</r></p><par n="oji__adv"/></e>
+    <e lm="ginirusamenti" r="LR"><p><l>ginirosamenti</l><r>ginirusamenti</r></p><par n="oji__adv"/></e>
+    <e lm="prubabirmenti" r="LR"><p><l>prubabilmenti</l><r>prubabirmenti</r></p><par n="oji__adv"/></e>
+    <e lm="cuntinuamenti" r="LR"><p><l>continuamenti</l><r>cuntinuamenti</r></p><par n="oji__adv"/></e>
+    <e lm="cumplissivamenti" r="LR"><p><l>cumplessivamenti</l><r>cumplissivamenti</r></p><par n="oji__adv"/></e>
+    <e lm="giniralmenti" r="LR"><p><l>ginriralmenti</l><r>giniralmenti</r></p><par n="oji__adv"/></e>
+    <e lm="istrimamenti" r="LR"><p><l>strimamenti</l><r>istrimamenti</r></p><par n="oji__adv"/></e>
+    <e lm="cuntempuraneamenti" r="LR"><p><l>cuntempuranamenti</l><r>cuntempuraneamenti</r></p><par n="oji__adv"/></e>
+    <e lm="clannistinamenti" r="LR"><p><l>clandistinamenti</l><r>clannistinamenti</r></p><par n="oji__adv"/></e>
+    <e lm="essenziarmenti" r="LR"><p><l>essnziarmenti</l><r>essenziarmenti</r></p><par n="oji__adv"/></e>
+    <e lm="sustanzialmenti" r="LR"><p><l>sustanziarmenti</l><r>sustanzialmenti</r></p><par n="oji__adv"/></e>
+    <e lm="univirsalmenti" r="LR"><p><l>universalmenti</l><r>univirsalmenti</r></p><par n="oji__adv"/></e>
+    <e lm="currittamenti" r="LR"><p><l>scurrittamenti</l><r>currittamenti</r></p><par n="oji__adv"/></e>
+    <e lm="ginirarmenti" r="LR"><p><l>ginararmenti</l><r>ginirarmenti</r></p><par n="oji__adv"/></e>
+    <e lm="viramenti" r="LR"><p><l>vèramenti</l><r>viramenti</r></p><par n="oji__adv"/></e>
+    <e lm="siriamenti" r="LR"><p><l>sidiamenti</l><r>siriamenti</r></p><par n="oji__adv"/></e>
+    <e lm="licamenti" r="LR"><p><l>ligamenti</l><r>licamenti</r></p><par n="oji__adv"/></e>
+    <e lm="rialmenti" r="LR"><p><l>riarmenti</l><r>rialmenti</r></p><par n="oji__adv"/></e>
+    <e lm="isplicitamenti" r="LR"><p><l>asplicitamenti</l><r>isplicitamenti</r></p><par n="oji__adv"/></e>
+    <e lm="custituzzionarmenti" r="LR"><p><l>custituzziunarmenti</l><r>custituzzionarmenti</r></p><par n="oji__adv"/></e>
+    <e lm="legalmenti" r="LR"><p><l>legamenti</l><r>legalmenti</r></p><par n="oji__adv"/></e>
+    <e lm="autramenti" r="LR"><p><l>autrimenti</l><r>autramenti</r></p><par n="oji__adv"/></e>
+    <e lm="etnicamenti" r="LR"><p><l>eticamenti</l><r>etnicamenti</r></p><par n="oji__adv"/></e>
+    <e lm="ampiamenti" r="LR"><p><l>ampiementi</l><r>ampiamenti</r></p><par n="oji__adv"/></e>
+    <e lm="tradizionalmenti" r="LR"><p><l>tradizzionalmenti</l><r>tradizionalmenti</r></p><par n="oji__adv"/></e>
+    <e lm="principalmenti" r="LR"><p><l>principalimenti</l><r>principalmenti</r></p><par n="oji__adv"/></e>
+    <e lm="nternamenti" r="LR"><p><l>sternamenti</l><r>nternamenti</r></p><par n="oji__adv"/></e>
+    <e lm="musicarmenti" r="LR"><p><l>musicalmenti</l><r>musicarmenti</r></p><par n="oji__adv"/></e>
+    <e lm="tutarmenti" r="LR"><p><l>totarmenti</l><r>tutarmenti</r></p><par n="oji__adv"/></e>
+    <e lm="radicalmenti" r="LR"><p><l>radicarmenti</l><r>radicalmenti</r></p><par n="oji__adv"/></e>
+    <e lm="prufunnamenti" r="LR"><p><l>profunnamenti</l><r>prufunnamenti</r></p><par n="oji__adv"/></e>
+    <e lm="nurmalmenti" r="LR"><p><l>normalmenti</l><r>nurmalmenti</r></p><par n="oji__adv"/></e>
+    <e lm="maravigghiusamenti" r="LR"><p><l>miravigghiusamenti</l><r>maravigghiusamenti</r></p><par n="oji__adv"/></e>
+    <e lm="invirsamenti" r="LR"><p><l>nvirsamenti</l><r>invirsamenti</r></p><par n="oji__adv"/></e>
+    <e lm="ulteriormenti" r="LR"><p><l>ulteriurmenti</l><r>ulteriormenti</r></p><par n="oji__adv"/></e>
+    <e lm="friquintimenti" r="LR"><p><l>friquintamenti</l><r>friquintimenti</r></p><par n="oji__adv"/></e>
+    <e lm="ricintimenti" r="LR"><p><l>ricintementi</l><r>ricintimenti</r></p><par n="oji__adv"/></e>
+    <e lm="prubabbirmenti" r="LR"><p><l>probabbirmenti</l><r>prubabbirmenti</r></p><par n="oji__adv"/></e>
+    <e lm="spicificamenti" r="LR"><p><l>specificamenti</l><r>spicificamenti</r></p><par n="oji__adv"/></e>
+    <e lm="fortimenti" r="LR"><p><l>fortementi</l><r>fortimenti</r></p><par n="oji__adv"/></e>
+    <e lm="ngiustamenti" r="LR"><p><l>ingiustamenti</l><r>ngiustamenti</r></p><par n="oji__adv"/></e>
+    <e lm="ecunumicamenti" r="LR"><p><l>econumicamenti</l><r>ecunumicamenti</r></p><par n="oji__adv"/></e>
+    <e lm="direttamenti" r="LR"><p><l>dirattamenti</l><r>direttamenti</r></p><par n="oji__adv"/></e>
+    <e lm="straurdinariamenti" r="LR"><p><l>straordinariamenti</l><r>straurdinariamenti</r></p><par n="oji__adv"/></e>
+    <e lm="esattamenti" r="LR"><p><l>asattamenti</l><r>esattamenti</r></p><par n="oji__adv"/></e>
+    <e lm="dirittamenti" r="LR"><p><l>dirattamenti</l><r>dirittamenti</r></p><par n="oji__adv"/></e>
+    <e lm="appurtunamenti" r="LR"><p><l>uppurtunamenti</l><r>appurtunamenti</r></p><par n="oji__adv"/></e>
+    <e lm="stremamenti" r="LR"><p><l>strimamenti</l><r>stremamenti</r></p><par n="oji__adv"/></e>
+    <e lm="urigginariamenti" r="LR"><p><l>uriginariamenti</l><r>urigginariamenti</r></p><par n="oji__adv"/></e>
+    <e lm="sulitamenti" r="LR"><p><l>sulidamenti</l><r>sulitamenti</r></p><par n="oji__adv"/></e>
+    <e lm="pirsunalmenti" r="LR"><p><l>pirsunarmenti</l><r>pirsunalmenti</r></p><par n="oji__adv"/></e>
+    <e lm="mmidiatamenti" r="LR"><p><l>mmèdiatamenti</l><r>mmidiatamenti</r></p><par n="oji__adv"/></e>
+    <e lm="sulamenti" r="LR"><p><l>isulamenti</l><r>sulamenti</r></p><par n="oji__adv"/></e>
+    <e lm="iffitivamenti" r="LR"><p><l>iffittivamenti</l><r>iffitivamenti</r></p><par n="oji__adv"/></e>
+    <e lm="prubbabbirmenti" r="LR"><p><l>probbabbirmenti</l><r>prubbabbirmenti</r></p><par n="oji__adv"/></e>
+    <e lm="prevalentementi" r="LR"><p><l>prevalentamenti</l><r>prevalentementi</r></p><par n="oji__adv"/></e>
+    <e lm="ndirettamenti" r="LR"><p><l>indirettamenti</l><r>ndirettamenti</r></p><par n="oji__adv"/></e>
+    <e lm="probabilmenti" r="LR"><p><l>prubabilmenti</l><r>probabilmenti</r></p><par n="oji__adv"/></e>
+    <e lm="nurmarmenti" r="LR"><p><l>furmarmenti</l><r>nurmarmenti</r></p><par n="oji__adv"/></e>
+    <e lm="rilativamenti" r="LR"><p><l>riativamenti</l><r>rilativamenti</r></p><par n="oji__adv"/></e>
+    <e lm="nizzialmenti" r="LR"><p><l>inizzialmenti</l><r>nizzialmenti</r></p><par n="oji__adv"/></e>
+    <e lm="urtimamenti" r="LR"><p><l>uttimamenti</l><r>urtimamenti</r></p><par n="oji__adv"/></e>
+    <e lm="certamenti" r="LR"><p><l>cetamenti</l><r>certamenti</r></p><par n="oji__adv"/></e>
+    <e lm="raramenti" r="LR"><p><l>paramenti</l><r>raramenti</r></p><par n="oji__adv"/></e>
+    <e lm="espressamenti" r="LR"><p><l>esprissamenti</l><r>espressamenti</r></p><par n="oji__adv"/></e>
+    <e lm="furmalmenti" r="LR"><p><l>furmarmenti</l><r>furmalmenti</r></p><par n="oji__adv"/></e>
+    <e lm="decisamenti" r="LR"><p><l>dicisamenti</l><r>decisamenti</r></p><par n="oji__adv"/></e>
+    <e lm="funnamentalmenti" r="LR"><p><l>funnamintalmenti</l><r>funnamentalmenti</r></p><par n="oji__adv"/></e>
+    <e lm="novamenti" r="LR"><p><l>notamenti</l><r>novamenti</r></p><par n="oji__adv"/></e>
+    <e lm="ultimamenti" r="LR"><p><l>uttimamenti</l><r>ultimamenti</r></p><par n="oji__adv"/></e>
+    <e lm="pratticamenti" r="LR"><p><l>pràtticamenti</l><r>pratticamenti</r></p><par n="oji__adv"/></e>
+    <e lm="prupiamenti" r="LR"><p><l>propiamenti</l><r>prupiamenti</r></p><par n="oji__adv"/></e>
+    <e lm="finanziaramenti" r="LR"><p><l>finanziariamenti</l><r>finanziaramenti</r></p><par n="oji__adv"/></e>
+    <e lm="saldamenti" r="LR"><p><l>sardamenti</l><r>saldamenti</r></p><par n="oji__adv"/></e>
+    <e lm="prittamenti" r="LR"><p><l>rittamenti</l><r>prittamenti</r></p><par n="oji__adv"/></e>
+    <e lm="finarmenti" r="LR"><p><l>finalmenti</l><r>finarmenti</r></p><par n="oji__adv"/></e>
+    <e lm="murarmenti" r="LR"><p><l>muralmenti</l><r>murarmenti</r></p><par n="oji__adv"/></e>
+    <e lm="prubbabirmenti" r="LR"><p><l>prubbabilmenti</l><r>prubbabirmenti</r></p><par n="oji__adv"/></e>
+    <e lm="prematuramenti" r="LR"><p><l>primaturamenti</l><r>prematuramenti</r></p><par n="oji__adv"/></e>
+    <e lm="autamenti" r="LR"><p><l>atamenti</l><r>autamenti</r></p><par n="oji__adv"/></e>
+    <e lm="canciamenti" r="LR"><p><l>canciumenti</l><r>canciamenti</r></p><par n="oji__adv"/></e>
+    <e lm="prupriamenti" r="LR"><p><l>mprupriamenti</l><r>prupriamenti</r></p><par n="oji__adv"/></e>
+    <e lm="mpruvvisamenti" r="LR"><p><l>mprovvisamenti</l><r>mpruvvisamenti</r></p><par n="oji__adv"/></e>
+    <e lm="anticamenti" r="LR"><p><l>nticamenti</l><r>anticamenti</r></p><par n="oji__adv"/></e>
+    <e lm="puliticamenti" r="LR"><p><l>pulimicamenti</l><r>puliticamenti</r></p><par n="oji__adv"/></e>
+    <e lm="dinzamenti" r="LR"><p><l>pinzamenti</l><r>dinzamenti</r></p><par n="oji__adv"/></e>
+    <e lm="veramenti" r="LR"><p><l>vèramenti</l><r>veramenti</r></p><par n="oji__adv"/></e>
+    <e lm="semplicementi" r="LR"><p><l>semplicimenti</l><r>semplicementi</r></p><par n="oji__adv"/></e>
+    <e lm="particularmenti" r="LR"><p><l>particolarmenti</l><r>particularmenti</r></p><par n="oji__adv"/></e>
+    <e lm="speciarmenti" r="LR"><p><l>speciamrmenti</l><r>speciarmenti</r></p><par n="oji__adv"/></e>
+    <e lm="estrimamenti" r="LR"><p><l>strimamenti</l><r>estrimamenti</r></p><par n="oji__adv"/></e>
+    <e lm="ntiramenti" r="LR"><p><l>nticamenti</l><r>ntiramenti</r></p><par n="oji__adv"/></e>
+    <e lm="rigurusamenti" r="LR"><p><l>vigurusamenti</l><r>rigurusamenti</r></p><par n="oji__adv"/></e>
+    <e lm="inizialmenti" r="LR"><p><l>inizalmenti</l><r>inizialmenti</r></p><par n="oji__adv"/></e>
+    <e lm="midiamenti" r="LR"><p><l>sidiamenti</l><r>midiamenti</r></p><par n="oji__adv"/></e>
+    <e lm="simpricimenti" r="LR"><p><l>simplricimenti</l><r>simpricimenti</r></p><par n="oji__adv"/></e>
+    <e lm="riggidamenti" r="LR"><p><l>riggitamenti</l><r>riggidamenti</r></p><par n="oji__adv"/></e>
+    <e lm="umanamenti" r="LR"><p><l>cumanamenti</l><r>umanamenti</r></p><par n="oji__adv"/></e>
+    <e lm="puramenti" r="LR"><p><l>duramenti</l><r>puramenti</r></p><par n="oji__adv"/></e>
+    <e lm="difinitivamenti" r="LR"><p><l>difintivamenti</l><r>difinitivamenti</r></p><par n="oji__adv"/></e>
+    <e lm="urdinamenti" r="LR"><p><l>ordinamenti</l><r>urdinamenti</r></p><par n="oji__adv"/></e>
+    <e lm="nigativamenti" r="LR"><p><l>nicativamenti</l><r>nigativamenti</r></p><par n="oji__adv"/></e>
+    <e lm="giniticamenti" r="LR"><p><l>geniticamenti</l><r>giniticamenti</r></p><par n="oji__adv"/></e>
+    <e lm="lestamenti" r="LR"><p><l>listamenti</l><r>lestamenti</r></p><par n="oji__adv"/></e>
+    <e lm="tradizziunarmenti" r="LR"><p><l>tradizziunalmenti</l><r>tradizziunarmenti</r></p><par n="oji__adv"/></e>
+    <e lm="riculamenti" r="LR"><p><l>riulamenti</l><r>riculamenti</r></p><par n="oji__adv"/></e>
+    <e lm="etimologgicamenti" r="LR"><p><l>etimològgicamenti</l><r>etimologgicamenti</r></p><par n="oji__adv"/></e>
+    <e lm="idealmenti" r="LR"><p><l>idearmenti</l><r>idealmenti</r></p><par n="oji__adv"/></e>
+    <e lm="propriamenti" r="LR"><p><l>propiamenti</l><r>propriamenti</r></p><par n="oji__adv"/></e>
+    <e lm="litteramenti" r="LR"><p><l>litteratmenti</l><r>litteramenti</r></p><par n="oji__adv"/></e>
+
+    <e lm="abbasciatu"><i>abbasciatu</i><par n="oji__adv"/></e>
+    <e lm="abbassu"><i>abbassu</i><par n="oji__adv"/></e>
+    <e lm="abbastanza"><i>abbastanza</i><par n="oji__adv"/></e>
+    <e lm="accantu"><i>accantu</i><par n="oji__adv"/></e>
+    <e lm="accusì"><i>accusì</i><par n="oji__adv"/></e>
+    <e lm="addossu"><i>addossu</i><par n="oji__adv"/></e>
+    <e lm="agghiriddà"><i>agghiriddà</i><par n="oji__adv"/></e>
+    <e lm="ajeri"><i>ajeri</i><par n="oji__adv"/></e>
+    <e lm="allegramenti"><i>allegramenti</i><par n="oji__adv"/></e>
+    <e lm="all’apertu"><i>all’apertu</i><par n="oji__adv"/></e>
+    <e lm="alquantu"><i>alquantu</i><par n="oji__adv"/></e>
+    <e lm="altrimenti"><i>altrimenti</i><par n="oji__adv"/></e>
+    <e lm="ammucciuni"><i>ammucciuni</i><par n="oji__adv"/></e>
+    <e lm="anchi"><i>anchi</i><par n="oji__adv"/></e>
+    <e lm="anchi" r="LR"><p><l>anche</l><r>anchi</r></p><par n="oji__adv"/></e>
+    <e lm="anzichì"><i>anzichì</i><par n="oji__adv"/></e>
+    <e lm="appedi"><i>appedi</i><par n="oji__adv"/></e>
+    <e lm="apposta"><i>apposta</i><par n="oji__adv"/></e>
+    <e lm="assemi"><i>assemi</i><par n="oji__adv"/></e>
+    <e lm="autrimenti"><i>autrimenti</i><par n="oji__adv"/></e>
+    <e lm="autru"><i>autru</i><par n="oji__adv"/></e>
+    <e lm="brevamenti"><i>brevamenti</i><par n="oji__adv"/></e>
+    <e lm="cascatu"><i>cascatu</i><par n="oji__adv"/></e>
+    <e lm="casciu"><i>casciu</i><par n="oji__adv"/></e>
+    <e lm="cchiutostu"><i>cchiutostu</i><par n="oji__adv"/></e>
+    <e lm="cioè"><i>cioè</i><par n="oji__adv"/></e>
+    <e lm="communqui"><i>communqui</i><par n="oji__adv"/></e>
+    <e lm="completamenti"><i>completamenti</i><par n="oji__adv"/></e>
+    <e lm="conseguentementi"><i>conseguentementi</i><par n="oji__adv"/></e>
+    <e lm="contracurrenti"><i>contracurrenti</i><par n="oji__adv"/></e>
+    <e lm="cupertu"><i>cupertu</i><par n="oji__adv"/></e>
+    <e lm="cussì"><i>cussì</i><par n="oji__adv"/></e>
+    <e lm="cutulinu"><i>cutulinu</i><par n="oji__adv"/></e>
+    <e lm="cà"><i>cà</i><par n="oji__adv"/></e>
+    <e lm="da"><i>da</i><par n="oji__adv"/></e>
+    <e lm="dapirtuttu"><i>dapirtuttu</i><par n="oji__adv"/></e>
+    <e lm="darrè"><i>darrè</i><par n="oji__adv"/></e>
+    <e lm="daura"><i>daura</i><par n="oji__adv"/></e>
+    <e lm="ddà"><i>ddà</i><par n="oji__adv"/></e>
+    <e lm="dipoi"><i>dipoi</i><par n="oji__adv"/></e>
+    <e lm="discostu"><i>discostu</i><par n="oji__adv"/></e>
+    <e lm="disparti"><i>disparti</i><par n="oji__adv"/></e>
+    <e lm="dovunqui"><i>dovunqui</i><par n="oji__adv"/></e>
+    <e lm="dunni"><i>dunni</i><par n="oji__adv"/></e>
+    <e lm="dà"><i>dà</i><par n="oji__adv"/></e>
+    <e lm="dòcu"><i>dòcu</i><par n="oji__adv"/></e>
+    <e lm="eminentementi"><i>eminentementi</i><par n="oji__adv"/></e>
+    <e lm="eppuru"><i>eppuru</i><par n="oji__adv"/></e>
+    <e lm="essezialmenti"><i>essezialmenti</i><par n="oji__adv"/></e>
+    <e lm="facilmenti"><i>facilmenti</i><par n="oji__adv"/></e>
+    <e lm="fidatamenti"><i>fidatamenti</i><par n="oji__adv"/></e>
+    <e lm="fluentementi"><i>fluentementi</i><par n="oji__adv"/></e>
+    <e lm="fraziunalmenti"><i>fraziunalmenti</i><par n="oji__adv"/></e>
+    <e lm="frequentementi"><i>frequentementi</i><par n="oji__adv"/></e>
+    <e lm="furbamenti"><i>furbamenti</i><par n="oji__adv"/></e>
+    <e lm="gentilmenti"><i>gentilmenti</i><par n="oji__adv"/></e>
+    <e lm="ggià"><i>ggià</i><par n="oji__adv"/></e>
+    <e lm="gia"><i>gia</i><par n="oji__adv"/></e>
+    <e lm="giustamenti"><i>giustamenti</i><par n="oji__adv"/></e>
+    <e lm="gradualmenti"><i>gradualmenti</i><par n="oji__adv"/></e>
+    <e lm="gratis"><i>gratis</i><par n="oji__adv"/></e>
+    <e lm="immediatamenti"><i>immediatamenti</i><par n="oji__adv"/></e>
+    <e lm="impertinentimenti"><par n="im/m"/><i>pertinentimenti</i><par n="oji__adv"/></e>
+    <e lm="imprescia"><par n="im/m"/><i>prescia</i><par n="oji__adv"/></e>
+    <e lm="improvisamenti"><par n="im/m"/><i>provisamenti</i><par n="oji__adv"/></e>
+    <e lm="infinitamenti"><par n="in/n"/><i>finitamenti</i><par n="oji__adv"/></e>
+    <e lm="inoltri"><par n="in/n"/><par n="o/u"/><i>ltri</i><par n="oji__adv"/></e>
+    <e lm="insenzibbilmenti"><par n="in/n"/><i>senzibbilmenti</i><par n="oji__adv"/></e>
+    <e lm="intantu"><par n="in/n"/><i>tantu</i><par n="oji__adv"/></e>
+    <e lm="intensivu"><par n="in/n"/><i>tensivu</i><par n="oji__adv"/></e>
+    <e lm="intensu"><par n="in/n"/><i>tensu</i><par n="oji__adv"/></e>
+    <e lm="interamenti"><par n="in/n"/><i>teramenti</i><par n="oji__adv"/></e>
+    <e lm="internamenti"><par n="in/n"/><i>ternamenti</i><par n="oji__adv"/></e>
+    <e lm="intieramenti"><par n="in/n"/><i>tieramenti</i><par n="oji__adv"/></e>
+    <e lm="intornu"><par n="in/n"/><i>tornu</i><par n="oji__adv"/></e>
+    <e lm="inzemi"><par n="in/n"/><i>zemi</i><par n="oji__adv"/></e>
+    <e lm="inzemmula"><par n="in/n"/><i>zemmula</i><par n="oji__adv"/></e>
+    <e lm="istantaniamenti"><i>istantaniamenti</i><par n="oji__adv"/></e>
+    <e lm="iùsu"><i>iùsu</i><par n="oji__adv"/></e>
+    <e lm="lateralmenti"><i>lateralmenti</i><par n="oji__adv"/></e>
+    <e lm="masinnò"><i>masinnò</i><par n="oji__adv"/></e>
+    <e lm="mirè"><i>mirè</i><par n="oji__adv"/></e>
+    <e lm="mmiremma"><i>mmiremma</i><par n="oji__adv"/></e>
+    <e lm="mprescia"><i>mprescia</i><par n="oji__adv"/></e>
+    <e lm="muccia"><i>muccia</i><par n="oji__adv"/></e>
+    <e lm="multu"><i>multu</i><par n="oji__adv"/></e>
+    <e lm="ncoddu"><i>ncoddu</i><par n="oji__adv"/></e>
+    <e lm="neanchi"><i>neanchi</i><par n="oji__adv"/></e>
+    <e lm="nemmenu"><i>nemmenu</i><par n="oji__adv"/></e>
+    <e lm="neppuru"><i>neppuru</i><par n="oji__adv"/></e>
+    <e lm="nningatu"><i>nningatu</i><par n="oji__adv"/></e>
+    <e lm="nn’"><i>nn’</i><par n="oji__adv"/></e>
+    <e lm="notrannu"><i>notrannu</i><par n="oji__adv"/></e>
+    <e lm="nspissu"><i>nspissu</i><par n="oji__adv"/></e>
+    <e lm="nundimenu"><i>nundimenu</i><par n="oji__adv"/></e>
+    <e lm="oggigiornu"><par n="o/u"/><i>ggigiornu</i><par n="oji__adv"/></e>
+    <e lm="opuru"><par n="o/u"/><i>puru</i><par n="oji__adv"/></e>
+    <e lm="originariamenti"><par n="o/u"/><par n="ri/re"/><i>ginariamenti</i><par n="oji__adv"/></e>
+    <e lm="ottenibili"><par n="o/u"/><i>ttenibili</i><par n="oji__adv"/></e>
+    <e lm="pagghiri"><i>pagghiri</i><par n="oji__adv"/></e>
+    <e lm="parimenti"><i>parimenti</i><par n="oji__adv"/></e>
+    <e lm="parzialmenti"><i>parzialmenti</i><par n="oji__adv"/></e>
+    <e lm="paurusamenti"><i>paurusamenti</i><par n="oji__adv"/></e>
+    <e lm="peiu"><i>peiu</i><par n="oji__adv"/></e>
+    <e lm="perpetuamenti"><i>perpetuamenti</i><par n="oji__adv"/></e>
+    <e lm="persunalmenti"><i>persunalmenti</i><par n="oji__adv"/></e>
+    <e lm="pinatu"><i>pinatu</i><par n="oji__adv"/></e>
+    <e lm="pirberu"><i>pirberu</i><par n="oji__adv"/></e>
+    <e lm="pisantementi"><i>pisantementi</i><par n="oji__adv"/></e>
+    <e lm="precedentementi"><i>precedentementi</i><par n="oji__adv"/></e>
+    <e lm="puranchi"><i>puranchi</i><par n="oji__adv"/></e>
+    <e lm="purtroppo"><i>purtroppo</i><par n="oji__adv"/></e>
+    <e lm="pèggiu"><i>pèggiu</i><par n="oji__adv"/></e>
+    <e lm="quinni"><i>quinni</i><par n="oji__adv"/></e>
+    <e lm="realmenti"><i>realmenti</i><par n="oji__adv"/></e>
+    <e lm="recentimenti"><i>recentimenti</i><par n="oji__adv"/></e>
+    <e lm="remotu"><i>remotu</i><par n="oji__adv"/></e>
+    <e lm="ri"><i>ri</i><par n="oji__adv"/></e>
+    <e lm="rittu"><par n="ri/re"/><i>ttu</i><par n="oji__adv"/></e>
+    <e lm="rumani"><i>rumani</i><par n="oji__adv"/></e>
+    <e lm="separatamenti"><i>separatamenti</i><par n="oji__adv"/></e>
+    <e lm="silunziusamenti"><i>silunziusamenti</i><par n="oji__adv"/></e>
+    <e lm="simplicimenti"><i>simplicimenti</i><par n="oji__adv"/></e>
+    <e lm="sodisfacentimenti"><i>sodisfacentimenti</i><par n="oji__adv"/></e>
+    <e lm="stentu"><i>stentu</i><par n="oji__adv"/></e>
+    <e lm="su"><i>su</i><par n="oji__adv"/></e>
+    <e lm="subitu"><i>subitu</i><par n="oji__adv"/></e>
+    <e lm="sultantu"><i>sultantu</i><par n="oji__adv"/></e>
+    <e lm="supratuttu"><i>supratuttu</i><par n="oji__adv"/></e>
+    <e lm="suttasupra"><i>suttasupra</i><par n="oji__adv"/></e>
+    <e lm="suttavuci"><i>suttavuci</i><par n="oji__adv"/></e>
+    <e lm="sì"><i>sì</i><par n="oji__adv"/></e>
+    <e lm="talmenti"><i>talmenti</i><par n="oji__adv"/></e>
+    <e lm="tintu"><i>tintu</i><par n="oji__adv"/></e>
+    <e lm="totalmenti"><i>totalmenti</i><par n="oji__adv"/></e>
+    <e lm="tramuntatu"><i>tramuntatu</i><par n="oji__adv"/></e>
+    <e lm="tuttavia"><i>tuttavia</i><par n="oji__adv"/></e>
+    <e lm="tuttora"><i>tuttora</i><par n="oji__adv"/></e>
+    <e lm="ugualmenti"><i>ugualmenti</i><par n="oji__adv"/></e>
+    <e lm="usualmenti"><i>usualmenti</i><par n="oji__adv"/></e>
+    <e lm="volentieri"><i>volentieri</i><par n="oji__adv"/></e>
+    <e lm="volontariamenti"><i>volontariamenti</i><par n="oji__adv"/></e>
+    <e lm="vulinteri"><i>vulinteri</i><par n="oji__adv"/></e>
+    <e lm="'mmucca"><i>'mmucca</i><par n="oji__adv"/></e>
+    <e lm="'mpressu"><i>'mpressu</i><par n="oji__adv"/></e>
+    <e lm="'nnavanti"><i>'nnavanti</i><par n="oji__adv"/></e>
+    <e lm="'nnumani"><i>'nnumani</i><par n="oji__adv"/></e>
 
 
     
@@ -44268,8 +44328,10 @@
     <e lm="prudùciri" r="LR"><p><l>prodùc</l><r>prudùc</r></p><par n="ntrudùc/iri__vblex"/></e>
     <e lm="prudùciri" r="LR"><p><l>proddùc</l><r>prudùc</r></p><par n="ntrudùc/iri__vblex"/></e>
 
+    <!-- pp: natu -->
     <e lm="nàsciri"><i>nàsc</i><par n="ntrudùc/iri__vblex"/></e>
     <e lm="nasciri" r="LR"><p><l>nasc</l><r>nàsc</r></p><par n="batt/iri__vblex"/></e>
+    <e lm="nàsciri"><p><l>nasc</l><r>nàsc</r></p><par n="ntruduc/i__vblex"/></e>
 
     <e lm="tradùciri"><i>tradùc</i><par n="ntrudùc/iri__vblex"/></e>
     <e lm="tradùciri" r="LR"><p><l>trarùc</l><r>tradùc</r></p><par n="ntrudùc/iri__vblex"/></e>
@@ -46367,6 +46429,7 @@
     <e lm="dimustrari"><i>dimustr</i><par n="abbint/ari__vblex"/></e>
     <e lm="dimustrari" r="LR"><p><l>addimustr</l><r>dimustr</r></p><par n="abbint/ari__vblex"/></e>
     <e lm="dimustrari" r="LR"><p><l>ammustr</l><r>dimustr</r></p><par n="abbint/ari__vblex"/></e>
+    <e lm="dimustrari" r="LR"><p><l>addimustr</l><r>dimustr</r></p><par n="abbint/ari__vblex"/></e>
 
     <e lm="arrivirsari"><i>arrivirs</i><par n="abbint/ari__vblex"/></e>
     <e lm="ntintiri"><i>ntint</i><par n="batt/iri__vblex"/></e>
@@ -48215,7 +48278,6 @@
     <e lm="prudùciri"><p><l>pruduc</l><r>prudùc</r></p><par n="ntruduc/i__vblex"/></e>
     <e lm="prudùciri" r="LR"><p><l>prudduc</l><r>prudùc</r></p><par n="ntruduc/i__vblex"/></e>
     <e lm="prudùciri" r="LR"><p><l>prodduc</l><r>prudùc</r></p><par n="ntruduc/i__vblex"/></e>
-    <e lm="nàsciri"><p><l>nasc</l><r>nàsc</r></p><par n="ntruduc/i__vblex"/></e>
     <e lm="tradùciri"><p><l>traduc</l><r>tradùc</r></p><par n="ntruduc/i__vblex"/></e>
     <e lm="tradùciri" r="LR"><p><l>traruc</l><r>tradùc</r></p><par n="ntruduc/i__vblex"/></e>
     <e lm="tradùciri" r="LR"><p><l>tradduc</l><r>tradùc</r></p><par n="ntruduc/i__vblex"/></e>
@@ -48862,6 +48924,7 @@
     <e lm="desiderari"><i>desider</i><par n="parr/ari__vblex"/></e>
     <e lm="destari"><i>dest</i><par n="parr/ari__vblex"/></e>
     <e lm="attestari"><i>attest</i><par n="parr/ari__vblex"/></e>
+    <e lm="attestari" r="LR"><p><l>attist</l><r>attest</r></p><par n="parr/ari__vblex"/></e>
     <e lm="destinari"><i>destin</i><par n="parr/ari__vblex"/></e>
     <e lm="determinari"><i>determin</i><par n="parr/ari__vblex"/></e>
     <e lm="detestari"><i>detest</i><par n="parr/ari__vblex"/></e>
@@ -51354,7 +51417,7 @@
     <e lm="îll" r="LR"><p><l>îll'</l><r>di<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="mf"/><s n="sp"/></r></p></e>
 
 
-    <e lm="troppu" r="LR"><p><l>tropp'</l><r>troppu</r></p><par n="oggi__adv"/></e>
+    <e lm="troppu" r="LR"><p><l>tropp'</l><r>troppu</r></p><par n="oji__adv"/></e>
 
     <e lm="a" r="LR"><p><l>a'</l><r>a<s n="pr"/></r></p></e>
 
@@ -51374,6 +51437,7 @@
   </section>
 
   <section id="final" type="inconditional">
+    <e><par n="ordinales"/></e>
     <e><par n="numeros"/></e>
     <e><par n="separa"/></e>
     <e><par n="coma"/></e>

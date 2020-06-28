@@ -13,6 +13,10 @@
     <equiv-char value="‘"/> <!-- U+2018 LEFT SINGLE QUOTATION MARK -->
   </char>
 
+  <char value="d">
+    <equiv-char value="ḍ"/>
+  </char>
+
   <char value="u">
     <equiv-char value="ù"/>
   </char>

@@ -22,7 +22,7 @@ LIST Prop = np ;
 LIST V = (vblex) ;
 LIST Vbmod = (vbmod) ;
 LIST Vbhaver = (vbhaver) ;
-LIST Èssiri = (vbser);
+LIST Èssiri = vbser ;
 LIST Num = num ;
 LIST Pr = pr ; 
 
@@ -63,6 +63,8 @@ LIST Prep/tra = "<tra>"i ;
 
 LIST Aviri = "aviri" ;
 LIST Si = "<si>"i ;
+LIST Ci = (prn pro adv) ;
+LIST Su = "<su>"i ;
 
 LIST Ind = ind ; 
 LIST Def = def ;
@@ -70,6 +72,8 @@ LIST Def = def ;
 LIST CC/e = "<e>" ;
 LIST CC/o = "<o>" ;
 LIST CS/ca = "<ca>" ;
+
+LIST Roman = ("[XIVCM]+"ri num) ;
 
 LIST Inf = inf ;
 
@@ -108,11 +112,15 @@ LIST Du = "<du>"i ;
 
 LIST Chi = "<chi>" ;
 LIST Cristianu = "cristianu" ;
+LIST Chiuppiri = "chiuppiri" ;
 
 LIST Nun = "nun" ; 
 LIST Ti = "<ti>"i ;
 
 LIST È = "<è>"i ; 
+
+LIST Stati = "<stati>"i ;
+LIST Astati = "astati"i ;
 
 LIST PostNum = "a.C." "d.C." ;
 
@@ -122,6 +130,8 @@ LIST Sg3 = (p3 sg) ;
 LIST Pl1 = (p1 pl) ;
 LIST Pl2 = (p2 pl) ;
 LIST Pl3 = (p3 pl) ;
+
+SET Sp12 = Sg1 | Sg2 | Pl1 | Pl2 ;
 
 LIST Cog = cog ;
 LIST Top = top ;
@@ -264,6 +274,9 @@ SELECT N IF (-1 Det OR Pr) (0 Cristianu) ;
 SELECT Pr IF (0 Pr OR Pr LINK 0/* Det) (1 Inf) (NOT 0 Putiri) ;
     ## Pi fari lu jurnalista prufissiuntista ...
     ## A prugrammazzioni liniàri ppo ssiri appricata a diversa campi di studiu.
+
+REMOVE SUB:1 Det IF (1 Det LINK 1C N) ;
+    ## Nti li quattordici edizzioni lu nùmmiru di li ìsuli participanti hà canciatu di vota in vota, datu ca li diligazzioni nun sunnu ubbligati a participari a l' eventu.
 
 SELECT Pr IF (0 Pr OR Pr LINK 0/* Det) (1 Det) ;
     ## Nta lu Òrdini prufissiunali
@@ -412,6 +425,9 @@ SELECT Pron IF (0C Ti) (1C V) ;
 SELECT A IF (-1 Det) (0C A OR Adv) (1C N) ;
     ## La prima Dumìnica di Maiu c'è la festa di Santa Lucìa dê quagghi, pi ricurdari nu miràculu dâ Santa.
 
+SELECT Èssiri IF (0C Verb) (1 PrfPrc) ;
+    ## Tutti li pissichiatri sunu priparati a sapìri diagnusticari li maladii mintali.
+
 # SELECT Pron/itg IF (0 Rel) (0 Pron/itg) (1* Intrg);
 
 # SELECT Rel IF (0 Rel) (0 Pr) (1 Fin);
@@ -457,6 +473,18 @@ SELECT CA IF (-1 Adv) (0C Si) (1 Det OR Èssiri) ;
     ##  Lu tiatru fu inaugurato u 7 giugnu 1874, puru si fosse incompleto.
 
 SELECT Pl IF (0 Pl OR Sp) (0C Num) (1C N + Sp) ;
+
+REMOVE Astati IF (0 Stati) ;
+
+REMOVE Sp12 IF (0 Chiuppiri); 
+
+REMOVE Adv IF (0C Adv OR Pr) (1C Det OR N) ;
+
+SELECT Èssiri IF (-1C Ci) (0 Su) ;
+
+SELECT N + $$Genero IF (-1C Det + $$Genero) (0C N) ;
+
+SELECT Roman IF (-1C Ant) ;
 
 AFTER-SECTIONS
 
