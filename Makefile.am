@@ -42,8 +42,13 @@ $(LANG1).autopgen.bin: $(BASENAME).post-$(LANG1).dix
 .deps/$(LANG1).automorf.hfst: $(LANG1).automorf.att.gz
 	zcat $< | hfst-txt2fst -j -o $@
 
-$(LANG1).automorf.hfst: .deps/$(LANG1).automorf.hfst .deps/.d
-	hfst-fst2fst -w $< -o $@
+.deps/$(LANG1).spellrelax.hfst: $(BASENAME).$(LANG1).spellrelax
+	hfst-regexp2fst -S $< -o $@
+
+$(LANG1).automorf.hfst: .deps/$(LANG1).automorf.hfst .deps/$(LANG1).spellrelax.hfst .deps/.d
+	hfst-invert $< | hfst-compose -1 - -2 .deps/$(LANG1).spellrelax.hfst | hfst-invert | hfst-fst2fst -w -o $@ 
+
+#	hfst-fst2fst -w $< -o $@
 
 ###############################################################################
 ## Disambiguation rules
