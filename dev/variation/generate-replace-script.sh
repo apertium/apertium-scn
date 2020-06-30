@@ -11,10 +11,10 @@ fi
 
 first="true"
 echo "[ ?* | ["
-for line in `cat $1 | tr ' ' '@' | tr '\t' '%'`; do 
+for line in `cat $1 | tr ' ' '@' | tr '\t' '%'`; do
 	f=$(echo $line | cut -f1 -d'%')
 	if [[ ${f} -lt ${frequency_bound} ]]; then
-		break	
+		break
 	else
 		if [[ ${first} == "true" ]]; then
 			first="false";
@@ -22,7 +22,10 @@ for line in `cat $1 | tr ' ' '@' | tr '\t' '%'`; do
 			echo " .o.";
 		fi
 	fi
-	echo ${line} | tr '%' '\t' | tr '@' ' ' | cut -f2,3 | sed 's/^/  [ [ ?* /g' | sed 's/\t/ ?* ]::/g' | sed 's/$/ ]/g' | python3 -c 'import sys; sys.stdout.write(sys.stdin.read().replace("# ?*", ".#.").replace("?* #", ".#."));' | tr -d '\n'
+    echo $line | tr '%' '\t' | tr '@' ' ' | cut -f2,3 |\
+        sed -e 's/^\([[:alpha:]#]\) \[\([^]]*\)\] \([[:alpha:]#]\) */[ \2 || \1 _ \3]::/' |\
+        sed -e 's/#/.#./g' -e 's/::[[:space:]]*/::/'
+    #echo ${line} | tr '%' '\t' | tr '@' ' ' | cut -f2,3 | sed 's/^/  [ [ ?* /g' | sed 's/\t/ ?* ]::/g' | sed 's/$/ ]/g' | python3 -c 'import sys; sys.stdout.write(sys.stdin.read().replace("# ?*", ".#.").replace("?* #", ".#."));' | tr -d '\n'
 
 #| sed 's/\?\* #/.#./g' | sed 's/# \?\*/.#./g'
 done
