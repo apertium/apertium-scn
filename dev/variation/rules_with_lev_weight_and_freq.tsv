@@ -1,43 +1,36 @@
 1297	r [ i -> e ] #	1.0	# a b b a c a r [ i -> e ] #
-414	t [ u -> o ] #	1.0	# a b b a c c h i a t [ u -> o ] #
+412	t [ u -> o ] #	1.0	# a b b a c c h i a t [ u -> o ] #
 198	r [ u -> o ] #	1.0	# a b a c i u r r [ u -> o ] #
-188	n [ u -> o ] #	1.0	# a b b a g n [ u -> o ] #
-184	t [ u -> a ] #	1.0	# a b b a c c h i a t [ u -> a ] #
-152	i [ u -> o ] #	1.0	# a b b a c c h i [ u -> o ] #
+187	n [ u -> o ] #	1.0	# a b b a g n [ u -> o ] #
+182	t [ u -> a ] #	1.0	# a b b a c c h i a t [ u -> a ] #
+154	i [ u -> o ] #	1.0	# a b b a c c h i [ u -> o ] #
 116	c [ a -> à ] r	1.0	# a b b a c [ a -> à ] r i #
 107	l [ u -> o ] #	1.0	# a b b a l l [ u -> o ] #
 106	t [ a -> à ] r	1.0	# a b b a s t [ a -> à ] r i #
 99	d [ u -> o ] #	1.0	# a b b a n e d d [ u -> o ] #
 98	z [ z -> 0 ] i	1.0	# a b b i t a z [ z -> 0 ] i o n i #
-96	i [ a -> à ] r	1.0	# a b b a r r i g g i [ a -> à ] r i #
+97	i [ a -> à ] r	1.0	# a b b a r r i g g i [ a -> à ] r i #
 90	n [ a -> à ] r	1.0	# a b b a r u n [ a -> à ] r i #
 87	s [ u -> o ] #	1.0	# a b b i s s [ u -> o ] #
 85	n [ i -> e ] #	1.0	# a b b i t a z i o n [ i -> e ] #
-83	# [ a -> 0 ] [	1.0	# [ a -> 0 ] [ 0 -> à ] b b a l l a r i #
 80	c [ u -> o ] #	1.0	# a b a c [ u -> o ] #
-71	# [ c -> 0 ] [	1.0	# [ c -> 0 ] [ 0 -> ç ] i a m m a #
 69	i [ o -> u ] n	1.0	# a b b i t a z i [ o -> u ] n i #
 65	# [ 0 -> a r ] r	2.0	# [ 0 -> a r ] r i a t t e r i #
-63	n [ u -> a ] #	1.0	# a r g i n t i n [ u -> a ] #
+62	n [ u -> a ] #	1.0	# a r g i n t i n [ u -> a ] #
 62	l [ a -> à ] r	1.0	# a b b a l l [ a -> à ] r i #
 61	# [ 0 -> i ] n	1.0	# [ 0 -> i ] n a z z i o n i #
 60	r [ a -> à ] r	1.0	# a b b a r r [ a -> à ] r i #
 54	r [ u -> a ] #	1.0	# a l l e g r [ u -> a ] #
 53	a [ s -> 0 ] c	1.0	# a m m a n t a [ s -> 0 ] c i a r i #
-53	# [ n -> 0 ] [	1.0	# [ n -> 0 ] [ 0 -> d ] i c h i a r i #
 50	s [ u -> a ] #	1.0	# a i r u s [ u -> a ] #
-50	# [ o -> 0 ] [	1.0	# [ o -> 0 ] [ 0 -> a ] c c a s i o n i #
 46	c [ u -> a ] #	1.0	# a c c a r i è m i c [ u -> a ] #
 45	z [ u -> o ] #	1.0	# a b b r a z z [ u -> o ] #
 45	z [ 0 -> z ] i	1.0	# a b b i t a z [ 0 -> z ] i o n i #
-45	# [ g -> 0 ] [	1.0	# [ g -> 0 ] [ 0 -> a ] r i d d u #
-45	# [ b -> 0 ] [	1.0	# [ b -> 0 ] [ 0 -> p ] i s o l u #
 43	g [ g h -> l ] i	2.0	# a b b a g [ g h -> l ] i a m e n t u #
 41	z [ a -> à ] r	1.0	# a b b r a z z [ a -> à ] r i #
 41	# [ 0 -> a m ] m	2.0	# [ 0 -> a m ] m [ b -> 0 ] i z z i g g h i a r i #
 39	d [ a -> à ] r	1.0	# a b b a d d [ a -> à ] r i a r i #
 38	n [ z -> s ] i	1.0	# c a n [ z -> s ] i a r i #
-38	# [ v -> 0 ] [	1.0	# [ v -> 0 ] [ 0 -> a ] u g g h i a #
 37	p [ a -> à ] r	1.0	# a b b a m p [ a -> à ] r i #
 37	# [ 0 -> a d ] d	2.0	# [ 0 -> a d ] d a n t i #
 36	m [ u -> o ] #	1.0	# a b b r a m [ u -> o ] #
@@ -45,47 +38,41 @@
 33	s [ a -> à ] r	1.0	# a c c a r u s [ a -> à ] r i #
 32	g [ a -> à ] r	1.0	# a d d u g [ a -> à ] r i #
 32	c [ u -> o ] n	1.0	# c [ u -> o ] n j ù n c i r i #
-32	# [ p -> 0 ] [	1.0	# [ p -> 0 ] [ 0 -> b ] i s o l u #
-32	# [ d -> 0 ] [	1.0	# [ d -> 0 ] [ 0 -> r ] e n t i #
 31	g [ l -> g h ] i	2.0	# a b b a g [ l -> g h ] i a m e n t u #
-31	# [ j -> 0 ] [	1.0	# [ j -> 0 ] [ 0 -> g ] a d d u #
-30	# [ a m m -> 0 ] [	3.0	# [ a m m -> 0 ] [ 0 -> p ] a n t a s c i a r i #
 28	t [ a -> u ] #	1.0	# a b b a g n a t [ a -> u ] #
+28	# [ c -> ç ] i	1.0	# [ c -> ç ] i a m m a #
 27	n [ s -> z ] i	1.0	# c a n [ s -> z ] i a r i #
 27	m [ a -> à ] r	1.0	# a b b a r s a m [ a -> à ] r i #
 27	a [ 0 -> s ] c	1.0	# a m m a n t a [ 0 -> s ] c i a r i #
 26	p [ u -> o ] #	1.0	# a r i p p [ u -> o ] #
 26	n [ c -> g ] i	1.0	# c a n [ c -> g ] i a r i #
-26	# [ i -> 0 ] [	1.0	# [ i -> 0 ] [ 0 -> a ] d u l a t r a r i #
 25	v [ u -> o ] #	1.0	# a d d e v [ u -> o ] #
 25	p [ r -> l ] a	1.0	# c u n t i m p [ r -> l ] a z z i o n i #
-25	c [ 0 -> h ] i	1.0	# a c c [ 0 -> h ] i e t t u #
-25	# [ m -> 0 ] [	1.0	# [ m -> 0 ] [ 0 -> f ] i s s a g g i u #
 24	d [ u -> a ] #	1.0	# b e d d [ u -> a ] #
 24	c [ i -> ì ] r	1.0	# a c c [ i -> ì ] r r a r i #
-24	c [ h -> 0 ] i	1.0	# a c c [ h -> 0 ] i e t t u #
-24	# [ ç -> 0 ] [	1.0	# [ ç -> 0 ] [ 0 -> c ] i a m m a #
+24	# [ a m m -> p ] a	3.0	# [ a m m -> p ] a n t a s c i a r i #
 24	# [ 0 -> a ] m	1.0	# [ 0 -> a ] m m a r a z z a r i #
 23	r [ u -> ù ] n	1.0	# a b b a r [ u -> ù ] n a r i #
+23	c [ h -> 0 ] i	1.0	# a c c [ h -> 0 ] i e t t u #
 23	b [ 0 -> b ] i	1.0	# a b [ 0 -> b ] i l i t a t i #
-23	# [ a r -> 0 ] [	2.0	# [ a r -> 0 ] [ 0 -> d ] e n z i a #
 22	l [ u -> a ] #	1.0	# à p u l [ u -> a ] #
+22	c [ 0 -> h ] i	1.0	# a c c [ 0 -> h ] i e t t u #
 22	b [ b -> 0 ] i	1.0	# a b [ b -> 0 ] i l i #
-22	# [ r -> 0 ] [	1.0	# [ r -> 0 ] [ 0 -> b ] u m m u l i a r i #
+22	a [ g -> r ] g	1.0	# a [ g -> r ] g e n t u #
 21	r [ ì -> i ] a	1.0	# a d u l a t r [ ì -> i ] a #
 21	a [ z -> 0 ] i	1.0	# a b b i t a [ z -> 0 ] i o n i #
 20	u [ 0 -> g ] n	2.0	# c u [ 0 -> g ] n [ i -> 0 ] u g a r i #
 20	g [ u -> o ] #	1.0	# a b b e g g [ u -> o ] #
+20	# [ ç -> c ] i	1.0	# [ ç -> c ] i a m m a #
 20	# [ 0 -> a b ] b	2.0	# [ 0 -> a b ] b a b b i a r i #
 18	r [ i -> e ] s	1.0	# r [ i -> e ] s a c c a #
 18	n [ c -> g ] a	1.0	# a n [ c -> g ] a r ì a #
 18	f [ a -> à ] r	1.0	# a c c u t t u f [ a -> à ] r i #
 18	a [ z z -> 0 ] i	2.0	# a b b r i v i a [ z z -> 0 ] i o n i #
+18	# [ d -> r ] i	1.0	# [ d -> r ] i à v u l u #
+18	# [ a r -> n g ] r	3.0	# [ a r -> n g ] r i [ z -> n ] z a r i #
 18	# [ 0 -> a n ] n	2.0	# [ 0 -> a n ] n [ d -> 0 ] i n g a r i #
-17	# [ s -> 0 ] [	1.0	# [ s -> 0 ] [ 0 -> n ] g r i g n a r i #
-17	# [ e -> 0 ] [	1.0	# [ e -> 0 ] [ 0 -> a ] b b r à i c u #
 16	u [ 0 -> v ] a	1.0	# m u n t u [ 0 -> v ] a r i #
-16	t [ r -> 0 ] a	2.0	# n [ c -> g ] a s t [ r -> 0 ] a r i #
 16	n [ i -> a ] #	2.0	# a b b i t a z i [ o -> u ] n [ i -> a ] #
 16	n [ g -> c ] i	1.0	# c a n [ g -> c ] i a r i #
 16	j [ ù -> u ] n	1.0	# c u n j [ ù -> u ] n c i r i #
@@ -98,26 +85,23 @@
 14	u [ g -> 0 ] n	2.0	# c u [ g -> 0 ] n [ 0 -> i ] u g a r i #
 14	t [ 0 -> i ] e	1.0	# a t t [ 0 -> i ] e n t u #
 14	s [ i -> ì ] n	1.0	# a p p u s [ i -> ì ] n t a r i #
-14	r [ i -> 0 ] v	1.0	# c i r [ i -> 0 ] v e d d u #
 14	n [ g -> c ] a	1.0	# a n [ g -> c ] a r ì a #
 14	m [ u -> i ] n	1.0	# m [ u -> i ] n t u a r i #
 14	m [ i -> ì ] n	1.0	# a r r i m [ i -> ì ] n a r i #
 14	m [ e -> è ] m	3.0	# m [ e -> è ] m [ b -> m a ] r u #
 14	i [ 0 -> u ] o	1.0	# s p r i s s i [ 0 -> u ] o n i #
 14	b [ 0 -> b ] u	1.0	# a b [ 0 -> b ] u s u #
-14	# [ g i -> 0 ] [	2.0	# [ g i -> 0 ] [ 0 -> j ] o c u #
 14	# [ 0 -> s ] c	1.0	# [ 0 -> s ] c i u s c i a r i #
 13	v [ u -> a ] #	1.0	# n o v [ u -> a ] #
 13	v [ i -> ì ] n	1.0	# a r r i v [ i -> ì ] n t a r i #
 13	g [ 0 -> h ] i	1.0	# a g g [ 0 -> h ] i u c c a r i #
 13	b [ b -> 0 ] u	1.0	# a b [ b -> 0 ] u s u #
-13	# [ u -> 0 ] [	1.0	# [ u -> 0 ] [ 0 -> a ] c c h i a l i #
-13	# [ p i -> 0 ] [	2.0	# [ p i -> 0 ] [ 0 -> b a ] r c o c u #
-13	# [ n v -> 0 ] [	2.0	# [ n v -> 0 ] [ 0 -> m b ] a d d u n a r i #
-13	# [ c i -> 0 ] [	2.0	# [ c i -> 0 ] [ 0 -> f r ] a t u #
+13	# [ o -> u ] r	1.0	# [ o -> u ] r a #
+13	# [ b -> v ] a	1.0	# [ b -> v ] a g n a t a #
 12	t [ i -> 0 ] r	3.0	# n t [ i -> 0 ] r [ 0 -> i p ] p [ r -> 0 ] i t a r i #
 12	r [ i v -> b ] e	2.0	# c i r [ i v -> b ] e d d u #
 12	r [ i -> ì ] r	1.0	# a p r [ i -> ì ] r i #
+12	r [ i -> 0 ] v	1.0	# c i r [ i -> 0 ] v e d d u #
 12	p [ u -> o ] s	1.0	# d i s p [ u -> o ] s i z z i o n i #
 12	p [ i -> ì ] n	1.0	# d i p [ i -> ì ] n t a r i #
 12	n [ z -> s ] a	1.0	# n [ z -> s ] a i a r i #
@@ -127,9 +111,7 @@
 12	a [ m m -> p p ] a	2.0	# a [ m m -> p p ] a n t a s c i a t u #
 12	a [ g -> 0 ] u	1.0	# a [ g -> 0 ] u g g h i a #
 12	a [ 0 -> i ] s	1.0	# m a [ 0 -> i ] s t r u #
-12	# [ o l -> 0 ] [	4.0	# [ o l -> 0 ] [ 0 -> a t ] t [ r -> 0 ] a [ g -> r ] g i a r i #
-12	# [ a t -> 0 ] [	2.0	# [ a t -> 0 ] [ 0 -> n ] t i m u g n a r i #
-12	# [ a g -> 0 ] [	2.0	# [ a g -> 0 ] [ 0 -> n ] g a g g h i a r i #
+12	# [ p -> a m m ] a	3.0	# [ p -> a m m ] a n t a s c i a r i #
 12	# [ 0 -> a ] n	1.0	# [ 0 -> a ] n g a l i a r i #
 11	v [ a -> à ] n	1.0	# a l l i v [ a -> à ] n t a r i #
 11	t [ i -> ì ] r	1.0	# a b b a u t t [ i -> ì ] r i #
@@ -139,11 +121,9 @@
 11	i [ g -> c ] a	1.0	# a g g r i [ g -> c ] a z z i o n i #
 11	b [ a -> à ] r	1.0	# a b b [ a -> à ] r r a r i #
 11	à [ v -> 0 ] u	1.0	# c à [ v -> 0 ] u c i u #
-11	a [ j -> i ] a	1.0	# a b b a [ j -> i ] a t a #
 11	# [ 0 -> a g ] g	2.0	# [ 0 -> a g ] g h i à n n a r a #
 10	z [ u -> a ] #	1.0	# a v v e z z [ u -> a ] #
 10	v [ 0 -> i ] e	1.0	# g u v [ 0 -> i ] e r n u #
-10	t [ a -> 0 ] r	1.0	# a t t [ a -> 0 ] r a n t a r i #
 10	r [ i -> ì ] t	1.0	# d i s a r r [ i -> ì ] t t a r i #
 10	r [ a -> à ] z	1.0	# a b b r [ a -> à ] z z a r i #
 10	n [ a -> u ] #	1.0	# b o n [ a -> u ] #
@@ -152,13 +132,15 @@
 10	f [ u -> o ] #	1.0	# a d d o r f [ u -> o ] #
 10	e [ d d -> t t ] u	4.0	# c [ i a -> 0 ] r [ 0 -> a p ] e [ d d -> t t ] u #
 10	c [ i -> ì ] n	1.0	# a m m i c [ i -> ì ] n a r i #
-10	a [ i -> j ] a	1.0	# a b b a [ i -> j ] a t a #
-10	a [ g -> r ] g	1.0	# a [ g -> r ] g e n t u #
-10	# [ l -> 0 ] [	1.0	# [ l -> 0 ] [ 0 -> d ] i c e n z a #
-10	# [ f -> 0 ] [	1.0	# [ f -> 0 ] [ 0 -> p ] a s t u c a #
+10	a [ j -> i ] a	1.0	# a b b a [ j -> i ] a t a #
+10	# [ v -> b ] a	1.0	# [ v -> b ] a g n a t a #
+10	# [ n -> a t ] t	2.0	# [ n -> a t ] t i m u g n a r i #
+10	# [ n -> a g ] g	2.0	# [ n -> a g ] g a g g h i a r i #
+10	# [ e -> a ] b	1.0	# [ e -> a ] b b r à i c u #
+10	# [ a g -> n ] g	2.0	# [ a g -> n ] g a g g h i a r i #
+10	# [ a -> i ] d	1.0	# [ a -> i ] d u l a t r a r i #
 9	v [ i -> 0 ] e	1.0	# g u v [ i -> 0 ] e r n u #
 9	v [ a -> à ] r	1.0	# a d u v [ a -> à ] r i #
-9	u [ 0 -> s ] c	1.0	# a b b r u [ 0 -> s ] c i a r i #
 9	r [ i -> u ] s	1.0	# a r r [ i -> u ] s b i g g h i a r i #
 9	r [ c a -> r i ] m	2.0	# è r [ c a -> r i ] m u #
 9	r [ c -> r ] a	1.0	# è r [ c -> r ] a m u #
@@ -173,12 +155,18 @@
 9	c [ a -> à ] n	1.0	# c [ a -> à ] n c i a r i #
 9	b [ b -> 0 ] r	1.0	# a b [ b -> 0 ] r u z z i s i #
 9	b [ 0 -> b ] a	1.0	# a b [ 0 -> b ] a c i u r r u #
+9	a [ i -> j ] a	1.0	# a b b a [ i -> j ] a t a #
 9	a [ g -> 0 ] a	1.0	# a b b r a [ g -> 0 ] a m e n t u #
+9	# [ o -> u ] l	1.0	# [ o -> u ] l i r i #
+9	# [ o -> u ] c	1.0	# [ o -> u ] c c a s i o n i #
+9	# [ n -> a c ] c	2.0	# [ n -> a c ] c h i a n c u l a r i #
+9	# [ a -> à ] r	1.0	# [ a -> à ] r i a #
 9	# [ 0 -> n ] c	1.0	# [ 0 -> n ] c h i a t r a t u #
 8	v [ e -> i ] r	1.0	# d i v [ e -> i ] r t i m e n t u #
 8	u [ v -> 0 ] a	1.0	# m u n t u [ v -> 0 ] a r i #
 8	u [ r -> t ] t	1.0	# c u [ r -> t ] t i g g h i u #
 8	u [ a -> v à ] r	2.0	# m u n t u [ a -> v à ] r i #
+8	u [ 0 -> s ] c	1.0	# a b b r u [ 0 -> s ] c i a r i #
 8	t [ u -> ù ] r	1.0	# a b b u t [ u -> ù ] r a r i #
 8	t [ u -> ù ] p	1.0	# n t [ u -> ù ] p p a r i #
 8	t [ u -> ù ] n	1.0	# n g a t t [ u -> ù ] n a r i #
@@ -213,12 +201,16 @@
 8	b [ u -> o ] #	1.0	# b ù l b [ u -> o ] #
 8	b [ a -> u ] g	1.0	# b [ a -> u ] g g h i o l u #
 8	a [ u -> 0 ] r	1.0	# a [ u -> 0 ] r e n z i a #
-8	# [ c h -> 0 ] [	2.0	# [ c h -> 0 ] [ 0 -> q u ] i s t i o n i #
+8	# [ g i -> j ] u	2.0	# [ g i -> j ] u g n u #
+8	# [ g -> j ] a	1.0	# [ g -> j ] a d d u #
+8	# [ c i -> f r ] a	2.0	# [ c i -> f r ] a t u #
+8	# [ c -> g ] i	2.0	# [ c -> g ] i [ 0 -> u ] l e p p u #
 8	# [ 0 -> s ] g	1.0	# [ 0 -> s ] g a v i t a r i #
 8	# [ 0 -> g ] r	1.0	# [ 0 -> g ] r a n u #
 8	# [ 0 -> a c ] c	2.0	# [ 0 -> a c ] c a r u s a r i #
 7	v [ i -> e ] r	1.0	# d i v [ i -> e ] r t i m e n t u #
 7	u [ s -> 0 ] c	1.0	# a b b r u [ s -> 0 ] c i a r i #
+7	t [ a -> 0 ] r	1.0	# a t t [ a -> 0 ] r a n t a r i #
 7	r [ u -> i ] s	1.0	# a r r [ u -> i ] s b i g g h i a r i #
 7	r [ i -> e ] p	1.0	# r [ i -> e ] p a r u #
 7	p [ p -> 0 ] i	1.0	# n t r u p [ p -> 0 ] i d d a r i #
@@ -228,8 +220,6 @@
 7	n [ i -> ì ] r	1.0	# d i c l i n [ i -> ì ] r i #
 7	m [ m -> b ] a	1.0	# b a m [ m -> b ] a c a r i a r i #
 7	m [ a -> à ] n	1.0	# d u m [ a -> à ] n n a r i #
-7	i [ v -> m ] i	1.0	# a d d i [ v -> m ] i n a t u r i #
-7	i [ u -> 0 ] l	1.0	# g i [ u -> 0 ] l e p p u #
 7	i [ 0 -> s ] v	1.0	# a r r i [ 0 -> s ] v i g g h i a r i #
 7	i [ 0 -> j ] i	1.0	# a d d i [ 0 -> j ] i r i #
 7	g [ u -> a ] #	1.0	# l a r g [ u -> a ] #
@@ -240,8 +230,9 @@
 7	c [ a -> u ] #	1.0	# f i a c c [ a -> u ] #
 7	b [ b -> 0 ] a	1.0	# a b [ b -> 0 ] a c i u r r u #
 7	à [ 0 -> v ] u	1.0	# c à [ 0 -> v ] u c i u #
-7	# [ i a c q -> 0 ] [	4.0	# [ i a c q -> 0 ] [ 0 -> b ] u a #
-7	# [ a c -> 0 ] [	2.0	# [ a c -> 0 ] [ 0 -> n ] c h i a n c u l a r i #
+7	# [ r -> d ] i	1.0	# [ r -> d ] i à v u l u #
+7	# [ g -> c ] i	2.0	# [ g -> c ] i [ u -> 0 ] l e p p u #
+7	# [ a c -> n ] c	2.0	# [ a c -> n ] c h i a n c u l a r i #
 6	v [ e -> è ] r	1.0	# a v v [ e -> è ] r b i u #
 6	u [ i -> ì ] t	1.0	# n c u [ i -> ì ] t a r i #
 6	u [ a -> à ] s	1.0	# a r r i q u [ a -> à ] s a r i #
@@ -254,7 +245,6 @@
 6	t [ 0 -> a ] r	1.0	# a t t [ 0 -> a ] r a n t a r i #
 6	s [ v -> b ] i	1.0	# a r r i s [ v -> b ] i g g h i a t u #
 6	s [ a -> i ] n	1.0	# a s s [ a -> i ] n t u m a r i #
-6	r [ v -> b ] i	1.0	# i r [ v -> b ] i c e d d a #
 6	r [ u -> ù ] b	1.0	# n t r [ u -> ù ] b b u l a r i #
 6	r [ r i -> c a ] m	2.0	# è r [ r i -> c a ] m u #
 6	r [ r -> v ] i	1.0	# v u r [ r -> v ] i c a r i #
@@ -265,7 +255,6 @@
 6	r [ a -> à ] s	1.0	# a r r [ a -> à ] s s a r i #
 6	r [ a -> à ] m	1.0	# a r r [ a -> à ] m a r i #
 6	r [ a -> à ] d	1.0	# a r r [ a -> à ] d a r i #
-6	r [ 0 -> t ] i	6.0	# [ f u r f u -> 0 ] [ 0 -> l i b b i ] r [ 0 -> t ] i n u #
 6	p [ u -> i ] r	1.0	# s p [ u -> i ] r t u s a r i #
 6	p [ i -> u ] t	1.0	# c a r p [ i -> u ] t a #
 6	p [ i -> ì ] s	1.0	# d i s p [ i -> ì ] s a r i #
@@ -285,10 +274,8 @@
 6	j [ u -> ù ] n	1.0	# a r r i j [ u -> ù ] n c a r i #
 6	i [ z -> n ] z	1.0	# m i [ z -> n ] z a l o r a #
 6	i [ z -> 0 ] i	1.0	# l i [ z -> 0 ] i o n i #
-6	i [ u -> 0 ] r	1.0	# a c c i [ u -> 0 ] r r a r i #
 6	i [ a u -> o ] r	2.0	# c i [ a u -> o ] r a r i #
 6	i [ à -> a ] n	1.0	# c h i [ à -> a ] n c i r i #
-6	i [ 0 -> u ] r	1.0	# a c c i [ 0 -> u ] r r a r i #
 6	i [ 0 -> g ] r	1.0	# a l l i [ 0 -> g ] r i z z a #
 6	f [ r -> 0 ] u	1.0	# f [ r -> 0 ] u a r u #
 6	e [ u -> o ] #	1.0	# b a b b a l e [ u -> o ] #
@@ -304,28 +291,34 @@
 6	a [ v v -> b b ] i	2.0	# a [ v v -> b b ] i c i n a m e n t u #
 6	a [ l l -> m m ] a	4.0	# a [ l l -> m m ] a r r [ 0 -> u n ] a r i #
 6	a [ g -> 0 ] n	1.0	# c a s t a [ g -> 0 ] n u #
-6	a [ f -> c ] a	2.0	# [ c -> 0 ] [ 0 -> f ] r a [ f -> c ] a s s a r i #
+6	a [ f -> c ] a	2.0	# [ c -> f ] r a [ f -> c ] a s s a r i #
 6	a [ b b -> v v ] i	2.0	# a [ b b -> v v ] i c i n a m e n t u #
-6	a [ b b -> v ] a	2.0	# b a [ b b -> v ] a l u c i #
 6	a [ 0 -> g ] a	1.0	# a b b r a [ 0 -> g ] a m e n t u #
-6	# [ q -> 0 ] [	1.0	# [ q -> 0 ] [ 0 -> c ] u a n n u #
-6	# [ n c -> 0 ] [	2.0	# [ n c -> 0 ] [ 0 -> g ] h i a t r a t u #
-6	# [ f u r f u -> 0 ] [	6.0	# [ f u r f u -> 0 ] [ 0 -> l i b b i ] r [ 0 -> t ] i n u #
-6	# [ a d d -> 0 ] [	3.0	# [ a d d -> 0 ] [ 0 -> l ] à u r u #
+6	# [ q -> c ] u	1.0	# [ q -> c ] u a n n u #
+6	# [ o l -> n ] t	4.0	# [ o l -> n ] t [ r -> 0 ] a [ g -> r ] g i a r i #
+6	# [ o l -> a t ] t	4.0	# [ o l -> a t ] t [ r -> 0 ] a [ g -> r ] g i a r i #
+6	# [ n c -> g ] h	2.0	# [ n c -> g ] h i a t r a t u #
+6	# [ j -> i ] a	1.0	# [ j -> i ] a c q u a #
+6	# [ j -> g i ] o	2.0	# [ j -> g i ] o c u #
+6	# [ i -> j ] a	1.0	# [ i -> j ] a c q u a #
+6	# [ d -> a n n ] i	3.0	# [ d -> a n n ] i v i n a r i #
+6	# [ c -> g ] e	2.0	# [ c -> g ] e r [ s -> b ] u #
+6	# [ b -> v ] u	1.0	# [ b -> v ] u c c a #
+6	# [ a -> g ] r	1.0	# [ a -> g ] r i d d u #
+6	# [ a -> à ] n	1.0	# [ a -> à ] n n i m i n a r i #
 6	# [ 0 -> i ] a	1.0	# [ 0 -> i ] a c q u a #
 6	# [ 0 -> c ] a	4.0	# [ 0 -> c ] a [ f -> r a r ] a #
-5	u [ t -> 0 ] r	5.0	# [ c -> 0 ] [ 0 -> d ] u [ t -> 0 ] r [ o g n -> 0 ] u #
 5	u [ 0 -> g ] a	1.0	# a d d u [ 0 -> g ] a r i #
 5	t [ à -> a t i ] #	3.0	# a b b i l i t [ à -> a t i ] #
 5	s [ i -> ì ] r	1.0	# a d d i s [ i -> ì ] r t a r i #
 5	r [ v -> b ] u	1.0	# à r [ v -> b ] u l u #
+5	r [ v -> b ] i	1.0	# i r [ v -> b ] i c e d d a #
 5	r [ v -> b ] a	1.0	# v a r [ v -> b ] a #
 5	r [ u -> ù ] d	1.0	# a p p r [ u -> ù ] d i r i #
 5	r [ u -> e d d o ] #	4.0	# f u a r [ u -> e d d o ] #
 5	r [ i -> ì ] c	1.0	# n g r [ i -> ì ] c i a r i #
 5	r [ i -> e ] n	1.0	# r [ i -> e ] n g u #
 5	r [ e d d -> 0 ] u	3.0	# f u a r [ e d d -> 0 ] u #
-5	r [ 0 -> i ] v	1.0	# c i r [ 0 -> i ] v e d d u #
 5	r [ 0 -> e d d ] u	3.0	# f u a r [ 0 -> e d d ] u #
 5	p [ u -> a ] #	1.0	# c a p [ u -> a ] #
 5	p [ l -> r ] e	1.0	# c u m p [ l -> r ] e m e n t u #
@@ -339,7 +332,10 @@
 5	m [ i -> u ] r	1.0	# d i c è m m [ i -> u ] r u #
 5	m [ 0 -> m ] u	1.0	# a n ì m [ 0 -> m ] u l u #
 5	j [ a -> à ] r	1.0	# a r r u j [ a -> à ] r i #
-5	i [ m -> v ] i	1.0	# a d d i [ m -> v ] i n a t u r i #
+5	i [ u -> 0 ] r	1.0	# a c c i [ u -> 0 ] r r a r i #
+5	i [ u -> 0 ] l	1.0	# g i [ u -> 0 ] l e p p u #
+5	i [ 0 -> u ] r	1.0	# a c c i [ 0 -> u ] r r a r i #
+5	i [ 0 -> g ] n	3.0	# [ g -> m ] a [ 0 -> l ] i [ 0 -> g ] n u #
 5	h [ i -> ì ] r	1.0	# a l l a s c h [ i -> ì ] r i #
 5	g [ u -> ù ] r	1.0	# f a g [ u -> ù ] r i r i #
 5	f [ u -> ù ] r	1.0	# f [ u -> ù ] r r i a r i #
@@ -351,16 +347,21 @@
 5	d [ a -> u ] #	1.0	# b e d d [ a -> u ] #
 5	c [ o -> u ] r	1.0	# a c c [ o -> u ] r d u #
 5	c [ ì -> i ] a	1.0	# a r a c [ ì -> i ] a #
-5	c [ i -> 0 ] e	1.0	# a c [ i -> 0 ] e d d u #
 5	b [ i -> 0 ] e	1.0	# a b b [ i -> 0 ] e n t u #
 5	b [ 0 -> b ] r	1.0	# a b [ 0 -> b ] r u z z i s i #
 5	a [ r -> 0 ] c	1.0	# a b b a [ r -> 0 ] c a r i #
 5	a [ 0 -> r ] c	1.0	# a b b a [ 0 -> r ] c a r i #
-5	# [ z -> 0 ] [	2.0	# [ z -> 0 ] [ 0 -> p ] a [ m -> 0 ] p a l e u #
-5	# [ q u -> 0 ] [	2.0	# [ q u -> 0 ] [ 0 -> c ] a g g h i a r i #
-5	# [ m i -> 0 ] [	2.0	# [ m i -> 0 ] [ 0 -> a n ] n i m i n a g g h i a #
-5	# [ c a -> 0 ] [	3.0	# [ c a -> 0 ] [ 0 -> q ] u [ 0 -> a ] t i l a r i #
-5	# [ a b -> 0 ] [	2.0	# [ a b -> 0 ] [ 0 -> m ] b r a z z a r i #
+5	# [ v -> b ] u	1.0	# [ v -> b ] u c c a #
+5	# [ r -> d ] u	1.0	# [ r -> d ] u m ì n i c a #
+5	# [ m -> p ] a	1.0	# [ m -> p ] a n t a s c i a t a #
+5	# [ j -> i ] u	1.0	# [ j -> i ] u g n u #
+5	# [ g i -> j ] o	2.0	# [ g i -> j ] o c u #
+5	# [ g -> m ] a	3.0	# [ g -> m ] a [ 0 -> l ] i [ 0 -> g ] n u #
+5	# [ g -> a ] r	1.0	# [ g -> a ] r i d d u #
+5	# [ c h -> q u ] i	2.0	# [ c h -> q u ] i s t i o n i #
+5	# [ c -> g ] u	1.0	# [ c -> g ] u v e r n u #
+5	# [ a t -> n ] t	2.0	# [ a t -> n ] t i m u g n a r i #
+5	# [ a -> à ] d	1.0	# [ a -> à ] d d i i r i #
 5	# [ 0 -> n ] g	1.0	# [ 0 -> n ] g n u r a n t i #
 5	# [ 0 -> j ] i	1.0	# [ 0 -> j ] i n n a r i a r i #
 5	# [ 0 -> a ] l	1.0	# [ 0 -> a ] l a p p u #
@@ -374,8 +375,6 @@
 4	u [ l u -> 0 ] #	3.0	# g n [ ì -> i ] g n u [ l u -> 0 ] #
 4	u [ j -> i ] à	1.0	# s c u [ j -> i ] à t t u l u #
 4	u [ g -> 0 ] a	1.0	# a d d u [ g -> 0 ] a r i #
-4	u [ 0 -> r o ] #	2.0	# [ o r -> 0 ]u [ 0 -> r o ] #
-4	t [ u p -> t a ] p	3.0	# [ n -> 0 ] [ 0 -> a ] t [ u p -> t a ] p a r i #
 4	t [ u -> ù ] f	1.0	# n t [ u -> ù ] f f a r i #
 4	t [ u -> ù ] d	1.0	# s t [ u -> ù ] d i u #
 4	t [ u -> ù ] a	1.0	# m u n t [ u -> ù ] a r i #
@@ -383,6 +382,7 @@
 4	t [ u -> o ] m	2.0	# s [ ì -> i ] n t [ u -> o ] m u #
 4	t [ u -> i ] c	1.0	# m à n t [ u -> i ] c i u #
 4	t [ t -> 0 ] u	1.0	# a c c u t [ t -> 0 ] u f a r i #
+4	t [ r -> 0 ] a	2.0	# n [ c -> g ] a s t [ r -> 0 ] a r i #
 4	t [ o -> u ] r	1.0	# r i s t [ o -> u ] r a n t i #
 4	t [ ò -> o ] z	3.0	# p i r i t [ ò -> o ] z z u [ l u -> 0 ] #
 4	t [ e -> è ] n	1.0	# b i s t [ e -> è ] n t a r i #
@@ -406,11 +406,9 @@
 4	r [ i -> ì ] p	1.0	# n t r [ i -> ì ] p p i t a r i #
 4	r [ e -> è ] m	1.0	# e s t r [ e -> è ] m a r i #
 4	r [ b -> v ] u	1.0	# à r [ b -> v ] u l u #
-4	r [ b -> v ] i	1.0	# i r [ b -> v ] i c e d d a #
 4	r [ 0 -> u n ] a	4.0	# a [ l l -> m m ] a r r [ 0 -> u n ] a r i #
 4	r [ 0 -> i ] e	1.0	# a b b r u c i a r [ 0 -> i ] e d d u #
 4	r [ 0 -> g a n ] a	5.0	# n [ c -> g ] a [ s t -> 0 ] r [ 0 -> g a n ] a r i #
-4	r [ 0 -> a c ] c	2.0	# c [ a -> 0 ] r [ 0 -> a c ] c a r a z z a #
 4	p [ u -> o ] m	1.0	# p [ u -> o ] m i r i g g i u #
 4	p [ u -> i ] t	1.0	# c a r p [ u -> i ] t a #
 4	p [ r -> l ] e	1.0	# c u m p [ r -> l ] e m e n t u #
@@ -423,7 +421,6 @@
 4	p [ i -> e ] n	1.0	# p [ i -> e ] n t à g u n u #
 4	p [ i -> 0 ] r	1.0	# s p [ i -> 0 ] r a n z a #
 4	p [ e -> i ] r	1.0	# p [ e -> i ] r c u l a r i #
-4	o [ n -> r ] n	2.0	# [ 0 -> g ] i o [ n -> r ] n u #
 4	n [ z -> s ] u	1.0	# n [ z -> s ] u v a r i r i #
 4	n [ u -> ù ] n	1.0	# a g g r u g n [ u -> ù ] n a r i #
 4	n [ t -> d ] r	1.0	# m a l a n [ t -> d ] r i n u #
@@ -446,18 +443,18 @@
 4	m [ i -> 0 ] a	1.0	# r a g u m [ i -> 0 ] a r i #
 4	m [ e -> è m ] m	4.0	# m [ e -> è m ] m [ b r -> 0 ] u [ 0 -> r a ] #
 4	m [ 0 -> b ] u	2.0	# [ a m -> 0 ]m [ 0 -> b ] u s c i d d a r i #
-4	l [ u c -> a g g ] i	4.0	# [ v -> 0 ] [ 0 -> c ] a v a l [ u c -> a g g ] i u #
+4	l [ u c -> a g g ] i	4.0	# [ v -> c ] a v a l [ u c -> a g g ] i u #
 4	l [ u -> ù ] c	1.0	# a l l [ u -> ù ] c a r i #
 4	l [ i a -> à ] r	2.0	# n t r u b u l [ i a -> à ] r i #
 4	l [ i -> ì ] t	1.0	# a l l [ i -> ì ] t t a r i #
-4	l [ i -> ì ] r	1.0	# a l l [ i -> ì ] r a r i #
 4	l [ a -> u ] c	1.0	# b a b b a l [ a -> u ] c i #
 4	l [ a -> à ] p	1.0	# a l l [ a -> à ] p a r i #
 4	j [ i -> ì ] s	1.0	# n j [ i -> ì ] s s a r i #
 4	i [ z z -> s ] i	2.0	# a r r i [ z z -> s ] i t t a r i #
-4	i [ z z -> n f ] a	4.0	# [ a r -> 0 ] [ 0 -> n g ] r i [ z z -> n f ] a r i #
-4	i [ z z -> f ] a	4.0	# [ a r -> 0 ] [ 0 -> n g ] r i [ z z -> f ] a r i #
+4	i [ z z -> n f ] a	4.0	# [ a r -> n g ] r i [ z z -> n f ] a r i #
+4	i [ z z -> f ] a	4.0	# [ a r -> n g ] r i [ z z -> f ] a r i #
 4	i [ v -> s b ] i	6.0	# a [ d d -> r ] r i [ v -> s b ] i g [ l -> g h ] i a r i #
+4	i [ v -> m ] i	1.0	# a d d i [ v -> m ] i n a t u r i #
 4	i [ u -> ù ] m	1.0	# a l l i s c i [ u -> ù ] m a r i #
 4	i [ u -> i ] #	1.0	# c o c c i [ u -> i ] #
 4	i [ t r -> d d ] u	2.0	# p i [ t r -> d d ] u s i n u #
@@ -465,22 +462,17 @@
 4	i [ s -> 0 ] v	1.0	# a r r i [ s -> 0 ] v i g g h i a r i #
 4	i [ r -> d ] i	1.0	# p i [ r -> d ] i t ò z z u l u #
 4	i [ r -> b ] b	2.0	# a [ g -> r ] g i [ r -> b ] b a r i #
+4	i [ m -> v ] i	1.0	# a d d i [ m -> v ] i n a t u r i #
 4	i [ j -> 0 ] i	1.0	# a d d i [ j -> 0 ] i r i #
-4	i [ g -> c ] u	2.0	# [ r -> 0 ] [ 0 -> n ] i [ g -> c ] u l i z i a #
 4	ì [ g -> 0 ] a	1.0	# a r ì [ g -> 0 ] a n u #
 4	ì [ d -> r ] i	1.0	# j ì [ d -> r ] i t u #
-4	i [ c -> r ] c	1.0	# p i [ c -> r ] c h ì #
-4	i [ c -> g ] u	2.0	# [ n -> 0 ] [ 0 -> r ] i [ c -> g ] u l i z i a #
 4	i [ 0 -> u ] m	1.0	# a g g i [ 0 -> u ] m m a t u #
-4	i [ 0 -> s ] c	1.0	# n g r i [ 0 -> s ] c i a r i #
-4	i [ 0 -> d ] a	4.0	# [ b u c -> 0 ] [ 0 -> g r ] i [ 0 -> d ] a r i #
 4	h [ i -> ì ] t	1.0	# a c c u r c h [ i -> ì ] t t a r i #
 4	h [ 0 -> a ] i	1.0	# t r a v a g g h [ 0 -> a ] i u #
 4	g [ u t t -> 0 ] a	5.0	# [ 0 -> a ] n g [ u t t -> 0 ] a r i [ 0 -> a r e ] #
 4	g [ u -> ù ] t	1.0	# n g [ u -> ù ] t t a r i #
 4	g [ u -> ù ] s	1.0	# n g [ u -> ù ] s c i a r i #
 4	g [ u -> ù ] l	1.0	# a r r i g [ u -> ù ] l a r i #
-4	g [ h -> l ] i	4.0	# b [ a g -> i ] g [ h -> l ] i [ 0 -> u ] o l u #
 4	g [ g -> 0 ] i	1.0	# c u l l e g [ g -> 0 ] i u #
 4	g [ a r -> 0 ] u	3.0	# m u t à n g [ a r -> 0 ] u [ 0 -> l a ] #
 4	g [ a -> à ] n	1.0	# g [ a -> à ] n a r i #
@@ -521,7 +513,6 @@
 4	b [ a -> i ] g	1.0	# b [ a -> i ] g g h i o l u #
 4	b [ a -> à ] s	1.0	# a b b [ a -> à ] s t a r i #
 4	b [ 0 -> r ] i	1.0	# a b b [ 0 -> r ] i v i r a r i #
-4	a [ v -> b b ] a	2.0	# b a [ v -> b b ] a l u c i #
 4	a [ v -> 0 ] u	1.0	# a [ v -> 0 ] u g g h i a #
 4	a [ u -> o ] s	1.0	# a [ u -> o ] s t u #
 4	a [ u -> g o ] s	2.0	# a [ u -> g o ] s t u #
@@ -541,14 +532,29 @@
 4	a [ 0 -> v ] u	1.0	# a [ 0 -> v ] u g g h i a #
 4	a [ 0 -> g g ] i	2.0	# m a [ 0 -> g g ] i u #
 4	a [ 0 -> b b a r a ] t	6.0	# a [ 0 -> b b a r a ] t [ t e n t u -> a ] #
-4	# [ s t r i t t -> 0 ] [	7.0	# [ s t r i t t -> 0 ] [ 0 -> n z ] u [ 0 -> r r a ] #
-4	# [ n g -> 0 ] [	2.0	# [ n g -> 0 ] [ 0 -> i ] a s s a #
-4	# [ m m -> 0 ] [	2.0	# [ m m -> 0 ] [ 0 -> b ] u r g i u #
-4	# [ e b -> 0 ] [	2.0	# [ e b -> 0 ] [ 0 -> a ] b r à i c u #
-4	# [ d d -> 0 ] [	3.0	# [ d d -> 0 ] [ 0 -> a r ] r i [ 0 -> s ] v i g g h i a r i #
-4	# [ c u r t i g -> 0 ] [	7.0	# [ c u r t i g -> 0 ] [ 0 -> b a ] g [ h -> l ] i u #
-4	# [ c u r t i -> 0 ] [	5.0	# [ c u r t i -> 0 ] [ 0 -> b a ] g g h i u #
-4	# [ à u -> 0 ] [	2.0	# [ à u -> 0 ] [ 0 -> a l ] t u #
+4	# [ z -> p ] a	2.0	# [ z -> p ] a [ m -> 0 ] p a l e u #
+4	# [ v -> b ] o	1.0	# [ v -> b ] o s c u #
+4	# [ s t r i t t -> n z ] u	7.0	# [ s t r i t t -> n z ] u [ 0 -> r r a ] #
+4	# [ s -> a b ] b	2.0	# [ s -> a b ] b a r r i a r i #
+4	# [ r -> l ] i	1.0	# [ r -> l ] i m a r r a #
+4	# [ p -> v ] i	1.0	# [ p -> v ] i r c o c u #
+4	# [ p -> m ] a	1.0	# [ p -> m ] a n t a s c i a t a #
+4	# [ o -> a ] c	1.0	# [ o -> a ] c c a s i o n i #
+4	# [ n -> m ] a	1.0	# [ n -> m ] a s t r o z z u #
+4	# [ n -> a ] t	3.0	# [ n -> a ] t [ u p -> t a ] p a r i #
+4	# [ l -> r ] i	1.0	# [ l -> r ] i m a r r a #
+4	# [ j -> i ] e	1.0	# [ j -> i ] e l u #
+4	# [ i -> a ] d	1.0	# [ i -> a ] d u l a t r a r i #
+4	# [ g -> i ] a	1.0	# [ g -> i ] a d d i n a #
+4	# [ e b -> a ] b	2.0	# [ e b -> a ] b r à i c u #
+4	# [ d d -> a r ] r	3.0	# [ d d -> a r ] r i [ 0 -> s ] v i g g h i a r i #
+4	# [ d -> r ] u	1.0	# [ d -> r ] u m ì n i c a #
+4	# [ c u r t i g -> b a ] g	7.0	# [ c u r t i g -> b a ] g [ h -> l ] i u #
+4	# [ c u r t i -> b a ] g	5.0	# [ c u r t i -> b a ] g g h i u #
+4	# [ ç -> h ] i	1.0	# [ ç -> h ] i u m i #
+4	# [ a -> o ] c	1.0	# [ a -> o ] c c a s i o n i #
+4	# [ a -> e ] b	1.0	# [ a -> e ] b b r à i c u #
+4	# [ a -> à ] m	1.0	# [ a -> à ] m m u n t u a r i #
 4	# [ 0 -> t i ] m	4.0	# [ 0 -> t i ] m [ u f f -> p ] u l a t a #
 4	# [ 0 -> s ] b	1.0	# [ 0 -> s ] b r u f f u l i a r i #
 4	# [ 0 -> l ] a	1.0	# [ 0 -> l ] a b b i r i n t u #
@@ -579,7 +585,7 @@
 3	u [ l -> r ] t	1.0	# a d u [ l -> r ] t u #
 3	u [ d d a c c h i a -> 0 ] r	10.0	# [ 0 -> ù m ] m u [ d d a c c h i a -> 0 ] r u #
 3	u [ a -> à ] g	1.0	# n g u [ a -> à ] g g i a r i #
-3	u [ 0 -> a ] t	3.0	# [ c a -> 0 ] [ 0 -> q ] u [ 0 -> a ] t i l a r i #
+3	u [ 0 -> r o ] #	2.0	# [ o r -> 0 ]u [ 0 -> r o ] #
 3	t [ u -> a r e d d o ] #	6.0	# g a t t [ u -> a r e d d o ] #
 3	t [ u -> a r e d d a ] #	6.0	# g a t t [ u -> a r e d d a ] #
 3	t [ i -> 0 ] a	1.0	# s b a l l u t t [ i -> 0 ] a r i #
@@ -601,17 +607,18 @@
 3	r [ u -> a ] t	2.0	# n z [ u -> a ] v a r [ u -> a ] t u #
 3	r [ r u -> i ] n	3.0	# a b b i c c h i a r [ r u -> i ] n [ u -> a ] t u #
 3	r [ r -> 0 ] a	1.0	# z a b b a r [ r -> 0 ] a #
+3	r [ o g n -> 0 ] u	5.0	# [ c -> d ] u [ t -> 0 ] r [ o g n -> 0 ] u #
 3	r [ i -> u ] m	1.0	# r [ i -> u ] m i t u #
 3	r [ i -> ì ] g	1.0	# p u r [ i -> ì ] g g i a r i #
 3	r [ i -> a ] m	1.0	# a r r [ i -> a ] m a z z a r i #
 3	r [ i -> 0 ] c	1.0	# p i r [ i -> 0 ] c o c u #
 3	r [ i -> 0 ] a	1.0	# n c u d d u r [ i -> 0 ] a r i #
+3	r [ b -> v ] i	1.0	# i r [ b -> v ] i c e d d a #
 3	r [ a z -> i n ] z	4.0	# a r r [ a z -> i n ] z i [ c u -> 0 ] n a r i #
-3	r [ 0 -> u v ] i	4.0	# [ v u r -> 0 ] [ 0 -> b ] r [ 0 -> u v ] i c a r i #
 3	r [ 0 -> r ] i	1.0	# p o l i r [ 0 -> r ] i m à t i c a #
 3	r [ 0 -> r ] a	1.0	# z a b b a r [ 0 -> r ] a #
 3	r [ 0 -> i ] c	1.0	# p i r [ 0 -> i ] c o c u #
-3	r [ 0 -> d u n a ] r	10.0	# [ p i -> 0 ] [ 0 -> a b b u ] r [ 0 -> d u n a ] r u [ 0 -> t a ] #
+3	r [ 0 -> a g ] g	4.0	# [ a t -> o l ] t [ a -> 0 ] r [ 0 -> a g ] g i a r i #
 3	p [ u -> 0 ] l	4.0	# [ à -> 0 ]p [ u -> 0 ] l [ 0 -> a n ] u #
 3	p [ o -> u ] s	1.0	# p [ o -> u ] s e n t u #
 3	p [ 0 -> o l ] i	5.0	# p [ 0 -> o l ] i [ z z u t -> n ] u #
@@ -644,13 +651,13 @@
 3	m [ a -> u ] r	1.0	# n u v i è m m [ a -> u ] r u #
 3	m [ a -> i ] r	1.0	# n u v i è m m [ a -> i ] r u #
 3	l [ u -> ù ] s	1.0	# a l l [ u -> ù ] s c a r i #
+3	l [ i -> ì ] r	1.0	# a l l [ i -> ì ] r a r i #
 3	l [ i -> ì ] n	1.0	# d i c l [ i -> ì ] n a r i #
 3	l [ à -> a ] r	2.0	# l [ à -> a ] r [ i -> 0 ] g u #
 3	l [ 0 -> u ] o	1.0	# l [ 0 -> u ] o r d u #
 3	l [ 0 -> a ] u	1.0	# l [ 0 -> a ] u d a t u #
-3	i [ z z -> g n ] a	4.0	# [ m b -> 0 ] [ 0 -> n s ] i [ z z -> g n ] a r i #
+3	i [ u -> 0 ] s	7.0	# [ c u t -> n a n ] t [ u r -> 0 ] i [ u -> 0 ] s [ 0 -> t ] u #
 3	i [ s -> 0 ] t	3.0	# p i [ s -> 0 ] t [ 0 -> t i m ] u s u #
-3	i [ r -> c ] c	1.0	# p i [ r -> c ] c h ì #
 3	i [ p l -> b b ] i	4.0	# [ 0 -> a r ] r i [ p l -> b b ] i c a r i #
 3	i [ p -> c c ] a	2.0	# n c r i [ p -> c c ] a t u #
 3	i [ n -> z ] z	1.0	# m i [ n -> z ] z a l o r a #
@@ -663,6 +670,7 @@
 3	i [ b -> r ] b	2.0	# a [ r -> g ] g i [ b -> r ] b a r i #
 3	i [ a -> u ] #	1.0	# f i g g h i [ a -> u ] #
 3	i [ à -> 0 ] v	2.0	# d i [ à -> 0 ] v [ 0 -> à ] u l u #
+3	i [ 0 -> s ] c	1.0	# n g r i [ 0 -> s ] c i a r i #
 3	i [ 0 -> r i ] g	3.0	# [ f r i -> 0 ]s i [ 0 -> r i ] g n u #
 3	i [ 0 -> d d ] u	2.0	# f r a t t a r i [ 0 -> d d ] u s u #
 3	i [ 0 -> à r i ] #	3.0	# a l l [ i r -> 0 ] a r i [ 0 -> à r i ] #
@@ -673,7 +681,6 @@
 3	g [ r -> l ] a	1.0	# a g g [ r -> l ] a s s a r i #
 3	g [ h i -> n ] a	3.0	# [ n -> 0 ]g [ h i -> n ] a c c a r i #
 3	g [ a -> à ] t	1.0	# g [ a -> à ] t t i a r i #
-3	g [ 0 -> u ] a	3.0	# [ n -> 0 ] [ 0 -> a g ] g [ 0 -> u ] a t t a r i #
 3	g [ 0 -> n ] a	3.0	# g [ 0 -> n ] a v i [ u s -> a t ] u #
 3	f [ u -> o ] r	1.0	# f [ u -> o ] r e s t a #
 3	f [ i -> u ] r	1.0	# f [ i -> u ] r r i a r i #
@@ -688,12 +695,12 @@
 3	c [ r -> 0 ] u	1.0	# c [ r -> 0 ] u s t a n a #
 3	c [ ò c c -> 0 ] i	4.0	# c a r c [ ò c c -> 0 ] i [ 0 -> ò f ] u l u #
 3	c [ ò -> o ] g	1.0	# c [ ò -> o ] g g h i r i #
+3	c [ i -> 0 ] e	1.0	# a c [ i -> 0 ] e d d u #
 3	c [ h -> u l ] i	2.0	# f r i s c [ h -> u l ] i a r i #
 3	c [ à v u -> a s ] d	3.0	# c [ à v u -> a s ] d u #
 3	c [ a r -> 0 ] u	2.0	# c à n c [ a r -> 0 ] u [ 0 -> r o ] #
 3	c [ a -> u ] r	1.0	# c à n c [ a -> u ] r u #
 3	c [ 0 -> i ] u	1.0	# n c [ 0 -> i ] u n n a t u #
-3	c [ 0 -> i ] e	1.0	# a c [ 0 -> i ] e d d u #
 3	c [ 0 -> h i ] a	10.0	# n c [ 0 -> h i ] a [ r r -> n c h i ] a [ b b -> r ] i [ d d -> n ] a t u #
 3	b [ u -> i ] r	1.0	# l ì b b [ u -> i ] r u #
 3	b [ u -> a ] #	1.0	# g e r b [ u -> a ] #
@@ -709,8 +716,6 @@
 3	a [ u -> ù ] t	1.0	# b a [ u -> ù ] t t i r i #
 3	a [ u -> n ] t	1.0	# a r r i s a [ u -> n ] t a r i #
 3	a [ u -> 0 ] t	1.0	# a r r i s a [ u -> 0 ] t a r i #
-3	a [ s -> z i ] u	4.0	# [ b -> 0 ] [ 0 -> g r ] a [ s -> z i ] u s u #
-3	a [ r d -> l i ] a	3.0	# [ u -> 0 ] [ 0 -> t ] a [ r d -> l i ] a r i #
 3	a [ r -> l ] c	1.0	# b a [ r -> l ] c u n i #
 3	a [ r -> d ] u	1.0	# g r a [ r -> d ] u n i #
 3	a [ r -> d ] a	1.0	# g r a [ r -> d ] a #
@@ -725,7 +730,6 @@
 3	a [ g g i -> 0 ] n	3.0	# n f a r r a [ g g i -> 0 ] n [ 0 -> i ] a r i #
 3	a [ g g -> r ] r	2.0	# a [ g g -> r ] r a n c i a r i #
 3	a [ g g -> c c ] h	2.0	# a [ g g -> c c ] h i a c c a r i #
-3	a [ f f -> p p ] a	2.0	# a r r a [ f f -> p p ] a r i #
 3	a [ d d -> n n ] i	3.0	# a [ d d -> n n ] i [ c -> s ] c a r i #
 3	a [ d d -> l l ] i	2.0	# a [ d d -> l l ] i c c a r i #
 3	a [ d d -> l l ] a	2.0	# a [ d d -> l l ] a z z a r i #
@@ -741,18 +745,55 @@
 3	a [ 0 -> t a ] #	6.0	# [ 0 -> t i ] m [ ò f f -> p ] u l a [ 0 -> t a ] #
 3	a [ 0 -> r a ] #	3.0	# a g g h i [ a -> à ] n n a [ 0 -> r a ] #
 3	a [ 0 -> n n a ] v	3.0	# a [ 0 -> n n a ] v a r a r i #
-3	a [ 0 -> l ] i	3.0	# [ g -> 0 ] [ 0 -> m ] a [ 0 -> l ] i [ 0 -> g ] n u #
 3	a [ 0 -> l ] c	1.0	# a b b a [ 0 -> l ] c a r i #
-3	# [ v u r -> 0 ] [	4.0	# [ v u r -> 0 ] [ 0 -> b ] r [ 0 -> u v ] i c a r i #
-3	# [ t -> 0 ] [	4.0	# [ t -> 0 ] [ 0 -> c ] i [ g n -> c a l ] a #
-3	# [ s d -> 0 ] [	3.0	# [ s d -> 0 ] [ 0 -> a r ] r i [ 0 -> s ] v i g g h i a r i #
-3	# [ m a n -> 0 ] [	4.0	# [ m a n -> 0 ] [ 0 -> p u r ] c [ 0 -> h ] i a r i #
-3	# [ g u -> 0 ] [	2.0	# [ g u -> 0 ] [ 0 -> b ] a i a n a #
-3	# [ f u r r -> 0 ] [	4.0	# [ f u r r -> 0 ] [ 0 -> p ] i [ 0 -> r ] a r i #
-3	# [ è -> 0 ] [	1.0	# [ è -> 0 ] [ 0 -> e ] s s i r i #
-3	# [ d i v -> 0 ] [	4.0	# [ d i v -> 0 ] [ 0 -> n n u m ] i n a r i #
-3	# [ c u -> 0 ] [	6.0	# [ c u -> 0 ] [ 0 -> l a m p a ] z z a [ t a -> 0 ] #
-3	# [ a b b -> 0 ] [	3.0	# [ a b b -> 0 ] [ 0 -> n g ] u d a r i #
+3	# [ v u r -> b ] r	4.0	# [ v u r -> b ] r [ 0 -> u v ] i c a r i #
+3	# [ u -> o ] r	1.0	# [ u -> o ] r a #
+3	# [ u -> o ] c	1.0	# [ u -> o ] c c a s i o n i #
+3	# [ s -> n ] g	1.0	# [ s -> n ] g r i g n a r i #
+3	# [ s -> a t ] t	2.0	# [ s -> a t ] t i p a r i #
+3	# [ s -> a g ] g	2.0	# [ s -> a g ] g r a n f u g n a r i #
+3	# [ q u -> c h ] i	2.0	# [ q u -> c h ] i s t i o n i #
+3	# [ p i -> a b b u ] r	10.0	# [ p i -> a b b u ] r [ 0 -> d u n a ] r u [ 0 -> t a ] #
+3	# [ o -> u ] s	1.0	# [ o -> u ] s s u #
+3	# [ o -> u ] g	1.0	# [ o -> u ] g g h i u #
+3	# [ n v -> m m ] u	2.0	# [ n v -> m m ] u c c u l a r i #
+3	# [ n v -> m m ] a	2.0	# [ n v -> m m ] a d d u n a r i #
+3	# [ n v -> m b ] u	2.0	# [ n v -> m b ] u c c u l a r i #
+3	# [ n v -> m b ] a	2.0	# [ n v -> m b ] a d d u n a r i #
+3	# [ n g -> a r ] r	3.0	# [ n g -> a r ] r i [ n -> z ] z a r i #
+3	# [ n -> p ] a	4.0	# [ n -> p ] a r [ g -> r a c ] i a r i #
+3	# [ n -> a d ] d	2.0	# [ n -> a d ] d i n g a r i #
+3	# [ m i -> n ] n	2.0	# [ m i -> n ] n i m i n a g g h i a #
+3	# [ m a n -> p u r ] c	4.0	# [ m a n -> p u r ] c [ 0 -> h ] i a r i #
+3	# [ m -> v ] i	1.0	# [ m -> v ] i n n i t t a #
+3	# [ m -> p ] i	1.0	# [ m -> p ] i s i r i n u #
+3	# [ m -> a p ] p	2.0	# [ m -> a p ] p a l u r a r i #
+3	# [ g -> c ] u	1.0	# [ g -> c ] u v e r n u #
+3	# [ g -> c ] a	1.0	# [ g -> c ] a t t i g g h i a r i #
+3	# [ f u r r -> p ] i	4.0	# [ f u r r -> p ] i [ 0 -> r ] a r i #
+3	# [ f u r f u -> l i b i ] r	6.0	# [ f u r f u -> l i b i ] r [ 0 -> t ] i n u #
+3	# [ f u r f u -> l i b b i ] r	6.0	# [ f u r f u -> l i b b i ] r [ 0 -> t ] i n u #
+3	# [ d i v -> n n u m ] i	4.0	# [ d i v -> n n u m ] i n a r i #
+3	# [ c i -> s ] u	2.0	# [ c i -> s ] u s c i a r i #
+3	# [ c h -> p ] i	3.0	# [ c h -> p ] i r [ i -> 0 ] c o p u #
+3	# [ c a -> q ] u	3.0	# [ c a -> q ] u [ 0 -> a ] t i l a r i #
+3	# [ c -> s f ] r	3.0	# [ c -> s f ] r a [ f -> c ] a s s a r i #
+3	# [ c -> q ] u	1.0	# [ c -> q ] u i t a r i #
+3	# [ c -> g ] a	1.0	# [ c -> g ] a t t i g g h i a r i #
+3	# [ c -> f ] r	2.0	# [ c -> f ] r a [ f -> c ] a s s a r i #
+3	# [ c -> d ] u	5.0	# [ c -> d ] u [ t -> 0 ] r [ o g n -> 0 ] u #
+3	# [ b -> g r ] a	4.0	# [ b -> g r ] a [ s -> z i ] u s u #
+3	# [ b -> c ] i	5.0	# [ b -> c ] i [ e d d -> a n i n ] u #
+3	# [ à u -> a l ] t	2.0	# [ à u -> a l ] t u #
+3	# [ a t -> r i s ] t	3.0	# [ a t -> r i s ] t a g n a r i #
+3	# [ a m m -> b ] a	4.0	# [ a m m -> b ] a t t u [ m -> l ] a r i #
+3	# [ a d d -> g n ] i	4.0	# [ a d d -> g n ] i [ c -> s ] c a r i #
+3	# [ a b -> m ] b	2.0	# [ a b -> m ] b r a z z a r i #
+3	# [ a -> o ] t	1.0	# [ a -> o ] t u #
+3	# [ a -> à ] t	1.0	# [ a -> à ] t t i v u #
+3	# [ a -> à ] s	1.0	# [ a -> à ] s s a i a r i #
+3	# [ a -> à ] p	1.0	# [ a -> à ] p p l a u d i r i #
+3	# [ a -> à ] c	1.0	# [ a -> à ] c c u p a r i #
 3	# [ 0 -> z a m ] p	3.0	# [ 0 -> z a m ] p i r r u #
 3	# [ 0 -> ù m ] m	10.0	# [ 0 -> ù m ] m u [ d d a c c h i a -> 0 ] r u #
 3	# [ 0 -> u ] o	1.0	# [ 0 -> u ] o v u #
@@ -791,37 +832,29 @@
 2	u [ z z -> s ] o	2.0	# b u [ z z -> s ] o l u #
 2	u [ t -> s ] a	1.0	# a n n a u [ t -> s ] a r i #
 2	ù [ t -> d ] i	1.0	# a b b i t ù [ t -> d ] i n i #
-2	u [ o p -> l ] a	5.0	# [ t -> 0 ] [ 0 -> b i ] r i c [ 0 -> ò ] c u [ o p -> l ] a #
+2	u [ r -> l ] i	3.0	# [ l -> r ] i [ c -> g ] u [ r -> l ] i z i a #
+2	u [ o p -> l ] a	5.0	# [ t -> b i ] r i c [ 0 -> ò ] c u [ o p -> l ] a #
 2	u [ n -> f ] f	1.0	# m u [ n -> f ] f u c i u #
 2	ù [ n -> c ] c	1.0	# c ù [ n -> c ] c u m u #
 2	u [ n -> c ] c	1.0	# c u [ n -> c ] c u m e d d u #
 2	ù [ n -> 0 ] c	1.0	# c ù [ n -> 0 ] c u m u #
 2	u [ m -> p ] a	3.0	# a s s [ a -> i ] n [ t -> c ] u [ m -> p ] a r i #
-2	u [ m -> l ] a	4.0	# [ a m m -> 0 ] [ 0 -> b ] a t t u [ m -> l ] a r i #
+2	u [ m -> l ] a	4.0	# [ a m m -> b ] a t t u [ m -> l ] a r i #
+2	u [ l -> r ] i	3.0	# [ r -> l ] i [ g -> c ] u [ l -> r ] i z i a #
 2	u [ j -> i ] a	1.0	# a r r u [ j -> i ] a r i #
 2	u [ i -> j ] à	1.0	# s c u [ i -> j ] à t t u l u #
-2	u [ i -> 0 ] s	2.0	# [ q -> 0 ] [ 0 -> c ] u [ i -> 0 ] s t i o n i #
 2	u [ d u -> r o ] #	2.0	# c à v u [ d u -> r o ] #
 2	u [ d u -> r a ] #	2.0	# c à v u [ d u -> r a ] #
 2	ù [ d -> t ] i	1.0	# a b b i t ù [ d -> t ] i n i #
 2	u [ d -> r ] u	1.0	# c à v u [ d -> r ] u #
-2	u [ a r -> n e ] r	5.0	# [ a m m -> 0 ] [ 0 -> c i f ] u [ a r -> n e ] r a #
-2	u [ 0 -> t o ] #	5.0	# [ a t -> 0 ] [ 0 -> i à v ] u [ 0 -> t o ] #
-2	u [ 0 -> t a ] #	5.0	# [ a t -> 0 ] [ 0 -> i à v ] u [ 0 -> t a ] #
-2	u [ 0 -> r r o ] #	7.0	# [ s t r i t t -> 0 ] [ 0 -> n z ] u [ 0 -> r r o ] #
-2	u [ 0 -> r r a ] #	7.0	# [ s t r i t t -> 0 ] [ 0 -> n z ] u [ 0 -> r r a ] #
 2	u [ 0 -> r g ] a	2.0	# f [ r -> 0 ] u [ 0 -> r g ] a l o r u #
-2	u [ 0 -> r f ] a	6.0	# [ f -> 0 ] [ 0 -> s ] u [ 0 -> r f ] a r [ 0 -> e d d ] u #
 2	u [ 0 -> r a ] #	4.0	# m [ e -> è m ] m [ b r -> 0 ] u [ 0 -> r a ] #
 2	u [ 0 -> l u ] #	3.0	# p i r i t [ o -> ò ] z z u [ 0 -> l u ] #
 2	u [ 0 -> i u ] #	2.0	# s t u d i u [ 0 -> i u ] #
 2	u [ 0 -> i o ] #	2.0	# s t u d i u [ 0 -> i o ] #
-2	u [ 0 -> i ] s	2.0	# [ c -> 0 ] [ 0 -> q ] u [ 0 -> i ] s t i o n i #
-2	t [ u p p -> 0 ] a	4.0	# [ n -> 0 ] [ 0 -> a t ] t [ u p p -> 0 ] a [ 0 -> p à ] r i #
 2	t [ u m -> 0 ] a	2.0	# n g u t t [ u m -> 0 ] a r i #
 2	t [ u -> ù ] s	1.0	# s p u r t [ u -> ù ] s a r i #
 2	t [ u -> ù ] c	1.0	# a m m a r t [ u -> ù ] c a r i #
-2	t [ t u r -> 0 ] i	8.0	# [ c u -> 0 ] [ 0 -> n a n ] t [ t u r -> 0 ] i [ u -> 0 ] s [ u -> t a ] #
 2	t [ t -> 0 ] i	1.0	# a g g i t [ t -> 0 ] i v u #
 2	t [ r a -> à ] r	3.0	# n [ c -> g ] a s t [ r a -> à ] r i #
 2	t [ r -> 0 ] i	3.0	# n t [ r -> 0 ] i [ 0 -> r ] p [ p -> r ] i t a r i #
@@ -877,8 +910,7 @@
 2	r [ u -> r o ] #	2.0	# a r m u a r [ u -> r o ] #
 2	r [ u -> o ] s	1.0	# p r [ u -> o ] s c i u t t u #
 2	r [ u -> o ] p	1.0	# r [ u -> o ] p p u #
-2	r [ u -> i s ] v	4.0	# [ d d -> 0 ] [ 0 -> a r ] r [ u -> i s ] v i g g h i a r i #
-2	r [ t -> f ] a	3.0	# [ n t -> 0 ] [ 0 -> f ] a r [ t -> f ] a g g h i a r i #
+2	r [ t -> f ] a	3.0	# [ n t -> f ] a r [ t -> f ] a g g h i a r i #
 2	r [ r u -> n o ] #	2.0	# a g u r [ r u -> n o ] #
 2	r [ r i -> 0 ] i	4.0	# [ 0 -> f ] a [ 0 -> g u ] r [ r i -> 0 ] i r i #
 2	r [ r a r i -> e ] #	5.0	# p [ 0 -> i p i t ] a r [ r a r i -> e ] #
@@ -889,7 +921,6 @@
 2	r [ o -> u ] m	1.0	# r [ o -> u ] m a n z u #
 2	r [ o -> u ] j	1.0	# p r [ o -> u ] j e t t u #
 2	r [ ò -> o ] n	1.0	# a c r [ ò -> o ] n i m u #
-2	r [ i t t -> 0 ] u	6.0	# [ s t -> 0 ] [ 0 -> n z u r ] r [ i t t -> 0 ] u #
 2	r [ i -> ì ] m	1.0	# r [ i -> ì ] m a r i #
 2	r [ i -> ì ] f	1.0	# a r r [ i -> ì ] f f a r i #
 2	r [ i -> ì ] a	1.0	# a r r i c r [ i -> ì ] a r i #
@@ -898,7 +929,7 @@
 2	r [ i -> 0 ] t	1.0	# v i r [ i -> 0 ] t a t i #
 2	r [ i -> 0 ] e	1.0	# a b b r u c i a r [ i -> 0 ] e d d u #
 2	r [ g a n -> 0 ] a	5.0	# n [ g -> c ] a [ 0 -> s t ] r [ g a n -> 0 ] a r i #
-2	r [ g -> r a c ] i	4.0	# [ n -> 0 ] [ 0 -> p ] a r [ g -> r a c ] i a r i #
+2	r [ g -> r a c ] i	4.0	# [ n -> p ] a r [ g -> r a c ] i a r i #
 2	r [ e -> ù ] g	1.0	# m a r [ e -> ù ] g g i u #
 2	r [ e -> i g i n a ] #	5.0	# r [ e -> i g i n a ] #
 2	r [ e -> i g g i n a ] #	6.0	# r [ e -> i g g i n a ] #
@@ -909,7 +940,6 @@
 2	r [ b -> i v ] e	2.0	# c i r [ b -> i v ] e d d u #
 2	r [ b -> g ] u	1.0	# g i r [ b -> g ] u n i s c u #
 2	r [ b -> 0 ] i	1.0	# a v v e r [ b -> 0 ] i u #
-2	r [ a c -> 0 ] c	4.0	# [ f -> 0 ] [ 0 -> p i ] r [ a c -> 0 ] c o c u #
 2	r [ a -> u n à ] r	5.0	# a [ l l -> m m ] a r r [ a -> u n à ] r i #
 2	r [ a -> u ] #	1.0	# c a r [ a -> u ] #
 2	r [ a -> i ] l	1.0	# n t r [ a -> i ] l l a z z a r i #
@@ -917,8 +947,8 @@
 2	r [ à -> a ] s	1.0	# i r [ à -> a ] s c i r i #
 2	r [ a -> à ] c	1.0	# f r [ a -> à ] c a s s a r i #
 2	r [ 0 -> r ] u	1.0	# a r m u a r [ 0 -> r ] u #
+2	r [ 0 -> i ] v	1.0	# c i r [ 0 -> i ] v e d d u #
 2	r [ 0 -> i ] t	1.0	# v i r [ 0 -> i ] t a t i #
-2	r [ 0 -> i ] a	1.0	# n c u d d u r [ 0 -> i ] a r i #
 2	r [ 0 -> g ] a	6.0	# n [ c -> g ] a [ s t -> 0 ] r [ 0 -> g ] a [ 0 -> n à ] r i #
 2	r [ 0 -> e ] t	2.0	# d [ i -> e ] s e r [ 0 -> e ] t u #
 2	r [ 0 -> b ] a	1.0	# a r [ 0 -> b ] a c ì a #
@@ -944,10 +974,10 @@
 2	p [ 0 -> p ] i	1.0	# n t r u p [ 0 -> p ] i d d a r i #
 2	p [ 0 -> i p i t ] a	5.0	# p [ 0 -> i p i t ] a r [ r a r i -> e ] #
 2	p [ 0 -> i ] r	1.0	# s p [ 0 -> i ] r a n z a #
-2	o [ r -> n ] n	2.0	# [ g -> 0 ]i o [ r -> n ] n u #
-2	o [ r -> 0 ] n	3.0	# [ g -> 0 ]i o [ r -> 0 ] n [ u -> n o ] #
+2	o [ n -> r ] n	2.0	# [ 0 -> g ] i o [ n -> r ] n u #
+2	o [ l -> r ] a	8.0	# [ c a -> f ò ] n [ i g g h i -> f ] o [ l -> r ] a #
 2	o [ j -> i ] e	1.0	# p r o [ j -> i ] e t t u #
-2	o [ g n u -> 0 ] #	5.0	# [ c -> 0 ] [ 0 -> d ] u [ t -> 0 ] r o [ g n u -> 0 ] #
+2	o [ g n u -> 0 ] #	5.0	# [ c -> d ] u [ t -> 0 ] r o [ g n u -> 0 ] #
 2	o [ c c h -> n ] i	3.0	# n f a n f o [ c c h -> n ] i a #
 2	ò [ c c -> p p ] u	2.0	# c i r i c ò [ c c -> p p ] u l u #
 2	n [ z i t t -> g ] a	5.0	# n [ z i t t -> g ] a r [ 0 -> r à r ] i #
@@ -959,13 +989,12 @@
 2	n [ u -> o ] n	1.0	# a b b a n n [ u -> o ] n u #
 2	n [ u -> a ] c	1.0	# f ù n n [ u -> a ] c u #
 2	n [ t -> f ] i	1.0	# n [ t -> f ] i n n i a r i #
-2	n [ t -> d ] u	2.0	# [ c -> 0 ] [ 0 -> g ] a n [ t -> d ] u s c i u #
+2	n [ t -> d ] u	2.0	# [ c -> g ] a n [ t -> d ] u s c i u #
 2	n [ t -> 0 ] a	2.0	# n t [ 0 -> r ] u n [ t -> 0 ] a r i #
 2	n [ o -> u ] m	1.0	# n [ o -> u ] m i #
 2	n [ n u -> d o ] #	2.0	# m u n [ n u -> d o ] #
 2	n [ j ù n c -> 0 ] i	4.0	# c u n [ j ù n c -> 0 ] i [ 0 -> u n g ì ] r i #
 2	n [ j -> i ] a	1.0	# n [ j -> i ] a r d i n a r i #
-2	n [ i g g h i -> f ] o	8.0	# [ c a -> 0 ] [ 0 -> f ò ] n [ i g g h i -> f ] o [ l -> r ] a #
 2	n [ i -> ì ] t	1.0	# a m m u n [ i -> ì ] t a r i #
 2	n [ i -> ì ] l	1.0	# c u g n [ i -> ì ] l a r i #
 2	n [ i -> ì ] d	1.0	# m p a n n [ i -> ì ] d d a r i #
@@ -975,7 +1004,7 @@
 2	n [ g a t t -> c u l ] a	4.0	# n [ g a t t -> c u l ] a r i #
 2	n [ è -> i e ] s	2.0	# n [ è -> i e ] s c i r i #
 2	n [ è -> e ] s	1.0	# n [ è -> e ] s c i r i #
-2	n [ d -> t ] u	2.0	# [ g -> 0 ] [ 0 -> c ] a n [ d -> t ] u s c i u #
+2	n [ d -> t ] u	2.0	# [ g -> c ] a n [ d -> t ] u s c i u #
 2	n [ d -> t ] r	1.0	# m a l a n [ d -> t ] r i n u #
 2	n [ d -> n ] a	1.0	# l i g g e n [ d -> n ] a #
 2	n [ c -> g ] u	1.0	# l o n [ c -> g ] u #
@@ -1025,12 +1054,11 @@
 2	l [ a -> à ] b	1.0	# s d i l l [ a -> à ] b b r a r i #
 2	j [ u -> o ] #	1.0	# a b b a j [ u -> o ] #
 2	j [ ì d -> 0 ] i	2.0	# j [ ì d -> 0 ] i t u #
-2	i [ z z a -> n f à ] r	5.0	# [ a r -> 0 ] [ 0 -> n g ] r i [ z z a -> n f à ] r i #
-2	i [ z z a -> f à ] r	5.0	# [ a r -> 0 ] [ 0 -> n g ] r i [ z z a -> f à ] r i #
+2	i [ z z a -> n f à ] r	5.0	# [ a r -> n g ] r i [ z z a -> n f à ] r i #
+2	i [ z z a -> f à ] r	5.0	# [ a r -> n g ] r i [ z z a -> f à ] r i #
 2	i [ u s u -> a t o ] #	4.0	# [ 0 -> n ] g a v i [ u s u -> a t o ] #
 2	i [ u s u -> a t a ] #	4.0	# [ 0 -> n ] g a v i [ u s u -> a t a ] #
 2	i [ u s -> a t ] u	3.0	# [ 0 -> n ] g a v i [ u s -> a t ] u #
-2	i [ u c -> g g ] i	3.0	# [ c -> 0 ] [ 0 -> g ] i [ u c -> g g ] i u l e n a #
 2	i [ u -> ù ] v	1.0	# g i [ u -> ù ] v a r i #
 2	i [ u -> ù ] r	1.0	# n g r a s c i [ u -> ù ] r a r i #
 2	i [ u -> ù ] c	1.0	# a b b i [ u -> ù ] c c a r i #
@@ -1041,12 +1069,11 @@
 2	i [ t e -> c i a ] r	3.0	# c i m i [ t e -> c i a ] r u #
 2	i [ t -> r ] r	1.0	# p i [ t -> r ] r i a r i #
 2	i [ s b -> v ] i	6.0	# a [ r -> d d ] r i [ s b -> v ] i g [ g h -> l ] i a r i #
-2	i [ s -> 0 ] c	1.0	# n g r i [ s -> 0 ] c i a r i #
-2	i [ r t -> l l ] i	5.0	# [ v -> 0 ] [ 0 -> s d ] i [ r t -> l l ] i [ c -> n ] c h i u #
 2	i [ r r -> c c i ] a	3.0	# a c c i [ r r -> c c i ] a r i #
 2	i [ r i -> 0 ] p	2.0	# p i [ r i -> 0 ] p i [ 0 -> r i ] c c h i u #
 2	i [ r -> l ] o	1.0	# s c i [ r -> l ] o c c u #
 2	i [ r -> l ] i	1.0	# p i c c i [ r -> l ] i d d a #
+2	i [ r -> c ] c	1.0	# p i [ r -> c ] c h ì #
 2	i [ o -> u ] t	1.0	# b i b b l i [ o -> u ] t e c a #
 2	i [ o -> u ] r	1.0	# g i [ o -> u ] r n u #
 2	i [ n -> 0 ] t	1.0	# p i z z i p i [ n -> 0 ] t u r r u #
@@ -1062,9 +1089,9 @@
 2	i [ e -> è ] m	3.0	# n u v i [ e -> è ] m [ b -> m a ] r u #
 2	i [ d d -> g g h i ] a	4.0	# n c h i r c h i [ d d -> g g h i ] a r i #
 2	i [ d -> r ] i	1.0	# p i [ d -> r ] i t ò z z u l u #
-2	i [ c -> s ] c	3.0	# a [ d d -> n n ] i [ c -> s ] c a r i #
+2	i [ c -> r ] c	1.0	# p i [ c -> r ] c h ì #
+2	i [ c -> n ] c	5.0	# [ v -> s d ] i [ r t -> l l ] i [ c -> n ] c h i u #
 2	i [ c -> g n ] ò	2.0	# c i r i [ c -> g n ] ò c c u l u #
-2	i [ c -> g g ] i	3.0	# [ c -> 0 ] [ 0 -> g ] i [ c -> g g ] i u l e n a #
 2	i [ c -> g ] a	1.0	# a g g r i [ c -> g ] a z z i o n i #
 2	i [ a z z u -> o ] #	4.0	# s c a s c i [ a z z u -> o ] #
 2	i [ a z z -> 0 ] u	3.0	# s c a s c i [ a z z -> 0 ] u #
@@ -1077,17 +1104,12 @@
 2	i [ à -> a ] c	1.0	# p i [ à -> a ] c i r i #
 2	i [ a -> à ] c	1.0	# a c c h i [ a -> à ] c c h i a r i #
 2	i [ 0 -> u n g ì ] r	4.0	# c u n [ j ù n c -> 0 ] i [ 0 -> u n g ì ] r i #
-2	i [ 0 -> u ] l	1.0	# g i [ 0 -> u ] l e p p u #
-2	i [ 0 -> r r a ] g	5.0	# [ a p p -> 0 ] [ 0 -> f ] i [ 0 -> r r a ] g g h i u #
 2	i [ 0 -> r i ] c	2.0	# p i [ r i -> 0 ] p i [ 0 -> r i ] c c h i u #
-2	i [ 0 -> r ] a	2.0	# a l l [ a r -> 0 ] i [ 0 -> r ] a r i #
 2	i [ 0 -> ò f f ] u	4.0	# c a r c [ ò c c -> 0 ] i [ 0 -> ò f f ] u l a #
-2	i [ 0 -> n ] z	4.0	# [ a r -> 0 ] [ 0 -> n g ] r i [ 0 -> n ] z [ z a -> à ] r i #
+2	i [ 0 -> n ] z	4.0	# [ a r -> n g ] r i [ 0 -> n ] z [ z a -> à ] r i #
 2	i [ 0 -> n ] t	1.0	# p i z z i p i [ 0 -> n ] t u r r u #
-2	i [ 0 -> l e t ] t	4.0	# [ a -> 0 ] [ 0 -> b ] i [ 0 -> l e t ] t a #
 2	i [ 0 -> j ] a	1.0	# c a c c i [ 0 -> j ] a r i #
 2	i [ 0 -> i ] u	2.0	# [ 0 -> a ] l a p p i [ 0 -> i ] u #
-2	i [ 0 -> g ] n	3.0	# [ g -> 0 ] [ 0 -> m ] a [ 0 -> l ] i [ 0 -> g ] n u #
 2	ì [ 0 -> g ] a	1.0	# a r ì [ 0 -> g ] a n u #
 2	i [ 0 -> d d ì ] r	4.0	# n t i n t [ u -> i ] r i [ 0 -> d d ì ] r i #
 2	i [ 0 -> d d i ] r	4.0	# n t i n t [ u -> i ] r i [ 0 -> d d i ] r i #
@@ -1184,6 +1206,7 @@
 2	c [ e -> i ] r	1.0	# c [ e -> i ] r t i f i c a t u #
 2	c [ è -> e ] m	3.0	# d i c [ è -> e ] m [ m u -> b ] r u #
 2	c [ e -> è ] m	3.0	# d i c [ e -> è ] m [ b -> m u ] r u #
+2	c [ c a -> à ] r	4.0	# a [ d d -> n n ] i [ 0 -> s ] c [ c a -> à ] r i #
 2	c [ c -> 0 ] u	1.0	# a c [ c -> 0 ] u s s ì #
 2	c [ c -> 0 ] h	1.0	# c [ c -> 0 ] h i ù #
 2	c [ à u -> a r ] c	2.0	# c [ à u -> a r ] c i u #
@@ -1191,15 +1214,15 @@
 2	c [ a s -> à v u ] d	3.0	# c [ a s -> à v u ] d u #
 2	c [ a -> h i ] r	2.0	# c à n c [ a -> h i ] r u #
 2	c [ a -> à ] l	1.0	# c [ a -> à ] l a r i #
-2	c [ 0 -> u ] o	2.0	# [ p -> 0 ] [ 0 -> v ] i r c [ 0 -> u ] o c u #
+2	c [ 0 -> u ] o	2.0	# [ p -> v ] i r c [ 0 -> u ] o c u #
 2	c [ 0 -> r ] u	1.0	# c [ 0 -> r ] u s t a n a #
-2	c [ 0 -> ò ] c	5.0	# [ t -> 0 ] [ 0 -> b i ] r i c [ 0 -> ò ] c u [ o p -> l ] a #
+2	c [ 0 -> ò ] c	5.0	# [ t -> b i ] r i c [ 0 -> ò ] c u [ o p -> l ] a #
+2	c [ 0 -> i ] e	1.0	# a c [ 0 -> i ] e d d u #
 2	c [ 0 -> h ] e	1.0	# c [ 0 -> h ] e r z a #
 2	c [ 0 -> c h ] ì	2.0	# a r m a c [ 0 -> c h ] ì a #
 2	c [ 0 -> c ] i	1.0	# c [ 0 -> c ] i #
 2	c [ 0 -> c ] a	3.0	# a r r i [ s -> z z ] i c [ 0 -> c ] a r i #
 2	c [ 0 -> a m ] i	4.0	# [ m a n -> 0 ]c [ 0 -> a m ] i [ 0 -> s ] a r i #
-2	c [ 0 -> a g g ] h	6.0	# [ m a c -> 0 ] [ 0 -> b u s ] c [ 0 -> a g g ] h i a #
 2	c [ 0 -> a ] r	2.0	# s c [ 0 -> a ] r a [ v -> f ] a g g h i u #
 2	c [ ' -> i ] #	1.0	# c [ ' -> i ] #
 2	b [ u l -> b r ] a	2.0	# d u b [ u l -> b r ] a r i #
@@ -1232,6 +1255,7 @@
 2	à [ v -> g ] u	1.0	# c i à [ v -> g ] u r u #
 2	a [ v -> g ] u	1.0	# a [ v -> g ] u s t u #
 2	a [ v -> b b ] r	2.0	# a [ v -> b b ] r a c i u #
+2	a [ v -> b b ] a	2.0	# b a [ v -> b b ] a l u c i #
 2	a [ u -> ù ] s	1.0	# d i s c a [ u -> ù ] s a r i #
 2	a [ u -> ù ] r	1.0	# c i a [ u -> ù ] r a r i #
 2	a [ u -> ù ] d	1.0	# a n n a s c i a [ u -> ù ] d a r i #
@@ -1240,7 +1264,6 @@
 2	a [ t u r a -> 0 ] #	4.0	# n c h i m a [ t u r a -> 0 ] #
 2	a [ t t e n -> b b a r a ] t	5.0	# a [ t t e n -> b b a r a ] t u #
 2	a [ t -> d ] o	1.0	# a [ t -> d ] o r n u #
-2	a [ s t r -> n g ] a	8.0	# [ m -> 0 ] [ 0 -> g ] a [ s t r -> n g ] a [ m è u s -> t ] a #
 2	a [ s t -> p i d d a r ] a	7.0	# c a [ s t -> p i d d a r ] a [ g n u -> 0 ] #
 2	a [ s -> z z i ] c	3.0	# c a [ s -> z z i ] c a t ù m m u l a #
 2	a [ r r i -> s ] s	3.0	# a [ r r i -> s ] s a g g h i a r i #
@@ -1258,15 +1281,11 @@
 2	a [ r -> l ] b	1.0	# a [ r -> l ] b a #
 2	a [ r -> b ] b	1.0	# a [ r -> b ] b i r g a t u r i #
 2	a [ p p -> f f ] i	5.0	# a [ p p -> f f ] i [ 0 -> r r a ] g g h i u #
-2	a [ p -> b b ] a	3.0	# [ p -> 0 ] [ 0 -> b ] a [ p -> b b ] a j a n n i #
-2	a [ n f -> m p ] a	2.0	# c i a [ n f -> m p ] a #
 2	a [ n -> r ] e	1.0	# a r v a [ n -> r ] e t t a #
 2	à [ n -> 0 ] i	2.0	# f a r r à [ n -> 0 ] i [ 0 -> n ] a #
-2	a [ m p -> n f ] a	2.0	# c i a [ m p -> n f ] a #
 2	a [ m p -> b b ] a	2.0	# n t a [ m p -> b b ] a r i n i r i #
 2	a [ m m -> l l ] a	4.0	# a [ m m -> l l ] a r r [ u n -> 0 ] a r i #
-2	a [ m -> p ] p	3.0	# [ z -> 0 ] [ 0 -> p ] a [ m -> p ] p a l [ e -> 0 ] u #
-2	a [ m -> 0 ] p	2.0	# [ z -> 0 ] [ 0 -> p ] a [ m -> 0 ] p a l e u #
+2	a [ m è u s -> t ] a	8.0	# [ m -> g ] a [ s t r -> n g ] a [ m è u s -> t ] a #
 2	a [ l u m -> r r i ] a	4.0	# [ c -> 0 ]a [ l u m -> r r i ] a r i #
 2	a [ l -> r ] c	1.0	# b a [ l -> r ] c u n i #
 2	a [ l -> r ] b	1.0	# a [ l -> r ] b a #
@@ -1285,9 +1304,9 @@
 2	à [ g -> 0 ] u	1.0	# p à [ g -> 0 ] u r u #
 2	a [ g -> 0 ] ù	2.0	# a [ g -> 0 ] ù m [ 0 -> m ] a r u #
 2	a [ f f -> p p ] i	5.0	# a [ f f -> p p ] i [ r r a -> 0 ] g g h i u #
+2	a [ f f -> p p ] a	2.0	# a r r a [ f f -> p p ] a r i #
 2	a [ f f -> b b ] a	2.0	# c a r r a [ f f -> b b ] a #
 2	a [ f -> v ] a	2.0	# s c [ a -> 0 ] r a [ f -> v ] a g g h i u #
-2	a [ f -> b b ] a	3.0	# [ f -> 0 ] [ 0 -> b ] a [ f -> b b ] a l u c i #
 2	a [ è -> p p a ] r	7.0	# a [ è -> p p a ] r [ 0 -> e c c h ] i u #
 2	a [ d d i c -> n n a s ] c	4.0	# a [ d d i c -> n n a s ] c a r i #
 2	a [ d d -> z z ] a	2.0	# s t r a [ d d -> z z ] a r i #
@@ -1295,13 +1314,11 @@
 2	a [ d -> r ] a	1.0	# g r a [ d -> r ] a #
 2	a [ c c -> k k ] à	2.0	# a [ c c -> k k ] à d i c u #
 2	a [ c -> r ] c	1.0	# c a [ c -> r ] c a g n u #
-2	a [ c -> f ] a	2.0	# [ f -> 0 ] [ 0 -> c ] r a [ c -> f ] a s s a r i #
+2	a [ c -> f ] a	2.0	# [ f -> c ] r a [ c -> f ] a s s a r i #
 2	a [ c -> 0 ] i	1.0	# b a [ c -> 0 ] i o c c u #
+2	a [ b b -> v ] a	2.0	# b a [ b b -> v ] a l u c i #
 2	a [ b b -> p ] u	2.0	# c a [ b b -> p ] u b b u #
-2	a [ b b -> p ] a	3.0	# [ b -> 0 ] [ 0 -> p ] a [ b b -> p ] a j a n n i #
-2	a [ b b -> f ] a	3.0	# [ b -> 0 ] [ 0 -> f ] a [ b b -> f ] a l u c i #
 2	a [ b -> r ] b	1.0	# a [ b -> r ] b i r g a t u r i #
-2	a [ 0 -> u ] t	1.0	# a r r i s a [ 0 -> u ] t a r i #
 2	a [ 0 -> u ] r	1.0	# a [ 0 -> u ] r e n z i a #
 2	a [ 0 -> u ] c	2.0	# a [ 0 -> u ] c [ i -> 0 ] e d d u #
 2	a [ 0 -> t u r a ] #	4.0	# n c h i m a [ 0 -> t u r a ] #
@@ -1310,32 +1327,103 @@
 2	a [ 0 -> r r ] u	3.0	# a b b a [ 0 -> r r ] u [ t t -> 0 ] i r i #
 2	a [ 0 -> p p i ] g	5.0	# [ f i r r -> 0 ]a [ 0 -> p p i ] g g h i u #
 2	a [ 0 -> p p a ] r	4.0	# a c c [ i r -> 0 ] r a [ 0 -> p p a ] r i #
+2	a [ 0 -> p à ] r	4.0	# [ n -> a t ] t [ u p p -> 0 ] a [ 0 -> p à ] r i #
 2	a [ 0 -> n ] c	1.0	# a [ 0 -> n ] c i e d d u #
 2	a [ 0 -> l u ] c	4.0	# b [ u c -> 0 ] a [ l -> b b ] a [ 0 -> l u ] c i #
 2	a [ 0 -> g ] n	1.0	# c a s t a [ 0 -> g ] n u #
 2	a [ 0 -> c i ] r	2.0	# f a [ 0 -> c i ] r i #
 2	a [ 0 -> a ] #	2.0	# c [ 0 -> h ] i a n t a [ 0 -> a ] #
-2	# [ v u c -> 0 ] [	4.0	# [ v u c -> 0 ] [ 0 -> g r ] i [ 0 -> d ] a r i #
-2	# [ v a r v -> 0 ] [	6.0	# [ v a r v -> 0 ] [ 0 -> c ] a r o [ t t -> z z ] u #
-2	# [ t i n t -> 0 ] [	4.0	# [ t i n t -> 0 ] [ 0 -> m a l ] u #
-2	# [ s t -> 0 ] [	6.0	# [ s t -> 0 ] [ 0 -> n z u r ] r [ i t t -> 0 ] u #
-2	# [ r a -> 0 ] [	3.0	# [ r a -> 0 ] [ 0 -> s t i ] c c h i u #
-2	# [ ò -> 0 ] [	1.0	# [ ò -> 0 ] [ 0 -> o ] m u n u #
-2	# [ n t -> 0 ] [	3.0	# [ n t -> 0 ] [ 0 -> f ] a r [ t -> f ] a g g h i a r i #
-2	# [ n è -> 0 ] [	2.0	# [ n è -> 0 ] [ 0 -> e ] s c i r i #
-2	# [ m p -> 0 ] [	2.0	# [ m p -> 0 ] [ 0 -> n z ] i l l a #
-2	# [ m b -> 0 ] [	2.0	# [ m b -> 0 ] [ 0 -> n v ] u c c u l a r i #
-2	# [ m a c -> 0 ] [	6.0	# [ m a c -> 0 ] [ 0 -> b u s ] c [ 0 -> a g g ] h i a #
-2	# [ j ì -> 0 ] [	2.0	# [ j ì -> 0 ] [ 0 -> i ] d i t u #
-2	# [ g r -> 0 ] [	2.0	# [ g r -> 0 ] [ 0 -> c i ] a m p a #
-2	# [ g n -> 0 ] [	2.0	# [ g n -> 0 ] [ 0 -> j ] u g n u #
-2	# [ g i o -> 0 ] [	3.0	# [ g i o -> 0 ] [ 0 -> j u ] r n u #
-2	# [ f u r -> 0 ] [	3.0	# [ f u r -> 0 ] [ 0 -> g i ] r i a r i #
-2	# [ b u c -> 0 ] [	4.0	# [ b u c -> 0 ] [ 0 -> g r ] i [ 0 -> d ] a r i #
-2	# [ a p p -> 0 ] [	5.0	# [ a p p -> 0 ] [ 0 -> f ] i [ 0 -> r r a ] g g h i u #
-2	# [ a n n -> 0 ] [	3.0	# [ a n n -> 0 ] [ 0 -> d ] i v i n a r i #
-2	# [ à i p -> 0 ] [	5.0	# [ à i p -> 0 ] [ 0 -> o j e t r ] a #
-2	# [ à -> 0 ] [	2.0	# [ à -> 0 ] [ 0 -> a i ] c u l a #
+2	# [ v u c -> g r ] i	4.0	# [ v u c -> g r ] i [ 0 -> d ] a r i #
+2	# [ v a r v -> c ] a	6.0	# [ v a r v -> c ] a r o [ t t -> z z ] u #
+2	# [ v -> s d ] i	5.0	# [ v -> s d ] i [ r t -> l l ] i [ c -> n ] c h i u #
+2	# [ v -> p ] i	1.0	# [ v -> p ] i r c o c u #
+2	# [ v -> m ] i	1.0	# [ v -> m ] i n n i t t a #
+2	# [ v -> f ] a	1.0	# [ v -> f ] a s c e d d u #
+2	# [ v -> c ] a	4.0	# [ v -> c ] a v a l [ u c -> a g g ] i u #
+2	# [ v -> a ] u	1.0	# [ v -> a ] u g g h i a #
+2	# [ u -> ù ] r	1.0	# [ u -> ù ] r v i c a r i #
+2	# [ u -> a ] l	1.0	# [ u -> a ] l i v i t u #
+2	# [ t i n t -> m a l ] u	4.0	# [ t i n t -> m a l ] u #
+2	# [ t -> b i ] r	5.0	# [ t -> b i ] r i c [ 0 -> ò ] c u [ o p -> l ] a #
+2	# [ s t -> n z u r ] r	6.0	# [ s t -> n z u r ] r [ i t t -> 0 ] u #
+2	# [ s d -> a r ] r	3.0	# [ s d -> a r ] r i [ 0 -> s ] v i g g h i a r i #
+2	# [ s -> c i ] u	2.0	# [ s -> c i ] u s c i a r i #
+2	# [ r a -> s t i ] c	3.0	# [ r a -> s t i ] c c h i u #
+2	# [ r -> n ] i	2.0	# [ r -> n ] i [ g -> c ] u l i z i a #
+2	# [ r -> d ] e	1.0	# [ r -> d ] e n t i #
+2	# [ q u -> c ] a	2.0	# [ q u -> c ] a g g h i a r i #
+2	# [ p i -> v a ] r	2.0	# [ p i -> v a ] r c o c u #
+2	# [ p i -> f u r ] r	3.0	# [ p i -> f u r ] r i a r i #
+2	# [ p i -> f ] r	4.0	# [ p i -> f ] r [ 0 -> a c ] c o c u #
+2	# [ p i -> b a ] r	2.0	# [ p i -> b a ] r c o c u #
+2	# [ p i -> b ] r	5.0	# [ p i -> b ] r [ 0 -> a c ] c o c [ 0 -> c ] u #
+2	# [ p -> z ] a	2.0	# [ p -> z ] a [ 0 -> m ] p a l e u #
+2	# [ p -> f ] a	1.0	# [ p -> f ] a s t u c a #
+2	# [ p -> b ] i	1.0	# [ p -> b ] i s o l u #
+2	# [ p -> b ] a	3.0	# [ p -> b ] a [ p -> b b ] a j a n n i #
+2	# [ o -> u ] z	1.0	# [ o -> u ] z z i u #
+2	# [ ò -> o ] m	1.0	# [ ò -> o ] m u n u #
+2	# [ n t -> f ] a	3.0	# [ n t -> f ] a r [ t -> f ] a g g h i a r i #
+2	# [ n è -> e ] s	2.0	# [ n è -> e ] s c i r i #
+2	# [ n -> r ] i	2.0	# [ n -> r ] i [ c -> g ] u l i z i a #
+2	# [ n -> o l ] t	4.0	# [ n -> o l ] t [ a -> 0 ] r [ 0 -> a g ] g i a r i #
+2	# [ n -> m i ] n	2.0	# [ n -> m i ] n i m i n a g g h i a #
+2	# [ n -> i ] g	1.0	# [ n -> i ] g n u r a n t i #
+2	# [ m i -> a n ] n	2.0	# [ m i -> a n ] n i m i n a g g h i a #
+2	# [ m -> n ] a	1.0	# [ m -> n ] a s t r o z z u #
+2	# [ m -> g ] a	8.0	# [ m -> g ] a [ s t r -> n g ] a [ m è u s -> t ] a #
+2	# [ m -> f ] i	1.0	# [ m -> f ] i s s a g g i u #
+2	# [ m -> a b ] b	2.0	# [ m -> a b ] b r a z z a r i #
+2	# [ j ì -> i ] d	2.0	# [ j ì -> i ] d i t u #
+2	# [ j -> i ] o	1.0	# [ j -> i ] o c u #
+2	# [ j -> g ] e	1.0	# [ j -> g ] e l u #
+2	# [ j -> g ] a	1.0	# [ j -> g ] a d d u #
+2	# [ i a c q -> m b ] u	4.0	# [ i a c q -> m b ] u a #
+2	# [ i -> n ] g	1.0	# [ i -> n ] g n u r a n t i #
+2	# [ i -> j ] u	1.0	# [ i -> j ] u g n u #
+2	# [ i -> ì ] u	1.0	# [ i -> ì ] u n c a r i #
+2	# [ i -> ì ] r	1.0	# [ i -> ì ] r g h i r i #
+2	# [ i -> g ] a	1.0	# [ i -> g ] a d d i n a #
+2	# [ i -> e ] r	1.0	# [ i -> e ] r v i c e d d a #
+2	# [ g u -> b ] a	2.0	# [ g u -> b ] a i a n a #
+2	# [ g r -> c i ] a	2.0	# [ g r -> c i ] a m p a #
+2	# [ g i o -> j u ] r	3.0	# [ g i o -> j u ] r n u #
+2	# [ g -> n c ] h	2.0	# [ g -> n c ] h i a t r a t u #
+2	# [ g -> c ] e	2.0	# [ g -> c ] e r [ b -> s ] u #
+2	# [ g -> a ] u	1.0	# [ g -> a ] u g g h i a #
+2	# [ f -> s ] u	6.0	# [ f -> s ] u [ 0 -> r f ] a r [ 0 -> e d d ] u #
+2	# [ f -> p ] a	1.0	# [ f -> p ] a s t u c a #
+2	# [ f -> b ] a	3.0	# [ f -> b ] a [ f -> b b ] a l u c i #
+2	# [ e -> i ] s	1.0	# [ e -> i ] s e m p i u #
+2	# [ e -> i ] r	1.0	# [ e -> i ] r v i c e d d a #
+2	# [ d -> r ] e	1.0	# [ d -> r ] e n t i #
+2	# [ c u -> n a n ] t	8.0	# [ c u -> n a n ] t [ t u r -> 0 ] i [ u -> 0 ] s [ u -> t a ] #
+2	# [ c i -> g r ] a	2.0	# [ c i -> g r ] a m p a #
+2	# [ c a -> f ò ] n	8.0	# [ c a -> f ò ] n [ i g g h i -> f ] o [ l -> r ] a #
+2	# [ c -> r ] u	5.0	# [ c -> r ] u [ t -> 0 ] r [ o g n -> 0 ] u #
+2	# [ c -> b i ] r	6.0	# [ c -> b i ] r i c [ o p -> ò c u l ] a #
+2	# [ b u c -> g r ] i	4.0	# [ b u c -> g r ] i [ 0 -> d ] a r i #
+2	# [ b -> v ] o	1.0	# [ b -> v ] o s c u #
+2	# [ b -> p ] i	1.0	# [ b -> p ] i s o l u #
+2	# [ b -> p ] a	3.0	# [ b -> p ] a [ b b -> p ] a j a n n i #
+2	# [ b -> m m ] u	2.0	# [ b -> m m ] u r g i u #
+2	# [ b -> g u ] a	2.0	# [ b -> g u ] a i a n a #
+2	# [ b -> f ] a	3.0	# [ b -> f ] a [ b b -> f ] a l u c i #
+2	# [ b -> c ] a	6.0	# [ b -> c ] a [ b b -> v ] a l [ u c -> a g g ] i u #
+2	# [ a t -> i à v ] u	5.0	# [ a t -> i à v ] u [ 0 -> t a ] #
+2	# [ a r -> d d ] r	3.0	# [ a r -> d d ] r i [ s -> 0 ] v i g g h i a r i #
+2	# [ a p p -> f ] i	5.0	# [ a p p -> f ] i [ 0 -> r r a ] g g h i u #
+2	# [ a n n -> d ] i	3.0	# [ a n n -> d ] i v i n a r i #
+2	# [ a m m -> c i f ] u	5.0	# [ a m m -> c i f ] u [ a r -> n e ] r a #
+2	# [ a d d -> l ] à	3.0	# [ a d d -> l ] à u r u #
+2	# [ a b -> s ] b	2.0	# [ a b -> s ] b a r r i a r i #
+2	# [ a -> v ] u	1.0	# [ a -> v ] u g g h i a #
+2	# [ a -> g ] u	1.0	# [ a -> g ] u g g h i a #
+2	# [ a -> e b ] b	2.0	# [ a -> e b ] b r à i c u #
+2	# [ a -> à ] u	1.0	# [ a -> à ] u s a r i #
+2	# [ a -> à ] l	1.0	# [ a -> à ] l l a z z a r i #
+2	# [ a -> à ] g	1.0	# [ a -> à ] g g i b b a r i #
+2	# [ a -> à ] b	1.0	# [ a -> à ] b b a l l a r i #
 2	# [ 0 -> s ] p	1.0	# [ 0 -> s ] p u r t u s a r i #
 2	# [ 0 -> n ] j	1.0	# [ 0 -> n ] j u g n u #
 2	# [ 0 -> n ] f	1.0	# [ 0 -> n ] f e n t a #
@@ -1379,11 +1467,10 @@
 1	u [ v -> 0 ] e	1.0	# n u [ v -> 0 ] e n a #
 1	u [ t t u n a -> p e r ] t	5.0	# c u [ t t u n a -> p e r ] t a #
 1	u [ t t a -> f f à ] r	3.0	# a b b u [ t t a -> f f à ] r i #
-1	u [ t -> c ] u	4.0	# [ a r r -> 0 ] [ 0 -> c ] u [ t -> c ] u l i a r i #
 1	u [ s u -> 0 ] #	2.0	# m u d u r r u [ s u -> 0 ] #
 1	u [ s c i -> z z ] a	4.0	# b u [ s c i -> z z ] a r [ r -> 0 ] a r i #
 1	u [ s -> z z ] o	2.0	# b u [ s -> z z ] o l u #
-1	u [ r r -> c c h ] i	4.0	# [ b -> 0 ] [ 0 -> l ] u [ r r -> c c h ] i a r i #
+1	u [ s -> r a t ] u	7.0	# [ c a t -> s b ] u [ n i -> t ] u [ s -> r a t ] u #
 1	u [ r g -> 0 ] a	5.0	# f u [ r g -> 0 ] a r [ e d d -> 0 ] u #
 1	u [ r -> m ] m	1.0	# f u [ r -> m ] m ì c u l a #
 1	u [ r -> l ] u	1.0	# à r v u [ r -> l ] u #
@@ -1394,9 +1481,8 @@
 1	u [ p e r -> 0 ] t	6.0	# c u [ p e r -> 0 ] t [ 0 -> t u n i n ] a #
 1	u [ p -> v ] e	1.0	# c u [ p -> v ] e r t a #
 1	u [ p -> m ] a	3.0	# a s s [ i -> a ] n [ c -> t ] u [ p -> m ] a r i #
-1	u [ n i -> t ] u	7.0	# [ c a t -> 0 ] [ 0 -> s b ] u [ n i -> t ] u [ s -> r a t ] u #
 1	u [ m a -> p à ] r	4.0	# a s s [ a -> i ] n [ t -> c ] u [ m a -> p à ] r i #
-1	u [ m a -> l à ] r	5.0	# [ a m m -> 0 ] [ 0 -> b ] a t t u [ m a -> l à ] r i #
+1	u [ m a -> l à ] r	5.0	# [ a m m -> b ] a t t u [ m a -> l à ] r i #
 1	u [ m -> r ] m	1.0	# f u [ m -> r ] m ì c u l a #
 1	u [ l u -> r o ] #	2.0	# à r v u [ l u -> r o ] #
 1	u [ l -> r ] u	1.0	# à r v u [ l -> r ] u #
@@ -1411,14 +1497,15 @@
 1	u [ g a -> à ] r	2.0	# a d d u [ g a -> à ] r i #
 1	u [ f -> n ] f	1.0	# m u [ f -> n ] f u c i u #
 1	u [ d -> t ] u	1.0	# a b b u [ d -> t ] u r a r i #
-1	u [ c c h -> r r ] i	4.0	# [ l -> 0 ] [ 0 -> b ] u [ c c h -> r r ] i a r i #
 1	ù [ c -> n ] c	1.0	# c ù [ c -> n ] c u m u #
 1	u [ c -> n ] c	1.0	# c u [ c -> n ] c u m e d d u #
 1	u [ a -> à ] t	1.0	# b u [ a -> à ] t t a #
 1	u [ 0 -> v o ] #	2.0	# [ o v -> 0 ]u [ 0 -> v o ] #
 1	u [ 0 -> v i ] #	2.0	# [ o v -> 0 ]u [ 0 -> v i ] #
 1	u [ 0 -> v ] e	1.0	# n u [ 0 -> v ] e n a #
-1	u [ 0 -> t u ] #	10.0	# [ p i -> 0 ] [ 0 -> a b b u ] r [ 0 -> d u n a ] r u [ 0 -> t u ] #
+1	u [ 0 -> t u ] #	10.0	# [ p i -> a b b u ] r [ 0 -> d u n a ] r u [ 0 -> t u ] #
+1	u [ 0 -> t o ] #	5.0	# [ a t -> i à v ] u [ 0 -> t o ] #
+1	u [ 0 -> t a ] #	5.0	# [ a t -> i à v ] u [ 0 -> t a ] #
 1	u [ 0 -> s u ] #	2.0	# m u d u r r u [ 0 -> s u ] #
 1	u [ 0 -> s o ] #	2.0	# m u d u r r u [ 0 -> s o ] #
 1	u [ 0 -> s a ] #	2.0	# m u d u r r u [ 0 -> s a ] #
@@ -1429,13 +1516,10 @@
 1	u [ 0 -> n i ] c	2.0	# [ ù n -> 0 ]u [ 0 -> n i ] c u #
 1	ù [ 0 -> n ] c	1.0	# c ù [ 0 -> n ] c u m u #
 1	u [ 0 -> m o ] #	2.0	# [ o m -> 0 ]u [ 0 -> m o ] #
-1	u [ 0 -> m m ] a	5.0	# [ i a c q -> 0 ] [ 0 -> m ] u [ 0 -> m m ] a #
-1	u [ 0 -> m b ] a	5.0	# [ i a c q -> 0 ] [ 0 -> m b ] u [ 0 -> m b ] a #
 1	u [ 0 -> l o ] #	2.0	# p i s [ o l -> 0 ] u [ 0 -> l o ] #
 1	u [ 0 -> l i d d o ] #	6.0	# p i [ l l i c u -> 0 ] s u [ 0 -> l i d d o ] #
 1	u [ 0 -> l i d d a ] #	6.0	# p i [ l l i c u -> 0 ] s u [ 0 -> l i d d a ] #
 1	u [ 0 -> g n o ] #	3.0	# [ j u -> 0 ]g n u [ 0 -> g n o ] #
-1	t [ u r -> 0 ] i	7.0	# [ c u t -> 0 ] [ 0 -> n a n ] t [ u r -> 0 ] i [ u -> 0 ] s [ 0 -> t ] u #
 1	t [ u l -> 0 ] a	3.0	# g r a s s [ ò -> o ] t t [ u l -> 0 ] a #
 1	t [ u -> o r f o ] #	4.0	# g a t t [ u -> o r f o ] #
 1	t [ u -> o r f a ] #	4.0	# g a t t [ u -> o r f a ] #
@@ -1451,7 +1535,6 @@
 1	t [ ì -> i ] a	1.0	# m u s t [ ì -> i ] a #
 1	t [ i -> e ] r	2.0	# l [ i -> e ] t t [ i -> e ] r a t u r a #
 1	t [ e -> o ] r	1.0	# l i t t [ e -> o ] r i #
-1	t [ a -> u p ] p	3.0	# [ a t -> 0 ] [ 0 -> n ] t [ a -> u p ] p a r i #
 1	t [ a -> i à ] r	2.0	# s b a l l u t t [ a -> i à ] r i #
 1	t [ 0 -> t ] u	1.0	# a c c u t [ 0 -> t ] u f a r i #
 1	t [ 0 -> t ] ì	1.0	# m a l a t [ 0 -> t ] ì a #
@@ -1466,8 +1549,6 @@
 1	s [ u g g h -> 0 ] i	4.0	# a s s [ u g g h -> 0 ] i a r i #
 1	s [ ù -> u ] r	2.0	# s [ ù -> u ] r [ i -> 0 ] c i #
 1	s [ u -> ù ] r	2.0	# s [ u -> ù ] r [ 0 -> i ] c i #
-1	s [ u -> t o ] #	8.0	# [ c u -> 0 ] [ 0 -> n a n ] t [ t u r -> 0 ] i [ u -> 0 ] s [ u -> t o ] #
-1	s [ u -> t a ] #	8.0	# [ c u -> 0 ] [ 0 -> n a n ] t [ t u r -> 0 ] i [ u -> 0 ] s [ u -> t a ] #
 1	s [ s a -> à ] r	2.0	# a g g r i s [ s a -> à ] r i #
 1	s [ s -> 0 ] i	1.0	# i s [ s -> 0 ] i a r i #
 1	s [ q u -> c ] a	2.0	# s [ q u -> c ] a l e r c i u #
@@ -1481,14 +1562,12 @@
 1	s [ f -> t ] r	3.0	# s [ f -> t ] r a [ d d -> z z ] a r i #
 1	s [ c -> t r u p p ] i	6.0	# s [ c -> t r u p p ] i a [ n c a -> 0 ] t u #
 1	s [ c -> g ] r	1.0	# s [ c -> g ] r a c c a r i #
-1	s [ a t t -> 0 ] u	6.0	# [ e -> 0 ] [ 0 -> p r i c i ] s [ a t t -> 0 ] u #
 1	s [ a -> i ] c	1.0	# s [ a -> i ] c u n n u #
 1	s [ a -> e ] c	1.0	# s [ a -> e ] c u n n u #
 1	s [ à -> a i ] #	2.0	# a s s [ à -> a i ] #
 1	s [ a -> à ] i	1.0	# n s [ a -> à ] i a r i #
 1	s [ a -> 0 ] i	1.0	# a s s [ a -> 0 ] i a r i #
 1	s [ 0 -> u g g h ] i	4.0	# a s s [ 0 -> u g g h ] i a r i #
-1	s [ 0 -> t ] u	7.0	# [ c u t -> 0 ] [ 0 -> n a n ] t [ u r -> 0 ] i [ u -> 0 ] s [ 0 -> t ] u #
 1	s [ 0 -> s ] i	1.0	# i s [ 0 -> s ] i a r i #
 1	s [ 0 -> s ] a	1.0	# a g g r i s [ 0 -> s ] a r i #
 1	s [ 0 -> d i ] s	3.0	# [ a -> 0 ]s [ 0 -> d i ] s i n n a t u #
@@ -1499,31 +1578,29 @@
 1	r [ v u l -> b ] u	3.0	# à r [ v u l -> b ] u [ 0 -> r o ] #
 1	r [ v u -> b o ] #	2.0	# c o r [ v u -> b o ] #
 1	r [ v a t -> b u s ] u	6.0	# [ a n n -> 0 ]i r [ v a t -> b u s ] u #
-1	r [ u s c -> z ] i	4.0	# [ b -> 0 ] [ 0 -> a ] r [ u s c -> z ] i a r i #
 1	r [ u s -> a t ] u	2.0	# l a c c a r [ u s -> a t ] u #
 1	r [ u -> i ] m	1.0	# r [ u -> i ] m i t u #
 1	r [ u -> a r o ] #	3.0	# n a d a r [ u -> a r o ] #
 1	r [ u -> a ] n	1.0	# c u r [ u -> a ] n e d d a #
 1	r [ u -> a ] g	1.0	# r [ u -> a ] g u m i a r i #
-1	r [ s u -> f o ] #	3.0	# [ c -> 0 ] [ 0 -> g ] e r [ s u -> f o ] #
-1	r [ s u -> f a ] #	3.0	# [ c -> 0 ] [ 0 -> g ] e r [ s u -> f a ] #
-1	r [ s u -> b o ] #	3.0	# [ c -> 0 ] [ 0 -> g ] e r [ s u -> b o ] #
-1	r [ s u -> b a ] #	3.0	# [ c -> 0 ] [ 0 -> g ] e r [ s u -> b a ] #
+1	r [ s u -> f o ] #	3.0	# [ c -> g ] e r [ s u -> f o ] #
+1	r [ s u -> f a ] #	3.0	# [ c -> g ] e r [ s u -> f a ] #
+1	r [ s u -> b o ] #	3.0	# [ c -> g ] e r [ s u -> b o ] #
+1	r [ s u -> b a ] #	3.0	# [ c -> g ] e r [ s u -> b a ] #
 1	r [ s -> z ] a	2.0	# c [ 0 -> h ] e r [ s -> z ] a #
-1	r [ s -> f ] u	2.0	# [ c -> 0 ] [ 0 -> g ] e r [ s -> f ] u #
-1	r [ s -> b ] u	2.0	# [ c -> 0 ] [ 0 -> g ] e r [ s -> b ] u #
+1	r [ s -> f ] u	2.0	# [ c -> g ] e r [ s -> f ] u #
+1	r [ s -> b ] u	2.0	# [ c -> g ] e r [ s -> b ] u #
 1	r [ r u -> o z z o ] #	5.0	# [ p i -> 0 ]r [ r u -> o z z o ] #
 1	r [ r u -> o z z a ] #	5.0	# [ p i -> 0 ]r [ r u -> o z z a ] #
 1	r [ r i n n -> 0 ] a	5.0	# [ 0 -> c ] a r [ r i n n -> 0 ] a t a r i u #
 1	r [ r e n n -> 0 ] a	5.0	# [ 0 -> c ] a r [ r e n n -> 0 ] a t a r i u #
-1	r [ r a c -> g ] i	4.0	# [ p -> 0 ] [ 0 -> n ] a r [ r a c -> g ] i a r i #
-1	r [ o g n -> 0 ] u	5.0	# [ c -> 0 ] [ 0 -> d ] u [ t -> 0 ] r [ o g n -> 0 ] u #
+1	r [ r a c -> g ] i	4.0	# [ p -> n ] a r [ r a c -> g ] i a r i #
+1	r [ o g n u -> a ] #	6.0	# [ c -> d ] u [ t -> 0 ] r [ o g n u -> a ] #
 1	r [ o -> u ] s	1.0	# p r [ o -> u ] s c i u t t u #
 1	r [ o -> à u ] l	2.0	# p a r [ o -> à u ] l a #
 1	r [ o -> a u ] l	2.0	# p a r [ o -> a u ] l a #
 1	r [ n -> r ] u	1.0	# a g u r [ n -> r ] u #
 1	r [ l -> r ] a	1.0	# p a r [ l -> r ] a r i #
-1	r [ i s -> u ] v	4.0	# [ a r -> 0 ] [ 0 -> d d ] r [ i s -> u ] v i g g h i a r i #
 1	r [ i n -> a z ] z	4.0	# a r r [ i n -> a z ] z i [ 0 -> c u ] n a r i #
 1	r [ i m b -> 0 ] a	3.0	# a r r [ i m b -> 0 ] a [ 0 -> m m à ] r i #
 1	r [ i a r i -> e ] #	4.0	# g a d d a r [ i a r i -> e ] #
@@ -1540,11 +1617,11 @@
 1	r [ i -> a r e ] #	3.0	# a z z u d d a r [ i -> a r e ] #
 1	r [ i -> a ] s	3.0	# f r [ i -> a ] s c [ h -> u l ] i a r i #
 1	r [ i -> a ] c	1.0	# s à r [ i -> a ] c u #
-1	r [ g i -> r ] a	5.0	# [ n -> 0 ] [ 0 -> p ] a r [ g i -> r ] a [ 0 -> c i à ] r i #
+1	r [ g i -> r ] a	5.0	# [ n -> p ] a r [ g i -> r ] a [ 0 -> c i à ] r i #
 1	r [ g -> c ] i	1.0	# s u r [ g -> c ] i u #
 1	r [ g -> b ] u	1.0	# g i r [ g -> b ] u n i s c u #
-1	r [ f -> t ] a	3.0	# [ f -> 0 ] [ 0 -> n t ] a r [ f -> t ] a g g h i a r i #
-1	r [ f -> s ] u	2.0	# [ g -> 0 ] [ 0 -> c ] e r [ f -> s ] u #
+1	r [ f -> t ] a	3.0	# [ f -> n t ] a r [ f -> t ] a g g h i a r i #
+1	r [ f -> s ] u	2.0	# [ g -> c ] e r [ f -> s ] u #
 1	r [ e t t -> 0 ] a	5.0	# [ 0 -> a g ] g h i a r [ e t t -> 0 ] a #
 1	r [ e g -> i ] u	2.0	# r [ e g -> i ] u l a r i #
 1	r [ e -> i ] s	1.0	# r [ e -> i ] s u #
@@ -1552,7 +1629,7 @@
 1	r [ e -> è ] t	3.0	# a p p r [ e -> è ] t t [ 0 -> i t ] u #
 1	r [ b i r -> v u l ] u	3.0	# à r [ b i r -> v u l ] u #
 1	r [ b i -> v u ] l	2.0	# à r [ b i -> v u ] l u #
-1	r [ b -> s ] u	2.0	# [ g -> 0 ] [ 0 -> c ] e r [ b -> s ] u #
+1	r [ b -> s ] u	2.0	# [ g -> c ] e r [ b -> s ] u #
 1	r [ b -> 0 ] a	1.0	# a r [ b -> 0 ] a c ì a #
 1	r [ à u -> o ] l	2.0	# p a r [ à u -> o ] l a #
 1	r [ a r -> 0 ] u	2.0	# n a d a r [ a r -> 0 ] u #
@@ -1574,7 +1651,7 @@
 1	r [ 0 -> r a b b ] i	10.0	# n c [ h i a n c h i -> 0 ] a r [ 0 -> r a b b ] i [ n -> d d ] a t u #
 1	r [ 0 -> p à r ] i	3.0	# a c c [ i r r -> 0 ] a r [ 0 -> p à r ] i #
 1	r [ 0 -> o z z ] u	4.0	# [ p i r -> 0 ]r [ 0 -> o z z ] u #
-1	r [ 0 -> i t t ] u	6.0	# [ n z u r -> 0 ] [ 0 -> s t ] r [ 0 -> i t t ] u #
+1	r [ 0 -> i ] a	1.0	# n c u d d u r [ 0 -> i ] a r i #
 1	r [ 0 -> e t t ] a	5.0	# [ a g -> 0 ]g h i a r [ 0 -> e t t ] a #
 1	r [ 0 -> a r ] u	2.0	# n a d a r [ 0 -> a r ] u #
 1	r [ 0 -> à r ] i	2.0	# a z z u d d a r [ 0 -> à r ] i #
@@ -1612,11 +1689,13 @@
 1	p [ 0 -> r ] u	3.0	# p [ 0 -> r ] u [ l i -> 0 ] c a r a #
 1	p [ 0 -> i p ] a	2.0	# p r i n c i p [ 0 -> i p ] a l i #
 1	p [ 0 -> i ] l	1.0	# p [ 0 -> i ] l a i a #
-1	o [ z z -> t t ] u	6.0	# [ c -> 0 ] [ 0 -> v a r v ] a r o [ z z -> t t ] u #
+1	o [ z z -> t t ] u	6.0	# [ c -> v a r v ] a r o [ z z -> t t ] u #
 1	o [ v -> 0 ] a	1.0	# a n c i o [ v -> 0 ] a #
 1	ò [ r u -> 0 ] l	4.0	# c ò [ r u -> 0 ] l [ 0 -> l i r ] a #
+1	o [ r -> n ] n	2.0	# [ g -> 0 ]i o [ r -> n ] n u #
 1	o [ r -> d ] d	1.0	# s o [ r -> d ] d u #
 1	o [ r -> c ] c	1.0	# p o [ r -> c ] c u #
+1	o [ r -> 0 ] n	3.0	# [ g -> 0 ]i o [ r -> 0 ] n [ u -> n o ] #
 1	o [ r -> 0 ] d	2.0	# s o [ r -> 0 ] d [ u -> d o ] #
 1	o [ r -> 0 ] c	2.0	# p o [ r -> 0 ] c [ u -> c o ] #
 1	ò [ p p -> c c ] u	2.0	# c i r i c ò [ p p -> c c ] u l u #
@@ -1631,12 +1710,13 @@
 1	n [ z i t t -> g a r r ] a	4.0	# n [ z i t t -> g a r r ] a r i #
 1	n [ z i a -> s à ] r	3.0	# c a n [ z i a -> s à ] r i #
 1	n [ z i -> s ì ] g	2.0	# c u n [ z i -> s ì ] g g h i a r i #
-1	n [ z -> c ] ì	4.0	# [ b o g -> 0 ] [ 0 -> a r ] a n [ z -> c ] ì t u l a #
+1	n [ z -> c ] ì	4.0	# [ b o g -> a r ] a n [ z -> c ] ì t u l a #
 1	n [ ù v -> ì z ] u	2.0	# n [ ù v -> ì z ] u l a #
 1	n [ ù v -> è ] u	2.0	# n [ ù v -> è ] u l a #
 1	n [ u n a -> à ] r	3.0	# a g g r u g n [ u n a -> à ] r i #
 1	n [ u l -> t r i t ] a	7.0	# [ m i è n -> 0 ]n [ u l -> t r i t ] a #
 1	n [ u -> ù ] l	1.0	# p i n n [ u -> ù ] l i a r i #
+1	n [ u -> n o ] #	3.0	# [ g -> 0 ]i o [ r -> 0 ] n [ u -> n o ] #
 1	n [ u -> i ] s	1.0	# g n [ u -> i ] s t u s u #
 1	n [ ù -> i ] g	3.0	# g n [ ù -> i ] g n u [ l u -> 0 ] #
 1	n [ u -> 0 ] o	1.0	# n [ u -> 0 ] o m i #
@@ -1673,7 +1753,7 @@
 1	n [ c u -> g o ] #	2.0	# s a n [ c u -> g o ] #
 1	n [ c a -> q u i ] #	3.0	# d u n [ c a -> q u i ] #
 1	n [ c a -> q ] u	3.0	# n [ c a -> q ] u [ 0 -> a ] c i n a r i #
-1	n [ c -> z ] ì	4.0	# [ a r -> 0 ] [ 0 -> b o g ] a n [ c -> z ] ì t u l a #
+1	n [ c -> z ] ì	4.0	# [ a r -> b o g ] a n [ c -> z ] ì t u l a #
 1	n [ c -> z ] i	1.0	# f r a n [ c -> z ] i s i #
 1	n [ c -> t ] a	4.0	# n [ c -> t ] a b b [ u b b -> a r r ] a r i #
 1	n [ c -> 0 ] u	4.0	# n [ c -> 0 ] u [ t t -> i u s ] u #
@@ -1702,7 +1782,7 @@
 1	m [ m u -> b o ] #	2.0	# s t r u m [ m u -> b o ] #
 1	m [ m a l -> b ] u	3.0	# b ù m [ m a l -> b ] u [ 0 -> l o ] #
 1	m [ m a -> b u ] l	2.0	# b ù m [ m a -> b u ] l u #
-1	m [ m -> p ] a	2.0	# [ j -> 0 ] [ 0 -> z ] a m [ m -> p ] a #
+1	m [ m -> p ] a	2.0	# [ j -> z ] a m [ m -> p ] a #
 1	m [ m -> b ] i	1.0	# m [ m -> b ] i z z i g g h i a r i #
 1	m [ m -> 0 ] a	2.0	# a [ 0 -> g ] ù m [ m -> 0 ] a r u #
 1	m [ i r -> 0 ] u	2.0	# s i t t è m m [ i r -> 0 ] u [ 0 -> r o ] #
@@ -1726,8 +1806,8 @@
 1	l [ i -> e ] t	2.0	# l [ i -> e ] t t [ i -> e ] r a t u r a #
 1	l [ i -> a ] r	2.0	# a l l [ i -> a ] r [ 0 -> i ] a r i #
 1	l [ i -> a ] c	1.0	# a s s u l [ i -> a ] c c h i a r i #
-1	l [ e u -> o ] #	4.0	# [ z -> 0 ] [ 0 -> p ] a [ m -> p ] p a l [ e u -> o ] #
-1	l [ e -> 0 ] u	3.0	# [ z -> 0 ] [ 0 -> p ] a [ m -> p ] p a l [ e -> 0 ] u #
+1	l [ e u -> o ] #	4.0	# [ z -> p ] a [ m -> p ] p a l [ e u -> o ] #
+1	l [ e -> 0 ] u	3.0	# [ z -> p ] a [ m -> p ] p a l [ e -> 0 ] u #
 1	l [ à u -> o ] r	2.0	# p a l [ à u -> o ] r a #
 1	l [ a r -> 0 ] i	2.0	# a l l [ a r -> 0 ] i [ 0 -> r ] a r i #
 1	l [ a -> u t u ] #	4.0	# m [ ù -> u ] f f u l [ a -> u t u ] #
@@ -1737,13 +1817,13 @@
 1	l [ a -> à ] n	1.0	# a l l [ a -> à ] n c h i a r i #
 1	l [ a -> 0 ] u	1.0	# l [ a -> 0 ] u d a t u #
 1	l [ 0 -> l ] i	1.0	# c ò l [ 0 -> l ] i r a #
-1	l [ 0 -> e ] u	3.0	# [ p -> 0 ] [ 0 -> z ] a [ p -> m ] p a l [ 0 -> e ] u #
+1	l [ 0 -> e ] u	3.0	# [ p -> z ] a [ p -> m ] p a l [ 0 -> e ] u #
 1	j [ ù -> u ] i	1.0	# j [ ù -> u ] i r i #
 1	j [ i -> ì ] r	1.0	# a d d i j [ i -> ì ] r i #
 1	j [ 0 -> ì d ] i	2.0	# j [ 0 -> ì d ] i t u #
 1	i [ v ì -> 0 ] s	2.0	# a b b r i [ v ì -> 0 ] s c i r i #
 1	ì [ v a -> b b u ] r	3.0	# l ì [ v a -> b b u ] r u #
-1	i [ u r -> n n ] a	4.0	# [ d -> 0 ] [ 0 -> l ] i [ s -> 0 ] c i [ u r -> n n ] a r i #
+1	i [ u r -> n n ] a	4.0	# [ d -> l ] i [ s -> 0 ] c i [ u r -> n n ] a r i #
 1	i [ u r -> g ] g	2.0	# g i [ u r -> g ] g i u l e n a #
 1	i [ u l i -> 0 ] a	3.0	# p i c c h i [ u l i -> 0 ] a r i #
 1	i [ u i -> ù ] #	2.0	# c c h i [ u i -> ù ] #
@@ -1756,40 +1836,34 @@
 1	i [ u -> g ] r	3.0	# [ a n -> 0 ]n i [ u -> g ] r i c a r i #
 1	i [ u -> 0 ] g	1.0	# g i [ u -> 0 ] g g i u l e n a #
 1	i [ t t -> 0 ] a	9.0	# [ 0 -> n g ] a [ l l i c c h -> z z a r ] i [ t t -> 0 ] a t u #
+1	i [ t -> n ] i	4.0	# [ c h -> p ] i [ a -> c ] i [ t -> n ] i a r i #
 1	i [ t -> l ] a	1.0	# n c a n n a m i [ t -> l ] a t u #
-1	i [ s -> c ] c	3.0	# a [ n n -> d d ] i [ s -> c ] c a r i #
+1	i [ s -> 0 ] c	1.0	# n g r i [ s -> 0 ] c i a r i #
 1	i [ r r a -> c c i à ] r	4.0	# a c c i [ r r a -> c c i à ] r i #
 1	i [ r b i -> a n f a ] g	4.0	# g i [ r b i -> a n f a ] g g h i u n i #
 1	i [ r -> t ] r	1.0	# p i [ r -> t ] r i a r i #
 1	ì [ r -> d ] i	1.0	# j ì [ r -> d ] i t u #
 1	i [ p i -> 0 ] r	2.0	# p i [ p i -> 0 ] r i [ 0 -> p i ] c c h i u #
-1	i [ p -> e t r ] a	4.0	# [ à -> 0 ] [ 0 -> o ] i [ p -> e t r ] a #
 1	i [ p -> b b ] a	2.0	# à i [ p -> b b ] a #
 1	i [ o -> u ] l	1.0	# v i [ o -> u ] l i n u #
-1	i [ n f -> z z ] a	4.0	# [ n g -> 0 ] [ 0 -> a r ] r i [ n f -> z z ] a r i #
+1	i [ n f -> z z ] a	4.0	# [ n g -> a r ] r i [ n f -> z z ] a r i #
 1	i [ n -> g ] n	1.0	# a s s i [ n -> g ] n a r i #
+1	i [ n -> c ] c	5.0	# [ s d -> v ] i [ l l -> r t ] i [ n -> c ] c h i u #
 1	i [ n -> 0 ] g	2.0	# f r i s i [ n -> 0 ] g [ 0 -> n ] u #
 1	i [ l l u -> g n o ] #	3.0	# f i [ l l u -> g n o ] #
 1	i [ l l u -> g n a ] #	3.0	# f i [ l l u -> g n a ] #
-1	i [ l l -> r t ] i	5.0	# [ s d -> 0 ] [ 0 -> v ] i [ l l -> r t ] i [ n -> c ] c h i u #
 1	i [ l l -> g n ] u	2.0	# f i [ l l -> g n ] u #
 1	i [ l -> s u ] l	5.0	# p i [ l -> s u ] l i [ c u s -> d d ] u #
 1	i [ l -> r ] o	1.0	# s c i [ l -> r ] o c c u #
 1	i [ j -> 0 ] a	1.0	# c a c c i [ j -> 0 ] a r i #
 1	i [ i -> ì ] r	1.0	# a d d i [ i -> ì ] r i #
 1	i [ g n -> l l ] u	2.0	# f i [ g n -> l l ] u #
-1	i [ g n -> c a l ] a	4.0	# [ t -> 0 ] [ 0 -> c ] i [ g n -> c a l ] a #
 1	i [ g n -> c ] ò	2.0	# c i r i [ g n -> c ] ò c c u l u #
 1	i [ g g h i -> d d ] a	4.0	# n c h i r c h i [ g g h i -> d d ] a r i #
 1	i [ g g h -> b b ] i	3.0	# a f f i [ g g h -> b b ] i a r i #
-1	i [ g g -> u c ] i	3.0	# [ g -> 0 ] [ 0 -> c ] i [ g g -> u c ] i u l e n a #
-1	i [ g g -> c ] i	3.0	# [ g -> 0 ] [ 0 -> c ] i [ g g -> c ] i u l e n a #
 1	i [ g -> u r ] g	2.0	# g i [ g -> u r ] g i u l e n a #
 1	i [ g -> 0 ] a	1.0	# r i [ g -> 0 ] a t t e r i #
-1	i [ f -> z z ] a	4.0	# [ n g -> 0 ] [ 0 -> a r ] r i [ f -> z z ] a r i #
-1	i [ e d d u -> a n i n o ] #	6.0	# [ b -> 0 ] [ 0 -> c ] i [ e d d u -> a n i n o ] #
-1	i [ e d d u -> a n i n a ] #	6.0	# [ b -> 0 ] [ 0 -> c ] i [ e d d u -> a n i n a ] #
-1	i [ e d d -> a n i n ] u	5.0	# [ b -> 0 ] [ 0 -> c ] i [ e d d -> a n i n ] u #
+1	i [ f -> z z ] a	4.0	# [ n g -> a r ] r i [ f -> z z ] a r i #
 1	ì [ e -> g a ] n	3.0	# [ 0 -> a ] r ì [ e -> g a ] n u #
 1	i [ d d a -> g g h i à ] r	5.0	# n c h i r c h i [ d d a -> g g h i à ] r i #
 1	i [ d d -> t r ] u	2.0	# p i [ d d -> t r ] u s i n u #
@@ -1804,24 +1878,21 @@
 1	i [ b b -> g g h ] i	3.0	# a f f i [ b b -> g g h ] i a r i #
 1	i [ a r i -> 0 ] #	3.0	# g a d d a r i [ a r i -> 0 ] #
 1	i [ à n n -> 0 ] a	3.0	# a g g h i [ à n n -> 0 ] a [ 0 -> n d ] r a #
-1	i [ a n i n -> e d d ] u	5.0	# [ c -> 0 ] [ 0 -> b ] i [ a n i n -> e d d ] u #
 1	i [ a n f a -> r b i ] g	4.0	# g i [ a n f a -> r b i ] g g h i u n i #
-1	i [ a -> r à ] r	5.0	# [ f u r r -> 0 ] [ 0 -> p ] i [ a -> r à ] r i #
 1	i [ a -> j à ] r	2.0	# c a c c i [ a -> j à ] r i #
-1	i [ a -> c ] i	4.0	# [ c h -> 0 ] [ 0 -> p ] i [ a -> c ] i [ t -> n ] i a r i #
 1	i [ à -> a ] p	1.0	# i [ à -> a ] p r i r i #
 1	i [ à -> a ] #	2.0	# [ g -> 0 ]i [ à -> a ] #
 1	i [ a -> 0 ] s	2.0	# b i [ a -> 0 ] s t i m [ 0 -> i ] a r i #
 1	i [ a -> 0 ] r	1.0	# g i [ a -> 0 ] r s u m i n u #
 1	i [ a -> 0 ] c	1.0	# a c c h i [ a -> 0 ] c c h i a r i #
 1	i [ 0 -> u l i ] a	3.0	# p i c c h i [ 0 -> u l i ] a r i #
+1	i [ 0 -> u ] l	1.0	# g i [ 0 -> u ] l e p p u #
 1	i [ 0 -> u ] g	1.0	# g i [ 0 -> u ] g g i u l e n a #
 1	i [ 0 -> s ] t	3.0	# p i [ 0 -> s ] t [ t i m -> 0 ] u s u #
 1	i [ 0 -> r ] b	3.0	# a [ r -> g ] g i [ 0 -> r ] b [ b a -> à ] r i #
 1	i [ 0 -> p p ] a	2.0	# s c i [ 0 -> p p ] a r i #
 1	i [ 0 -> p i ] d	3.0	# n [ g -> c ] r i [ 0 -> p i ] d d i r i #
 1	i [ 0 -> p i ] c	2.0	# p i [ p i -> 0 ] r i [ 0 -> p i ] c c h i u #
-1	i [ 0 -> n ] a	2.0	# f a r r à [ n -> 0 ] i [ 0 -> n ] a #
 1	i [ 0 -> j ] u	1.0	# a r r i [ 0 -> j ] u n c a r i #
 1	i [ 0 -> j ] e	3.0	# t i [ 0 -> j ] e [ l l -> d d ] a #
 1	i [ 0 -> ì ] r	4.0	# [ f -> 0 ]a [ g u -> r ] r i [ 0 -> ì ] r i #
@@ -1839,7 +1910,6 @@
 1	h [ i -> 0 ] ù	1.0	# c c h [ i -> 0 ] ù #
 1	g [ u -> ù ] m	1.0	# r a g [ u -> ù ] m i a r i #
 1	g [ u -> h ] e	2.0	# [ s -> 0 ]g [ u -> h ] e r c i u #
-1	g [ u -> 0 ] a	3.0	# [ a g -> 0 ] [ 0 -> n ] g [ u -> 0 ] a t t a r i #
 1	g [ n -> 0 ] a	3.0	# g [ n -> 0 ] a v i [ a t -> u s ] u #
 1	g [ l -> r ] i	1.0	# n g [ l -> r ] i s i #
 1	g [ l -> r ] a	1.0	# a g g [ l -> r ] a s s a r i #
@@ -1871,7 +1941,6 @@
 1	f [ 0 -> u ] o	1.0	# f [ 0 -> u ] o c u #
 1	f [ 0 -> u ] a	6.0	# [ s u r -> 0 ]f [ 0 -> u ] a r [ e d d -> 0 ] u #
 1	e [ t -> r ] t	1.0	# c u p e [ t -> r ] t a #
-1	e [ t -> n ] a	2.0	# [ z -> 0 ] [ 0 -> p ] e [ t -> n ] a #
 1	e [ r -> t ] t	1.0	# c u p e [ r -> t ] t a #
 1	e [ r -> d d ] a	2.0	# m a f a r e [ r -> d d ] a #
 1	e [ n n -> d d ] a	2.0	# a b b e c c e [ n n -> d d ] a r i u #
@@ -1911,11 +1980,11 @@
 1	c [ u -> o ] r	1.0	# c [ u -> o ] r t i #
 1	c [ u -> c o ] #	2.0	# p o [ r -> 0 ] c [ u -> c o ] #
 1	c [ u -> a p ] p	3.0	# c [ u -> a p ] p [ e r -> a ] t a #
-1	c [ u -> 0 ] o	2.0	# [ v -> 0 ] [ 0 -> p ] i r c [ u -> 0 ] o c u #
-1	c [ r o p -> ò c u l ] a	6.0	# [ c -> 0 ] [ 0 -> b i ] r i c [ r o p -> ò c u l ] a #
+1	c [ u -> 0 ] o	2.0	# [ v -> p ] i r c [ u -> 0 ] o c u #
+1	c [ r o p -> ò c u l ] a	6.0	# [ c -> b i ] r i c [ r o p -> ò c u l ] a #
 1	c [ o r v -> 0 ] u	3.0	# c [ o r v -> 0 ] u [ 0 -> r b o ] #
 1	c [ o r -> ò l ] l	4.0	# c [ o r -> ò l ] l [ 0 -> i r ] a #
-1	c [ o p -> ò c u l ] a	6.0	# [ c -> 0 ] [ 0 -> b i ] r i c [ o p -> ò c u l ] a #
+1	c [ o p -> ò c u l ] a	6.0	# [ c -> b i ] r i c [ o p -> ò c u l ] a #
 1	c [ ò l l i -> o ] r	4.0	# c [ ò l l i -> o ] r [ 0 -> l ] a #
 1	c [ o -> u ] m	1.0	# c [ o -> u ] m u #
 1	c [ o -> u ] g	1.0	# c [ o -> u ] g n u g a r i #
@@ -1928,7 +1997,7 @@
 1	c [ h i -> u ] r	2.0	# z ù c c [ h i -> u ] r u #
 1	c [ h i -> a ] r	2.0	# c à n c [ h i -> a ] r u #
 1	c [ h i -> a ] #	2.0	# d u n c [ h i -> a ] #
-1	c [ h -> u n ] i	3.0	# [ l -> 0 ] [ 0 -> c ] u c c [ h -> u n ] i a r i #
+1	c [ h -> u n ] i	3.0	# [ l -> c ] u c c [ h -> u n ] i a r i #
 1	c [ e t -> u g n a ] t	5.0	# [ a c -> 0 ]c [ e t -> u g n a ] t a #
 1	c [ e -> i o ] t	2.0	# c [ e -> i o ] t t a #
 1	c [ e -> è ] r	3.0	# l u c [ e -> è ] r t [ 0 -> u l ] a #
@@ -1937,7 +2006,6 @@
 1	c [ c h i -> 0 ] a	7.0	# [ b à -> 0 ]c [ c h i -> 0 ] a [ r -> m p u t ] u #
 1	c [ c h -> 0 ] ì	2.0	# a r m a c [ c h -> 0 ] ì a #
 1	c [ c h -> 0 ] i	2.0	# c [ c h -> 0 ] i ù #
-1	c [ c a -> à ] r	4.0	# a [ d d -> n n ] i [ 0 -> s ] c [ c a -> à ] r i #
 1	c [ c -> 0 ] i	1.0	# c [ c -> 0 ] i #
 1	c [ c -> 0 ] e	1.0	# c [ c -> 0 ] e t t a #
 1	c [ c -> 0 ] a	3.0	# a r r i [ z z -> s ] i c [ c -> 0 ] a r i #
@@ -1956,11 +2024,11 @@
 1	c [ à -> a ] u	1.0	# c [ à -> a ] u c i u #
 1	c [ à -> a ] r	1.0	# c a r r i c [ à -> a ] r i #
 1	c [ à -> a ] d	1.0	# d i s c [ à -> a ] d i r i #
-1	c [ a -> 0 ] s	2.0	# [ u -> 0 ] [ 0 -> o ] c c [ a -> 0 ] s i o n i #
+1	c [ a -> 0 ] s	2.0	# [ u -> o ] c c [ a -> 0 ] s i o n i #
 1	c [ 0 -> ù ] o	1.0	# a n c [ 0 -> ù ] o r a #
 1	c [ 0 -> r ] a	2.0	# c [ 0 -> r ] a p [ r -> 0 ] a r u #
 1	c [ 0 -> h i ] e	2.0	# a c c [ 0 -> h i ] e t t u #
-1	c [ 0 -> c ] u	5.0	# [ p i -> 0 ] [ 0 -> b ] r [ 0 -> a c ] c o c [ 0 -> c ] u #
+1	c [ 0 -> c ] u	5.0	# [ p i -> b ] r [ 0 -> a c ] c o c [ 0 -> c ] u #
 1	c [ 0 -> c ] h	1.0	# c [ 0 -> c ] h i ù #
 1	c [ 0 -> c ] e	1.0	# c [ 0 -> c ] e t t a #
 1	c [ 0 -> a d ] e	2.0	# c [ 0 -> a d ] e r a #
@@ -1998,7 +2066,6 @@
 1	a [ z z -> t ] ù	4.0	# c a [ t -> z z ] i c a [ z z -> t ] ù m m u l a #
 1	a [ z z -> t ] i	4.0	# c a [ z z -> t ] i c a [ t -> z z ] ù m m u l a #
 1	a [ z z -> n c a r ] i	4.0	# c a [ z z -> n c a r ] i a t a #
-1	a [ z z -> c c ] i	5.0	# [ c -> 0 ] [ 0 -> f ] a [ z z -> c c ] i a [ 0 -> l a ] t a #
 1	a [ v v è -> b b i ] n	3.0	# a [ v v è -> b b i ] n i r i #
 1	a [ v v è -> b b e ] n	3.0	# a [ v v è -> b b e ] n i r i #
 1	a [ v v -> b b ] r	2.0	# a [ v v -> b b ] r a z z a r i #
@@ -2014,19 +2081,19 @@
 1	a [ u -> 0 ] c	2.0	# a [ u -> 0 ] c [ 0 -> i ] e d d u #
 1	a [ t t -> v ] u	2.0	# b a [ t t -> v ] u s u #
 1	a [ t a -> 0 ] z	6.0	# c a [ t a -> 0 ] z z [ 0 -> i c a t ] ù m m u l a #
-1	a [ t a -> 0 ] #	6.0	# [ c u -> 0 ] [ 0 -> l a m p a ] z z a [ t a -> 0 ] #
+1	a [ t a -> 0 ] #	6.0	# [ c u -> l a m p a ] z z a [ t a -> 0 ] #
 1	a [ t -> z z ] ù	4.0	# c a [ z z -> t ] i c a [ t -> z z ] ù m m u l a #
 1	a [ t -> z z ] i	4.0	# c a [ t -> z z ] i c a [ z z -> t ] ù m m u l a #
 1	a [ t -> c i n ] a	3.0	# m a n c i a [ t -> c i n ] a #
 1	a [ t -> c i ] a	2.0	# m a n c i a [ t -> c i ] a #
 1	a [ s c i -> n n ] u	3.0	# a [ s c i -> n n ] u r b a r i #
 1	a [ s -> c i ] o	2.0	# f a [ s -> c i ] o l a #
-1	a [ s -> 0 ] t	7.0	# [ m -> 0 ] [ 0 -> n c h i ] m a [ s -> 0 ] t [ 0 -> u r ] a #
+1	a [ s -> 0 ] t	7.0	# [ m -> n c h i ] m a [ s -> 0 ] t [ 0 -> u r ] a #
 1	a [ r u -> 0 ] #	3.0	# g n [ ò -> o ] g n a [ r u -> 0 ] #
 1	a [ r r i -> c c ] a	7.0	# a [ r r i -> c c ] a [ 0 -> l u m à ] r i #
 1	a [ r r -> l l ] i	2.0	# a [ r r -> l l ] i m a r r a r i #
 1	a [ r r -> 0 ] u	3.0	# a b b a [ r r -> 0 ] u [ 0 -> t t ] i r i #
-1	a [ r ì -> d i ] a	3.0	# [ r -> 0 ] [ 0 -> d ] u m i n i c a [ r ì -> d i ] a #
+1	a [ r ì -> d i ] a	3.0	# [ r -> d ] u m i n i c a [ r ì -> d i ] a #
 1	a [ r a r -> f ] a	4.0	# [ c -> 0 ]a [ r a r -> f ] a #
 1	a [ r a -> d à ] r	2.0	# s q u a [ r a -> d à ] r i #
 1	a [ r a -> 0 ] n	2.0	# p a p a [ r a -> 0 ] n z ì c u l a #
@@ -2036,7 +2103,7 @@
 1	a [ r -> n ] u	1.0	# f à r f a [ r -> n ] u #
 1	a [ r -> g g ] r	2.0	# a [ r -> g g ] r a n c i a r i #
 1	a [ r -> d d ] r	6.0	# a [ r -> d d ] r i [ s b -> v ] i g [ g h -> l ] i a r i #
-1	a [ r -> d ] ì	2.0	# [ r -> 0 ] [ 0 -> d ] u m i n i c a [ r -> d ] ì a #
+1	a [ r -> d ] ì	2.0	# [ r -> d ] u m i n i c a [ r -> d ] ì a #
 1	a [ r -> d ] d	1.0	# c u s t a [ r -> d ] d e d d a #
 1	a [ r -> c ] q	1.0	# q u a [ r -> c ] q u a r i a r i #
 1	a [ r -> 0 ] b	3.0	# a [ r -> 0 ] b [ ì -> b r i ] s c i r i #
@@ -2044,8 +2111,6 @@
 1	a [ p p -> f f ] a	2.0	# a r r a [ p p -> f f ] a r i #
 1	à [ p p -> c c ] a	2.0	# l à [ p p -> c c ] a r a #
 1	a [ p i d d -> s t ] a	6.0	# c a [ p i d d -> s t ] a [ r -> g n ] u #
-1	a [ p -> m ] p	3.0	# [ p -> 0 ] [ 0 -> z ] a [ p -> m ] p a l [ 0 -> e ] u #
-1	a [ p -> f ] o	3.0	# [ m p -> 0 ] [ 0 -> n f ] a [ p -> f ] o c c h i a #
 1	a [ p -> b b ] u	2.0	# c a [ p -> b b ] u b b u #
 1	à [ p -> b b ] i	2.0	# l à [ p -> b b ] i s i #
 1	a [ n u -> r o ] #	2.0	# f à r f a [ n u -> r o ] #
@@ -2055,22 +2120,23 @@
 1	a [ n n a -> 0 ] v	3.0	# a [ n n a -> 0 ] v a r a r i #
 1	a [ n n -> m a j ] u	3.0	# d a [ n n -> m a j ] u #
 1	a [ n n -> d d ] i	3.0	# a [ n n -> d d ] i [ s -> c ] c a r i #
+1	a [ n f -> m p ] a	2.0	# c i a [ n f -> m p ] a #
 1	a [ n c i a -> s ] t	6.0	# m a [ n c i a -> s ] t [ 0 -> i c o g n ] a #
 1	a [ n c a -> 0 ] t	6.0	# s [ c -> t r u p p ] i a [ n c a -> 0 ] t u #
 1	a [ n c -> b b ] u	4.0	# a [ n c -> b b ] u [ g n -> t ] a r i #
 1	a [ n -> u ] t	1.0	# a r r i s a [ n -> u ] t a r i #
 1	a [ n -> r ] u	1.0	# f à r f a [ n -> r ] u #
 1	a [ n -> g g ] i	3.0	# n f a r r a [ n -> g g ] i [ 0 -> n ] a r i #
-1	a [ n -> f ] f	2.0	# [ g -> 0 ] [ 0 -> c ] i a [ n -> f ] f a g g h i u n i #
+1	a [ n -> f ] f	2.0	# [ g -> c ] i a [ n -> f ] f a g g h i u n i #
 1	a [ n -> 0 ] i	3.0	# [ 0 -> m ] p u r p a [ n -> 0 ] i [ 0 -> n ] a r i #
 1	a [ n -> 0 ] g	1.0	# m a r a [ n -> 0 ] g u n i #
-1	a [ n -> 0 ] f	2.0	# [ g -> 0 ] [ 0 -> c ] i a [ n -> 0 ] f a g g h i u n i #
+1	a [ n -> 0 ] f	2.0	# [ g -> c ] i a [ n -> 0 ] f a g g h i u n i #
 1	a [ n -> 0 ] c	1.0	# a [ n -> 0 ] c i e d d u #
+1	a [ m p -> n f ] a	2.0	# c i a [ m p -> n f ] a #
 1	a [ m p -> f f ] a	2.0	# c i a [ m p -> f f ] a #
 1	a [ m m -> b b ] a	2.0	# z a [ m m -> b b ] a r a #
 1	a [ m -> b ] b	1.0	# z a [ m -> b ] b a r a #
 1	a [ m -> 0 ] i	2.0	# l a [ m -> 0 ] i [ 0 -> m ] a r i #
-1	a [ l u -> 0 ] #	5.0	# [ m -> 0 ] [ 0 -> t i n t ] a [ l u -> 0 ] #
 1	a [ l o -> 0 ] r	2.0	# p a [ l o -> 0 ] r [ 0 -> o l ] a #
 1	a [ l l -> r r ] a	2.0	# p a [ l l -> r r ] a r i #
 1	a [ l l -> d d ] i	2.0	# a [ l l -> d d ] i c c a r i #
@@ -2085,9 +2151,6 @@
 1	à [ j -> g ] a	1.0	# z à [ j -> g ] a r a #
 1	a [ j -> g ] a	1.0	# f r a [ j -> g ] a r i #
 1	a [ i u -> j o ] #	2.0	# m a [ i u -> j o ] #
-1	a [ i n u -> l o r t o ] #	6.0	# [ g -> 0 ] [ 0 -> m ] a [ i n u -> l o r t o ] #
-1	a [ i n u -> 0 ] #	6.0	# [ g -> 0 ] [ 0 -> m a l o r t ] a [ i n u -> 0 ] #
-1	a [ i n -> l o r t ] u	5.0	# [ g -> 0 ] [ 0 -> m ] a [ i n -> l o r t ] u #
 1	a [ i a -> j à ] r	2.0	# n s a [ i a -> j à ] r i #
 1	à [ i -> v u ] r	2.0	# c i à [ i -> v u ] r u #
 1	à [ i -> g ] a	1.0	# z à [ i -> g ] a r a #
@@ -2107,14 +2170,13 @@
 1	a [ f f a -> p p à ] r	3.0	# a r r a [ f f a -> p p à ] r i #
 1	a [ f f -> m p ] a	2.0	# c i a [ f f -> m p ] a #
 1	a [ f f -> b b r ] a	3.0	# a [ f f -> b b r ] a m o r i a #
-1	a [ f -> p ] o	3.0	# [ n f -> 0 ] [ 0 -> m p ] a [ f -> p ] o c c h i a #
-1	a [ f -> n ] f	2.0	# [ c -> 0 ] [ 0 -> g ] i a [ f -> n ] f a g g h i u n i #
+1	a [ f -> n ] f	2.0	# [ c -> g ] i a [ f -> n ] f a g g h i u n i #
 1	a [ d d i c c -> n n ] a	5.0	# a [ d d i c c -> n n ] a [ 0 -> s c à ] r i #
-1	a [ d d -> l l ] u	4.0	# [ a b -> 0 ] [ 0 -> s ] b a [ d d -> l l ] u t t a r i #
+1	a [ d d -> l l ] u	4.0	# [ a b -> s ] b a [ d d -> l l ] u t t a r i #
 1	a [ d -> u r ] e	2.0	# a [ d -> u r ] e n z a #
 1	a [ d -> t ] o	1.0	# a [ d -> t ] o r n u #
 1	a [ d -> r i ] è	2.0	# a c c a [ d -> r i ] è m i c u #
-1	a [ d -> r ] ì	2.0	# [ d -> 0 ] [ 0 -> r ] u m i n i c a [ d -> r ] ì a #
+1	a [ d -> r ] ì	2.0	# [ d -> r ] u m i n i c a [ d -> r ] ì a #
 1	a [ d -> r ] d	1.0	# c u s t a [ d -> r ] d e d d a #
 1	a [ c i -> s ] o	2.0	# f a [ c i -> s ] o l a #
 1	à [ c h i -> g a ] r	3.0	# z à [ c h i -> g a ] r a #
@@ -2134,7 +2196,6 @@
 1	a [ b b -> v v ] e	2.0	# a [ b b -> v v ] e z z u #
 1	a [ b b -> v ] r	2.0	# a [ b b -> v ] r a c i u #
 1	à [ b b -> p ] i	2.0	# l à [ b b -> p ] i s i #
-1	a [ b b -> n t ] i	4.0	# [ b -> 0 ] [ 0 -> c i ] a [ b b -> n t ] i a r i #
 1	a [ b b -> m m ] a	2.0	# z a [ b b -> m m ] a r a #
 1	a [ b b -> f f ] a	2.0	# c a r r a [ b b -> f f ] a #
 1	a [ b -> m ] b	1.0	# z a [ b -> m ] b a r a #
@@ -2143,72 +2204,193 @@
 1	a [ 0 -> v a ] #	5.0	# [ c a t a -> 0 ]n a n n a [ 0 -> v a ] #
 1	a [ 0 -> u r a ] #	4.0	# p a [ r o -> 0 ] l a [ 0 -> u r a ] #
 1	a [ 0 -> u l a ] #	3.0	# p a [ l à u -> 0 ] r a [ 0 -> u l a ] #
+1	a [ 0 -> u ] t	1.0	# a r r i s a [ 0 -> u ] t a r i #
 1	a [ 0 -> u ] d	1.0	# a [ 0 -> u ] d e n z a #
 1	a [ 0 -> t a ] z	6.0	# c a [ 0 -> t a ] z z [ i c a t -> 0 ] ù m m u l a #
 1	a [ 0 -> s t à ] r	5.0	# a c c [ i r -> 0 ] r a [ 0 -> s t à ] r i #
-1	a [ 0 -> s ] t	7.0	# [ n c h i -> 0 ] [ 0 -> m ] m a [ 0 -> s ] t [ u r -> 0 ] a #
+1	a [ 0 -> s ] t	7.0	# [ n c h i -> m ] m a [ 0 -> s ] t [ u r -> 0 ] a #
 1	a [ 0 -> r a ] n	2.0	# p a p a [ 0 -> r a ] n z ì c u l a #
 1	a [ 0 -> p p à ] r	5.0	# a c c [ i r -> 0 ] r a [ 0 -> p p à ] r i #
 1	a [ 0 -> n a ] #	2.0	# g a z z a [ 0 -> n a ] #
 1	a [ 0 -> n ] g	1.0	# m a r a [ 0 -> n ] g u n i #
-1	a [ 0 -> n ] f	2.0	# [ c -> 0 ] [ 0 -> g ] i a [ 0 -> n ] f a g g h i u n i #
-1	a [ 0 -> m ] p	2.0	# [ p -> 0 ] [ 0 -> z ] a [ 0 -> m ] p a l e u #
-1	a [ 0 -> l a ] t	5.0	# [ c -> 0 ] [ 0 -> f ] a [ z z -> c c ] i a [ 0 -> l a ] t a #
+1	a [ 0 -> n ] f	2.0	# [ c -> g ] i a [ 0 -> n ] f a g g h i u n i #
+1	a [ 0 -> l a ] t	5.0	# [ c -> f ] a [ z z -> c c ] i a [ 0 -> l a ] t a #
 1	a [ 0 -> g g i o ] i	4.0	# m a [ 0 -> g g i o ] i u #
 1	à [ 0 -> g ] u	1.0	# p à [ 0 -> g ] u r u #
 1	a [ 0 -> g ] ù	2.0	# a [ 0 -> g ] ù m [ m -> 0 ] a r u #
 1	à [ 0 -> g ] a	1.0	# z à [ 0 -> g ] a r a #
 1	a [ 0 -> c c e t ] t	5.0	# [ c u g n -> 0 ]a [ 0 -> c c e t ] t a #
-1	# [ z ì n g a r -> 0 ] [	6.0	# [ z ì n g a r -> 0 ] [ 0 -> m o l ] a #
-1	# [ v a -> 0 ] [	2.0	# [ v a -> 0 ] [ 0 -> p i ] r c o c u #
-1	# [ ù -> 0 ] [	1.0	# [ ù -> 0 ] [ 0 -> u ] n i c u #
-1	# [ t i -> 0 ] [	2.0	# [ t i -> 0 ] [ 0 -> s u ] g n a #
-1	# [ s f -> 0 ] [	3.0	# [ s f -> 0 ] [ 0 -> c ] r a [ c -> f ] a s s a r i #
-1	# [ r u m m -> 0 ] [	4.0	# [ r u m m -> 0 ] [ 0 -> p i g ] u l i a r i #
-1	# [ r i s -> 0 ] [	3.0	# [ r i s -> 0 ] [ 0 -> a t ] t a g n a r i #
-1	# [ p u r -> 0 ] [	4.0	# [ p u r -> 0 ] [ 0 -> m a n ] c [ h -> 0 ] i a r i #
-1	# [ p i g -> 0 ] [	4.0	# [ p i g -> 0 ] [ 0 -> r u m m ] u l i a r i #
-1	# [ o r -> 0 ] [	3.0	# [ o r -> 0 ] [ 0 -> à ] u [ 0 -> r o ] #
-1	# [ n z u r -> 0 ] [	6.0	# [ n z u r -> 0 ] [ 0 -> s t ] r [ 0 -> i t t ] u #
-1	# [ n z -> 0 ] [	2.0	# [ n z -> 0 ] [ 0 -> m p ] i l l a #
-1	# [ n n u m -> 0 ] [	4.0	# [ n n u m -> 0 ] [ 0 -> d i v ] i n a r i #
-1	# [ n f -> 0 ] [	3.0	# [ n f -> 0 ] [ 0 -> m p ] a [ f -> p ] o c c h i a #
-1	# [ n c h i -> 0 ] [	7.0	# [ n c h i -> 0 ] [ 0 -> m ] m a [ 0 -> s ] t [ u r -> 0 ] a #
-1	# [ n à -> 0 ] [	2.0	# [ n à -> 0 ] [ 0 -> d u ] c c a r a #
-1	# [ n a -> 0 ] [	2.0	# [ n a -> 0 ] [ 0 -> c o ] p p a #
-1	# [ m o l -> 0 ] [	6.0	# [ m o l -> 0 ] [ 0 -> z ì n g a r ] a #
-1	# [ m i n -> 0 ] [	3.0	# [ m i n -> 0 ] [ 0 -> a d d ] i m i n a g g h i a #
-1	# [ m a l u -> 0 ] [	5.0	# [ m a l u -> 0 ] [ 0 -> t i n t o ] #
-1	# [ m a l -> 0 ] [	4.0	# [ m a l -> 0 ] [ 0 -> t i n t ] u #
-1	# [ j e -> 0 ] [	3.0	# [ j e -> 0 ] [ 0 -> è ] r [ 0 -> i ] v a #
-1	# [ i e -> 0 ] [	3.0	# [ i e -> 0 ] [ 0 -> è ] r [ 0 -> i ] v a #
-1	# [ i à v u -> 0 ] [	4.0	# [ i à v u -> 0 ] [ 0 -> a ] t u #
-1	# [ g i à -> 0 ] [	3.0	# [ g i à -> 0 ] [ 0 -> j a ] #
-1	# [ g a r r -> 0 ] [	4.0	# [ g a r r -> 0 ] [ 0 -> f i s s ] i a r i #
-1	# [ f r -> 0 ] [	2.0	# [ f r -> 0 ] [ 0 -> c i ] a t u #
-1	# [ f i s s -> 0 ] [	4.0	# [ f i s s -> 0 ] [ 0 -> g a r r ] i a r i #
-1	# [ f a n a r -> 0 ] [	7.0	# [ f a n a r -> 0 ] [ 0 -> c i à c c u l ] a #
-1	# [ e r -> 0 ] [	2.0	# [ e r -> 0 ] [ 0 -> a l ] b a #
-1	# [ c u t -> 0 ] [	7.0	# [ c u t -> 0 ] [ 0 -> n a n ] t [ u r -> 0 ] i [ u -> 0 ] s [ 0 -> t ] u #
-1	# [ c u p e r -> 0 ] [	5.0	# [ c u p e r -> 0 ] [ 0 -> m a n ] t a #
-1	# [ c i u c -> 0 ] [	4.0	# [ c i u c -> 0 ] [ 0 -> m ] i [ 0 -> n ] a r i #
-1	# [ c a t t i -> 0 ] [	5.0	# [ c a t t i -> 0 ] [ 0 -> v ì d u ] v u #
-1	# [ c a t -> 0 ] [	7.0	# [ c a t -> 0 ] [ 0 -> s b ] u [ n i -> t ] u [ s -> r a t ] u #
-1	# [ c a r c a r -> 0 ] [	6.0	# [ c a r c a r -> 0 ] [ 0 -> g ] a z z a [ 0 -> r a ] #
-1	# [ b u f f -> 0 ] [	4.0	# [ b u f f -> 0 ] [ 0 -> t i m p ] u l a t a #
-1	# [ b r -> 0 ] [	3.0	# [ b r -> 0 ] [ 0 -> a f f ] a m o r i a #
-1	# [ b o g -> 0 ] [	4.0	# [ b o g -> 0 ] [ 0 -> a r ] a n [ z -> c ] ì t u l a #
-1	# [ b ò f f -> 0 ] [	6.0	# [ b ò f f -> 0 ] [ 0 -> t i m p ] u l a [ 0 -> t a ] #
-1	# [ b a -> 0 ] [	2.0	# [ b a -> 0 ] [ 0 -> p i ] r c o c u #
-1	# [ a u z -> 0 ] [	3.0	# [ a u z -> 0 ] [ 0 -> j i s ] a r i #
-1	# [ a u -> 0 ] [	2.0	# [ a u -> 0 ] [ 0 -> j i ] s a r i #
-1	# [ a r r -> 0 ] [	4.0	# [ a r r -> 0 ] [ 0 -> c ] u [ t -> c ] u l i a r i #
-1	# [ a p -> 0 ] [	2.0	# [ a p -> 0 ] [ 0 -> m ] p a l u r a r i #
-1	# [ a n -> 0 ] [	2.0	# [ a n -> 0 ] [ 0 -> m i ] n i m i n a g g h i a #
-1	# [ a l -> 0 ] [	2.0	# [ a l -> 0 ] [ 0 -> e r ] b a #
-1	# [ a i -> 0 ] [	2.0	# [ a i -> 0 ] [ 0 -> à ] c u l a #
-1	# [ a f f -> 0 ] [	3.0	# [ a f f -> 0 ] [ 0 -> b r ] a m o r i a #
-1	# [ a d -> 0 ] [	2.0	# [ a d -> 0 ] [ 0 -> n ] d i n g a r i #
+1	# [ z ì n g a r -> m o l ] a	6.0	# [ z ì n g a r -> m o l ] a #
+1	# [ z -> p ] e	2.0	# [ z -> p ] e [ t -> n ] a #
+1	# [ v a -> p i ] r	2.0	# [ v a -> p i ] r c o c u #
+1	# [ v -> t ] a	3.0	# [ v -> t ] a [ r d -> l i ] a r i #
+1	# [ v -> m m ] u	2.0	# [ v -> m m ] u c c u n i #
+1	# [ v -> m m ] i	2.0	# [ v -> m m ] i n n i t t a #
+1	# [ v -> m ] u	1.0	# [ v -> m ] u c c u n i #
+1	# [ v -> b ] i	1.0	# [ v -> b ] i t u d d a #
+1	# [ v -> a b b ] u	3.0	# [ v -> a b b ] u c c u n i #
+1	# [ v -> a b b ] a	3.0	# [ v -> a b b ] a g n a t a #
+1	# [ ù -> u ] n	1.0	# [ ù -> u ] n i c u #
+1	# [ u -> t ] a	3.0	# [ u -> t ] a [ r d -> l i ] a r i #
+1	# [ u -> o ] l	1.0	# [ u -> o ] l i v a #
+1	# [ u -> a ] c	1.0	# [ u -> a ] c c h i a l i #
+1	# [ t i -> s u ] g	2.0	# [ t i -> s u ] g n a #
+1	# [ t -> c ] i	4.0	# [ t -> c ] i [ g n -> c a l ] a #
+1	# [ s f -> c ] r	3.0	# [ s f -> c ] r a [ c -> f ] a s s a r i #
+1	# [ s d -> v ] i	5.0	# [ s d -> v ] i [ l l -> r t ] i [ n -> c ] c h i u #
+1	# [ s -> g i ] a	2.0	# [ s -> g i ] a n f a g g h i u n i #
+1	# [ s -> a r r i ] c	4.0	# [ s -> a r r i ] c ò g g h i r i #
+1	# [ r u m m -> p i g ] u	4.0	# [ r u m m -> p i g ] u l i a r i #
+1	# [ r i s -> a t ] t	3.0	# [ r i s -> a t ] t a g n a r i #
+1	# [ r -> l ] a	4.0	# [ r -> l ] a n z [ 0 -> u d d ] a #
+1	# [ r -> b ] u	1.0	# [ r -> b ] u m m u l i a r i #
+1	# [ p u r -> m a n ] c	4.0	# [ p u r -> m a n ] c [ h -> 0 ] i a r i #
+1	# [ p i g -> r u m m ] u	4.0	# [ p i g -> r u m m ] u l i a r i #
+1	# [ p -> n ] a	4.0	# [ p -> n ] a r [ r a c -> g ] i a r i #
+1	# [ p -> m ] i	1.0	# [ p -> m ] i s i r i n u #
+1	# [ p -> c h ] i	3.0	# [ p -> c h ] i r [ 0 -> i ] c o p u #
+1	# [ p -> a b b ] a	3.0	# [ p -> a b b ] a c c a r i a t u #
+1	# [ o r -> à ] u	3.0	# [ o r -> à ] u [ 0 -> r o ] #
+1	# [ o -> u ] v	1.0	# [ o -> u ] v u #
+1	# [ o -> u ] p	1.0	# [ o -> u ] p a #
+1	# [ o -> u ] m	1.0	# [ o -> u ] m u #
+1	# [ o -> ò ] l	1.0	# [ o -> ò ] l i r i #
+1	# [ o -> à u ] r	2.0	# [ o -> à u ] r u #
+1	# [ o -> a ] t	1.0	# [ o -> a ] t u #
+1	# [ o -> a ] l	1.0	# [ o -> a ] l i v a #
+1	# [ n z u r -> s t ] r	6.0	# [ n z u r -> s t ] r [ 0 -> i t t ] u #
+1	# [ n z -> m p ] i	2.0	# [ n z -> m p ] i l l a #
+1	# [ n v -> m m ] i	2.0	# [ n v -> m m ] i a r i #
+1	# [ n n u m -> d i v ] i	4.0	# [ n n u m -> d i v ] i n a r i #
+1	# [ n g -> i ] a	2.0	# [ n g -> i ] a s s a #
+1	# [ n f -> m p ] a	3.0	# [ n f -> m p ] a [ f -> p ] o c c h i a #
+1	# [ n c h i -> m ] m	7.0	# [ n c h i -> m ] m a [ 0 -> s ] t [ u r -> 0 ] a #
+1	# [ n à -> d u ] c	2.0	# [ n à -> d u ] c c a r a #
+1	# [ n a -> c o ] p	2.0	# [ n a -> c o ] p p a #
+1	# [ n -> s ] g	1.0	# [ n -> s ] g r i g n a r i #
+1	# [ n -> d ] i	1.0	# [ n -> d ] i c h i a r i #
+1	# [ m p -> n z ] i	2.0	# [ m p -> n z ] i l l a #
+1	# [ m p -> n f ] a	3.0	# [ m p -> n f ] a [ p -> f ] o c c h i a #
+1	# [ m o l -> z ì n g a r ] a	6.0	# [ m o l -> z ì n g a r ] a #
+1	# [ m m -> v ] u	2.0	# [ m m -> v ] u c c u n i #
+1	# [ m m -> n v ] i	2.0	# [ m m -> n v ] i a r i #
+1	# [ m m -> n s ] i	4.0	# [ m m -> n s ] i [ z z -> g n ] a r i #
+1	# [ m m -> b ] u	2.0	# [ m m -> b ] u r g i u #
+1	# [ m i n -> a d d ] i	3.0	# [ m i n -> a d d ] i m i n a g g h i a #
+1	# [ m b -> n v ] u	2.0	# [ m b -> n v ] u c c u l a r i #
+1	# [ m b -> n s ] i	4.0	# [ m b -> n s ] i [ z z -> g n ] a r i #
+1	# [ m a l u -> t i n t o ] #	5.0	# [ m a l u -> t i n t o ] #
+1	# [ m a l -> t i n t ] u	4.0	# [ m a l -> t i n t ] u #
+1	# [ m a c -> v u s ] c	6.0	# [ m a c -> v u s ] c [ 0 -> a g g ] h i a #
+1	# [ m a c -> b u s ] c	6.0	# [ m a c -> b u s ] c [ 0 -> a g g ] h i a #
+1	# [ m -> v ] u	1.0	# [ m -> v ] u c c u n i #
+1	# [ m -> t i n t ] a	5.0	# [ m -> t i n t ] a [ l u -> 0 ] #
+1	# [ m -> n c h i ] m	7.0	# [ m -> n c h i ] m a [ s -> 0 ] t [ 0 -> u r ] a #
+1	# [ l -> r ] a	4.0	# [ l -> r ] a n z [ u d d -> 0 ] a #
+1	# [ l -> d d ] i	3.0	# [ l -> d d ] i m [ 0 -> i ] u n i #
+1	# [ l -> d ] i	1.0	# [ l -> d ] i c e n z a #
+1	# [ l -> c ] u	3.0	# [ l -> c ] u c c [ h -> u n ] i a r i #
+1	# [ l -> b ] u	4.0	# [ l -> b ] u [ c c h -> r r ] i a r i #
+1	# [ l -> a d d ] à	3.0	# [ l -> a d d ] à u r u #
+1	# [ j e -> è ] r	3.0	# [ j e -> è ] r [ 0 -> i ] v a #
+1	# [ j -> z ] a	2.0	# [ j -> z ] a m [ m -> p ] a #
+1	# [ j -> g n ] u	2.0	# [ j -> g n ] u g n u #
+1	# [ j -> g i ] u	2.0	# [ j -> g i ] u g n u #
+1	# [ j -> g ] i	1.0	# [ j -> g ] i r i #
+1	# [ i e -> è ] r	3.0	# [ i e -> è ] r [ 0 -> i ] v a #
+1	# [ i à v u -> a ] t	4.0	# [ i à v u -> a ] t u #
+1	# [ i a c q -> m p r ] u	4.0	# [ i a c q -> m p r ] u a #
+1	# [ i a c q -> m p ] u	4.0	# [ i a c q -> m p ] u a #
+1	# [ i a c q -> m b r ] u	4.0	# [ i a c q -> m b r ] u a #
+1	# [ i a c q -> m ] u	5.0	# [ i a c q -> m ] u [ 0 -> m m ] a #
+1	# [ i a c q -> b ] u	4.0	# [ i a c q -> b ] u a #
+1	# [ i -> n g ] a	2.0	# [ i -> n g ] a s s a #
+1	# [ i -> j ] o	1.0	# [ i -> j ] o c u #
+1	# [ i -> j ] e	1.0	# [ i -> j ] e l u #
+1	# [ i -> e ] s	1.0	# [ i -> e ] s e m p i u #
+1	# [ g u -> t ] a	4.0	# [ g u -> t ] a [ r d -> l i ] a r i #
+1	# [ g n -> j ] u	2.0	# [ g n -> j ] u g n u #
+1	# [ g n -> a d d ] i	4.0	# [ g n -> a d d ] i [ s -> c ] c a r i #
+1	# [ g i à -> j a ] #	3.0	# [ g i à -> j a ] #
+1	# [ g i -> s ] a	2.0	# [ g i -> s ] a n f a g g h i u n i #
+1	# [ g a r r -> f i s s ] i	4.0	# [ g a r r -> f i s s ] i a r i #
+1	# [ g -> m a l o r t ] a	6.0	# [ g -> m a l o r t ] a [ i n u -> 0 ] #
+1	# [ g -> j ] i	1.0	# [ g -> j ] i r i #
+1	# [ g -> j ] e	1.0	# [ g -> j ] e l u #
+1	# [ g -> c ] h	1.0	# [ g -> c ] h i a n c a #
+1	# [ f u r -> p i ] r	3.0	# [ f u r -> p i ] r i a r i #
+1	# [ f u r -> g i ] r	3.0	# [ f u r -> g i ] r i a r i #
+1	# [ f r -> c i ] a	2.0	# [ f r -> c i ] a t u #
+1	# [ f i s s -> g a r r ] i	4.0	# [ f i s s -> g a r r ] i a r i #
+1	# [ f a n a r -> c i à c c u l ] a	7.0	# [ f a n a r -> c i à c c u l ] a #
+1	# [ f -> v ] a	1.0	# [ f -> v ] a s c e d d u #
+1	# [ f -> p i ] r	4.0	# [ f -> p i ] r [ a c -> 0 ] c o c u #
+1	# [ f -> n t ] a	3.0	# [ f -> n t ] a r [ f -> t ] a g g h i a r i #
+1	# [ f -> c ] r	2.0	# [ f -> c ] r a [ c -> f ] a s s a r i #
+1	# [ e r -> a l ] b	2.0	# [ e r -> a l ] b a #
+1	# [ e -> p r i c i ] s	6.0	# [ e -> p r i c i ] s [ a t t -> 0 ] u #
+1	# [ è -> j e ] r	3.0	# [ è -> j e ] r [ i -> 0 ] v a #
+1	# [ è -> e ] s	1.0	# [ è -> e ] s s i r i #
+1	# [ è -> e ] r	2.0	# [ è -> e ] r [ i -> 0 ] v a #
+1	# [ e -> è ] r	2.0	# [ e -> è ] r [ 0 -> i ] v a #
+1	# [ e -> a ] r	2.0	# [ e -> a ] r v a [ n -> r ] e t t a #
+1	# [ d -> l ] i	4.0	# [ d -> l ] i [ s -> 0 ] c i [ u r -> n n ] a r i #
+1	# [ d -> a r ] e	2.0	# [ d -> a r ] e n z i a #
+1	# [ c u t -> n a n ] t	7.0	# [ c u t -> n a n ] t [ u r -> 0 ] i [ u -> 0 ] s [ 0 -> t ] u #
+1	# [ c u p e r -> m a n ] t	5.0	# [ c u p e r -> m a n ] t a #
+1	# [ c u -> l a m p a ] z	6.0	# [ c u -> l a m p a ] z z a [ t a -> 0 ] #
+1	# [ c i u c -> m ] i	4.0	# [ c i u c -> m ] i [ 0 -> n ] a r i #
+1	# [ c a t t i -> v ì d u ] v	5.0	# [ c a t t i -> v ì d u ] v u #
+1	# [ c a t -> s b ] u	7.0	# [ c a t -> s b ] u [ n i -> t ] u [ s -> r a t ] u #
+1	# [ c a r c a r -> g ] a	6.0	# [ c a r c a r -> g ] a z z a [ 0 -> r a ] #
+1	# [ c -> v a r v ] a	6.0	# [ c -> v a r v ] a r o [ z z -> t t ] u #
+1	# [ c -> q u ] a	2.0	# [ c -> q u ] a g g h i a r i #
+1	# [ c -> g ] h	1.0	# [ c -> g ] h i a n c a #
+1	# [ c -> f ] a	5.0	# [ c -> f ] a [ z z -> c c ] i a [ 0 -> l a ] t a #
+1	# [ c -> b ] i	5.0	# [ c -> b ] i [ a n i n -> e d d ] u #
+1	# [ b u f f -> t i m p ] u	4.0	# [ b u f f -> t i m p ] u l a t a #
+1	# [ b r -> a f f ] a	3.0	# [ b r -> a f f ] a m o r i a #
+1	# [ b o g -> a r ] a	4.0	# [ b o g -> a r ] a n [ z -> c ] ì t u l a #
+1	# [ b ò f f -> t i m p ] u	6.0	# [ b ò f f -> t i m p ] u l a [ 0 -> t a ] #
+1	# [ b a -> p i ] r	2.0	# [ b a -> p i ] r c o c u #
+1	# [ b -> v ] i	1.0	# [ b -> v ] i t u d d a #
+1	# [ b -> u c c h ] i	4.0	# [ b -> u c c h ] i a t a #
+1	# [ b -> p i ] r	5.0	# [ b -> p i ] r [ a c -> 0 ] c o c [ c -> 0 ] u #
+1	# [ b -> l ] u	4.0	# [ b -> l ] u [ r r -> c c h ] i a r i #
+1	# [ b -> c i ] a	4.0	# [ b -> c i ] a [ b b -> n t ] i a r i #
+1	# [ b -> a ] r	4.0	# [ b -> a ] r [ u s c -> z ] i a r i #
+1	# [ a u z -> j i s ] a	3.0	# [ a u z -> j i s ] a r i #
+1	# [ à u -> o ] r	2.0	# [ à u -> o ] r u #
+1	# [ a u -> j i ] s	2.0	# [ a u -> j i ] s a r i #
+1	# [ a t -> s ] t	2.0	# [ a t -> s ] t i p a r i #
+1	# [ a t -> o l ] t	4.0	# [ a t -> o l ] t [ a -> 0 ] r [ 0 -> a g ] g i a r i #
+1	# [ a r r -> c ] u	4.0	# [ a r r -> c ] u [ t -> c ] u l i a r i #
+1	# [ a r -> s d ] r	3.0	# [ a r -> s d ] r i [ s -> 0 ] v i g g h i a r i #
+1	# [ a r -> d ] e	2.0	# [ a r -> d ] e n z i a #
+1	# [ a r -> b o g ] a	4.0	# [ a r -> b o g ] a n [ c -> z ] ì t u l a #
+1	# [ a p -> m ] p	2.0	# [ a p -> m ] p a l u r a r i #
+1	# [ a n -> m i ] n	2.0	# [ a n -> m i ] n i m i n a g g h i a #
+1	# [ a m m -> n s ] i	5.0	# [ a m m -> n s ] i [ z z -> g n ] a r i #
+1	# [ a l -> e r ] b	2.0	# [ a l -> e r ] b a #
+1	# [ à i p -> v a e t r ] a	5.0	# [ à i p -> v a e t r ] a #
+1	# [ à i p -> o j e t r ] a	5.0	# [ à i p -> o j e t r ] a #
+1	# [ a i -> à ] c	2.0	# [ a i -> à ] c u l a #
+1	# [ a g -> s ] g	2.0	# [ a g -> s ] g r a n f u g n a r i #
+1	# [ a g -> b ] i	5.0	# [ a g -> b ] i [ 0 -> l e t ] t a #
+1	# [ a f f -> b r ] a	3.0	# [ a f f -> b r ] a m o r i a #
+1	# [ a d d -> m i n ] i	3.0	# [ a d d -> m i n ] i m i n a g g h i a #
+1	# [ a d -> n ] d	2.0	# [ a d -> n ] d i n g a r i #
+1	# [ a b b -> v ] u	3.0	# [ a b b -> v ] u c c u n i #
+1	# [ a b b -> v ] a	3.0	# [ a b b -> v ] a g n a t a #
+1	# [ a b b -> n g ] u	3.0	# [ a b b -> n g ] u d a r i #
+1	# [ a -> u ] l	1.0	# [ a -> u ] l i v i t u #
+1	# [ a -> u ] c	1.0	# [ a -> u ] c c h i a l i #
+1	# [ a -> o ] l	1.0	# [ a -> o ] l i v a #
+1	# [ à -> o ] i	4.0	# [ à -> o ] i [ p -> e t r ] a #
+1	# [ a -> i à v u ] t	4.0	# [ a -> i à v u ] t u #
+1	# [ a -> e ] r	2.0	# [ a -> e ] r v a [ r -> n ] e t t a #
+1	# [ a -> b ] i	4.0	# [ a -> b ] i [ 0 -> l e t ] t a #
+1	# [ à -> a i ] c	2.0	# [ à -> a i ] c u l a #
 1	# [ 0 -> v ] u	2.0	# [ 0 -> v ] u r [ v -> r ] i c a r i #
 1	# [ 0 -> p i ] l	2.0	# [ 0 -> p i ] l i n g u e d d a #
 1	# [ 0 -> p e ] g	4.0	# [ 0 -> p e ] g [ i o d -> n ] a #
