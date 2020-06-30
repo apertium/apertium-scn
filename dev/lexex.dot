@@ -1,0 +1,17 @@
+// This graph generated with hfst-fst2txt
+digraph "string()" {
+charset = UTF8;
+rankdir = LR;
+node [shape=circle,style=filled,fillcolor=gray]
+q0 [label="q0"] 
+q1 [label="q1"] 
+q2 [label="q2"] 
+q3 [label="q3"] 
+q4 [label="q4"] 
+q5 [shape=doublecircle,label="q5"] 
+q0 -> q1 [label="o "];
+q1 -> q2 [label="j:g "];
+q2 -> q3 [label="0:g "];
+q3 -> q4 [label="i "];
+q4 -> q5 [label="<adv>:00 "];
+}
