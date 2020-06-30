@@ -7,11 +7,11 @@ BASENAME=apertium-$(LANG1)
 
 TARGETS_COMMON =			\
 	$(LANG1).automorf.bin		\
-	$(LANG1).automorf.hfst		\
 	$(LANG1).automorf.att.gz	\
 	$(LANG1).autogen.bin		\
 	$(LANG1).autogen.att.gz		\
 	$(LANG1).autopgen.bin		\
+	$(LANG1).automorf.hfst		\
 	$(LANG1).prob		\
 	$(LANG1).rlx.bin
 
@@ -42,7 +42,7 @@ $(LANG1).autopgen.bin: $(BASENAME).post-$(LANG1).dix
 .deps/$(LANG1).automorf.hfst: $(LANG1).automorf.att.gz
 	zcat $< | hfst-txt2fst -j -o $@
 
-$(LANG1).automorf.hfst: .deps/$(LANG1).automorf.hfst
+$(LANG1).automorf.hfst: .deps/$(LANG1).automorf.hfst .deps/.d
 	hfst-fst2fst -w $< -o $@
 
 ###############################################################################
