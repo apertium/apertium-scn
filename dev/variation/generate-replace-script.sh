@@ -10,7 +10,7 @@ if [[ $2 != "" ]]; then
 fi
 
 first="true"
-echo "[ ?* | "
+echo "[ ?* | ["
 for line in `cat $1 | tr ' ' '@' | tr '\t' '%'`; do 
 	f=$(echo $line | cut -f1 -d'%')
 	if [[ ${f} -lt ${frequency_bound} ]]; then
@@ -22,11 +22,11 @@ for line in `cat $1 | tr ' ' '@' | tr '\t' '%'`; do
 			echo " .o.";
 		fi
 	fi
-	echo ${line} | tr '%' '\t' | tr '@' ' ' | cut -f2,3 | sed 's/^/[ [ ?* /g' | sed 's/\t/ ?* ]::/g' | sed 's/$/ ]/g' | python3 -c 'import sys; sys.stdout.write(sys.stdin.read().replace("# ?*", ".#.").replace("?* #", ".#."));' | tr -d '\n'
+	echo ${line} | tr '%' '\t' | tr '@' ' ' | cut -f2,3 | sed 's/^/  [ [ ?* /g' | sed 's/\t/ ?* ]::/g' | sed 's/$/ ]/g' | python3 -c 'import sys; sys.stdout.write(sys.stdin.read().replace("# ?*", ".#.").replace("?* #", ".#."));' | tr -d '\n'
 
 #| sed 's/\?\* #/.#./g' | sed 's/# \?\*/.#./g'
 done
 echo ""
-echo "]"
+echo "] ]"
 
 # Now compile with: hfst-regexp2fst -S -o
