@@ -2,7 +2,7 @@
 digraph "string()" {
 charset = UTF8;
 rankdir = LR;
-node [shape=circle,style=filled,fillcolor=yellow]
+node [shape=circle,style=filled,fillcolor=gray]
 q0 [label="q0"] 
 q1 [label="q1"] 
 q2 [label="q2"] 

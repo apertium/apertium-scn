@@ -2,7 +2,7 @@
 digraph "xre(?)" {
 charset = UTF8;
 rankdir = LR;
-node [shape=circle,style=filled,fillcolor=yellow]
+node [shape=circle,style=filled,fillcolor=gray]
 q0 [shape=doublecircle,label="q0"] 
 q1 [shape=doublecircle,label="q1"] 
 q2 [shape=doublecircle,label="q2"] 
