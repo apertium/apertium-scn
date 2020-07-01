@@ -17,8 +17,10 @@ if [[ $2 == "2" ]]; then
 	cat $1 | egrep -o -e '. \[[^]]*\]' -e '\[[^]]*\] .'  | sort -f | uniq -c | sort -gr  | sed 's/^ *//g' | sed 's/ /@/1' > /tmp/${f}.patterns
 elif [[ $2 == "3" ]]; then
 	cat $1 | egrep -o -e '. \[[^]]*\] .' | sort -f | uniq -c | sort -gr  | sed 's/^ *//g' | sed 's/ /@/1' > /tmp/${f}.patterns
+elif [[ $2 == "1" ]]; then
+	cat $1 | egrep -o -e '\[[^]]*\]' | sort -f | uniq -c | sort -gr  | sed 's/^ *//g' | sed 's/ /@/1' > /tmp/${f}.patterns
 else
-	echo "Specify bigrams or trigrams.";
+	echo "Specify unigrams bigrams or trigrams.";
 	exit -1;
 fi
 for i in `cat /tmp/${f}.patterns | tr ' ' '_'`; do 

@@ -22,10 +22,10 @@ for line in `cat $1 | tr ' ' '@' | tr '\t' '%'`; do
 			echo " .o.";
 		fi
 	fi
-    echo $line | tr '%' '\t' | tr '@' ' ' | cut -f2,3 |\
-        sed -e 's/^\([[:alpha:]#]\) \[\([^]]*\)\] \([[:alpha:]#]\) */[ \2 || \1 _ \3]::/' |\
-        sed -e 's/#/.#./g' -e 's/::[[:space:]]*/::/'
-    #echo ${line} | tr '%' '\t' | tr '@' ' ' | cut -f2,3 | sed 's/^/  [ [ ?* /g' | sed 's/\t/ ?* ]::/g' | sed 's/$/ ]/g' | python3 -c 'import sys; sys.stdout.write(sys.stdin.read().replace("# ?*", ".#.").replace("?* #", ".#."));' | tr -d '\n'
+#	sed -e 's/^\([[:alpha:]#]\) \[\([^]]*\)\] \([[:alpha:]#]\) */[ \2 || \1 _ \3]::/' |\
+	echo $line | tr '%' '\t' | tr '@' ' ' | cut -f2,3 |\
+	sed -e 's/^\[\([^]]*\)\] */[ \1 || _ ]::/' |\
+	sed -e 's/#/.#./g' -e 's/::[[:space:]]*/::/'
 
 #| sed 's/\?\* #/.#./g' | sed 's/# \?\*/.#./g'
 done
