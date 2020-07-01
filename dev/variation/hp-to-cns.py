@@ -29,6 +29,7 @@ for line in sys.stdin.readlines():
 	dico[k].append(form)
 
 for k in dico:
+	dico[k] = list(set(dico[k]))
 	print('%s\t%s' % (k, ','.join(dico[k])))
 	
 	
