@@ -1,0 +1,55 @@
+LEXICON Root
+
+Chars ;
+
+LEXICON Loop
+
+Chars ; 
+# ;
+
+LEXICON Chars 
+
+a:a Loop ;
+á:a Loop ;
+à:a Loop ;
+â:a Loop ;
+b:b Loop ;
+c:c Loop ;
+ç:ç Loop ;
+d:d Loop ;
+đ:đ Loop ;
+ḍ:ḍ Loop ;
+e:e Loop ;
+é:e Loop ;
+è:e Loop ;
+ê:e Loop ;
+f:f Loop ;
+g:g Loop ;
+h:h Loop ;
+i:i Loop ;
+í:i Loop ;
+ì:i Loop ;
+î:i Loop ;
+j:j Loop ;
+k:k Loop ;
+l:l Loop ;
+m:m Loop ;
+n:n Loop ;
+o:o Loop ;
+ó:o Loop ;
+ò:o Loop ;
+ô:o Loop ;
+p:p Loop ;
+q:q Loop ;
+r:r Loop ;
+s:s Loop ;
+š:š Loop ;
+t:t Loop ;
+u:u Loop ;
+ú:u Loop ;
+ù:u Loop ;
+û:u Loop ;
+v:v Loop ;
+x:x Loop ;
+y:y Loop ;
+z:z Loop ;
