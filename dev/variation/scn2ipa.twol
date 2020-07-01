@@ -1,0 +1,84 @@
+Alphabet
+a à:a
+b b:0
+c:0 c:k c:tʃ c:ɕ c:ʃ
+ç:s
+d:d d:0 d:ɖː d:ɾ đ:d ḍ:d 
+e:e e:e é:e è:e ê:e
+f
+g:l g:ʤ
+h:0
+i:i i:0 i:j í:i
+j
+k
+l
+m m:0
+n n:0
+o:ɔ
+p p:0
+q:k
+r:ʐ
+s:s 
+r:ɾ 
+š:ʃ
+t:t t:0
+u u:w ú:u ù:u û:u
+v 
+w:u
+x:ks
+y:j
+z:0 z:tsː z:ts z:d̪͡z̪
+;
+
+Rules
+
+"bb:b" 
+b:0 <=> _ b:b ;
+
+"c:0 before qu"
+c:0 <=> _ q: u: ;
+
+"c:tsh after n"
+c:tʃ <=> n _ [ i: | e: | è: ] ;
+
+"c:sh before i"
+c:ʃ <=> _ [ i: | e: | è: ] ;
+
+"c:k before some stuff"
+c:k <=> _ (h:) [ e: | i: | u: | o: | a: ]
+
+"dd to d: 1"
+d:0 <=> _ z:tsː ;
+
+"dd to d: 2"
+d:ɖː <=> z:0 _ ;
+
+"d:ɾ before r"
+d:ɾ <=> _ r: ;
+
+"g:dzh before i"
+g:ʤ <=> _ (h:) i ;
+
+"i:j before vowel"
+i:j <=> _ [ a: | e: | i: | o: | u: ] ;
+
+"mm:m"
+m:0 <=> _ m:m ;
+
+"nn:n"
+n:0 <=> _ n:n ;
+
+"pp:p"
+p:0 <=> _ p:p ;
+
+"tt:t"
+t:0 <=> _ t:t ;
+
+"u:w after q"
+u:w <=> q: _ ;
+
+"zz to ts: 1"
+z:0 <=> _ z:tsːtsː ;
+
+"zz to ts: 2"
+z:tsː <=> z:0 _ ;
