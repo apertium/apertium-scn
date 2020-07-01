@@ -36,25 +36,25 @@ Rules
 b:0 <=> _ b:b ;
 
 "c:0 before qu"
-c:0 <=> _ q: u: ;
+c:0 <=> \n: _ q: u: ;
 
 "c:tsh after n"
-c:tʃ <=> n _ [ i: | e: | è: ] ;
+c:tʃ <=> n: _ [ i: | e: | è: ] ;
 
-"c:sh before i"
-c:ʃ <=> _ [ i: | e: | è: ] ;
+"c:sh before some vowels"
+c:ʃ <=> \n: _ [ i: | e: | è: ] ;
 
-"c:k before some stuff"
-c:k <=> _ (h:) [ e: | i: | u: | o: | a: ]
+"c:k before some vowels"
+c:k <=> \n: _ (h:) [ e: | i: | u: | o: | a: ] ;
 
 "dd to d: 1"
-d:0 <=> _ z:tsː ;
+d:0 <=> \d:0 _ d:dː ;
 
 "dd to d: 2"
-d:ɖː <=> z:0 _ ;
+d:ɖː <=> d:0 _ \d:dː ;
 
 "d:ɾ before r"
-d:ɾ <=> _ r: ;
+d:ɾ <=> \d:0 _ r: ;
 
 "g:dzh before i"
 g:ʤ <=> _ (h:) i ;
@@ -78,7 +78,7 @@ t:0 <=> _ t:t ;
 u:w <=> q: _ ;
 
 "zz to ts: 1"
-z:0 <=> _ z:tsːtsː ;
+z:0 <=> \z:0 _ z:tsː ;
 
 "zz to ts: 2"
-z:tsː <=> z:0 _ ;
+z:tsː <=> z:0 _ \z:tsː ;
