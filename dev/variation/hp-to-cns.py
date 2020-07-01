@@ -1,4 +1,9 @@
-import sys, re
+import sys, re, hfst
+
+tf = hfst.HfstInputStream('graph2phon.hfst') 
+af = hfst.HfstInputStream('../../scn.automorf.hfst') 
+ipaify = tf.read() 
+analyser = af.read() 
 
 # cat scn.hitparade.txt  | sed 's/^ *//g' | sed 's/[AEIOUaeiouàèìòùÀÈÌÒÙ]/@/g' | cut -f2- -d' ' | grep -v ' ' | uconv -x lower | grep '^[aáàâbcçdđḍeéèêfghiíìîjklmnoóòôpqrsštuúùûvxyz@]\+$'  | sort -u  
 
@@ -29,7 +34,10 @@ for line in sys.stdin.readlines():
 	dico[k].append(form)
 
 for k in dico:
+	if len(dico[k]) <= 1:
+		continue
 	dico[k] = list(set(dico[k]))
-	print('%s\t%s' % (k, ','.join(dico[k])))
+	for x in dico[k]:
+		print('%s\t%s\t%s' % (k, x, ipaify.lookup(x)[0][0]))
 	
 	
