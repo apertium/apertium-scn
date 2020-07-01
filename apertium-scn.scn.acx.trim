@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<analysis-chars>
+  <!-- Make all apostrophes equal -->
+  <char value="'">
+    <equiv-char value="&#8217;"/>
+    <equiv-char value="&#39;"/>
+    <equiv-char value="ʼ"/> <!-- U+02BC MODIFIER LETTER APOSTROPHE -->
+    <equiv-char value="′"/> <!-- U+2032 PRIME -->
+    <equiv-char value="‵"/> <!-- U+2035 REVERSED PRIME -->
+    <equiv-char value="`"/> <!-- U+0060 GRAVE ACCENT -->
+    <equiv-char value="‛"/> <!-- U+201B SINGLE HIGH-REVERSED-9 QUOTATION MARK -->
+    <equiv-char value="’"/> <!-- U+2019 RIGHT SINGLE QUOTATION MARK -->
+    <equiv-char value="‘"/> <!-- U+2018 LEFT SINGLE QUOTATION MARK -->
+  </char>
+
+</analysis-chars>
+
