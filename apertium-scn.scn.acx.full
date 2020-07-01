@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<analysis-chars>
+  <!-- Make all apostrophes equal -->
+  <char value="'">
+    <equiv-char value="&#8217;"/>
+    <equiv-char value="&#39;"/>
+    <equiv-char value="ʼ"/> <!-- U+02BC MODIFIER LETTER APOSTROPHE -->
+    <equiv-char value="′"/> <!-- U+2032 PRIME -->
+    <equiv-char value="‵"/> <!-- U+2035 REVERSED PRIME -->
+    <equiv-char value="`"/> <!-- U+0060 GRAVE ACCENT -->
+    <equiv-char value="‛"/> <!-- U+201B SINGLE HIGH-REVERSED-9 QUOTATION MARK -->
+    <equiv-char value="’"/> <!-- U+2019 RIGHT SINGLE QUOTATION MARK -->
+    <equiv-char value="‘"/> <!-- U+2018 LEFT SINGLE QUOTATION MARK -->
+  </char>
+
+  <char value="d">
+    <equiv-char value="ḍ"/>
+  </char>
+
+  <char value="u">
+    <equiv-char value="ù"/>
+  </char>
+
+  <char value="o">
+    <equiv-char value="ò"/>
+  </char>
+
+  <char value="e">
+    <equiv-char value="è"/>
+  </char>
+
+  <char value="i">
+    <equiv-char value="ì"/>
+  </char>
+
+  <char value="a">
+    <equiv-char value="à"/>
+  </char>
+
+
+  <!-- Se suele no escribir los símbolos diacríticos -->
+
+  <char value="À">
+    <equiv-char value="A"/>
+  </char>
+
+  <char value="à">
+    <equiv-char value="a"/>
+    <equiv-char value="á"/>
+  </char>
+
+  <char value="è">
+    <equiv-char value="e"/>
+    <equiv-char value="é"/>
+  </char>
+
+  <char value="ì">
+    <equiv-char value="i"/>
+    <equiv-char value="í"/>
+  </char>
+
+<!--
+  <char value="ò">
+    <equiv-char value="o"/>
+    <equiv-char value="ó"/>
+  </char>
+-->
+
+  <char value="ù">
+    <equiv-char value="u"/>
+    <equiv-char value="ú"/>
+  </char>
+
+  <char value="î">
+    <equiv-char value="i"/>
+  </char>
+
+  <char value="â">
+    <equiv-char value="a"/>
+  </char>
+
+  <char value="ê">
+    <equiv-char value="e"/>
+  </char>
+
+  <char value="ô">
+    <equiv-char value="o"/>
+  </char>
+
+  <char value="s">
+    <equiv-char value="š"/>
+  </char>
+
+  <char value="û">
+    <equiv-char value="u"/>
+    <equiv-char value="ǔ"/>
+  </char>
+
+
+<!--
+  <char value="i">
+    <equiv-char value="ì"/>
+  </char>
+  <char value="e">
+    <equiv-char value="è"/>
+  </char>
+  <char value="o">
+    <equiv-char value="ò"/>
+  </char>
+
+  <char value="o">
+    <equiv-char value="u"/>
+  </char>
+  <char value="u">
+    <equiv-char value="o"/>
+  </char>
+-->
+
+
+</analysis-chars>
+
